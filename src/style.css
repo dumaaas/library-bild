@@ -1,3 +1,13 @@
+.active {
+    width: 20%;
+}
+
+.active .sidebar-nav .sidebar-item {
+    display: inline-block;
+}
+
+
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
