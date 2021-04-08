@@ -12,8 +12,8 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
 </head>
 
-<body>
-    <header class="fixed flex items-center justify-between w-full h-[60px] px-[10px] mx-auto bg-[#76A5AF]">
+<body class="small:bg-gradient-to-r small:from-green-400 small:to-blue-500">
+    <header class="small:hidden fixed flex items-center justify-between w-full h-[60px] px-[10px] mx-auto bg-[#76A5AF]">
         <!-- logo -->
         <div class="inline-flex">
             <a class="_o6689fn" href="/">
@@ -81,7 +81,7 @@
         <!-- end login -->
     </header>
     <!-- Main content -->
-    <main class="flex flex-row">
+    <main class="flex flex-row small:hidden">
         <!-- Sidebar -->
         <nav id="sidebar" class="sidebar flex flex-col justify-between  bg-[#333333] ">
             <div class="mt-[60px] px-[15px]">
@@ -188,6 +188,15 @@
         </section>
     </main>
 
+    <!-- Notification for small devices -->
+    <div class="py-[20px] hidden small:block bg-gradient-to-r text-white from-red-500 mt-[100px]">
+        <h1 class="text-[40px] font-bold text-center">
+            In progress..
+        </h1>
+        <p class="text-[17px] text-center">
+            Coming soon..
+        </p>
+    </div>
     <script src="../js/jquery.min.js " defer=""></script>
     <script src="../js/app.js " defer=""></script>
 
