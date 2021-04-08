@@ -1,3 +1,4 @@
+/* Sidebar transition*/
 .sidebar {
     -webkit-transition: width 0.5s;
     -moz-transition: width 0.5s;
@@ -10,7 +11,6 @@
 .active {
     width: 20%;
 }
-
 
 @tailwind base;
 @tailwind components;
@@ -46,7 +46,6 @@
       .change .bar3 {
         @apply transform scale-x-110 rotate-45 translate-x-[1px] translate-y-[-6px] mb-[9px];
       }
-  
       /* End Hamburger menu */
     }
   }

@@ -2,17 +2,49 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Meta -->
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <meta http-equiv="content-language" content="en" />
+    <meta name="description" content="ICT Cortex Library - project for high school students..." />
+    <meta name="keywords" content="ict cortex, cortex, bild, bildstudio, highschool, students, coding" />
+    <meta name="author" content="bildstudio" />
+    <!-- End Meta -->
 
-    <title>Library - Cortex student project</title>
+    <!-- Title -->
+    <title>Library - ICT Cortex student project</title>
+    <link rel="shortcut icon" href="../img/library-favicon.ico" type="image/vnd.microsoft.icon" />
+    <!-- End Title -->
 
+    <!-- Open Graph data -->
+    <meta property="og:site_name" content="Library - ICT Cortex student project" />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="" />
+    <meta property="og:title" content="Library - ICT Cortex student project" />
+    <meta property="og:description" content="ICT Cortex Library - project for high school students..." />
+    <meta property="og:image" content="" />
+    <meta property="og:image:width" content="" />
+    <meta property="og:image:height" content="" />
+    <!-- End Open Graph data -->
+
+    <!-- Preloading styles -->
+    <link rel="preload" href="../style/style.css" as="style" />
+    <!-- End preloading styles -->
+
+    <!-- Preloading scripts -->
+    <link rel="preload" href="../js/app.js" as="script" />
+    <link rel="preload" href="../js/jquery.min.js" as="script" />
+    <!-- End preloading scripts -->
+
+    <!-- Styles -->
     <link rel="stylesheet" href="../style/style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
+    <!-- End Styles -->
 </head>
 
 <body class="small:bg-gradient-to-r small:from-green-400 small:to-blue-500">
+    <!-- Header -->
     <header
         class="small:hidden fixed flex items-center text-white justify-between w-full h-[60px] px-[15px] mx-auto bg-[#76A5AF]">
         <!-- logo -->
@@ -34,7 +66,7 @@
                 <input
                     class="h-[35px] pr-[120px] text-sm bg-[#587C83] px-[10px] w-[600px] placeholder-white transition duration-300 ease-in focus:outline-none focus:ring"
                     name="search" placeholder="Search..">
-                <button type="submit" class="focus:outline-none absolute top-0 right-0 mt-[10px] mr-[10px]">
+                <button type="submit" class="focus:outline-none absolute top-0 right-0 mt-[10px] mr-[10px]" aria-label="Search">
                     <svg class="w-4 h-4 fill-current" xmlns="http://www.w3.org/2000/svg"
                         xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" id="Capa_1" x="0px" y="0px"
                         viewBox="0 0 56.966 56.966" style="enable-background:new 0 0 56.966 56.966;"
@@ -51,13 +83,13 @@
         <div class="flex-initial">
             <div class="relative flex items-center justify-end">
                 <div class="flex items-center">
-                    <a class="inline-block px-3 py-2" href="#">
+                    <a class="inline-block px-3 py-2" href="#" aria-label="Add something">
                         <span class="transition duration-300 ease-in hover:text-[#333333] text-[30px]">
                             <i class="fas fa-plus-circle"></i>
                         </span>
                     </a>
                     <div class="relative block">
-                        <button type="button" class="relative inline-block px-3 py-2 focus:outline-none">
+                        <button type="button" class="relative inline-block px-3 py-2 focus:outline-none" aria-label="Notification">
                             <div class="flex items-center h-5">
                                 <div class="_xpkakx">
                                     <span class="transition duration-300 ease-in hover:text-[#333333] text-[30px]">
@@ -68,7 +100,7 @@
                         </button>
                     </div>
                     <div class="relative block">
-                        <button type="button" class="relative inline-block px-3 py-2 focus:outline-none">
+                        <button type="button" class="relative inline-block px-3 py-2 focus:outline-none" aria-label="User profile">
                             <div class="flex items-center h-5">
                                 <div class="_xpkakx">
                                     <span class="transition duration-300 ease-in hover:text-[#333333] text-[30px]">
@@ -83,6 +115,8 @@
         </div>
         <!-- end login -->
     </header>
+    <!-- Header -->
+
     <!-- Main content -->
     <main class="flex flex-row small:hidden">
         <!-- Sidebar -->
@@ -90,16 +124,17 @@
             <div class="mt-[60px] px-[15px]">
                 <div class="mt-[10px]">
                     <ul class="sidebar-nav">
+                        <!-- Hamburger Icon -->
                         <li class="cursor-pointer ml-[4px] mb-[5px] h-[40px]">
-                            <!-- Hamburger Icon -->
                             <div class="cursor-pointer hamburger-btn" id="hamburger">
                                 <div class="bar1"></div>
                                 <div class="bar2"></div>
                                 <div class="bar3"></div>
                             </div>
                         </li>
+                        <!-- Dashboard Icon -->
                         <li class="mb-[10px]">
-                            <a href="#">
+                            <a href="#" aria-label="Dashboard">
                                 <span
                                     class="whitespace-nowrap w-full text-[25px] flex justify-between text-white fill-current transition duration-300 ease-in hover:text-[#76A5AF]">
                                     <div>
@@ -114,8 +149,9 @@
                                 </span>
                             </a>
                         </li>
+                        <!-- Bibliotekari Icon -->
                         <li class="ml-[4px] mb-[10px]">
-                            <a href="#">
+                            <a href="#" aria-label="Bibliotekari">
                                 <span
                                     class="whitespace-nowrap w-full text-[25px] flex justify-between text-white fill-current transition duration-300 ease-in hover:text-[#76A5AF]">
                                     <div>
@@ -131,8 +167,9 @@
                                 </span>
                             </a>
                         </li>
+                        <!-- Ucenici Icon -->
                         <li class="mb-[10px]">
-                            <a href="#">
+                            <a href="#" aria-label="Ucenici">
                                 <span
                                     class="whitespace-nowrap w-full text-[25px] flex justify-between text-white fill-current transition duration-300 ease-in hover:text-[#76A5AF]">
                                     <div>
@@ -147,8 +184,10 @@
                                 </span>
                             </a>
                         </li>
+                        <!-- Knjige Icon -->
+
                         <li class="ml-[4px] mb-[10px]">
-                            <a href="#">
+                            <a href="#" aria-label="Knjige">
                                 <span
                                     class="whitespace-nowrap w-full text-[25px] flex justify-between text-white fill-current transition duration-300 ease-in hover:text-[#76A5AF]">
                                     <div>
@@ -167,7 +206,8 @@
                 </div>
             </div>
             <div class="sidebar-nav py-[10px] border-t-[3px] border-white">
-                <a href="#">
+                <!-- Settings Icon -->
+                <a href="#" aria-label="Settngs">
                     <span
                         class="whitespace-nowrap text-[25px] px-[15px]  text-white fill-current transition duration-300 ease-in hover:text-[#76A5AF]">
                         <i class="fas fa-cog"></i>
@@ -178,20 +218,26 @@
                 </a>
             </div>
         </nav>
+        <!-- End Sidebar -->
+
         <!-- Content -->
         <section class="w-screen h-screen py-4 text-gray-700">
+            <!-- Heading of content -->
             <div class="heading mt-[60px] ">
                 <h1 class="pl-[30px] pb-[20px] text-[35px] font-bold border-b-[2px] border-gray-300">
                     Heading of the section
                 </h1>
             </div>
+            <!-- Space for content -->
             <div class="section-content">
                 <h2 class="pl-[30px] pt-[20px] text-[20px]">
                     Content of the section
                 </h2>
             </div>
         </section>
+        <!-- End Content -->
     </main>
+    <!-- End Main content -->
 
     <!-- Notification for small devices -->
     <div class="py-[20px] hidden small:block bg-gradient-to-r text-white from-red-500 mt-[100px]">
@@ -202,8 +248,11 @@
             Coming soon..
         </p>
     </div>
+
+    <!-- Scripts -->
     <script src="../js/jquery.min.js " defer=""></script>
     <script src="../js/app.js " defer=""></script>
+    <!-- End Scripts -->
 
 </body>
 
