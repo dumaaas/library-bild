@@ -1,11 +1,15 @@
+.sidebar {
+    -webkit-transition: width 0.5s;
+    -moz-transition: width 0.5s;
+    -o-transition: width 0.5s;
+    -ms-transition: width 0.5s;
+    transition: width 0.5s;
+    width: 60px;
+}
+
 .active {
     width: 20%;
 }
-
-.active .sidebar-nav .sidebar-item {
-    display: inline-block;
-}
-
 
 
 @tailwind base;
