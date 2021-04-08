@@ -1,9 +1,3 @@
-// $("#hamburger-menu").click(function (e) {
-//     e.preventDefault();
-//     $("#sidebar").toggleClass("active");
-//     $(".sidebar-item").toggleClass("inline hidden");
-// });
-
 //open and close hamburger menu
   $(function () {
     var hamburger = $('#hamburger');
@@ -19,7 +13,6 @@
         hamburger.addClass('change');
         $(".sidebar-item").removeClass("hidden");
         $(".sidebar-item").addClass("inline");
-
       }
     });
   });
