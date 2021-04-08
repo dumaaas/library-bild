@@ -824,6 +824,10 @@ video {
 .fill-current {
     fill: currentColor;
 }
+.px-\[15px\] {
+    padding-left: 15px;
+    padding-right: 15px;
+}
 .px-\[10px\] {
     padding-left: 10px;
     padding-right: 10px;
@@ -835,10 +839,6 @@ video {
 .py-2 {
     padding-top: 0.5rem;
     padding-bottom: 0.5rem;
-}
-.px-\[15px\] {
-    padding-left: 15px;
-    padding-right: 15px;
 }
 .py-\[10px\] {
     padding-top: 10px;
