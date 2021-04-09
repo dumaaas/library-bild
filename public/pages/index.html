@@ -66,7 +66,8 @@
                 <input
                     class="h-[35px] pr-[120px] text-sm bg-[#587C83] px-[10px] w-[600px] placeholder-white transition duration-300 ease-in focus:outline-none focus:ring"
                     name="search" placeholder="Search..">
-                <button type="submit" class="focus:outline-none absolute top-0 right-0 mt-[10px] mr-[10px]" aria-label="Search">
+                <button type="submit" class="focus:outline-none absolute top-0 right-0 mt-[10px] mr-[10px]"
+                    aria-label="Search">
                     <svg class="w-4 h-4 fill-current" xmlns="http://www.w3.org/2000/svg"
                         xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" id="Capa_1" x="0px" y="0px"
                         viewBox="0 0 56.966 56.966" style="enable-background:new 0 0 56.966 56.966;"
@@ -89,7 +90,8 @@
                         </span>
                     </a>
                     <div class="relative block">
-                        <button type="button" class="relative inline-block px-3 py-2 focus:outline-none" aria-label="Notification">
+                        <button type="button" class="relative inline-block px-3 py-2 focus:outline-none"
+                            aria-label="Notification">
                             <div class="flex items-center h-5">
                                 <div class="_xpkakx">
                                     <span class="transition duration-300 ease-in hover:text-[#333333] text-[30px]">
@@ -100,7 +102,8 @@
                         </button>
                     </div>
                     <div class="relative block">
-                        <button type="button" class="relative inline-block px-3 py-2 focus:outline-none" aria-label="User profile">
+                        <button type="button" class="relative inline-block px-3 py-2 focus:outline-none"
+                            aria-label="User profile">
                             <div class="flex items-center h-5">
                                 <div class="_xpkakx">
                                     <span class="transition duration-300 ease-in hover:text-[#333333] text-[30px]">
@@ -123,7 +126,7 @@
         <nav id="sidebar" class="sidebar flex flex-col justify-between bg-[#333333] ">
             <div class="mt-[60px] px-[15px]">
                 <div class="mt-[10px]">
-                    <ul class="sidebar-nav">
+                    <ul class="text-white sidebar-nav">
                         <!-- Hamburger Icon -->
                         <li class="cursor-pointer ml-[4px] mb-[5px] h-[40px]">
                             <div class="cursor-pointer hamburger-btn" id="hamburger">
@@ -134,73 +137,151 @@
                         </li>
                         <!-- Dashboard Icon -->
                         <li class="mb-[10px]">
-                            <a href="#" aria-label="Dashboard">
-                                <span
-                                    class="whitespace-nowrap w-full text-[25px] flex justify-between text-white fill-current transition duration-300 ease-in hover:text-[#76A5AF]">
-                                    <div>
-                                        <i class="fas fa-tachometer-alt"></i>
-                                        <div class="hidden sidebar-item">
-                                            <p class="inline text-[15px] font-medium ml-[10px]">Dashboard</p>
-                                        </div>
+                            <div>
+                                <span class="whitespace-nowrap w-full text-[25px] flex justify-between fill-current">
+                                    <div class="transition duration-300 ease-in hover:text-[#76A5AF]">
+                                        <a href="#" aria-label="Dashboard">
+                                            <i class="fas fa-tachometer-alt"></i>
+                                            <div class="hidden sidebar-item">
+                                                <p class="inline text-[18px] font-medium ml-[10px]">Dashboard</p>
+                                            </div>
+                                        </a>
                                     </div>
-                                    <div class="hidden sidebar-item">
-                                        <i class="inline fas fa-angle-down"></i>
+                                    <div id="item-collapse_1"
+                                        class="asideArrow hidden sidebar-item transition duration-300 ease-in hover:text-[#76A5AF] cursor-pointer">
+                                        <i id="arrow-collapse_1" class="inline arrow fas fa-angle-down"></i>
                                     </div>
                                 </span>
-                            </a>
+                            </div>
+                            <ul id="aside-item_1" class="aside-item text-[15px] font-medium ml-[45px] hidden">
+                                <li class="mt-[5px]">
+                                    <a href="#" class="transition duration-300 ease-in hover:text-[#76A5AF]">
+                                        Dashboard 1
+                                    </a>
+                                </li>
+                                <li class="mt-[9px]">
+                                    <a href="#" class="transition duration-300 ease-in hover:text-[#76A5AF]">
+                                        Dashboard 2
+                                    </a>
+                                </li>
+                                <li class="mt-[9px]">
+                                    <a href="#" class="transition duration-300 ease-in hover:text-[#76A5AF]">
+                                        Dashboard 3
+                                    </a>
+                                </li>
+                            </ul>
                         </li>
                         <!-- Bibliotekari Icon -->
                         <li class="ml-[4px] mb-[10px]">
-                            <a href="#" aria-label="Bibliotekari">
+                            <div>
                                 <span
-                                    class="whitespace-nowrap w-full text-[25px] flex justify-between text-white fill-current transition duration-300 ease-in hover:text-[#76A5AF]">
-                                    <div>
-                                        <i class="far fa-address-book"></i>
-                                        <div class="hidden sidebar-item">
-                                            <p class="inline text-[15px] font-medium ml-[12px]">Bibliotekari</p>
-                                        </div>
+                                    class="whitespace-nowrap w-full text-[25px] flex justify-between text-white fill-current">
+                                    <div class="transition duration-300 ease-in hover:text-[#76A5AF]">
+                                        <a href="#" aria-label="Bibliotekari">
+                                            <i class="far fa-address-book"></i>
+                                            <div class="hidden sidebar-item">
+                                                <p class="inline text-[18px] font-medium ml-[12px]">Bibliotekari</p>
+                                            </div>
+                                        </a>
                                     </div>
-                                    <p class="hidden text-[15px] font-medium ml-[12px]">Bibliotekari</p>
-                                    <div class="hidden sidebar-item">
-                                        <i class="inline fas fa-angle-up"></i>
+                                    <div id="item-collapse_2"
+                                        class="hidden asideArrow sidebar-item transition duration-300 ease-in hover:text-[#76A5AF] cursor-pointer">
+                                        <i id="arrow-collapse_2" class="inline arrow fas fa-angle-down"></i>
                                     </div>
                                 </span>
-                            </a>
+                            </div>
+                            <ul id="aside-item_2" class="aside-item text-[15px] font-medium ml-[41px] hidden">
+                                <li class="mt-[5px]">
+                                    <a href="#" class="transition duration-300 ease-in hover:text-[#76A5AF]">
+                                        Bibliotekar 1
+                                    </a>
+                                </li>
+                                <li class="mt-[9px]">
+                                    <a href="#" class="transition duration-300 ease-in hover:text-[#76A5AF]">
+                                        Bibliotekar 2
+                                    </a>
+                                </li>
+                                <li class="mt-[9px]">
+                                    <a href="#" class="transition duration-300 ease-in hover:text-[#76A5AF]">
+                                        Bibliotekar 3
+                                    </a>
+                                </li>
+                            </ul>
                         </li>
                         <!-- Ucenici Icon -->
                         <li class="mb-[10px]">
-                            <a href="#" aria-label="Ucenici">
+                            <div>
                                 <span
-                                    class="whitespace-nowrap w-full text-[25px] flex justify-between text-white fill-current transition duration-300 ease-in hover:text-[#76A5AF]">
-                                    <div>
-                                        <i class="fas fa-users"></i>
-                                        <div class="hidden sidebar-item">
-                                            <p class="inline text-[15px] font-medium ml-[8px]">Ucenici</p>
-                                        </div>
+                                    class="whitespace-nowrap w-full text-[25px] flex justify-between text-white fill-current">
+                                    <div class="transition duration-300 ease-in hover:text-[#76A5AF]">
+                                        <a href="#" aria-label="Ucenici">
+                                            <i class="fas fa-users"></i>
+                                            <div class="hidden sidebar-item">
+                                                <p class="inline text-[18px] font-medium ml-[8px]">Ucenici</p>
+                                            </div>
+                                        </a>
                                     </div>
-                                    <div class="hidden sidebar-item">
-                                        <i class="inline fas fa-angle-down"></i>
+                                    <div id="item-collapse_3"
+                                        class="hidden asideArrow sidebar-item transition duration-300 ease-in hover:text-[#76A5AF] cursor-pointer">
+                                        <i id="arrow-collapse_3" class="inline arrow fas fa-angle-down"></i>
                                     </div>
                                 </span>
-                            </a>
+                            </div>
+                            <ul id="aside-item_3" class="aside-item text-[15px] font-medium ml-[45px] hidden">
+                                <li class="mt-[5px]">
+                                    <a href="#" class="transition duration-300 ease-in hover:text-[#76A5AF]">
+                                        Ucenik 1
+                                    </a>
+                                </li>
+                                <li class="mt-[9px]">
+                                    <a href="#" class="transition duration-300 ease-in hover:text-[#76A5AF]">
+                                        Ucenik 2
+                                    </a>
+                                </li>
+                                <li class="mt-[9px]">
+                                    <a href="#" class="transition duration-300 ease-in hover:text-[#76A5AF]">
+                                        Ucenik 3
+                                    </a>
+                                </li>
+                            </ul>
                         </li>
-                        <!-- Knjige Icon -->
 
+                        <!-- Knjige Icon -->
                         <li class="ml-[4px] mb-[10px]">
-                            <a href="#" aria-label="Knjige">
+                            <div>
                                 <span
-                                    class="whitespace-nowrap w-full text-[25px] flex justify-between text-white fill-current transition duration-300 ease-in hover:text-[#76A5AF]">
-                                    <div>
-                                        <i class="far fa-copy"></i>
-                                        <div class="hidden sidebar-item">
-                                            <p class="inline text-[15px] font-medium ml-[12px]">Knjige</p>
-                                        </div>
+                                    class="whitespace-nowrap w-full text-[25px] flex justify-between text-white fill-current">
+                                    <div class="transition duration-300 ease-in hover:text-[#76A5AF]">
+                                        <a href="#" aria-label="Knjige">
+                                            <i class="far fa-copy"></i>
+                                            <div class="hidden sidebar-item">
+                                                <p class="inline text-[18px] font-medium ml-[12px]">Knjige</p>
+                                            </div>
+                                        </a>
                                     </div>
-                                    <div class="hidden sidebar-item">
-                                        <i class="inline fas fa-angle-down"></i>
+                                    <div id="item-collapse_4"
+                                        class="hidden asideArrow sidebar-item transition duration-300 ease-in hover:text-[#76A5AF] cursor-pointer">
+                                        <i id="arrow-collapse_4" class="inline arrow fas fa-angle-down"></i>
                                     </div>
                                 </span>
-                            </a>
+                            </div>
+                            <ul id="aside-item_4" class="aside-item text-[15px] font-medium ml-[41px] hidden">
+                                <li class="mt-[5px]">
+                                    <a href="#" class="transition duration-300 ease-in hover:text-[#76A5AF]">
+                                        Knjiga 1
+                                    </a>
+                                </li>
+                                <li class="mt-[9px]">
+                                    <a href="#" class="transition duration-300 ease-in hover:text-[#76A5AF]">
+                                        Knjiga 2
+                                    </a>
+                                </li>
+                                <li class="mt-[9px]">
+                                    <a href="#" class="transition duration-300 ease-in hover:text-[#76A5AF]">
+                                        Knjiga 3
+                                    </a>
+                                </li>
+                            </ul>
                         </li>
                     </ul>
                 </div>

@@ -1,3 +1,4 @@
+/* Sidebar transition*/
 .sidebar {
     transition: width 0.5s;
     width: 60px;
@@ -8,7 +9,7 @@
 }
 
 
-/*! tailwindcss v2.1.1 | MIT License | https://tailwindcss.com */
+/* ! tailwindcss v2.1.1 | MIT License | https://tailwindcss.com*/
 
 
 /*! modern-normalize v1.0.0 | MIT License | https://github.com/sindresorhus/modern-normalize */
@@ -707,8 +708,20 @@ video {
 .ml-\[10px\] {
     margin-left: 10px;
 }
+.ml-\[45px\] {
+    margin-left: 45px;
+}
+.mt-\[5px\] {
+    margin-top: 5px;
+}
+.mt-\[9px\] {
+    margin-top: 9px;
+}
 .ml-\[12px\] {
     margin-left: 12px;
+}
+.ml-\[41px\] {
+    margin-left: 41px;
 }
 .ml-\[8px\] {
     margin-left: 8px;
@@ -886,6 +899,9 @@ video {
 .text-\[25px\] {
     font-size: 25px;
 }
+.text-\[18px\] {
+    font-size: 18px;
+}
 .text-\[15px\] {
     font-size: 15px;
 }
@@ -1041,24 +1057,19 @@ video {
     box-shadow: var(--tw-ring-offset-shadow), var(--tw-ring-shadow), var(--tw-shadow, 0 0 #0000);
 }
 @media (max-width: 1023px) {
-
     .small\:block {
         display: block;
     }
-
     .small\:hidden {
         display: none;
     }
-
     .small\:bg-gradient-to-r {
         background-image: linear-gradient(to right, var(--tw-gradient-stops));
     }
-
     .small\:from-green-400 {
         --tw-gradient-from: #34d399;
         --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to, rgba(52, 211, 153, 0));
     }
-
     .small\:to-blue-500 {
         --tw-gradient-to: #3b82f6;
     }
