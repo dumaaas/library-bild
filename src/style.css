@@ -8,8 +8,61 @@
     width: 60px;
 }
 
-.active {
+.sidebar-active {
     width: 20%;
+}
+
+/* Book navigation underline*/
+.active-book-nav {
+  color: #3B82F6;
+  border-bottom: 2px solid #3B82F6;
+  padding-bottom: 18px;
+}
+
+.active-book-nav:hover {
+  color: #1D4ED8;
+}
+
+
+/*Show More/Show less - cards*/
+.activity-showMore {
+  display: none;
+  cursor: pointer;
+}
+
+.complete {
+  display: none;
+}
+
+/*Height*/
+.height-content {
+  height: calc(100% - 115px);
+}
+
+.height-dashboard {
+  height: calc(100% - 136px);
+}
+
+/*Show More/Show less - text*/
+.addReadMore.showlesscontent .SecSec,
+.addReadMore.showlesscontent .readLess {
+    display: none;
+}
+
+.addReadMore.showmorecontent .readMore {
+    display: none;
+}
+
+.addReadMore .readMore,
+.addReadMore .readLess {
+    margin-left: 2px;
+    color: #3B82F6;
+    cursor: pointer;
+}
+
+.addReadMoreWrapTxt.showmorecontent .SecSec,
+.addReadMoreWrapTxt.showmorecontent .readLess {
+    display: block;
 }
 
 
@@ -17,37 +70,8 @@
 @tailwind components;
 @tailwind utilities;
 
-@layer utilities {
-    @variants responsive {
-      /* Hamburger menu */
-      .hamburger-btn {
-        @apply inline-block cursor-pointer;
-      }
-  
-      .bar1 {
-        @apply mx-0 transition duration-75 bg-white w-[24px] h-[2px] my-[7px];
-      }
-  
-      .bar2 {
-        @apply mx-0 transition duration-75 bg-white w-[24px] h-[2px] my-[7px];
-      }
-  
-      .bar3 {
-        @apply mx-0 transition duration-75 bg-white w-[24px] h-[2px] my-[7px];
-      }
-  
-      .change .bar1 {
-        @apply transform scale-x-110 -rotate-45 translate-x-[0px] translate-y-[12px];
-      }
-  
-      .change .bar2 {
-        @apply opacity-0;
-      }
-  
-      .change .bar3 {
-        @apply transform scale-x-110 rotate-45 translate-x-[1px] translate-y-[-6px] mb-[9px];
-      }
-      /* End Hamburger menu */
-    }
+@layer base {
+  body {
+    @apply overflow-hidden;
   }
-  
+}
