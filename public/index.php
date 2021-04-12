@@ -18,31 +18,31 @@
     <!-- End Title -->
 
     <!-- Styles -->
-    <?php include('../components/styles.php'); ?>
+    <?php include('includes/layout/styles.php'); ?>
     <!-- End Styles -->
 </head>
 
 <body class="overflow-hidden small:bg-gradient-to-r small:from-green-400 small:to-blue-500">
     <!-- Header -->
-    <?php include('../components/header.php'); ?>
+    <?php include('includes/layout/header.php'); ?>
     <!-- Header -->
 
     <!-- Main content -->
     <main class="flex flex-row small:hidden">
         <!-- Sidebar -->
-        <?php include('../components/sidebar.php'); ?>
+        <?php include('includes/layout/sidebar.php'); ?>
         <!-- End Sidebar -->
 
         <!-- Content -->
         <section class="w-screen h-screen py-4 pl-[60px] text-gray-700">
             <!-- Heading of content -->
-            <div class="heading mt-[60px] ">
+            <div class="heading">
                 <h1 class="pl-[30px] pb-[20px] text-[35px] font-bold border-b-[2px] border-gray-300">
                     Heading of the section
                 </h1>
             </div>
             <!-- Space for content -->
-            <div class="overflow-auto height-content section-content">
+            <div class="scroll height-content section-content">
                 <p class="pl-[30px] pt-[20px] text-[20px]">
                     Content of the section
                 </p>
@@ -148,11 +148,11 @@
     <!-- End Main content -->
 
     <!-- Notification for small devices -->
-    <?php include('../components/inProgress.php'); ?>
+    <?php include('includes/layout/inProgress.php'); ?>
 
 
     <!-- Scripts -->
-    <?php include('../components/scripts.php'); ?>
+    <?php include('includes/layout/scripts.php'); ?>
     <!-- End Scripts -->
 
 </body>

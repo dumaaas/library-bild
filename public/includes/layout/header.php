@@ -1,5 +1,5 @@
 <header
-    class="z-20 small:hidden fixed flex items-center text-white justify-between w-full h-[60px] px-[15px] mx-auto bg-[#76A5AF]">
+    class="z-20 small:hidden  flex items-center text-white justify-between w-full h-[60px] px-[15px] mx-auto bg-[#76A5AF]">
     <!-- logo -->
     <div class="inline-flex">
         <a class="_o6689fn" href="#">

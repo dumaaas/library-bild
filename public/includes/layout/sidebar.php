@@ -1,5 +1,5 @@
-<nav id="sidebar" class="z-10 sidebar fixed h-full flex flex-col justify-between bg-[#333333] ">
-    <div class="mt-[60px] px-[15px]">
+<nav id="sidebar" class="z-10 overflow-auto sidebar fixed h-full flex flex-col justify-between bg-[#333333] ">
+    <div class="px-[15px]">
         <div class="mt-[10px]">
             <ul class="text-white sidebar-nav">
                 <!-- Hamburger Icon -->

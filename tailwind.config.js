@@ -12,7 +12,11 @@ module.exports = {
     }
   },
   variants: {
-    extend: {},
+    extend: {
+      overscrollBehavior: ['hover', 'focus'],
+      overflow: ['hover', 'focus'],
+
+    },
   },
   plugins: [],
   
