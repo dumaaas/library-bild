@@ -81,14 +81,14 @@
 
             </div>
             <div class="border-b-[2px] py-4 text-gray-500 border-gray-300 pl-[30px]">
-                <a href="../ucenici/profile.php" class="inline active-book-nav">
+                <a href="ucenikProfile.php" class="inline active-book-nav">
                     Osnovni detalji
                 </a>
                 <a href="#" class="inline ml-[70px] hover:text-blue-800">
                     Evidencija iznajmljivanja
                 </a>
             </div>
-            <div class="h-full overflow-auto">
+            <div class="height-ucenikProfile pb-[30px] scroll">
                 <!-- Space for content -->
                 <div class="pl-[30px] section- mt-[20px]">
                     <div class="flex flex-row">

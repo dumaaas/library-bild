@@ -108,6 +108,22 @@
   height: calc(100% - 192px);
 }
 
+.height-izdajKnjigu {
+  height: calc(100% - 156px);
+}
+
+.height-osnovniDetalji {
+  height: calc(100% - 134px);
+}
+
+.height-profile {
+  height: calc(100% - 153px);
+}
+
+.height-ucenikProfile {
+  height: calc(100% - 184px);
+}
+
 /*Show More/Show less - text*/
 .addReadMore.showlesscontent .SecSec,
 .addReadMore.showlesscontent .readLess {

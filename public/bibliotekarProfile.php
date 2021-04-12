@@ -81,7 +81,7 @@
 
             </div>
             <!-- Space for content -->
-            <div class="pl-[30px] h-full overflow-auto mt-[20px]">
+            <div class="pl-[30px] height-profile pb-[30px] scroll mt-[20px]">
                 <div class="flex flex-row">
                     <div class="mr-[30px]">
                         <div class="mt-[20px]">
