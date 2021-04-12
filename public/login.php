@@ -13,35 +13,16 @@
     
         <!-- Title -->
         <title>Library - ICT Cortex student project</title>
-        <link rel="shortcut icon" href="../img/library-favicon.ico" type="image/vnd.microsoft.icon" />
+        <link rel="shortcut icon" href="img/library-favicon.ico" type="image/vnd.microsoft.icon" />
         <!-- End Title -->
     
-        <!-- Open Graph data -->
-        <meta property="og:site_name" content="Library - ICT Cortex student project" />
-        <meta property="og:type" content="website" />
-        <meta property="og:url" content="" />
-        <meta property="og:title" content="Library - ICT Cortex student project" />
-        <meta property="og:description" content="ICT Cortex Library - project for high school students..." />
-        <meta property="og:image" content="" />
-        <meta property="og:image:width" content="" />
-        <meta property="og:image:height" content="" />
-        <!-- End Open Graph data -->
-    
-        <!-- Preloading styles -->
-        <link rel="preload" href="../style/style.css" as="style" />
-        <!-- End preloading styles -->
-    
-        <!-- Preloading scripts -->
-        <link rel="preload" href="../js/app.js" as="script" />
-        <link rel="preload" href="../js/jquery.min.js" as="script" />
-        <!-- End preloading scripts -->
-    
         <!-- Styles -->
-        <link rel="stylesheet" href="../style/style.css">
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
+        <?php include('includes/layout/styles.php'); ?>
         <!-- End Styles -->
     </head>
 <body>
+  <!-- Main content -->
+  <main class="small:hidden">
     <div class="flex items-center justify-center mt-[13%]">
         <div class="w-full max-w-md">
           <form class="px-12 pt-6 pb-8 mb-4 bg-white rounded shadow-lg">
@@ -100,5 +81,16 @@
           </p>
         </div>
       </div>
+    </main>
+    <!-- End Main content -->
+
+    <!-- Notification for small devices -->
+    <?php include('includes/layout/inProgress.php'); ?>
+
+    <!-- Scripts -->
+    <?php include('includes/layout/scripts.php'); ?>
+    <!-- End Scripts -->
+
 </body>
+
 </html>
