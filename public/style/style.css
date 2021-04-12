@@ -813,11 +813,26 @@ body {
     margin-left: auto;
     margin-right: auto;
 }
-.mt-\[20px\] {
-    margin-top: 20px;
+.mt-\[15px\] {
+    margin-top: 15px;
 }
 .mr-\[30px\] {
     margin-right: 30px;
+}
+.mr-\[3px\] {
+    margin-right: 3px;
+}
+.ml-\[20px\] {
+    margin-left: 20px;
+}
+.mt-\[20px\] {
+    margin-top: 20px;
+}
+.mt-\[40px\] {
+    margin-top: 40px;
+}
+.ml-\[100px\] {
+    margin-left: 100px;
 }
 .mb-\[20px\] {
     margin-bottom: 20px;
@@ -891,9 +906,6 @@ body {
 .ml-\[10px\] {
     margin-left: 10px;
 }
-.mt-\[15px\] {
-    margin-top: 15px;
-}
 .mt-\[100px\] {
     margin-top: 100px;
 }
@@ -948,6 +960,9 @@ body {
 .h-screen {
     height: 100vh;
 }
+.h-full {
+    height: 100%;
+}
 .h-\[60px\] {
     height: 60px;
 }
@@ -966,11 +981,11 @@ body {
 .w-screen {
     width: 100vw;
 }
-.w-\[60px\] {
-    width: 60px;
-}
 .w-full {
     width: 100%;
+}
+.w-\[60px\] {
+    width: 60px;
 }
 .w-\[560px\] {
     width: 560px;
@@ -1052,23 +1067,26 @@ body {
 .whitespace-nowrap {
     white-space: nowrap;
 }
+.rounded {
+    border-radius: 0.25rem;
+}
 .rounded-full {
     border-radius: 9999px;
 }
 .rounded-md {
     border-radius: 0.375rem;
 }
-.rounded {
-    border-radius: 0.25rem;
+.border-2 {
+    border-width: 2px;
 }
 .border {
     border-width: 1px;
 }
-.border-2 {
-    border-width: 2px;
-}
 .border-b-\[2px\] {
     border-bottom-width: 2px;
+}
+.border-l-\[2px\] {
+    border-left-width: 2px;
 }
 .border-b-2 {
     border-bottom-width: 2px;
@@ -1164,9 +1182,16 @@ body {
     -o-object-fit: cover;
        object-fit: cover;
 }
+.p-2 {
+    padding: 0.5rem;
+}
 .py-4 {
     padding-top: 1rem;
     padding-bottom: 1rem;
+}
+.py-\[10px\] {
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
 .py-2\.5 {
     padding-top: 0.625rem;
@@ -1228,15 +1253,17 @@ body {
     padding-left: 25px;
     padding-right: 25px;
 }
-.py-\[10px\] {
-    padding-top: 10px;
-    padding-bottom: 10px;
-}
 .pl-\[80px\] {
     padding-left: 80px;
 }
 .pl-\[30px\] {
     padding-left: 30px;
+}
+.pb-\[10px\] {
+    padding-bottom: 10px;
+}
+.pr-\[10px\] {
+    padding-right: 10px;
 }
 .pb-\[20px\] {
     padding-bottom: 20px;
@@ -1258,9 +1285,6 @@ body {
 }
 .pb-8 {
     padding-bottom: 2rem;
-}
-.pb-\[10px\] {
-    padding-bottom: 10px;
 }
 .pt-\[6px\] {
     padding-top: 6px;
@@ -1298,6 +1322,9 @@ body {
 .text-\[35px\] {
     font-size: 35px;
 }
+.text-\[25px\] {
+    font-size: 25px;
+}
 .text-\[20px\] {
     font-size: 20px;
 }
@@ -1319,9 +1346,6 @@ body {
 .text-base {
     font-size: 1rem;
     line-height: 1.5rem;
-}
-.text-\[25px\] {
-    font-size: 25px;
 }
 .text-\[40px\] {
     font-size: 40px;
@@ -1357,13 +1381,17 @@ body {
     --tw-text-opacity: 1;
     color: rgba(55, 65, 81, var(--tw-text-opacity));
 }
+.text-blue-600 {
+    --tw-text-opacity: 1;
+    color: rgba(37, 99, 235, var(--tw-text-opacity));
+}
 .text-gray-500 {
     --tw-text-opacity: 1;
     color: rgba(107, 114, 128, var(--tw-text-opacity));
 }
-.text-blue-600 {
+.text-blue-500 {
     --tw-text-opacity: 1;
-    color: rgba(37, 99, 235, var(--tw-text-opacity));
+    color: rgba(59, 130, 246, var(--tw-text-opacity));
 }
 .text-gray-600 {
     --tw-text-opacity: 1;
@@ -1384,10 +1412,6 @@ body {
 .text-white {
     --tw-text-opacity: 1;
     color: rgba(255, 255, 255, var(--tw-text-opacity));
-}
-.text-blue-500 {
-    --tw-text-opacity: 1;
-    color: rgba(59, 130, 246, var(--tw-text-opacity));
 }
 .text-black {
     --tw-text-opacity: 1;
@@ -1445,6 +1469,10 @@ body {
     --tw-text-opacity: 1;
     color: rgba(30, 64, 175, var(--tw-text-opacity));
 }
+.hover\:text-blue-600:hover {
+    --tw-text-opacity: 1;
+    color: rgba(37, 99, 235, var(--tw-text-opacity));
+}
 .hover\:text-white:hover {
     --tw-text-opacity: 1;
     color: rgba(255, 255, 255, var(--tw-text-opacity));
@@ -1456,10 +1484,6 @@ body {
 .hover\:text-red-500:hover {
     --tw-text-opacity: 1;
     color: rgba(239, 68, 68, var(--tw-text-opacity));
-}
-.hover\:text-blue-600:hover {
-    --tw-text-opacity: 1;
-    color: rgba(37, 99, 235, var(--tw-text-opacity));
 }
 .hover\:text-\[\#576cdf\]:hover {
     --tw-text-opacity: 1;
