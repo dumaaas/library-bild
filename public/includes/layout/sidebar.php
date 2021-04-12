@@ -1,4 +1,4 @@
-<nav id="sidebar" class="z-10 overflow-auto sidebar fixed h-full flex flex-col justify-between bg-[#fafbfc] ">
+<nav id="sidebar" class="z-10 overflow-auto sidebar fixed h-full flex flex-col justify-between bg-[#fafbfc] border-r-[1px] border-[#c9c8c8]">
 <!-- Hamburger Icon -->
     
     <div class="">
@@ -86,21 +86,36 @@
                             </div>
                         </span>
                     </div>
-                    <ul id="aside-item_1" class="aside-item text-[15px] font-medium ml-[45px] hidden">
+                    <ul id="aside-item_1" class="bg-[#ebecf0] aside-item  font-medium  hidden ml-[6px] w-[300px] mt-[5px] pt-[8px] pb-[10px] border-b-[1px] border-t-[1px] border-[#c9c8c8]">
                         <li class="mt-[5px]">
-                            <a href="#" class="transition duration-300 ease-in hover:text-[#576cdf]">
-                                Lorem ipsum
-                            </a>
+                        <div class="transition duration-300 ease-in hover:text-[#576cdf]">
+                                <a href="#" aria-label="Dashboard">
+                                    <i class="text-[25px] fas fa-plus"></i>
+                                    <div class="hidden sidebar-item">
+                                        <p class="inline text-[18px] font-medium ml-[10px]">Expand</p>
+                                    </div>
+                                </a>
+                            </div>
                         </li>
                         <li class="mt-[9px]">
-                            <a href="#" class="transition duration-300 ease-in hover:text-[#576cdf]">
-                                Lorem ipsum
-                            </a>
+                        <div class="transition duration-300 ease-in hover:text-[#576cdf]">
+                                <a href="#" aria-label="Dashboard">
+                                    <i class="text-[25px] fas fa-plus"></i>
+                                    <div class="hidden sidebar-item">
+                                        <p class="inline text-[18px] font-medium ml-[10px]">Expand</p>
+                                    </div>
+                                </a>
+                            </div>
                         </li>
                         <li class="mt-[9px]">
-                            <a href="#" class="transition duration-300 ease-in hover:text-[#576cdf]">
-                                Lorem ipsum
-                            </a>
+                        <div class="transition duration-300 ease-in hover:text-[#576cdf]">
+                                <a href="#" aria-label="Dashboard">
+                                    <i class="text-[25px] fas fa-plus"></i>
+                                    <div class="hidden sidebar-item">
+                                        <p class="inline text-[18px] font-medium ml-[10px]">Expand</p>
+                                    </div>
+                                </a>
+                            </div>
                         </li>
                     </ul>
                 </li>
