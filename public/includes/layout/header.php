@@ -1,70 +1,56 @@
 <header
-    class="z-20 small:hidden  flex items-center text-white justify-between w-full h-[60px] px-[15px] mx-auto bg-[#76A5AF]">
+    class="z-20 small:hidden  flex items-center text-white justify-between w-full h-[60px] px-[15px] mx-auto bg-[#576cdf]">
     <!-- logo -->
     <div class="inline-flex">
         <a class="_o6689fn" href="#">
             <div class="block">
                 <p class="text-[20px] font-medium">
-                    <i class="text-[30px] fas fa-th"> </i>
-                    &nbsp;&nbsp;Biblioteka
+                    <i class="text-[25px] fas fa-th"> </i>
+                    &nbsp;&nbsp;Online Biblioteka
                 </p>
             </div>
         </a>
     </div>
     <!-- end logo -->
 
-    <!-- search bar -->
-    <div class="relative flex-shrink">
-        <form method="" action="" spellcheck="false" autocomplete="off">
-            <input
-                class="h-[35px] pr-[120px] text-sm bg-[#587C83] px-[10px] w-[600px] placeholder-white transition duration-300 ease-in focus:outline-none focus:ring"
-                name="search" placeholder="Search..">
-            <button type="submit" class="focus:outline-none absolute top-0 right-0 mt-[10px] mr-[10px]"
-                aria-label="Search">
-                <svg class="w-4 h-4 fill-current" xmlns="http://www.w3.org/2000/svg"
-                    xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" id="Capa_1" x="0px" y="0px"
-                    viewBox="0 0 56.966 56.966" style="enable-background:new 0 0 56.966 56.966;" xml:space="preserve"
-                    width="512px" height="512px">
-                    <path
-                        d="M55.146,51.887L41.588,37.786c3.486-4.144,5.396-9.358,5.396-14.786c0-12.682-10.318-23-23-23s-23,10.318-23,23  s10.318,23,23,23c4.761,0,9.298-1.436,13.177-4.162l13.661,14.208c0.571,0.593,1.339,0.92,2.162,0.92  c0.779,0,1.518-0.297,2.079-0.837C56.255,54.982,56.293,53.08,55.146,51.887z M23.984,6c9.374,0,17,7.626,17,17s-7.626,17-17,17  s-17-7.626-17-17S14.61,6,23.984,6z" />
-                </svg>
-            </button>
-        </form>
-    </div>
-    <!-- end search bar -->
-
     <!-- login -->
     <div class="flex-initial">
         <div class="relative flex items-center justify-end">
             <div class="flex items-center">
-                <!-- Add Book Icon -->
-                <a class="inline-block px-3 py-2" href="#" aria-label="Add something">
-                    <span class="transition duration-300 ease-in hover:text-[#333333] text-[30px]">
-                        <i class="fas fa-plus-circle"></i>
-                    </span>
-                </a>
-                <!-- Notification Icon -->
-                <div class="relative block">
+            <!-- Notification Icon -->
+                <div class="relative block mr-[5px]">
                     <a href="../dashboard/activity.php" class="relative inline-block px-3 py-2 focus:outline-none"
                         aria-label="Notification">
                         <div class="flex items-center h-5">
                             <div class="_xpkakx">
-                                <span class="transition duration-300 ease-in hover:text-[#333333] text-[30px]">
+                                <span class="transition duration-300 ease-in hover:text-[#333333] text-[25px]">
                                     <i class="far fa-bell"></i>
                                 </span>
                             </div>
                         </div>
                     </a>
                 </div>
+                <!-- Help Icon -->
+                <a class="inline-block pl-[15px] border-l-[1px] border-gray-300 px-3 " href="#" aria-label="Add something">
+                    <span class="transition duration-300 ease-in hover:text-[#333333] text-[25px]">
+                        <i class="far fa-question-circle"></i>
+                    </span>
+                </a>
+
+                <!-- Bild Studio Icon -->
+                <svg xmlns="http://www.w3.org/2000/svg" class="ml-[30px] svg-icon svg-icon-bildstudio">
+                    <use xlink:href="#shape-bildstudio">
+                        <svg width="100" viewBox="0 0 100 18.9" id="shape-bildstudio"> <g id="bildstudio-text_1_"> <path d="M13.6,4.5h3.2v14h-3.2V4.5z"></path> <path d="M18.2,0h3.2l0,18.5h-3.2L18.2,0z"></path> <path d="M34.6,18.5h-3.2v-0.7c0,0-2,1-3.6,1c-3.7,0-5.3-2.1-5.3-7.4c0-5,1.8-7.2,5.8-7.2c1.1,0,3,0.3,3.1,0.4l0-4.6h3.2L34.6,18.5z    M31.4,15.2V7.4c-0.1,0-1.7-0.3-2.9-0.3c-1.9,0-2.8,1.3-2.8,4.3c0,3.4,0.9,4.3,2.6,4.4C29.6,15.8,31.4,15.2,31.4,15.2z"></path> <path d="M46.6,7.6c0,0-3.4-0.4-5-0.4c-1.7,0-2.3,0.4-2.3,1.4c0,0.9,0.6,1.1,2.9,1.5c3.7,0.6,4.9,1.6,4.9,4.3c0,3.3-2.1,4.5-5.6,4.5   c-2,0-5.2-0.6-5.2-0.6l0.1-2.7c0,0,3.4,0.4,4.8,0.4c2,0,2.7-0.4,2.7-1.5c0-0.9-0.4-1.1-2.7-1.5c-3.6-0.6-5.2-1.4-5.2-4.3   c0-3.2,2.5-4.4,5.3-4.4c2,0,5.3,0.6,5.3,0.6L46.6,7.6z"></path> <path d="M51.3,7.4v5.7c0,1.9,0.1,2.7,1.5,2.7c0.8,0,2.3-0.1,2.3-0.1l0.1,2.7c0,0-1.9,0.4-2.9,0.4c-3.2,0-4.2-1.2-4.2-5.3V7.4l0,0   V4.5l0,0l0-4.5l3.2,0l0,4.5H55v2.9H51.3z"></path> <path d="M68.1,4.5v14h-3.2v-0.7c0,0-2.2,1-3.7,1c-4,0-4.8-2.1-4.8-7V4.5h3.2v7.3c0,3,0.2,4.1,2.3,4.1c1.2,0,3.1-0.6,3.1-0.6V4.5   H68.1z"></path> <path d="M81.4,18.5h-3.2v-0.7c0,0-2,1-3.6,1c-3.7,0-5.3-2.1-5.3-7.4c0-5,1.8-7.2,5.8-7.2c1.1,0,3,0.3,3.1,0.4l0-4.6h3.2L81.4,18.5z    M78.2,15.2V7.4c-0.1,0-1.7-0.3-2.9-0.3c-1.9,0-2.8,1.3-2.8,4.3c0,3.4,0.9,4.3,2.6,4.4C76.4,15.8,78.2,15.2,78.2,15.2z"></path> <path d="M82.9,4.5h3.2v14h-3.2V4.5z"></path> <path d="M100,11.5c0,4.5-1.5,7.4-6.3,7.4c-4.8,0-6.3-2.8-6.3-7.4c0-4.5,1.6-7.3,6.3-7.3C98.4,4.2,100,7,100,11.5z M96.8,11.5   c0-2.9-0.8-4.3-3-4.3c-2.4,0-3.1,1.3-3.1,4.3c0,3,0.6,4.5,3.1,4.5C96.2,15.9,96.8,14.4,96.8,11.5z"></path> <circle cx="15.2" cy="1.8" r="1.8"></circle> <circle cx="84.5" cy="1.8" r="1.8"></circle> <path d="M0,0.1h3.2l0,4.5c0.1,0,2-0.4,3.1-0.4c4,0,5.8,2.2,5.8,7.2c0,5.3-1.6,7.4-5.3,7.4c-1.7,0-3.6-1-3.6-1v0.7H0L0,0.1z    M6.4,15.9c1.7-0.1,2.6-1,2.6-4.4c0-3.1-0.9-4.3-2.8-4.3C5,7.1,3.4,7.4,3.2,7.4v7.9C3.2,15.2,5,15.8,6.4,15.9z"></path> </g> </svg>
+                    </use>
+                </svg>
+                
                 <!-- User Profile Icon -->
-                <div class="relative block">
+                <div class="ml-[10px] relative block">
                     <a href="../bibliotekari/profile.php" class="relative inline-block px-3 py-2 focus:outline-none"
                         aria-label="User profile">
                         <div class="flex items-center h-5">
-                            <div class="_xpkakx">
-                                <span class="transition duration-300 ease-in hover:text-[#333333] text-[30px]">
-                                    <i class="fas fa-user-circle"></i>
-                                </span>
+                        <div class="w-[40px] h-[40px] mt-[15px]">
+                                <img class="rounded-full" src="img/profileStudent.jpg" alt="">
                             </div>
                         </div>
                     </a>

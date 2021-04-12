@@ -5,11 +5,26 @@
     -o-transition: width 0.5s;
     -ms-transition: width 0.5s;
     transition: width 0.5s;
-    width: 60px;
+    width: 80px;
 }
 
 .sidebar-active {
-    width: 20%;
+    width: 300px;
+}
+
+.sidebar-link-active {
+  position: relative;
+}
+
+.sidebar-link-active::after {
+  content: '';
+  width: 7px;
+  height: 7px;
+  top: 17px;
+  left: -13px;
+  border-radius: 100%;
+  background-color: #576cdf;
+  position: absolute;
 }
 
 /* Book navigation underline*/
@@ -61,6 +76,11 @@
 	border-radius: 10px;
 	-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,.3);
 	background-color: #76A5AF;
+}
+
+.svg-icon-bildstudio {
+  fill: white;
+  width: 100px;
 }
 
 /*Show More/Show less - cards*/
