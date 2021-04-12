@@ -104,7 +104,7 @@
                                 </div>
 
                                 <template x-if="files.length > 0">
-                                    <div class="grid grid-cols-4 gap-4 mt-4 w-[1335px]" @drop.prevent="drop($event)"
+                                    <div class="grid grid-cols-4 gap-4 mt-4" @drop.prevent="drop($event)"
                                         @dragover.prevent="$event.dataTransfer.dropEffect = 'move'">
                                         <template x-for="(_, index) in Array.from({ length: files.length })">
                                             <div class="relative flex flex-col items-center overflow-hidden text-center bg-gray-100 border rounded cursor-move select-none"
