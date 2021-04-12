@@ -1,4 +1,4 @@
-<nav id="sidebar" class="z-10 overflow-auto sidebar fixed h-full flex flex-col justify-between bg-[#fafbfc] border-r-[1px] border-[#c9c8c8]">
+<nav id="sidebar" class="z-10 overflow-y-auto overflow-x-hidden sidebar fixed nav-height flex flex-col justify-between bg-[#fafbfc] border-r-[1px] border-[#c9c8c8]">
 <!-- Hamburger Icon -->
     
     <div class="">
@@ -53,21 +53,6 @@
                         </span>
                     </div>
                 </li>
-                <!-- Knjige Icon -->
-                <li class=" ml-[4px] mb-[10px]">
-                    <div>
-                        <span class="whitespace-nowrap w-full text-[25px] flex justify-between text-[#5c5c5c] fill-current">
-                            <div class="transition duration-300 ease-in hover:text-[#576cdf]">
-                                <a href="#" aria-label="Knjige">
-                                    <i class="far fa-copy"></i>
-                                    <div class="hidden sidebar-item">
-                                        <p class="inline text-[18px] font-medium ml-[12px]">Knjige</p>
-                                    </div>
-                                </a>
-                            </div>
-                        </span>
-                    </div>
-                </li>
                 <!-- Expand menu example -->
                 <li class=" mb-[10px]">
                     <div class="pl-[3px]">
@@ -86,13 +71,13 @@
                             </div>
                         </span>
                     </div>
-                    <ul id="aside-item_1" class="bg-[#ebecf0] aside-item  font-medium  hidden ml-[6px] w-[300px] mt-[5px] pt-[8px] pb-[10px] border-b-[1px] border-t-[1px] border-[#c9c8c8]">
+                    <ul id="aside-item_1" class="bg-[#ebecf0] aside-item  font-medium  hidden ml-[-24px] pl-[30px] w-[300px] mt-[5px] pt-[8px] pb-[10px] border-b-[1px] border-t-[1px] border-[#c9c8c8]">
                         <li class="mt-[5px]">
                         <div class="transition duration-300 ease-in hover:text-[#576cdf]">
                                 <a href="#" aria-label="Dashboard">
                                     <i class="text-[25px] fas fa-plus"></i>
                                     <div class="hidden sidebar-item">
-                                        <p class="inline text-[18px] font-medium ml-[10px]">Expand</p>
+                                        <p class="inline text-[18px] font-medium ml-[10px]">Lorem</p>
                                     </div>
                                 </a>
                             </div>
@@ -102,7 +87,7 @@
                                 <a href="#" aria-label="Dashboard">
                                     <i class="text-[25px] fas fa-plus"></i>
                                     <div class="hidden sidebar-item">
-                                        <p class="inline text-[18px] font-medium ml-[10px]">Expand</p>
+                                        <p class="inline text-[18px] font-medium ml-[10px]">Ipsum</p>
                                     </div>
                                 </a>
                             </div>
@@ -112,24 +97,40 @@
                                 <a href="#" aria-label="Dashboard">
                                     <i class="text-[25px] fas fa-plus"></i>
                                     <div class="hidden sidebar-item">
-                                        <p class="inline text-[18px] font-medium ml-[10px]">Expand</p>
+                                        <p class="inline text-[18px] font-medium ml-[10px]">Datal</p>
                                     </div>
                                 </a>
                             </div>
                         </li>
                     </ul>
                 </li>
+                <!-- Knjige Icon -->
+                <li class=" ml-[4px] mb-[10px]">
+                    <div>
+                        <span class="whitespace-nowrap w-full text-[25px] flex justify-between text-[#5c5c5c] fill-current">
+                            <div class="transition duration-300 ease-in hover:text-[#576cdf]">
+                                <a href="#" aria-label="Knjige">
+                                    <i class="far fa-copy"></i>
+                                    <div class="hidden sidebar-item">
+                                        <p class="inline text-[18px] font-medium ml-[12px]">Knjige</p>
+                                    </div>
+                                </a>
+                            </div>
+                        </span>
+                    </div>
+                </li>
+                
             </ul>
         </div>
     </div>
-    <div class="sidebar-nav py-[10px] border-t-[3px] border-white">
+    <div class="sidebar-nav py-[10px] border-t-[3px] border-[#e4dfdf]">
         <!-- Settings Icon -->
         <a href="#" aria-label="Settngs">
             <span
-                class="whitespace-nowrap text-[25px] px-[15px]  text-black fill-current transition duration-300 ease-in hover:text-[#576cdf]">
+                class="whitespace-nowrap text-[25px] px-[25px] text-[#5c5c5c] fill-current transition duration-300 ease-in hover:text-[#576cdf]">
                 <i class="fas fa-cog"></i>
                 <div class="hidden sidebar-item">
-                    <p class="inline text-[15px] font-medium ml-[14px]">Settings</p>
+                    <p class="inline text-[18px] font-medium ml-[13px]">Settings</p>
                 </div>
             </span>
         </a>

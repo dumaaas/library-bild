@@ -23,7 +23,7 @@
                         aria-label="Notification">
                         <div class="flex items-center h-5">
                             <div class="_xpkakx">
-                                <span class="transition duration-300 ease-in hover:text-[#333333] text-[25px]">
+                                <span class="transition duration-300 ease-in hover:bg-[#4556BE] text-[25px] rounded-full pt-[6px] px-[11px] pb-[6px] ">
                                     <i class="far fa-bell"></i>
                                 </span>
                             </div>
@@ -32,7 +32,7 @@
                 </div>
                 <!-- Help Icon -->
                 <a class="inline-block pl-[15px] border-l-[1px] border-gray-300 px-3 " href="#" aria-label="Add something">
-                    <span class="transition duration-300 ease-in hover:text-[#333333] text-[25px]">
+                    <span class="transition duration-300 ease-in hover:bg-[#4556BE] text-[25px] rounded-full pt-[6px] px-[11px] pb-[6px]">
                         <i class="far fa-question-circle"></i>
                     </span>
                 </a>
