@@ -9,6 +9,7 @@ module.exports = {
     extend: {},
     screens: {
       'small': {'max': '1023px'},
+      '2xl': {'min': '1536px'},
     }
   },
   variants: {
