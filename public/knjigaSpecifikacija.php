@@ -87,7 +87,6 @@
                         </p>
                     </div>
                 </div>
-
             </div>
             <div class="flex flex-row h-full overflow-auto">
                 <div class="w-[80%]">

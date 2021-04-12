@@ -104,6 +104,10 @@
   height: calc(100% - 60px);
 }
 
+.height-vratiKnjigu {
+  height: calc(100% - 192px);
+}
+
 /*Show More/Show less - text*/
 .addReadMore.showlesscontent .SecSec,
 .addReadMore.showlesscontent .readLess {
