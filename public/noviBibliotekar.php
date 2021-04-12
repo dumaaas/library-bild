@@ -13,7 +13,7 @@
     <!-- End Meta -->
 
     <!-- Title -->
-    <title>Library - ICT Cortex student project</title>
+    <title>New librarian | Library - ICT Cortex student project</title>
     <link rel="shortcut icon" href="img/library-favicon.ico" type="image/vnd.microsoft.icon" />
     <!-- End Title -->
 

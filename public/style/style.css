@@ -870,20 +870,23 @@ body {
 .mb-3 {
     margin-bottom: 0.75rem;
 }
+.ml-\[70px\] {
+    margin-left: 70px;
+}
 .ml-\[30px\] {
     margin-left: 30px;
 }
 .mt-2 {
     margin-top: 0.5rem;
 }
-.mt-\[50px\] {
-    margin-top: 50px;
-}
 .mr-\[100px\] {
     margin-right: 100px;
 }
 .mr-\[15px\] {
     margin-right: 15px;
+}
+.mt-\[50px\] {
+    margin-top: 50px;
 }
 .ml-\[10px\] {
     margin-left: 10px;
@@ -984,11 +987,14 @@ body {
 .w-\[90\%\] {
     width: 90%;
 }
-.w-48 {
-    width: 12rem;
+.w-\[45\%\] {
+    width: 45%;
 }
 .w-\[150px\] {
     width: 150px;
+}
+.w-48 {
+    width: 12rem;
 }
 .w-\[40px\] {
     width: 40px;
@@ -1104,13 +1110,13 @@ body {
     --tw-border-opacity: 1;
     border-color: rgba(228, 223, 223, var(--tw-border-opacity));
 }
-.border-gray-400 {
-    --tw-border-opacity: 1;
-    border-color: rgba(156, 163, 175, var(--tw-border-opacity));
-}
 .border-black {
     --tw-border-opacity: 1;
     border-color: rgba(0, 0, 0, var(--tw-border-opacity));
+}
+.border-gray-400 {
+    --tw-border-opacity: 1;
+    border-color: rgba(156, 163, 175, var(--tw-border-opacity));
 }
 .border-\[\#c9c8c8\] {
     --tw-border-opacity: 1;
@@ -1198,13 +1204,13 @@ body {
     padding-left: 1rem;
     padding-right: 1rem;
 }
-.py-16 {
-    padding-top: 4rem;
-    padding-bottom: 4rem;
-}
 .py-\[7px\] {
     padding-top: 7px;
     padding-bottom: 7px;
+}
+.py-16 {
+    padding-top: 4rem;
+    padding-bottom: 4rem;
 }
 .px-\[15px\] {
     padding-left: 15px;

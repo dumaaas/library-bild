@@ -13,7 +13,7 @@
     <!-- End Meta -->
 
     <!-- Title -->
-    <title>New student | Library - ICT Cortex student project</title>
+    <title>New book | Library - ICT Cortex student project</title>
     <link rel="shortcut icon" href="img/library-favicon.ico" type="image/vnd.microsoft.icon" />
     <!-- End Title -->
 
@@ -41,15 +41,15 @@
                     <div class="pl-[30px] pb-[10px] flex flex-col">
                         <div>
                             <h1 class=" text-[35px] font-bold">
-                                Novi ucenik
+                                Nova knjiga
                             </h1>
                         </div>
                         <div>
                             <nav class="w-full rounded">
                                 <ol class="flex list-reset">
                                     <li>
-                                        <a href="ucenici.php" class="font-medium text-blue-600 hover:text-blue-800">
-                                            Svi ucenici
+                                        <a href="evidencijaKnjiga.php" class="font-medium text-blue-600 hover:text-blue-800">
+                                            Evidencija knjiga
                                         </a>
                                     </li>
                                     <li>
@@ -57,7 +57,7 @@
                                     </li>
                                     <li>
                                         <a href="#" class="font-medium text-gray-500 hover:text-blue-800">
-                                            Novi ucenik
+                                            Nova knjiga
                                         </a>
                                     </li>
                                 </ol>
@@ -66,64 +66,91 @@
                     </div>
                 </div>
             </div>
+            <div class="border-b-[2px] py-4 text-gray-500 border-gray-300 pl-[30px]">
+                        <a href="#" class="inline active-book-nav hover:text-blue-800">
+                            Osnovni detalji
+                        </a>
+                        <a href="#" class="inline ml-[70px] hover:text-blue-800 ">
+                            Specifikacija
+                        </a>
+                        <a href="#" class="inline ml-[70px] hover:text-blue-800">
+                            Multimedija
+                        </a>
+                    </div>
             <!-- Space for content -->
             <div class="scroll height-content section-content">
                 <form class="text-gray-700">
                     <div class="flex flex-row ml-[30px]">
                         <div class="w-[50%]">
                             <div class="mt-[20px]">
-                                <span>Ime i prezime</span>
+                                <span>Naziv knjige</span>
                                 <input type="text" class="flex w-[90%] mt-2 px-2 py-2 text-base bg-white border border-gray-300 shadow-sm appearance-none focus:outline-none focus:ring-2 focus:ring-[#576cdf]"/>
                             </div>
 
                             <div class="mt-[20px]">
-                                <span>Tip korisnika</span>
-                                <select class="flex w-[90%] mt-2 px-2 py-2 border bg-gray-300 border-gray-300 shadow-sm focus:outline-none focus:ring-2 focus:ring-[#576cdf]" name="tip_korisnika" disabled>
+                                <span class="inline-block mb-2">Kratki sadrzaj</span>
+                                <textarea name="kratki_sadrzaj" class="flex w-[90%] mt-2 px-2 py-2 text-base bg-white border border-gray-300 shadow-sm appearance-none focus:outline-none focus:ring-2 focus:ring-[#576cdf]">
+                                
+                                </textarea>
+                            </div>
+
+                            <div class="mt-[20px]">
+                                <span>Kategorija</span>
+                                <select class="flex w-[45%] mt-2 px-2 py-2 border bg-white border-gray-300 shadow-sm focus:outline-none focus:ring-2 focus:ring-[#576cdf]" name="kategorija">
+                                    <option value=""></option>
                                     <option value="">
-                                        Ucenik
+                                        Kategorija 1
                                     </option>
                                 </select>
                             </div>
 
                             <div class="mt-[20px]">
-                                <span>JMBG</span>
-                                <input type="text" class="flex w-[90%] mt-2 px-2 py-2 text-base bg-white border border-gray-300 shadow-sm appearance-none focus:outline-none focus:ring-2 focus:ring-[#576cdf]"/>
-                            </div>
-
-                            <div class="mt-[20px]">
-                                <span>E-mail</span>
-                                <input type="email" class="flex w-[90%] mt-2 px-2 py-2 text-base bg-white border border-gray-300 shadow-sm appearance-none focus:outline-none focus:ring-2 focus:ring-[#576cdf]"/>
-                            </div>
-
-                            <div class="mt-[20px]">
-                                <span>Korisnicko ime</span>
-                                <input type="text" class="flex w-[90%] mt-2 px-2 py-2 text-base bg-white border border-gray-300 shadow-sm appearance-none focus:outline-none focus:ring-2 focus:ring-[#576cdf]"/>
-                            </div>
-
-                            <div class="mt-[20px]">
-                                <span>Sifra</span>
-                                <input type="password" class="flex w-[90%] mt-2 px-2 py-2 text-base bg-white border border-gray-300 shadow-sm appearance-none focus:outline-none focus:ring-2 focus:ring-[#576cdf]"/>
-                            </div>
-
-                            <div class="mt-[20px]">
-                                <span>Ponovi sifru</span>
-                                <input type="password" class="flex w-[90%] mt-2 px-2 py-2 text-base bg-white border border-gray-300 shadow-sm appearance-none focus:outline-none focus:ring-2 focus:ring-[#576cdf]"/>
+                                <span>Zanr</span>
+                                <select class="flex w-[45%] mt-2 px-2 py-2 border bg-white border-gray-300 shadow-sm focus:outline-none focus:ring-2 focus:ring-[#576cdf]" name="zanr">
+                                    <option value=""></option>
+                                    <option value="">
+                                        Zanr 1
+                                    </option>
+                                </select>
                             </div>
                         </div>
 
-                        <div class="mt-[50px]">
-                            <div id="empty-cover-art" class="w-48 h-48 py-16 text-center border-2 border-gray-400 border-solid opacity-50">
-                                <svg class="mx-auto feather feather-image" xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                                    <rect x="3" y="3" width="18" height="18" rx="2" ry="2"></rect>
-                                    <circle cx="8.5" cy="8.5" r="1.5"></circle>
-                                    <polyline points="21 15 16 10 5 21"></polyline>
-                                </svg>
-                                <div class="py-4">
-                                    <label class="mt-6 cursor-pointer">
-                                        <span class="px-4 py-2 mt-2 leading-normal">Add photo</span>
-                                        <input type='file' class="hidden" :multiple="multiple" :accept="accept" />
-                                    </label>
-                                </div>
+                        <div class="w-[50%]">
+                            <div class="mt-[20px]">
+                                <span>Izaberite autore</span>
+                                <select class="flex w-[90%] mt-2 px-2 py-2 border bg-white border-gray-300 shadow-sm focus:outline-none focus:ring-2 focus:ring-[#576cdf]" name="autori">
+                                    <option value=""></option>
+                                    <option value="">
+                                        Autor 1
+                                    </option>
+                                </select>
+                            </div>
+
+                            <div class="mt-[20px]">
+                                <span class="inline-block mb-2">O autoru/ima</span>
+                                <textarea name="o_autoru" class="flex w-[90%] mt-2 px-2 py-2 text-base bg-white border border-gray-300 shadow-sm appearance-none focus:outline-none focus:ring-2 focus:ring-[#576cdf]">
+                                    
+                                </textarea>
+                            </div>
+
+                            <div class="mt-[20px]">
+                                <span>Izdavac</span>
+                                <select class="flex w-[45%] mt-2 px-2 py-2 border bg-white border-gray-300 shadow-sm focus:outline-none focus:ring-2 focus:ring-[#576cdf]" name="kategorija">
+                                    <option value=""></option>
+                                    <option value="">
+                                        Izdavac 1
+                                    </option>
+                                </select>
+                            </div>
+
+                            <div class="mt-[20px]">
+                                <span>Godina izdavanja</span>
+                                <select class="flex w-[45%] mt-2 px-2 py-2 border bg-white border-gray-300 shadow-sm focus:outline-none focus:ring-2 focus:ring-[#576cdf]" name="zanr">
+                                    <option value=""></option>
+                                    <option value="">
+                                        Godina izdavanja 1
+                                    </option>
+                                </select>
                             </div>
                         </div>
                     </div>
@@ -158,6 +185,19 @@
     <?php include('includes/layout/scripts.php'); ?>
     <!-- End Scripts -->
 
+    <script>
+        CKEDITOR.replace( 'kratki_sadrzaj',
+            {
+                width: "90%",
+                height: "150px"
+            });
+
+        CKEDITOR.replace( 'o_autoru',
+            {
+                width: "90%",
+                height: "150px"
+            });
+    </script>
 </body>
 
 </html>
