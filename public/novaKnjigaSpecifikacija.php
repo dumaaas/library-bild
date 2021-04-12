@@ -13,7 +13,7 @@
     <!-- End Meta -->
 
     <!-- Title -->
-    <title>New book | Library - ICT Cortex student project</title>
+    <title>New book | Specification | Library - ICT Cortex student project</title>
     <link rel="shortcut icon" href="img/library-favicon.ico" type="image/vnd.microsoft.icon" />
     <!-- End Title -->
 
@@ -67,10 +67,10 @@
                 </div>
             </div>
             <div class="border-b-[2px] py-4 text-gray-500 border-gray-300 pl-[30px]">
-                        <a href="#" class="inline active-book-nav hover:text-blue-800">
+                        <a href="novaKnjiga.php" class="inline hover:text-blue-800">
                             Osnovni detalji
                         </a>
-                        <a href="novaKnjigaSpecifikacija.php" class="inline ml-[70px] hover:text-blue-800 ">
+                        <a href="#" class="inline active-book-nav ml-[70px] hover:text-blue-800 ">
                             Specifikacija
                         </a>
                         <a href="novaKnjigaMultimedija.php" class="inline ml-[70px] hover:text-blue-800">
@@ -83,74 +83,43 @@
                     <div class="flex flex-row ml-[30px]">
                         <div class="w-[50%]">
                             <div class="mt-[20px]">
-                                <span>Naziv knjige</span>
-                                <input type="text" class="flex w-[90%] mt-2 px-2 py-2 text-base bg-white border border-gray-300 shadow-sm appearance-none focus:outline-none focus:ring-2 focus:ring-[#576cdf]"/>
+                                <span>Broj strana</span>
+                                <input type="text" class="flex w-[45%] mt-2 px-2 py-2 text-base bg-white border border-gray-300 shadow-sm appearance-none focus:outline-none focus:ring-2 focus:ring-[#576cdf]"/>
                             </div>
 
                             <div class="mt-[20px]">
-                                <span class="inline-block mb-2">Kratki sadrzaj</span>
-                                <textarea name="kratki_sadrzaj" class="flex w-[90%] mt-2 px-2 py-2 text-base bg-white border border-gray-300 shadow-sm appearance-none focus:outline-none focus:ring-2 focus:ring-[#576cdf]">
-                                
-                                </textarea>
-                            </div>
-
-                            <div class="mt-[20px]">
-                                <span>Kategorija</span>
-                                <select class="flex w-[45%] mt-2 px-2 py-2 border bg-white border-gray-300 shadow-sm focus:outline-none focus:ring-2 focus:ring-[#576cdf]" name="kategorija">
+                                <span>Pismo</span>
+                                <select class="flex w-[45%] mt-2 px-2 py-2 border bg-white border-gray-300 shadow-sm focus:outline-none focus:ring-2 focus:ring-[#576cdf]" name="pismo">
                                     <option value=""></option>
                                     <option value="">
-                                        Kategorija 1
+                                        Pismo 1
                                     </option>
                                 </select>
                             </div>
 
                             <div class="mt-[20px]">
-                                <span>Zanr</span>
-                                <select class="flex w-[45%] mt-2 px-2 py-2 border bg-white border-gray-300 shadow-sm focus:outline-none focus:ring-2 focus:ring-[#576cdf]" name="zanr">
+                                <span>Povez</span>
+                                <select class="flex w-[45%] mt-2 px-2 py-2 border bg-white border-gray-300 shadow-sm focus:outline-none focus:ring-2 focus:ring-[#576cdf]" name="povez">
                                     <option value=""></option>
                                     <option value="">
-                                        Zanr 1
-                                    </option>
-                                </select>
-                            </div>
-                        </div>
-
-                        <div class="w-[50%]">
-                            <div class="mt-[20px]">
-                                <span>Izaberite autore</span>
-                                <select class="flex w-[90%] mt-2 px-2 py-2 border bg-white border-gray-300 shadow-sm focus:outline-none focus:ring-2 focus:ring-[#576cdf]" name="autori">
-                                    <option value=""></option>
-                                    <option value="">
-                                        Autor 1
+                                        Povez 1
                                     </option>
                                 </select>
                             </div>
 
                             <div class="mt-[20px]">
-                                <span class="inline-block mb-2">O autoru/ima</span>
-                                <textarea name="o_autoru" class="flex w-[90%] mt-2 px-2 py-2 text-base bg-white border border-gray-300 shadow-sm appearance-none focus:outline-none focus:ring-2 focus:ring-[#576cdf]">
-                                    
-                                </textarea>
-                            </div>
-
-                            <div class="mt-[20px]">
-                                <span>Izdavac</span>
-                                <select class="flex w-[45%] mt-2 px-2 py-2 border bg-white border-gray-300 shadow-sm focus:outline-none focus:ring-2 focus:ring-[#576cdf]" name="kategorija">
+                                <span>Format</span>
+                                <select class="flex w-[45%] mt-2 px-2 py-2 border bg-white border-gray-300 shadow-sm focus:outline-none focus:ring-2 focus:ring-[#576cdf]" name="format">
                                     <option value=""></option>
                                     <option value="">
-                                        Izdavac 1
+                                        Format 1
                                     </option>
                                 </select>
                             </div>
 
                             <div class="mt-[20px]">
-                                <span>Godina izdavanja</span>
-                                <select class="flex w-[45%] mt-2 px-2 py-2 border bg-white border-gray-300 shadow-sm focus:outline-none focus:ring-2 focus:ring-[#576cdf]" name="zanr">
-                                    <option value=""></option>
-                                    <option value="">
-                                        Godina izdavanja 1
-                                    </option>
-                                </select>
+                                <span>International Standard Book Num</span>
+                                <input type="text" class="flex w-[45%] mt-2 px-2 py-2 text-base bg-white border border-gray-300 shadow-sm appearance-none focus:outline-none focus:ring-2 focus:ring-[#576cdf]"/>
                             </div>
                         </div>
                     </div>
@@ -184,20 +153,7 @@
     <!-- Scripts -->
     <?php include('includes/layout/scripts.php'); ?>
     <!-- End Scripts -->
-
-    <script>
-        CKEDITOR.replace( 'kratki_sadrzaj',
-            {
-                width: "90%",
-                height: "150px"
-            });
-
-        CKEDITOR.replace( 'o_autoru',
-            {
-                width: "90%",
-                height: "150px"
-            });
-    </script>
+    
 </body>
 
 </html>
