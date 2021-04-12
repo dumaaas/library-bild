@@ -124,6 +124,10 @@
   height: calc(100% - 184px);
 }
 
+.height-detaljiIzdavanje {
+  height: calc(100% - 148px);
+}
+
 /*Show More/Show less - text*/
 .addReadMore.showlesscontent .SecSec,
 .addReadMore.showlesscontent .readLess {
