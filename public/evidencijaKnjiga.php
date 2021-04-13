@@ -159,9 +159,34 @@
                                     </span>
                                     </td>
                                     <td class="px-6 py-4 text-sm leading-5 text-right whitespace-no-wrap">
-                                        <p class="inline cursor-pointer text-[20px] py-[10px] px-[30px] border-gray-300">
-                                            <i class="fas fa-ellipsis-v"></i>
+                                        <p class="inline cursor-pointer text-[20px] py-[10px] px-[30px] border-gray-300" id="dropdownBookRow1">
+                                            <i class="fas fa-ellipsis-v hover:text-gray-500 focus:outline-none active:text-gray-800"></i>
                                         </p>
+                                        <div class="hidden transition-all duration-300 origin-top-right transform scale-95 -translate-y-2 dropdown-menu-book-row1">
+                                            <div class="absolute right-0 w-56 mt-2 origin-top-right bg-white border border-gray-200 divide-y divide-gray-100 rounded-md shadow-lg outline-none" aria-labelledby="headlessui-menu-button-1" id="headlessui-menu-items-117" role="menu">
+                                                <div class="py-1">
+                                                <a href="javascript:void(0)" tabindex="0" class="flex w-full px-4 py-2 text-sm leading-5 text-left text-gray-700"  role="menuitem" >
+                                                    <i class="far fa-file mr-[10px] ml-[5px] py-1"></i>
+                                                    <span class="px-4 py-0">Pogledaj detalje</span>
+                                                </a>
+
+                                                <a href="javascript:void(0)" tabindex="0" class="flex w-full px-4 py-2 text-sm leading-5 text-left text-gray-700"  role="menuitem" >
+                                                    <i class="far fa-hand-scissors mr-[10px] ml-[5px] py-1"></i>
+                                                    <span class="px-4 py-0">Izdaj knjigu</span>
+                                                </a>
+
+                                                <a href="javascript:void(0)" tabindex="0" class="flex w-full px-4 py-2 text-sm leading-5 text-left text-gray-700"  role="menuitem" >
+                                                    <i class="fas fa-redo-alt mr-[10px] ml-[5px] py-1"></i>
+                                                    <span class="px-4 py-0">Vrati knjigu</span>
+                                                </a>
+
+                                                <a href="javascript:void(0)" tabindex="0" class="flex w-full px-4 py-2 text-sm leading-5 text-left text-gray-700"  role="menuitem" >
+                                                    <i class="fa fa-trash mr-[10px] ml-[5px] py-1"></i>
+                                                    <span class="px-4 py-0">Izbrisi knjigu</span>
+                                                </a>
+                                                </div>
+                                            </div>
+                                        </div> 
                                     </td>
                                 </tr>
                                 <tr class="border-b-2 border-gray-300">
@@ -183,9 +208,34 @@
                                     </span>
                                     </td>
                                     <td class="px-6 py-4 text-sm leading-5 text-right whitespace-no-wrap">
-                                        <p class="inline cursor-pointer text-[20px] py-[10px] px-[30px] border-gray-300">
-                                            <i class="fas fa-ellipsis-v"></i>
+                                        <p class="inline cursor-pointer text-[20px] py-[10px] px-[30px] border-gray-300" id="dropdownBookRow2">
+                                            <i class="fas fa-ellipsis-v hover:text-gray-500 focus:outline-none active:text-gray-800"></i>
                                         </p>
+                                        <div class="hidden transition-all duration-300 origin-top-right transform scale-95 -translate-y-2 dropdown-menu-book-row2">
+                                            <div class="absolute right-0 w-56 mt-2 origin-top-right bg-white border border-gray-200 divide-y divide-gray-100 rounded-md shadow-lg outline-none" aria-labelledby="headlessui-menu-button-1" id="headlessui-menu-items-117" role="menu">
+                                                <div class="py-1">
+                                                <a href="javascript:void(0)" tabindex="0" class="flex w-full px-4 py-2 text-sm leading-5 text-left text-gray-700"  role="menuitem" >
+                                                    <i class="far fa-file mr-[10px] ml-[5px] py-1"></i>
+                                                    <span class="px-4 py-0">Pogledaj detalje</span>
+                                                </a>
+
+                                                <a href="javascript:void(0)" tabindex="0" class="flex w-full px-4 py-2 text-sm leading-5 text-left text-gray-700"  role="menuitem" >
+                                                    <i class="far fa-hand-scissors mr-[10px] ml-[5px] py-1"></i>
+                                                    <span class="px-4 py-0">Izdaj knjigu</span>
+                                                </a>
+
+                                                <a href="javascript:void(0)" tabindex="0" class="flex w-full px-4 py-2 text-sm leading-5 text-left text-gray-700"  role="menuitem" >
+                                                    <i class="fas fa-redo-alt mr-[10px] ml-[5px] py-1"></i>
+                                                    <span class="px-4 py-0">Vrati knjigu</span>
+                                                </a>
+
+                                                <a href="javascript:void(0)" tabindex="0" class="flex w-full px-4 py-2 text-sm leading-5 text-left text-gray-700"  role="menuitem" >
+                                                    <i class="fa fa-trash mr-[10px] ml-[5px] py-1"></i>
+                                                    <span class="px-4 py-0">Izbrisi knjigu</span>
+                                                </a>
+                                                </div>
+                                            </div>
+                                        </div> 
                                     </td>
                                 </tr>
                                 <tr class="border-b-2 border-gray-300">
@@ -207,9 +257,34 @@
                                     </span>
                                     </td>
                                     <td class="px-6 py-4 text-sm leading-5 text-right whitespace-no-wrap">
-                                        <p class="inline cursor-pointer text-[20px] py-[10px] px-[30px] border-gray-300">
-                                            <i class="fas fa-ellipsis-v"></i>
+                                        <p class="inline cursor-pointer text-[20px] py-[10px] px-[30px] border-gray-300" id="dropdownBookRow3">
+                                            <i class="fas fa-ellipsis-v hover:text-gray-500 focus:outline-none active:text-gray-800"></i>
                                         </p>
+                                        <div class="relative z-20 hidden transition-all duration-300 origin-top-right transform scale-95 -translate-y-2 dropdown-menu-book-row3">
+                                            <div class="absolute right-0 w-56 mt-2 origin-top-right bg-white border border-gray-200 divide-y divide-gray-100 rounded-md shadow-lg outline-none" aria-labelledby="headlessui-menu-button-1" id="headlessui-menu-items-117" role="menu">
+                                                <div class="py-1">
+                                                <a href="javascript:void(0)" tabindex="0" class="flex w-full px-4 py-2 text-sm leading-5 text-left text-gray-700"  role="menuitem" >
+                                                    <i class="far fa-file mr-[10px] ml-[5px] py-1"></i>
+                                                    <span class="px-4 py-0">Pogledaj detalje</span>
+                                                </a>
+
+                                                <a href="javascript:void(0)" tabindex="0" class="flex w-full px-4 py-2 text-sm leading-5 text-left text-gray-700"  role="menuitem" >
+                                                    <i class="far fa-hand-scissors mr-[10px] ml-[5px] py-1"></i>
+                                                    <span class="px-4 py-0">Izdaj knjigu</span>
+                                                </a>
+
+                                                <a href="javascript:void(0)" tabindex="0" class="flex w-full px-4 py-2 text-sm leading-5 text-left text-gray-700"  role="menuitem" >
+                                                    <i class="fas fa-redo-alt mr-[10px] ml-[5px] py-1"></i>
+                                                    <span class="px-4 py-0">Vrati knjigu</span>
+                                                </a>
+
+                                                <a href="javascript:void(0)" tabindex="0" class="flex w-full px-4 py-2 text-sm leading-5 text-left text-gray-700"  role="menuitem" >
+                                                    <i class="fa fa-trash mr-[10px] ml-[5px] py-1"></i>
+                                                    <span class="px-4 py-0">Izbrisi knjigu</span>
+                                                </a>
+                                                </div>
+                                            </div>
+                                        </div> 
                                     </td>
                                 </tr>
                                 <tr class="border-b-2 border-gray-300">
@@ -231,9 +306,34 @@
                                     </span>
                                     </td>
                                     <td class="px-6 py-4 text-sm leading-5 text-right whitespace-no-wrap">
-                                        <p class="inline cursor-pointer text-[20px] py-[10px] px-[30px] border-gray-300">
-                                            <i class="fas fa-ellipsis-v"></i>
+                                        <p class="inline cursor-pointer text-[20px] py-[10px] px-[30px] border-gray-300" id="dropdownBookRow4">
+                                            <i class="fas fa-ellipsis-v hover:text-gray-500 focus:outline-none active:text-gray-800"></i>
                                         </p>
+                                        <div class="relative z-20 hidden transition-all duration-300 origin-top-right transform scale-95 -translate-y-2 dropdown-menu-book-row4">
+                                            <div class="absolute right-0 w-56 mt-2 origin-top-right bg-white border border-gray-200 divide-y divide-gray-100 rounded-md shadow-lg outline-none" aria-labelledby="headlessui-menu-button-1" id="headlessui-menu-items-117" role="menu">
+                                                <div class="py-1">
+                                                <a href="javascript:void(0)" tabindex="0" class="flex w-full px-4 py-2 text-sm leading-5 text-left text-gray-700"  role="menuitem" >
+                                                    <i class="far fa-file mr-[10px] ml-[5px] py-1"></i>
+                                                    <span class="px-4 py-0">Pogledaj detalje</span>
+                                                </a>
+
+                                                <a href="javascript:void(0)" tabindex="0" class="flex w-full px-4 py-2 text-sm leading-5 text-left text-gray-700"  role="menuitem" >
+                                                    <i class="far fa-hand-scissors mr-[10px] ml-[5px] py-1"></i>
+                                                    <span class="px-4 py-0">Izdaj knjigu</span>
+                                                </a>
+
+                                                <a href="javascript:void(0)" tabindex="0" class="flex w-full px-4 py-2 text-sm leading-5 text-left text-gray-700"  role="menuitem" >
+                                                    <i class="fas fa-redo-alt mr-[10px] ml-[5px] py-1"></i>
+                                                    <span class="px-4 py-0">Vrati knjigu</span>
+                                                </a>
+
+                                                <a href="javascript:void(0)" tabindex="0" class="flex w-full px-4 py-2 text-sm leading-5 text-left text-gray-700"  role="menuitem" >
+                                                    <i class="fa fa-trash mr-[10px] ml-[5px] py-1"></i>
+                                                    <span class="px-4 py-0">Izbrisi knjigu</span>
+                                                </a>
+                                                </div>
+                                            </div>
+                                        </div> 
                                     </td>
                                 </tr>
                         </tbody>
