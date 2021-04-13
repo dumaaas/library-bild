@@ -67,6 +67,95 @@ $(document).ready(function () {
     $('.activity-card:gt(6)').hide();
     $('.activity-showMore').show();
   }
+
+  // Dropdown
+  $('#dropdownStudent').click(function() {
+    $('.dropdown-menu-student').toggle();
+  });
+
+  $('#dropdownBookRow1').click(function() {
+    $('.dropdown-menu-book-row1').toggle();
+  });
+
+  $('#dropdownBookRow2').click(function() {
+    $('.dropdown-menu-book-row2').toggle();
+  });
+
+  $('#dropdownBookRow3').click(function() {
+    $('.dropdown-menu-book-row3').toggle();
+  });
+
+  $('#dropdownBookRow4').click(function() {
+    $('.dropdown-menu-book-row4').toggle();
+  });
+
+  $('#dropdownBookDetail').click(function() {
+    $('.dropdown-menu-book-detail').toggle();
+  });
+
+  $('#dropdownRentalRecordRow1').click(function() {
+    $('.dropdown-menu-rental-record-row1').toggle();
+  });
+
+  $('#dropdownRentalRecordRow2').click(function() {
+    $('.dropdown-menu-rental-record-row2').toggle();
+  });
+
+  $('#dropdownRentalRecordRow3').click(function() {
+    $('.dropdown-menu-rental-record-row3').toggle();
+  });
+
+  $('#dropdownRentalRecordRow4').click(function() {
+    $('.dropdown-menu-rental-record-row4').toggle();
+  });
+
+  $('#dropdownRentalRecordRow5').click(function() {
+    $('.dropdown-menu-rental-record-row5').toggle();
+  });
+
+  $('#dropdownRentalRecordRow6').click(function() {
+    $('.dropdown-menu-rental-record-row6').toggle();
+  });
+
+  $('#dropdownRentalRecordRow7').click(function() {
+    $('.dropdown-menu-rental-record-row7').toggle();
+  });
+
+  $('#dropdownRentalRecordRow8').click(function() {
+    $('.dropdown-menu-rental-record-row8').toggle();
+  });
+
+  $('#dropdownRentalRecordDetailsRow1').click(function() {
+    $('.dropdown-menu-rental-record-details-row1').toggle();
+  });
+
+  $('#dropdownRentalRecordDetailsRow2').click(function() {
+    $('.dropdown-menu-rental-record-details-row2').toggle();
+  });
+
+  $('#dropdownRentalRecordDetailsRow3').click(function() {
+    $('.dropdown-menu-rental-record-details-row3').toggle();
+  });
+
+  $('#dropdownRentalRecordDetailsRow4').click(function() {
+    $('.dropdown-menu-rental-record-details-row4').toggle();
+  });
+
+  $('#dropdownRentalRecordDetailsRow5').click(function() {
+    $('.dropdown-menu-rental-record-details-row5').toggle();
+  });
+
+  $('#dropdownRentalRecordDetailsRow6').click(function() {
+    $('.dropdown-menu-rental-record-details-row6').toggle();
+  });
+
+  $('#dropdownRentalRecordDetailsRow7').click(function() {
+    $('.dropdown-menu-rental-record-details-row7').toggle();
+  });
+
+  $('#dropdownRentalRecordDetailsRow8').click(function() {
+    $('.dropdown-menu-rental-record-details-row8').toggle();
+  });
 });
 
 
@@ -173,3 +262,4 @@ function dataFileDnD() {
       }
   };
 }
+
