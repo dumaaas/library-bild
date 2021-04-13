@@ -48,7 +48,7 @@
                             <nav class="w-full rounded">
                                 <ol class="flex list-reset">
                                     <li>
-                                        <a href="#" class="font-medium text-blue-600 hover:text-blue-800">
+                                        <a href="bibliotekari.php" class="font-medium text-blue-600 hover:text-blue-800">
                                             Svi bibliotekari
                                         </a>
                                     </li>
@@ -56,7 +56,7 @@
                                         <span class="mx-2">/</span>
                                     </li>
                                     <li>
-                                        <a href="../bibliotekari/profile.php" class="font-medium text-blue-600 hover:text-blue-800">
+                                        <a href="bibliotekarProfile.php" class="font-medium text-blue-600 hover:text-blue-800">
                                             ID-242
                                         </a>
                                     </li>

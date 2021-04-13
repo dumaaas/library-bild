@@ -13,7 +13,7 @@
     <!-- End Meta -->
 
     <!-- Title -->
-    <title>Profile | Library - ICT Cortex student project</title>
+    <title>Vrati knjigu | Library - ICT Cortex student project</title>
     <link rel="shortcut icon" href="library-favicon.ico" type="image/vnd.microsoft.icon" />
     <!-- End Title -->
 
@@ -52,7 +52,7 @@
                                 <nav class="w-full rounded">
                                     <ol class="flex list-reset">
                                         <li>
-                                            <a href="#" class="font-medium text-blue-600 hover:text-blue-800">
+                                            <a href="evidencija.php" class="font-medium text-blue-600 hover:text-blue-800">
                                                 Evidencija knjiga
                                             </a>
                                         </li>
@@ -86,7 +86,7 @@
                             <i class="fas fa-redo-alt mr-[3px] "></i>
                             Vrati knjigu
                         </a>
-                        <a href="#" class="hover:text-blue-600 inline ml-[20px] pr-[10px]">
+                        <a href="rezervisiKnjigu.php" class="hover:text-blue-600 inline ml-[20px] pr-[10px]">
                             <i class="far fa-calendar-check mr-[3px] "></i>
                             Rezervisi knjigu
                         </a>

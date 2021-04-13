@@ -50,6 +50,8 @@ $(function () {
   });
 });
 
+
+//when chekbox is cheked button is enabled, otherwise it is disabled
 $(function () {
   $('.form-checkbox').click(function () {
     if ($('.form-checkbox:checked').length > 0) {
@@ -60,7 +62,6 @@ $(function () {
   });
 });
 
-
 $(document).ready(function () {
   //this will execute on page load(to be more specific when document ready event occurs)
   if ($('.activity-card').length > 6) {
@@ -69,91 +70,91 @@ $(document).ready(function () {
   }
 
   // Dropdown
-  $('#dropdownStudent').click(function() {
+  $('#dropdownStudent').click(function () {
     $('.dropdown-menu-student').toggle();
   });
 
-  $('#dropdownBookRow1').click(function() {
+  $('#dropdownBookRow1').click(function () {
     $('.dropdown-menu-book-row1').toggle();
   });
 
-  $('#dropdownBookRow2').click(function() {
+  $('#dropdownBookRow2').click(function () {
     $('.dropdown-menu-book-row2').toggle();
   });
 
-  $('#dropdownBookRow3').click(function() {
+  $('#dropdownBookRow3').click(function () {
     $('.dropdown-menu-book-row3').toggle();
   });
 
-  $('#dropdownBookRow4').click(function() {
+  $('#dropdownBookRow4').click(function () {
     $('.dropdown-menu-book-row4').toggle();
   });
 
-  $('#dropdownBookDetail').click(function() {
+  $('#dropdownBookDetail').click(function () {
     $('.dropdown-menu-book-detail').toggle();
   });
 
-  $('#dropdownRentalRecordRow1').click(function() {
+  $('#dropdownRentalRecordRow1').click(function () {
     $('.dropdown-menu-rental-record-row1').toggle();
   });
 
-  $('#dropdownRentalRecordRow2').click(function() {
+  $('#dropdownRentalRecordRow2').click(function () {
     $('.dropdown-menu-rental-record-row2').toggle();
   });
 
-  $('#dropdownRentalRecordRow3').click(function() {
+  $('#dropdownRentalRecordRow3').click(function () {
     $('.dropdown-menu-rental-record-row3').toggle();
   });
 
-  $('#dropdownRentalRecordRow4').click(function() {
+  $('#dropdownRentalRecordRow4').click(function () {
     $('.dropdown-menu-rental-record-row4').toggle();
   });
 
-  $('#dropdownRentalRecordRow5').click(function() {
+  $('#dropdownRentalRecordRow5').click(function () {
     $('.dropdown-menu-rental-record-row5').toggle();
   });
 
-  $('#dropdownRentalRecordRow6').click(function() {
+  $('#dropdownRentalRecordRow6').click(function () {
     $('.dropdown-menu-rental-record-row6').toggle();
   });
 
-  $('#dropdownRentalRecordRow7').click(function() {
+  $('#dropdownRentalRecordRow7').click(function () {
     $('.dropdown-menu-rental-record-row7').toggle();
   });
 
-  $('#dropdownRentalRecordRow8').click(function() {
+  $('#dropdownRentalRecordRow8').click(function () {
     $('.dropdown-menu-rental-record-row8').toggle();
   });
 
-  $('#dropdownRentalRecordDetailsRow1').click(function() {
+  $('#dropdownRentalRecordDetailsRow1').click(function () {
     $('.dropdown-menu-rental-record-details-row1').toggle();
   });
 
-  $('#dropdownRentalRecordDetailsRow2').click(function() {
+  $('#dropdownRentalRecordDetailsRow2').click(function () {
     $('.dropdown-menu-rental-record-details-row2').toggle();
   });
 
-  $('#dropdownRentalRecordDetailsRow3').click(function() {
+  $('#dropdownRentalRecordDetailsRow3').click(function () {
     $('.dropdown-menu-rental-record-details-row3').toggle();
   });
 
-  $('#dropdownRentalRecordDetailsRow4').click(function() {
+  $('#dropdownRentalRecordDetailsRow4').click(function () {
     $('.dropdown-menu-rental-record-details-row4').toggle();
   });
 
-  $('#dropdownRentalRecordDetailsRow5').click(function() {
+  $('#dropdownRentalRecordDetailsRow5').click(function () {
     $('.dropdown-menu-rental-record-details-row5').toggle();
   });
 
-  $('#dropdownRentalRecordDetailsRow6').click(function() {
+  $('#dropdownRentalRecordDetailsRow6').click(function () {
     $('.dropdown-menu-rental-record-details-row6').toggle();
   });
 
-  $('#dropdownRentalRecordDetailsRow7').click(function() {
+  $('#dropdownRentalRecordDetailsRow7').click(function () {
     $('.dropdown-menu-rental-record-details-row7').toggle();
   });
 
-  $('#dropdownRentalRecordDetailsRow8').click(function() {
+  $('#dropdownRentalRecordDetailsRow8').click(function () {
     $('.dropdown-menu-rental-record-details-row8').toggle();
   });
 });
@@ -176,26 +177,26 @@ function AddReadMore() {
 
 
   //Traverse all selectors with this class and manupulate HTML part to show Read More
-  $(".addReadMore").each(function() {
-      if ($(this).find(".firstSec").length)
-          return;
+  $(".addReadMore").each(function () {
+    if ($(this).find(".firstSec").length)
+      return;
 
-      var allstr = $(this).text();
-      if (allstr.length > carLmt) {
-          var firstSet = allstr.substring(0, carLmt);
-          var secdHalf = allstr.substring(carLmt, allstr.length);
-          var strtoadd = firstSet + "<span class='SecSec'>" + secdHalf + "</span><span class='readMore'  title='Click to Show More'>" + readMoreTxt + "</span><span class='readLess' title='Click to Show Less'>" + readLessTxt + "</span>";
-          $(this).html(strtoadd);
-      }
+    var allstr = $(this).text();
+    if (allstr.length > carLmt) {
+      var firstSet = allstr.substring(0, carLmt);
+      var secdHalf = allstr.substring(carLmt, allstr.length);
+      var strtoadd = firstSet + "<span class='SecSec'>" + secdHalf + "</span><span class='readMore'  title='Click to Show More'>" + readMoreTxt + "</span><span class='readLess' title='Click to Show Less'>" + readLessTxt + "</span>";
+      $(this).html(strtoadd);
+    }
 
   });
   //Read More and Read Less Click Event binding
-  $(document).on("click", ".readMore,.readLess", function() {
-      $(this).closest(".addReadMore").toggleClass("showlesscontent showmorecontent");
+  $(document).on("click", ".readMore,.readLess", function () {
+    $(this).closest(".addReadMore").toggleClass("showlesscontent showmorecontent");
   });
 }
 
-$(function() {
+$(function () {
   //Calling function after Page Load
   AddReadMore();
 });
@@ -203,63 +204,63 @@ $(function() {
 // File upload
 function dataFileDnD() {
   return {
-      files: [],
-      fileDragging: null,
-      fileDropping: null,
-      humanFileSize(size) {
-          const i = Math.floor(Math.log(size) / Math.log(1024));
-          return (
-              (size / Math.pow(1024, i)).toFixed(2) * 1 +
-              " " +
-              ["B", "kB", "MB", "GB", "TB"][i]
-          );
-      },
-      remove(index) {
-          let files = [...this.files];
-          files.splice(index, 1);
+    files: [],
+    fileDragging: null,
+    fileDropping: null,
+    humanFileSize(size) {
+      const i = Math.floor(Math.log(size) / Math.log(1024));
+      return (
+        (size / Math.pow(1024, i)).toFixed(2) * 1 +
+        " " + ["B", "kB", "MB", "GB", "TB"][i]
+      );
+    },
+    remove(index) {
+      let files = [...this.files];
+      files.splice(index, 1);
 
-          this.files = createFileList(files);
-      },
-      drop(e) {
-          let removed, add;
-          let files = [...this.files];
+      this.files = createFileList(files);
+    },
+    drop(e) {
+      let removed, add;
+      let files = [...this.files];
 
-          removed = files.splice(this.fileDragging, 1);
-          files.splice(this.fileDropping, 0, ...removed);
+      removed = files.splice(this.fileDragging, 1);
+      files.splice(this.fileDropping, 0, ...removed);
 
-          this.files = createFileList(files);
+      this.files = createFileList(files);
 
-          this.fileDropping = null;
-          this.fileDragging = null;
-      },
-      dragenter(e) {
-          let targetElem = e.target.closest("[draggable]");
+      this.fileDropping = null;
+      this.fileDragging = null;
+    },
+    dragenter(e) {
+      let targetElem = e.target.closest("[draggable]");
 
-          this.fileDropping = targetElem.getAttribute("data-index");
-      },
-      dragstart(e) {
-          this.fileDragging = e.target
-              .closest("[draggable]")
-              .getAttribute("data-index");
-          e.dataTransfer.effectAllowed = "move";
-      },
-      loadFile(file) {
-          const preview = document.querySelectorAll(".preview");
-          const blobUrl = URL.createObjectURL(file);
+      this.fileDropping = targetElem.getAttribute("data-index");
+    },
+    dragstart(e) {
+      this.fileDragging = e.target
+        .closest("[draggable]")
+        .getAttribute("data-index");
+      e.dataTransfer.effectAllowed = "move";
+    },
+    loadFile(file) {
+      const preview = document.querySelectorAll(".preview");
+      const blobUrl = URL.createObjectURL(file);
 
-          preview.forEach(elem => {
-              elem.onload = () => {
-                  URL.revokeObjectURL(elem.src); // free memory
-              };
-          });
+      preview.forEach(elem => {
+        elem.onload = () => {
+          URL.revokeObjectURL(elem.src); // free memory
+        };
+      });
 
-          return blobUrl;
-      },
-      addFiles(e) {
-          const files = createFileList([...this.files], [...e.target.files]);
-          this.files = files;
-          this.form.formData.files = [...files];
-      }
+      return blobUrl;
+    },
+    addFiles(e) {
+      const files = createFileList([...this.files], [...e.target.files]);
+      this.files = files;
+      this.form.formData.files = [...files];
+    }
   };
 }
+
 

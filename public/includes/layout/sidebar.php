@@ -1,8 +1,7 @@
 <nav id="sidebar" class="z-10 overflow-y-auto overflow-x-hidden sidebar fixed nav-height flex flex-col justify-between bg-[#fafbfc] border-r-[1px] border-[#c9c8c8]">
-<!-- Hamburger Icon -->
-    
     <div class="">
-        <div class="cursor-pointer text-[#5c5c5c] pl-[28px] mt-[26px] text-[25px] border-b-[2px] border-[#e4dfdf] pb-[25px]">
+        <!-- Hamburger Icon -->
+        <div class="cursor-pointer text-[#5c5c5c] pl-[28px] mt-[37px] text-[25px] border-b-[2px] border-[#e4dfdf] pb-[28px]">
             <i id="hamburger" class="hamburger-btn fas fa-bars"></i>
         </div>  
         <div class="px-[25px] mt-[10px]">

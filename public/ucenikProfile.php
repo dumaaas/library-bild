@@ -48,7 +48,7 @@
                             <nav class="w-full rounded">
                                 <ol class="flex list-reset">
                                     <li>
-                                        <a href="#" class="font-medium text-blue-600 hover:text-blue-800">
+                                        <a href="ucenik.php" class="font-medium text-blue-600 hover:text-blue-800">
                                             Svi ucenici
                                         </a>
                                     </li>
@@ -56,7 +56,7 @@
                                         <span class="mx-2">/</span>
                                     </li>
                                     <li>
-                                        <a href="../ucenici/profile.php" class="font-medium text-blue-600 hover:text-blue-800">
+                                        <a href="ucenikProfile.php" class="font-medium text-blue-600 hover:text-blue-800">
                                             ID-354
                                         </a>
                                     </li>

@@ -845,7 +845,7 @@ body {
   left: 0px;
 }
 .right-0 {
-    right: 0px;
+  right: 0px;
 }
 .top-\[10px\] {
   top: 10px;
@@ -862,12 +862,6 @@ body {
 .bottom-\[20px\] {
   bottom: 20px;
 }
-<<<<<<< HEAD
-.right-0 {
-  right: 0px;
-}
-=======
->>>>>>> c4540d217a25075c21d2a6d7fccff8dec52a6418
 .top-0 {
   top: 0px;
 }
@@ -881,7 +875,7 @@ body {
   z-index: 0;
 }
 .z-20 {
-    z-index: 20;
+  z-index: 20;
 }
 .z-50 {
   z-index: 50;
@@ -889,12 +883,6 @@ body {
 .z-40 {
   z-index: 40;
 }
-<<<<<<< HEAD
-.z-20 {
-  z-index: 20;
-}
-=======
->>>>>>> c4540d217a25075c21d2a6d7fccff8dec52a6418
 .z-10 {
   z-index: 10;
 }
@@ -958,6 +946,9 @@ body {
 .ml-\[100px\] {
   margin-left: 100px;
 }
+.mt-\[14px\] {
+  margin-top: 14px;
+}
 .mb-\[20px\] {
   margin-bottom: 20px;
 }
@@ -998,23 +989,13 @@ body {
   margin-bottom: 10px;
 }
 .ml-\[18px\] {
-<<<<<<< HEAD
   margin-left: 18px;
-=======
-    margin-left: 18px;
 }
 .mr-\[10px\] {
-    margin-right: 10px;
+  margin-right: 10px;
 }
 .ml-\[5px\] {
-    margin-left: 5px;
-}
-.mr-\[40px\] {
-    margin-right: 40px;
-}
-.mt-10 {
-    margin-top: 2.5rem;
->>>>>>> c4540d217a25075c21d2a6d7fccff8dec52a6418
+  margin-left: 5px;
 }
 .ml-\[70px\] {
   margin-left: 70px;
@@ -1085,8 +1066,8 @@ body {
 .ml-\[10px\] {
   margin-left: 10px;
 }
-.mt-\[26px\] {
-  margin-top: 26px;
+.mt-\[37px\] {
+  margin-top: 37px;
 }
 .ml-\[4px\] {
   margin-left: 4px;
@@ -1197,7 +1178,7 @@ body {
   width: 300px;
 }
 .w-56 {
-    width: 14rem;
+  width: 14rem;
 }
 .w-\[80px\] {
   width: 80px;
@@ -1270,17 +1251,17 @@ body {
   transform: translateX(var(--tw-translate-x)) translateY(var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
 }
 .origin-top-right {
-    transform-origin: top right;
+  transform-origin: top right;
 }
 .-translate-y-2 {
-    --tw-translate-y: -0.5rem;
+  --tw-translate-y: -0.5rem;
 }
 .-translate-y-2\/3 {
   --tw-translate-y: -66.666667%;
 }
 .scale-95 {
-    --tw-scale-x: .95;
-    --tw-scale-y: .95;
+  --tw-scale-x: .95;
+  --tw-scale-y: .95;
 }
 .cursor-pointer {
   cursor: pointer;
@@ -1335,13 +1316,13 @@ body {
   margin-left: calc(0.75rem * calc(1 - var(--tw-space-x-reverse)));
 }
 .divide-y > :not([hidden]) ~ :not([hidden]) {
-    --tw-divide-y-reverse: 0;
-    border-top-width: calc(1px * calc(1 - var(--tw-divide-y-reverse)));
-    border-bottom-width: calc(1px * var(--tw-divide-y-reverse));
+  --tw-divide-y-reverse: 0;
+  border-top-width: calc(1px * calc(1 - var(--tw-divide-y-reverse)));
+  border-bottom-width: calc(1px * var(--tw-divide-y-reverse));
 }
 .divide-gray-100 > :not([hidden]) ~ :not([hidden]) {
-    --tw-divide-opacity: 1;
-    border-color: rgba(243, 244, 246, var(--tw-divide-opacity));
+  --tw-divide-opacity: 1;
+  border-color: rgba(243, 244, 246, var(--tw-divide-opacity));
 }
 .overflow-hidden {
   overflow: hidden;
@@ -1634,8 +1615,8 @@ body {
   padding-bottom: 0.25rem;
 }
 .py-0 {
-    padding-top: 0px;
-    padding-bottom: 0px;
+  padding-top: 0px;
+  padding-bottom: 0px;
 }
 .px-\[15px\] {
   padding-left: 15px;
@@ -1733,8 +1714,8 @@ body {
 .pl-\[28px\] {
   padding-left: 28px;
 }
-.pb-\[25px\] {
-  padding-bottom: 25px;
+.pb-\[28px\] {
+  padding-bottom: 28px;
 }
 .pl-\[3px\] {
   padding-left: 3px;
@@ -1946,9 +1927,9 @@ body {
   transition-duration: 150ms;
 }
 .transition-all {
-    transition-property: all;
-    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-    transition-duration: 150ms;
+  transition-property: all;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-duration: 150ms;
 }
 .transition-colors {
   transition-property: background-color, border-color, color, fill, stroke;
@@ -2020,8 +2001,8 @@ body {
   color: rgba(87, 108, 223, var(--tw-text-opacity));
 }
 .hover\:text-gray-500:hover {
-    --tw-text-opacity: 1;
-    color: rgba(107, 114, 128, var(--tw-text-opacity));
+  --tw-text-opacity: 1;
+  color: rgba(107, 114, 128, var(--tw-text-opacity));
 }
 .hover\:text-gray-800:hover {
   --tw-text-opacity: 1;
@@ -2060,8 +2041,8 @@ body {
   --tw-ring-color: rgba(87, 108, 223, var(--tw-ring-opacity));
 }
 .active\:text-gray-800:active {
-    --tw-text-opacity: 1;
-    color: rgba(31, 41, 55, var(--tw-text-opacity));
+  --tw-text-opacity: 1;
+  color: rgba(31, 41, 55, var(--tw-text-opacity));
 }
 .disabled\:opacity-50:disabled {
   opacity: 0.5;

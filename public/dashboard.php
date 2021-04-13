@@ -37,7 +37,7 @@
         <!-- Content -->
         <section class="w-screen h-screen pl-[80px] py-4 text-gray-700">
             <!-- Heading of content -->
-            <div class="heading">
+            <div class="heading mt-[14px]">
                 <h1 class="pl-[30px] pb-[20px] text-[35px] font-bold border-b-[2px] border-gray-300">
                     Dashboard
                 </h1>
@@ -452,7 +452,7 @@
                                 </tbody>
                             </table>
                             <div class="text-right mt-[5px]">
-                                <a href="#" class="text-blue-600 hover:text-blue-800">
+                                <a href="evidencijaRezervacije.php" class="text-blue-600 hover:text-blue-800">
                                     <i class="fas fa-calendar-alt mr-[4px]" aria-hidden="true"></i>
                                     Prikazi sve
                                 </a>

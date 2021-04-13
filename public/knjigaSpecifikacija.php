@@ -52,7 +52,7 @@
                                 <nav class="w-full rounded">
                                     <ol class="flex list-reset">
                                         <li>
-                                            <a href="#" class="font-medium text-blue-600 hover:text-blue-800">
+                                            <a href="evidencija.php" class="font-medium text-blue-600 hover:text-blue-800">
                                                 Evidencija knjiga
                                             </a>
                                         </li>
@@ -78,7 +78,7 @@
                             <i class="fas fa-redo-alt mr-[3px] "></i>
                             Vrati knjigu
                         </a>
-                        <a href="#" class="hover:text-blue-600 inline ml-[20px] pr-[10px]">
+                        <a href="rezervisiKnjigu.php" class="hover:text-blue-600 inline ml-[20px] pr-[10px]">
                             <i class="far fa-calendar-check mr-[3px] "></i>
                             Rezervisi knjigu
                         </a>
@@ -97,10 +97,10 @@
                         <a href="knjigaSpecifikacija.php" class="inline ml-[70px] active-book-nav hover:text-blue-800">
                             Specifikacija
                         </a>
-                        <a href="#" class="inline ml-[70px] hover:text-blue-800">
+                        <a href="evidencijaIznajmljivanja.php" class="inline ml-[70px] hover:text-blue-800">
                             Evidencija iznajmljivanja
                         </a>
-                        <a href="#" class="inline ml-[70px] hover:text-blue-800">
+                        <a href="evidencijaKnjigaMultimedija.php" class="inline ml-[70px] hover:text-blue-800">
                             Multimedija
                         </a>
                     </div>
@@ -267,7 +267,7 @@
                             </div>
                         </div>
                         <div class="mt-[55px]">
-                            <a href="#" class="text-blue-500 hover:text-blue-800">
+                            <a href="dashboardAktivnost.php" class="text-blue-500 hover:text-blue-800">
                                 <i class="fas fa-history"></i> Prikazi sve
                             </a>
                         </div>
