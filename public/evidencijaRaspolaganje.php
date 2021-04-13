@@ -65,14 +65,14 @@
                 <!-- Space for content -->
                   <div class="flex justify-start pt-3 overflow-hidden bg-white">
                         <div class="mt-[10px]">
-                            <ul class="text-[#5c5c5c] sidebar-nav">
-                             <li class="mb-[10px] bg-gray-300 py-2">
+                            <ul class="text-[#5c5c5c]">
+                             <li class="mb-[10px] py-2">
                                  <div class="w-[300px] pl-6">
                                      <span class=" whitespace-nowrap w-full text-[25px] flex justify-between fill-current">
                                          <div class="transition duration-300 ease-in hover:text-[#576cdf]">
                                              <a href="evidencija.php" aria-label="Sve knjige" class="flex items-center">
                                              <i class="far fa-copy"></i>
-                                                 <div class="sidebar-item">
+                                                 <div>
                                                      <p class="text-[18px] font-medium ml-[18px]">Sve knjige</p>
                                                  </div>
                                              </a>
@@ -86,8 +86,22 @@
                                          <div class="transition duration-300 ease-in hover:text-[#576cdf]">
                                              <a href="evidencijaIzdate.php" aria-label="Izdate knjige" class="flex items-center">
                                              <i class="fas fa-file"></i>
-                                                 <div class="sidebar-item">
+                                                 <div>
                                                      <p class="text-[18px] font-medium ml-[20px]">Izdate knjige</p>
+                                                 </div>
+                                             </a>
+                                         </div>
+                                     </span>
+                                 </div>
+                             </li>
+                             <li class="mb-[10px] bg-gray-300 py-2">
+                                 <div class="w-[300px] pl-6">
+                                     <span class=" whitespace-nowrap w-full text-[25px] flex justify-between fill-current">
+                                         <div class="transition duration-300 ease-in hover:text-[#576cdf]">
+                                             <a href="evidencijaRaspolaganje.php" aria-label="Knjige na raspolaganju" class="flex items-center">
+                                             <i class="far fa-file"></i>
+                                                 <div>
+                                                     <p class="text-[18px] font-medium ml-[20px]">Knjige na raspolaganju</p>
                                                  </div>
                                              </a>
                                          </div>
@@ -98,10 +112,10 @@
                                  <div class="w-[300px] pl-6">
                                      <span class=" whitespace-nowrap w-full text-[25px] flex justify-between fill-current">
                                          <div class="transition duration-300 ease-in hover:text-[#576cdf]">
-                                             <a href="evidencijaRaspolaganje.php" aria-label="Knjige na raspolaganju" class="flex items-center">
-                                             <i class="far fa-file"></i>
-                                                 <div class="sidebar-item">
-                                                     <p class="text-[18px] font-medium ml-[20px]">Knjige na raspolaganju</p>
+                                             <a href="evidencijaRezervacije.php" aria-label="Rezervacije" class="flex items-center">
+                                             <i class="far fa-check-square"></i>
+                                                 <div>
+                                                     <p class="text-[18px] font-medium ml-[18px]">Rezervacije</p>
                                                  </div>
                                              </a>
                                          </div>
@@ -118,7 +132,7 @@
                                     <label class="inline-flex items-center">
                                     <input type="checkbox" class="form-checkbox"></label>
                                 </th>
-                                <th class="px-4 py-3 leading-4 tracking-wider text-left">Naziv knjige<i class="ml-3 fa-lg fas fa-long-arrow-alt-down"></i></th>
+                                <th class="px-4 py-3 leading-4 tracking-wider text-left">Naziv knjige<a href="#"><i class="ml-3 fa-lg fas fa-long-arrow-alt-down"></i></a></th>
                                 <th class="px-4 py-3 text-sm leading-4 tracking-wider text-left">Autor</th>
                                 <th class="px-4 py-3 text-sm leading-4 tracking-wider text-left">Status</th>
                                 <th class="px-4 py-3"> </th>

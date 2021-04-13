@@ -69,7 +69,7 @@
                                     <label class="inline-flex items-center">
                                     <input type="checkbox" class="form-checkbox"></label>
                                 </th>
-                                <th class="px-4 py-3 leading-4 tracking-wider text-left">Ime i prezime<i class="ml-3 fa-lg fas fa-long-arrow-alt-down"></i></th>
+                                <th class="px-4 py-3 leading-4 tracking-wider text-left">Ime i prezime<a href="#"><i class="ml-3 fa-lg fas fa-long-arrow-alt-down"></i></a></th>
                                 <th class="px-4 py-3 text-sm leading-4 tracking-wider text-left">Email</th>
                                 <th class="px-4 py-3 text-sm leading-4 tracking-wider text-left">Tip korisnika</th>
                                 <th class="px-4 py-3 text-sm leading-4 tracking-wider text-left">Zadnji pristup sistemu</th>

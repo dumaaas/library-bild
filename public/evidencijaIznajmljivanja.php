@@ -70,15 +70,15 @@
                         </div>
                     </div>
                     <div class="mt-[15px] mr-[30px]">
-                        <a href="../knjige/izdajKnjigu.php" class="inline hover:text-blue-600">
+                        <a href="izdajKnjigu.php" class="inline hover:text-blue-600">
                             <i class="far fa-hand-scissors mr-[3px]"></i>
                             Izdaj knjigu
                         </a>
-                        <a href="../knjige/vratiKnjigu.php" class="hover:text-blue-600 inline ml-[20px] pr-[10px]">
+                        <a href="vratiKnjigu.php" class="hover:text-blue-600 inline ml-[20px] pr-[10px]">
                             <i class="fas fa-redo-alt mr-[3px] "></i>
                             Vrati knjigu
                         </a>
-                        <a href="#" class="hover:text-blue-600 inline ml-[20px] pr-[10px]">
+                        <a href="rezervisiKnjigu.php" class="hover:text-blue-600 inline ml-[20px] pr-[10px]">
                             <i class="far fa-calendar-check mr-[3px] "></i>
                             Rezervisi knjigu
                         </a>
@@ -114,7 +114,7 @@
                                     <label class="inline-flex items-center">
                                     <input type="checkbox" class="form-checkbox"></label>
                                 </th>
-                                <th class="px-4 py-3 text-sm leading-4 tracking-wider text-left">Datum akcije<i class="ml-3 fa-lg fas fa-long-arrow-alt-down"></i></th>
+                                <th class="px-4 py-3 text-sm leading-4 tracking-wider text-left">Datum akcije<a href="#"><i class="ml-3 fa-lg fas fa-long-arrow-alt-down"></i></a></th>
                                 <th class="px-4 py-3 text-sm leading-4 tracking-wider text-left">Tip akcije</th>
                                 <th class="px-4 py-3 text-sm leading-4 tracking-wider text-left">Bibliotekar</th>
                                 <th class="px-4 py-3 text-sm leading-4 tracking-wider text-left">Ucenik</th>
