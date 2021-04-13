@@ -44,7 +44,7 @@
             <!-- Space for content -->
             <div class="scroll height-ucenikEvidencija section-content">
                 <div class="flex items-center justify-between px-[50px] py-4 space-x-3 rounded-lg">
-                    <button type="button" class="px-4 py-2 text-lg font-semibold tracking-wider text-white bg-blue-500 hover:bg-blue-600 focus:outline-none hover:outline-none w-[250px] border-2 border-black">Novi ucenik</button>
+                <a href="noviUcenik.php"><button type="button" class="px-4 py-2 text-lg font-semibold tracking-wider text-white bg-blue-500 hover:bg-blue-600 focus:outline-none hover:outline-none w-[250px] border-2 border-black">Novi ucenik</button></a>
                     <div class="flex items-center">
                         <div class="relative text-gray-600 focus-within:text-gray-400">
                             <span class="absolute inset-y-0 left-0 flex items-center pl-2">
