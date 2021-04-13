@@ -175,7 +175,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="mt-[55px] mx-[30px]">
+                    <div class="mt-[40px] mx-[30px]">
                         <div class="flex flex-col">
                             <div class="text-gray-500 ">
                                 <p class="inline uppercase">
@@ -206,7 +206,7 @@
                                 </a>
                             </div>
                         </div>
-                        <div class="mt-[55px] flex flex-col">
+                        <div class="mt-[40px] flex flex-col">
                             <div class="text-gray-500 ">
                                 <p class="inline uppercase">
                                     Izdavanja knjige
@@ -236,7 +236,7 @@
                                 </a>
                             </div>
                         </div>
-                        <div class="mt-[55px] flex flex-col">
+                        <div class="mt-[40px] flex flex-col">
                             <div class="text-gray-500 ">
                                 <p class="inline uppercase">
                                     Izdavanja knjige
@@ -266,7 +266,7 @@
                                 </a>
                             </div>
                         </div>
-                        <div class="mt-[55px]">
+                        <div class="mt-[40px]">
                             <a href="dashboardAktivnost.php" class="text-blue-500 hover:text-blue-800">
                                 <i class="fas fa-history"></i> Prikazi sve
                             </a>

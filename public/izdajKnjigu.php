@@ -68,7 +68,7 @@
                                             <span class="mx-2">/</span>
                                         </li>
                                         <li>
-                                            <a href="izdajKnjigu.php" class="font-medium text-gray-600 hover:text-gray-800">
+                                            <a href="#" class="font-medium text-gray-600 hover:text-gray-800">
                                                 Izdaj knjigu
                                             </a>
                                         </li>
@@ -79,7 +79,7 @@
                     </div>
                     
                     <div class="mt-[15px] mr-[30px]">
-                        <a href="izdajKnjigu.php" class="inline hover:text-blue-600">
+                        <a href="#" class="inline hover:text-blue-600">
                             <i class="far fa-hand-scissors mr-[3px]"></i>
                             Izdaj knjigu
                         </a>

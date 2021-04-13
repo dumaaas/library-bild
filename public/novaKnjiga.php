@@ -48,7 +48,7 @@
                             <nav class="w-full rounded">
                                 <ol class="flex list-reset">
                                     <li>
-                                        <a href="evidencijaKnjiga.php" class="font-medium text-blue-600 hover:text-blue-800">
+                                        <a href="evidencija.php" class="font-medium text-blue-600 hover:text-blue-800">
                                             Evidencija knjiga
                                         </a>
                                     </li>
