@@ -1454,10 +1454,6 @@ body {
   --tw-border-opacity: 1;
   border-color: rgba(255, 255, 255, var(--tw-border-opacity));
 }
-.border-gray-400 {
-  --tw-border-opacity: 1;
-  border-color: rgba(156, 163, 175, var(--tw-border-opacity));
-}
 .border-\[\#c9c8c8\] {
   --tw-border-opacity: 1;
   border-color: rgba(201, 200, 200, var(--tw-border-opacity));
@@ -1894,9 +1890,6 @@ body {
 }
 .opacity-0 {
   opacity: 0;
-}
-.opacity-50 {
-  opacity: 0.5;
 }
 .shadow-sm {
   --tw-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
