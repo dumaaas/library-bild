@@ -145,15 +145,9 @@
                                                 <i class="fas fa-times"></i>
                                             </a>
                                         </td>
-<<<<<<< HEAD:public/evidencijaIznajmljivanja.php
-                                    <td class="px-4 py-4 text-sm leading-5 text-right whitespace-no-wrap">
-                                        <p class="inline cursor-pointer text-[20px] py-[10px] px-[30px]">
-                                            <i class="fas fa-ellipsis-v"></i>
-=======
                                     <td class="px-6 py-4 text-sm leading-5 text-right whitespace-no-wrap">
                                         <p class="inline cursor-pointer text-[20px] py-[10px] px-[30px]" id="dropdownRentalRecordRow1">
                                             <i class="fas fa-ellipsis-v hover:text-gray-500 focus:outline-none active:text-gray-800"></i>
->>>>>>> c4540d217a25075c21d2a6d7fccff8dec52a6418:public/evidencijaKnjigaKKTSEvidencijaI.php
                                         </p>
                                         <div class="relative z-20 hidden transition-all duration-300 origin-top-right transform scale-95 -translate-y-2 dropdown-menu-rental-record-row1">
                                             <div class="absolute right-0 w-56 mt-2 origin-top-right bg-white border border-gray-200 divide-y divide-gray-100 rounded-md shadow-lg outline-none" aria-labelledby="headlessui-menu-button-1" id="headlessui-menu-items-117" role="menu">
@@ -193,15 +187,9 @@
                                                 <i class="fas fa-times"></i>
                                             </a>
                                         </td>
-<<<<<<< HEAD:public/evidencijaIznajmljivanja.php
-                                    <td class="px-4 py-4 text-sm leading-5 text-right whitespace-no-wrap">
-                                        <p class="inline cursor-pointer text-[20px] py-[10px] px-[30px]">
-                                            <i class="fas fa-ellipsis-v"></i>
-=======
                                     <td class="px-6 py-4 text-sm leading-5 text-right whitespace-no-wrap">
                                         <p class="inline cursor-pointer text-[20px] py-[10px] px-[30px]" id="dropdownRentalRecordRow2">
                                             <i class="fas fa-ellipsis-v hover:text-gray-500 focus:outline-none active:text-gray-800"></i>
->>>>>>> c4540d217a25075c21d2a6d7fccff8dec52a6418:public/evidencijaKnjigaKKTSEvidencijaI.php
                                         </p>
                                         <div class="relative z-20 hidden transition-all duration-300 origin-top-right transform scale-95 -translate-y-2 dropdown-menu-rental-record-row2">
                                             <div class="absolute right-0 w-56 mt-2 origin-top-right bg-white border border-gray-200 divide-y divide-gray-100 rounded-md shadow-lg outline-none" aria-labelledby="headlessui-menu-button-1" id="headlessui-menu-items-117" role="menu">
@@ -231,14 +219,6 @@
                                         <span class="relative text-xs text-white">Izdavanje knjige</span>
                                     </span>
                                     </td>
-<<<<<<< HEAD:public/evidencijaIznajmljivanja.php
-                                    <td class="px-4 py-4 text-sm leading-5 whitespace-no-wrap">Valentina Kascelan</td>
-                                    <td class="px-4 py-4 text-sm leading-5 whitespace-no-wrap">Milos Milosevic</td>
-                                    <td class="px-4 py-2"></td>
-                                    <td class="px-4 py-4 text-sm leading-5 text-right whitespace-no-wrap">
-                                        <p class="inline cursor-pointer text-[20px] py-[10px] px-[30px]">
-                                            <i class="fas fa-ellipsis-v"></i>
-=======
                                     <td class="px-6 py-4 text-sm leading-5 whitespace-no-wrap">Valentina Kascelan</td>
                                     <td class="px-6 py-4 text-sm leading-5 whitespace-no-wrap">Milos Milosevic</td>
                                     <td class="hidden px-2 py-2">
@@ -252,7 +232,6 @@
                                     <td class="px-6 py-4 text-sm leading-5 text-right whitespace-no-wrap">
                                         <p class="inline cursor-pointer text-[20px] py-[10px] px-[30px]" id="dropdownRentalRecordRow3">
                                             <i class="fas fa-ellipsis-v hover:text-gray-500 focus:outline-none active:text-gray-800"></i>
->>>>>>> c4540d217a25075c21d2a6d7fccff8dec52a6418:public/evidencijaKnjigaKKTSEvidencijaI.php
                                         </p>
                                         <div class="relative z-20 hidden transition-all duration-300 origin-top-right transform scale-95 -translate-y-2 dropdown-menu-rental-record-row3">
                                             <div class="absolute right-0 w-56 mt-2 origin-top-right bg-white border border-gray-200 divide-y divide-gray-100 rounded-md shadow-lg outline-none" aria-labelledby="headlessui-menu-button-1" id="headlessui-menu-items-117" role="menu">
@@ -282,14 +261,6 @@
                                         <span class="relative text-xs text-white">Vracanje knjige</span>
                                     </span>
                                     </td>
-<<<<<<< HEAD:public/evidencijaIznajmljivanja.php
-                                    <td class="px-4 py-4 text-sm leading-5 whitespace-no-wrap">Nina Bracovic</td>
-                                    <td class="px-4 py-4 text-sm leading-5 whitespace-no-wrap">Nenad Novovic</td>
-                                    <td class="px-4 py-2"></td>
-                                    <td class="px-4 py-4 text-sm leading-5 text-right whitespace-no-wrap">
-                                        <p class="inline cursor-pointer text-[20px] py-[10px] px-[30px]">
-                                            <i class="fas fa-ellipsis-v"></i>
-=======
                                     <td class="px-6 py-4 text-sm leading-5 whitespace-no-wrap">Nina Bracovic</td>
                                     <td class="px-6 py-4 text-sm leading-5 whitespace-no-wrap">Nenad Novovic</td>
                                     <td class="hidden px-2 py-2">
@@ -303,7 +274,6 @@
                                     <td class="px-6 py-4 text-sm leading-5 text-right whitespace-no-wrap">
                                         <p class="inline cursor-pointer text-[20px] py-[10px] px-[30px]" id="dropdownRentalRecordRow4">
                                             <i class="fas fa-ellipsis-v hover:text-gray-500 focus:outline-none active:text-gray-800"></i>
->>>>>>> c4540d217a25075c21d2a6d7fccff8dec52a6418:public/evidencijaKnjigaKKTSEvidencijaI.php
                                         </p>
                                         <div class="relative z-20 hidden transition-all duration-300 origin-top-right transform scale-95 -translate-y-2 dropdown-menu-rental-record-row4">
                                             <div class="absolute right-0 w-56 mt-2 origin-top-right bg-white border border-gray-200 divide-y divide-gray-100 rounded-md shadow-lg outline-none" aria-labelledby="headlessui-menu-button-1" id="headlessui-menu-items-117" role="menu">
@@ -333,14 +303,6 @@
                                         <span class="relative text-xs text-white">Rezervisano</span>
                                     </span>
                                     </td>
-<<<<<<< HEAD:public/evidencijaIznajmljivanja.php
-                                    <td class="px-4 py-4 text-sm leading-5 whitespace-no-wrap">Nina Bracovic</td>
-                                    <td class="px-4 py-4 text-sm leading-5 whitespace-no-wrap">Tarik Zaimovic</td>
-                                    <td class="px-4 py-2"></td>
-                                    <td class="px-4 py-4 text-sm leading-5 text-right whitespace-no-wrap">
-                                        <p class="inline cursor-pointer text-[20px] py-[10px] px-[30px]">
-                                            <i class="fas fa-ellipsis-v"></i>
-=======
                                     <td class="px-6 py-4 text-sm leading-5 whitespace-no-wrap">Nina Bracovic</td>
                                     <td class="px-6 py-4 text-sm leading-5 whitespace-no-wrap">Tarik Zaimovic</td>
                                     <td class="hidden px-2 py-2">
@@ -354,7 +316,6 @@
                                     <td class="px-6 py-4 text-sm leading-5 text-right whitespace-no-wrap">
                                         <p class="inline cursor-pointer text-[20px] py-[10px] px-[30px]" id="dropdownRentalRecordRow5">
                                             <i class="fas fa-ellipsis-v hover:text-gray-500 focus:outline-none active:text-gray-800"></i>
->>>>>>> c4540d217a25075c21d2a6d7fccff8dec52a6418:public/evidencijaKnjigaKKTSEvidencijaI.php
                                         </p>
                                         <div class="relative z-20 hidden transition-all duration-300 origin-top-right transform scale-95 -translate-y-2 dropdown-menu-rental-record-row5">
                                             <div class="absolute right-0 w-56 mt-2 origin-top-right bg-white border border-gray-200 divide-y divide-gray-100 rounded-md shadow-lg outline-none" aria-labelledby="headlessui-menu-button-1" id="headlessui-menu-items-117" role="menu">
@@ -384,14 +345,6 @@
                                         <span class="relative text-xs text-white">Vracanje knjige</span>
                                     </span>
                                     </td>
-<<<<<<< HEAD:public/evidencijaIznajmljivanja.php
-                                    <td class="px-4 py-4 text-sm leading-5 whitespace-no-wrap">Nina Bracovic</td>
-                                    <td class="px-4 py-4 text-sm leading-5 whitespace-no-wrap">Dejan Petkovic</td>
-                                    <td class="px-4 py-2"></td>
-                                    <td class="px-4 py-4 text-sm leading-5 text-right whitespace-no-wrap">
-                                        <p class="inline cursor-pointer text-[20px] py-[10px] px-[30px]">
-                                            <i class="fas fa-ellipsis-v"></i>
-=======
                                     <td class="px-6 py-4 text-sm leading-5 whitespace-no-wrap">Nina Bracovic</td>
                                     <td class="px-6 py-4 text-sm leading-5 whitespace-no-wrap">Dejan Petkovic</td>
                                     <td class="hidden px-2 py-2">
@@ -405,7 +358,6 @@
                                     <td class="px-6 py-4 text-sm leading-5 text-right whitespace-no-wrap">
                                         <p class="inline cursor-pointer text-[20px] py-[10px] px-[30px]" id="dropdownRentalRecordRow6">
                                             <i class="fas fa-ellipsis-v hover:text-gray-500 focus:outline-none active:text-gray-800"></i>
->>>>>>> c4540d217a25075c21d2a6d7fccff8dec52a6418:public/evidencijaKnjigaKKTSEvidencijaI.php
                                         </p>
                                         <div class="relative z-20 hidden transition-all duration-300 origin-top-right transform scale-95 -translate-y-2 dropdown-menu-rental-record-row6">
                                             <div class="absolute right-0 w-56 mt-2 origin-top-right bg-white border border-gray-200 divide-y divide-gray-100 rounded-md shadow-lg outline-none" aria-labelledby="headlessui-menu-button-1" id="headlessui-menu-items-117" role="menu">
@@ -435,14 +387,6 @@
                                         <span class="relative text-xs text-white">Odbijeno</span>
                                     </span>
                                     </td>
-<<<<<<< HEAD:public/evidencijaIznajmljivanja.php
-                                    <td class="px-4 py-4 text-sm leading-5 whitespace-no-wrap">Valentina Kascelan</td>
-                                    <td class="px-4 py-4 text-sm leading-5 whitespace-no-wrap">Ivica Tartar</td>
-                                    <td class="px-4 py-2"></td>
-                                    <td class="px-4 py-4 text-sm leading-5 text-right whitespace-no-wrap">
-                                        <p class="inline cursor-pointer text-[20px] py-[10px] px-[30px]">
-                                            <i class="fas fa-ellipsis-v"></i>
-=======
                                     <td class="px-6 py-4 text-sm leading-5 whitespace-no-wrap">Valentina Kascelan</td>
                                     <td class="px-6 py-4 text-sm leading-5 whitespace-no-wrap">Ivica Tartar</td>
                                     <td class="hidden px-2 py-2">
@@ -456,7 +400,6 @@
                                     <td class="px-6 py-4 text-sm leading-5 text-right whitespace-no-wrap">
                                         <p class="inline cursor-pointer text-[20px] py-[10px] px-[30px]" id="dropdownRentalRecordRow7">
                                             <i class="fas fa-ellipsis-v hover:text-gray-500 focus:outline-none active:text-gray-800"></i>
->>>>>>> c4540d217a25075c21d2a6d7fccff8dec52a6418:public/evidencijaKnjigaKKTSEvidencijaI.php
                                         </p>
                                         <div class="relative z-20 hidden transition-all duration-300 origin-top-right transform scale-95 -translate-y-2 dropdown-menu-rental-record-row7">
                                             <div class="absolute right-0 w-56 mt-2 origin-top-right bg-white border border-gray-200 divide-y divide-gray-100 rounded-md shadow-lg outline-none" aria-labelledby="headlessui-menu-button-1" id="headlessui-menu-items-117" role="menu">
@@ -486,14 +429,6 @@
                                         <span class="relative text-xs text-white">Vracanje knjige</span>
                                     </span>
                                     </td>
-<<<<<<< HEAD:public/evidencijaIznajmljivanja.php
-                                    <td class="px-4 py-4 text-sm leading-5 whitespace-no-wrap">Valentina Kascelan</td>
-                                    <td class="px-4 py-4 text-sm leading-5 whitespace-no-wrap">Sanja Gardasevic</td>
-                                    <td class="px-4 py-2"></td>
-                                    <td class="px-4 py-4 text-sm leading-5 text-right whitespace-no-wrap">
-                                        <p class="inline cursor-pointer text-[20px] py-[10px] px-[30px]">
-                                            <i class="fas fa-ellipsis-v"></i>
-=======
                                     <td class="px-6 py-4 text-sm leading-5 whitespace-no-wrap">Valentina Kascelan</td>
                                     <td class="px-6 py-4 text-sm leading-5 whitespace-no-wrap">Sanja Gardasevic</td>
                                     <td class="hidden px-2 py-2">
@@ -507,7 +442,6 @@
                                     <td class="px-6 py-4 text-sm leading-5 text-right whitespace-no-wrap">
                                         <p class="inline cursor-pointer text-[20px] py-[10px] px-[30px]" id="dropdownRentalRecordRow8">
                                             <i class="fas fa-ellipsis-v hover:text-gray-500 focus:outline-none active:text-gray-800"></i>
->>>>>>> c4540d217a25075c21d2a6d7fccff8dec52a6418:public/evidencijaKnjigaKKTSEvidencijaI.php
                                         </p>
                                         <div class="relative z-20 hidden transition-all duration-300 origin-top-right transform scale-95 -translate-y-2 dropdown-menu-rental-record-row8">
                                             <div class="absolute right-0 w-56 mt-2 origin-top-right bg-white border border-gray-200 divide-y divide-gray-100 rounded-md shadow-lg outline-none" aria-labelledby="headlessui-menu-button-1" id="headlessui-menu-items-117" role="menu">
