@@ -221,14 +221,7 @@
                                     </td>
                                     <td class="px-6 py-4 text-sm leading-5 whitespace-no-wrap">Valentina Kascelan</td>
                                     <td class="px-6 py-4 text-sm leading-5 whitespace-no-wrap">Milos Milosevic</td>
-                                    <td class="hidden px-2 py-2">
-                                            <a href="#" class="hover:text-green-500 mr-[5px]">
-                                                <i class="fas fa-check"></i>
-                                            </a>
-                                            <a href="#" class="hover:text-red-500 ">
-                                                <i class="fas fa-times"></i>
-                                            </a>
-                                        </td>
+                                    <td class="px-2 py-2"></td>
                                     <td class="px-6 py-4 text-sm leading-5 text-right whitespace-no-wrap">
                                         <p class="inline cursor-pointer text-[20px] py-[10px] px-[30px]" id="dropdownRentalRecordRow3">
                                             <i class="fas fa-ellipsis-v hover:text-gray-500 focus:outline-none active:text-gray-800"></i>
@@ -263,14 +256,7 @@
                                     </td>
                                     <td class="px-6 py-4 text-sm leading-5 whitespace-no-wrap">Nina Bracovic</td>
                                     <td class="px-6 py-4 text-sm leading-5 whitespace-no-wrap">Nenad Novovic</td>
-                                    <td class="hidden px-2 py-2">
-                                            <a href="#" class="hover:text-green-500 mr-[5px]">
-                                                <i class="fas fa-check"></i>
-                                            </a>
-                                            <a href="#" class="hover:text-red-500 ">
-                                                <i class="fas fa-times"></i>
-                                            </a>
-                                        </td>
+                                    <td class="px-2 py-2"></td>
                                     <td class="px-6 py-4 text-sm leading-5 text-right whitespace-no-wrap">
                                         <p class="inline cursor-pointer text-[20px] py-[10px] px-[30px]" id="dropdownRentalRecordRow4">
                                             <i class="fas fa-ellipsis-v hover:text-gray-500 focus:outline-none active:text-gray-800"></i>
@@ -305,14 +291,7 @@
                                     </td>
                                     <td class="px-6 py-4 text-sm leading-5 whitespace-no-wrap">Nina Bracovic</td>
                                     <td class="px-6 py-4 text-sm leading-5 whitespace-no-wrap">Tarik Zaimovic</td>
-                                    <td class="hidden px-2 py-2">
-                                            <a href="#" class="hover:text-green-500 mr-[5px]">
-                                                <i class="fas fa-check"></i>
-                                            </a>
-                                            <a href="#" class="hover:text-red-500 ">
-                                                <i class="fas fa-times"></i>
-                                            </a>
-                                        </td>
+                                    <td class="px-2 py-2"></td>
                                     <td class="px-6 py-4 text-sm leading-5 text-right whitespace-no-wrap">
                                         <p class="inline cursor-pointer text-[20px] py-[10px] px-[30px]" id="dropdownRentalRecordRow5">
                                             <i class="fas fa-ellipsis-v hover:text-gray-500 focus:outline-none active:text-gray-800"></i>
@@ -347,14 +326,7 @@
                                     </td>
                                     <td class="px-6 py-4 text-sm leading-5 whitespace-no-wrap">Nina Bracovic</td>
                                     <td class="px-6 py-4 text-sm leading-5 whitespace-no-wrap">Dejan Petkovic</td>
-                                    <td class="hidden px-2 py-2">
-                                            <a href="#" class="hover:text-green-500 mr-[5px]">
-                                                <i class="fas fa-check"></i>
-                                            </a>
-                                            <a href="#" class="hover:text-red-500 ">
-                                                <i class="fas fa-times"></i>
-                                            </a>
-                                        </td>
+                                    <td class="px-2 py-2"></td>
                                     <td class="px-6 py-4 text-sm leading-5 text-right whitespace-no-wrap">
                                         <p class="inline cursor-pointer text-[20px] py-[10px] px-[30px]" id="dropdownRentalRecordRow6">
                                             <i class="fas fa-ellipsis-v hover:text-gray-500 focus:outline-none active:text-gray-800"></i>
@@ -389,14 +361,7 @@
                                     </td>
                                     <td class="px-6 py-4 text-sm leading-5 whitespace-no-wrap">Valentina Kascelan</td>
                                     <td class="px-6 py-4 text-sm leading-5 whitespace-no-wrap">Ivica Tartar</td>
-                                    <td class="hidden px-2 py-2">
-                                            <a href="#" class="hover:text-green-500 mr-[5px]">
-                                                <i class="fas fa-check"></i>
-                                            </a>
-                                            <a href="#" class="hover:text-red-500 ">
-                                                <i class="fas fa-times"></i>
-                                            </a>
-                                        </td>
+                                    <td class="px-2 py-2"></td>
                                     <td class="px-6 py-4 text-sm leading-5 text-right whitespace-no-wrap">
                                         <p class="inline cursor-pointer text-[20px] py-[10px] px-[30px]" id="dropdownRentalRecordRow7">
                                             <i class="fas fa-ellipsis-v hover:text-gray-500 focus:outline-none active:text-gray-800"></i>
@@ -431,14 +396,7 @@
                                     </td>
                                     <td class="px-6 py-4 text-sm leading-5 whitespace-no-wrap">Valentina Kascelan</td>
                                     <td class="px-6 py-4 text-sm leading-5 whitespace-no-wrap">Sanja Gardasevic</td>
-                                    <td class="hidden px-2 py-2">
-                                            <a href="#" class="hover:text-green-500 mr-[5px]">
-                                                <i class="fas fa-check"></i>
-                                            </a>
-                                            <a href="#" class="hover:text-red-500 ">
-                                                <i class="fas fa-times"></i>
-                                            </a>
-                                        </td>
+                                    <td class="px-2 py-2"></td>
                                     <td class="px-6 py-4 text-sm leading-5 text-right whitespace-no-wrap">
                                         <p class="inline cursor-pointer text-[20px] py-[10px] px-[30px]" id="dropdownRentalRecordRow8">
                                             <i class="fas fa-ellipsis-v hover:text-gray-500 focus:outline-none active:text-gray-800"></i>

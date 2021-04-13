@@ -130,7 +130,7 @@
                             <tr class="border-b-2 border-gray-300">
                                 <th class="px-4 py-3 leading-4 tracking-wider text-left text-blue-500">
                                     <label class="inline-flex items-center">
-                                    <input type="checkbox" class="form-checkbox"></label>+
+                                    <input type="checkbox" class="form-checkbox"></label>
                                 </th>
                                 <th class="px-4 py-3 leading-4 tracking-wider text-left">Naziv knjige<i class="ml-3 fa-lg fas fa-long-arrow-alt-down"></i></th>
                                 <th class="px-4 py-3 text-sm leading-4 tracking-wider text-left">Autor</th>
