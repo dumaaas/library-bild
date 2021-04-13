@@ -38,7 +38,7 @@
             <!-- Heading of content -->
             <div class="heading">
                 <div class="flex flex-row justify-between border-b-[2px] border-gray-300">
-                    <div class="flex flex-col">
+                    <div class="flex flex-row">
                         <div class="w-[80px] pl-[30px]">
                             <img src="img/tomsojer.jpg" alt="">
                         </div>

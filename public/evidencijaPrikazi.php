@@ -38,6 +38,10 @@
             <!-- Heading of content -->
             <div class="heading">
                 <div class="flex flex-row justify-between border-b-[2px] border-gray-300">
+                <div class="flex flex-row">
+                        <div class="w-[80px] pl-[30px]">
+                            <img src="img/tomsojer.jpg" alt="">
+                        </div>
                     <div class="pl-[30px] pb-[10px] flex flex-col">
                         <div>
                             <h1 class=" text-[35px] font-bold">
@@ -72,6 +76,7 @@
                             </nav>
                         </div>
                     </div>
+                    </div>
                     <div class="mt-[15px] mr-[40px]">
                         <a href="izdajKnjigu.php" class="inline hover:text-blue-600">
                         <i class="far fa-hand-scissors"></i>
@@ -92,7 +97,7 @@
                 </div>
 
             </div>
-            <div class="h-full overflow-auto">
+            <div class="overflow-auto scroll height-ucenikEvidencija">
                 <!-- Space for content -->
                 <div class="px-[30px] mt-10">
                     <table class="w-full border-2 border-gray-300">

@@ -42,7 +42,7 @@
                 </h1>
             </div>
             <!-- Space for content -->
-            <div class="scroll height-ucenikEvidencija section-content">
+            <div class="scroll height-ucenikEvidencija">
                 <div class="flex items-center justify-between px-[50px] py-4 space-x-3 rounded-lg">
 
                 <a href="noviBibliotekar.php"><button type="button" class="px-4 py-2 text-lg font-semibold tracking-wider text-white bg-blue-500 hover:bg-blue-600 focus:outline-none hover:outline-none w-[250px] border-2 border-black">Novi bibliotekar</button></a>

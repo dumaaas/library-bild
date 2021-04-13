@@ -42,7 +42,7 @@
                 </h1>
             </div>
             <!-- Space for content -->
-            <div class="scroll height-content section-content">
+            <div class="scroll height-dashboard">
                 <div class="flex items-center justify-between px-6 py-4 space-x-3 rounded-lg">
 
                     <button type="button" class="px-4 py-2 text-lg font-semibold tracking-wider text-white bg-blue-500 hover:bg-blue-600 focus:outline-none hover:outline-none w-[250px] border-2 border-black">Akcije<i class="inline px-2 ml-2 arrow fas fa-angle-down"></i></button>
@@ -61,7 +61,7 @@
                     </div>
 
                 </div>
-                <div class="h-full overflow-auto">
+                <div class="overflow-auto">
                 <!-- Space for content -->
                   <div class="flex justify-start pt-3 overflow-hidden bg-white">
                         <div class="mt-[10px]">
@@ -132,7 +132,7 @@
                                     <label class="inline-flex items-center">
                                     <input type="checkbox" class="form-checkbox"></label>
                                 </th>
-                                <th class="px-4 py-3 leading-4 tracking-wider text-left">Naziv knjige<a href="#"><i class="ml-3 fa-lg fas fa-long-arrow-alt-down"></i></a></th>
+                                <th class="flex items-center px-4 py-3 leading-4 tracking-wider text-left">Naziv knjige<a href="#"><i class="ml-2 fa-lg fas fa-long-arrow-alt-down"></i></a></th>
                                 <th class="px-4 py-3 text-sm leading-4 tracking-wider text-left">Autor</th>
                                 <th class="px-4 py-3 text-sm leading-4 tracking-wider text-left">Status</th>
                                 <th class="px-4 py-3"> </th>

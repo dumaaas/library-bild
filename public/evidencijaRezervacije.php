@@ -42,10 +42,10 @@
                 </h1>
             </div>
             <!-- Space for content -->
-            <div class="scroll height-content section-content">
+            <div class="scroll height-dashboard">
                 <div class="flex items-center justify-between px-6 py-4 space-x-3 rounded-lg">
 
-                    <button type="button" class="px-4 py-2 text-lg font-semibold tracking-wider text-white bg-blue-500 hover:bg-blue-600 focus:outline-none hover:outline-none w-[250px] border-2 border-black">Nova knjiga</button>
+                <a href="novaKnjiga.php"><button type="button" class="px-4 py-2 text-lg font-semibold tracking-wider text-white bg-blue-500 hover:bg-blue-600 focus:outline-none hover:outline-none w-[250px] border-2 border-black">Nova knjiga</button></a>
                     <div class="flex items-center">
                         <div class="relative text-gray-600 focus-within:text-gray-400">
                             <span class="absolute inset-y-0 left-0 flex items-center pl-2">
@@ -61,7 +61,7 @@
                     </div>
 
                 </div>
-                <div class="h-full overflow-auto">
+                <div class="overflow-auto">
                 <!-- Space for content -->
                   <div class="flex justify-start pt-3 overflow-hidden bg-white">
                         <div class="mt-[10px]">
@@ -135,7 +135,7 @@
                                     <label class="inline-flex items-center">
                                     <input type="checkbox" class="form-checkbox"></label>
                                 </th>
-                                <th class="px-4 py-3 leading-4 tracking-wider text-left">Naziv knjige<a href="#"><i class="ml-3 fa-lg fas fa-long-arrow-alt-down"></i></a></th>
+                                <th class="flex items-center px-4 py-3 leading-4 tracking-wider text-left">Naziv knjige<a href="#"><i class="ml-2 fa-lg fas fa-long-arrow-alt-down"></i></a></th>
                                 <th class="px-4 py-3 text-sm leading-4 tracking-wider text-left">Autor</th>
                                 <th class="px-4 py-3 text-sm leading-4 tracking-wider text-left">Datum rezervacije</th>
                                 <th class="px-4 py-3 text-sm leading-4 tracking-wider text-left">Rezervaciju podnio</th>
