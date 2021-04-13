@@ -949,6 +949,9 @@ body {
 .ml-\[100px\] {
   margin-left: 100px;
 }
+.mt-\[14px\] {
+  margin-top: 14px;
+}
 .mb-\[20px\] {
   margin-bottom: 20px;
 }
@@ -1066,8 +1069,8 @@ body {
 .ml-\[10px\] {
   margin-left: 10px;
 }
-.mt-\[26px\] {
-  margin-top: 26px;
+.mt-\[37px\] {
+  margin-top: 37px;
 }
 .ml-\[4px\] {
   margin-left: 4px;
@@ -1714,8 +1717,8 @@ body {
 .pl-\[28px\] {
   padding-left: 28px;
 }
-.pb-\[25px\] {
-  padding-bottom: 25px;
+.pb-\[28px\] {
+  padding-bottom: 28px;
 }
 .pl-\[3px\] {
   padding-left: 3px;

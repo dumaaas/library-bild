@@ -52,7 +52,7 @@
                                 <nav class="w-full rounded">
                                     <ol class="flex list-reset">
                                         <li>
-                                            <a href="#" class="font-medium text-blue-600 hover:text-blue-800">
+                                            <a href="evidencija.php" class="font-medium text-blue-600 hover:text-blue-800">
                                                 Evidencija knjiga
                                             </a>
                                         </li>
@@ -87,7 +87,7 @@
                             <i class="fas fa-redo-alt mr-[3px] "></i>
                             Vrati knjigu
                         </a>
-                        <a href="#" class="hover:text-blue-600 inline ml-[20px] pr-[10px]">
+                        <a href="rezervisiKnjigu.php" class="hover:text-blue-600 inline ml-[20px] pr-[10px]">
                             <i class="far fa-calendar-check mr-[3px] "></i>
                             Rezervisi knjigu
                         </a>
@@ -127,7 +127,7 @@
                                 </div>
                                 <div class="mt-[20px]">
                                     <span class="text-gray-500">Bibliotekar</span>
-                                    <a href=".bibliotekarProfile.php" class="block font-medium text-blue-500 hover:text-blue-800">Valentina
+                                    <a href="bibliotekarProfile.php" class="block font-medium text-blue-500 hover:text-blue-800">Valentina
                                         Kascelan</a>
                                 </div>
                                 <div class="mt-[20px]">
@@ -139,7 +139,7 @@
                                     <p class="font-medium">2 nedelje i 3 dana</p>
                                 </div>
                                 <div class="mt-[20px]">
-                                    <a href="#" class="block font-medium text-blue-500 hover:text-blue-800">
+                                    <a href="vratiKnjigu.php" class="block font-medium text-blue-500 hover:text-blue-800">
                                         Vrati poslednju knjigu >>
                                     </a>
                                 </div>
