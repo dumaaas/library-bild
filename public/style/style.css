@@ -871,6 +871,9 @@ body {
 .top-1\/2 {
   top: 50%;
 }
+.top-\[215px\] {
+  top: 215px;
+}
 .z-0 {
   z-index: 0;
 }

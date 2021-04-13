@@ -157,6 +157,7 @@ $(document).ready(function () {
   $('#dropdownRentalRecordDetailsRow8').click(function () {
     $('.dropdown-menu-rental-record-details-row8').toggle();
   });
+
 });
 
 
@@ -263,4 +264,17 @@ function dataFileDnD() {
   };
 }
 
+ // Student image upload
+ var loadFileStudent = function(event) {
+      var imageStudent = document.getElementById('image-output-student');
+      imageStudent.style.display = "block";
+      imageStudent.src = URL.createObjectURL(event.target.files[0]);
+};
+
+ // Librarian image upload
+var loadFileLibrarian = function(event) {
+  var imageStudent = document.getElementById('image-output-librarian');
+  imageStudent.style.display = "block";
+  imageStudent.src = URL.createObjectURL(event.target.files[0]);
+};
 
