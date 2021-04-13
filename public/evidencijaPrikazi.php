@@ -41,15 +41,15 @@
                     <div class="pl-[30px] pb-[10px] flex flex-col">
                         <div>
                             <h1 class=" text-[35px] font-bold">
-                                Pero Perovic
+                                Tom Sojer
                             </h1>
                         </div>
                         <div>
                             <nav class="w-full rounded">
                                 <ol class="flex list-reset">
                                     <li>
-                                        <a href="#" class="font-medium text-blue-600 hover:text-blue-800">
-                                            Svi ucenici
+                                        <a href="evidencija.php" class="font-medium text-blue-600 hover:text-blue-800">
+                                            Evidencija knjiga
                                         </a>
                                     </li>
                                     <li>
@@ -57,21 +57,33 @@
                                     </li>
                                     <li>
                                         <a href="../ucenici/profile.php" class="font-medium text-blue-600 hover:text-blue-800">
-                                            ID-354
+                                            KNJIGA-467
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <span class="mx-2">/</span>
+                                    </li>
+                                    <li>
+                                        <a href="evidencijaIznajmljivanja.php" class="font-medium text-blue-600 hover:text-blue-800">
+                                            Evidencija iznajmljivanja
                                         </a>
                                     </li>
                                 </ol>
                             </nav>
                         </div>
                     </div>
-                    <div class="mt-[15px] mr-[30px]">
+                    <div class="mt-[15px] mr-[40px]">
                         <a href="#" class="inline hover:text-blue-600">
-                            <i class="fas fa-redo-alt mr-[3px]"></i>
-                            Resetuj sifru
+                        <i class="far fa-hand-scissors"></i>
+                            Izdaj knjigu
                         </a>
                         <a href="#" class="hover:text-blue-600 inline ml-[20px] pr-[10px]">
-                            <i class="fas fa-edit mr-[3px] "></i>
-                            Izmjeni podatke
+                        <i class="fas fa-redo-alt mr-[3px]"></i>
+                            Vrati knjigu
+                        </a>
+                        <a href="#" class="hover:text-blue-600 inline ml-[20px] pr-[10px]">
+                        <i class="far fa-calendar-check"></i>
+                            Rezervisi knjigu
                         </a>
                         <p class="inline cursor-pointer text-[25px] py-[10px] pl-[30px] border-l-[2px] border-gray-300">
                             <i class="fas fa-ellipsis-v"></i>
@@ -80,31 +92,21 @@
                 </div>
 
             </div>
-            <div class="border-b-[2px] py-4 text-gray-500 border-gray-300 pl-[30px]">
-                <a href="../ucenici/profile.php" class="inline">
-                    Osnovni detalji
-                </a>
-                <a href="#" class="inline ml-[70px] hover:text-blue-800 active-book-nav">
-                    Evidencija iznajmljivanja
-                </a>
-            </div>
             <div class="h-full overflow-auto">
                 <!-- Space for content -->
-                  <div class="inline-block min-w-full px-8 pt-3 mt-10 overflow-hidden align-middle bg-white rounded-bl-lg rounded-br-lg shadow-dashboard">
-                    <table class="min-w-full border-2 border-gray-300">
+                <div class="px-[30px] mt-10">
+                    <table class="w-full border-2 border-gray-300">
                         <thead>
-                            <tr>
-                                <th class="px-6 py-3 leading-4 tracking-wider text-left text-blue-500 border-b-2 border-gray-300">
+                            <tr class="border-b-2 border-gray-300">
+                                <th class="px-6 py-3 leading-4 tracking-wider text-left text-blue-500">
                                     <label class="inline-flex items-center">
                                     <input type="checkbox" class="form-checkbox"></label>
                                 </th>
-                                <th class="px-6 py-3 leading-4 tracking-wider text-left border-b-2 border-gray-300">Naziv knjige</th>
-                                <th class="px-6 py-3 text-sm leading-4 tracking-wider text-left border-b-2 border-gray-300">Datum akcije<i class="ml-3 fa-lg fas fa-long-arrow-alt-down"></i></th>
-                                <th class="px-6 py-3 text-sm leading-4 tracking-wider text-left border-b-2 border-gray-300">Tip akcije</th>
-                                <th class="px-6 py-3 text-sm leading-4 tracking-wider text-left border-b-2 border-gray-300">Bibliotekar</th>
-                                <th class="px-6 py-3 text-sm leading-4 tracking-wider text-left border-b-2 border-gray-300">Ucenik</th>
-                                <th class="hidden px-6 py-3 border-b-2 border-gray-300"> </th>
-                                <th class="px-6 py-3 border-b-2 border-gray-300"> </th>
+                                <th class="px-6 py-3 text-sm leading-4 tracking-wider text-left">Datum akcije<i class="ml-3 fa-lg fas fa-long-arrow-alt-down"></i></th>
+                                <th class="px-6 py-3 text-sm leading-4 tracking-wider text-left">Tip akcije</th>
+                                <th class="px-6 py-3 text-sm leading-4 tracking-wider text-left">Bibliotekar</th>
+                                <th class="px-6 py-3 text-sm leading-4 tracking-wider text-left">Ucenik</th>
+                                <th class="px-6 py-3"> </th>
                             </tr>
                         </thead>
                         <tbody class="bg-white">
@@ -113,46 +115,8 @@
                                         <label class="inline-flex items-center">
                                         <input type="checkbox" class="form-checkbox"></label>
                                     </td>
-                                    <td class="flex flex-row items-center px-6 py-4">
-                                            <img class="object-cover w-8 h-11"
-                                                src="img/tomsojer.jpg" alt="" />
-                                            <span class="ml-2 font-semibold text-center">Geografija Crne Gore</span>
-                                    </td>
                                     <td class="px-6 py-4 text-sm leading-5 whitespace-no-wrap">21.02.2021</td>
-                                    <td class="px-6 py-4 text-sm leading-5 text-blue-900 whitespace-no-wrap border-b border-gray-500">
-                                        <span class="relative inline-block px-3 py-1 font-semibold leading-tight text-green-900">
-                                        <span aria-hidden class="absolute inset-0 bg-transparent border-2 border-yellow-400"></span>
-                                        <span class="relative text-xs text-yellow-400">Rezervacija</span>
-                                    </span>
-                                    </td>
-                                    <td class="px-6 py-4 text-sm leading-5 whitespace-no-wrap">Valentina Kascelan</td>
-                                    <td class="px-6 py-4 text-sm leading-5 whitespace-no-wrap">Pero Perovic</td>
-                                    <td class="hidden px-2 py-2">
-                                            <a href="#" class="hover:text-green-500 mr-[5px]">
-                                                <i class="fas fa-check"></i>
-                                            </a>
-                                            <a href="#" class="hover:text-red-500 ">
-                                                <i class="fas fa-times"></i>
-                                            </a>
-                                        </td>
-                                    <td class="px-6 py-4 text-sm leading-5 text-right whitespace-no-wrap">
-                                        <p class="inline cursor-pointer text-[20px] py-[10px] px-[30px] border-gray-300">
-                                            <i class="fas fa-ellipsis-v"></i>
-                                        </p>
-                                    </td>
-                                </tr>
-                                <tr class="border-b-2 border-gray-300">
-                                    <td class="px-6 py-4 whitespace-no-wrap">
-                                        <label class="inline-flex items-center">
-                                        <input type="checkbox" class="form-checkbox"></label>
-                                    </td>
-                                    <td class="flex flex-row items-center px-6 py-4">
-                                            <img class="object-cover w-8 h-11"
-                                                src="img/tomsojer.jpg" alt="" />
-                                            <span class="ml-2 font-semibold text-center">Tom Sojer</span>
-                                    </td>
-                                    <td class="px-6 py-4 text-sm leading-5 whitespace-no-wrap">12.05.2020</td>
-                                    <td class="px-6 py-4 text-sm leading-5 text-blue-900 whitespace-no-wrap border-b border-gray-500">
+                                    <td class="px-6 py-4 text-sm leading-5 text-blue-900 whitespace-no-wrap">
                                         <span class="relative inline-block px-3 py-1 font-semibold leading-tight text-green-900">
                                         <span aria-hidden class="absolute inset-0 bg-blue-600"></span>
                                         <span class="relative text-xs text-white">Izdavanje knjige</span>
@@ -160,16 +124,8 @@
                                     </td>
                                     <td class="px-6 py-4 text-sm leading-5 whitespace-no-wrap">Valentina Kascelan</td>
                                     <td class="px-6 py-4 text-sm leading-5 whitespace-no-wrap">Pero Perovic</td>
-                                    <td class="hidden px-2 py-2">
-                                            <a href="#" class="hover:text-green-500 mr-[5px]">
-                                                <i class="fas fa-check"></i>
-                                            </a>
-                                            <a href="#" class="hover:text-red-500 ">
-                                                <i class="fas fa-times"></i>
-                                            </a>
-                                        </td>
                                     <td class="px-6 py-4 text-sm leading-5 text-right whitespace-no-wrap">
-                                        <p class="inline cursor-pointer text-[20px] py-[10px] px-[30px] border-gray-300">
+                                        <p class="inline cursor-pointer text-[20px] py-[10px] px-[30px]">
                                             <i class="fas fa-ellipsis-v"></i>
                                         </p>
                                     </td>
@@ -179,30 +135,57 @@
                                         <label class="inline-flex items-center">
                                         <input type="checkbox" class="form-checkbox"></label>
                                     </td>
-                                    <td class="flex flex-row items-center px-6 py-4">
-                                            <img class="object-cover w-8 h-11"
-                                                src="img/tomsojer.jpg" alt="" />
-                                            <span class="ml-2 font-semibold text-center">Robinson Kruso</span>
-                                    </td>
-                                    <td class="px-6 py-4 text-sm leading-5 whitespace-no-wrap">25.05.2020</td>
-                                    <td class="px-6 py-4 text-sm leading-5 text-blue-900 whitespace-no-wrap border-b border-gray-500">
+                                    <td class="px-6 py-4 text-sm leading-5 whitespace-no-wrap">12.05.2020</td>
+                                    <td class="px-6 py-4 text-sm leading-5 text-blue-900 whitespace-no-wrap">
                                         <span class="relative inline-block px-3 py-1 font-semibold leading-tight text-green-900">
-                                        <span aria-hidden class="absolute inset-0 bg-yellow-600"></span>
+                                        <span aria-hidden class="absolute inset-0 bg-red-600"></span>
+                                        <span class="relative text-xs text-white">Vracanje knjige</span>
+                                    </span>
+                                    </td>
+                                    <td class="px-6 py-4 text-sm leading-5 whitespace-no-wrap">Valentina Kascelan</td>
+                                    <td class="px-6 py-4 text-sm leading-5 whitespace-no-wrap">Nina Bulatovic</td>
+                                    <td class="px-6 py-4 text-sm leading-5 text-right whitespace-no-wrap">
+                                        <p class="inline cursor-pointer text-[20px] py-[10px] px-[30px]">
+                                            <i class="fas fa-ellipsis-v"></i>
+                                        </p>
+                                    </td>
+                                </tr>
+                                <tr class="border-b-2 border-gray-300">
+                                    <td class="px-6 py-4 whitespace-no-wrap">
+                                        <label class="inline-flex items-center">
+                                        <input type="checkbox" class="form-checkbox"></label>
+                                    </td>
+                                    <td class="px-6 py-4 text-sm leading-5 whitespace-no-wrap">12.05.2020</td>
+                                    <td class="px-6 py-4 text-sm leading-5 text-blue-900 whitespace-no-wrap">
+                                        <span class="relative inline-block px-3 py-1 font-semibold leading-tight text-green-900">
+                                        <span aria-hidden class="absolute inset-0 bg-blue-600"></span>
+                                        <span class="relative text-xs text-white">Izdavanje knjige</span>
+                                    </span>
+                                    </td>
+                                    <td class="px-6 py-4 text-sm leading-5 whitespace-no-wrap">Valentina Kascelan</td>
+                                    <td class="px-6 py-4 text-sm leading-5 whitespace-no-wrap">Milos Milosevic</td>
+                                    <td class="px-6 py-4 text-sm leading-5 text-right whitespace-no-wrap">
+                                        <p class="inline cursor-pointer text-[20px] py-[10px] px-[30px]">
+                                            <i class="fas fa-ellipsis-v"></i>
+                                        </p>
+                                    </td>
+                                </tr>
+                                <tr class="border-b-2 border-gray-300">
+                                    <td class="px-6 py-4 whitespace-no-wrap">
+                                        <label class="inline-flex items-center">
+                                        <input type="checkbox" class="form-checkbox"></label>
+                                    </td>
+                                    <td class="px-6 py-4 text-sm leading-5 whitespace-no-wrap">12.05.2020</td>
+                                    <td class="px-6 py-4 text-sm leading-5 text-blue-900 whitespace-no-wrap">
+                                        <span class="relative inline-block px-3 py-1 font-semibold leading-tight text-green-900">
+                                        <span aria-hidden class="absolute inset-0 bg-red-600"></span>
                                         <span class="relative text-xs text-white">Vracanje knjige</span>
                                     </span>
                                     </td>
                                     <td class="px-6 py-4 text-sm leading-5 whitespace-no-wrap">Nina Bracovic</td>
-                                    <td class="px-6 py-4 text-sm leading-5 whitespace-no-wrap">Pero Perovic</td>
-                                    <td class="hidden px-2 py-2">
-                                            <a href="#" class="hover:text-green-500 mr-[5px]">
-                                                <i class="fas fa-check"></i>
-                                            </a>
-                                            <a href="#" class="hover:text-red-500 ">
-                                                <i class="fas fa-times"></i>
-                                            </a>
-                                        </td>
+                                    <td class="px-6 py-4 text-sm leading-5 whitespace-no-wrap">Nenad Novovic</td>
                                     <td class="px-6 py-4 text-sm leading-5 text-right whitespace-no-wrap">
-                                        <p class="inline cursor-pointer text-[20px] py-[10px] px-[30px] border-gray-300">
+                                        <p class="inline cursor-pointer text-[20px] py-[10px] px-[30px]">
                                             <i class="fas fa-ellipsis-v"></i>
                                         </p>
                                     </td>
@@ -212,30 +195,17 @@
                                         <label class="inline-flex items-center">
                                         <input type="checkbox" class="form-checkbox"></label>
                                     </td>
-                                    <td class="flex flex-row items-center px-6 py-4">
-                                            <img class="object-cover w-8 h-11"
-                                                src="img/tomsojer.jpg" alt="" />
-                                            <span class="ml-2 font-semibold text-center">Galebova stijena</span>
-                                    </td>
                                     <td class="px-6 py-4 text-sm leading-5 whitespace-no-wrap">12.05.2020</td>
-                                    <td class="px-6 py-4 text-sm leading-5 text-blue-900 whitespace-no-wrap border-b border-gray-500">
+                                    <td class="px-6 py-4 text-sm leading-5 text-blue-900 whitespace-no-wrap">
                                         <span class="relative inline-block px-3 py-1 font-semibold leading-tight text-green-900">
-                                        <span aria-hidden class="absolute inset-0 bg-yellow-400"></span>
-                                        <span class="relative text-xs text-white">Rezervisano</span>
+                                        <span aria-hidden class="absolute inset-0 bg-blue-600"></span>
+                                        <span class="relative text-xs text-white">Izdavanje knjige</span>
                                     </span>
                                     </td>
                                     <td class="px-6 py-4 text-sm leading-5 whitespace-no-wrap">Nina Bracovic</td>
                                     <td class="px-6 py-4 text-sm leading-5 whitespace-no-wrap">Pero Perovic</td>
-                                    <td class="hidden px-2 py-2">
-                                            <a href="#" class="hover:text-green-500 mr-[5px]">
-                                                <i class="fas fa-check"></i>
-                                            </a>
-                                            <a href="#" class="hover:text-red-500 ">
-                                                <i class="fas fa-times"></i>
-                                            </a>
-                                        </td>
                                     <td class="px-6 py-4 text-sm leading-5 text-right whitespace-no-wrap">
-                                        <p class="inline cursor-pointer text-[20px] py-[10px] px-[30px] border-gray-300">
+                                        <p class="inline cursor-pointer text-[20px] py-[10px] px-[30px]">
                                             <i class="fas fa-ellipsis-v"></i>
                                         </p>
                                     </td>
@@ -245,30 +215,37 @@
                                         <label class="inline-flex items-center">
                                         <input type="checkbox" class="form-checkbox"></label>
                                     </td>
-                                    <td class="flex flex-row items-center px-6 py-4">
-                                            <img class="object-cover w-8 h-11"
-                                                src="img/tomsojer.jpg" alt="" />
-                                            <span class="ml-2 font-semibold text-center">Sa druge strane ljuske</span>
-                                    </td>
                                     <td class="px-6 py-4 text-sm leading-5 whitespace-no-wrap">12.05.2020</td>
-                                    <td class="px-6 py-4 text-sm leading-5 text-blue-900 whitespace-no-wrap border-b border-gray-500">
+                                    <td class="px-6 py-4 text-sm leading-5 text-blue-900 whitespace-no-wrap">
                                         <span class="relative inline-block px-3 py-1 font-semibold leading-tight text-green-900">
-                                        <span aria-hidden class="absolute inset-0 bg-yellow-600"></span>
+                                        <span aria-hidden class="absolute inset-0 bg-red-600"></span>
                                         <span class="relative text-xs text-white">Vracanje knjige</span>
                                     </span>
                                     </td>
                                     <td class="px-6 py-4 text-sm leading-5 whitespace-no-wrap">Nina Bracovic</td>
-                                    <td class="px-6 py-4 text-sm leading-5 whitespace-no-wrap">Pero Perovic</td>
-                                    <td class="hidden px-2 py-2">
-                                            <a href="#" class="hover:text-green-500 mr-[5px]">
-                                                <i class="fas fa-check"></i>
-                                            </a>
-                                            <a href="#" class="hover:text-red-500 ">
-                                                <i class="fas fa-times"></i>
-                                            </a>
-                                        </td>
+                                    <td class="px-6 py-4 text-sm leading-5 whitespace-no-wrap">Nina Bulatovic</td>
                                     <td class="px-6 py-4 text-sm leading-5 text-right whitespace-no-wrap">
-                                        <p class="inline cursor-pointer text-[20px] py-[10px] px-[30px] border-gray-300">
+                                        <p class="inline cursor-pointer text-[20px] py-[10px] px-[30px]">
+                                            <i class="fas fa-ellipsis-v"></i>
+                                        </p>
+                                    </td>
+                                </tr>
+                                <tr class="border-b-2 border-gray-300">
+                                    <td class="px-6 py-4 whitespace-no-wrap">
+                                        <label class="inline-flex items-center">
+                                        <input type="checkbox" class="form-checkbox"></label>
+                                    </td>
+                                    <td class="px-6 py-4 text-sm leading-5 whitespace-no-wrap">12.05.2020</td>
+                                    <td class="px-6 py-4 text-sm leading-5 text-blue-900 whitespace-no-wrap">
+                                        <span class="relative inline-block px-3 py-1 font-semibold leading-tight text-green-900">
+                                        <span aria-hidden class="absolute inset-0 bg-blue-600"></span>
+                                        <span class="relative text-xs text-white">Izdavanje knjige</span>
+                                    </span>
+                                    </td>
+                                    <td class="px-6 py-4 text-sm leading-5 whitespace-no-wrap">Valentina Kascelan</td>
+                                    <td class="px-6 py-4 text-sm leading-5 whitespace-no-wrap">Milos Milosevic</td>
+                                    <td class="px-6 py-4 text-sm leading-5 text-right whitespace-no-wrap">
+                                        <p class="inline cursor-pointer text-[20px] py-[10px] px-[30px]">
                                             <i class="fas fa-ellipsis-v"></i>
                                         </p>
                                     </td>
@@ -278,38 +255,25 @@
                                         <label class="inline-flex items-center">
                                         <input type="checkbox" class="form-checkbox"></label>
                                     </td>
-                                    <td class="flex flex-row items-center px-6 py-4">
-                                            <img class="object-cover w-8 h-11"
-                                                src="img/tomsojer.jpg" alt="" />
-                                            <span class="ml-2 font-semibold text-center">Umjetnici kao djeca</span>
-                                    </td>
                                     <td class="px-6 py-4 text-sm leading-5 whitespace-no-wrap">12.05.2020</td>
-                                    <td class="px-6 py-4 text-sm leading-5 text-blue-900 whitespace-no-wrap border-b border-gray-500">
+                                    <td class="px-6 py-4 text-sm leading-5 text-blue-900 whitespace-no-wrap">
                                         <span class="relative inline-block px-3 py-1 font-semibold leading-tight text-green-900">
                                         <span aria-hidden class="absolute inset-0 bg-red-600"></span>
-                                        <span class="relative text-xs text-white">Odbijeno</span>
+                                        <span class="relative text-xs text-white">Vracanje knjige</span>
                                     </span>
                                     </td>
                                     <td class="px-6 py-4 text-sm leading-5 whitespace-no-wrap">Valentina Kascelan</td>
-                                    <td class="px-6 py-4 text-sm leading-5 whitespace-no-wrap">Pero Perovic</td>
-                                    <td class="hidden px-2 py-2">
-                                            <a href="#" class="hover:text-green-500 mr-[5px]">
-                                                <i class="fas fa-check"></i>
-                                            </a>
-                                            <a href="#" class="hover:text-red-500 ">
-                                                <i class="fas fa-times"></i>
-                                            </a>
-                                        </td>
+                                    <td class="px-6 py-4 text-sm leading-5 whitespace-no-wrap">Nenad Novovic</td>
                                     <td class="px-6 py-4 text-sm leading-5 text-right whitespace-no-wrap">
-                                        <p class="inline cursor-pointer text-[20px] py-[10px] px-[30px] border-gray-300">
+                                        <p class="inline cursor-pointer text-[20px] py-[10px] px-[30px]">
                                             <i class="fas fa-ellipsis-v"></i>
                                         </p>
                                     </td>
                                 </tr>
                         </tbody>
-                    </table>
-
-                    <div class="flex flex-row items-center justify-end mt-2">
+                        </table>
+    
+                        <div class="flex flex-row items-center justify-end mt-2">
                         <div class="">
                             <p class="inline text-md">
                                 Rows per page:
@@ -318,7 +282,7 @@
                                 class=" text-gray-700 bg-white rounded-md w-[46px] focus:outline-none focus:ring-primary-500 focus:border-primary-500 text-md"
                                 name="ucenici">
                                 <option value="">
-                                    8
+                                    20
                                 </option>
                                 <option value="">
                                     Option1
@@ -339,7 +303,7 @@
                             <nav class="relative z-0 inline-flex">
                                 <div>
                                     <a href="#" class="relative inline-flex items-center px-4 py-2 -ml-px font-medium leading-5 transition duration-150 ease-in-out bg-white text-md focus:z-10 focus:outline-none">
-                                        1 of 35
+                                        1 of 1
                                     </a>
                                
                                 </div>
@@ -360,10 +324,10 @@
                             </nav>
                         </div>
                         
-                    </div>
+                        </div>
 
                 </div>
-              </div>
+            </div>
         </section>
         <!-- End Content -->
     </main>
