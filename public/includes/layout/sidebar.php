@@ -13,7 +13,7 @@
                     <div class="">
                         <span class=" whitespace-nowrap w-full text-[25px] flex justify-between fill-current">
                             <div class="transition duration-300 ease-in hover:text-[#576cdf]">
-                                <a href="../dashboard/dashboard.php" aria-label="Dashboard">
+                                <a href="dashboard.php" aria-label="Dashboard">
                                     <i class="fas fa-tachometer-alt"></i>
                                     <div class="hidden sidebar-item">
                                         <p class="inline text-[18px] font-medium ml-[10px]">Dashboard</p>
@@ -28,7 +28,7 @@
                     <div>
                         <span class="whitespace-nowrap w-full text-[25px] flex justify-between text-[#5c5c5c] fill-current">
                             <div class="transition duration-300 ease-in hover:text-[#576cdf]">
-                                <a href="#" aria-label="Bibliotekari">
+                                <a href="bibliotekari.php" aria-label="Bibliotekari">
                                     <i class="far fa-address-book"></i>
                                     <div class="hidden sidebar-item">
                                         <p class="inline text-[18px] font-medium ml-[12px]">Bibliotekari</p>
@@ -43,7 +43,7 @@
                     <div>
                         <span class="whitespace-nowrap w-full text-[25px] flex justify-between text-[#5c5c5c] fill-current">
                             <div class="transition duration-300 ease-in hover:text-[#576cdf]">
-                                <a href="#" aria-label="Ucenici">
+                                <a href="ucenik.php" aria-label="Ucenici">
                                     <i class="fas fa-users"></i>
                                     <div class="hidden sidebar-item">
                                         <p class="inline text-[18px] font-medium ml-[8px]">Ucenici</p>
@@ -109,7 +109,7 @@
                     <div>
                         <span class="whitespace-nowrap w-full text-[25px] flex justify-between text-[#5c5c5c] fill-current">
                             <div class="transition duration-300 ease-in hover:text-[#576cdf]">
-                                <a href="#" aria-label="Knjige">
+                                <a href="evidencija.php" aria-label="Knjige">
                                     <i class="far fa-copy"></i>
                                     <div class="hidden sidebar-item">
                                         <p class="inline text-[18px] font-medium ml-[12px]">Knjige</p>
