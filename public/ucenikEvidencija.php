@@ -127,7 +127,7 @@
                                     </td>
                                     <td class="px-4 py-4 text-sm leading-5 whitespace-no-wrap">Valentina Kascelan</td>
                                     <td class="px-4 py-4 text-sm leading-5 whitespace-no-wrap">Pero Perovic</td>
-                                    <td class="px-4 py-2">
+                                    <td class="px-4 py-2 removeLinks">
                                             <a href="#" class="hover:text-green-500 mr-[5px]" onclick="changeStyle1()">
                                                 <i class="fas fa-check"></i>
                                             </a>
@@ -135,6 +135,7 @@
                                                 <i class="fas fa-times"></i>
                                             </a>
                                     </td>
+                                    <td class="hidden px-4 py-2"></td>
                                     <td class="px-4 py-4 text-sm leading-5 text-right whitespace-no-wrap">
                                         <p class="inline cursor-pointer text-[20px] py-[10px] px-[30px] border-gray-300">
                                             <i class="fas fa-ellipsis-v"></i>
