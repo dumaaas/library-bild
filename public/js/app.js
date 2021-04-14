@@ -264,17 +264,84 @@ function dataFileDnD() {
   };
 }
 
- // Student image upload
- var loadFileStudent = function(event) {
-      var imageStudent = document.getElementById('image-output-student');
-      imageStudent.style.display = "block";
-      imageStudent.src = URL.createObjectURL(event.target.files[0]);
+// Student image upload
+var loadFileStudent = function (event) {
+  var imageStudent = document.getElementById('image-output-student');
+  imageStudent.style.display = "block";
+  imageStudent.src = URL.createObjectURL(event.target.files[0]);
 };
 
- // Librarian image upload
-var loadFileLibrarian = function(event) {
+// Librarian image upload
+var loadFileLibrarian = function (event) {
   var imageStudent = document.getElementById('image-output-librarian');
   imageStudent.style.display = "block";
   imageStudent.src = URL.createObjectURL(event.target.files[0]);
 };
 
+function sortTable() {
+  var table, rows, switching, i, x, y, shouldSwitch;
+  table = document.getElementById("myTable");
+  switching = true;
+  /*Make a loop that will continue until
+  no switching has been done:*/
+  while (switching) {
+    //start by saying: no switching is done:
+    switching = false;
+    rows = table.rows;
+    /*Loop through all table rows (except the
+    first, which contains table headers):*/
+    for (i = 1; i < (rows.length - 1); i++) {
+      //start by saying there should be no switching:
+      shouldSwitch = false;
+      /*Get the two elements you want to compare,
+      one from current row and one from the next:*/
+      x = rows[i].getElementsByTagName("TD")[1];
+      y = rows[i + 1].getElementsByTagName("TD")[1];
+      //check if the two rows should switch place:
+      if (x.innerHTML.toLowerCase() > y.innerHTML.toLowerCase()) {
+        //if so, mark as a switch and break the loop:
+        shouldSwitch = true;
+        break;
+      }
+    }
+    if (shouldSwitch) {
+      /*If a switch has been marked, make the switch
+      and mark that a switch has been done:*/
+      rows[i].parentNode.insertBefore(rows[i + 1], rows[i]);
+      switching = true;
+    }
+  }
+}
+//rezervacije promjena statusa
+let rezervacije = $('.rezervacije');
+rezervacije.on('click', (event) => {
+  if (event.target.classList.contains('reservedStatus')) {
+    event.target.closest('.changeStatus').classList.add('hidden');
+    event.target.closest('.changeStatus').nextElementSibling.classList.remove('hidden');
+    event.target.closest('.changeBg').classList.remove('bg-gray-200');
+  }
+  if (event.target.classList.contains('deniedStatus')) {
+    event.target.closest('.changeStatus').classList.add('hidden');
+    event.target.closest('.changeStatus').nextElementSibling.nextElementSibling.classList.remove('hidden');
+    event.target.closest('.changeBg').classList.remove('bg-gray-200');
+  }
+
+})
+
+function changeStyle1() {
+  $(".borderColor").removeClass('border-yellow-400')
+  $(".borderColor").removeClass('bg-transparent')
+  $(".borderColor").addClass('bg-yellow-400')
+  $(".borderText").text('Rezervisano')
+  $(".borderText").removeClass('text-yellow-400')
+  $(".borderText").addClass('text-white')
+}
+
+function changeStyle2() {
+  $(".borderColor").removeClass('border-yellow-400')
+  $(".borderColor").removeClass('bg-transparent')
+  $(".borderColor").addClass('bg-red-600')
+  $(".borderText").text('Odbijeno')
+  $(".borderText").removeClass('text-yellow-400')
+  $(".borderText").addClass('text-white')
+}

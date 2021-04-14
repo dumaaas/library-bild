@@ -36,7 +36,7 @@
         <!-- Content -->
         <section class="w-screen h-screen pl-[80px] py-4 text-gray-700">
             <!-- Heading of content -->
-            <div class="heading">
+            <div class="heading mt-[14px]">
                 <h1 class="pl-6 pb-[20px] text-[35px] text-[#5c5c5c] font-bold border-b-[2px] border-[#e4dfdf]">
                     Vracanje i iznajmljivanje knjiga
                 </h1>
@@ -125,14 +125,14 @@
                         </ul>
                         </div>  
                         <div class="w-full mt-[10px] ml-2 px-2">
-                        <table class="w-full border-2 border-gray-300">
+                        <table class="w-full border-2 border-gray-300" id="myTable">
                         <thead>
                             <tr class="border-b-2 border-gray-300">
                                 <th class="px-4 py-3 leading-4 tracking-wider text-left text-blue-500">
                                     <label class="inline-flex items-center">
                                     <input type="checkbox" class="form-checkbox"></label>
                                 </th>
-                                <th class="flex items-center px-4 py-3 leading-4 tracking-wider text-left">Naziv knjige<a href="#"><i class="ml-2 fa-lg fas fa-long-arrow-alt-down"></i></a></th>
+                                <th class="flex items-center px-4 py-3 leading-4 tracking-wider text-left">Naziv knjige<a href="#"><i class="ml-2 fa-lg fas fa-long-arrow-alt-down" onclick="sortTable()"></i></a></th>
                                 <th class="px-4 py-3 text-sm leading-4 tracking-wider text-left">Autor</th>
                                 <th class="px-4 py-3 text-sm leading-4 tracking-wider text-left">Kategorija</th>
                                 <th class="px-4 py-3 text-sm leading-4 tracking-wider text-left">Status</th>
@@ -148,7 +148,7 @@
                                     <td class="flex flex-row items-center px-4 py-4">
                                             <img class="object-cover w-8 h-11"
                                                 src="img/tomsojer.jpg" alt="" />
-                                            <span class="ml-2 font-semibold text-center">Geografija Crne Gore</span>
+                                                <a href="knjigaOsnovniDetalji.php"><span class="ml-2 font-semibold text-center">Geografija Crne Gore</span></a>
                                     </td>
                                     <td class="px-4 py-4 text-sm leading-5 whitespace-no-wrap">Maksimovic Darinka, Dercanin...</td>
                                     <td class="px-4 py-4 text-sm leading-5 whitespace-no-wrap">Udzbenici</td>
@@ -197,7 +197,7 @@
                                     <td class="flex flex-row items-center px-4 py-4">
                                             <img class="object-cover w-8 h-11"
                                                 src="img/tomsojer.jpg" alt="" />
-                                            <span class="ml-2 font-semibold text-center">Muzicka kultura I Razred Gi...</span>
+                                            <a href="knjigaOsnovniDetalji.php"><span class="ml-2 font-semibold text-center">Muzicka kultura I Razred Gi...</span></a>
                                     </td>
                                     <td class="px-4 py-4 text-sm leading-5 whitespace-no-wrap">Bubalo Zivkovic, Milka Barjaktarevi...</td>
                                     <td class="px-4 py-4 text-sm leading-5 whitespace-no-wrap">Udzbenici</td>
@@ -246,7 +246,7 @@
                                     <td class="flex flex-row items-center px-4 py-4">
                                             <img class="object-cover w-8 h-11"
                                                 src="img/tomsojer.jpg" alt="" />
-                                            <span class="ml-2 font-semibold text-center">Tom Sojer</span>
+                                            <a href="knjigaOsnovniDetalji.php"><span class="ml-2 font-semibold text-center">Tom Sojer</span></a>
                                     </td>
                                     <td class="px-4 py-4 text-sm leading-5 whitespace-no-wrap">Mark Twain</td>
                                     <td class="px-4 py-4 text-sm leading-5 whitespace-no-wrap">Romani</td>
@@ -287,7 +287,7 @@
                                         </div> 
                                     </td>
                                 </tr>
-                                <tr>
+                                <tr class="border-b-2 border-gray-300">
                                     <td class="px-4 py-4 whitespace-no-wrap">
                                         <label class="inline-flex items-center">
                                         <input type="checkbox" class="form-checkbox"></label>
@@ -295,7 +295,7 @@
                                     <td class="flex flex-row items-center px-4 py-4">
                                             <img class="object-cover w-8 h-11"
                                                 src="img/tomsojer.jpg" alt="" />
-                                            <span class="ml-2 font-semibold text-center">Robinson Kruso</span>
+                                            <a href="knjigaOsnovniDetalji.php"><span class="ml-2 font-semibold text-center">Robinson Kruso</span></a>
                                     </td>
                                     <td class="px-4 py-4 text-sm leading-5 whitespace-no-wrap">Daniel Defoe</td>
                                     <td class="px-4 py-4 text-sm leading-5 whitespace-no-wrap">Romani</td>

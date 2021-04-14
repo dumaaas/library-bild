@@ -36,7 +36,7 @@
         <!-- Content -->
         <section class="w-screen h-screen py-4 pl-[60px] text-[#212121]">
             <!-- Heading of content -->
-            <div class="heading">
+            <div class="heading mt-[14px]">
                 <h1 class="pl-[50px] pb-[20px] text-[35px] text-[#5c5c5c] font-bold border-b-[2px] border-[#e4dfdf]">
                     Bibliotekari
                 </h1>
@@ -63,14 +63,14 @@
                 </div>
           
                 <div class="inline-block min-w-full px-[50px] pt-3 overflow-hidden align-middle bg-white rounded-bl-lg rounded-br-lg shadow-dashboard">
-                    <table class="min-w-full border-2 border-gray-300">
+                    <table class="min-w-full border-2 border-gray-300" id="myTable">
                         <thead>
                             <tr class="border-b-2 border-gray-300">
                                 <th class="px-4 py-3 leading-4 tracking-wider text-left text-blue-500">
                                     <label class="inline-flex items-center">
                                     <input type="checkbox" class="form-checkbox"></label>
                                 </th>
-                                <th class="px-4 py-3 leading-4 tracking-wider text-left">Ime i prezime<a href="#"><i class="ml-3 fa-lg fas fa-long-arrow-alt-down"></i></a></th>
+                                <th class="px-4 py-3 leading-4 tracking-wider text-left">Ime i prezime<a href="#"><i class="ml-3 fa-lg fas fa-long-arrow-alt-down" onclick="sortTable()"></i></a></th>
                                 <th class="px-4 py-3 text-sm leading-4 tracking-wider text-left">Email</th>
                                 <th class="px-4 py-3 text-sm leading-4 tracking-wider text-left">Tip korisnika</th>
                                 <th class="px-4 py-3 text-sm leading-4 tracking-wider text-left">Zadnji pristup sistemu</th>
@@ -85,8 +85,8 @@
                                     </td>
                                     <td class="flex flex-row items-center px-2 py-4">
                                             <img class="object-cover w-8 h-8 rounded-full "
-                                                src="img/profileImg-default.jpg" alt="" />
-                                            <span class="ml-2 font-semibold text-center">Valentina Kascelan</span>
+                                                src="img/profileExample.jpg" alt="" />
+                                                <a href="ucenikProfile.php"><span class="ml-2 font-semibold text-center">Valentina Kascelan</span></a>
                                     </td>
                                     <td class="px-4 py-4 text-sm leading-5 whitespace-no-wrap">valentina.kascelan@domain...</td>
                                     <td class="px-4 py-4 text-sm leading-5 whitespace-no-wrap">Bibliotekar</td>
@@ -104,8 +104,8 @@
                                     </td>
                                     <td class="flex flex-row items-center px-2 py-4">
                                             <img class="object-cover w-8 h-8 rounded-full "
-                                                src="img/profileImg-default.jpg" alt="" />
-                                            <span class="ml-2 font-semibold text-center">Tarik Zaimovic</span>
+                                                src="img/profileStudent.jpg" alt="" />
+                                                <a href="ucenikProfile.php"><span class="ml-2 font-semibold text-center">Tarik Zaimovic</span></a>
                                     </td>
                                     <td class="px-4 py-4 text-sm leading-5 whitespace-no-wrap">tarik.zaimovic@domain.netcom</td>
                                     <td class="px-4 py-4 text-sm leading-5 whitespace-no-wrap">Bibliotekar</td>
@@ -123,8 +123,8 @@
                                     </td>
                                     <td class="flex flex-row items-center px-2 py-4">
                                             <img class="object-cover w-8 h-8 rounded-full "
-                                                src="img/profileImg-default.jpg" alt="" />
-                                            <span class="ml-2 font-semibold text-center">Test Akontacijevic</span>
+                                                src="img/profileStudent.jpg" alt="" />
+                                                <a href="ucenikProfile.php"><span class="ml-2 font-semibold text-center">Test Akontacijevic</span></a>
                                     </td>
                                     <td class="px-4 py-4 text-sm leading-5 whitespace-no-wrap">test.akontacijevic@bild-studio...</td>
                                     <td class="px-4 py-4 text-sm leading-5 whitespace-no-wrap">Bibliotekar</td>
@@ -135,15 +135,15 @@
                                         </p>
                                     </td>
                                 </tr>
-                                <tr>
+                                <tr class="border-b-2 border-gray-300">
                                     <td class="px-4 py-4 whitespace-no-wrap">
                                         <label class="inline-flex items-center">
                                         <input type="checkbox" class="form-checkbox"></label>
                                     </td>
                                     <td class="flex flex-row items-center px-2 py-4">
                                             <img class="object-cover w-8 h-8 rounded-full "
-                                                src="img/profileImg-default.jpg" alt="" />
-                                            <span class="ml-2 font-semibold text-center">Darko Kascelan</span>
+                                                src="img/profileStudent.jpg" alt="" />
+                                                <a href="ucenikProfile.php"><span class="ml-2 font-semibold text-center">Darko Kascelan</span></a>
                                     </td>
                                     <td class="px-4 py-4 text-sm leading-5 whitespace-no-wrap">darko.kascelan@bild-studio...</td>
                                     <td class="px-4 py-4 text-sm leading-5 whitespace-no-wrap">Bibliotekar</td>

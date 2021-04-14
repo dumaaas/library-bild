@@ -36,7 +36,7 @@
         <!-- Content -->
         <section class="w-screen h-screen py-4 pl-[60px] text-[#212121]">
             <!-- Heading of content -->
-            <div class="heading">
+            <div class="heading mt-[14px]">
                 <h1 class="pl-[50px] pb-[20px] text-[35px] text-[#5c5c5c] font-bold border-b-[2px] border-[#e4dfdf]">
                     Ucenici
                 </h1>
@@ -62,14 +62,14 @@
                 </div>
           
                 <div class="inline-block min-w-full px-[50px] pt-3 overflow-hidden align-middle bg-white rounded-bl-lg rounded-br-lg shadow-dashboard">
-                    <table class="min-w-full border-2 border-gray-300">
+                    <table class="min-w-full border-2 border-gray-300" id="myTable">
                         <thead>
                             <tr class="border-b-2 border-gray-300">
                                 <th class="px-4 py-3 leading-4 tracking-wider text-left text-blue-500">
                                     <label class="inline-flex items-center">
                                     <input type="checkbox" class="form-checkbox"></label>
                                 </th>
-                                <th class="px-4 py-3 leading-4 tracking-wider text-left">Ime i prezime<a href="#"><i class="ml-3 fa-lg fas fa-long-arrow-alt-down"></i></a></th>
+                                <th class="px-4 py-3 leading-4 tracking-wider text-left">Ime i prezime<a href="#"><i class="ml-3 fa-lg fas fa-long-arrow-alt-down" onclick="sortTable()"></i></a></th>
                                 <th class="px-4 py-3 text-sm leading-4 tracking-wider text-left">Email</th>
                                 <th class="px-4 py-3 text-sm leading-4 tracking-wider text-left">Tip korisnika</th>
                                 <th class="px-4 py-3 text-sm leading-4 tracking-wider text-left">Zadnji pristup sistemu</th>
@@ -84,8 +84,8 @@
                                     </td>
                                     <td class="flex flex-row items-center px-2 py-4">
                                             <img class="object-cover w-8 h-8 rounded-full "
-                                                src="img/profileImg-default.jpg" alt="" />
-                                            <span class="ml-2 font-semibold text-center">Pero Perovic</span>
+                                                src="img/profileStudent.jpg" alt="" />
+                                            <a href="ucenikProfile.php"><span class="ml-2 font-semibold text-center">Pero Perovic</span></a>
                                     </td>
                                     <td class="px-4 py-4 text-sm leading-5 whitespace-no-wrap">pero.perovic@domain.net</td>
                                     <td class="px-4 py-4 text-sm leading-5 whitespace-no-wrap">Ucenik</td>
@@ -103,8 +103,8 @@
                                     </td>
                                     <td class="flex flex-row items-center px-2 py-4">
                                             <img class="object-cover w-8 h-8 rounded-full "
-                                                src="img/profileImg-default.jpg" alt="" />
-                                            <span class="ml-2 font-semibold text-center">Nikola Nikolic</span>
+                                                src="img/profileStudent.jpg" alt="" />
+                                            <a href="ucenikProfile.php"><span class="ml-2 font-semibold text-center">Nikola Nikolic</span></a>
                                     </td>
                                     <td class="px-4 py-4 text-sm leading-5 whitespace-no-wrap">nikola.nikolic@domain.net</td>
                                     <td class="px-4 py-4 text-sm leading-5 whitespace-no-wrap">Ucenik</td>
@@ -122,8 +122,8 @@
                                     </td>
                                     <td class="flex flex-row items-center px-2 py-4">
                                             <img class="object-cover w-8 h-8 rounded-full "
-                                                src="img/profileImg-default.jpg" alt="" />
-                                            <span class="ml-2 font-semibold text-center">Mika Milic</span>
+                                                src="img/profileExample.jpg" alt="" />
+                                            <a href="ucenikProfile.php"><span class="ml-2 font-semibold text-center">Mika Milic</span></a>
                                     </td>
                                     <td class="px-4 py-4 text-sm leading-5 whitespace-no-wrap">mika.milic@domain.net</td>
                                     <td class="px-4 py-4 text-sm leading-5 whitespace-no-wrap">Ucenik</td>
@@ -134,15 +134,15 @@
                                         </p>
                                     </td>
                                 </tr>
-                                <tr>
+                                <tr class="border-b-2 border-gray-300">
                                     <td class="px-4 py-4 whitespace-no-wrap">
                                         <label class="inline-flex items-center">
                                         <input type="checkbox" class="form-checkbox"></label>
                                     </td>
                                     <td class="flex flex-row items-center px-2 py-4">
                                             <img class="object-cover w-8 h-8 rounded-full "
-                                                src="img/profileImg-default.jpg" alt="" />
-                                            <span class="ml-2 font-semibold text-center">Zaim Zaimovic</span>
+                                                src="img/profileStudent.jpg" alt="" />
+                                            <a href="ucenikProfile.php"><span class="ml-2 font-semibold text-center">Zaim Zaimovic</span></a>
                                     </td>
                                     <td class="px-4 py-4 text-sm leading-5 whitespace-no-wrap">zaim.zaimovic@domain.net</td>
                                     <td class="px-4 py-4 text-sm leading-5 whitespace-no-wrap">Ucenik</td>

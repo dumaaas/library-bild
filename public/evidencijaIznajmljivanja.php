@@ -107,14 +107,14 @@
                     </div>
                         <!-- Space for content -->
                     <div class="px-[30px] mt-[20px]">
-                        <table class="min-w-full border-2 border-gray-300">
+                        <table class="min-w-full border-2 border-gray-300" id="myTable">
                         <thead>
                             <tr class="border-b-2 border-gray-300">
                                 <th class="px-4 py-3 leading-4 tracking-wider text-left text-blue-500">
                                     <label class="inline-flex items-center">
                                     <input type="checkbox" class="form-checkbox"></label>
                                 </th>
-                                <th class="flex items-center px-4 py-3 text-sm leading-4 tracking-wider text-left">Datum akcije<a href="#"><i class="ml-2 fa-lg fas fa-long-arrow-alt-down"></i></a></th>
+                                <th class="flex items-center px-4 py-3 text-sm leading-4 tracking-wider text-left">Datum akcije<a href="#"><i class="ml-2 fa-lg fas fa-long-arrow-alt-down" onclick="sortTable()"></i></a></th>
                                 <th class="px-4 py-3 text-sm leading-4 tracking-wider text-left">Tip akcije</th>
                                 <th class="px-4 py-3 text-sm leading-4 tracking-wider text-left">Bibliotekar</th>
                                 <th class="px-4 py-3 text-sm leading-4 tracking-wider text-left">Ucenik</th>
@@ -219,10 +219,10 @@
                                         <span class="relative text-xs text-white">Izdavanje knjige</span>
                                     </span>
                                     </td>
-                                    <td class="px-6 py-4 text-sm leading-5 whitespace-no-wrap">Valentina Kascelan</td>
-                                    <td class="px-6 py-4 text-sm leading-5 whitespace-no-wrap">Milos Milosevic</td>
-                                    <td class="px-2 py-2"></td>
-                                    <td class="px-6 py-4 text-sm leading-5 text-right whitespace-no-wrap">
+                                    <td class="px-4 py-4 text-sm leading-5 whitespace-no-wrap">Valentina Kascelan</td>
+                                    <td class="px-4 py-4 text-sm leading-5 whitespace-no-wrap">Milos Milosevic</td>
+                                    <td class="px-4 py-2"></td>
+                                    <td class="px-4 py-4 text-sm leading-5 text-right whitespace-no-wrap">
                                         <p class="inline cursor-pointer text-[20px] py-[10px] px-[30px]" id="dropdownRentalRecordRow3">
                                             <i class="fas fa-ellipsis-v hover:text-gray-500 focus:outline-none active:text-gray-800"></i>
                                         </p>
@@ -254,10 +254,10 @@
                                         <span class="relative text-xs text-white">Vracanje knjige</span>
                                     </span>
                                     </td>
-                                    <td class="px-6 py-4 text-sm leading-5 whitespace-no-wrap">Nina Bracovic</td>
-                                    <td class="px-6 py-4 text-sm leading-5 whitespace-no-wrap">Nenad Novovic</td>
-                                    <td class="px-2 py-2"></td>
-                                    <td class="px-6 py-4 text-sm leading-5 text-right whitespace-no-wrap">
+                                    <td class="px-4 py-4 text-sm leading-5 whitespace-no-wrap">Nina Bracovic</td>
+                                    <td class="px-4 py-4 text-sm leading-5 whitespace-no-wrap">Nenad Novovic</td>
+                                    <td class="px-4 py-2"></td>
+                                    <td class="px-4 py-4 text-sm leading-5 text-right whitespace-no-wrap">
                                         <p class="inline cursor-pointer text-[20px] py-[10px] px-[30px]" id="dropdownRentalRecordRow4">
                                             <i class="fas fa-ellipsis-v hover:text-gray-500 focus:outline-none active:text-gray-800"></i>
                                         </p>
@@ -289,10 +289,10 @@
                                         <span class="relative text-xs text-white">Rezervisano</span>
                                     </span>
                                     </td>
-                                    <td class="px-6 py-4 text-sm leading-5 whitespace-no-wrap">Nina Bracovic</td>
-                                    <td class="px-6 py-4 text-sm leading-5 whitespace-no-wrap">Tarik Zaimovic</td>
-                                    <td class="px-2 py-2"></td>
-                                    <td class="px-6 py-4 text-sm leading-5 text-right whitespace-no-wrap">
+                                    <td class="px-4 py-4 text-sm leading-5 whitespace-no-wrap">Nina Bracovic</td>
+                                    <td class="px-4 py-4 text-sm leading-5 whitespace-no-wrap">Tarik Zaimovic</td>
+                                    <td class="px-4 py-2"></td>
+                                    <td class="px-4 py-4 text-sm leading-5 text-right whitespace-no-wrap">
                                         <p class="inline cursor-pointer text-[20px] py-[10px] px-[30px]" id="dropdownRentalRecordRow5">
                                             <i class="fas fa-ellipsis-v hover:text-gray-500 focus:outline-none active:text-gray-800"></i>
                                         </p>
@@ -324,10 +324,10 @@
                                         <span class="relative text-xs text-white">Vracanje knjige</span>
                                     </span>
                                     </td>
-                                    <td class="px-6 py-4 text-sm leading-5 whitespace-no-wrap">Nina Bracovic</td>
-                                    <td class="px-6 py-4 text-sm leading-5 whitespace-no-wrap">Dejan Petkovic</td>
-                                    <td class="px-2 py-2"></td>
-                                    <td class="px-6 py-4 text-sm leading-5 text-right whitespace-no-wrap">
+                                    <td class="px-4 py-4 text-sm leading-5 whitespace-no-wrap">Nina Bracovic</td>
+                                    <td class="px-4 py-4 text-sm leading-5 whitespace-no-wrap">Dejan Petkovic</td>
+                                    <td class="px-4 py-2"></td>
+                                    <td class="px-4 py-4 text-sm leading-5 text-right whitespace-no-wrap">
                                         <p class="inline cursor-pointer text-[20px] py-[10px] px-[30px]" id="dropdownRentalRecordRow6">
                                             <i class="fas fa-ellipsis-v hover:text-gray-500 focus:outline-none active:text-gray-800"></i>
                                         </p>
@@ -359,10 +359,10 @@
                                         <span class="relative text-xs text-white">Odbijeno</span>
                                     </span>
                                     </td>
-                                    <td class="px-6 py-4 text-sm leading-5 whitespace-no-wrap">Valentina Kascelan</td>
-                                    <td class="px-6 py-4 text-sm leading-5 whitespace-no-wrap">Ivica Tartar</td>
-                                    <td class="px-2 py-2"></td>
-                                    <td class="px-6 py-4 text-sm leading-5 text-right whitespace-no-wrap">
+                                    <td class="px-4 py-4 text-sm leading-5 whitespace-no-wrap">Valentina Kascelan</td>
+                                    <td class="px-4 py-4 text-sm leading-5 whitespace-no-wrap">Ivica Tartar</td>
+                                    <td class="px-4 py-2"></td>
+                                    <td class="px-4 py-4 text-sm leading-5 text-right whitespace-no-wrap">
                                         <p class="inline cursor-pointer text-[20px] py-[10px] px-[30px]" id="dropdownRentalRecordRow7">
                                             <i class="fas fa-ellipsis-v hover:text-gray-500 focus:outline-none active:text-gray-800"></i>
                                         </p>
@@ -382,7 +382,7 @@
                                         </div> 
                                     </td>
                                 </tr>
-                                <tr>
+                                <tr class="border-b-2 border-gray-300">
                                     <td class="px-4 py-4 whitespace-no-wrap">
                                         <label class="inline-flex items-center">
                                         <input type="checkbox" class="form-checkbox"></label>
@@ -394,10 +394,10 @@
                                         <span class="relative text-xs text-white">Vracanje knjige</span>
                                     </span>
                                     </td>
-                                    <td class="px-6 py-4 text-sm leading-5 whitespace-no-wrap">Valentina Kascelan</td>
-                                    <td class="px-6 py-4 text-sm leading-5 whitespace-no-wrap">Sanja Gardasevic</td>
-                                    <td class="px-2 py-2"></td>
-                                    <td class="px-6 py-4 text-sm leading-5 text-right whitespace-no-wrap">
+                                    <td class="px-4 py-4 text-sm leading-5 whitespace-no-wrap">Valentina Kascelan</td>
+                                    <td class="px-4 py-4 text-sm leading-5 whitespace-no-wrap">Sanja Gardasevic</td>
+                                    <td class="px-4 py-2"></td>
+                                    <td class="px-4 py-4 text-sm leading-5 text-right whitespace-no-wrap">
                                         <p class="inline cursor-pointer text-[20px] py-[10px] px-[30px]" id="dropdownRentalRecordRow8">
                                             <i class="fas fa-ellipsis-v hover:text-gray-500 focus:outline-none active:text-gray-800"></i>
                                         </p>
