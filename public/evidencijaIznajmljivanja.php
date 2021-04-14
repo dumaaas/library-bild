@@ -14,7 +14,7 @@
 
     <!-- Title -->
     <title>Osnovni detalji | Library - ICT Cortex student project</title>
-    <link rel="shortcut icon" href="/img/library-favicon.ico" type="image/vnd.microsoft.icon" />
+    <link rel="shortcut icon" href="img/library-favicon.ico" type="image/vnd.microsoft.icon" />
     <!-- End Title -->
 
     <!-- Styles -->
@@ -131,20 +131,21 @@
                                     <td class="px-4 py-4 text-sm leading-5 whitespace-no-wrap">21.02.2021</td>
                                     <td class="px-4 py-4 text-sm leading-5 text-blue-900 whitespace-no-wrap">
                                         <span class="relative inline-block px-3 py-1 font-semibold leading-tight text-green-900">
-                                        <span aria-hidden class="absolute inset-0 bg-transparent border-2 border-yellow-400"></span>
-                                        <span class="relative text-xs text-yellow-400">Rezervacija</span>
+                                        <span aria-hidden class="absolute inset-0 bg-transparent border-2 border-yellow-400 borderColor"></span>
+                                        <span class="relative text-xs text-yellow-400 borderText">Rezervacija</span>
                                     </span>
                                     </td>
                                     <td class="px-4 py-4 text-sm leading-5 whitespace-no-wrap">Valentina Kascelan</td>
                                     <td class="px-4 py-4 text-sm leading-5 whitespace-no-wrap">Pero Perovic</td>
-                                    <td class="px-4 py-2">
-                                            <a href="#" class="hover:text-green-500 mr-[5px]">
+                                    <td class="px-4 py-2 removeLinks">
+                                            <a href="#" class="hover:text-green-500 mr-[5px]" onclick="changeStyle1()">
                                                 <i class="fas fa-check"></i>
                                             </a>
-                                            <a href="#" class="hover:text-red-500 ">
+                                            <a href="#" class="hover:text-red-500 " onclick="changeStyle2()">
                                                 <i class="fas fa-times"></i>
                                             </a>
-                                        </td>
+                                    </td>
+                                    <td class="hidden px-4 py-2"></td>
                                     <td class="px-6 py-4 text-sm leading-5 text-right whitespace-no-wrap">
                                         <p class="inline cursor-pointer text-[20px] py-[10px] px-[30px]" id="dropdownRentalRecordRow1">
                                             <i class="fas fa-ellipsis-v hover:text-gray-500 focus:outline-none active:text-gray-800"></i>
@@ -173,20 +174,21 @@
                                     <td class="px-4 py-4 text-sm leading-5 whitespace-no-wrap">12.05.2020</td>
                                     <td class="px-4 py-4 text-sm leading-5 text-blue-900 whitespace-no-wrap">
                                         <span class="relative inline-block px-3 py-1 font-semibold leading-tight text-green-900">
-                                        <span aria-hidden class="absolute inset-0 bg-transparent border-2 border-yellow-400"></span>
-                                        <span class="relative text-xs text-yellow-400">Rezervacija</span>
+                                        <span aria-hidden class="absolute inset-0 bg-transparent border-2 border-yellow-400 borderColor"></span>
+                                        <span class="relative text-xs text-yellow-400 borderText">Rezervacija</span>
                                     </span>
                                     </td>
                                     <td class="px-4 py-4 text-sm leading-5 whitespace-no-wrap">Valentina Kascelan</td>
                                     <td class="px-4 py-4 text-sm leading-5 whitespace-no-wrap">Nina Bulatovic</td>
-                                    <td class="px-4 py-2">
-                                            <a href="#" class="hover:text-green-500 mr-[5px]">
+                                    <td class="px-4 py-2 removeLinks">
+                                            <a href="#" class="hover:text-green-500 mr-[5px]" onclick="changeStyle1()">
                                                 <i class="fas fa-check"></i>
                                             </a>
-                                            <a href="#" class="hover:text-red-500 ">
+                                            <a href="#" class="hover:text-red-500 " onclick="changeStyle2()">
                                                 <i class="fas fa-times"></i>
                                             </a>
-                                        </td>
+                                    </td>
+                                    <td class="hidden px-4 py-2"></td>
                                     <td class="px-6 py-4 text-sm leading-5 text-right whitespace-no-wrap">
                                         <p class="inline cursor-pointer text-[20px] py-[10px] px-[30px]" id="dropdownRentalRecordRow2">
                                             <i class="fas fa-ellipsis-v hover:text-gray-500 focus:outline-none active:text-gray-800"></i>
