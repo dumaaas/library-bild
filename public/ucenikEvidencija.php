@@ -108,7 +108,7 @@
                             </tr>
                         </thead>
                         <tbody class="bg-white">
-                                <tr class="bg-gray-200 border-b-2 border-gray-300">
+                                <tr class="bg-gray-200 border-b-2 border-gray-300 backgroundStyle">
                                     <td class="px-4 py-4 whitespace-no-wrap">
                                         <label class="inline-flex items-center">
                                         <input type="checkbox" class="form-checkbox"></label>
@@ -122,7 +122,7 @@
                                     <td class="px-4 py-4 text-sm leading-5 text-blue-900 whitespace-no-wrap">
                                         <span class="relative inline-block px-3 py-1 font-semibold leading-tight text-green-900">
                                         <span aria-hidden class="absolute inset-0 bg-transparent border-2 border-yellow-400 borderColor"></span>
-                                        <span class="relative text-xs text-yellow-400 border2 borderText">Rezervacija</span>
+                                        <span class="relative text-xs text-yellow-400 borderText">Rezervacija</span>
                                     </span>
                                     </td>
                                     <td class="px-4 py-4 text-sm leading-5 whitespace-no-wrap">Valentina Kascelan</td>

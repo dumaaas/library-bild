@@ -342,6 +342,7 @@ function changeStyle1() {
   $(".borderText").addClass('text-white')
   $(".removeLinks").addClass('hidden')
   $(".removeLinks").next().removeClass('hidden')
+  $(".backgroundStyle").removeClass('bg-gray-200')
 }
 
 function changeStyle2() {
@@ -353,6 +354,7 @@ function changeStyle2() {
   $(".borderText").addClass('text-white')
   $(".removeLinks").addClass('hidden')
   $(".removeLinks").next().removeClass('hidden')
+  $(".backgroundStyle").removeClass('bg-gray-200')
 }
 
 // Form validation for new librarian
@@ -674,7 +676,7 @@ $("#izdajKnjigu").keypress(function (e) {
 });
 
 // Form validation for making reservations
-function validacijaRezervisanje(){
+function validacijaRezervisanje() {
 
   $("#validateUcenikRezervisanje").empty();
   $("#validateDatumRezervisanja").empty();
@@ -682,25 +684,25 @@ function validacijaRezervisanje(){
   let ucenikRezervisanje = $("#ucenikRezervisanje").val();
   let datumRezervisanja = $("#datumRezervisanja").val();
 
-  if(ucenikRezervisanje == null){
+  if (ucenikRezervisanje == null) {
     $('#validateUcenikRezervisanje').append('<p style="color:red;font-size:13px;">Morate selektovati ucenika!</p>');
   }
 
-  if(datumRezervisanja.length == 0){
+  if (datumRezervisanja.length == 0) {
     $('#validateDatumRezervisanja').append('<p style="color:red;font-size:13px;">Morate selektovati datum rezervisanja!</p>');
   }
 }
 
-function clearErrorsUcenikRezervisanje(){
+function clearErrorsUcenikRezervisanje() {
   $("#validateUcenikRezervisanje").empty();
 }
 
-function clearErrorsDatumRezervisanja(){
+function clearErrorsDatumRezervisanja() {
   $("#validateDatumRezervisanja").empty();
 }
 
-$("#rezervisiKnjigu").keypress(function(e){
-  if(e.which == 13){
+$("#rezervisiKnjigu").keypress(function (e) {
+  if (e.which == 13) {
     validacijaRezervisanje();
     return false;
   }

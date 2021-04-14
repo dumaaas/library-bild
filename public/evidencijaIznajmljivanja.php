@@ -123,7 +123,7 @@
                             </tr>
                         </thead>
                         <tbody class="bg-white">
-                                <tr class="bg-gray-200 border-b-2 border-gray-300">
+                                <tr class="bg-gray-200 border-b-2 border-gray-300 backgroundStyle">
                                     <td class="px-4 py-4 whitespace-no-wrap">
                                         <label class="inline-flex items-center">
                                         <input type="checkbox" class="form-checkbox"></label>
@@ -166,7 +166,7 @@
                                         </div> 
                                     </td>
                                 </tr>
-                                <tr class="bg-gray-200 border-b-2 border-gray-300">
+                                <tr class="bg-gray-200 border-b-2 border-gray-300 backgroundStyle">
                                     <td class="px-4 py-4 whitespace-no-wrap">
                                         <label class="inline-flex items-center">
                                         <input type="checkbox" class="form-checkbox"></label>
