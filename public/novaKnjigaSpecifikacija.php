@@ -79,47 +79,52 @@
                     </div>
             <!-- Space for content -->
             <div class="scroll height-content section-content">
-                <form class="text-gray-700">
+                <form class="text-gray-700 forma">
                     <div class="flex flex-row ml-[30px]">
                         <div class="w-[50%] mb-[150px]">
                             <div class="mt-[20px]">
-                                <span>Broj strana</span>
-                                <input type="text" class="flex w-[45%] mt-2 px-2 py-2 text-base bg-white border border-gray-300 shadow-sm appearance-none focus:outline-none focus:ring-2 focus:ring-[#576cdf]"/>
+                                <span>Broj strana <span class="text-red-500">*</span></span>
+                                <input type="text" name="brStrana" id="brStrana" class="flex w-[45%] mt-2 px-2 py-2 text-base bg-white border border-gray-300 shadow-sm appearance-none focus:outline-none focus:ring-2 focus:ring-[#576cdf]" onkeydown="clearErrorsBrStrana()"/>
+                                <div id="validateBrStrana"></div>
                             </div>
 
                             <div class="mt-[20px]">
-                                <span>Pismo</span>
-                                <select class="flex w-[45%] mt-2 px-2 py-2 border bg-white border-gray-300 shadow-sm focus:outline-none focus:ring-2 focus:ring-[#576cdf]" name="pismo">
-                                    <option value=""></option>
+                                <span>Pismo <span class="text-red-500">*</span></span>
+                                <select class="flex w-[45%] mt-2 px-2 py-2 border bg-white border-gray-300 shadow-sm focus:outline-none focus:ring-2 focus:ring-[#576cdf]" name="pismo" id="pismo" onclick="clearErrorsPismo()">
+                                    <option disabled selected></option>
                                     <option value="">
                                         Pismo 1
                                     </option>
                                 </select>
+                                <div id="validatePismo"></div>
                             </div>
 
                             <div class="mt-[20px]">
-                                <span>Povez</span>
-                                <select class="flex w-[45%] mt-2 px-2 py-2 border bg-white border-gray-300 shadow-sm focus:outline-none focus:ring-2 focus:ring-[#576cdf]" name="povez">
-                                    <option value=""></option>
+                                <span>Povez <span class="text-red-500">*</span></span>
+                                <select class="flex w-[45%] mt-2 px-2 py-2 border bg-white border-gray-300 shadow-sm focus:outline-none focus:ring-2 focus:ring-[#576cdf]" name="povez" id="povez" onclick="clearErrorsPovez()">
+                                    <option disabled selected></option>
                                     <option value="">
                                         Povez 1
                                     </option>
                                 </select>
+                                <div id="validatePovez"></div>
                             </div>
 
                             <div class="mt-[20px]">
-                                <span>Format</span>
-                                <select class="flex w-[45%] mt-2 px-2 py-2 border bg-white border-gray-300 shadow-sm focus:outline-none focus:ring-2 focus:ring-[#576cdf]" name="format">
-                                    <option value=""></option>
+                                <span>Format <span class="text-red-500">*</span></span>
+                                <select class="flex w-[45%] mt-2 px-2 py-2 border bg-white border-gray-300 shadow-sm focus:outline-none focus:ring-2 focus:ring-[#576cdf]" name="format" id="format" onclick="clearErrorsFormat()">
+                                    <option disabled selected></option>
                                     <option value="">
                                         Format 1
                                     </option>
                                 </select>
+                                <div id="validateFormat"></div>
                             </div>
 
                             <div class="mt-[20px]">
-                                <span>International Standard Book Num</span>
-                                <input type="text" class="flex w-[45%] mt-2 px-2 py-2 text-base bg-white border border-gray-300 shadow-sm appearance-none focus:outline-none focus:ring-2 focus:ring-[#576cdf]"/>
+                                <span>International Standard Book Num <span class="text-red-500">*</span></span>
+                                <input type="text" name="isbn" id="isbn" class="flex w-[45%] mt-2 px-2 py-2 text-base bg-white border border-gray-300 shadow-sm appearance-none focus:outline-none focus:ring-2 focus:ring-[#576cdf]" onkeydown="clearErrorsIsbn()"/>
+                                <div id="validateIsbn"></div>
                             </div>
                         </div>
                     </div>
@@ -131,8 +136,8 @@
                                         class="mr-[15px] w-[150px] focus:outline-none text-black text-sm py-2.5 px-5 rounded-md border transition duration-300 ease-in border-black hover:bg-gray-600 hover:text-white">
                                             Ponisti
                                 </button>
-                                <button id="vratiKnjigu" type="button"
-                                        class="w-[150px] disabled:opacity-50 focus:outline-none text-white text-sm py-2.5 px-5 rounded-md border transition duration-300 ease-in border-gray-600 bg-blue-500 hover:bg-blue-800">
+                                <button id="sacuvajSpecifikaciju" type="submit"
+                                        class="w-[150px] disabled:opacity-50 focus:outline-none text-white text-sm py-2.5 px-5 rounded-md border transition duration-300 ease-in border-gray-600 bg-blue-500 hover:bg-blue-800" onclick="validacijaSpecifikacija()">
                                             Sacuvaj
                                 </button>
                             </div>

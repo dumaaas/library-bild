@@ -566,3 +566,65 @@ $("#sacuvajKnjigu").keypress(function(e){
     return false;
   }
 });
+
+// Form validation for new book
+function validacijaSpecifikacija(){
+
+  $("#validateBrStrana").empty();
+  $("#validatePismo").empty();
+  $("#validatePovez").empty();
+  $("#validateFormat").empty();
+  $("#validateIsbn").empty();
+
+  let brStrana = $("#brStrana").val();
+  let pismo = $("#pismo").val();
+  let povez = $("#povez").val();
+  let format = $("#format").val();
+  let isbn = $("#isbn").val();
+
+  if(brStrana.length == 0){
+    $('#validateBrStrana').append('<p style="color:red;font-size:13px;">Morate unijeti broj strana!</p>');
+  }
+
+  if(pismo == null){
+    $('#validatePismo').append('<p style="color:red;font-size:13px;">Morate selektovati pismo!</p>');
+  }
+
+  if(povez == null){
+    $('#validatePovez').append('<p style="color:red;font-size:13px;">Morate selektovati povez!</p>');
+  }
+
+  if(format == null){
+    $('#validateFormat').append('<p style="color:red;font-size:13px;">Morate selektovati format!</p>');
+  }
+
+  if(isbn.length == 0){
+    $('#validateIsbn').append('<p style="color:red;font-size:13px;">Morate unijeti ISBN!</p>');
+  }
+}
+
+function clearErrorsBrStrana(){
+  $("#validateBrStrana").empty();
+}
+
+function clearErrorsPismo(){
+  $("#validatePismo").empty();
+}
+
+function clearErrorsPovez(){
+  $("#validatePovez").empty();
+}
+
+function clearErrorsFormat(){
+  $("#validateFormat").empty();
+}
+function clearErrorsIsbn(){
+  $("#validateIsbn").empty();
+}
+
+$("#sacuvajSpecifikaciju").keypress(function(e){
+  if(e.which == 13){
+    validacijaSpecifikacija();
+    return false;
+  }
+});
