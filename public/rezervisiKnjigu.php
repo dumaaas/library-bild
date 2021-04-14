@@ -100,13 +100,14 @@
 
             <!-- Space for content -->
             <div class="scroll height-content section-content">
-                <form class="text-gray-700">
+                <form class="text-gray-700 forma">
                     <div class="flex flex-row ml-[30px]">
-                        <div class="w-[50%]">
+                        <div class="w-[50%] mb-[100px]">
                             <span class="inline-block mt-[20px] mb-[10px] font-bold text-xl">Rezervisi knjigu</span>
                             <div class="mt-[20px]">
-                                <span>Izaberi ucenika za koga se knjiga rezervise</span>
-                                <select class="flex w-[90%] mt-2 px-2 py-2 border bg-white border-gray-300 shadow-sm focus:outline-none focus:ring-2 focus:ring-[#576cdf]" name="ucenik">
+                                <span>Izaberi ucenika za koga se knjiga rezervise <span class="text-red-500">*</span></span>
+                                <select class="flex w-[90%] mt-2 px-2 py-2 border bg-white border-gray-300 shadow-sm focus:outline-none focus:ring-2 focus:ring-[#576cdf]" name="ucenik" id="ucenikRezervisanje" onclick="clearErrorsUcenikRezervisanje()">
+                                    <option disabled selected></option>
                                     <option value="">
                                         Pero Perovic
                                     </option>
@@ -114,25 +115,27 @@
                                         Ucenik 2
                                     </option>
                                 </select>
+                                <div id="validateUcenikRezervisanje"></div>
                             </div>
                             <div class="mt-[20px]">
-                                <span>Datum rezervisanja</span>
+                                <span>Datum rezervisanja <span class="text-red-500">*</span></span>
                                 <label class="text-gray-700" for="date">
-                                    <input type="date" class="flex w-[50%] mt-2 px-4 py-2 text-base placeholder-gray-400 bg-white border border-gray-300 appearance-none focus:outline-none focus:ring-2 focus:ring-[#576cdf]"/>
+                                    <input type="date" name="datumRezervisanja" id="datumRezervisanja" class="flex w-[50%] mt-2 px-4 py-2 text-base placeholder-gray-400 bg-white border border-gray-300 appearance-none focus:outline-none focus:ring-2 focus:ring-[#576cdf]" onclick="clearErrorsDatumRezervisanja()"/>
                                 </label>
+                                <div id="validateDatumRezervisanja"></div>
                             </div>
                         </div>
                     </div>
 
-                    <div class="w-full absolute border-t-[2px] border-gray-300 bottom-0">
+                    <div class="w-full absolute border-t-[2px] border-gray-300 bottom-0 bg-white">
                         <div class="flex flex-row">
                             <div class="inline-block w-full text-right py-[7px] mr-[100px]">
                                 <button type="button"
                                         class="mr-[15px] w-[150px] focus:outline-none text-black text-sm py-2.5 px-5 rounded-md border transition duration-300 ease-in border-black hover:bg-gray-600 hover:text-white">
                                             Ponisti
                                 </button>
-                                <button id="vratiKnjigu" type="button"
-                                        class="w-[150px] focus:outline-none text-white text-sm py-2.5 px-5 rounded-md border transition duration-300 ease-in border-gray-600 bg-blue-500 hover:bg-blue-800">
+                                <button id="rezervisiKnjigu" type="submit"
+                                        class="w-[150px] focus:outline-none text-white text-sm py-2.5 px-5 rounded-md border transition duration-300 ease-in border-gray-600 bg-blue-500 hover:bg-blue-800" onclick="validacijaRezervisanje()">
                                             Rezervisi knjigu
                                 </button>
                             </div>

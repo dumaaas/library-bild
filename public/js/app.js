@@ -661,3 +661,36 @@ $("#izdajKnjigu").keypress(function(e){
     return false;
   }
 });
+
+// Form validation for making reservations
+function validacijaRezervisanje(){
+
+  $("#validateUcenikRezervisanje").empty();
+  $("#validateDatumRezervisanja").empty();
+
+  let ucenikRezervisanje = $("#ucenikRezervisanje").val();
+  let datumRezervisanja = $("#datumRezervisanja").val();
+
+  if(ucenikRezervisanje == null){
+    $('#validateUcenikRezervisanje').append('<p style="color:red;font-size:13px;">Morate selektovati ucenika!</p>');
+  }
+
+  if(datumRezervisanja.length == 0){
+    $('#validateDatumRezervisanja').append('<p style="color:red;font-size:13px;">Morate selektovati datum rezervisanja!</p>');
+  }
+}
+
+function clearErrorsUcenikRezervisanje(){
+  $("#validateUcenikRezervisanje").empty();
+}
+
+function clearErrorsDatumRezervisanja(){
+  $("#validateDatumRezervisanja").empty();
+}
+
+$("#rezervisiKnjigu").keypress(function(e){
+  if(e.which == 13){
+    validacijaRezervisanje();
+    return false;
+  }
+});
