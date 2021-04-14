@@ -81,7 +81,7 @@
             <div class="scroll height-content section-content">
                 <form class="text-gray-700">
 
-                        <div class="w-9/12 mx-auto bg-white rounded p7 mt-[40px]">
+                        <div class="w-9/12 mx-auto bg-white rounded p7 mt-[40px] mb-[150px]">
                             <div x-data="dataFileDnD()" class="relative flex flex-col p-4 text-gray-400 border border-gray-200 rounded">
                                 <div x-ref="dnd"
                                     class="relative flex flex-col text-gray-400 border border-gray-200 border-dashed rounded cursor-pointer">
@@ -162,7 +162,7 @@
                             </div>
                         </div>
 
-                    <div class="w-full absolute border-t-[2px] border-gray-300 bottom-0">
+                    <div class="w-full absolute border-t-[2px] border-gray-300 bottom-0 bg-white z-50">
                         <div class="flex flex-row">
                             <div class="inline-block w-full text-right py-[7px] mr-[100px]">
                                 <button type="button"

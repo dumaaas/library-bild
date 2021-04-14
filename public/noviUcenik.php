@@ -70,7 +70,7 @@
             <div class="scroll height-content section-content">
                 <form class="text-gray-700">
                     <div class="flex flex-row ml-[30px]">
-                        <div class="w-[50%]">
+                        <div class="w-[50%] mb-[100px]">
                             <div class="mt-[20px]">
                                 <span>Ime i prezime</span>
                                 <input type="text" class="flex w-[90%] mt-2 px-2 py-2 text-base bg-white border border-gray-300 shadow-sm appearance-none focus:outline-none focus:ring-2 focus:ring-[#576cdf]"/>
@@ -129,7 +129,7 @@
                         </div>
                     </div>
 
-                    <div class="w-full absolute border-t-[2px] border-gray-300 bottom-0">
+                    <div class="w-full absolute border-t-[2px] border-gray-300 bottom-0 bg-white">
                         <div class="flex flex-row">
                             <div class="inline-block w-full text-right py-[7px] mr-[100px]">
                                 <button type="button"

@@ -80,7 +80,7 @@
             <!-- Space for content -->
             <div class="scroll height-content section-content">
                 <form class="text-gray-700">
-                    <div class="flex flex-row ml-[30px]">
+                    <div class="flex flex-row ml-[30px] mb-[150px]">
                         <div class="w-[50%]">
                             <div class="mt-[20px]">
                                 <span>Naziv knjige</span>
@@ -155,7 +155,7 @@
                         </div>
                     </div>
 
-                    <div class="w-full absolute border-t-[2px] border-gray-300 bottom-0">
+                    <div class="w-full absolute border-t-[2px] border-gray-300 bottom-0 bg-white">
                         <div class="flex flex-row">
                             <div class="inline-block w-full text-right py-[7px] mr-[100px]">
                                 <button type="button"
