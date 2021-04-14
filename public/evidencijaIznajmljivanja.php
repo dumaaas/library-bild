@@ -107,14 +107,14 @@
                     </div>
                         <!-- Space for content -->
                     <div class="px-[30px] mt-[20px]">
-                        <table class="min-w-full border-2 border-gray-300" id="myTable">
+                        <table class="min-w-full border-2 border-gray-300" id="myTableDate">
                         <thead>
                             <tr class="border-b-2 border-gray-300">
                                 <th class="px-4 py-3 leading-4 tracking-wider text-left text-blue-500">
                                     <label class="inline-flex items-center">
                                     <input type="checkbox" class="form-checkbox"></label>
                                 </th>
-                                <th class="flex items-center px-4 py-3 text-sm leading-4 tracking-wider text-left">Datum akcije<a href="#"><i class="ml-2 fa-lg fas fa-long-arrow-alt-down" onclick="sortTable()"></i></a></th>
+                                <th class="flex items-center px-4 py-3 text-sm leading-4 tracking-wider text-left">Datum akcije<a href="#"><i class="ml-2 fa-lg fas fa-long-arrow-alt-down" onclick="sortTableDate()"></i></a></th>
                                 <th class="px-4 py-3 text-sm leading-4 tracking-wider text-left">Tip akcije</th>
                                 <th class="px-4 py-3 text-sm leading-4 tracking-wider text-left">Bibliotekar</th>
                                 <th class="px-4 py-3 text-sm leading-4 tracking-wider text-left">Ucenik</th>
@@ -146,7 +146,7 @@
                                             </a>
                                     </td>
                                     <td class="hidden px-4 py-2"></td>
-                                    <td class="px-6 py-4 text-sm leading-5 text-right whitespace-no-wrap">
+                                    <td class="px-4 py-4 text-sm leading-5 text-right whitespace-no-wrap">
                                         <p class="inline cursor-pointer text-[20px] py-[10px] px-[30px]" id="dropdownRentalRecordRow1">
                                             <i class="fas fa-ellipsis-v hover:text-gray-500 focus:outline-none active:text-gray-800"></i>
                                         </p>
@@ -189,7 +189,7 @@
                                             </a>
                                     </td>
                                     <td class="hidden px-4 py-2"></td>
-                                    <td class="px-6 py-4 text-sm leading-5 text-right whitespace-no-wrap">
+                                    <td class="px-4 py-4 text-sm leading-5 text-right whitespace-no-wrap">
                                         <p class="inline cursor-pointer text-[20px] py-[10px] px-[30px]" id="dropdownRentalRecordRow2">
                                             <i class="fas fa-ellipsis-v hover:text-gray-500 focus:outline-none active:text-gray-800"></i>
                                         </p>

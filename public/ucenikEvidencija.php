@@ -91,7 +91,7 @@
              <!-- Space for content -->
             <div class="overflow-auto height-ucenikEvidencija scroll">
                   <div class="inline-block min-w-full px-[30px] pt-3 mt-10 overflow-hidden align-middle bg-white rounded-bl-lg rounded-br-lg shadow-dashboard">
-                    <table class="min-w-full border-2 border-gray-300" id="myTable">
+                    <table class="min-w-full border-2 border-gray-300" id="myTableDate1">
                         <thead>
                             <tr class="border-b-2 border-gray-300">
                                 <th class="px-4 py-3 leading-4 tracking-wider text-left text-blue-500">
@@ -99,7 +99,7 @@
                                     <input type="checkbox" class="form-checkbox"></label>
                                 </th>
                                 <th class="px-4 py-3 leading-4 tracking-wider text-left">Naziv knjige</th>
-                                <th class="flex items-center px-4 py-3 text-sm leading-4 tracking-wider text-left">Datum akcije<a href="#"><i class="ml-2 fa-lg fas fa-long-arrow-alt-down" onclick="sortTable()"></i></a></th>
+                                <th class="flex items-center px-4 py-3 text-sm leading-4 tracking-wider text-left">Datum akcije<a href="#"><i class="ml-2 fa-lg fas fa-long-arrow-alt-down" onclick="sortTableDate1()"></i></a></th>
                                 <th class="px-4 py-3 text-sm leading-4 tracking-wider text-left">Tip akcije</th>
                                 <th class="px-4 py-3 text-sm leading-4 tracking-wider text-left">Bibliotekar</th>
                                 <th class="px-4 py-3 text-sm leading-4 tracking-wider text-left">Ucenik</th>
