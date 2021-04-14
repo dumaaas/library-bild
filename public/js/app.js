@@ -494,3 +494,75 @@ $("#sacuvajUcenika").keypress(function(e){
     return false;
   }
 });
+
+// Form validation for new book
+function validacijaKnjiga(){
+
+  $("#validateNazivKnjiga").empty();
+  $("#validateKategorija").empty();
+  $("#validateZanr").empty();
+  $("#validateAutori").empty();
+  $("#validateIzdavac").empty();
+  $("#validateGodinaIzdavanja").empty();
+
+
+  let nazivKnjiga = $("#nazivKnjiga").val();
+  let kategorija = $("#kategorija").val();
+  let zanr = $("#zanr").val();
+  let autori = $("#autori").val();
+  let izdavac = $("#izdavac").val();
+  let godinaIzdavanja = $("#godinaIzdavanja").val();
+
+  if(nazivKnjiga.length == 0){
+    $('#validateNazivKnjiga').append('<p style="color:red;font-size:13px;">Morate unijeti naziv knjige!</p>');
+  }
+
+  if(kategorija == null){
+    $('#validateKategorija').append('<p style="color:red;font-size:13px;">Morate selektovati kategoriju!</p>');
+  }
+
+  if(zanr == null){
+    $('#validateZanr').append('<p style="color:red;font-size:13px;">Morate selektovati zanr!</p>');
+  }
+
+  if(autori == null){
+    $('#validateAutori').append('<p style="color:red;font-size:13px;">Morate odabrati autore!</p>');
+  }
+
+  if(izdavac == null){
+    $('#validateIzdavac').append('<p style="color:red;font-size:13px;">Morate selektovati izdavaca!</p>');
+  }
+
+  if(godinaIzdavanja == null){
+    $('#validateGodinaIzdavanja').append('<p style="color:red;font-size:13px;">Morate selektovati godinu izdavanja!</p>');
+  }
+}
+
+function clearErrorsNazivKnjiga(){
+  $("#validateNazivKnjiga").empty();
+}
+
+function clearErrorsKategorija(){
+  $("#validateKategorija").empty();
+}
+
+function clearErrorsZanr(){
+  $("#validateZanr").empty();
+}
+
+function clearErrorsAutori(){
+  $("#validateAutori").empty();
+}
+function clearErrorsIzdavac(){
+  $("#validateIzdavac").empty();
+}
+function clearErrorsGodinaIzdavanja(){
+  $("#validateGodinaIzdavanja").empty();
+}
+
+$("#sacuvajKnjigu").keypress(function(e){
+  if(e.which == 13){
+    validacijaKnjiga();
+    return false;
+  }
+});

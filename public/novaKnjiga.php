@@ -79,12 +79,13 @@
                     </div>
             <!-- Space for content -->
             <div class="scroll height-content section-content">
-                <form class="text-gray-700">
+                <form class="text-gray-700 forma">
                     <div class="flex flex-row ml-[30px] mb-[150px]">
                         <div class="w-[50%]">
                             <div class="mt-[20px]">
-                                <span>Naziv knjige</span>
-                                <input type="text" class="flex w-[90%] mt-2 px-2 py-2 text-base bg-white border border-gray-300 shadow-sm appearance-none focus:outline-none focus:ring-2 focus:ring-[#576cdf]"/>
+                                <span>Naziv knjige <span class="text-red-500">*</span></span>
+                                <input type="text" name="nazivKnjiga" id="nazivKnjiga" class="flex w-[90%] mt-2 px-2 py-2 text-base bg-white border border-gray-300 shadow-sm appearance-none focus:outline-none focus:ring-2 focus:ring-[#576cdf]" onkeydown="clearErrorsNazivKnjiga()"/>
+                                <div id="validateNazivKnjiga"></div>
                             </div>
 
                             <div class="mt-[20px]">
@@ -95,35 +96,38 @@
                             </div>
 
                             <div class="mt-[20px]">
-                                <span>Kategorija</span>
-                                <select class="flex w-[45%] mt-2 px-2 py-2 border bg-white border-gray-300 shadow-sm focus:outline-none focus:ring-2 focus:ring-[#576cdf]" name="kategorija">
-                                    <option value=""></option>
+                                <span>Kategorija <span class="text-red-500">*</span></span>
+                                <select class="flex w-[45%] mt-2 px-2 py-2 border bg-white border-gray-300 shadow-sm focus:outline-none focus:ring-2 focus:ring-[#576cdf]" name="kategorija" id="kategorija" onclick="clearErrorsKategorija()">
+                                    <option disabled selected></option>
                                     <option value="">
                                         Kategorija 1
                                     </option>
                                 </select>
+                                <div id="validateKategorija"></div>
                             </div>
 
                             <div class="mt-[20px]">
-                                <span>Zanr</span>
-                                <select class="flex w-[45%] mt-2 px-2 py-2 border bg-white border-gray-300 shadow-sm focus:outline-none focus:ring-2 focus:ring-[#576cdf]" name="zanr">
-                                    <option value=""></option>
+                                <span>Zanr <span class="text-red-500">*</span></span>
+                                <select class="flex w-[45%] mt-2 px-2 py-2 border bg-white border-gray-300 shadow-sm focus:outline-none focus:ring-2 focus:ring-[#576cdf]" name="zanr" id="zanr" onclick="clearErrorsZanr()">
+                                    <option disabled selected></option>
                                     <option value="">
                                         Zanr 1
                                     </option>
                                 </select>
+                                <div id="validateZanr"></div>
                             </div>
                         </div>
 
                         <div class="w-[50%]">
                             <div class="mt-[20px]">
-                                <span>Izaberite autore</span>
-                                <select class="flex w-[90%] mt-2 px-2 py-2 border bg-white border-gray-300 shadow-sm focus:outline-none focus:ring-2 focus:ring-[#576cdf]" name="autori">
-                                    <option value=""></option>
+                                <span>Izaberite autore <span class="text-red-500">*</span></span>
+                                <select class="flex w-[90%] mt-2 px-2 py-2 border bg-white border-gray-300 shadow-sm focus:outline-none focus:ring-2 focus:ring-[#576cdf]" name="autori" id="autori" onclick="clearErrorsAutori()">
+                                    <option disabled selected></option>
                                     <option value="">
                                         Autor 1
                                     </option>
                                 </select>
+                                <div id="validateAutori"></div>
                             </div>
 
                             <div class="mt-[20px]">
@@ -134,23 +138,25 @@
                             </div>
 
                             <div class="mt-[20px]">
-                                <span>Izdavac</span>
-                                <select class="flex w-[45%] mt-2 px-2 py-2 border bg-white border-gray-300 shadow-sm focus:outline-none focus:ring-2 focus:ring-[#576cdf]" name="kategorija">
-                                    <option value=""></option>
+                                <span>Izdavac <span class="text-red-500">*</span></span>
+                                <select class="flex w-[45%] mt-2 px-2 py-2 border bg-white border-gray-300 shadow-sm focus:outline-none focus:ring-2 focus:ring-[#576cdf]" name="izdavac" id="izdavac" onclick="clearErrorsIzdavac()">
+                                    <option disabled selected></option>
                                     <option value="">
                                         Izdavac 1
                                     </option>
                                 </select>
+                                <div id="validateIzdavac"></div>
                             </div>
 
                             <div class="mt-[20px]">
-                                <span>Godina izdavanja</span>
-                                <select class="flex w-[45%] mt-2 px-2 py-2 border bg-white border-gray-300 shadow-sm focus:outline-none focus:ring-2 focus:ring-[#576cdf]" name="zanr">
-                                    <option value=""></option>
+                                <span>Godina izdavanja <span class="text-red-500">*</span></span>
+                                <select class="flex w-[45%] mt-2 px-2 py-2 border bg-white border-gray-300 shadow-sm focus:outline-none focus:ring-2 focus:ring-[#576cdf]" name="godinaIzdavanja" id="godinaIzdavanja" onclick="clearErrorsGodinaIzdavanja()">
+                                    <option disabled selected></option>
                                     <option value="">
                                         Godina izdavanja 1
                                     </option>
                                 </select>
+                                <div id="validateGodinaIzdavanja"></div>
                             </div>
                         </div>
                     </div>
@@ -162,8 +168,8 @@
                                         class="mr-[15px] w-[150px] focus:outline-none text-black text-sm py-2.5 px-5 rounded-md border transition duration-300 ease-in border-black hover:bg-gray-600 hover:text-white">
                                             Ponisti
                                 </button>
-                                <button id="vratiKnjigu" type="button"
-                                        class="w-[150px] disabled:opacity-50 focus:outline-none text-white text-sm py-2.5 px-5 rounded-md border transition duration-300 ease-in border-gray-600 bg-blue-500 hover:bg-blue-800">
+                                <button id="sacuvajKnjigu" type="submit"
+                                        class="w-[150px] disabled:opacity-50 focus:outline-none text-white text-sm py-2.5 px-5 rounded-md border transition duration-300 ease-in border-gray-600 bg-blue-500 hover:bg-blue-800" onclick="validacijaKnjiga()">
                                             Sacuvaj
                                 </button>
                             </div>
