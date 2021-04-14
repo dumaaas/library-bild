@@ -158,6 +158,11 @@ $(document).ready(function () {
     $('.dropdown-menu-rental-record-details-row8').toggle();
   });
 
+  // Form
+  $(".forma").submit(function(e){
+    e.preventDefault();
+  });
+
 });
 
 
@@ -345,3 +350,75 @@ function changeStyle2() {
   $(".borderText").removeClass('text-yellow-400')
   $(".borderText").addClass('text-white')
 }
+
+// Form validation for new librarian
+function validacijaBibliotekar(){
+
+  $("#validateNameBibliotekar").empty();
+  $("#validateJmbgBibliotekar").empty();
+  $("#validateEmailBibliotekar").empty();
+  $("#validateUsernameBibliotekar").empty();
+  $("#validatePwBibliotekar").empty();
+  $("#validatePw2Bibliotekar").empty();
+
+
+  let nameBibliotekar = $("#imePrezimeBibliotekar").val();
+  let jmbgBibliotekar = $("#jmbgBibliotekar").val();
+  let emailBibliotekar = $("#emailBibliotekar").val();
+  let usernameBibliotekar = $("#usernameBibliotekar").val();
+  let pwBibliotekar = $("#pwBibliotekar").val();
+  let pw2Bibliotekar = $("#pw2Bibliotekar").val();
+
+  if(nameBibliotekar.length == 0){
+    $('#validateNameBibliotekar').append('<p style="color:red;font-size:13px;">Morate unijeti ime i prezime!</p>');
+  }
+
+  if(jmbgBibliotekar.length == 0){
+    $('#validateJmbgBibliotekar').append('<p style="color:red;font-size:13px;">Morate unijeti JMBG!</p>');
+  }
+
+  if(emailBibliotekar.length == 0){
+    $('#validateEmailBibliotekar').append('<p style="color:red;font-size:13px;">Morate unijeti validnu e-mail adresu!</p>');
+  }
+
+  if(usernameBibliotekar.length == 0){
+    $('#validateUsernameBibliotekar').append('<p style="color:red;font-size:13px;">Morate unijeti korisnicko ime!</p>');
+  }
+
+  if(pwBibliotekar.length == 0){
+    $('#validatePwBibliotekar').append('<p style="color:red;font-size:13px;">Morate unijeti sifru!</p>');
+  }
+
+  if(pw2Bibliotekar.length == 0){
+    $('#validatePw2Bibliotekar').append('<p style="color:red;font-size:13px;">Morate ponoviti sifru!</p>');
+  }
+}
+
+function clearErrorsNameBibliotekar(){
+  $("#validateNameBibliotekar").empty();
+}
+
+function clearErrorsJmbgBibliotekar(){
+  $("#validateJmbgBibliotekar").empty();
+}
+
+function clearErrorsEmailBibliotekar(){
+  $("#validateEmailBibliotekar").empty();
+}
+
+function clearErrorsUsernameBibliotekar(){
+  $("#validateUsernameBibliotekar").empty();
+}
+function clearErrorsPwBibliotekar(){
+  $("#validatePwBibliotekar").empty();
+}
+function clearErrorsPw2Bibliotekar(){
+  $("#validatePw2Bibliotekar").empty();
+}
+
+$("#sacuvajBibliotekara").keypress(function(e){
+  if(e.which == 13){
+    validacija();
+    return false;
+  }
+});

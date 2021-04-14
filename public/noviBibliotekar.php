@@ -68,12 +68,13 @@
             </div>
             <!-- Space for content -->
             <div class="scroll height-content section-content">
-                <form class="text-gray-700">
+                <form class="text-gray-700 forma">
                     <div class="flex flex-row ml-[30px]">
                         <div class="w-[50%] mb-[100px]">
-                            <div class="mt-[20px]">
-                                <span>Ime i prezime</span>
-                                <input type="text" class="flex w-[90%] mt-2 px-2 py-2 text-base bg-white border border-gray-300 shadow-sm appearance-none focus:outline-none focus:ring-2 focus:ring-[#576cdf]"/>
+                        <div class="mt-[20px]">
+                                <span>Ime i prezime <span class="text-red-500">*</span></span>
+                                <input type="text" name="imePrezimeBibliotekar" id="imePrezimeBibliotekar" class="flex w-[90%] mt-2 px-2 py-2 text-base bg-white border border-gray-300 shadow-sm appearance-none focus:outline-none focus:ring-2 focus:ring-[#576cdf]" onkeydown="clearErrorsNameBibliotekar()"/>
+                                <div id="validateNameBibliotekar"></div>
                             </div>
 
                             <div class="mt-[20px]">
@@ -86,28 +87,33 @@
                             </div>
 
                             <div class="mt-[20px]">
-                                <span>JMBG</span>
-                                <input type="text" class="flex w-[90%] mt-2 px-2 py-2 text-base bg-white border border-gray-300 shadow-sm appearance-none focus:outline-none focus:ring-2 focus:ring-[#576cdf]"/>
+                                <span>JMBG <span class="text-red-500">*</span></span>
+                                <input type="text" name="jmbgBibliotekar" id="jmbgBibliotekar" class="flex w-[90%] mt-2 px-2 py-2 text-base bg-white border border-gray-300 shadow-sm appearance-none focus:outline-none focus:ring-2 focus:ring-[#576cdf]" onkeydown="clearErrorsJmbgBibliotekar()"/>
+                                <div id="validateJmbgBibliotekar"></div>
                             </div>
 
                             <div class="mt-[20px]">
-                                <span>E-mail</span>
-                                <input type="email" class="flex w-[90%] mt-2 px-2 py-2 text-base bg-white border border-gray-300 shadow-sm appearance-none focus:outline-none focus:ring-2 focus:ring-[#576cdf]"/>
+                                <span>E-mail <span class="text-red-500">*</span></span>
+                                <input type="email" name="emailBibliotekar" id="emailBibliotekar" class="flex w-[90%] mt-2 px-2 py-2 text-base bg-white border border-gray-300 shadow-sm appearance-none focus:outline-none focus:ring-2 focus:ring-[#576cdf]" onkeydown="clearErrorsEmailBibliotekar()"/>
+                                <div id="validateEmailBibliotekar"></div>
                             </div>
 
                             <div class="mt-[20px]">
-                                <span>Korisnicko ime</span>
-                                <input type="text" class="flex w-[90%] mt-2 px-2 py-2 text-base bg-white border border-gray-300 shadow-sm appearance-none focus:outline-none focus:ring-2 focus:ring-[#576cdf]"/>
+                                <span>Korisnicko ime <span class="text-red-500">*</span></span>
+                                <input type="text" name="usernameBibliotekar" id="usernameBibliotekar" class="flex w-[90%] mt-2 px-2 py-2 text-base bg-white border border-gray-300 shadow-sm appearance-none focus:outline-none focus:ring-2 focus:ring-[#576cdf]" onkeydown="clearErrorsUsernameBibliotekar()"/>
+                                <div id="validateUsernameBibliotekar"></div>
                             </div>
 
                             <div class="mt-[20px]">
-                                <span>Sifra</span>
-                                <input type="password" class="flex w-[90%] mt-2 px-2 py-2 text-base bg-white border border-gray-300 shadow-sm appearance-none focus:outline-none focus:ring-2 focus:ring-[#576cdf]"/>
+                                <span>Sifra <span class="text-red-500">*</span></span>
+                                <input type="password" name="pwBibliotekar" id="pwBibliotekar" class="flex w-[90%] mt-2 px-2 py-2 text-base bg-white border border-gray-300 shadow-sm appearance-none focus:outline-none focus:ring-2 focus:ring-[#576cdf]" onkeydown="clearErrorsPwBibliotekar()"/>
+                                <div id="validatePwBibliotekar"></div>
                             </div>
 
                             <div class="mt-[20px]">
-                                <span>Ponovi sifru</span>
-                                <input type="password" class="flex w-[90%] mt-2 px-2 py-2 text-base bg-white border border-gray-300 shadow-sm appearance-none focus:outline-none focus:ring-2 focus:ring-[#576cdf]"/>
+                                <span>Ponovi sifru <span class="text-red-500">*</span></span>
+                                <input type="password" name="pw2Bibliotekar" id="pw2Bibliotekar" class="flex w-[90%] mt-2 px-2 py-2 text-base bg-white border border-gray-300 shadow-sm appearance-none focus:outline-none focus:ring-2 focus:ring-[#576cdf]" onkeydown="clearErrorsPw2Bibliotekar()"/>
+                                <div id="validatePw2Bibliotekar"></div>
                             </div>
                         </div>
 
@@ -136,8 +142,8 @@
                                         class="mr-[15px] w-[150px] focus:outline-none text-black text-sm py-2.5 px-5 rounded-md border transition duration-300 ease-in border-black hover:bg-gray-600 hover:text-white">
                                             Ponisti
                                 </button>
-                                <button id="vratiKnjigu" type="button"
-                                        class="w-[150px] disabled:opacity-50 focus:outline-none text-white text-sm py-2.5 px-5 rounded-md border transition duration-300 ease-in border-gray-600 bg-blue-500 hover:bg-blue-800">
+                                <button id="sacuvajBibliotekara" type="submit"
+                                        class="w-[150px] disabled:opacity-50 focus:outline-none text-white text-sm py-2.5 px-5 rounded-md border transition duration-300 ease-in border-gray-600 bg-blue-500 hover:bg-blue-800" onclick="validacijaBibliotekar()">
                                             Sacuvaj
                                 </button>
                             </div>

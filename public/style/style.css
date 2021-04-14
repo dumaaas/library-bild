@@ -916,6 +916,9 @@ body {
   margin-top: 10px;
   margin-bottom: 10px;
 }
+.mt-\[14px\] {
+  margin-top: 14px;
+}
 .ml-3 {
   margin-left: 0.75rem;
 }
@@ -948,9 +951,6 @@ body {
 }
 .ml-\[100px\] {
   margin-left: 100px;
-}
-.mt-\[14px\] {
-  margin-top: 14px;
 }
 .mb-\[20px\] {
   margin-bottom: 20px;
@@ -1878,6 +1878,10 @@ body {
 .text-gray-800 {
   --tw-text-opacity: 1;
   color: rgba(31, 41, 55, var(--tw-text-opacity));
+}
+.text-red-500 {
+  --tw-text-opacity: 1;
+  color: rgba(239, 68, 68, var(--tw-text-opacity));
 }
 .placeholder-gray-400::-moz-placeholder {
   --tw-placeholder-opacity: 1;
