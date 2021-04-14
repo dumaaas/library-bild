@@ -418,7 +418,79 @@ function clearErrorsPw2Bibliotekar(){
 
 $("#sacuvajBibliotekara").keypress(function(e){
   if(e.which == 13){
-    validacija();
+    validacijaBibliotekar();
+    return false;
+  }
+});
+
+// Form validation for new student
+function validacijaUcenik(){
+
+  $("#validateNameUcenik").empty();
+  $("#validateJmbgUcenik").empty();
+  $("#validateEmailUcenik").empty();
+  $("#validateUsernameUcenik").empty();
+  $("#validatePwUcenik").empty();
+  $("#validatePw2Ucenik").empty();
+
+
+  let nameUcenik = $("#imePrezimeUcenik").val();
+  let jmbgUcenik = $("#jmbgUcenik").val();
+  let emailUcenik = $("#emailUcenik").val();
+  let usernameUcenik = $("#usernameUcenik").val();
+  let pwUcenik = $("#pwUcenik").val();
+  let pw2Ucenik = $("#pw2Ucenik").val();
+
+  if(nameUcenik.length == 0){
+    $('#validateNameUcenik').append('<p style="color:red;font-size:13px;">Morate unijeti ime i prezime!</p>');
+  }
+
+  if(jmbgUcenik.length == 0){
+    $('#validateJmbgUcenik').append('<p style="color:red;font-size:13px;">Morate unijeti JMBG!</p>');
+  }
+
+  if(emailUcenik.length == 0){
+    $('#validateEmailUcenik').append('<p style="color:red;font-size:13px;">Morate unijeti validnu e-mail adresu!</p>');
+  }
+
+  if(usernameUcenik.length == 0){
+    $('#validateUsernameUcenik').append('<p style="color:red;font-size:13px;">Morate unijeti korisnicko ime!</p>');
+  }
+
+  if(pwUcenik.length == 0){
+    $('#validatePwUcenik').append('<p style="color:red;font-size:13px;">Morate unijeti sifru!</p>');
+  }
+
+  if(pw2Ucenik.length == 0){
+    $('#validatePw2Ucenik').append('<p style="color:red;font-size:13px;">Morate ponoviti sifru!</p>');
+  }
+}
+
+function clearErrorsNameUcenik(){
+  $("#validateNameUcenik").empty();
+}
+
+function clearErrorsJmbgUcenik(){
+  $("#validateJmbgUcenik").empty();
+}
+
+function clearErrorsEmailUcenik(){
+  $("#validateEmailUcenik").empty();
+}
+
+function clearErrorsUsernameUcenik(){
+  $("#validateUsernameUcenik").empty();
+}
+function clearErrorsPwUcenik(){
+  $("#validatePwUcenik").empty();
+}
+function clearErrorsPw2Ucenik(){
+  $("#validatePw2Ucenik").empty();
+}
+
+$("#sacuvajUcenika").keypress(function(e){
+  if(e.which == 13){
+    validacijaUcenik();
     return false;
   }
 });
