@@ -1194,14 +1194,14 @@ body {
 .h-12 {
   height: 3rem;
 }
+.h-\[40px\] {
+  height: 40px;
+}
 .h-48 {
   height: 12rem;
 }
 .h-\[50px\] {
   height: 50px;
-}
-.h-\[40px\] {
-  height: 40px;
 }
 .w-screen {
   width: 100vw;
@@ -1269,14 +1269,17 @@ body {
 .w-\[600px\] {
   width: 600px;
 }
+.w-\[102px\] {
+  width: 102px;
+}
+.w-48 {
+  width: 12rem;
+}
 .w-\[45\%\] {
   width: 45%;
 }
 .w-9\/12 {
   width: 75%;
-}
-.w-48 {
-  width: 12rem;
 }
 .w-\[350px\] {
   width: 350px;
@@ -1721,6 +1724,10 @@ body {
   padding-left: 3rem;
   padding-right: 3rem;
 }
+.px-\[20px\] {
+  padding-left: 20px;
+  padding-right: 20px;
+}
 .py-16 {
   padding-top: 4rem;
   padding-bottom: 4rem;
@@ -1787,6 +1794,9 @@ body {
 }
 .pb-8 {
   padding-bottom: 2rem;
+}
+.pt-\[7px\] {
+  padding-top: 7px;
 }
 .pt-\[15px\] {
   padding-top: 15px;
