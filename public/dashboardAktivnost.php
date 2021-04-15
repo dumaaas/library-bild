@@ -49,13 +49,13 @@
                             <div class="">
                                     <div class="rounded">
                                         <div class="relative">
-                                            <button class="w-auto rounded" id="uceniciMenu">
+                                            <button class="w-auto rounded focus:outline-none" id="uceniciMenu">
                                                 <span class="float-left">Ucenici: Svi  <i class="px-[7px] fas fa-angle-down"></i></span>
                                             </button>
                                             <div id="uceniciDropdown" class="uceniciMenu hidden absolute rounded bg-white min-w-[310px] p-[10px] shadow-md pin-t pin-l border-2 border-gray-300">
                                                 <ul class="border-b-2 border-gray-300 list-reset">
                                                     <li class="p-2 pb-[15px] border-b-[2px] relative border-gray-300">
-                                                        <input class="w-full h-10 px-2 border-2 rounded" placeholder="Search" onkeyup="filterFunction('searchUcenici', 'uceniciDropdown')" id="searchUcenici"><br>
+                                                        <input class="w-full h-10 px-2 border-2 rounded focus:outline-none" placeholder="Search" onkeyup="filterFunction('searchUcenici', 'uceniciDropdown')" id="searchUcenici"><br>
                                                         <button class="absolute block text-xl text-center text-gray-400 transition-colors w-7 h-7 leading-0 top-[14px] right-4 focus:outline-none hover:text-gray-900">
                                                             <i class="fas fa-search"></i>
                                                         </button>
@@ -146,13 +146,13 @@
                             <div class="ml-[25px]">
                                     <div class="rounded">
                                         <div class="relative">
-                                            <button class="w-auto rounded" id="bibliotekariMenu">
+                                            <button class="w-auto rounded focus:outline-none" id="bibliotekariMenu">
                                                 <span class="float-left">Bibliotekari: Svi <i class="px-[7px] fas fa-angle-down"></i></span>
                                             </button>
                                             <div id="bibliotekariDropdown" class="bibliotekariMenu hidden absolute rounded bg-white min-w-[310px] p-[10px] shadow-md pin-t pin-l border-2 border-gray-300">
                                                 <ul class="border-b-2 border-gray-300 list-reset">
                                                     <li class="p-2 pb-[15px] border-b-[2px] relative border-gray-300">
-                                                        <input class="w-full h-10 px-2 border-2 rounded" placeholder="Search" onkeyup="filterFunction('searchBibliotekari', 'bibliotekariDropdown')" id="searchBibliotekari"><br>
+                                                        <input class="w-full h-10 px-2 border-2 rounded focus:outline-none" placeholder="Search" onkeyup="filterFunction('searchBibliotekari', 'bibliotekariDropdown')" id="searchBibliotekari"><br>
                                                         <button class="absolute block text-xl text-center text-gray-400 transition-colors w-7 h-7 leading-0 top-[14px] right-4 focus:outline-none hover:text-gray-900">
                                                             <i class="fas fa-search"></i>
                                                         </button>
@@ -243,13 +243,13 @@
                             <div class="ml-[25px]">
                                     <div class="rounded">
                                         <div class="relative">
-                                            <button class="w-auto rounded" id="knjigeMenu">
+                                            <button class="w-auto rounded focus:outline-none" id="knjigeMenu">
                                                 <span class="float-left">Knjige: Sve <i class="px-[7px] fas fa-angle-down"></i></span>
                                             </button>
                                             <div id="knjigeDropdown" class="knjigeMenu hidden absolute rounded bg-white min-w-[310px] p-[10px] shadow-md pin-t pin-l border-2 border-gray-300">
                                                 <ul class="border-b-2 border-gray-300 list-reset">
                                                     <li class="p-2 pb-[15px] border-b-[2px] relative border-gray-300">
-                                                        <input class="w-full h-10 px-2 border-2 rounded" placeholder="Search" onkeyup="filterFunction('searchKnjige', 'knjigeDropdown')" id="searchKnjige"><br>
+                                                        <input class="w-full h-10 px-2 border-2 rounded focus:outline-none" placeholder="Search" onkeyup="filterFunction('searchKnjige', 'knjigeDropdown')" id="searchKnjige"><br>
                                                         <button class="absolute block text-xl text-center text-gray-400 transition-colors w-7 h-7 leading-0 top-[14px] right-4 focus:outline-none hover:text-gray-900">
                                                             <i class="fas fa-search"></i>
                                                         </button>
@@ -340,13 +340,13 @@
                             <div class="ml-[25px]">
                                     <div class="rounded">
                                         <div class="relative">
-                                            <button class="w-auto rounded" id="transakcijeMenu">
+                                            <button class="w-auto rounded focus:outline-none" id="transakcijeMenu">
                                                 <span class="float-left">Transakcije: Sve <i class="px-[7px] fas fa-angle-down"></i></span>
                                             </button>
                                             <div id="transakcijeDropdown" class="transakcijeMenu hidden absolute rounded bg-white min-w-[310px] p-[10px] shadow-md pin-t pin-l border-2 border-gray-300">
                                                 <ul class="border-b-2 border-gray-300 list-reset">
                                                     <li class="p-2 pb-[15px] border-b-[2px] relative border-gray-300">
-                                                        <input class="w-full h-10 px-2 border-2 rounded" placeholder="Search" onkeyup="filterFunction('searchTransakcije', 'transakcijeDropdown')" id="searchTransakcije"><br>
+                                                        <input class="w-full h-10 px-2 border-2 rounded focus:outline-none" placeholder="Search" onkeyup="filterFunction('searchTransakcije', 'transakcijeDropdown')" id="searchTransakcije"><br>
                                                         <button class="absolute block text-xl text-center text-gray-400 transition-colors w-7 h-7 leading-0 top-[14px] right-4 focus:outline-none hover:text-gray-900">
                                                             <i class="fas fa-search"></i>
                                                         </button>
@@ -408,7 +408,7 @@
                             </div>
                             <div class="ml-[25px]">
 
-                                <input type="date" value="today">
+                                <input type="date" value="today" class="cursor-pointer focus:outline-none">
                             </div>
                             <div class="ml-[35px] cursor-pointer hover:text-blue-600">
                                 <i class="fas fa-sync-alt"></i>

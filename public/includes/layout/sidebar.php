@@ -118,7 +118,36 @@
                         </span>
                     </div>
                 </li>
-                
+                <!-- Autori Icon -->
+                <li class=" ml-[4px] mb-[10px]">
+                    <div>
+                        <span class="whitespace-nowrap w-full text-[25px] flex justify-between text-[#5c5c5c] fill-current">
+                            <div class="transition duration-300 ease-in hover:text-[#576cdf]">
+                                <a href="#" aria-label="Autori">
+                                <i class="far fa-address-book"></i>
+                                <div class="hidden sidebar-item">
+                                        <p class="inline text-[18px] font-medium ml-[12px]">Autori</p>
+                                    </div>
+                                </a>
+                            </div>
+                        </span>
+                    </div>
+                </li>
+                <!-- Izdavanje Icon -->
+                <li class=" ml-[4px] mb-[10px]">
+                    <div>
+                        <span class="whitespace-nowrap w-full text-[25px] flex justify-between text-[#5c5c5c] fill-current">
+                            <div class="transition duration-300 ease-in hover:text-[#576cdf]">
+                                <a href="#" aria-label="Izdavanje">
+                                <i class="fas fa-exchange-alt"></i>
+                                <div class="hidden sidebar-item">
+                                        <p class="inline text-[18px] font-medium ml-[12px]">Izdavanje knjiga</p>
+                                    </div>
+                                </a>
+                            </div>
+                        </span>
+                    </div>
+                </li>
             </ul>
         </div>
     </div>
