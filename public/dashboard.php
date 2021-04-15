@@ -364,12 +364,14 @@
                                     <tr class="bg-white border-b-[2px] border-gray-200">
                                         <td class="flex flex-row items-center px-2 py-4">
                                             <img class="object-cover w-8 h-8 rounded-full "
-                                                src="img/profileImg-default.jpg" alt="" />
-                                            <span class="ml-2 font-semibold text-center">Pero Perovic</span>
+                                                src="img/profileStudent.jpg" alt="" />
+                                            <a href="ucenikProfile.php" class="ml-2 font-semibold text-center">Pero Perovic</a>
                                         <td>
                                         </td>
                                         <td class="px-2 py-2">
+                                            <a href="knjigaOsnovniDetalji.php">
                                             Ep o Gilgamesu
+                                            </a>
                                         </td>
                                         <td class="px-2 py-2">
                                             <span class="px-[10px] py-[3px] bg-gray-300">05.11.2020</span>
@@ -386,12 +388,14 @@
                                     <tr class="bg-white border-b-[2px] border-gray-200">
                                         <td class="flex flex-row items-center px-2 py-4">
                                             <img class="object-cover w-8 h-8 rounded-full "
-                                                src="img/profileImg-default.jpg" alt="" />
-                                            <span class="ml-2 font-semibold text-center">Pero Perovic</span>
+                                            src="img/profileStudent.jpg" alt="" />
+                                            <a href="ucenikProfile.php" class="ml-2 font-semibold text-center">Pero Perovic</a>
                                         <td>
                                         </td>
                                         <td class="px-2 py-2">
-                                            Ep o Gilgamesu
+                                            <a href="knjigaOsnovniDetalji.php">
+                                                Tom Sojer
+                                            </a>
                                         </td>
                                         <td class="px-2 py-2">
                                             <span class="px-[10px] py-[3px] bg-gray-300">31.04.2019</span>
@@ -408,12 +412,14 @@
                                     <tr class="bg-white border-b-[2px] border-gray-200">
                                         <td class="flex flex-row items-center px-2 py-4">
                                             <img class="object-cover w-8 h-8 rounded-full "
-                                                src="img/profileImg-default.jpg" alt="" />
-                                            <span class="ml-2 font-semibold text-center">Pero Perovic</span>
+                                            src="img/profileStudent.jpg" alt="" />
+                                            <a href="ucenikProfile.php" class="ml-2 font-semibold text-center">Pero Perovic</a>
                                         <td>
                                         </td>
                                         <td class="px-2 py-2">
-                                            Ilijada
+                                            <a href="knjigaOsnovniDetalji.php">
+                                                Ilijada
+                                            </a>
                                         </td>
                                         <td class="px-2 py-2">
                                             <span class="px-[10px] py-[3px] bg-gray-300">05.11.2020</span>
@@ -430,12 +436,14 @@
                                     <tr class="bg-white border-b-[2px] border-gray-200">
                                         <td class="flex flex-row items-center px-2 py-4">
                                             <img class="object-cover w-8 h-8 rounded-full "
-                                                src="img/profileImg-default.jpg" alt="" />
-                                            <span class="ml-2 font-semibold text-center">Pero Perovic</span>
+                                            src="img/profileStudent.jpg" alt="" />
+                                            <a href="ucenikProfile.php" class="ml-2 font-semibold text-center">Pero Perovic</a>
                                         <td>
                                         </td>
                                         <td class="px-2 py-2">
-                                            Ep o Gilgamesu
+                                            <a href="knjigaOsnovniDetalji.php">
+                                                Tom Sojer
+                                            </a>          
                                         </td>
                                         <td class="px-2 py-2">
                                             <span class="px-[10px] py-[3px] bg-gray-300">31.02.2021</span>
