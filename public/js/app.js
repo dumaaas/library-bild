@@ -283,6 +283,20 @@ var loadFileLibrarian = function (event) {
   imageStudent.src = URL.createObjectURL(event.target.files[0]);
 };
 
+// Category icon upload
+var inputCategory = document.getElementById( 'icon-upload' );
+var categoryInfoArea = document.getElementById( 'icon-output' );
+inputCategory.addEventListener( 'change', showFileName );
+
+function showFileName( event ) {
+  // the change event gives us the input it occurred in 
+  var input = event.srcElement;
+  // the input has an array of files in the `files` property, each one has a name that you can use. We're just using the name here.
+  var fileName = input.files[0].name;
+  // use fileName however fits your app best, i.e. add it into a div
+  categoryInfoArea.textContent = 'File name: ' + fileName;
+}
+
 function sortTable() {
   var table, rows, switching, i, x, y, shouldSwitch;
   table = document.getElementById("myTable");
@@ -521,6 +535,7 @@ function validacijaKnjiga() {
   $("#validateAutori").empty();
   $("#validateIzdavac").empty();
   $("#validateGodinaIzdavanja").empty();
+  $("#validateKnjigaKolicina").empty();
 
 
   let nazivKnjiga = $("#nazivKnjiga").val();
@@ -529,6 +544,7 @@ function validacijaKnjiga() {
   let autori = $("#autori").val();
   let izdavac = $("#izdavac").val();
   let godinaIzdavanja = $("#godinaIzdavanja").val();
+  let knjigaKolicina = $("#knjigaKolicina").val();
 
   if (nazivKnjiga.length == 0) {
     $('#validateNazivKnjiga').append('<p style="color:red;font-size:13px;">Morate unijeti naziv knjige!</p>');
@@ -552,6 +568,10 @@ function validacijaKnjiga() {
 
   if (godinaIzdavanja == null) {
     $('#validateGodinaIzdavanja').append('<p style="color:red;font-size:13px;">Morate selektovati godinu izdavanja!</p>');
+  }
+
+  if (knjigaKolicina.length == 0) {
+    $('#validateKnjigaKolicina').append('<p style="color:red;font-size:13px;">Morate unijeti kolicinu!</p>');
   }
 }
 
@@ -577,6 +597,10 @@ function clearErrorsIzdavac() {
 
 function clearErrorsGodinaIzdavanja() {
   $("#validateGodinaIzdavanja").empty();
+}
+
+function clearErrorsKnjigaKolicina() {
+  $("#validateKnjigaKolicina").empty();
 }
 
 $("#sacuvajKnjigu").keypress(function (e) {
@@ -711,6 +735,29 @@ function clearErrorsDatumRezervisanja() {
 $("#rezervisiKnjigu").keypress(function (e) {
   if (e.which == 13) {
     validacijaRezervisanje();
+    return false;
+  }
+});
+
+// Form validation for new category
+function validacijaKategorija() {
+
+  $("#validateNazivKategorije").empty();
+
+  let nazivKategorije = $("#nazivKategorije").val();
+
+  if (nazivKategorije.length == 0) {
+    $('#validateNazivKategorije').append('<p style="color:red;font-size:13px;">Morate unijeti naziv kategorije!</p>');
+  }
+}
+
+function clearErrorsNazivKategorije() {
+  $("#validateNazivKategorije").empty();
+}
+
+$("#sacuvajKategoriju").keypress(function (e) {
+  if (e.which == 13) {
+    validacijaKategorija();
     return false;
   }
 });
