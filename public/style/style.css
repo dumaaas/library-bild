@@ -1272,14 +1272,14 @@ body {
 .w-\[102px\] {
   width: 102px;
 }
-.w-48 {
-  width: 12rem;
-}
 .w-\[45\%\] {
   width: 45%;
 }
 .w-9\/12 {
   width: 75%;
+}
+.w-48 {
+  width: 12rem;
 }
 .w-\[350px\] {
   width: 350px;

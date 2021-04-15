@@ -535,6 +535,7 @@ function validacijaKnjiga() {
   $("#validateAutori").empty();
   $("#validateIzdavac").empty();
   $("#validateGodinaIzdavanja").empty();
+  $("#validateKnjigaKolicina").empty();
 
 
   let nazivKnjiga = $("#nazivKnjiga").val();
@@ -543,6 +544,7 @@ function validacijaKnjiga() {
   let autori = $("#autori").val();
   let izdavac = $("#izdavac").val();
   let godinaIzdavanja = $("#godinaIzdavanja").val();
+  let knjigaKolicina = $("#knjigaKolicina").val();
 
   if (nazivKnjiga.length == 0) {
     $('#validateNazivKnjiga').append('<p style="color:red;font-size:13px;">Morate unijeti naziv knjige!</p>');
@@ -566,6 +568,10 @@ function validacijaKnjiga() {
 
   if (godinaIzdavanja == null) {
     $('#validateGodinaIzdavanja').append('<p style="color:red;font-size:13px;">Morate selektovati godinu izdavanja!</p>');
+  }
+
+  if (knjigaKolicina.length == 0) {
+    $('#validateKnjigaKolicina').append('<p style="color:red;font-size:13px;">Morate unijeti kolicinu!</p>');
   }
 }
 
@@ -591,6 +597,10 @@ function clearErrorsIzdavac() {
 
 function clearErrorsGodinaIzdavanja() {
   $("#validateGodinaIzdavanja").empty();
+}
+
+function clearErrorsKnjigaKolicina() {
+  $("#validateKnjigaKolicina").empty();
 }
 
 $("#sacuvajKnjigu").keypress(function (e) {

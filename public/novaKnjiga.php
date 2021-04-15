@@ -96,8 +96,8 @@
                             </div>
 
                             <div class="mt-[20px]">
-                                <span>Kategorija <span class="text-red-500">*</span></span>
-                                <select class="flex w-[45%] mt-2 px-2 py-2 border bg-white border-gray-300 shadow-sm focus:outline-none focus:ring-2 focus:ring-[#576cdf]" name="kategorija" id="kategorija" onclick="clearErrorsKategorija()">
+                                <span>Izaberite kategorije <span class="text-red-500">*</span></span>
+                                <select class="flex w-[90%] mt-2 px-2 py-2 border bg-white border-gray-300 shadow-sm focus:outline-none focus:ring-2 focus:ring-[#576cdf]" name="kategorija" id="kategorija" onclick="clearErrorsKategorija()">
                                     <option disabled selected></option>
                                     <option value="">
                                         Kategorija 1
@@ -107,8 +107,8 @@
                             </div>
 
                             <div class="mt-[20px]">
-                                <span>Zanr <span class="text-red-500">*</span></span>
-                                <select class="flex w-[45%] mt-2 px-2 py-2 border bg-white border-gray-300 shadow-sm focus:outline-none focus:ring-2 focus:ring-[#576cdf]" name="zanr" id="zanr" onclick="clearErrorsZanr()">
+                                <span>Izaberite zanrove <span class="text-red-500">*</span></span>
+                                <select class="flex w-[90%] mt-2 px-2 py-2 border bg-white border-gray-300 shadow-sm focus:outline-none focus:ring-2 focus:ring-[#576cdf]" name="zanr" id="zanr" onclick="clearErrorsZanr()">
                                     <option disabled selected></option>
                                     <option value="">
                                         Zanr 1
@@ -131,13 +131,6 @@
                             </div>
 
                             <div class="mt-[20px]">
-                                <span class="inline-block mb-2">O autoru/ima</span>
-                                <textarea name="o_autoru" class="flex w-[90%] mt-2 px-2 py-2 text-base bg-white border border-gray-300 shadow-sm appearance-none focus:outline-none focus:ring-2 focus:ring-[#576cdf]">
-                                    
-                                </textarea>
-                            </div>
-
-                            <div class="mt-[20px]">
                                 <span>Izdavac <span class="text-red-500">*</span></span>
                                 <select class="flex w-[45%] mt-2 px-2 py-2 border bg-white border-gray-300 shadow-sm focus:outline-none focus:ring-2 focus:ring-[#576cdf]" name="izdavac" id="izdavac" onclick="clearErrorsIzdavac()">
                                     <option disabled selected></option>
@@ -157,6 +150,12 @@
                                     </option>
                                 </select>
                                 <div id="validateGodinaIzdavanja"></div>
+                            </div>
+
+                            <div class="mt-[20px]">
+                                <span>Kolicina <span class="text-red-500">*</span></span>
+                                <input type="text" name="knjigaKolicina" id="knjigaKolicina" class="flex w-[45%] mt-2 px-2 py-2 text-base bg-white border border-gray-300 shadow-sm appearance-none focus:outline-none focus:ring-2 focus:ring-[#576cdf]" onkeydown="clearErrorsKnjigaKolicina()"/>
+                                <div id="validateKnjigaKolicina"></div>
                             </div>
                         </div>
                     </div>
@@ -193,12 +192,6 @@
 
     <script>
         CKEDITOR.replace( 'kratki_sadrzaj',
-            {
-                width: "90%",
-                height: "150px"
-            });
-
-        CKEDITOR.replace( 'o_autoru',
             {
                 width: "90%",
                 height: "150px"
