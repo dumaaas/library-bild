@@ -158,7 +158,7 @@
                                     <td class="px-4 py-4 text-sm leading-5 whitespace-no-wrap">31.04.2019</td>
                                     <td class="flex flex-row items-center px-4 py-4">
                                             <img class="object-cover w-8 h-8 rounded-full "
-                                                src="img/profileImg-default.jpg" alt="" />
+                                                src="img/profileStudent.jpg" alt="" />
                                             <span class="ml-2 font-semibold text-center">Pero Perovic</span>
                                     </td>
                                     <td class="px-4 py-2 changeStatus">
@@ -201,7 +201,7 @@
                                     <td class="px-4 py-4 text-sm leading-5 whitespace-no-wrap">05.11.2020</td>
                                     <td class="flex flex-row items-center px-4 py-4">
                                             <img class="object-cover w-8 h-8 rounded-full "
-                                                src="img/profileImg-default.jpg" alt="" />
+                                                src="img/profileStudent.jpg" alt="" />
                                             <span class="ml-2 font-semibold text-center">Pero Perovic</span>
                                     </td>
                                     <td class="px-4 py-2 changeStatus">
@@ -244,7 +244,7 @@
                                     <td class="px-4 py-4 text-sm leading-5 whitespace-no-wrap">31.02.2021</td>
                                     <td class="flex flex-row items-center px-4 py-4">
                                             <img class="object-cover w-8 h-8 rounded-full "
-                                                src="img/profileImg-default.jpg" alt="" />
+                                                src="img/profileStudent.jpg" alt="" />
                                             <span class="ml-2 font-semibold text-center">Pero Perovic</span>
                                     </td>
                                     <td class="px-4 py-2 changeStatus">
@@ -287,7 +287,7 @@
                                     <td class="px-4 py-4 text-sm leading-5 whitespace-no-wrap">31.04.2019</td>
                                     <td class="flex flex-row items-center px-4 py-4">
                                             <img class="object-cover w-8 h-8 rounded-full "
-                                                src="img/profileImg-default.jpg" alt="" />
+                                                src="img/profileStudent.jpg" alt="" />
                                             <span class="ml-2 font-semibold text-center">Pero Perovic</span>
                                     </td>
                                     <td class="px-4 py-2 changeStatus">
@@ -330,7 +330,7 @@
                                     <td class="px-4 py-4 text-sm leading-5 whitespace-no-wrap">31.04.2019</td>
                                     <td class="flex flex-row items-center px-4 py-4">
                                             <img class="object-cover w-8 h-8 rounded-full "
-                                                src="img/profileImg-default.jpg" alt="" />
+                                                src="img/profileStudent.jpg" alt="" />
                                             <span class="ml-2 font-semibold text-center">Pero Perovic</span>
                                     </td>
                                     <td class="px-4 py-4 text-sm leading-5 text-blue-900 whitespace-no-wrap">
@@ -359,7 +359,7 @@
                                     <td class="px-4 py-4 text-sm leading-5 whitespace-no-wrap">31.04.2019</td>
                                     <td class="flex flex-row items-center px-4 py-4">
                                             <img class="object-cover w-8 h-8 rounded-full "
-                                                src="img/profileImg-default.jpg" alt="" />
+                                                src="img/profileStudent.jpg" alt="" />
                                             <span class="ml-2 font-semibold text-center">Pero Perovic</span>
                                     </td>
                                     <td class="px-4 py-4 text-sm leading-5 text-blue-900 whitespace-no-wrap">
@@ -388,7 +388,7 @@
                                     <td class="px-4 py-4 text-sm leading-5 whitespace-no-wrap">31.04.2019</td>
                                     <td class="flex flex-row items-center px-4 py-4">
                                             <img class="object-cover w-8 h-8 rounded-full "
-                                                src="img/profileImg-default.jpg" alt="" />
+                                                src="img/profileStudent.jpg" alt="" />
                                             <span class="ml-2 font-semibold text-center">Pero Perovic</span>
                                     </td>
                                     <td class="px-4 py-4 text-sm leading-5 text-blue-900 whitespace-no-wrap">

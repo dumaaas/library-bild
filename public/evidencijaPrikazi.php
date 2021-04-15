@@ -100,14 +100,14 @@
             <div class="overflow-auto scroll height-ucenikEvidencija">
                 <!-- Space for content -->
                 <div class="px-[30px] mt-10">
-                    <table class="w-full border-2 border-gray-300" id="myTableDate">
+                    <table class="w-full border-2 border-gray-300 sortTableDate">
                         <thead>
                             <tr class="border-b-2 border-gray-300">
                                 <th class="px-6 py-3 leading-4 tracking-wider text-left text-blue-500">
                                     <label class="inline-flex items-center">
                                     <input type="checkbox" class="form-checkbox"></label>
                                 </th>
-                                <th class="px-6 py-3 text-sm leading-4 tracking-wider text-left">Datum akcije<a href="#"><i class="ml-3 fa-lg fas fa-long-arrow-alt-down" onclick="sortTableDate()"></i></a></th>
+                                <th class="px-6 py-3 text-sm leading-4 tracking-wider text-left">Datum akcije<a href="#"><i class="ml-3 fa-lg fas fa-long-arrow-alt-down" onclick="sortTableDate(1)"></i></a></th>
                                 <th class="px-6 py-3 text-sm leading-4 tracking-wider text-left">Tip akcije</th>
                                 <th class="px-6 py-3 text-sm leading-4 tracking-wider text-left">Bibliotekar</th>
                                 <th class="px-6 py-3 text-sm leading-4 tracking-wider text-left">Ucenik</th>

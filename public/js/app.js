@@ -332,30 +332,37 @@ rezervacije.on('click', (event) => {
   }
 
 })
+//ucenikEvidencija, evidencijaIznajmljivanja - funkcija promjene statusa
+$(".reservedBook").click(function () {
+  var strik = $(this);
+  var strikspan = strik.closest("tr").find(".borderColor")
+  var strikspan1 = strik.closest("tr").find(".borderText")
+  strikspan.removeClass('bg-transparent')
+  strikspan.addClass('bg-yellow-400')
+  strikspan1.text('Rezervisano')
+  strikspan1.removeClass('text-yellow-400')
+  strikspan1.addClass('text-white')
+  strik.parent().addClass('hidden')
+  strik.parent().next().removeClass('hidden')
+  var backgroundRowChange = strik.closest("tr")
+  backgroundRowChange.removeClass('bg-gray-200')
+})
 
-function changeStyle1() {
-  $(".borderColor").removeClass('border-yellow-400')
-  $(".borderColor").removeClass('bg-transparent')
-  $(".borderColor").addClass('bg-yellow-400')
-  $(".borderText").text('Rezervisano')
-  $(".borderText").removeClass('text-yellow-400')
-  $(".borderText").addClass('text-white')
-  $(".removeLinks").addClass('hidden')
-  $(".removeLinks").next().removeClass('hidden')
-  $(".backgroundStyle").removeClass('bg-gray-200')
-}
-
-function changeStyle2() {
-  $(".borderColor").removeClass('border-yellow-400')
-  $(".borderColor").removeClass('bg-transparent')
-  $(".borderColor").addClass('bg-red-600')
-  $(".borderText").text('Odbijeno')
-  $(".borderText").removeClass('text-yellow-400')
-  $(".borderText").addClass('text-white')
-  $(".removeLinks").addClass('hidden')
-  $(".removeLinks").next().removeClass('hidden')
-  $(".backgroundStyle").removeClass('bg-gray-200')
-}
+$(".deniedBook").click(function () {
+  var strik = $(this);
+  var strikspan = strik.closest("tr").find(".borderColor")
+  var strikspan1 = strik.closest("tr").find(".borderText")
+  strikspan.removeClass('border-yellow-400')
+  strikspan.removeClass('bg-transparent')
+  strikspan.addClass('bg-red-600')
+  strikspan1.text('Odbijeno')
+  strikspan1.removeClass('text-yellow-400')
+  strikspan1.addClass('text-white')
+  strik.parent().addClass('hidden')
+  strik.parent().next().removeClass('hidden')
+  var backgroundRowChange = strik.closest("tr")
+  backgroundRowChange.removeClass('bg-gray-200')
+})
 
 // Form validation for new librarian
 function validacijaBibliotekar() {
@@ -708,16 +715,16 @@ $("#rezervisiKnjigu").keypress(function (e) {
   }
 });
 
-function sortTableDate() {
+function sortTableDate(row) {
   var table, rows, switching, i, x, y, shouldSwitch;
-  table = document.getElementById("myTableDate");
+  table = $(".sortTableDate");
   switching = true;
   /*Make a loop that will continue until
   no switching has been done:*/
   while (switching) {
     //start by saying: no switching is done:
     switching = false;
-    rows = table.rows;
+    rows = table[0].rows;
     /*Loop through all table rows (except the
     first, which contains table headers):*/
     for (i = 1; i < (rows.length - 1); i++) {
@@ -725,65 +732,12 @@ function sortTableDate() {
       shouldSwitch = false;
       /*Get the two elements you want to compare,
       one from current row and one from the next:*/
-      x = rows[i].getElementsByTagName("TD")[1];
-      y = rows[i + 1].getElementsByTagName("TD")[1];
+      x = rows[i].getElementsByTagName("TD")[row];
+      y = rows[i + 1].getElementsByTagName("TD")[row];
       let first = $(x).text().split('.')
-      let d1 = parseInt(first[0])
-      let m1 = parseInt(first[1])
-      let g1 = parseInt(first[2])
+      let [d1, m1, g1] = [parseInt(first[0]), parseInt(first[1]), parseInt(first[2])]
       let second = $(y).text().split('.')
-      let d2 = parseInt(second[0])
-      let m2 = parseInt(second[1])
-      let g2 = parseInt(second[2])
-      //check if the two rows should switch place:
-      if (g1 > g2) {
-        //if so, mark as a switch and break the loop:
-        shouldSwitch = true;
-        break;
-      } else if ((g1 == g2) && (m1 > m2)) {
-        shouldSwitch = true;
-        break;
-      } else if ((g1 == g2 && m1 == m2) && d1 > d2) {
-        shouldSwitch = true;
-        break;
-      }
-    }
-    if (shouldSwitch) {
-      /*If a switch has been marked, make the switch
-      and mark that a switch has been done:*/
-      rows[i].parentNode.insertBefore(rows[i + 1], rows[i]);
-      switching = true;
-    }
-  }
-}
-
-function sortTableDate1() {
-  var table, rows, switching, i, x, y, shouldSwitch;
-  table = document.getElementById("myTableDate1");
-  switching = true;
-  /*Make a loop that will continue until
-  no switching has been done:*/
-  while (switching) {
-    //start by saying: no switching is done:
-    switching = false;
-    rows = table.rows;
-    /*Loop through all table rows (except the
-    first, which contains table headers):*/
-    for (i = 1; i < (rows.length - 1); i++) {
-      //start by saying there should be no switching:
-      shouldSwitch = false;
-      /*Get the two elements you want to compare,
-      one from current row and one from the next:*/
-      x = rows[i].getElementsByTagName("TD")[2];
-      y = rows[i + 1].getElementsByTagName("TD")[2];
-      let first = $(x).text().split('.')
-      let d1 = parseInt(first[0])
-      let m1 = parseInt(first[1])
-      let g1 = parseInt(first[2])
-      let second = $(y).text().split('.')
-      let d2 = parseInt(second[0])
-      let m2 = parseInt(second[1])
-      let g2 = parseInt(second[2])
+      let [d2, m2, g2] = [parseInt(second[0]), parseInt(second[1]), parseInt(second[2])]
       //check if the two rows should switch place:
       if (g1 > g2) {
         //if so, mark as a switch and break the loop:
