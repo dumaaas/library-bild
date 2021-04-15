@@ -284,7 +284,7 @@ var loadFileLibrarian = function (event) {
 };
 
 // Category icon upload
-$("#icon-upload").change(function(){
+$("#icon-upload").change(function () {
   $("#icon-output").text(this.files[0].name);
 });
 
@@ -339,33 +339,33 @@ rezervacije.on('click', (event) => {
 })
 //ucenikEvidencija, evidencijaIznajmljivanja - funkcija promjene statusa
 $(".reservedBook").click(function () {
-  var strik = $(this);
-  var strikspan = strik.closest("tr").find(".borderColor")
-  var strikspan1 = strik.closest("tr").find(".borderText")
-  strikspan.removeClass('bg-transparent')
-  strikspan.addClass('bg-yellow-400')
-  strikspan1.text('Rezervisano')
-  strikspan1.removeClass('text-yellow-400')
-  strikspan1.addClass('text-white')
-  strik.parent().addClass('hidden')
-  strik.parent().next().removeClass('hidden')
-  var backgroundRowChange = strik.closest("tr")
+  var checkMark = $(this);
+  var changeColorStatus = checkMark.closest("tr").find(".borderColor")
+  var changeTextStatus = checkMark.closest("tr").find(".borderText")
+  changeColorStatus.removeClass('bg-transparent')
+  changeColorStatus.addClass('bg-yellow-400')
+  changeTextStatus.text('Rezervisano')
+  changeTextStatus.removeClass('text-yellow-400')
+  changeTextStatus.addClass('text-white')
+  checkMark.parent().addClass('hidden')
+  checkMark.parent().next().removeClass('hidden')
+  var backgroundRowChange = checkMark.closest("tr")
   backgroundRowChange.removeClass('bg-gray-200')
 })
 
 $(".deniedBook").click(function () {
-  var strik = $(this);
-  var strikspan = strik.closest("tr").find(".borderColor")
-  var strikspan1 = strik.closest("tr").find(".borderText")
-  strikspan.removeClass('border-yellow-400')
-  strikspan.removeClass('bg-transparent')
-  strikspan.addClass('bg-red-600')
-  strikspan1.text('Odbijeno')
-  strikspan1.removeClass('text-yellow-400')
-  strikspan1.addClass('text-white')
-  strik.parent().addClass('hidden')
-  strik.parent().next().removeClass('hidden')
-  var backgroundRowChange = strik.closest("tr")
+  var checkMark = $(this);
+  var changeColorStatus = checkMark.closest("tr").find(".borderColor")
+  var changeTextStatus = checkMark.closest("tr").find(".borderText")
+  changeColorStatus.removeClass('border-yellow-400')
+  changeColorStatus.removeClass('bg-transparent')
+  changeColorStatus.addClass('bg-red-600')
+  changeTextStatus.text('Odbijeno')
+  changeTextStatus.removeClass('text-yellow-400')
+  changeTextStatus.addClass('text-white')
+  checkMark.parent().addClass('hidden')
+  checkMark.parent().next().removeClass('hidden')
+  var backgroundRowChange = checkMark.closest("tr")
   backgroundRowChange.removeClass('bg-gray-200')
 })
 
@@ -773,18 +773,18 @@ function sortTableDate(row) {
       x = rows[i].getElementsByTagName("TD")[row];
       y = rows[i + 1].getElementsByTagName("TD")[row];
       let first = $(x).text().split('.')
-      let [d1, m1, g1] = [parseInt(first[0]), parseInt(first[1]), parseInt(first[2])]
+      let [d1, m1, y1] = [parseInt(first[0]), parseInt(first[1]), parseInt(first[2])]
       let second = $(y).text().split('.')
-      let [d2, m2, g2] = [parseInt(second[0]), parseInt(second[1]), parseInt(second[2])]
+      let [d2, m2, y2] = [parseInt(second[0]), parseInt(second[1]), parseInt(second[2])]
       //check if the two rows should switch place:
-      if (g1 > g2) {
+      if (y1 > y2) {
         //if so, mark as a switch and break the loop:
         shouldSwitch = true;
         break;
-      } else if ((g1 == g2) && (m1 > m2)) {
+      } else if ((y1 == y2) && (m1 > m2)) {
         shouldSwitch = true;
         break;
-      } else if ((g1 == g2 && m1 == m2) && d1 > d2) {
+      } else if ((y1 == y2 && m1 == m2) && d1 > d2) {
         shouldSwitch = true;
         break;
       }
@@ -798,7 +798,7 @@ function sortTableDate(row) {
   }
 }
 
-$('#uceniciMenu').on('click', function() {
+$('#uceniciMenu').on('click', function () {
 
   $('.uceniciMenu').toggle();
   $('.bibliotekariMenu').addClass('hidden');
@@ -807,17 +807,17 @@ $('#uceniciMenu').on('click', function() {
 
 })
 
-$('#bibliotekariMenu').on('click', function() {
+$('#bibliotekariMenu').on('click', function () {
 
   $('.bibliotekariMenu').toggle();
 })
 
-$('#knjigeMenu').on('click', function() {
+$('#knjigeMenu').on('click', function () {
 
   $('.knjigeMenu').toggle();
 })
 
-$('#transakcijeMenu').on('click', function() {
+$('#transakcijeMenu').on('click', function () {
 
   $('.transakcijeMenu').toggle();
 })
@@ -839,13 +839,13 @@ function filterFunction(id, dropdown) {
     if (txtValue.toUpperCase().indexOf(filter) > -1) {
       text[i].style.display = "";
       label[i].style.display = "";
-      if(img[i] !== undefined) {
+      if (img[i] !== undefined) {
         img[i].style.display = "";
       }
     } else {
       text[i].style.display = "none";
       label[i].style.display = "none";
-      if(img[i] !== undefined) {
+      if (img[i] !== undefined) {
         img[i].style.display = "none";
       }
     }

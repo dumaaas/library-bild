@@ -87,7 +87,6 @@
                         </p>
                     </div>
                 </div>
-
             </div>
             <div class="flex flex-row h-full overflow-auto">
                 <div class="w-[80%]">
@@ -108,42 +107,44 @@
                         <!-- Space for content -->
                     <div class="px-[30px] mt-[20px]">
                         <table class="min-w-full border-2 border-gray-300 sortTableDate">
-                        <thead>
-                            <tr class="border-b-2 border-gray-300">
-                                <th class="px-4 py-3 leading-4 tracking-wider text-left text-blue-500">
-                                    <label class="inline-flex items-center">
-                                    <input type="checkbox" class="form-checkbox"></label>
-                                </th>
-                                <th class="flex items-center px-4 py-3 text-sm leading-4 tracking-wider text-left">Datum akcije<a href="#"><i class="ml-2 fa-lg fas fa-long-arrow-alt-down" onclick="sortTableDate(1)"></i></a></th>
-                                <th class="px-4 py-3 text-sm leading-4 tracking-wider text-left">Tip akcije</th>
-                                <th class="px-4 py-3 text-sm leading-4 tracking-wider text-left">Bibliotekar</th>
-                                <th class="px-4 py-3 text-sm leading-4 tracking-wider text-left">Ucenik</th>
-                                <th class="px-4 py-3"> </th>
-                                <th class="px-4 py-3"> </th>
-                            </tr>
-                        </thead>
-                        <tbody class="bg-white">
+                            <thead>
+                                <tr class="border-b-2 border-gray-300">
+                                    <th class="px-4 py-3 leading-4 tracking-wider text-left text-blue-500">
+                                        <label class="inline-flex items-center">
+                                            <input type="checkbox" class="form-checkbox">
+                                        </label>
+                                    </th>
+                                    <th class="flex items-center px-4 py-3 text-sm leading-4 tracking-wider text-left">Datum akcije<a href="#"><i class="ml-2 fa-lg fas fa-long-arrow-alt-down" onclick="sortTableDate(1)"></i></a></th>
+                                    <th class="px-4 py-3 text-sm leading-4 tracking-wider text-left">Tip akcije</th>
+                                    <th class="px-4 py-3 text-sm leading-4 tracking-wider text-left">Bibliotekar</th>
+                                    <th class="px-4 py-3 text-sm leading-4 tracking-wider text-left">Ucenik</th>
+                                    <th class="px-4 py-3"> </th>
+                                    <th class="px-4 py-3"> </th>
+                                </tr>
+                            </thead>
+                            <tbody class="bg-white">
                                 <tr class="bg-gray-200 border-b-2 border-gray-300 backgroundStyle">
                                     <td class="px-4 py-4 whitespace-no-wrap">
                                         <label class="inline-flex items-center">
-                                        <input type="checkbox" class="form-checkbox"></label>
+                                            <input type="checkbox" class="form-checkbox">
+                                        </label>
                                     </td>
                                     <td class="px-4 py-4 text-sm leading-5 whitespace-no-wrap">21.02.2021</td>
                                     <td class="px-4 py-4 text-sm leading-5 text-blue-900 whitespace-no-wrap">
                                         <span class="relative inline-block px-3 py-1 font-semibold leading-tight text-green-900">
-                                        <span aria-hidden class="absolute inset-0 bg-transparent border-2 border-yellow-400 borderColor"></span>
-                                        <span class="relative text-xs text-yellow-400 borderText">Rezervacija</span>
-                                    </span>
+                                            <span aria-hidden class="absolute inset-0 bg-transparent border-2 border-yellow-400 borderColor"></span>
+                                            <span class="relative text-xs text-yellow-400 borderText">Rezervacija</span>
+                                        </span>
                                     </td>
                                     <td class="px-4 py-4 text-sm leading-5 whitespace-no-wrap">Valentina Kascelan</td>
                                     <td class="px-4 py-4 text-sm leading-5 whitespace-no-wrap">Pero Perovic</td>
                                     <td class="px-4 py-2">
-                                            <a href="#" class="hover:text-green-500 mr-[5px] reservedBook">
-                                                <i class="fas fa-check"></i>
-                                            </a>
-                                            <a href="#" class="hover:text-red-500 deniedBook">
-                                                <i class="fas fa-times"></i>
-                                            </a>
+                                        <a href="#" class="hover:text-green-500 mr-[5px] reservedBook">
+                                            <i class="fas fa-check"></i>
+                                        </a>
+                                        <a href="#" class="hover:text-red-500 deniedBook">
+                                            <i class="fas fa-times"></i>
+                                        </a>
                                     </td>
                                     <td class="hidden px-4 py-2"></td>
                                     <td class="px-4 py-4 text-sm leading-5 text-right whitespace-no-wrap">
@@ -169,24 +170,25 @@
                                 <tr class="bg-gray-200 border-b-2 border-gray-300 backgroundStyle">
                                     <td class="px-4 py-4 whitespace-no-wrap">
                                         <label class="inline-flex items-center">
-                                        <input type="checkbox" class="form-checkbox"></label>
+                                            <input type="checkbox" class="form-checkbox">
+                                        </label>
                                     </td>
                                     <td class="px-4 py-4 text-sm leading-5 whitespace-no-wrap">12.05.2020</td>
                                     <td class="px-4 py-4 text-sm leading-5 text-blue-900 whitespace-no-wrap">
                                         <span class="relative inline-block px-3 py-1 font-semibold leading-tight text-green-900">
-                                        <span aria-hidden class="absolute inset-0 bg-transparent border-2 border-yellow-400 borderColor"></span>
-                                        <span class="relative text-xs text-yellow-400 borderText">Rezervacija</span>
-                                    </span>
+                                            <span aria-hidden class="absolute inset-0 bg-transparent border-2 border-yellow-400 borderColor"></span>
+                                            <span class="relative text-xs text-yellow-400 borderText">Rezervacija</span>
+                                        </span>
                                     </td>
                                     <td class="px-4 py-4 text-sm leading-5 whitespace-no-wrap">Valentina Kascelan</td>
                                     <td class="px-4 py-4 text-sm leading-5 whitespace-no-wrap">Nina Bulatovic</td>
                                     <td class="px-4 py-2">
-                                            <a href="#" class="hover:text-green-500 mr-[5px] reservedBook">
-                                                <i class="fas fa-check"></i>
-                                            </a>
-                                            <a href="#" class="hover:text-red-500 deniedBook">
-                                                <i class="fas fa-times"></i>
-                                            </a>
+                                        <a href="#" class="hover:text-green-500 mr-[5px] reservedBook">
+                                            <i class="fas fa-check"></i>
+                                        </a>
+                                        <a href="#" class="hover:text-red-500 deniedBook">
+                                            <i class="fas fa-times"></i>
+                                        </a>
                                     </td>
                                     <td class="hidden px-4 py-2"></td>
                                     <td class="px-4 py-4 text-sm leading-5 text-right whitespace-no-wrap">
@@ -212,14 +214,15 @@
                                 <tr class="border-b-2 border-gray-300">
                                     <td class="px-4 py-4 whitespace-no-wrap">
                                         <label class="inline-flex items-center">
-                                        <input type="checkbox" class="form-checkbox"></label>
+                                            <input type="checkbox" class="form-checkbox">
+                                        </label>
                                     </td>
                                     <td class="px-4 py-4 text-sm leading-5 whitespace-no-wrap">12.05.2020</td>
                                     <td class="px-4 py-4 text-sm leading-5 text-blue-900 whitespace-no-wrap">
                                         <span class="relative inline-block px-3 py-1 font-semibold leading-tight text-green-900">
-                                        <span aria-hidden class="absolute inset-0 bg-blue-600"></span>
-                                        <span class="relative text-xs text-white">Izdavanje knjige</span>
-                                    </span>
+                                            <span aria-hidden class="absolute inset-0 bg-blue-600"></span>
+                                            <span class="relative text-xs text-white">Izdavanje knjige</span>
+                                        </span>
                                     </td>
                                     <td class="px-4 py-4 text-sm leading-5 whitespace-no-wrap">Valentina Kascelan</td>
                                     <td class="px-4 py-4 text-sm leading-5 whitespace-no-wrap">Milos Milosevic</td>
@@ -247,14 +250,15 @@
                                 <tr class="border-b-2 border-gray-300">
                                     <td class="px-4 py-4 whitespace-no-wrap">
                                         <label class="inline-flex items-center">
-                                        <input type="checkbox" class="form-checkbox"></label>
+                                            <input type="checkbox" class="form-checkbox">
+                                        </label>
                                     </td>
                                     <td class="px-4 py-4 text-sm leading-5 whitespace-no-wrap">25.05.2020</td>
                                     <td class="px-4 py-4 text-sm leading-5 text-blue-900 whitespace-no-wrap">
                                         <span class="relative inline-block px-3 py-1 font-semibold leading-tight text-green-900">
-                                        <span aria-hidden class="absolute inset-0 bg-red-600"></span>
-                                        <span class="relative text-xs text-white">Vracanje knjige</span>
-                                    </span>
+                                            <span aria-hidden class="absolute inset-0 bg-red-600"></span>
+                                            <span class="relative text-xs text-white">Vracanje knjige</span>
+                                        </span>
                                     </td>
                                     <td class="px-4 py-4 text-sm leading-5 whitespace-no-wrap">Nina Bracovic</td>
                                     <td class="px-4 py-4 text-sm leading-5 whitespace-no-wrap">Nenad Novovic</td>
@@ -282,14 +286,15 @@
                                 <tr class="border-b-2 border-gray-300">
                                     <td class="px-4 py-4 whitespace-no-wrap">
                                         <label class="inline-flex items-center">
-                                        <input type="checkbox" class="form-checkbox"></label>
+                                            <input type="checkbox" class="form-checkbox">
+                                        </label>
                                     </td>
                                     <td class="px-4 py-4 text-sm leading-5 whitespace-no-wrap">12.05.2020</td>
                                     <td class="px-4 py-4 text-sm leading-5 text-blue-900 whitespace-no-wrap">
                                         <span class="relative inline-block px-3 py-1 font-semibold leading-tight text-green-900">
-                                        <span aria-hidden class="absolute inset-0 bg-yellow-400"></span>
-                                        <span class="relative text-xs text-white">Rezervisano</span>
-                                    </span>
+                                            <span aria-hidden class="absolute inset-0 bg-yellow-400"></span>
+                                            <span class="relative text-xs text-white">Rezervisano</span>
+                                        </span>
                                     </td>
                                     <td class="px-4 py-4 text-sm leading-5 whitespace-no-wrap">Nina Bracovic</td>
                                     <td class="px-4 py-4 text-sm leading-5 whitespace-no-wrap">Tarik Zaimovic</td>
@@ -317,14 +322,15 @@
                                 <tr class="border-b-2 border-gray-300">
                                     <td class="px-4 py-4 whitespace-no-wrap">
                                         <label class="inline-flex items-center">
-                                        <input type="checkbox" class="form-checkbox"></label>
+                                            <input type="checkbox" class="form-checkbox">
+                                        </label>
                                     </td>
                                     <td class="px-4 py-4 text-sm leading-5 whitespace-no-wrap">12.05.2020</td>
                                     <td class="px-4 py-4 text-sm leading-5 text-blue-900 whitespace-no-wrap">
                                         <span class="relative inline-block px-3 py-1 font-semibold leading-tight text-green-900">
-                                        <span aria-hidden class="absolute inset-0 bg-red-600"></span>
-                                        <span class="relative text-xs text-white">Vracanje knjige</span>
-                                    </span>
+                                            <span aria-hidden class="absolute inset-0 bg-red-600"></span>
+                                            <span class="relative text-xs text-white">Vracanje knjige</span>
+                                        </span>
                                     </td>
                                     <td class="px-4 py-4 text-sm leading-5 whitespace-no-wrap">Nina Bracovic</td>
                                     <td class="px-4 py-4 text-sm leading-5 whitespace-no-wrap">Dejan Petkovic</td>
@@ -352,14 +358,15 @@
                                 <tr class="border-b-2 border-gray-300">
                                     <td class="px-4 py-4 whitespace-no-wrap">
                                         <label class="inline-flex items-center">
-                                        <input type="checkbox" class="form-checkbox"></label>
+                                            <input type="checkbox" class="form-checkbox">
+                                        </label>
                                     </td>
                                     <td class="px-4 py-4 text-sm leading-5 whitespace-no-wrap">12.05.2020</td>
                                     <td class="px-4 py-4 text-sm leading-5 text-blue-900 whitespace-no-wrap">
                                         <span class="relative inline-block px-3 py-1 font-semibold leading-tight text-green-900">
-                                        <span aria-hidden class="absolute inset-0 bg-red-600"></span>
-                                        <span class="relative text-xs text-white">Odbijeno</span>
-                                    </span>
+                                            <span aria-hidden class="absolute inset-0 bg-red-600"></span>
+                                            <span class="relative text-xs text-white">Odbijeno</span>
+                                        </span>
                                     </td>
                                     <td class="px-4 py-4 text-sm leading-5 whitespace-no-wrap">Valentina Kascelan</td>
                                     <td class="px-4 py-4 text-sm leading-5 whitespace-no-wrap">Ivica Tartar</td>
@@ -387,14 +394,15 @@
                                 <tr class="border-b-2 border-gray-300">
                                     <td class="px-4 py-4 whitespace-no-wrap">
                                         <label class="inline-flex items-center">
-                                        <input type="checkbox" class="form-checkbox"></label>
+                                            <input type="checkbox" class="form-checkbox">
+                                        </label>
                                     </td>
                                     <td class="px-4 py-4 text-sm leading-5 whitespace-no-wrap">12.05.2020</td>
                                     <td class="px-4 py-4 text-sm leading-5 text-blue-900 whitespace-no-wrap">
                                         <span class="relative inline-block px-3 py-1 font-semibold leading-tight text-green-900">
-                                        <span aria-hidden class="absolute inset-0 bg-red-600"></span>
-                                        <span class="relative text-xs text-white">Vracanje knjige</span>
-                                    </span>
+                                            <span aria-hidden class="absolute inset-0 bg-red-600"></span>
+                                            <span class="relative text-xs text-white">Vracanje knjige</span>
+                                        </span>
                                     </td>
                                     <td class="px-4 py-4 text-sm leading-5 whitespace-no-wrap">Valentina Kascelan</td>
                                     <td class="px-4 py-4 text-sm leading-5 whitespace-no-wrap">Sanja Gardasevic</td>
@@ -419,63 +427,62 @@
                                         </div> 
                                     </td>
                                 </tr>
-                        </tbody>
+                            </tbody>
                         </table>
     
                         <div class="flex flex-row items-center justify-end mt-2">
-                        <div class="">
-                            <p class="inline text-md">
-                                Rows per page:
-                            </p>
-                            <select
-                                class=" text-gray-700 bg-white rounded-md w-[46px] focus:outline-none focus:ring-primary-500 focus:border-primary-500 text-md"
-                                name="ucenici">
-                                <option value="">
-                                    8
-                                </option>
-                                <option value="">
-                                    Option1
-                                </option>
-                                <option value="">
-                                    Option2
-                                </option>
-                                <option value="">
-                                    Option3
-                                </option>
-                                <option value="">
-                                    Option4
-                                </option>
-                            </select>
-                        </div>
+                            <div>
+                                <p class="inline text-md">
+                                    Rows per page:
+                                </p>
+                                <select
+                                    class=" text-gray-700 bg-white rounded-md w-[46px] focus:outline-none focus:ring-primary-500 focus:border-primary-500 text-md"
+                                    name="ucenici">
+                                    <option value="">
+                                        8
+                                    </option>
+                                    <option value="">
+                                        Option1
+                                    </option>
+                                    <option value="">
+                                        Option2
+                                    </option>
+                                    <option value="">
+                                        Option3
+                                    </option>
+                                    <option value="">
+                                        Option4
+                                    </option>
+                                </select>
+                            </div>
                         
-                        <div>
-                            <nav class="relative z-0 inline-flex">
-                                <div>
-                                    <a href="#" class="relative inline-flex items-center px-4 py-2 -ml-px font-medium leading-5 transition duration-150 ease-in-out bg-white text-md focus:z-10 focus:outline-none">
-                                        1 of 35
-                                    </a>
-                               
-                                </div>
-                                <div>
-                                    <a href="#" class="relative inline-flex items-center px-2 py-2 font-medium leading-5 text-gray-500 transition duration-150 ease-in-out bg-white text-md rounded-l-md hover:text-gray-400 focus:z-10 focus:outline-none" aria-label="Previous" v-on:click.prevent="changePage(pagination.current_page - 1)">
-                                        <svg class="w-5 h-5" viewBox="0 0 20 20" fill="currentColor">
-                                            <path fill-rule="evenodd" d="M12.707 5.293a1 1 0 010 1.414L9.414 10l3.293 3.293a1 1 0 01-1.414 1.414l-4-4a1 1 0 010-1.414l4-4a1 1 0 011.414 0z" clip-rule="evenodd" />
-                                        </svg>
-                                    </a>
-                                </div>
-                                <div v-if="pagination.current_page < pagination.last_page">
-                                    <a href="#" class="relative inline-flex items-center px-2 py-2 -ml-px font-medium leading-5 text-gray-500 transition duration-150 ease-in-out bg-white text-md rounded-r-md hover:text-gray-400 focus:z-10 focus:outline-none" aria-label="Next">
-                                        <svg class="w-5 h-5" viewBox="0 0 20 20" fill="currentColor">
-                                            <path fill-rule="evenodd" d="M7.293 14.707a1 1 0 010-1.414L10.586 10 7.293 6.707a1 1 0 011.414-1.414l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414 0z" clip-rule="evenodd" />
-                                        </svg>
-                                    </a>
-                                </div>
-                            </nav>
-                        </div>
-                        
+                            <div>
+                                <nav class="relative z-0 inline-flex">
+                                    <div>
+                                        <a href="#" class="relative inline-flex items-center px-4 py-2 -ml-px font-medium leading-5 transition duration-150 ease-in-out bg-white text-md focus:z-10 focus:outline-none">
+                                            1 of 35
+                                        </a>
+                                    </div>
+                                    <div>
+                                        <a href="#" class="relative inline-flex items-center px-2 py-2 font-medium leading-5 text-gray-500 transition duration-150 ease-in-out bg-white text-md rounded-l-md hover:text-gray-400 focus:z-10 focus:outline-none" aria-label="Previous" v-on:click.prevent="changePage(pagination.current_page - 1)">
+                                            <svg class="w-5 h-5" viewBox="0 0 20 20" fill="currentColor">
+                                                <path fill-rule="evenodd" d="M12.707 5.293a1 1 0 010 1.414L9.414 10l3.293 3.293a1 1 0 01-1.414 1.414l-4-4a1 1 0 010-1.414l4-4a1 1 0 011.414 0z" clip-rule="evenodd" />
+                                            </svg>
+                                        </a>
+                                    </div>
+                                    <div v-if="pagination.current_page < pagination.last_page">
+                                        <a href="#" class="relative inline-flex items-center px-2 py-2 -ml-px font-medium leading-5 text-gray-500 transition duration-150 ease-in-out bg-white text-md rounded-r-md hover:text-gray-400 focus:z-10 focus:outline-none" aria-label="Next">
+                                            <svg class="w-5 h-5" viewBox="0 0 20 20" fill="currentColor">
+                                                <path fill-rule="evenodd" d="M7.293 14.707a1 1 0 010-1.414L10.586 10 7.293 6.707a1 1 0 011.414-1.414l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414 0z" clip-rule="evenodd" />
+                                            </svg>
+                                        </a>
+                                    </div>
+                                </nav>
+                            </div>
                         </div>
 
                     </div>
+                    
                 </div>
                 <div class="min-w-[20%] border-l-[2px] border-gray-300px ">
                     <div class="border-b-[2px] border-gray-300">
