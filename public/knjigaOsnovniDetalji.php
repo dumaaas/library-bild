@@ -20,10 +20,6 @@
     <!-- Styles -->
     <?php include('includes/layout/styles.php'); ?>
     <!-- End Styles -->
-
-    <!-- Font Awesome -->
-    <link href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.3.0/css/font-awesome.css" rel="stylesheet" type='text/css'>
-    <!-- End Font Awesome -->
 </head>
 
 <body class="small:bg-gradient-to-r small:from-green-400 small:to-blue-500">
@@ -93,11 +89,11 @@
                             <div class="absolute right-0 w-56 mt-2 origin-top-right bg-white border border-gray-200 divide-y divide-gray-100 rounded-md shadow-lg outline-none" aria-labelledby="headlessui-menu-button-1" id="headlessui-menu-items-117" role="menu">
                                 <div class="py-1">
                                     <a href="javascript:void(0)" tabindex="0" class="flex w-full px-4 py-2 text-sm leading-5 text-left text-gray-700"  role="menuitem" >
-                                        <i class="fa fa-pencil-square-o ml-[9px] py-1"></i>
+                                        <i class="fas fa-edit mr-[6px] ml-[5px] py-1"></i>
                                         <span class="px-4 py-0">Izmijeni knjigu</span>
                                     </a>
                                     <a href="javascript:void(0)" tabindex="0" class="flex w-full px-4 py-2 text-sm leading-5 text-left text-gray-700"  role="menuitem" >
-                                        <i class="fa fa-trash-o ml-[10px] mr-[2px] py-1"></i>
+                                        <i class="fa fa-trash mr-[10px] ml-[5px] py-1"></i>
                                         <span class="px-4 py-0">Izbrisi knjigu</span>
                                     </a>
                                 </div>
