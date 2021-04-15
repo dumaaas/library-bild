@@ -153,7 +153,7 @@
     </div>
     <div class="sidebar-nav py-[10px] border-t-[3px] border-[#e4dfdf]">
         <!-- Settings Icon -->
-        <a href="#" aria-label="Settngs">
+        <a href="settingsPolisa.php" aria-label="Settngs">
             <span
                 class="whitespace-nowrap text-[25px] px-[25px] text-[#5c5c5c] fill-current transition duration-300 ease-in hover:text-[#576cdf]">
                 <i class="fas fa-cog"></i>
