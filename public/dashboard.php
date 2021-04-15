@@ -475,7 +475,7 @@
                                     <a class="text-[15px] w-[145px] text-blue-600 hover:text-blue-800" href="#">
                                         Izdate knjige
                                     </a>
-                                    <div class="ml-[30px] bg-green-600 stats-bar-green h-[26px]">
+                                    <div class="ml-[30px] bg-green-600 transition duration-200 ease-in  hover:bg-green-900 stats-bar-green h-[26px]">
                                     
                                     </div>
                                     <p class="ml-[10px] text-blue-600 number-green hover:text-blue-800">
@@ -486,7 +486,7 @@
                                     <a class="text-[15px] w-[145px] text-blue-600 hover:text-blue-800" href="#">
                                         Rezervisane knjige
                                     </a>
-                                    <div class="ml-[30px] bg-yellow-600 stats-bar-yellow  h-[26px]">
+                                    <div class="ml-[30px] bg-yellow-600 transition duration-200 ease-in  hover:bg-yellow-900 stats-bar-yellow  h-[26px]">
                                     
                                     </div>
                                     <p class="ml-[10px] text-blue-600 number-yellow hover:text-blue-800">
@@ -497,7 +497,7 @@
                                     <a class="text-[15px] w-[145px] text-blue-600 hover:text-blue-800" href="#">
                                         Knjige u prekoracenju
                                     </a>
-                                    <div class="ml-[30px] bg-red-600 stats-bar-red h-[26px]">
+                                    <div class="ml-[30px] bg-red-600 transition duration-200 ease-in hover:bg-red-900 stats-bar-red h-[26px]">
                                     
                                     </div>
                                     <p class="ml-[10px] text-blue-600 number-red hover:text-blue-800">
