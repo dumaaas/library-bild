@@ -93,7 +93,16 @@
                                 <select class="flex w-[45%] mt-2 px-2 py-2 border bg-white border-gray-300 shadow-sm focus:outline-none focus:ring-2 focus:ring-[#576cdf]" name="pismo" id="pismo" onclick="clearErrorsPismo()">
                                     <option disabled selected></option>
                                     <option value="">
-                                        Pismo 1
+                                        Cirilica
+                                    </option>
+                                    <option value="">
+                                        Latinica
+                                    </option>
+                                    <option value="">
+                                        Arapsko
+                                    </option>
+                                    <option value="">
+                                        Kinesko
                                     </option>
                                 </select>
                                 <div id="validatePismo"></div>
@@ -104,7 +113,10 @@
                                 <select class="flex w-[45%] mt-2 px-2 py-2 border bg-white border-gray-300 shadow-sm focus:outline-none focus:ring-2 focus:ring-[#576cdf]" name="povez" id="povez" onclick="clearErrorsPovez()">
                                     <option disabled selected></option>
                                     <option value="">
-                                        Povez 1
+                                        Tvrdi
+                                    </option>
+                                    <option value="">
+                                        Meki
                                     </option>
                                 </select>
                                 <div id="validatePovez"></div>
@@ -115,7 +127,10 @@
                                 <select class="flex w-[45%] mt-2 px-2 py-2 border bg-white border-gray-300 shadow-sm focus:outline-none focus:ring-2 focus:ring-[#576cdf]" name="format" id="format" onclick="clearErrorsFormat()">
                                     <option disabled selected></option>
                                     <option value="">
-                                        Format 1
+                                        A1
+                                    </option>
+                                    <option value="">
+                                        A2
                                     </option>
                                 </select>
                                 <div id="validateFormat"></div>
