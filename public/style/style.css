@@ -1071,6 +1071,12 @@ body {
 .ml-\[-80px\] {
   margin-left: -80px;
 }
+.ml-\[9px\] {
+  margin-left: 9px;
+}
+.mr-\[2px\] {
+  margin-right: 2px;
+}
 .mr-\[70px\] {
   margin-right: 70px;
 }
