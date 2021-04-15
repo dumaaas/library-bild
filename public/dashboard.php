@@ -353,9 +353,9 @@
                                 class="activity-showMore w-full focus:outline-none text-gray-600 text-sm py-2.5 px-5 rounded-md border transition duration-300 ease-in border-gray-600 hover:bg-gray-600 hover:text-white">Show more</button>
                         </div>
                     </div>
-                    <div class="mr-[25px] ">
+                    <div class="mr-[50px] ">
                         <h2 class="text-[20px] font-medium uppercase mb-[20px] text-left">
-                            Zahtjevi za iznajmljivanje knjiga
+                            Rezervacije knjiga
                         </h2>
 
                         <div>
@@ -466,7 +466,65 @@
                                 </a>
                             </div>
                         </div>
-
+                        <div class="relative">
+                            <h2 class="text-[20px] font-medium uppercase mb-[20px] text-left py-[30px]">
+                                Statistika
+                            </h2>
+                            <div class="text-right">
+                                <div class="flex pb-[30px]">
+                                    <a class="text-[15px] w-[145px] text-blue-600 hover:text-blue-800" href="#">
+                                        Izdate knjige
+                                    </a>
+                                    <div class="ml-[30px] bg-green-600 stats-bar-green h-[26px]">
+                                    
+                                    </div>
+                                    <p class="ml-[10px] text-blue-600 number-green hover:text-blue-800">
+                                        73
+                                    </p>
+                                </div>
+                                <div class="flex pb-[30px]">
+                                    <a class="text-[15px] w-[145px] text-blue-600 hover:text-blue-800" href="#">
+                                        Rezervisane knjige
+                                    </a>
+                                    <div class="ml-[30px] bg-yellow-600 stats-bar-yellow  h-[26px]">
+                                    
+                                    </div>
+                                    <p class="ml-[10px] text-blue-600 number-yellow hover:text-blue-800">
+                                        44
+                                    </p>
+                                </div>
+                                <div class="flex pb-[30px]">
+                                    <a class="text-[15px] w-[145px] text-blue-600 hover:text-blue-800" href="#">
+                                        Knjige u prekoracenju
+                                    </a>
+                                    <div class="ml-[30px] bg-red-600 stats-bar-red h-[26px]">
+                                    
+                                    </div>
+                                    <p class="ml-[10px] text-blue-600 number-red hover:text-blue-800">
+                                        25
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="absolute h-[220px] w-[2px] bg-black top-[78px] left-[173px]">
+                            </div>
+                            <div class="absolute font-medium flex conte left-[175px] border-t-[2px] border-gray-300 top-[248px] pr-[87px]">
+                                <p class="ml-[-13px]">
+                                    0
+                                </p>
+                                <p class="ml-[57px]">
+                                    20
+                                </p>
+                                <p class="ml-[57px]">
+                                    40
+                                </p>
+                                <p class="ml-[57px]">
+                                    60
+                                </p>
+                                <p class="ml-[57px]">
+                                    80
+                                </p>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>

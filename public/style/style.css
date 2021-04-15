@@ -154,23 +154,134 @@
   display: block;
 }
 
+/*Animations*/
+
+.stats-bar-green {
+  width: 0px;
+  -webkit-animation: green-bar 1s ease forwards;
+          animation: green-bar 1s ease forwards;
+  -webkit-animation-delay: 0.5s;
+          animation-delay: 0.5s;
+}
+
+@-webkit-keyframes green-bar {
+  
+  from { width: 0%; }
+  to { width: 250px; } 
+}
+
+@keyframes green-bar {
+  
+  from { width: 0%; }
+  to { width: 250px; } 
+}
+
+.number-green {
+  opacity: 0;
+  -webkit-animation: number-yellow 0.5s ease-in forwards;
+          animation: number-yellow 0.5s ease-in forwards;
+  -webkit-animation-delay: 2s;
+          animation-delay: 2s;
+}
+
+@-webkit-keyframes number-green {
+  0% { opacity: 0; }
+  100% { opacity: 1; } 
+}
+
+@keyframes number-green {
+  0% { opacity: 0; }
+  100% { opacity: 1; } 
+}
+
+.stats-bar-yellow {
+  width: 0px;
+
+  -webkit-animation: yellow-bar 1s ease forwards;
+
+          animation: yellow-bar 1s ease forwards;
+  -webkit-animation-delay: 1s;
+          animation-delay: 1s;
+}
+
+@-webkit-keyframes yellow-bar {
+  from { width: 0%; }
+  to { width: 150px; } 
+}
+
+@keyframes yellow-bar {
+  from { width: 0%; }
+  to { width: 150px; } 
+}
+
+.number-yellow {
+  opacity: 0;
+  -webkit-animation: number-yellow 0.5s ease-in forwards;
+          animation: number-yellow 0.5s ease-in forwards;
+  -webkit-animation-delay: 2.2s;
+          animation-delay: 2.2s;
+}
+
+@-webkit-keyframes number-yellow {
+  0% { opacity: 0; }
+  100% { opacity: 1; } 
+}
+
+@keyframes number-yellow {
+  0% { opacity: 0; }
+  100% { opacity: 1; } 
+}
+
+.stats-bar-red {
+  width: 0px;
+
+  -webkit-animation: red-bar 1s ease forwards;
+
+          animation: red-bar 1s ease forwards;
+  -webkit-animation-delay: 1.5s;
+          animation-delay: 1.5s;
+}
+
+@-webkit-keyframes red-bar {
+  from { width: 0%; }
+  to { width: 80px; } 
+}
+
+@keyframes red-bar {
+  from { width: 0%; }
+  to { width: 80px; } 
+}
+
+.number-red {
+  opacity: 0;
+  -webkit-animation: number-red 0.5s ease-in forwards;
+          animation: number-red 0.5s ease-in forwards;
+  -webkit-animation-delay: 2.4s;
+          animation-delay: 2.4s;
+}
+
+@-webkit-keyframes number-red {
+  0% { opacity: 0; }
+  100% { opacity: 1; } 
+}
+
+@keyframes number-red {
+  0% { opacity: 0; }
+  100% { opacity: 1; } 
+}
 
 /* ! tailwindcss v2.1.1 | MIT License | https://tailwindcss.com*/
 
-
 /*! modern-normalize v1.0.0 | MIT License | https://github.com/sindresorhus/modern-normalize */
-
 
 /*
 Document
 ========
 */
 
-
 /**
 Use a better box model (opinionated).
 */
-
 
 *,
 *::before,
@@ -178,11 +289,9 @@ Use a better box model (opinionated).
 	box-sizing: border-box;
 }
 
-
 /**
 Use a more readable tab size (opinionated).
 */
-
 
 :root {
 	-moz-tab-size: 4;
@@ -190,39 +299,32 @@ Use a more readable tab size (opinionated).
 	   tab-size: 4;
 }
 
-
 /**
 1. Correct the line height in all browsers.
 2. Prevent adjustments of font size after orientation changes in iOS.
 */
-
 
 html {
 	line-height: 1.15; /* 1 */
 	-webkit-text-size-adjust: 100%; /* 2 */
 }
 
-
 /*
 Sections
 ========
 */
 
-
 /**
 Remove the margin in all browsers.
 */
-
 
 body {
 	margin: 0;
 }
 
-
 /**
 Improve consistency of default fonts in all browsers. (https://github.com/sindresorhus/modern-normalize/issues/3)
 */
-
 
 body {
 	font-family:
@@ -237,58 +339,48 @@ body {
 		'Segoe UI Emoji';
 }
 
-
 /*
 Grouping content
 ================
 */
-
 
 /**
 1. Add the correct height in Firefox.
 2. Correct the inheritance of border color in Firefox. (https://bugzilla.mozilla.org/show_bug.cgi?id=190655)
 */
 
-
 hr {
 	height: 0; /* 1 */
 	color: inherit; /* 2 */
 }
-
 
 /*
 Text-level semantics
 ====================
 */
 
-
 /**
 Add the correct text decoration in Chrome, Edge, and Safari.
 */
-
 
 abbr[title] {
 	-webkit-text-decoration: underline dotted;
 	        text-decoration: underline dotted;
 }
 
-
 /**
 Add the correct font weight in Edge and Safari.
 */
-
 
 b,
 strong {
 	font-weight: bolder;
 }
 
-
 /**
 1. Improve consistency of default fonts in all browsers. (https://github.com/sindresorhus/modern-normalize/issues/3)
 2. Correct the odd 'em' font sizing in all browsers.
 */
-
 
 code,
 kbd,
@@ -304,21 +396,17 @@ pre {
 	font-size: 1em; /* 2 */
 }
 
-
 /**
 Add the correct font size in all browsers.
 */
-
 
 small {
 	font-size: 80%;
 }
 
-
 /**
 Prevent 'sub' and 'sup' elements from affecting the line height in all browsers.
 */
-
 
 sub,
 sup {
@@ -328,46 +416,38 @@ sup {
 	vertical-align: baseline;
 }
 
-
 sub {
 	bottom: -0.25em;
 }
 
-
 sup {
 	top: -0.5em;
 }
-
 
 /*
 Tabular data
 ============
 */
 
-
 /**
 1. Remove text indentation from table contents in Chrome and Safari. (https://bugs.chromium.org/p/chromium/issues/detail?id=999088, https://bugs.webkit.org/show_bug.cgi?id=201297)
 2. Correct table border color inheritance in all Chrome and Safari. (https://bugs.chromium.org/p/chromium/issues/detail?id=935729, https://bugs.webkit.org/show_bug.cgi?id=195016)
 */
-
 
 table {
 	text-indent: 0; /* 1 */
 	border-color: inherit; /* 2 */
 }
 
-
 /*
 Forms
 =====
 */
 
-
 /**
 1. Change the font styles in all browsers.
 2. Remove the margin in Firefox and Safari.
 */
-
 
 button,
 input,
@@ -380,23 +460,19 @@ textarea {
 	margin: 0; /* 2 */
 }
 
-
 /**
 Remove the inheritance of text transform in Edge and Firefox.
 1. Remove the inheritance of text transform in Firefox.
 */
-
 
 button,
 select { /* 1 */
 	text-transform: none;
 }
 
-
 /**
 Correct the inability to style clickable types in iOS and Safari.
 */
-
 
 button,
 [type='button'],
@@ -405,119 +481,97 @@ button,
 	-webkit-appearance: button;
 }
 
-
 /**
 Remove the inner border and padding in Firefox.
 */
-
 
 ::-moz-focus-inner {
 	border-style: none;
 	padding: 0;
 }
 
-
 /**
 Restore the focus styles unset by the previous rule.
 */
 
-
 :-moz-focusring {
 	outline: 1px dotted ButtonText;
 }
-
 
 /**
 Remove the additional ':invalid' styles in Firefox.
 See: https://github.com/mozilla/gecko-dev/blob/2f9eacd9d3d995c937b4251a5557d95d494c9be1/layout/style/res/forms.css#L728-L737
 */
 
-
 :-moz-ui-invalid {
 	box-shadow: none;
 }
-
 
 /**
 Remove the padding so developers are not caught out when they zero out 'fieldset' elements in all browsers.
 */
 
-
 legend {
 	padding: 0;
 }
-
 
 /**
 Add the correct vertical alignment in Chrome and Firefox.
 */
 
-
 progress {
 	vertical-align: baseline;
 }
 
-
 /**
 Correct the cursor style of increment and decrement buttons in Safari.
 */
-
 
 ::-webkit-inner-spin-button,
 ::-webkit-outer-spin-button {
 	height: auto;
 }
 
-
 /**
 1. Correct the odd appearance in Chrome and Safari.
 2. Correct the outline style in Safari.
 */
-
 
 [type='search'] {
 	-webkit-appearance: textfield; /* 1 */
 	outline-offset: -2px; /* 2 */
 }
 
-
 /**
 Remove the inner padding in Chrome and Safari on macOS.
 */
 
-
 ::-webkit-search-decoration {
 	-webkit-appearance: none;
 }
-
 
 /**
 1. Correct the inability to style clickable types in iOS and Safari.
 2. Change font properties to 'inherit' in Safari.
 */
 
-
 ::-webkit-file-upload-button {
 	-webkit-appearance: button; /* 1 */
 	font: inherit; /* 2 */
 }
-
 
 /*
 Interactive
 ===========
 */
 
-
 /*
 Add the correct display in Chrome and Safari.
 */
 
-
 summary {
 	display: list-item;
 }
-
 
 /**
  * Manually forked from SUIT CSS Base: https://github.com/suitcss/base
@@ -525,11 +579,9 @@ summary {
  * suitable for web applications.
  */
 
-
 /**
  * Removes the default spacing and border for appropriate elements.
  */
-
 
 blockquote,
 dl,
@@ -547,30 +599,25 @@ pre {
   margin: 0;
 }
 
-
 button {
   background-color: transparent;
   background-image: none;
 }
-
 
 /**
  * Work around a Firefox/IE bug where the transparent `button` background
  * results in a loss of the default `button` focus styles.
  */
 
-
 button:focus {
   outline: 1px dotted;
   outline: 5px auto -webkit-focus-ring-color;
 }
 
-
 fieldset {
   margin: 0;
   padding: 0;
 }
-
 
 ol,
 ul {
@@ -579,11 +626,9 @@ ul {
   padding: 0;
 }
 
-
 /**
  * Tailwind custom reset styles
  */
-
 
 /**
  * 1. Use the user's configured `sans` font-family (with Tailwind's default
@@ -592,24 +637,20 @@ ul {
  *    to override it to ensure consistency even when using the default theme.
  */
 
-
 html {
   font-family: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji"; /* 1 */
   line-height: 1.5; /* 2 */
 }
-
 
 /**
  * Inherit font-family and line-height from `html` so users can set them as
  * a class directly on the `html` element.
  */
 
-
 body {
   font-family: inherit;
   line-height: inherit;
 }
-
 
 /**
  * 1. Prevent padding and border from affecting element width.
@@ -637,7 +678,6 @@ body {
  *    https://github.com/tailwindcss/tailwindcss/pull/116
  */
 
-
 *,
 ::before,
 ::after {
@@ -647,16 +687,13 @@ body {
   border-color: #e5e7eb; /* 2 */
 }
 
-
 /*
  * Ensure horizontal rules are visible by default
  */
 
-
 hr {
   border-top-width: 1px;
 }
-
 
 /**
  * Undo the `border-style: none` reset that Normalize applies to images so that
@@ -668,28 +705,23 @@ hr {
  * https://github.com/tailwindcss/tailwindcss/issues/362
  */
 
-
 img {
   border-style: solid;
 }
 
-
 textarea {
   resize: vertical;
 }
-
 
 input::-moz-placeholder, textarea::-moz-placeholder {
   opacity: 1;
   color: #9ca3af;
 }
 
-
 input:-ms-input-placeholder, textarea:-ms-input-placeholder {
   opacity: 1;
   color: #9ca3af;
 }
-
 
 input::placeholder,
 textarea::placeholder {
@@ -697,17 +729,14 @@ textarea::placeholder {
   color: #9ca3af;
 }
 
-
 button,
 [role="button"] {
   cursor: pointer;
 }
 
-
 table {
   border-collapse: collapse;
 }
-
 
 h1,
 h2,
@@ -719,18 +748,15 @@ h6 {
   font-weight: inherit;
 }
 
-
 /**
  * Reset links to optimize for opt-in styling instead of
  * opt-out.
  */
 
-
 a {
   color: inherit;
   text-decoration: inherit;
 }
-
 
 /**
  * Reset form element properties that are easy to forget to
@@ -739,7 +765,6 @@ a {
  * supplement a partial reset that is already applied by
  * normalize.css.
  */
-
 
 button,
 input,
@@ -751,14 +776,12 @@ textarea {
   color: inherit;
 }
 
-
 /**
  * Use the configured 'mono' font family for elements that
  * are expected to be rendered with a monospace font, falling
  * back to the system monospace stack if there is no configured
  * 'mono' font family.
  */
-
 
 pre,
 code,
@@ -767,7 +790,6 @@ samp {
   font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
 }
 
-
 /**
  * Make replaced elements `display: block` by default as that's
  * the behavior you want almost all of the time. Inspired by
@@ -775,7 +797,6 @@ samp {
  *
  * https://github.com/mozdevs/cssremedy/issues/14
  */
-
 
 img,
 svg,
@@ -789,7 +810,6 @@ object {
   vertical-align: middle;
 }
 
-
 /**
  * Constrain images and videos to the parent width and preserve
  * their intrinsic aspect ratio.
@@ -797,13 +817,11 @@ object {
  * https://github.com/mozdevs/cssremedy/issues/14
  */
 
-
 img,
 video {
   max-width: 100%;
   height: auto;
 }
-
 
 * {
   --tw-shadow: 0 0 #0000;
@@ -814,7 +832,6 @@ video {
   --tw-ring-offset-shadow: 0 0 #0000;
   --tw-ring-shadow: 0 0 #0000;
 }
-
 
 body {
   overflow: hidden;
@@ -843,6 +860,18 @@ body {
 }
 .left-0 {
   left: 0px;
+}
+.top-\[78px\] {
+  top: 78px;
+}
+.left-\[173px\] {
+  left: 173px;
+}
+.left-\[175px\] {
+  left: 175px;
+}
+.top-\[248px\] {
+  top: 248px;
 }
 .right-0 {
   right: 0px;
@@ -970,14 +999,26 @@ body {
 .mt-6 {
   margin-top: 1.5rem;
 }
-.mr-\[25px\] {
-  margin-right: 25px;
+.mr-\[50px\] {
+  margin-right: 50px;
 }
 .mr-\[5px\] {
   margin-right: 5px;
 }
 .mr-\[4px\] {
   margin-right: 4px;
+}
+.ml-\[30px\] {
+  margin-left: 30px;
+}
+.ml-\[10px\] {
+  margin-left: 10px;
+}
+.ml-\[-13px\] {
+  margin-left: -13px;
+}
+.ml-\[57px\] {
+  margin-left: 57px;
 }
 .ml-\[25px\] {
   margin-left: 25px;
@@ -1014,9 +1055,6 @@ body {
 }
 .mt-10 {
   margin-top: 2.5rem;
-}
-.ml-\[30px\] {
-  margin-left: 30px;
 }
 .mb-\[100px\] {
   margin-bottom: 100px;
@@ -1068,9 +1106,6 @@ body {
 }
 .mr-\[90px\] {
   margin-right: 90px;
-}
-.ml-\[10px\] {
-  margin-left: 10px;
 }
 .mt-\[37px\] {
   margin-top: 37px;
@@ -1132,6 +1167,12 @@ body {
 .h-\[60px\] {
   height: 60px;
 }
+.h-\[26px\] {
+  height: 26px;
+}
+.h-\[220px\] {
+  height: 220px;
+}
 .h-11 {
   height: 2.75rem;
 }
@@ -1179,6 +1220,12 @@ body {
 }
 .w-\[560px\] {
   width: 560px;
+}
+.w-\[145px\] {
+  width: 145px;
+}
+.w-\[2px\] {
+  width: 2px;
 }
 .w-\[300px\] {
   width: 300px;
@@ -1477,20 +1524,28 @@ body {
   --tw-bg-opacity: 1;
   background-color: rgba(209, 213, 219, var(--tw-bg-opacity));
 }
-.bg-transparent {
-  background-color: transparent;
+.bg-green-600 {
+  --tw-bg-opacity: 1;
+  background-color: rgba(5, 150, 105, var(--tw-bg-opacity));
 }
 .bg-yellow-600 {
   --tw-bg-opacity: 1;
   background-color: rgba(217, 119, 6, var(--tw-bg-opacity));
 }
-.bg-blue-600 {
-  --tw-bg-opacity: 1;
-  background-color: rgba(37, 99, 235, var(--tw-bg-opacity));
-}
 .bg-red-600 {
   --tw-bg-opacity: 1;
   background-color: rgba(220, 38, 38, var(--tw-bg-opacity));
+}
+.bg-black {
+  --tw-bg-opacity: 1;
+  background-color: rgba(0, 0, 0, var(--tw-bg-opacity));
+}
+.bg-transparent {
+  background-color: transparent;
+}
+.bg-blue-600 {
+  --tw-bg-opacity: 1;
+  background-color: rgba(37, 99, 235, var(--tw-bg-opacity));
 }
 .bg-yellow-400 {
   --tw-bg-opacity: 1;
@@ -1604,6 +1659,10 @@ body {
   padding-top: 3px;
   padding-bottom: 3px;
 }
+.py-\[30px\] {
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
 .px-6 {
   padding-left: 1.5rem;
   padding-right: 1.5rem;
@@ -1689,6 +1748,9 @@ body {
 .pb-\[30px\] {
   padding-bottom: 30px;
 }
+.pr-\[87px\] {
+  padding-right: 87px;
+}
 .pl-6 {
   padding-left: 1.5rem;
 }
@@ -1756,6 +1818,9 @@ body {
 }
 .text-\[25px\] {
   font-size: 25px;
+}
+.text-\[15px\] {
+  font-size: 15px;
 }
 .text-\[17px\] {
   font-size: 17px;
