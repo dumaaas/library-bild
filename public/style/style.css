@@ -1098,6 +1098,9 @@ body {
 .mt-\[50px\] {
   margin-top: 50px;
 }
+.ml-\[60px\] {
+  margin-left: 60px;
+}
 .mt-\[30px\] {
   margin-top: 30px;
 }
@@ -1190,6 +1193,9 @@ body {
 }
 .h-48 {
   height: 12rem;
+}
+.h-\[50px\] {
+  height: 50px;
 }
 .h-\[40px\] {
   height: 40px;
@@ -1286,6 +1292,12 @@ body {
 }
 .max-w-md {
   max-width: 28rem;
+}
+.max-w-\[400px\] {
+  max-width: 400px;
+}
+.flex-1 {
+  flex: 1 1 0%;
 }
 .flex-initial {
   flex: 0 1 auto;
@@ -1447,14 +1459,14 @@ body {
 .border-t-\[2px\] {
   border-top-width: 2px;
 }
+.border-b-\[1px\] {
+  border-bottom-width: 1px;
+}
 .border-l-\[1px\] {
   border-left-width: 1px;
 }
 .border-r-\[1px\] {
   border-right-width: 1px;
-}
-.border-b-\[1px\] {
-  border-bottom-width: 1px;
 }
 .border-t-\[1px\] {
   border-top-width: 1px;
@@ -1503,6 +1515,13 @@ body {
 .border-white {
   --tw-border-opacity: 1;
   border-color: rgba(255, 255, 255, var(--tw-border-opacity));
+}
+.border-transparent {
+  border-color: transparent;
+}
+.border-gray-400 {
+  --tw-border-opacity: 1;
+  border-color: rgba(156, 163, 175, var(--tw-border-opacity));
 }
 .border-\[\#c9c8c8\] {
   --tw-border-opacity: 1;
@@ -1703,13 +1722,13 @@ body {
   padding-top: 4rem;
   padding-bottom: 4rem;
 }
-.px-\[11px\] {
-  padding-left: 11px;
-  padding-right: 11px;
-}
 .py-\[20px\] {
   padding-top: 20px;
   padding-bottom: 20px;
+}
+.px-\[11px\] {
+  padding-left: 11px;
+  padding-right: 11px;
 }
 .px-\[25px\] {
   padding-left: 25px;
@@ -1765,6 +1784,9 @@ body {
 }
 .pb-8 {
   padding-bottom: 2rem;
+}
+.pt-\[15px\] {
+  padding-top: 15px;
 }
 .pb-\[40px\] {
   padding-bottom: 40px;
@@ -2098,6 +2120,9 @@ body {
 .focus\:z-10:focus {
   z-index: 10;
 }
+.focus\:border-transparent:focus {
+  border-color: transparent;
+}
 .focus\:bg-white:focus {
   --tw-bg-opacity: 1;
   background-color: rgba(255, 255, 255, var(--tw-bg-opacity));
@@ -2122,6 +2147,10 @@ body {
 .focus\:ring-\[\#576cdf\]:focus {
   --tw-ring-opacity: 1;
   --tw-ring-color: rgba(87, 108, 223, var(--tw-ring-opacity));
+}
+.focus\:ring-purple-600:focus {
+  --tw-ring-opacity: 1;
+  --tw-ring-color: rgba(124, 58, 237, var(--tw-ring-opacity));
 }
 .active\:text-gray-800:active {
   --tw-text-opacity: 1;
