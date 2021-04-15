@@ -158,6 +158,12 @@
   display: block;
 }
 
+/*Checkbox dashboard activity*/
+
+input:checked + svg {
+  display: block;
+}
+
 /*Animations*/
 
 .stats-bar-green {
