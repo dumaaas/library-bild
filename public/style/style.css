@@ -1199,6 +1199,12 @@ nav {
 .ml-\[60px\]{
   margin-left: 60px;
 }
+.ml-4 {
+  margin-left: 1rem;
+}
+.ml-\[60px\] {
+  margin-left: 60px;
+}
 .mt-\[30px\]{
   margin-top: 30px;
 }
@@ -1575,7 +1581,16 @@ nav {
 .border-l-\[2px\]{
   border-left-width: 2px;
 }
-.border-b-\[1px\]{
+.border-b-\[1px\] { 
+  border-bottom-width: 1px;
+} 
+.border-t-\[2px\] {
+  border-top-width: 2px;
+}
+.border-b-4 {
+  border-bottom-width: 4px;
+}
+.border-b-\[1px\] {
   border-bottom-width: 1px;
 }
 .border-t-\[2px\]{
@@ -1858,7 +1873,12 @@ nav {
   padding-top: 4rem;
   padding-bottom: 4rem;
 }
-.py-\[20px\]{
+
+.py-8 {
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+.py-\[20px\] {
   padding-top: 20px;
   padding-bottom: 20px;
 }
@@ -2389,7 +2409,11 @@ nav {
   --tw-text-opacity: 1;
   color: rgba(31, 41, 55, var(--tw-text-opacity));
 }
-.disabled\:opacity-50:disabled{
+.active\:text-gray-800:active {
+  --tw-text-opacity: 1;
+  color: rgba(31, 41, 55, var(--tw-text-opacity));
+}
+.disabled\:opacity-50:disabled {
   opacity: 0.5;
 }
 .group:hover .group-hover\:text-blue-600{
