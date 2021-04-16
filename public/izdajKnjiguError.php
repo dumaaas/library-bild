@@ -79,7 +79,11 @@
                     </div>
                     
                     <div class="mt-[15px] mr-[30px]">
-                        <a href="izdajKnjigu.php" class="inline hover:text-blue-600">
+                        <a href="otpisiKnjigu.php" class="inline hover:text-blue-600">
+                            <i class="fas fa-power-off mr-[3px]"></i>
+                            Otpisi knjigu
+                        </a>
+                        <a href="izdajKnjigu.php" class="inline hover:text-blue-600 ml-[20px] pr-[10px]">
                             <i class="far fa-hand-scissors mr-[3px]"></i>
                             Izdaj knjigu
                         </a>

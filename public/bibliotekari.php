@@ -34,7 +34,7 @@
         <!-- End Sidebar -->
 
         <!-- Content -->
-        <section class="w-screen h-screen py-4 pl-[60px] text-[#212121]">
+        <section class="w-screen h-screen py-4 pl-[60px] bg-[#EAEAEA] text-[#212121]">
             <!-- Heading of content -->
             <div class="heading mt-[14px]">
                 <h1 class="pl-[50px] pb-[20px] text-[35px] text-[#5c5c5c] font-bold border-b-[2px] border-[#e4dfdf]">

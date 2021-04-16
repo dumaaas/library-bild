@@ -1,3 +1,10 @@
+/*Font Rubik - import*/
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;700&display=swap');
+
+.logo-font {
+  font-family: 'Rubik';
+}
+
 /* Sidebar transition*/
 .sidebar {
   -webkit-transition: width 0.5s;
@@ -5,11 +12,11 @@
   -o-transition: width 0.5s;
   -ms-transition: width 0.5s;
   transition: width 0.5s;
-  width: 80px;
+  width: 83px;
 }
 
 .sidebar-active {
-  width: 300px;
+  width: 266px;
 }
 
 .sidebar-link-active {
@@ -160,7 +167,7 @@
 
 /*Checkbox dashboard activity*/
 
-input:checked + svg {
+input:checked+svg {
   display: block;
 }
 
@@ -173,9 +180,14 @@ input:checked + svg {
 }
 
 @keyframes green-bar {
-  
-  from { width: 0%; }
-  to { width: 250px; } 
+
+  from {
+    width: 0%;
+  }
+
+  to {
+    width: 250px;
+  }
 }
 
 .number-green {
@@ -185,8 +197,13 @@ input:checked + svg {
 }
 
 @keyframes number-green {
-  0% { opacity: 0; }
-  100% { opacity: 1; } 
+  0% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
 }
 
 .stats-bar-yellow {
@@ -197,8 +214,13 @@ input:checked + svg {
 }
 
 @keyframes yellow-bar {
-  from { width: 0%; }
-  to { width: 150px; } 
+  from {
+    width: 0%;
+  }
+
+  to {
+    width: 150px;
+  }
 }
 
 .number-yellow {
@@ -208,8 +230,13 @@ input:checked + svg {
 }
 
 @keyframes number-yellow {
-  0% { opacity: 0; }
-  100% { opacity: 1; } 
+  0% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
 }
 
 .stats-bar-red {
@@ -220,8 +247,13 @@ input:checked + svg {
 }
 
 @keyframes red-bar {
-  from { width: 0%; }
-  to { width: 80px; } 
+  from {
+    width: 0%;
+  }
+
+  to {
+    width: 80px;
+  }
 }
 
 .number-red {
@@ -231,8 +263,13 @@ input:checked + svg {
 }
 
 @keyframes number-red {
-  0% { opacity: 0; }
-  100% { opacity: 1; } 
+  0% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
 }
 
 @tailwind base;
@@ -242,5 +279,9 @@ input:checked + svg {
 @layer base {
   body {
     @apply overflow-hidden;
+  }
+
+  nav {
+    font-family: 'Rubik', sans-serif;
   }
 }

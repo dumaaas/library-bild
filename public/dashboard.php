@@ -35,10 +35,10 @@
         <!-- End Sidebar -->
 
         <!-- Content -->
-        <section class="w-screen h-screen pl-[80px] py-4 text-gray-700">
+        <section class="w-screen h-screen pl-[80px] py-4 text-gray-700 bg-[#EAEAEA]">
             <!-- Heading of content -->
             <div class="heading mt-[14px]">
-                <h1 class="pl-[30px] pb-[20px] text-[35px] font-bold border-b-[2px] border-gray-300">
+                <h1 class="pl-[30px] pb-[20px] text-[35px] font-bold border-b-[1px] border-[#e4dfdf] ">
                     Dashboard
                 </h1>
             </div>
