@@ -147,8 +147,8 @@
                                                         </div>
                                                     </div>
                                                 </div>
-                                                <div class="w-full px-4">
-                                                    <div x-show.transition.origin.top="isOpen()" class="absolute left-0 z-40 w-full overflow-y-auto bg-white rounded shadow top-100 max-h-select svelte-5uyqqj" x-on:click.away="close">
+                                                <div class="w-full">
+                                                    <div x-show.transition.origin.top="isOpen()" class="z-40 w-full overflow-y-auto bg-white rounded shadow max-h-select svelte-5uyqqj" x-on:click.away="close">
                                                         <div class="flex flex-col w-full">
                                                             <template x-for="(option,index) in options" :key="option">
                                                                 <div>
@@ -222,8 +222,8 @@
                                                         </div>
                                                     </div>
                                                 </div>
-                                                <div class="w-full px-4">
-                                                    <div x-show.transition.origin.top="isOpen()" class="absolute left-0 z-40 w-full overflow-y-auto bg-white rounded shadow top-100 max-h-select svelte-5uyqqj" x-on:click.away="close">
+                                                <div class="w-full">
+                                                    <div x-show.transition.origin.top="isOpen()" class="z-40 w-full overflow-y-auto bg-white rounded shadow max-h-select svelte-5uyqqj" x-on:click.away="close">
                                                         <div class="flex flex-col w-full">
                                                             <template x-for="(option,index) in options" :key="option">
                                                                 <div>
@@ -299,8 +299,8 @@
                                                         </div>
                                                     </div>
                                                 </div>
-                                                <div class="w-full px-4">
-                                                    <div x-show.transition.origin.top="isOpen()" class="absolute left-0 z-40 w-full overflow-y-auto bg-white rounded shadow top-100 max-h-select svelte-5uyqqj" x-on:click.away="close">
+                                                <div class="w-full">
+                                                    <div x-show.transition.origin.top="isOpen()" class="z-40 w-full overflow-y-auto bg-white rounded shadow max-h-select svelte-5uyqqj" x-on:click.away="close">
                                                         <div class="flex flex-col w-full">
                                                             <template x-for="(option,index) in options" :key="option">
                                                                 <div>
