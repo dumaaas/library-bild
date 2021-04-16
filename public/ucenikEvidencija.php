@@ -109,7 +109,7 @@
                                     </label>
                                 </th>
                                 <th class="px-4 py-4 leading-4 tracking-wider text-left">Naziv knjige</th>
-                                <th class="flex items-center px-4 py-4 leading-4 tracking-wider text-left">Datum akcije<a href="#"><i class="ml-2 fa-lg fas fa-long-arrow-alt-down" onclick="sortTableDate(2)"></i></a></th>
+                                <th class="flex items-center px-4 py-4 leading-4 tracking-wider text-left">Datum transakcije<a href="#"><i class="ml-2 fa-lg fas fa-long-arrow-alt-down" onclick="sortTableDate(2)"></i></a></th>
                                 <th class="px-4 py-4 leading-4 tracking-wider text-left">Tip akcije</th>
                                 <th class="px-4 py-4 leading-4 tracking-wider text-left">Bibliotekar</th>
                                 <th class="px-4 py-4 leading-4 tracking-wider text-left">Ucenik</th>
@@ -134,7 +134,7 @@
                                     <td class="px-4 py-4 text-sm leading-5 text-blue-900 whitespace-no-wrap">
                                         <span class="relative inline-block px-[6px] py-[2px] font-medium leading-tight text-green-900">
                                             <span aria-hidden class="absolute inset-0 bg-transparent border-[1px] rounded-[10px] border-yellow-500 borderColor"></span>
-                                            <span class="relative text-xs text-yellow-500 borderText">Rezervacija</span>
+                                            <span class="relative text-xs text-yellow-500 borderText">Otvorene rezervacija</span>
                                         </span>
                                     </td>
                                     <td class="px-4 py-4 text-sm leading-5 whitespace-no-wrap">Valentina Kascelan</td>
@@ -170,7 +170,7 @@
                                     <td class="px-4 py-4 text-sm leading-5 text-blue-900 whitespace-no-wrap">
                                         <span class="relative inline-block px-[6px] py-[2px] font-medium leading-tight text-green-900">
                                             <span aria-hidden class="absolute inset-0 bg-blue-200 rounded-[10px]"></span>
-                                            <span class="relative text-xs text-blue-800">Izdavanje knjige</span>
+                                            <span class="relative text-xs text-blue-800">Izdata knjige</span>
                                         </span>
                                     </td>
                                     <td class="px-4 py-4 text-sm leading-5 whitespace-no-wrap">Valentina Kascelan</td>
@@ -198,7 +198,7 @@
                                     <td class="px-4 py-4 text-sm leading-5 text-blue-900 whitespace-no-wrap">
                                         <span class="relative inline-block px-[6px] py-[2px] font-medium leading-tight text-green-900">
                                             <span aria-hidden class="absolute inset-0 bg-green-200 rounded-[10px]"></span>
-                                            <span class="relative text-xs text-green-800">Vracanje knjige</span>
+                                            <span class="relative text-xs text-green-800">Vracena knjige</span>
                                         </span>
                                     </td>
                                     <td class="px-4 py-4 text-sm leading-5 whitespace-no-wrap">Nina Bracovic</td>
@@ -226,7 +226,7 @@
                                     <td class="px-4 py-4 text-sm leading-5 text-blue-900 whitespace-no-wrap">
                                         <span class="relative inline-block px-[6px] py-[2px] font-medium leading-tight text-green-900">
                                             <span aria-hidden class="absolute inset-0 bg-yellow-200 rounded-[10px]"></span>
-                                            <span class="relative text-xs text-yellow-700">Rezervisano</span>
+                                            <span class="relative text-xs text-yellow-700">Potvrdjene rezervacije</span>
                                         </span>
                                     </td>
                                     <td class="px-4 py-4 text-sm leading-5 whitespace-no-wrap">Nina Bracovic</td>
@@ -254,7 +254,7 @@
                                     <td class="px-4 py-4 text-sm leading-5 text-blue-900 whitespace-no-wrap">
                                         <span class="relative inline-block px-[6px] py-[2px] font-medium leading-tight text-green-900">
                                             <span aria-hidden class="absolute inset-0 bg-green-200 rounded-[10px]"></span>
-                                            <span class="relative text-xs text-green-800">Vracanje knjige</span>
+                                            <span class="relative text-xs text-green-800">Vracena knjiga</span>
                                         </span>
                                     </td>
                                     <td class="px-4 py-4 text-sm leading-5 whitespace-no-wrap">Nina Bracovic</td>
@@ -282,7 +282,7 @@
                                     <td class="px-4 py-4 text-sm leading-5 text-blue-900 whitespace-no-wrap">
                                         <span class="relative inline-block px-[6px] py-[2px] font-medium leading-tight text-green-900">
                                             <span aria-hidden class="absolute inset-0 bg-red-200 rounded-[10px]"></span>
-                                            <span class="relative text-xs text-red-800">Odbijeno</span>
+                                            <span class="relative text-xs text-red-800">Odbijene rezervacije</span>
                                         </span>
                                     </td>
                                     <td class="px-4 py-4 text-sm leading-5 whitespace-no-wrap">Valentina Kascelan</td>
@@ -296,7 +296,7 @@
                                 </tr>
                         </tbody>
                     </table>
-
+                    
                     <div class="flex flex-row items-center justify-end mt-2">
                         <div>
                             <p class="inline text-md">

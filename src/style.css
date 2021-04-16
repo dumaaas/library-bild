@@ -177,6 +177,11 @@ input:checked+svg {
   display: block;
 }
 
+/* Multiple select dropdown - new book */
+[x-cloak] {
+  display: none;
+}
+
 /*Animations*/
 
 .stats-bar-green {

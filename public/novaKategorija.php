@@ -56,7 +56,7 @@
                                         <span class="mx-2">/</span>
                                     </li>
                                     <li>
-                                        <a href="#" class="font-medium text-blue-600 hover:text-blue-800">
+                                        <a href="settingsKategorije.php" class="font-medium text-blue-600 hover:text-blue-800">
                                             Kategorije
                                         </a>
                                     </li>
