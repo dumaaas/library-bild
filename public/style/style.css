@@ -2323,10 +2323,6 @@ h3 {
   --tw-text-opacity: 1;
   color: rgba(30, 58, 138, var(--tw-text-opacity));
 }
-.text-green-900{
-  --tw-text-opacity: 1;
-  color: rgba(6, 78, 59, var(--tw-text-opacity));
-}
 .text-yellow-700{
   --tw-text-opacity: 1;
   color: rgba(180, 83, 9, var(--tw-text-opacity));
@@ -2338,6 +2334,10 @@ h3 {
 .text-blue-600{
   --tw-text-opacity: 1;
   color: rgba(37, 99, 235, var(--tw-text-opacity));
+}
+.text-green-900{
+  --tw-text-opacity: 1;
+  color: rgba(6, 78, 59, var(--tw-text-opacity));
 }
 .text-yellow-400{
   --tw-text-opacity: 1;

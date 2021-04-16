@@ -110,7 +110,7 @@
                                 </th>
                                 <th class="px-4 py-4 leading-4 tracking-wider text-left">Naziv knjige</th>
                                 <th class="flex items-center px-4 py-4 leading-4 tracking-wider text-left">Datum transakcije<a href="#"><i class="ml-2 fa-lg fas fa-long-arrow-alt-down" onclick="sortTableDate(2)"></i></a></th>
-                                <th class="px-4 py-4 leading-4 tracking-wider text-left">Tip akcije</th>
+                                <th class="px-4 py-4 leading-4 tracking-wider text-left">Tip transakcije</th>
                                 <th class="px-4 py-4 leading-4 tracking-wider text-left">Bibliotekar</th>
                                 <th class="px-4 py-4 leading-4 tracking-wider text-left">Ucenik</th>
                                 <th class="px-4 py-4"> </th>
@@ -133,7 +133,7 @@
                                     <td class="px-4 py-4 text-sm leading-5 whitespace-no-wrap">21.02.2021</td>
                                     <td class="px-4 py-4 text-sm leading-5 text-blue-900 whitespace-no-wrap">
                                         <div class="inline-block px-[6px] py-[1px] font-medium bg-transparent border-[1px] rounded-[10px] border-yellow-500 borderColor">
-                                            <span class="relative text-xs text-yellow-500 borderText">Otvorene rezervacije</span>
+                                            <span class="text-xs text-yellow-500 borderText">Otvorene rezervacije</span>
                                         </div>
                                     </td>
                                     <td class="px-4 py-4 text-sm leading-5 whitespace-no-wrap">Valentina Kascelan</td>
@@ -168,7 +168,7 @@
                                     <td class="px-4 py-4 text-sm leading-5 whitespace-no-wrap">12.05.2020</td>
                                     <td class="px-4 py-4 text-sm leading-5 text-blue-900 whitespace-no-wrap">
                                         <div class="inline-block px-[6px] py-[2px] font-medium bg-blue-200 rounded-[10px]">
-                                            <span class="relative text-xs text-blue-800">Izdata knjiga</span>
+                                            <span class="text-xs text-blue-800">Izdata knjiga</span>
                                         </div>
                                     </td>
                                     <td class="px-4 py-4 text-sm leading-5 whitespace-no-wrap">Valentina Kascelan</td>
@@ -195,7 +195,7 @@
                                     <td class="px-4 py-4 text-sm leading-5 whitespace-no-wrap">25.05.2020</td>
                                     <td class="px-4 py-4 text-sm leading-5 text-blue-900 whitespace-no-wrap">
                                         <div class="inline-block px-[6px] py-[2px] font-medium bg-green-200 rounded-[10px]">
-                                            <span class="relative text-xs text-green-800">Vracena knjiga</span>
+                                            <span class="text-xs text-green-800">Vracena knjiga</span>
                                         </div>
                                     </td>
                                     <td class="px-4 py-4 text-sm leading-5 whitespace-no-wrap">Nina Bracovic</td>
@@ -222,7 +222,7 @@
                                     <td class="px-4 py-4 text-sm leading-5 whitespace-no-wrap">12.05.2020</td>
                                     <td class="px-4 py-4 text-sm leading-5 text-blue-900 whitespace-no-wrap">
                                         <div class="inline-block px-[6px] py-[2px] font-medium bg-yellow-200 rounded-[10px]">
-                                            <span class="relative text-xs text-yellow-700">Potvrdjene rezervacije</span>
+                                            <span class="text-xs text-yellow-700">Potvrdjene rezervacije</span>
                                         </div>
                                     </td>
                                     <td class="px-4 py-4 text-sm leading-5 whitespace-no-wrap">Nina Bracovic</td>
@@ -249,7 +249,7 @@
                                     <td class="px-4 py-4 text-sm leading-5 whitespace-no-wrap">12.05.2020</td>
                                     <td class="px-4 py-4 text-sm leading-5 text-blue-900 whitespace-no-wrap">
                                         <div class="inline-block px-[6px] py-[2px] font-medium bg-green-200 rounded-[10px]">
-                                            <span class="relative text-xs text-green-800">Vracena knjiga</span>
+                                            <span class="text-xs text-green-800">Vracena knjiga</span>
                                         </div>
                                     </td>
                                     <td class="px-4 py-4 text-sm leading-5 whitespace-no-wrap">Nina Bracovic</td>
@@ -276,7 +276,7 @@
                                     <td class="px-4 py-4 text-sm leading-5 whitespace-no-wrap">12.05.2020</td>
                                     <td class="px-4 py-4 text-sm leading-5 text-blue-900 whitespace-no-wrap">
                                         <div class="inline-block px-[6px] py-[2px] font-medium bg-red-200 rounded-[10px]">
-                                            <span class="relative text-xs text-red-800">Odbijene rezervacije</span>
+                                            <span class="text-xs text-red-800">Odbijene rezervacije</span>
                                         </div>
                                     </td>
                                     <td class="px-4 py-4 text-sm leading-5 whitespace-no-wrap">Valentina Kascelan</td>

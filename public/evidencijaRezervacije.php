@@ -62,9 +62,9 @@
                         </p>
                     </div>
                 </div>
-                <div class="overflow-auto">
+                <div>
                 <!-- Space for content -->
-                    <div class="flex justify-start pt-3 overflow-hidden bg-white">
+                    <div class="flex justify-start pt-3 bg-white">
                     <div class="mt-[10px]">
                             <ul class="text-[#5c5c5c]">
                                 <li class="mb-[4px] pt-[18px] pb-[14px] group hover:bg-[#EAEAEA] ">
@@ -170,9 +170,9 @@
                                             </label>
                                         </td>
                                         <td class="flex flex-row items-center px-4 py-4">
-                                            <img class="object-cover w-8 h-11" src="img/tomsojer.jpg" alt=""/>
+                                            <img class="object-cover w-8 mr-2 h-11" src="img/tomsojer.jpg" alt=""/>
                                             <a href="knjigaOsnovniDetalji.php">
-                                                <span class="ml-2 font-medium text-center">Ep o Gilgamesu</span>
+                                                <span class="font-medium text-center">Ep o Gilgamesu</span>
                                             </a>
                                         </td>
                                         <td class="px-4 py-4 text-sm leading-5 whitespace-no-wrap">Nepoznat</td>
@@ -190,16 +190,14 @@
                                             </a>
                                         </td>
                                         <td class="hidden px-4 py-4 text-sm leading-5 text-blue-900 whitespace-no-wrap">
-                                            <span class="relative inline-block px-[6px] py-[2px] font-medium leading-tight text-green-900">
-                                                <span aria-hidden class="absolute inset-0 bg-yellow-200 rounded-[5px]"></span>
-                                                <span class="relative text-xs text-yellow-700">Rezervisano</span>
-                                            </span>
+                                            <div class="inline-block px-3 py-1 font-medium bg-yellow-200 rounded-[5px]">
+                                                <span class="text-xs text-yellow-700">Rezervisano</span>
+                                            </div>
                                         </td>
                                         <td class="hidden px-4 py-4 text-sm leading-5 text-blue-900 whitespace-no-wrap">
-                                            <span class="relative inline-block px-[6px] py-[2px] font-medium leading-tight text-green-900">
-                                            <span aria-hidden class="absolute inset-0 bg-red-200 rounded-[5px]"></span>
-                                                <span class="relative text-xs text-red-800">Odbijeno</span>
-                                            </span>
+                                            <div class="inline-block px-[6px] py-[2px] font-medium bg-red-200 rounded-[5px]">
+                                                <span class="text-xs text-red-800">Odbijeno</span>
+                                            </div>
                                         </td>
                                         <td class="px-4 py-4 text-sm leading-5 text-right whitespace-no-wrap">
                                             <p class="inline cursor-pointer text-[20px] py-[10px] px-[30px] border-gray-300">
@@ -214,9 +212,9 @@
                                             </label>
                                         </td>
                                         <td class="flex flex-row items-center px-4 py-4">
-                                            <img class="object-cover w-8 h-11" src="img/tomsojer.jpg" alt=""/>
+                                            <img class="object-cover w-8 mr-2 h-11" src="img/tomsojer.jpg" alt=""/>
                                             <a href="knjigaOsnovniDetalji.php">
-                                                <span class="ml-2 font-medium text-center">Ilijada</span>
+                                                <span class="font-medium text-center">Ilijada</span>
                                             </a>
                                         </td>
                                         <td class="px-4 py-4 text-sm leading-5 whitespace-no-wrap">Homer</td>
@@ -234,16 +232,14 @@
                                             </a>
                                         </td>
                                         <td class="hidden px-4 py-4 text-sm leading-5 text-blue-900 whitespace-no-wrap">
-                                            <span class="relative inline-block px-[6px] py-[2px] font-medium leading-tight text-green-900">
-                                                <span aria-hidden class="absolute inset-0 bg-yellow-200 rounded-[5px]"></span>
-                                                <span class="relative text-xs text-yellow-700">Rezervisano</span>
-                                            </span>
+                                            <div class="inline-block px-3 py-1 font-medium bg-yellow-200 rounded-[5px]">
+                                                <span class="text-xs text-yellow-700">Rezervisano</span>
+                                            </div>
                                         </td>
                                         <td class="hidden px-4 py-4 text-sm leading-5 text-blue-900 whitespace-no-wrap">
-                                            <span class="relative inline-block px-[6px] py-[2px] font-medium leading-tight text-green-900">
-                                            <span aria-hidden class="absolute inset-0 bg-red-200 rounded-[5px]"></span>
-                                                <span class="relative text-xs text-red-800">Odbijeno</span>
-                                            </span>
+                                            <div class="inline-block px-[6px] py-[2px] font-medium bg-red-200 rounded-[5px]">
+                                                <span class="text-xs text-red-800">Odbijeno</span>
+                                            </div>
                                         </td>
                                         <td class="px-4 py-4 text-sm leading-5 text-right whitespace-no-wrap">
                                             <p class="inline cursor-pointer text-[20px] py-[10px] px-[30px] border-gray-300">
@@ -258,9 +254,9 @@
                                             </label>
                                         </td>
                                         <td class="flex flex-row items-center px-4 py-4">
-                                            <img class="object-cover w-8 h-11" src="img/tomsojer.jpg" alt=""/>
+                                            <img class="object-cover w-8 mr-2 h-11" src="img/tomsojer.jpg" alt=""/>
                                             <a href="knjigaOsnovniDetalji.php">
-                                                <span class="ml-2 font-medium text-center">Tom Sojer</span>
+                                                <span class="font-medium text-center">Tom Sojer</span>
                                             </a>
                                         </td>
                                         <td class="px-4 py-4 text-sm leading-5 whitespace-no-wrap">Mark Twain</td>
@@ -278,16 +274,14 @@
                                             </a>
                                         </td>
                                         <td class="hidden px-4 py-4 text-sm leading-5 text-blue-900 whitespace-no-wrap">
-                                            <span class="relative inline-block px-[6px] py-[2px] font-medium leading-tight text-green-900">
-                                            <span aria-hidden class="absolute inset-0 bg-yellow-200 rounded-[5px]"></span>
-                                                <span class="relative text-xs text-yellow-700">Rezervisano</span>
-                                            </span>
+                                            <div class="inline-block px-3 py-1 font-medium bg-yellow-200 rounded-[5px]">
+                                                <span class="text-xs text-yellow-700">Rezervisano</span>
+                                            </div>
                                         </td>
                                         <td class="hidden px-4 py-4 text-sm leading-5 text-blue-900 whitespace-no-wrap">
-                                            <span class="relative inline-block px-[6px] py-[2px] font-medium leading-tight text-green-900">
-                                            <span aria-hidden class="absolute inset-0 bg-red-200 rounded-[5px]"></span>
-                                                <span class="relative text-xs text-red-800">Odbijeno</span>
-                                            </span>
+                                            <div class="inline-block px-[6px] py-[2px] font-medium bg-red-200 rounded-[5px]">
+                                                <span class="text-xs text-red-800">Odbijeno</span>
+                                            </div>
                                         </td>
                                         <td class="px-4 py-4 text-sm leading-5 text-right whitespace-no-wrap">
                                             <p class="inline cursor-pointer text-[20px] py-[10px] px-[30px] border-gray-300">
@@ -302,9 +296,9 @@
                                             </label>
                                         </td>
                                         <td class="flex flex-row items-center px-4 py-4">
-                                            <img class="object-cover w-8 h-11" src="img/tomsojer.jpg" alt=""/>
+                                            <img class="object-cover w-8 mr-2 h-11" src="img/tomsojer.jpg" alt=""/>
                                             <a href="knjigaOsnovniDetalji.php">
-                                                <span class="ml-2 font-medium text-center">Robinson Kruso</span>
+                                                <span class="font-medium text-center">Robinson Kruso</span>
                                             </a>
                                         </td>
                                         <td class="px-4 py-4 text-sm leading-5 whitespace-no-wrap">Daniel Defoe</td>
@@ -322,16 +316,14 @@
                                             </a>
                                         </td>
                                         <td class="hidden px-4 py-4 text-sm leading-5 text-blue-900 whitespace-no-wrap">
-                                            <span class="relative inline-block px-[6px] py-[2px] font-medium leading-tight text-green-900">
-                                            <span aria-hidden class="absolute inset-0 bg-yellow-200 rounded-[5px]"></span>
-                                                <span class="relative text-xs text-yellow-700">Rezervisano</span>
-                                            </span>
+                                            <div class="inline-block px-3 py-1 font-medium bg-yellow-200 rounded-[5px]">
+                                                <span class="text-xs text-yellow-700">Rezervisano</span>
+                                            </div>
                                         </td>
                                         <td class="hidden px-4 py-4 text-sm leading-5 text-blue-900 whitespace-no-wrap">
-                                            <span class="relative inline-block px-[6px] py-[2px] font-medium leading-tight text-green-900">
-                                            <span aria-hidden class="absolute inset-0 bg-red-200 rounded-[5px]"></span>
-                                                <span class="relative text-xs text-red-800">Odbijeno</span>
-                                            </span>
+                                            <div class="inline-block px-[6px] py-[2px] font-medium bg-red-200 rounded-[5px]">
+                                                <span class="text-xs text-red-800">Odbijeno</span>
+                                            </div>
                                         </td>
                                         <td class="px-4 py-4 text-sm leading-5 text-right whitespace-no-wrap">
                                             <p class="inline cursor-pointer text-[20px] py-[10px] px-[30px] border-gray-300">
@@ -346,9 +338,9 @@
                                             </label>
                                         </td>
                                         <td class="flex flex-row items-center px-4 py-4">
-                                            <img class="object-cover w-8 h-11" src="img/tomsojer.jpg" alt=""/>
+                                            <img class="object-cover w-8 mr-2 h-11" src="img/tomsojer.jpg" alt=""/>
                                             <a href="knjigaOsnovniDetalji.php">
-                                                <span class="ml-2 font-medium text-center">Robinson Kruso</span>
+                                                <span class="font-medium text-center">Robinson Kruso</span>
                                             </a>
                                         </td>
                                         <td class="px-4 py-4 text-sm leading-5 whitespace-no-wrap">Daniel Defoe</td>
@@ -358,10 +350,9 @@
                                             <a href="ucenikProfile.php" class="ml-2 font-medium text-center">Pero Perovic</a>
                                         </td>
                                         <td class="px-4 py-4 text-sm leading-5 text-blue-900 whitespace-no-wrap">
-                                            <span class="relative inline-block px-3 py-1 font-medium leading-tight text-green-900">
-                                            <span aria-hidden class="absolute inset-0 bg-yellow-200 rounded-[5px]"></span>
-                                                <span class="relative text-xs text-yellow-700">Rezervisano</span>
-                                            </span>
+                                            <div class="inline-block px-3 py-1 font-medium bg-yellow-200 rounded-[5px]">
+                                                <span class="text-xs text-yellow-700">Rezervisano</span>
+                                            </div>
                                         </td>
                                         <td class="px-4 py-4 text-sm leading-5 text-right whitespace-no-wrap">
                                             <p class="inline cursor-pointer text-[20px] py-[10px] px-[30px] border-gray-300">
@@ -376,9 +367,9 @@
                                             </label>
                                         </td>
                                         <td class="flex flex-row items-center px-4 py-4">
-                                            <img class="object-cover w-8 h-11" src="img/tomsojer.jpg" alt=""/>
+                                            <img class="object-cover w-8 mr-2 h-11" src="img/tomsojer.jpg" alt=""/>
                                             <a href="knjigaOsnovniDetalji.php">
-                                                <span class="ml-2 font-medium text-center">Robinson Kruso</span>
+                                                <span class="font-medium text-center">Robinson Kruso</span>
                                             </a>
                                         </td>
                                         <td class="px-4 py-4 text-sm leading-5 whitespace-no-wrap">Daniel Defoe</td>
@@ -388,10 +379,9 @@
                                             <a href="ucenikProfile.php" class="ml-2 font-medium text-center">Pero Perovic</a>
                                         </td>
                                         <td class="px-4 py-4 text-sm leading-5 text-blue-900 whitespace-no-wrap">
-                                            <span class="relative inline-block px-3 py-1 font-medium leading-tight text-green-900">
-                                            <span aria-hidden class="absolute inset-0 bg-yellow-200 rounded-[5px]"></span>
-                                                <span class="relative text-xs text-yellow-700">Rezervisano</span>
-                                            </span>
+                                            <div class="inline-block px-3 py-1 font-medium bg-yellow-200 rounded-[5px]">
+                                                <span class="text-xs text-yellow-700">Rezervisano</span>
+                                            </div>
                                         </td>
                                         <td class="px-4 py-4 text-sm leading-5 text-right whitespace-no-wrap">
                                             <p class="inline cursor-pointer text-[20px] py-[10px] px-[30px] border-gray-300">
@@ -406,9 +396,9 @@
                                             </label>
                                         </td>
                                         <td class="flex flex-row items-center px-4 py-4">
-                                            <img class="object-cover w-8 h-11" src="img/tomsojer.jpg" alt=""/>
+                                            <img class="object-cover w-8 mr-2 h-11" src="img/tomsojer.jpg" alt=""/>
                                             <a href="knjigaOsnovniDetalji.php">
-                                                <span class="ml-2 font-medium text-center">Robinson Kruso</span>
+                                                <span class="font-medium text-center">Robinson Kruso</span>
                                             </a>
                                         </td>
                                         <td class="px-4 py-4 text-sm leading-5 whitespace-no-wrap">Daniel Defoe</td>
@@ -418,10 +408,9 @@
                                             <a href="ucenikProfile.php" class="ml-2 font-medium text-center">Pero Perovic</a>
                                         </td>
                                         <td class="px-4 py-4 text-sm leading-5 text-blue-900 whitespace-no-wrap">
-                                            <span class="relative inline-block px-[6px] py-[2px] font-medium leading-tight text-green-900">
-                                            <span aria-hidden class="absolute inset-0 bg-red-200 rounded-[5px]"></span>
-                                                <span class="relative text-xs text-red-800">Odbijeno</span>
-                                            </span>
+                                            <div class="inline-block px-[6px] py-[2px] font-medium bg-red-200 rounded-[5px]">
+                                                <span class="text-xs text-red-800">Odbijeno</span>
+                                            </div>
                                         </td>
                                         <td class="px-4 py-4 text-sm leading-5 text-right whitespace-no-wrap">
                                             <p class="inline cursor-pointer text-[20px] py-[10px] px-[30px] border-gray-300">
@@ -432,7 +421,7 @@
                                 </tbody>
                             </table>
 
-                            <div class="flex flex-row items-center justify-end mt-2">
+                            <div class="flex flex-row items-center justify-end my-2">
                                 <div>
                                     <p class="inline text-md">
                                         Rows per page:

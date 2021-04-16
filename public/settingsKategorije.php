@@ -46,7 +46,7 @@
                 </div>
             </div>
             <div class="border-b-[2px] py-4 text-gray-500 border-gray-300 pl-[30px]">
-                <a href="settingsPolisa.php" class="inline">
+                <a href="settingsPolisa.php" class="inline hover:text-blue-800">
                     Polisa
                 </a>
                 <a href="settingsKategorije.php" class="inline ml-[70px] hover:text-blue-800 active-book-nav">
