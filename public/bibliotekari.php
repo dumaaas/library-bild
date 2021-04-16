@@ -34,64 +34,75 @@
         <!-- End Sidebar -->
 
         <!-- Content -->
-        <section class="w-screen h-screen py-4 pl-[60px] bg-[#EAEAEA] text-[#212121]">
+        <section class="w-screen h-screen py-4 pl-[80px] text-[#333333]">
             <!-- Heading of content -->
-            <div class="heading mt-[14px]">
-                <h1 class="pl-[50px] pb-[20px] text-[35px] text-[#5c5c5c] font-bold border-b-[2px] border-[#e4dfdf]">
+            <div class="heading mt-[7px]">
+                <h1 class="pl-[30px] pb-[21px] border-b-[1px] border-[#e4dfdf] ">
                     Bibliotekari
                 </h1>
             </div>
             <!-- Space for content -->
             <div class="scroll height-dashboard">
-                <div class="flex items-center justify-between px-[50px] py-4 space-x-3 rounded-lg">
-                    <a href="noviBibliotekar.php">
-                        <button type="button" class="px-4 py-2 text-lg font-semibold tracking-wider text-white bg-blue-500 hover:bg-blue-600 focus:outline-none hover:outline-none w-[250px] border-2 border-black">Novi bibliotekar</button>
+                <div class="flex items-center justify-between px-[30px] py-4 space-x-3 rounded-lg">
+                    <a href="noviBibliotekar.php" class="inline-flex items-center text-sm py-2.5 px-5 transition duration-300 ease-in rounded-[5px] tracking-wider text-white bg-[#3f51b5] rounded hover:bg-[#4558BE]">
+                        <i class="fas fa-plus mr-[15px]"></i> Novi bibliotekar  
                     </a>
                     <div class="flex items-center">
                         <div class="relative text-gray-600 focus-within:text-gray-400">
                             <span class="absolute inset-y-0 left-0 flex items-center pl-2">
                                 <button type="submit" class="p-1 focus:outline-none focus:shadow-outline">
-                                    <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24" class="w-6 h-6"><path d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"></path></svg>
+                                    <svg fill="none" stroke="currentColor" stroke-linecap="round"
+                                        stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24" class="w-6 h-6">
+                                        <path d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"></path>
+                                    </svg>
                                 </button>
                             </span>
-                            <input type="search" name="q" class="py-2 pl-10 text-sm text-white bg-white rounded-md focus:outline-none focus:bg-white focus:text-gray-900" placeholder="Search..." autocomplete="off">
+                            <input type="search" name="q"
+                                class="py-2 pl-10 text-sm text-white bg-white rounded-md focus:outline-none focus:bg-white focus:text-gray-900"
+                                placeholder="Search..." autocomplete="off">
                         </div>
                         <p class="inline cursor-pointer text-[20px] py-[10px] px-[30px]">
                             <i class="fas fa-filter"></i>
                         </p>
                     </div>
                 </div>
-          
-                <div class="inline-block min-w-full px-[50px] pt-3 overflow-hidden align-middle bg-white rounded-bl-lg rounded-br-lg shadow-dashboard">
-                    <table class="min-w-full border-2 border-gray-300" id="myTable">
-                        <thead>
-                            <tr class="border-b-2 border-gray-300">
-                                <th class="px-4 py-3 leading-4 tracking-wider text-left text-blue-500">
+
+                <div
+                    class="inline-block min-w-full px-[30px] pt-3 overflow-hidden align-middle bg-white rounded-bl-lg rounded-br-lg shadow-dashboard">
+                    <table class="min-w-full border-[1px] border-[#e4dfdf]" id="myTable">
+                        <thead class="bg-[#EFF3F6]">
+                            <tr class="border-[1px] border-[#e4dfdf]">
+                                <th class="px-4 py-4 leading-4 tracking-wider text-left text-blue-500">
                                     <label class="inline-flex items-center">
                                         <input type="checkbox" class="form-checkbox">
                                     </label>
                                 </th>
-                                <th class="px-4 py-3 leading-4 tracking-wider text-left">Ime i prezime<a href="#"><i class="ml-3 fa-lg fas fa-long-arrow-alt-down" onclick="sortTable()"></i></a></th>
-                                <th class="px-4 py-3 text-sm leading-4 tracking-wider text-left">Email</th>
-                                <th class="px-4 py-3 text-sm leading-4 tracking-wider text-left">Tip korisnika</th>
-                                <th class="px-4 py-3 text-sm leading-4 tracking-wider text-left">Zadnji pristup sistemu</th>
-                                <th class="px-4 py-3"> </th>
+                                <th class="px-4 py-4 leading-4 tracking-wider text-left">Ime i prezime<a href="#"><i
+                                            class="ml-3 fa-lg fas fa-long-arrow-alt-down" onclick="sortTable()"></i></a>
+                                </th>
+                                <th class="px-4 py-4 text-sm leading-4 tracking-wider text-left">Email</th>
+                                <th class="px-4 py-4 text-sm leading-4 tracking-wider text-left">Tip korisnika</th>
+                                <th class="px-4 py-4 text-sm leading-4 tracking-wider text-left">Zadnji pristup sistemu
+                                </th>
+                                <th class="px-4 py-4"> </th>
                             </tr>
                         </thead>
                         <tbody class="bg-white">
-                            <tr class="border-b-2 border-gray-300">
+                            <tr class="border-[1px] border-[#e4dfdf]">
                                 <td class="px-4 py-4 whitespace-no-wrap">
                                     <label class="inline-flex items-center">
                                         <input type="checkbox" class="form-checkbox">
                                     </label>
                                 </td>
                                 <td class="flex flex-row items-center px-4 py-4">
-                                        <img class="object-cover w-8 h-8 rounded-full" src="img/profileExample.jpg" alt=""/>
-                                        <a href="ucenikProfile.php">
-                                            <span class="ml-2 font-semibold text-center">Valentina Kascelan</span>
-                                        </a>
+                                    <img class="object-cover w-8 h-8 rounded-full" src="img/profileExample.jpg"
+                                        alt="" />
+                                    <a href="ucenikProfile.php">
+                                        <span class="ml-2 font-medium text-center">Valentina Kascelan</span>
+                                    </a>
                                 </td>
-                                <td class="px-4 py-4 text-sm leading-5 whitespace-no-wrap">valentina.kascelan@domain...</td>
+                                <td class="px-4 py-4 text-sm leading-5 whitespace-no-wrap">valentina.kascelan@domain...
+                                </td>
                                 <td class="px-4 py-4 text-sm leading-5 whitespace-no-wrap">Bibliotekar</td>
                                 <td class="px-4 py-4 text-sm leading-5 whitespace-no-wrap">Prije 10 sati</td>
                                 <td class="px-4 py-4 text-sm leading-5 text-right whitespace-no-wrap">
@@ -100,20 +111,21 @@
                                     </p>
                                 </td>
                             </tr>
-                            <tr class="border-b-2 border-gray-300">
+                            <tr class="border-[1px] border-[#e4dfdf]">
                                 <td class="px-4 py-4 whitespace-no-wrap">
                                     <label class="inline-flex items-center">
                                         <input type="checkbox" class="form-checkbox">
                                     </label>
                                 </td>
                                 <td class="flex flex-row items-center px-4 py-4">
-                                        <img class="object-cover w-8 h-8 rounded-full "
-                                            src="img/profileStudent.jpg" alt="" />
-                                        <a href="ucenikProfile.php">
-                                            <span class="ml-2 font-semibold text-center">Tarik Zaimovic</span>
-                                        </a>
+                                    <img class="object-cover w-8 h-8 rounded-full " src="img/profileStudent.jpg"
+                                        alt="" />
+                                    <a href="ucenikProfile.php">
+                                        <span class="ml-2 font-medium text-center">Tarik Zaimovic</span>
+                                    </a>
                                 </td>
-                                <td class="px-4 py-4 text-sm leading-5 whitespace-no-wrap">tarik.zaimovic@domain.netcom</td>
+                                <td class="px-4 py-4 text-sm leading-5 whitespace-no-wrap">tarik.zaimovic@domain.netcom
+                                </td>
                                 <td class="px-4 py-4 text-sm leading-5 whitespace-no-wrap">Bibliotekar</td>
                                 <td class="px-4 py-4 text-sm leading-5 whitespace-no-wrap">Prije 2 dana</td>
                                 <td class="px-4 py-4 text-sm leading-5 text-right whitespace-no-wrap">
@@ -122,19 +134,21 @@
                                     </p>
                                 </td>
                             </tr>
-                            <tr class="border-b-2 border-gray-300">
+                            <tr class="border-[1px] border-[#e4dfdf]">
                                 <td class="px-4 py-4 whitespace-no-wrap">
                                     <label class="inline-flex items-center">
                                         <input type="checkbox" class="form-checkbox">
                                     </label>
                                 </td>
                                 <td class="flex flex-row items-center px-4 py-4">
-                                        <img class="object-cover w-8 h-8 rounded-full" src="img/profileStudent.jpg" alt=""/>
-                                        <a href="ucenikProfile.php">
-                                            <span class="ml-2 font-semibold text-center">Test Akontacijevic</span>
-                                        </a>
+                                    <img class="object-cover w-8 h-8 rounded-full" src="img/profileStudent.jpg"
+                                        alt="" />
+                                    <a href="ucenikProfile.php">
+                                        <span class="ml-2 font-medium text-center">Test Akontacijevic</span>
+                                    </a>
                                 </td>
-                                <td class="px-4 py-4 text-sm leading-5 whitespace-no-wrap">test.akontacijevic@bild-studio...</td>
+                                <td class="px-4 py-4 text-sm leading-5 whitespace-no-wrap">
+                                    test.akontacijevic@bild-studio...</td>
                                 <td class="px-4 py-4 text-sm leading-5 whitespace-no-wrap">Bibliotekar</td>
                                 <td class="px-4 py-4 text-sm leading-5 whitespace-no-wrap">Nije se nikad ulogovao</td>
                                 <td class="px-4 py-4 text-sm leading-5 text-right whitespace-no-wrap">
@@ -143,19 +157,21 @@
                                     </p>
                                 </td>
                             </tr>
-                            <tr class="border-b-2 border-gray-300">
+                            <tr class="border-[1px] border-[#e4dfdf]">
                                 <td class="px-4 py-4 whitespace-no-wrap">
                                     <label class="inline-flex items-center">
                                         <input type="checkbox" class="form-checkbox">
                                     </label>
                                 </td>
                                 <td class="flex flex-row items-center px-4 py-4">
-                                        <img class="object-cover w-8 h-8 rounded-full" src="img/profileStudent.jpg" alt=""/>
-                                        <a href="ucenikProfile.php">
-                                            <span class="ml-2 font-semibold text-center">Darko Kascelan</span>
-                                        </a>
+                                    <img class="object-cover w-8 h-8 rounded-full" src="img/profileStudent.jpg"
+                                        alt="" />
+                                    <a href="ucenikProfile.php">
+                                        <span class="ml-2 font-medium text-center">Darko Kascelan</span>
+                                    </a>
                                 </td>
-                                <td class="px-4 py-4 text-sm leading-5 whitespace-no-wrap">darko.kascelan@bild-studio...</td>
+                                <td class="px-4 py-4 text-sm leading-5 whitespace-no-wrap">darko.kascelan@bild-studio...
+                                </td>
                                 <td class="px-4 py-4 text-sm leading-5 whitespace-no-wrap">Bibliotekar</td>
                                 <td class="px-4 py-4 text-sm leading-5 whitespace-no-wrap">Prije 2 nedelje</td>
                                 <td class="px-4 py-4 text-sm leading-5 text-right whitespace-no-wrap">
@@ -192,35 +208,45 @@
                                 </option>
                             </select>
                         </div>
-                        
+
                         <div>
                             <nav class="relative z-0 inline-flex">
                                 <div>
-                                    <a href="#" class="relative inline-flex items-center px-4 py-2 -ml-px font-medium leading-5 transition duration-150 ease-in-out bg-white text-md focus:z-10 focus:outline-none">
+                                    <a href="#"
+                                        class="relative inline-flex items-center px-4 py-2 -ml-px font-medium leading-5 transition duration-150 ease-in-out bg-white text-md focus:z-10 focus:outline-none">
                                         1 of 1
                                     </a>
                                 </div>
                                 <div>
-                                    <a href="#" class="relative inline-flex items-center px-2 py-2 font-medium leading-5 text-gray-500 transition duration-150 ease-in-out bg-white text-md rounded-l-md hover:text-gray-400 focus:z-10 focus:outline-none" aria-label="Previous" v-on:click.prevent="changePage(pagination.current_page - 1)">
+                                    <a href="#"
+                                        class="relative inline-flex items-center px-2 py-2 font-medium leading-5 text-gray-500 transition duration-150 ease-in-out bg-white text-md rounded-l-md hover:text-gray-400 focus:z-10 focus:outline-none"
+                                        aria-label="Previous"
+                                        v-on:click.prevent="changePage(pagination.current_page - 1)">
                                         <svg class="w-5 h-5" viewBox="0 0 20 20" fill="currentColor">
-                                            <path fill-rule="evenodd" d="M12.707 5.293a1 1 0 010 1.414L9.414 10l3.293 3.293a1 1 0 01-1.414 1.414l-4-4a1 1 0 010-1.414l4-4a1 1 0 011.414 0z" clip-rule="evenodd" />
+                                            <path fill-rule="evenodd"
+                                                d="M12.707 5.293a1 1 0 010 1.414L9.414 10l3.293 3.293a1 1 0 01-1.414 1.414l-4-4a1 1 0 010-1.414l4-4a1 1 0 011.414 0z"
+                                                clip-rule="evenodd" />
                                         </svg>
                                     </a>
                                 </div>
                                 <div v-if="pagination.current_page < pagination.last_page">
-                                    <a href="#" class="relative inline-flex items-center px-2 py-2 -ml-px font-medium leading-5 text-gray-500 transition duration-150 ease-in-out bg-white text-md rounded-r-md hover:text-gray-400 focus:z-10 focus:outline-none" aria-label="Next">
+                                    <a href="#"
+                                        class="relative inline-flex items-center px-2 py-2 -ml-px font-medium leading-5 text-gray-500 transition duration-150 ease-in-out bg-white text-md rounded-r-md hover:text-gray-400 focus:z-10 focus:outline-none"
+                                        aria-label="Next">
                                         <svg class="w-5 h-5" viewBox="0 0 20 20" fill="currentColor">
-                                            <path fill-rule="evenodd" d="M7.293 14.707a1 1 0 010-1.414L10.586 10 7.293 6.707a1 1 0 011.414-1.414l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414 0z" clip-rule="evenodd" />
+                                            <path fill-rule="evenodd"
+                                                d="M7.293 14.707a1 1 0 010-1.414L10.586 10 7.293 6.707a1 1 0 011.414-1.414l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414 0z"
+                                                clip-rule="evenodd" />
                                         </svg>
                                     </a>
                                 </div>
                             </nav>
-                        </div>  
+                        </div>
                     </div>
 
                 </div>
             </div>
-        
+
         </section>
         <!-- End Content -->
     </main>

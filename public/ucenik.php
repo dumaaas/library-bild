@@ -36,16 +36,16 @@
         <!-- Content -->
         <section class="w-screen h-screen py-4 pl-[60px] text-[#212121]">
             <!-- Heading of content -->
-            <div class="heading mt-[14px]">
-                <h1 class="pl-[50px] pb-[20px] text-[35px] text-[#5c5c5c] font-bold border-b-[2px] border-[#e4dfdf]">
+            <div class="heading mt-[7px]">
+                <h1 class="pl-[50px] pb-[21px]  border-b-[1px] border-[#e4dfdf] ">
                     Ucenici
                 </h1>
             </div>
             <!-- Space for content -->
             <div class="scroll height-dashboard">
                 <div class="flex items-center justify-between px-[50px] py-4 space-x-3 rounded-lg">
-                    <a href="noviUcenik.php">
-                        <button type="button" class="px-4 py-2 text-lg font-semibold tracking-wider text-white bg-blue-500 hover:bg-blue-600 focus:outline-none hover:outline-none w-[250px] border-2 border-black">Novi ucenik</button>
+                    <a href="noviUcenik.php" class="inline-flex items-center text-sm py-2.5 px-5 transition duration-300 ease-in rounded-[5px] tracking-wider text-white bg-[#3f51b5] rounded hover:bg-[#4558BE]">
+                        <i class="fas fa-plus mr-[15px]"></i> Novi ucenik  
                     </a>
                     <div class="flex items-center">
                         <div class="relative text-gray-600 focus-within:text-gray-400">
@@ -63,23 +63,23 @@
                 </div>
           
                 <div class="inline-block min-w-full px-[50px] pt-3 overflow-hidden align-middle bg-white rounded-bl-lg rounded-br-lg shadow-dashboard">
-                    <table class="min-w-full border-2 border-gray-300" id="myTable">
-                        <thead>
-                            <tr class="border-b-2 border-gray-300">
+                    <table class="min-w-full border-[1px] border-[#e4dfdf]" id="myTable">
+                        <thead class="bg-[#EFF3F6]">
+                            <tr class="border-b-[1px] border-[#e4dfdf]">
                                 <th class="px-4 py-3 leading-4 tracking-wider text-left text-blue-500">
                                     <label class="inline-flex items-center">
                                         <input type="checkbox" class="form-checkbox">
                                     </label>
                                 </th>
-                                <th class="px-4 py-3 leading-4 tracking-wider text-left">Ime i prezime<a href="#"><i class="ml-3 fa-lg fas fa-long-arrow-alt-down" onclick="sortTable()"></i></a></th>
-                                <th class="px-4 py-3 text-sm leading-4 tracking-wider text-left">Email</th>
-                                <th class="px-4 py-3 text-sm leading-4 tracking-wider text-left">Tip korisnika</th>
-                                <th class="px-4 py-3 text-sm leading-4 tracking-wider text-left">Zadnji pristup sistemu</th>
-                                <th class="px-4 py-3"> </th>
+                                <th class="px-4 py-4 leading-4 tracking-wider text-left">Ime i prezime<a href="#"><i class="ml-3 fa-lg fas fa-long-arrow-alt-down" onclick="sortTable()"></i></a></th>
+                                <th class="px-4 py-4 text-sm leading-4 tracking-wider text-left">Email</th>
+                                <th class="px-4 py-4 text-sm leading-4 tracking-wider text-left">Tip korisnika</th>
+                                <th class="px-4 py-4 text-sm leading-4 tracking-wider text-left">Zadnji pristup sistemu</th>
+                                <th class="px-4 py-4"> </th>
                             </tr>
                         </thead>
                         <tbody class="bg-white">
-                            <tr class="border-b-2 border-gray-300">
+                            <tr class="border-b-[1px] border-[#e4dfdf]">
                                 <td class="px-4 py-4 whitespace-no-wrap">
                                     <label class="inline-flex items-center">
                                         <input type="checkbox" class="form-checkbox">
@@ -88,7 +88,7 @@
                                 <td class="flex flex-row items-center px-4 py-4">
                                     <img class="object-cover w-8 h-8 rounded-full" src="img/profileStudent.jpg" alt=""/>
                                     <a href="ucenikProfile.php">
-                                        <span class="ml-2 font-semibold text-center">Pero Perovic</span>
+                                        <span class="ml-2 font-medium text-center">Pero Perovic</span>
                                     </a>
                                 </td>
                                 <td class="px-4 py-4 text-sm leading-5 whitespace-no-wrap">pero.perovic@domain.net</td>
@@ -100,7 +100,7 @@
                                     </p>
                                 </td>
                             </tr>
-                            <tr class="border-b-2 border-gray-300">
+                            <tr class="border-b-[1px] border-[#e4dfdf]">
                                 <td class="px-4 py-4 whitespace-no-wrap">
                                     <label class="inline-flex items-center">
                                         <input type="checkbox" class="form-checkbox">
@@ -109,7 +109,7 @@
                                 <td class="flex flex-row items-center px-4 py-4">
                                         <img class="object-cover w-8 h-8 rounded-full" src="img/profileStudent.jpg" alt=""/>
                                         <a href="ucenikProfile.php">
-                                            <span class="ml-2 font-semibold text-center">Nikola Nikolic</span>
+                                            <span class="ml-2 font-medium text-center">Nikola Nikolic</span>
                                         </a>
                                 </td>
                                 <td class="px-4 py-4 text-sm leading-5 whitespace-no-wrap">nikola.nikolic@domain.net</td>
@@ -121,7 +121,7 @@
                                     </p>
                                 </td>
                             </tr>
-                            <tr class="border-b-2 border-gray-300">
+                            <tr class="border-b-[1px] border-[#e4dfdf]">
                                 <td class="px-4 py-4 whitespace-no-wrap">
                                     <label class="inline-flex items-center">
                                         <input type="checkbox" class="form-checkbox">
@@ -130,7 +130,7 @@
                                 <td class="flex flex-row items-center px-4 py-4">
                                         <img class="object-cover w-8 h-8 rounded-full" src="img/profileExample.jpg" alt=""/>
                                         <a href="ucenikProfile.php">
-                                            <span class="ml-2 font-semibold text-center">Mika Milic</span>
+                                            <span class="ml-2 font-medium text-center">Mika Milic</span>
                                         </a>
                                 </td>
                                 <td class="px-4 py-4 text-sm leading-5 whitespace-no-wrap">mika.milic@domain.net</td>
@@ -142,7 +142,7 @@
                                     </p>
                                 </td>
                             </tr>
-                            <tr class="border-b-2 border-gray-300">
+                            <tr class="border-b-[1px] border-[#e4dfdf]">
                                 <td class="px-4 py-4 whitespace-no-wrap">
                                     <label class="inline-flex items-center">
                                         <input type="checkbox" class="form-checkbox">
@@ -151,7 +151,7 @@
                                 <td class="flex flex-row items-center px-4 py-4">
                                         <img class="object-cover w-8 h-8 rounded-full" src="img/profileStudent.jpg" alt=""/>
                                         <a href="ucenikProfile.php">
-                                            <span class="ml-2 font-semibold text-center">Zaim Zaimovic</span>
+                                            <span class="ml-2 font-medium text-center">Zaim Zaimovic</span>
                                         </a>
                                 </td>
                                 <td class="px-4 py-4 text-sm leading-5 whitespace-no-wrap">zaim.zaimovic@domain.net</td>

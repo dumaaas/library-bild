@@ -299,10 +299,15 @@ input:checked+svg {
   
   h1 {
     font-size: 32px;
+    color: #374151;
   }
 
   a,p,th,tr {
     font-size: 14px;
+  }
+
+  th, tr {
+    color: #374151;
   }
 
   h3 {
