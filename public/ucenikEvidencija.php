@@ -134,7 +134,7 @@
                                     <td class="px-4 py-4 text-sm leading-5 text-blue-900 whitespace-no-wrap">
                                         <span class="relative inline-block px-[6px] py-[2px] font-medium leading-tight text-green-900">
                                             <span aria-hidden class="absolute inset-0 bg-transparent border-[1px] rounded-[10px] border-yellow-500 borderColor"></span>
-                                            <span class="relative text-xs text-yellow-500 borderText">Otvorene rezervacija</span>
+                                            <span class="relative text-xs text-yellow-500 borderText">Otvorene rezervacije</span>
                                         </span>
                                     </td>
                                     <td class="px-4 py-4 text-sm leading-5 whitespace-no-wrap">Valentina Kascelan</td>
