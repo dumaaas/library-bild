@@ -135,7 +135,7 @@
                         </div>
                     </div>
 
-                    <div class="w-full absolute border-t-[2px] border-gray-300 bottom-0 bg-white">
+                    <div class="absolute bottom-0 w-full bg-white">
                         <div class="flex flex-row">
                             <div class="inline-block w-full text-right py-[7px] mr-[100px] text-white">
                                 <button type="button"
