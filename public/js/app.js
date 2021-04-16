@@ -531,9 +531,9 @@ function validacijaKnjiga() {
 
 
   let nazivKnjiga = $("#nazivKnjiga").val();
-  let kategorija = $("#kategorija").val();
-  let zanr = $("#zanr").val();
-  let autori = $("#autori").val();
+  let kategorija = $("#kategorijaInput").val();
+  let zanr = $("#zanroviInput").val();
+  let autori = $("#autoriInput").val();
   let izdavac = $("#izdavac").val();
   let godinaIzdavanja = $("#godinaIzdavanja").val();
   let knjigaKolicina = $("#knjigaKolicina").val();
@@ -542,15 +542,15 @@ function validacijaKnjiga() {
     $('#validateNazivKnjiga').append('<p style="color:red;font-size:13px;">Morate unijeti naziv knjige!</p>');
   }
 
-  if (kategorija == null) {
+  if (kategorija.length == 0) {
     $('#validateKategorija').append('<p style="color:red;font-size:13px;">Morate selektovati kategoriju!</p>');
   }
 
-  if (zanr == null) {
+  if (zanr.length == 0) {
     $('#validateZanr').append('<p style="color:red;font-size:13px;">Morate selektovati zanr!</p>');
   }
 
-  if (autori == null) {
+  if (autori.length == 0) {
     $('#validateAutori').append('<p style="color:red;font-size:13px;">Morate odabrati autore!</p>');
   }
 
@@ -849,6 +849,68 @@ function filterFunction(id, dropdown) {
       if (img[i] !== undefined) {
         img[i].style.display = "none";
       }
+    }
+  }
+}
+
+// Multiple select dropdown list - new book
+function dropdown() {
+  return {
+    options: [],
+    selected: [],
+    show: false,
+    open() { this.show = true },
+    close() { this.show = false },
+    isOpen() { return this.show === true },
+    select(index, event) {
+
+      if (!this.options[index].selected) {
+        this.options[index].selected = true;
+        this.options[index].element = event.target;
+        this.selected.push(index);
+      } else {
+         this.selected.splice(this.selected.lastIndexOf(index), 1);
+         this.options[index].selected = false
+      }
+  },
+    remove(index, option) {
+      this.options[option].selected = false;
+      this.selected.splice(index, 1);
+    },
+    loadOptions() {
+      const options = document.getElementById('kategorija').options;
+      for (let i = 0; i < options.length; i++) {
+        this.options.push({
+          value: options[i].value,
+          text: options[i].innerText,
+          selected: options[i].getAttribute('selected') != null ? options[i].getAttribute('selected') : false
+      });
+    }
+  },
+    loadOptionsZanrovi() {
+      const options = document.getElementById('zanr').options;
+      for (let i = 0; i < options.length; i++) {
+        this.options.push({
+          value: options[i].value,
+          text: options[i].innerText,
+          selected: options[i].getAttribute('selected') != null ? options[i].getAttribute('selected') : false
+      });
+    }
+  },
+    loadOptionsAutori() {
+      const options = document.getElementById('autori').options;
+      for (let i = 0; i < options.length; i++) {
+        this.options.push({
+          value: options[i].value,
+          text: options[i].innerText,
+          selected: options[i].getAttribute('selected') != null ? options[i].getAttribute('selected') : false
+      });
+    }
+  },
+    selectedValues(){
+      return this.selected.map((option)=>{
+        return this.options[option].value;
+      })
     }
   }
 }
