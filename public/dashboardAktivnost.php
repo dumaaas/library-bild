@@ -36,8 +36,8 @@
         <!-- Content -->
         <section class="w-screen h-screen pl-[80px] py-4 text-gray-700">
             <!-- Heading of content -->
-            <div class="heading mt-[14px]">
-                <h1 class="pl-[30px] pb-[20px] text-[35px] font-bold border-b-[2px] border-gray-300">
+            <div class="heading mt-[7px]">
+                <h1 class="pl-[30px] pb-[21px]  border-b-[1px] border-[#e4dfdf] ">
                     Prikaz aktivnosti
                 </h1>
             </div>
@@ -45,7 +45,7 @@
             <div class="pl-[30px] overflow-auto scroll height-dashboard pb-[30px] mt-[20px]">
                 <div class="flex flex-row justify-between">
                     <div class="mr-[30px]">
-                        <div class="flex flex-row mb-[30px]">
+                        <div class="text-[14px] flex flex-row mb-[30px]">
                             <div class="">
                                 <div class="rounded">
                                     <div class="relative">
@@ -177,11 +177,15 @@
                                                     </li>
                                                 </div>
                                             </ul>
-                                            <div class="flex pt-[10px]">
+                                            <div class="flex pt-[10px] text-white ">
                                                 <a href="#"
-                                                    class="py-2 px-[20px] transition duration-300 ease-in hover:bg-gray-400 bg-gray-300 rounded-[10px]">Sacuvaj</a>
+                                                    class="py-2 px-[20px] transition duration-300 ease-in hover:bg-[#46A149] bg-[#4CAF50] rounded-[5px]">
+                                                    Sacuvaj <i class="fas fa-check ml-[4px]"></i> 
+                                                </a>
                                                 <a href="#"
-                                                    class="ml-[20px] py-2 px-[20px] transition duration-300 ease-in bg-red-500 hover:bg-red-600 text-white rounded-[10px]">Ponisti</a>
+                                                    class="ml-[20px] py-2 px-[20px] transition duration-300 ease-in bg-[#F44336] hover:bg-[#F55549] rounded-[5px]">
+                                                    Ponisti <i class="fas fa-times ml-[4px]"></i> 
+                                                </a>
                                             </div>
                                         </div>
                                     </div>
@@ -318,11 +322,15 @@
                                                     </li>
                                                 </div>
                                             </ul>
-                                            <div class="flex pt-[10px]">
+                                            <div class="flex pt-[10px] text-white ">
                                                 <a href="#"
-                                                    class="py-2 px-[20px] transition duration-300 ease-in hover:bg-gray-400 bg-gray-300 rounded-[10px]">Sacuvaj</a>
+                                                    class="py-2 px-[20px] transition duration-300 ease-in hover:bg-[#46A149] bg-[#4CAF50] rounded-[5px]">
+                                                    Sacuvaj <i class="fas fa-check ml-[4px]"></i> 
+                                                </a>
                                                 <a href="#"
-                                                    class="ml-[20px] py-2 px-[20px] transition duration-300 ease-in bg-red-500 hover:bg-red-600 text-white rounded-[10px]">Ponisti</a>
+                                                    class="ml-[20px] py-2 px-[20px] transition duration-300 ease-in bg-[#F44336] hover:bg-[#F55549] rounded-[5px]">
+                                                    Ponisti <i class="fas fa-times ml-[4px]"></i> 
+                                                </a>
                                             </div>
                                         </div>
                                     </div>
@@ -459,11 +467,15 @@
                                                     </li>
                                                 </div>
                                             </ul>
-                                            <div class="flex pt-[10px]">
+                                            <div class="flex pt-[10px] text-white ">
                                                 <a href="#"
-                                                    class="py-2 px-[20px] transition duration-300 ease-in hover:bg-gray-400 bg-gray-300 rounded-[10px]">Sacuvaj</a>
+                                                    class="py-2 px-[20px] transition duration-300 ease-in hover:bg-[#46A149] bg-[#4CAF50] rounded-[5px]">
+                                                    Sacuvaj <i class="fas fa-check ml-[4px]"></i> 
+                                                </a>
                                                 <a href="#"
-                                                    class="ml-[20px] py-2 px-[20px] transition duration-300 ease-in bg-red-500 hover:bg-red-600 text-white rounded-[10px]">Ponisti</a>
+                                                    class="ml-[20px] py-2 px-[20px] transition duration-300 ease-in bg-[#F44336] hover:bg-[#F55549] rounded-[5px]">
+                                                    Ponisti <i class="fas fa-times ml-[4px]"></i> 
+                                                </a>
                                             </div>
                                         </div>
                                     </div>
@@ -556,11 +568,15 @@
                                                     </li>
                                                 </div>
                                             </ul>
-                                            <div class="flex pt-[10px]">
+                                            <div class="flex pt-[10px] text-white ">
                                                 <a href="#"
-                                                    class="py-2 px-[20px] transition duration-300 ease-in hover:bg-gray-400 bg-gray-300 rounded-[10px]">Sacuvaj</a>
+                                                    class="py-2 px-[20px] transition duration-300 ease-in hover:bg-[#009688] bg-[#46A149] rounded-[5px]">
+                                                    Sacuvaj <i class="fas fa-check ml-[4px]"></i> 
+                                                </a>
                                                 <a href="#"
-                                                    class="ml-[20px] py-2 px-[20px] transition duration-300 ease-in bg-red-500 hover:bg-red-600 text-white rounded-[10px]">Ponisti</a>
+                                                    class="ml-[20px] py-2 px-[20px] transition duration-300 ease-in bg-[#F44336] hover:bg-[#F55549] rounded-[5px]">
+                                                    Ponisti <i class="fas fa-times ml-[4px]"></i> 
+                                                </a>
                                             </div>
                                         </div>
                                     </div>
@@ -568,7 +584,7 @@
                             </div>
                             <div class="ml-[25px]">
 
-                                <input type="date" value="today" class="cursor-pointer focus:outline-none">
+                                <input type="date" class="cursor-pointer focus:outline-none">
                             </div>
                             <div class="ml-[35px] cursor-pointer hover:text-blue-600">
                                 <i class="fas fa-sync-alt"></i>
@@ -590,15 +606,15 @@
                                 </div>
                                 <div class="">
                                     <p>
-                                        <a href="bibliotekarProfile.php" class="text-blue-600 hover:text-blue-800">
+                                        <a href="bibliotekarProfile.php" class="text-[#2196f3] hover:text-blue-600">
                                             Valentina K.
                                         </a>
-                                        je izdala knjigu <span class="font-bold">Tom Sojer </span>
-                                        <a href="ucenikProfile.php" class="text-blue-600 hover:text-blue-800">
+                                        je izdala knjigu <span class="font-medium">Tom Sojer </span>
+                                        <a href="ucenikProfile.php" class="text-[#2196f3] hover:text-blue-600">
                                             Peru Perovicu
                                         </a>
-                                        dana <span class="font-bold">21.02.2021.</span>
-                                        <a href="izdavanjeDetalji.php" class="text-blue-600 hover:text-blue-800">
+                                        dana <span class="font-medium">21.02.2021.</span>
+                                        <a href="izdavanjeDetalji.php" class="text-[#2196f3] hover:text-blue-600">
                                             pogledaj detaljnije >>
                                         </a>
                                     </p>
@@ -620,15 +636,15 @@
                                 </div>
                                 <div class="">
                                     <p>
-                                        <a href="bibliotekarProfile.php" class="text-blue-600 hover:text-blue-800">
+                                        <a href="bibliotekarProfile.php" class="text-[#2196f3] hover:text-blue-600">
                                             Valentina K.
                                         </a>
-                                        je izdala knjigu <span class="font-bold">Robinson Kruso</span>
-                                        <a href="ucenikProfile.php" class="text-blue-600 hover:text-blue-800">
+                                        je izdala knjigu <span class="font-medium">Robinson Kruso</span>
+                                        <a href="ucenikProfile.php" class="text-[#2196f3] hover:text-blue-600">
                                             Petru Njegosu
                                         </a>
-                                        dana <span class="font-bold">12.03.2020.</span>
-                                        <a href="izdavanjeDetalji.php" class="text-blue-600 hover:text-blue-800">
+                                        dana <span class="font-medium">12.03.2020.</span>
+                                        <a href="izdavanjeDetalji.php" class="text-[#2196f3] hover:text-blue-600">
                                             pogledaj detaljnije >>
                                         </a>
                                     </p>
@@ -650,15 +666,15 @@
                                 </div>
                                 <div class="">
                                     <p>
-                                        <a href="bibliotekarProfile.php" class="text-blue-600 hover:text-blue-800">
+                                        <a href="bibliotekarProfile.php" class="text-[#2196f3] hover:text-blue-600">
                                             Valentina K.
                                         </a>
-                                        je izdala knjigu <span class="font-bold">Tom Sojer </span>
-                                        <a href="ucenikProfile.php" class="text-blue-600 hover:text-blue-800">
+                                        je izdala knjigu <span class="font-medium">Tom Sojer </span>
+                                        <a href="ucenikProfile.php" class="text-[#2196f3] hover:text-blue-600">
                                             Peru Perovicu
                                         </a>
-                                        dana <span class="font-bold">21.02.2021.</span>
-                                        <a href="izdavanjeDetalji.php" class="text-blue-600 hover:text-blue-800">
+                                        dana <span class="font-medium">21.02.2021.</span>
+                                        <a href="izdavanjeDetalji.php" class="text-[#2196f3] hover:text-blue-600">
                                             pogledaj detaljnije >>
                                         </a>
                                     </p>
@@ -680,15 +696,15 @@
                                 </div>
                                 <div class="">
                                     <p>
-                                        <a href="bibliotekarProfile.php" class="text-blue-600 hover:text-blue-800">
+                                        <a href="bibliotekarProfile.php" class="text-[#2196f3] hover:text-blue-600">
                                             Valentina K.
                                         </a>
-                                        je izdala knjigu <span class="font-bold">Robinson Kruso</span>
-                                        <a href="ucenikProfile.php" class="text-blue-600 hover:text-blue-800">
+                                        je izdala knjigu <span class="font-medium">Robinson Kruso</span>
+                                        <a href="ucenikProfile.php" class="text-[#2196f3] hover:text-blue-600">
                                             Petru Njegosu
                                         </a>
-                                        dana <span class="font-bold">12.03.2020.</span>
-                                        <a href="izdavanjeDetalji.php" class="text-blue-600 hover:text-blue-800">
+                                        dana <span class="font-medium">12.03.2020.</span>
+                                        <a href="izdavanjeDetalji.php" class="text-[#2196f3] hover:text-blue-600">
                                             pogledaj detaljnije >>
                                         </a>
                                     </p>
@@ -710,15 +726,15 @@
                                 </div>
                                 <div class="">
                                     <p>
-                                        <a href="bibliotekarProfile.php" class="text-blue-600 hover:text-blue-800">
+                                        <a href="bibliotekarProfile.php" class="text-[#2196f3] hover:text-blue-600">
                                             Valentina K.
                                         </a>
-                                        je izdala knjigu <span class="font-bold">Tom Sojer </span>
-                                        <a href="ucenikProfile.php" class="text-blue-600 hover:text-blue-800">
+                                        je izdala knjigu <span class="font-medium">Tom Sojer </span>
+                                        <a href="ucenikProfile.php" class="text-[#2196f3] hover:text-blue-600">
                                             Peru Perovicu
                                         </a>
-                                        dana <span class="font-bold">21.02.2021.</span>
-                                        <a href="izdavanjeDetalji.php" class="text-blue-600 hover:text-blue-800">
+                                        dana <span class="font-medium">21.02.2021.</span>
+                                        <a href="izdavanjeDetalji.php" class="text-[#2196f3] hover:text-blue-600">
                                             pogledaj detaljnije >>
                                         </a>
                                     </p>
@@ -740,15 +756,15 @@
                                 </div>
                                 <div class="">
                                     <p>
-                                        <a href="bibliotekarProfile.php" class="text-blue-600 hover:text-blue-800">
+                                        <a href="bibliotekarProfile.php" class="text-[#2196f3] hover:text-blue-600">
                                             Valentina K.
                                         </a>
-                                        je izdala knjigu <span class="font-bold">Robinson Kruso</span>
-                                        <a href="ucenikProfile.php" class="text-blue-600 hover:text-blue-800">
+                                        je izdala knjigu <span class="font-medium">Robinson Kruso</span>
+                                        <a href="ucenikProfile.php" class="text-[#2196f3] hover:text-blue-600">
                                             Petru Njegosu
                                         </a>
-                                        dana <span class="font-bold">12.03.2020.</span>
-                                        <a href="izdavanjeDetalji.php" class="text-blue-600 hover:text-blue-800">
+                                        dana <span class="font-medium">12.03.2020.</span>
+                                        <a href="izdavanjeDetalji.php" class="text-[#2196f3] hover:text-blue-600">
                                             pogledaj detaljnije >>
                                         </a>
                                     </p>
@@ -770,15 +786,15 @@
                                 </div>
                                 <div class="">
                                     <p>
-                                        <a href="bibliotekarProfile.php" class="text-blue-600 hover:text-blue-800">
+                                        <a href="bibliotekarProfile.php" class="text-[#2196f3] hover:text-blue-600">
                                             Valentina K.
                                         </a>
-                                        je izdala knjigu <span class="font-bold">Tom Sojer </span>
-                                        <a href="ucenikProfile.php" class="text-blue-600 hover:text-blue-800">
+                                        je izdala knjigu <span class="font-medium">Tom Sojer </span>
+                                        <a href="ucenikProfile.php" class="text-[#2196f3] hover:text-blue-600">
                                             Peru Perovicu
                                         </a>
-                                        dana <span class="font-bold">21.02.2021.</span>
-                                        <a href="izdavanjeDetalji.php" class="text-blue-600 hover:text-blue-800">
+                                        dana <span class="font-medium">21.02.2021.</span>
+                                        <a href="izdavanjeDetalji.php" class="text-[#2196f3] hover:text-blue-600">
                                             pogledaj detaljnije >>
                                         </a>
                                     </p>
@@ -800,15 +816,15 @@
                                 </div>
                                 <div class="">
                                     <p>
-                                        <a href="bibliotekarProfile.php" class="text-blue-600 hover:text-blue-800">
+                                        <a href="bibliotekarProfile.php" class="text-[#2196f3] hover:text-blue-600">
                                             Valentina K.
                                         </a>
-                                        je izdala knjigu <span class="font-bold">Robinson Kruso</span>
-                                        <a href="ucenikProfile.php" class="text-blue-600 hover:text-blue-800">
+                                        je izdala knjigu <span class="font-medium">Robinson Kruso</span>
+                                        <a href="ucenikProfile.php" class="text-[#2196f3] hover:text-blue-600">
                                             Petru Njegosu
                                         </a>
-                                        dana <span class="font-bold">12.03.2020.</span>
-                                        <a href="izdavanjeDetalji.php" class="text-blue-600 hover:text-blue-800">
+                                        dana <span class="font-medium">12.03.2020.</span>
+                                        <a href="izdavanjeDetalji.php" class="text-[#2196f3] hover:text-blue-600">
                                             pogledaj detaljnije >>
                                         </a>
                                     </p>
@@ -830,15 +846,15 @@
                                 </div>
                                 <div class="">
                                     <p>
-                                        <a href="bibliotekarProfile.php" class="text-blue-600 hover:text-blue-800">
+                                        <a href="bibliotekarProfile.php" class="text-[#2196f3] hover:text-blue-600">
                                             Valentina K.
                                         </a>
-                                        je izdala knjigu <span class="font-bold">Tom Sojer </span>
-                                        <a href="ucenikProfile.php" class="text-blue-600 hover:text-blue-800">
+                                        je izdala knjigu <span class="font-medium">Tom Sojer </span>
+                                        <a href="ucenikProfile.php" class="text-[#2196f3] hover:text-blue-600">
                                             Peru Perovicu
                                         </a>
-                                        dana <span class="font-bold">21.02.2021.</span>
-                                        <a href="izdavanjeDetalji.php" class="text-blue-600 hover:text-blue-800">
+                                        dana <span class="font-medium">21.02.2021.</span>
+                                        <a href="izdavanjeDetalji.php" class="text-[#2196f3] hover:text-blue-600">
                                             pogledaj detaljnije >>
                                         </a>
                                     </p>
@@ -860,25 +876,26 @@
                                 </div>
                                 <div class="">
                                     <p>
-                                        <a href="bibliotekarProfile.php" class="text-blue-600 hover:text-blue-800">
+                                        <a href="bibliotekarProfile.php" class="text-[#2196f3] hover:text-blue-600">
                                             Valentina K.
                                         </a>
-                                        je izdala knjigu <span class="font-bold">Robinson Kruso</span>
-                                        <a href="ucenikProfile.php" class="text-blue-600 hover:text-blue-800">
+                                        je izdala knjigu <span class="font-medium">Robinson Kruso</span>
+                                        <a href="ucenikProfile.php" class="text-[#2196f3] hover:text-blue-600">
                                             Petru Njegosu
                                         </a>
-                                        dana <span class="font-bold">12.03.2020.</span>
-                                        <a href="izdavanjeDetalji.php" class="text-blue-600 hover:text-blue-800">
+                                        dana <span class="font-medium">12.03.2020.</span>
+                                        <a href="izdavanjeDetalji.php" class="text-[#2196f3] hover:text-blue-600">
                                             pogledaj detaljnije >>
                                         </a>
                                     </p>
                                 </div>
                             </div>
                         </div>
-                        <div class="inline-block w-full mt-6">
+                        <div class="inline-block w-full mt-4">
                             <button type="button"
-                                class="activity-showMore w-full focus:outline-none text-gray-600 text-sm py-2.5 px-5 rounded-md border transition duration-300 ease-in border-gray-600 hover:bg-[#576CDF] hover:text-white">Show
-                                more</button>
+                                class="w-full px-4 py-2 text-sm tracking-wider text-gray-600 transition duration-300 ease-in border-[1px] border-gray-400 rounded activity-showMore hover:bg-gray-200 focus:outline-none focus:ring-[1px] focus:ring-gray-300">
+                                Show more
+                            </button>
                         </div>
                     </div>
                 </div>

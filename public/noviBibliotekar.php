@@ -34,13 +34,13 @@
         <!-- End Sidebar -->
 
         <!-- Content -->
-        <section class="w-screen h-screen pl-[80px] py-4 text-gray-700">
+        <section class="w-screen h-screen pl-[80px] pb-4 text-gray-700">
             <!-- Heading of content -->
             <div class="heading">
-                <div class="flex border-b-[2px] border-gray-300">
-                    <div class="pl-[30px] pb-[10px] flex flex-col">
+                <div class="flex border-b-[1px] border-[#e4dfdf]">
+                    <div class="pl-[30px] py-[10px] flex flex-col">
                         <div>
-                            <h1 class=" text-[35px] font-bold">
+                            <h1>
                                 Novi bibliotekar
                             </h1>
                         </div>
@@ -48,7 +48,7 @@
                             <nav class="w-full rounded">
                                 <ol class="flex list-reset">
                                     <li>
-                                        <a href="bibliotekari.php" class="font-medium text-blue-600 hover:text-blue-800">
+                                        <a href="bibliotekari.php" class="text-[#2196f3] hover:text-blue-600">
                                             Svi bibliotekari
                                         </a>
                                     </li>
@@ -56,7 +56,7 @@
                                         <span class="mx-2">/</span>
                                     </li>
                                     <li>
-                                        <a href="#" class="font-medium text-gray-500 hover:text-blue-800">
+                                        <a href="#" class="text-gray-400 hover:text-blue-600">
                                             Novi bibliotekar
                                         </a>
                                     </li>
@@ -68,7 +68,7 @@
             </div>
             <!-- Space for content -->
             <div class="scroll height-content section-content">
-                <form class="text-gray-700 forma">
+                <form class="text-gray-700 text-[14px] forma">
                     <div class="flex flex-row ml-[30px]">
                         <div class="w-[50%] mb-[100px]">
                         <div class="mt-[20px]">
@@ -137,14 +137,14 @@
 
                     <div class="w-full absolute border-t-[2px] border-gray-300 bottom-0 bg-white">
                         <div class="flex flex-row">
-                            <div class="inline-block w-full text-right py-[7px] mr-[100px]">
+                            <div class="inline-block w-full text-right py-[7px] mr-[100px] text-white">
                                 <button type="button"
-                                        class="mr-[15px] w-[150px] focus:outline-none text-black text-sm py-2.5 px-5 rounded-md border transition duration-300 ease-in border-black hover:bg-gray-600 hover:text-white">
-                                            Ponisti
+                                        class="shadow-lg mr-[15px] w-[150px] focus:outline-none text-sm py-2.5 px-5 transition duration-300 ease-in bg-[#F44336] hover:bg-[#F55549] rounded-[5px]">
+                                            Ponisti <i class="fas fa-times ml-[4px]"></i> 
                                 </button>
                                 <button id="sacuvajBibliotekara" type="submit"
-                                        class="w-[150px] disabled:opacity-50 focus:outline-none text-white text-sm py-2.5 px-5 rounded-md border transition duration-300 ease-in border-gray-600 bg-blue-500 hover:bg-blue-800" onclick="validacijaBibliotekar()">
-                                            Sacuvaj
+                                        class="shadow-lg w-[150px] disabled:opacity-50 focus:outline-none text-sm py-2.5 px-5 transition duration-300 ease-in rounded-[5px] hover:bg-[#46A149] bg-[#4CAF50]" onclick="validacijaBibliotekar()">
+                                            Sacuvaj <i class="fas fa-check ml-[4px]"></i> 
                                 </button>
                             </div>
                         </div>        

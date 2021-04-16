@@ -5,6 +5,8 @@
   font-family: 'Rubik';
 }
 
+
+
 /* Sidebar transition*/
 .sidebar {
   -webkit-transition: width 0.5s;
@@ -36,13 +38,17 @@
 
 /* Book navigation underline*/
 .active-book-nav {
-  color: #3B82F6;
-  border-bottom: 2px solid #3B82F6;
+  color: #2196f3;
+  border-bottom: 2px solid #2196f3;
   padding-bottom: 18px;
 }
 
 .active-book-nav:hover {
-  color: #1D4ED8;
+  color: #2563eb;
+}
+
+.active-book-nav::after:hover {
+  background-color: #2563eb;
 }
 
 
@@ -279,9 +285,22 @@ input:checked+svg {
 @layer base {
   body {
     @apply overflow-hidden;
+    font-family: 'Rubik', sans-serif;
   }
 
   nav {
     font-family: 'Rubik', sans-serif;
+  }
+  
+  h1 {
+    font-size: 32px;
+  }
+
+  a,p,th,tr {
+    font-size: 14px;
+  }
+
+  h3 {
+    font-size: 20px;
   }
 }

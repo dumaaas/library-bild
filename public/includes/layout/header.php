@@ -7,7 +7,7 @@
                 <a href="dashboard.php" class="text-[20px] font-medium">
                     <div class="flex">
                         <img src='./img/logo.svg' alt="" width="35px" height="35px">
-                        <p class="mt-[5px]">&nbsp;&nbsp;Online Biblioteka</p>
+                        <p class="text-[20px] mt-[5px]">&nbsp;&nbsp;Online Biblioteka</p>
                     </div>
 
                 </a>

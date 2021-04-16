@@ -34,13 +34,13 @@
         <!-- End Sidebar -->
 
         <!-- Content -->
-        <section class="w-screen h-screen pl-[80px] py-4 text-gray-700">
+        <section class="w-screen h-screen pl-[80px] pb-4 text-gray-700">
             <!-- Heading of content -->
             <div class="heading">
-                <div class="flex flex-row justify-between border-b-[2px] border-gray-300">
-                    <div class="pl-[30px] pb-[10px] flex flex-col">
+                <div class="flex flex-row justify-between border-b-[1px] border-[#e4dfdf]">
+                    <div class="pl-[30px] py-[10px] flex flex-col">
                         <div>
-                            <h1 class=" text-[35px] font-bold">
+                            <h1>
                                 Pero Perovic
                             </h1>
                         </div>
@@ -48,7 +48,7 @@
                             <nav class="w-full rounded">
                                 <ol class="flex list-reset">
                                     <li>
-                                        <a href="ucenik.php" class="font-medium text-blue-600 hover:text-blue-800">
+                                        <a href="ucenik.php" class="text-[#2196f3] hover:text-blue-600">
                                             Svi ucenici
                                         </a>
                                     </li>
@@ -56,7 +56,7 @@
                                         <span class="mx-2">/</span>
                                     </li>
                                     <li>
-                                        <a href="ucenikProfile.php" class="font-medium text-blue-600 hover:text-blue-800">
+                                        <a href="ucenikProfile.php" class="text-[#2196f3] hover:text-blue-600">
                                             ID-354
                                         </a>
                                     </li>
@@ -64,7 +64,7 @@
                             </nav>
                         </div>
                     </div>
-                    <div class="mt-[15px] mr-[30px]">
+                    <div class="pt-[24px] pr-[30px]">
                         <a href="#" class="inline hover:text-blue-600">
                             <i class="fas fa-redo-alt mr-[3px]"></i>
                             Resetuj sifru
@@ -73,31 +73,35 @@
                             <i class="fas fa-edit mr-[3px] "></i>
                             Izmjeni podatke
                         </a>
-                        <p class="inline cursor-pointer text-[25px] py-[10px] pl-[30px] border-l-[2px] border-gray-300" id="dropdownStudent">
-                            <i class="fas fa-ellipsis-v hover:text-gray-500 focus:outline-none active:text-gray-800"></i>
+                        <p class="inline cursor-pointer text-[25px] py-[10px] pl-[30px] border-l-[1px] border-gray-300"
+                            id="dropdownStudent">
+                            <i
+                                class="fas fa-ellipsis-v hover:text-gray-500 focus:outline-none active:text-gray-800"></i>
                         </p>
 
-                        <div class="hidden transition-all duration-300 origin-top-right transform scale-95 -translate-y-2 dropdown-menu-student">
-                            <div class="absolute right-0 w-56 mt-2 origin-top-right bg-white border border-gray-200 divide-y divide-gray-100 rounded-md shadow-lg outline-none" aria-labelledby="headlessui-menu-button-1" id="headlessui-menu-items-117" role="menu">
+                        <div
+                            class="hidden transition-all duration-300 origin-top-right transform scale-95 -translate-y-2 dropdown-menu-student">
+                            <div class="absolute right-0 w-56 mt-2 origin-top-right bg-white border border-gray-200 divide-y divide-gray-100 rounded-md shadow-lg outline-none"
+                                aria-labelledby="headlessui-menu-button-1" id="headlessui-menu-items-117" role="menu">
                                 <div class="py-1">
-                                    <a href="javascript:void(0)" tabindex="0" class="flex w-full px-4 py-2 text-sm leading-5 text-left text-gray-700"  role="menuitem" >
+                                    <a href="javascript:void(0)" tabindex="0"
+                                        class="flex w-full px-4 py-2 text-sm leading-5 text-left text-gray-700"
+                                        role="menuitem">
                                         <i class="fa fa-trash mr-[10px] ml-[5px] py-1"></i>
                                         <span class="px-4 py-0">Izbrisi korisnika</span>
                                     </a>
                                 </div>
                             </div>
-                        </div> 
-
+                        </div>
                     </div>
                 </div>
-
             </div>
-            <div class="border-b-[2px] py-4 text-gray-500 border-gray-300 pl-[30px]">
+            <div class="border-b-[1px] py-4 text-gray-500 border-[#e4dfdf] pl-[30px]">
                 <a href="ucenikProfile.php" class="inline active-book-nav">
                     Osnovni detalji
                 </a>
                 <a href="ucenikEvidencija.php" class="inline ml-[70px] hover:text-blue-800">
-                    Evidencija iznajmljivanja
+                Evidencija iznajmljivanja
                 </a>
             </div>
             <div class="height-ucenikProfile pb-[30px] scroll">
@@ -119,7 +123,7 @@
                             </div>
                             <div class="mt-[40px]">
                                 <span class="text-gray-500">Email</span>
-                                <p class="font-medium text-blue-500">pero.perovic@domain.net</p>
+                                <a href="#" class="block font-medium text-[#2196f3]">pero.perovic@domain.net</a>
                             </div>
                             <div class="mt-[40px]">
                                 <span class="text-gray-500">Korisnicko ime</span>
@@ -136,8 +140,7 @@
 
                         </div>
                         <div class="ml-[100px]  mt-[20px]">
-                            <img class="p-2 border-2 border-gray-300" width="300px" src="img/profileStudent.jpg"
-                                alt="">
+                            <img class="p-2 border-2 border-gray-300" width="300px" src="img/profileStudent.jpg" alt="">
                         </div>
                     </div>
                 </div>

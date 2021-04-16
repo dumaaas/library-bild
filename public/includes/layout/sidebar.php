@@ -1,17 +1,17 @@
 <nav id="sidebar"
-    class="fixed z-10 flex flex-col justify-between overflow-x-hidden overflow-y-auto bg-white sidebar nav-height">
+    class="fixed z-10 flex flex-col justify-between overflow-x-hidden overflow-y-auto bg-[#EFF3F6] sidebar nav-height">
     <div class="">
         <!-- Hamburger Icon -->
-        <div class="cursor-pointer text-[#707070] pl-[30px] pt-[32px] pb-[33px] text-[25px] border-b-[1px] border-[#e4dfdf] ">
+        <div class="cursor-pointer text-[#707070] pl-[30px] pt-[28px] pb-[27px] text-[25px] border-b-[1px] border-[#e4dfdf] ">
             <i id="hamburger" class="hamburger-btn fas fa-bars"></i>
         </div>
         <div class="mt-[30px]">
             <ul class="text-[#2D3B48] sidebar-nav">
                 <!-- Dashboard Icon -->
-                <li class="bg-[#EFF3F6] pt-[18px] pb-[14px] mb-[4px]">
+                <li class="bg-[#EAEAEA] pt-[18px] pb-[14px] mb-[4px] group hover:bg-[#EAEAEA]">
                     <div class="ml-[25px]">
                         <span class="flex justify-between w-full fill-current whitespace-nowrap">
-                            <div class="transition duration-300 ease-in hover:text-[#576cdf]">
+                            <div class="transition duration-300 ease-in group-hover:text-[#576cdf]">
                                 <a href="dashboard.php" aria-label="Dashboard">
                                     <i
                                         class="text-white bg-[#3F51B5] px-[5px] pt-[4px] pb-[5px] fas fa-tachometer-alt text-[19px] rounded-[3px]"></i>
@@ -24,15 +24,15 @@
                     </div>
                 </li>
                 <!-- Bibliotekari Icon -->
-                <li class="pt-[18px] pb-[14px] mb-[4px] group hover:bg-[#EFF3F6] h-[60px]">
+                <li class="pt-[18px] pb-[14px] mb-[4px] group hover:bg-[#EAEAEA] h-[60px]">
                     <div class="ml-[30px]">
                         <span class="flex justify-between w-full whitespace-nowrap">
-                            <div class="transition duration-300 ease-in">
+                        <div>
                                 <a href="bibliotekari.php" aria-label="Bibliotekari">
                                     <i
-                                        class="text-[25px] group-hover:text-[#576cdf] text-[#707070] far fa-address-book"></i>
+                                        class="text-[25px] text-[#707070] far fa-address-book transition duration-300 ease-in group-hover:text-[#576cdf]"></i>
                                     <div class="hidden sidebar-item">
-                                        <p class="group-hover:text-[#576cdf] inline text-[15px] ml-[20px]">Bibliotekari
+                                        <p class=" inline text-[15px] ml-[20px] transition duration-300 ease-in group-hover:text-[#576cdf]">Bibliotekari
                                         </p>
                                     </div>
                                 </a>
@@ -41,14 +41,14 @@
                     </div>
                 </li>
                 <!-- Ucenici Icon -->
-                <li class="pt-[18px] pb-[14px] mb-[4px] group hover:bg-[#EFF3F6] h-[60px]">
+                <li class="pt-[18px] pb-[14px] mb-[4px] group hover:bg-[#EAEAEA] h-[60px]">
                     <div class="ml-[30px]">
                         <span class="flex justify-between w-full whitespace-nowrap">
-                            <div class="transition duration-300 ease-in">
+                            <div>
                                 <a href="ucenik.php" aria-label="Ucenici">
-                                    <i class="text-[18px] group-hover:text-[#576cdf] text-[#707070] fas fa-users"></i>
+                                    <i class="text-[18px] transition duration-300 ease-in group-hover:text-[#576cdf] text-[#707070] fas fa-users"></i>
                                     <div class="hidden sidebar-item">
-                                        <p class="group-hover:text-[#576cdf] inline text-[15px] ml-[20px]">Ucenici</p>
+                                        <p class="transition duration-300 ease-in group-hover:text-[#576cdf] inline text-[15px] ml-[20px]">Ucenici</p>
                                     </div>
                                 </a>
                             </div>
@@ -56,14 +56,14 @@
                     </div>
                 </li>
                 <!-- Expand menu example -->
-                <li class="pt-[18px] pb-[14px] mb-[4px] group hover:bg-[#EFF3F6]">
+                <li class="pt-[18px] pb-[14px] mb-[4px] group hover:bg-[#EAEAEA]">
                     <div class="mx-[30px]">
                         <span class="flex justify-between w-full whitespace-nowrap">
-                            <div class="transition duration-300 ease-in">
+                            <div>
                                 <a href="#" aria-label="Dashboard">
-                                    <i class="text-[25px] group-hover:text-[#576cdf] text-[#707070] fas fa-expand"></i>
+                                    <i class="transition duration-300 ease-in group-hover:text-[#576cdf] text-[25px] text-[#707070] fas fa-expand"></i>
                                     <div class="hidden sidebar-item">
-                                        <p class="group-hover:text-[#576cdf] inline text-[15px] ml-[20px]">Expand</p>
+                                        <p class="transition duration-300 ease-in group-hover:text-[#576cdf] inline text-[15px] ml-[20px]">Expand</p>
                                     </div>
                                 </a>
                             </div>
@@ -106,14 +106,14 @@
                     </li>
                 </ul>
                 <!-- Knjige Icon -->
-                <li class="pt-[18px] pb-[14px] mb-[4px] group hover:bg-[#EFF3F6] h-[60px]">
+                <li class="pt-[18px] pb-[14px] mb-[4px] group hover:bg-[#EAEAEA] h-[60px]">
                     <div class="ml-[30px]">
                         <span class="flex justify-between w-full whitespace-nowrap">
-                            <div class="transition duration-300 ease-in">
+                            <div>
                                 <a href="evidencija.php" aria-label="Knjige">
-                                    <i class="text-[25px] group-hover:text-[#576cdf] text-[#707070] far fa-copy"></i>
+                                    <i class="text-[25px] transition duration-300 ease-in group-hover:text-[#576cdf] text-[#707070] far fa-copy"></i>
                                     <div class="hidden sidebar-item">
-                                        <p class="group-hover:text-[#576cdf] inline text-[15px] ml-[20px]">Knjige</p>
+                                        <p class="transition duration-300 ease-in group-hover:text-[#576cdf] inline text-[15px] ml-[20px]">Knjige</p>
                                     </div>
                                 </a>
                             </div>
@@ -121,15 +121,15 @@
                     </div>
                 </li>
                 <!-- Autori Icon -->
-                <li class="pt-[18px] pb-[14px] mb-[4px] group hover:bg-[#EFF3F6] h-[60px]">
+                <li class="pt-[18px] pb-[14px] mb-[4px] group hover:bg-[#EAEAEA] h-[60px]">
                     <div class="ml-[30px]">
                         <span class="flex justify-between w-full whitespace-nowrap">
-                            <div class="transition duration-300 ease-in">
+                            <div>
                                 <a href="evidencija.php" aria-label="Knjige">
                                     <i
-                                        class="text-[25px] group-hover:text-[#576cdf] text-[#707070] far fa-address-book"></i>
+                                        class="text-[25px] transition duration-300 ease-in group-hover:text-[#576cdf] text-[#707070] far fa-address-book"></i>
                                     <div class="hidden sidebar-item">
-                                        <p class="group-hover:text-[#576cdf] inline text-[15px] ml-[20px]">Autori</p>
+                                        <p class="transition duration-300 ease-in group-hover:text-[#576cdf] inline text-[15px] ml-[20px]">Autori</p>
                                     </div>
                                 </a>
                             </div>
@@ -137,15 +137,15 @@
                     </div>
                 </li>
                 <!-- Izdavanje Icon -->
-                <li class="pt-[18px] pb-[14px] mb-[4px] group hover:bg-[#EFF3F6] h-[60px]">
+                <li class="pt-[18px] pb-[14px] mb-[4px] group hover:bg-[#EAEAEA] h-[60px]">
                     <div class="ml-[30px]">
                         <span class="flex justify-between w-full whitespace-nowrap">
-                            <div class="transition duration-300 ease-in">
+                            <div>
                                 <a href="evidencija.php" aria-label="Knjige">
                                     <i
-                                        class="text-[22px] group-hover:text-[#576cdf] text-[#707070] fas fa-exchange-alt"></i>
+                                        class="text-[22px] transition duration-300 ease-in group-hover:text-[#576cdf] text-[#707070] fas fa-exchange-alt"></i>
                                     <div class="hidden sidebar-item">
-                                        <p class="group-hover:text-[#576cdf] inline text-[15px] ml-[20px]">Izdavanje
+                                        <p class="transition duration-300 ease-in group-hover:text-[#576cdf] inline text-[15px] ml-[20px]">Izdavanje
                                             knjiga</p>
                                     </div>
                                 </a>
@@ -159,10 +159,10 @@
     <div class="sidebar-nav py-[10px] border-t-[1px] border-[#e4dfdf] pt-[23px] pb-[29px]  group hover:bg-[#EFF3F6]">
         <!-- Settings Icon -->
         <a href="settingsPolisa.php" aria-label="Settngs" class="ml-[30px]">
-            <span class="whitespace-nowrap transition duration-300 ease-in group-hover:text-[#576cdf]">
-                <i class="text-[22px] text-[#707070] fas fa-cog"></i>
+            <span class="whitespace-nowrap">
+                <i class="transition duration-300 ease-in group-hover:text-[#576cdf] text-[22px] text-[#707070] fas fa-cog"></i>
                 <div class="hidden sidebar-item">
-                    <p class="inline text-[15px] ml-[20px]">Settings</p>
+                    <p class="transition duration-300 ease-in group-hover:text-[#576cdf] inline text-[15px] ml-[20px]">Settings</p>
                 </div>
             </span>
         </a>
