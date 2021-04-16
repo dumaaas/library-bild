@@ -78,7 +78,11 @@
                         </div>
                     </div>
                     <div class="mt-[15px] mr-[40px]">
-                        <a href="izdajKnjigu.php" class="inline hover:text-blue-600">
+                        <a href="otpisiKnjigu.php" class="inline hover:text-blue-600">
+                            <i class="fas fa-power-off mr-[3px]"></i>
+                            Otpisi knjigu
+                        </a>
+                        <a href="izdajKnjigu.php" class="inline hover:text-blue-600 ml-[20px] pr-[10px]">
                             <i class="far fa-hand-scissors"></i>
                             Izdaj knjigu
                         </a>
@@ -107,8 +111,8 @@
                                         <input type="checkbox" class="form-checkbox">
                                     </label>
                                 </th>
-                                <th class="px-6 py-3 text-sm leading-4 tracking-wider text-left">Datum akcije<a href="#"><i class="ml-3 fa-lg fas fa-long-arrow-alt-down" onclick="sortTableDate(1)"></i></a></th>
-                                <th class="px-6 py-3 text-sm leading-4 tracking-wider text-left">Tip akcije</th>
+                                <th class="px-6 py-3 text-sm leading-4 tracking-wider text-left">Datum transakcije<a href="#"><i class="ml-3 fa-lg fas fa-long-arrow-alt-down" onclick="sortTableDate(1)"></i></a></th>
+                                <th class="px-6 py-3 text-sm leading-4 tracking-wider text-left">Tip transakcije</th>
                                 <th class="px-6 py-3 text-sm leading-4 tracking-wider text-left">Bibliotekar</th>
                                 <th class="px-6 py-3 text-sm leading-4 tracking-wider text-left">Ucenik</th>
                                 <th class="px-6 py-3"> </th>
@@ -125,7 +129,7 @@
                                 <td class="px-6 py-4 text-sm leading-5 text-blue-900 whitespace-no-wrap">
                                     <span class="relative inline-block px-3 py-1 font-semibold leading-tight text-green-900">
                                         <span aria-hidden class="absolute inset-0 bg-blue-600"></span>
-                                        <span class="relative text-xs text-white">Izdavanje knjige</span>
+                                        <span class="relative text-xs text-white">Izdata knjiga</span>
                                     </span>
                                 </td>
                                 <td class="px-6 py-4 text-sm leading-5 whitespace-no-wrap">Valentina Kascelan</td>
@@ -160,7 +164,7 @@
                                 <td class="px-6 py-4 text-sm leading-5 text-blue-900 whitespace-no-wrap">
                                     <span class="relative inline-block px-3 py-1 font-semibold leading-tight text-green-900">
                                         <span aria-hidden class="absolute inset-0 bg-red-600"></span>
-                                        <span class="relative text-xs text-white">Vracanje knjige</span>
+                                        <span class="relative text-xs text-white">Vracena knjiga</span>
                                     </span>
                                 </td>
                                 <td class="px-6 py-4 text-sm leading-5 whitespace-no-wrap">Valentina Kascelan</td>
@@ -195,7 +199,7 @@
                                 <td class="px-6 py-4 text-sm leading-5 text-blue-900 whitespace-no-wrap">
                                     <span class="relative inline-block px-3 py-1 font-semibold leading-tight text-green-900">
                                         <span aria-hidden class="absolute inset-0 bg-blue-600"></span>
-                                        <span class="relative text-xs text-white">Izdavanje knjige</span>
+                                        <span class="relative text-xs text-white">Izdata knjiga</span>
                                     </span>
                                 </td>
                                 <td class="px-6 py-4 text-sm leading-5 whitespace-no-wrap">Valentina Kascelan</td>
@@ -230,7 +234,7 @@
                                 <td class="px-6 py-4 text-sm leading-5 text-blue-900 whitespace-no-wrap">
                                     <span class="relative inline-block px-3 py-1 font-semibold leading-tight text-green-900">
                                         <span aria-hidden class="absolute inset-0 bg-red-600"></span>
-                                        <span class="relative text-xs text-white">Vracanje knjige</span>
+                                        <span class="relative text-xs text-white">Vracena knjiga</span>
                                     </span>
                                 </td>
                                 <td class="px-6 py-4 text-sm leading-5 whitespace-no-wrap">Nina Bracovic</td>
@@ -265,7 +269,7 @@
                                 <td class="px-6 py-4 text-sm leading-5 text-blue-900 whitespace-no-wrap">
                                     <span class="relative inline-block px-3 py-1 font-semibold leading-tight text-green-900">
                                         <span aria-hidden class="absolute inset-0 bg-blue-600"></span>
-                                        <span class="relative text-xs text-white">Izdavanje knjige</span>
+                                        <span class="relative text-xs text-white">Izdata knjiga</span>
                                     </span>
                                 </td>
                                 <td class="px-6 py-4 text-sm leading-5 whitespace-no-wrap">Nina Bracovic</td>
@@ -300,7 +304,7 @@
                                 <td class="px-6 py-4 text-sm leading-5 text-blue-900 whitespace-no-wrap">
                                     <span class="relative inline-block px-3 py-1 font-semibold leading-tight text-green-900">
                                         <span aria-hidden class="absolute inset-0 bg-red-600"></span>
-                                        <span class="relative text-xs text-white">Vracanje knjige</span>
+                                        <span class="relative text-xs text-white">Vracena knjiga</span>
                                     </span>
                                 </td>
                                 <td class="px-6 py-4 text-sm leading-5 whitespace-no-wrap">Nina Bracovic</td>
@@ -335,7 +339,7 @@
                                 <td class="px-6 py-4 text-sm leading-5 text-blue-900 whitespace-no-wrap">
                                     <span class="relative inline-block px-3 py-1 font-semibold leading-tight text-green-900">
                                         <span aria-hidden class="absolute inset-0 bg-blue-600"></span>
-                                        <span class="relative text-xs text-white">Izdavanje knjige</span>
+                                        <span class="relative text-xs text-white">Izdata knjiga</span>
                                     </span>
                                 </td>
                                 <td class="px-6 py-4 text-sm leading-5 whitespace-no-wrap">Valentina Kascelan</td>
@@ -370,7 +374,7 @@
                                 <td class="px-6 py-4 text-sm leading-5 text-blue-900 whitespace-no-wrap">
                                     <span class="relative inline-block px-3 py-1 font-semibold leading-tight text-green-900">
                                         <span aria-hidden class="absolute inset-0 bg-red-600"></span>
-                                        <span class="relative text-xs text-white">Vracanje knjige</span>
+                                        <span class="relative text-xs text-white">Vracena knjiga</span>
                                     </span>
                                 </td>
                                 <td class="px-6 py-4 text-sm leading-5 whitespace-no-wrap">Valentina Kascelan</td>

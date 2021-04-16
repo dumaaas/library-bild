@@ -345,7 +345,7 @@ $(".reservedBook").click(function () {
   var changeTextStatus = checkMark.closest("tr").find(".borderText")
   changeColorStatus.removeClass('bg-transparent')
   changeColorStatus.addClass('bg-yellow-400')
-  changeTextStatus.text('Rezervisano')
+  changeTextStatus.text('Potvrdjene rezervacije')
   changeTextStatus.removeClass('text-yellow-400')
   changeTextStatus.addClass('text-white')
   checkMark.parent().addClass('hidden')
@@ -361,7 +361,7 @@ $(".deniedBook").click(function () {
   changeColorStatus.removeClass('border-yellow-400')
   changeColorStatus.removeClass('bg-transparent')
   changeColorStatus.addClass('bg-red-600')
-  changeTextStatus.text('Odbijeno')
+  changeTextStatus.text('Odbijene rezervacije')
   changeTextStatus.removeClass('text-yellow-400')
   changeTextStatus.addClass('text-white')
   checkMark.parent().addClass('hidden')
@@ -859,9 +859,15 @@ function dropdown() {
     options: [],
     selected: [],
     show: false,
-    open() { this.show = true },
-    close() { this.show = false },
-    isOpen() { return this.show === true },
+    open() {
+      this.show = true
+    },
+    close() {
+      this.show = false
+    },
+    isOpen() {
+      return this.show === true
+    },
     select(index, event) {
 
       if (!this.options[index].selected) {
@@ -869,10 +875,10 @@ function dropdown() {
         this.options[index].element = event.target;
         this.selected.push(index);
       } else {
-         this.selected.splice(this.selected.lastIndexOf(index), 1);
-         this.options[index].selected = false
+        this.selected.splice(this.selected.lastIndexOf(index), 1);
+        this.options[index].selected = false
       }
-  },
+    },
     remove(index, option) {
       this.options[option].selected = false;
       this.selected.splice(index, 1);
@@ -884,9 +890,9 @@ function dropdown() {
           value: options[i].value,
           text: options[i].innerText,
           selected: options[i].getAttribute('selected') != null ? options[i].getAttribute('selected') : false
-      });
-    }
-  },
+        });
+      }
+    },
     loadOptionsZanrovi() {
       const options = document.getElementById('zanr').options;
       for (let i = 0; i < options.length; i++) {
@@ -894,9 +900,9 @@ function dropdown() {
           value: options[i].value,
           text: options[i].innerText,
           selected: options[i].getAttribute('selected') != null ? options[i].getAttribute('selected') : false
-      });
-    }
-  },
+        });
+      }
+    },
     loadOptionsAutori() {
       const options = document.getElementById('autori').options;
       for (let i = 0; i < options.length; i++) {
@@ -904,11 +910,11 @@ function dropdown() {
           value: options[i].value,
           text: options[i].innerText,
           selected: options[i].getAttribute('selected') != null ? options[i].getAttribute('selected') : false
-      });
-    }
-  },
-    selectedValues(){
-      return this.selected.map((option)=>{
+        });
+      }
+    },
+    selectedValues() {
+      return this.selected.map((option) => {
         return this.options[option].value;
       })
     }
