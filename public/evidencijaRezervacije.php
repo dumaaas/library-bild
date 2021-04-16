@@ -36,16 +36,17 @@
         <!-- Content -->
         <section class="w-screen h-screen pl-[80px] py-4 text-gray-700">
             <!-- Heading of content -->
-            <div class="heading mt-[14px]">
-                <h1 class="pl-6 pb-[20px] text-[35px] text-[#5c5c5c] font-bold border-b-[2px] border-[#e4dfdf]">
+            <div class="heading mt-[7px]">
+                <h1 class="pl-[30px] pb-[21px] border-b-[1px] border-[#e4dfdf] ">
                     Vracanje i iznajmljivanje knjiga
                 </h1>
             </div>
             <!-- Space for content -->
             <div class="scroll height-dashboard">
                 <div class="flex items-center justify-between px-6 py-4 space-x-3 rounded-lg">
-                    <a href="novaKnjiga.php">
-                        <button type="button" class="px-4 py-2 text-lg font-semibold tracking-wider text-white bg-blue-500 hover:bg-blue-600 focus:outline-none hover:outline-none w-[250px] border-2 border-black">Nova knjiga</button>
+                    <a href="novaKnjiga.php"
+                        class="inline-flex items-center text-sm py-2.5 px-5 transition duration-300 ease-in rounded-[5px] tracking-wider text-white bg-[#3f51b5] rounded hover:bg-[#4558BE]">
+                        <i class="fas fa-plus mr-[15px]"></i> Nova knjiga
                     </a>
                     <div class="flex items-center">
                         <div class="relative text-gray-600 focus-within:text-gray-400">
@@ -64,58 +65,78 @@
                 <div class="overflow-auto">
                 <!-- Space for content -->
                     <div class="flex justify-start pt-3 overflow-hidden bg-white">
-                        <div class="mt-[10px]">
+                    <div class="mt-[10px]">
                             <ul class="text-[#5c5c5c]">
-                                <li class="mb-[10px] py-2">
-                                    <div class="w-[300px] pl-6">
-                                        <span class=" whitespace-nowrap w-full text-[25px] flex justify-between fill-current">
-                                            <div class="transition duration-300 ease-in hover:text-[#576cdf]">
-                                                <a href="evidencija.php" aria-label="Sve knjige" class="flex items-center">
-                                                    <i class="far fa-copy"></i>
+                                <li class="mb-[4px] pt-[18px] pb-[14px] group hover:bg-[#EAEAEA] ">
+                                    <div class="w-[300px] pl-[28px]">
+                                        <span
+                                            class=" whitespace-nowrap w-full text-[25px] flex justify-between fill-current">
+                                            <div class="">
+                                                <a href="evidencija.php" aria-label="Sve knjige"
+                                                    class="flex items-center">
+                                                    <i
+                                                        class="transition duration-300 ease-in group-hover:text-[#576cdf] text-[#707070] far fa-copy text-[24px]"></i>
                                                     <div>
-                                                        <p class="text-[18px] font-medium ml-[18px]">Sve knjige</p>
+                                                        <p
+                                                            class="transition duration-300 ease-in group-hover:text-[#576cdf] text-[15px] ml-[23px]">
+                                                            Sve knjige</p>
                                                     </div>
                                                 </a>
                                             </div>
                                         </span>
                                     </div>
                                 </li>
-                                <li class="mb-[10px] py-2">
-                                    <div class="w-[300px] pl-6">
-                                        <span class=" whitespace-nowrap w-full text-[25px] flex justify-between fill-current">
+                                <li class="mb-[4px] pt-[18px] pb-[14px] group hover:bg-[#EAEAEA]">
+                                    <div class="w-[300px] pl-[28px]">
+                                        <span
+                                            class=" whitespace-nowrap w-full text-[25px] flex justify-between fill-current">
                                             <div class="transition duration-300 ease-in hover:text-[#576cdf]">
-                                                <a href="evidencijaIzdate.php" aria-label="Izdate knjige" class="flex items-center">
-                                                    <i class="fas fa-file"></i>
+                                                <a href="evidencijaIzdate.php" aria-label="Izdate knjige"
+                                                    class="flex items-center">
+                                                    <i
+                                                        class="text-[#707070] text-[29px] fas fa-file transition duration-300 ease-in group-hover:text-[#576cdf]"></i>
                                                     <div>
-                                                        <p class="text-[18px] font-medium ml-[20px]">Izdate knjige</p>
+                                                        <p
+                                                            class="text-[15px] ml-[22px] transition duration-300 ease-in group-hover:text-[#576cdf]">
+                                                            Izdate knjige</p>
                                                     </div>
                                                 </a>
                                             </div>
                                         </span>
                                     </div>
                                 </li>
-                                <li class="mb-[10px] py-2">
-                                    <div class="w-[300px] pl-6">
-                                        <span class=" whitespace-nowrap w-full text-[25px] flex justify-between fill-current">
+                                <li class="mb-[4px] pt-[18px] pb-[14px] group hover:bg-[#EAEAEA]">
+                                    <div class="w-[300px] pl-[28px]">
+                                        <span
+                                            class=" whitespace-nowrap w-full text-[25px] flex justify-between fill-current">
                                             <div class="transition duration-300 ease-in hover:text-[#576cdf]">
-                                                <a href="evidencijaRaspolaganje.php" aria-label="Knjige na raspolaganju" class="flex items-center">
-                                                    <i class="far fa-file"></i>
+                                                <a href="evidencijaRaspolaganje.php" aria-label="Knjige na raspolaganju"
+                                                    class="flex items-center">
+                                                    <i
+                                                        class="text-[#707070] text-[29px] far fa-file transition duration-300 ease-in group-hover:text-[#576cdf]"></i>
                                                     <div>
-                                                        <p class="text-[18px] font-medium ml-[20px]">Knjige na raspolaganju</p>
+                                                        <p
+                                                            class="text-[15px] ml-[22px] transition duration-300 ease-in group-hover:text-[#576cdf]">
+                                                            Knjige na raspolaganju</p>
                                                     </div>
                                                 </a>
                                             </div>
                                         </span>
                                     </div>
                                 </li>
-                                <li class="mb-[10px] bg-gray-300 py-2">
-                                    <div class="w-[300px] pl-6">
-                                        <span class=" whitespace-nowrap w-full text-[25px] flex justify-between fill-current">
+                                <li class="mb-[4px] pt-[18px] pb-[14px] group hover:bg-[#EAEAEA] bg-[#EAEAEA] group hover:bg-[#EAEAEA]">
+                                    <div class="w-[300px] pl-[24px]">
+                                        <span
+                                            class=" whitespace-nowrap w-full text-[25px] flex justify-between fill-current">
                                             <div class="transition duration-300 ease-in hover:text-[#576cdf]">
-                                                <a href="evidencijaRezervacije.php" aria-label="Rezervacije" class="flex items-center">
-                                                    <i class="far fa-check-square"></i>
+                                                <a href="evidencijaRezervacije.php" aria-label="Rezervacije"
+                                                    class="flex items-center">
+                                                    <i
+                                                        class="text-white bg-[#3F51B5] px-[5px] pt-[4px] pb-[4px] far fa-check-square text-[23px] rounded-[3px]"></i>
                                                     <div>
-                                                        <p class="text-[18px] font-medium ml-[18px]">Rezervacije</p>
+                                                        <p
+                                                            class="text-[15px] ml-[18px] transition duration-300 ease-in group-hover:text-[#576cdf]">
+                                                            Rezervacije</p>
                                                     </div>
                                                 </a>
                                             </div>
@@ -123,11 +144,11 @@
                                     </div>
                                 </li>
                             </ul>
-                        </div>  
+                        </div> 
                         <div class="w-full mt-[10px] ml-2 px-2">
-                            <table class="w-full border-2 border-gray-300 rezervacije" id="myTable">
-                                <thead>
-                                    <tr class="border-b-2 border-gray-300">
+                            <table class="w-full border-[1px] border-[#e4dfdf] rezervacije" id="myTable">
+                            <thead class="bg-[#EFF3F6]">
+                                    <tr class="border-b-[1px] border-[#e4dfdf]">
                                         <th class="px-4 py-3 leading-4 tracking-wider text-left text-blue-500">
                                             <label class="inline-flex items-center">
                                                 <input type="checkbox" class="form-checkbox">
@@ -142,7 +163,7 @@
                                     </tr>
                                 </thead>
                                 <tbody class="bg-white">
-                                    <tr class="bg-gray-200 border-b-2 border-gray-300 changeBg">
+                                    <tr class="bg-gray-200 border-b-[1px] border-[#e4dfdf] changeBg">
                                         <td class="px-4 py-4 whitespace-no-wrap">
                                             <label class="inline-flex items-center">
                                                 <input type="checkbox" class="form-checkbox">
@@ -151,14 +172,14 @@
                                         <td class="flex flex-row items-center px-4 py-4">
                                             <img class="object-cover w-8 h-11" src="img/tomsojer.jpg" alt=""/>
                                             <a href="knjigaOsnovniDetalji.php">
-                                                <span class="ml-2 font-semibold text-center">Ep o Gilgamesu</span>
+                                                <span class="ml-2 font-medium text-center">Ep o Gilgamesu</span>
                                             </a>
                                         </td>
                                         <td class="px-4 py-4 text-sm leading-5 whitespace-no-wrap">Nepoznat</td>
                                         <td class="px-4 py-4 text-sm leading-5 whitespace-no-wrap">31.04.2019</td>
                                         <td class="flex flex-row items-center px-4 py-4">
                                             <img class="object-cover w-8 h-8 rounded-full" src="img/profileStudent.jpg" alt=""/>
-                                            <span class="ml-2 font-semibold text-center">Pero Perovic</span>
+                                            <a href="ucenikProfile.php" class="ml-2 font-medium text-center">Pero Perovic</a>
                                         </td>
                                         <td class="px-4 py-2 changeStatus">
                                             <a href="#" class="hover:text-green-500 mr-[5px]">
@@ -169,15 +190,15 @@
                                             </a>
                                         </td>
                                         <td class="hidden px-4 py-4 text-sm leading-5 text-blue-900 whitespace-no-wrap">
-                                            <span class="relative inline-block px-3 py-1 font-semibold leading-tight text-green-900">
-                                                <span aria-hidden class="absolute inset-0 bg-yellow-500"></span>
-                                                <span class="relative text-xs text-white">Rezervisano</span>
+                                            <span class="relative inline-block px-[6px] py-[2px] font-medium leading-tight text-green-900">
+                                                <span aria-hidden class="absolute inset-0 bg-yellow-200 rounded-[5px]"></span>
+                                                <span class="relative text-xs text-yellow-700">Rezervisano</span>
                                             </span>
                                         </td>
                                         <td class="hidden px-4 py-4 text-sm leading-5 text-blue-900 whitespace-no-wrap">
-                                            <span class="relative inline-block px-3 py-1 font-semibold leading-tight text-green-900">
-                                                <span aria-hidden class="absolute inset-0 bg-red-600"></span>
-                                                <span class="relative text-xs text-white">Odbijeno</span>
+                                            <span class="relative inline-block px-[6px] py-[2px] font-medium leading-tight text-green-900">
+                                            <span aria-hidden class="absolute inset-0 bg-red-200 rounded-[5px]"></span>
+                                                <span class="relative text-xs text-red-800">Odbijeno</span>
                                             </span>
                                         </td>
                                         <td class="px-4 py-4 text-sm leading-5 text-right whitespace-no-wrap">
@@ -186,7 +207,7 @@
                                             </p>
                                         </td>
                                     </tr>
-                                    <tr class="bg-gray-200 border-b-2 border-gray-300 changeBg">
+                                    <tr class="bg-gray-200 border-b-[1px] border-[#e4dfdf] changeBg">
                                         <td class="px-4 py-4 whitespace-no-wrap">
                                             <label class="inline-flex items-center">
                                                 <input type="checkbox" class="form-checkbox">
@@ -195,14 +216,14 @@
                                         <td class="flex flex-row items-center px-4 py-4">
                                             <img class="object-cover w-8 h-11" src="img/tomsojer.jpg" alt=""/>
                                             <a href="knjigaOsnovniDetalji.php">
-                                                <span class="ml-2 font-semibold text-center">Ilijada</span>
+                                                <span class="ml-2 font-medium text-center">Ilijada</span>
                                             </a>
                                         </td>
                                         <td class="px-4 py-4 text-sm leading-5 whitespace-no-wrap">Homer</td>
                                         <td class="px-4 py-4 text-sm leading-5 whitespace-no-wrap">05.11.2020</td>
                                         <td class="flex flex-row items-center px-4 py-4">
                                             <img class="object-cover w-8 h-8 rounded-full" src="img/profileStudent.jpg" alt=""/>
-                                            <span class="ml-2 font-semibold text-center">Pero Perovic</span>
+                                            <a href="ucenikProfile.php" class="ml-2 font-medium text-center">Pero Perovic</a>
                                         </td>
                                         <td class="px-4 py-2 changeStatus">
                                             <a href="#" class="hover:text-green-500 mr-[5px]">
@@ -213,15 +234,15 @@
                                             </a>
                                         </td>
                                         <td class="hidden px-4 py-4 text-sm leading-5 text-blue-900 whitespace-no-wrap">
-                                            <span class="relative inline-block px-3 py-1 font-semibold leading-tight text-green-900">
-                                                <span aria-hidden class="absolute inset-0 bg-yellow-500"></span>
-                                                <span class="relative text-xs text-white">Rezervisano</span>
+                                            <span class="relative inline-block px-[6px] py-[2px] font-medium leading-tight text-green-900">
+                                                <span aria-hidden class="absolute inset-0 bg-yellow-200 rounded-[5px]"></span>
+                                                <span class="relative text-xs text-yellow-700">Rezervisano</span>
                                             </span>
                                         </td>
                                         <td class="hidden px-4 py-4 text-sm leading-5 text-blue-900 whitespace-no-wrap">
-                                            <span class="relative inline-block px-3 py-1 font-semibold leading-tight text-green-900">
-                                                <span aria-hidden class="absolute inset-0 bg-red-600"></span>
-                                                <span class="relative text-xs text-white">Odbijeno</span>
+                                            <span class="relative inline-block px-[6px] py-[2px] font-medium leading-tight text-green-900">
+                                            <span aria-hidden class="absolute inset-0 bg-red-200 rounded-[5px]"></span>
+                                                <span class="relative text-xs text-red-800">Odbijeno</span>
                                             </span>
                                         </td>
                                         <td class="px-4 py-4 text-sm leading-5 text-right whitespace-no-wrap">
@@ -230,7 +251,7 @@
                                             </p>
                                         </td>
                                     </tr>
-                                    <tr class="bg-gray-200 border-b-2 border-gray-300 changeBg">
+                                    <tr class="bg-gray-200 border-b-[1px] border-[#e4dfdf] changeBg">
                                         <td class="px-4 py-4 whitespace-no-wrap">
                                             <label class="inline-flex items-center">
                                                 <input type="checkbox" class="form-checkbox">
@@ -239,14 +260,14 @@
                                         <td class="flex flex-row items-center px-4 py-4">
                                             <img class="object-cover w-8 h-11" src="img/tomsojer.jpg" alt=""/>
                                             <a href="knjigaOsnovniDetalji.php">
-                                                <span class="ml-2 font-semibold text-center">Tom Sojer</span>
+                                                <span class="ml-2 font-medium text-center">Tom Sojer</span>
                                             </a>
                                         </td>
                                         <td class="px-4 py-4 text-sm leading-5 whitespace-no-wrap">Mark Twain</td>
                                         <td class="px-4 py-4 text-sm leading-5 whitespace-no-wrap">31.02.2021</td>
                                         <td class="flex flex-row items-center px-4 py-4">
                                             <img class="object-cover w-8 h-8 rounded-full" src="img/profileStudent.jpg" alt=""/>
-                                            <span class="ml-2 font-semibold text-center">Pero Perovic</span>
+                                            <a href="ucenikProfile.php" class="ml-2 font-medium text-center">Pero Perovic</a>
                                         </td>
                                         <td class="px-4 py-2 changeStatus">
                                             <a href="#" class="hover:text-green-500 mr-[5px]">
@@ -257,15 +278,15 @@
                                             </a>
                                         </td>
                                         <td class="hidden px-4 py-4 text-sm leading-5 text-blue-900 whitespace-no-wrap">
-                                            <span class="relative inline-block px-3 py-1 font-semibold leading-tight text-green-900">
-                                                <span aria-hidden class="absolute inset-0 bg-yellow-500"></span>
-                                                <span class="relative text-xs text-white">Rezervisano</span>
+                                            <span class="relative inline-block px-[6px] py-[2px] font-medium leading-tight text-green-900">
+                                            <span aria-hidden class="absolute inset-0 bg-yellow-200 rounded-[5px]"></span>
+                                                <span class="relative text-xs text-yellow-700">Rezervisano</span>
                                             </span>
                                         </td>
                                         <td class="hidden px-4 py-4 text-sm leading-5 text-blue-900 whitespace-no-wrap">
-                                            <span class="relative inline-block px-3 py-1 font-semibold leading-tight text-green-900">
-                                                <span aria-hidden class="absolute inset-0 bg-red-600"></span>
-                                                <span class="relative text-xs text-white">Odbijeno</span>
+                                            <span class="relative inline-block px-[6px] py-[2px] font-medium leading-tight text-green-900">
+                                            <span aria-hidden class="absolute inset-0 bg-red-200 rounded-[5px]"></span>
+                                                <span class="relative text-xs text-red-800">Odbijeno</span>
                                             </span>
                                         </td>
                                         <td class="px-4 py-4 text-sm leading-5 text-right whitespace-no-wrap">
@@ -274,7 +295,7 @@
                                             </p>
                                         </td>
                                     </tr>
-                                    <tr class="bg-gray-200 border-b-2 border-gray-300 changeBg">
+                                    <tr class="bg-gray-200 border-b-[1px] border-[#e4dfdf] changeBg">
                                         <td class="px-4 py-4 whitespace-no-wrap">
                                             <label class="inline-flex items-center">
                                                 <input type="checkbox" class="form-checkbox">
@@ -283,14 +304,14 @@
                                         <td class="flex flex-row items-center px-4 py-4">
                                             <img class="object-cover w-8 h-11" src="img/tomsojer.jpg" alt=""/>
                                             <a href="knjigaOsnovniDetalji.php">
-                                                <span class="ml-2 font-semibold text-center">Robinson Kruso</span>
+                                                <span class="ml-2 font-medium text-center">Robinson Kruso</span>
                                             </a>
                                         </td>
                                         <td class="px-4 py-4 text-sm leading-5 whitespace-no-wrap">Daniel Defoe</td>
                                         <td class="px-4 py-4 text-sm leading-5 whitespace-no-wrap">31.04.2019</td>
                                         <td class="flex flex-row items-center px-4 py-4">
                                             <img class="object-cover w-8 h-8 rounded-full" src="img/profileStudent.jpg" alt=""/>
-                                            <span class="ml-2 font-semibold text-center">Pero Perovic</span>
+                                            <a href="ucenikProfile.php" class="ml-2 font-medium text-center">Pero Perovic</a>
                                         </td>
                                         <td class="px-4 py-2 changeStatus">
                                             <a href="#" class="hover:text-green-500 mr-[5px]">
@@ -301,15 +322,15 @@
                                             </a>
                                         </td>
                                         <td class="hidden px-4 py-4 text-sm leading-5 text-blue-900 whitespace-no-wrap">
-                                            <span class="relative inline-block px-3 py-1 font-semibold leading-tight text-green-900">
-                                                <span aria-hidden class="absolute inset-0 bg-yellow-500"></span>
-                                                <span class="relative text-xs text-white">Rezervisano</span>
+                                            <span class="relative inline-block px-[6px] py-[2px] font-medium leading-tight text-green-900">
+                                            <span aria-hidden class="absolute inset-0 bg-yellow-200 rounded-[5px]"></span>
+                                                <span class="relative text-xs text-yellow-700">Rezervisano</span>
                                             </span>
                                         </td>
                                         <td class="hidden px-4 py-4 text-sm leading-5 text-blue-900 whitespace-no-wrap">
-                                            <span class="relative inline-block px-3 py-1 font-semibold leading-tight text-green-900">
-                                                <span aria-hidden class="absolute inset-0 bg-red-600"></span>
-                                                <span class="relative text-xs text-white">Odbijeno</span>
+                                            <span class="relative inline-block px-[6px] py-[2px] font-medium leading-tight text-green-900">
+                                            <span aria-hidden class="absolute inset-0 bg-red-200 rounded-[5px]"></span>
+                                                <span class="relative text-xs text-red-800">Odbijeno</span>
                                             </span>
                                         </td>
                                         <td class="px-4 py-4 text-sm leading-5 text-right whitespace-no-wrap">
@@ -318,7 +339,7 @@
                                             </p>
                                         </td>
                                     </tr>
-                                    <tr class="border-b-2 border-gray-300">
+                                    <tr class="border-b-[1px] border-[#e4dfdf]">
                                         <td class="px-4 py-4 whitespace-no-wrap">
                                             <label class="inline-flex items-center">
                                                 <input type="checkbox" class="form-checkbox">
@@ -327,19 +348,19 @@
                                         <td class="flex flex-row items-center px-4 py-4">
                                             <img class="object-cover w-8 h-11" src="img/tomsojer.jpg" alt=""/>
                                             <a href="knjigaOsnovniDetalji.php">
-                                                <span class="ml-2 font-semibold text-center">Robinson Kruso</span>
+                                                <span class="ml-2 font-medium text-center">Robinson Kruso</span>
                                             </a>
                                         </td>
                                         <td class="px-4 py-4 text-sm leading-5 whitespace-no-wrap">Daniel Defoe</td>
                                         <td class="px-4 py-4 text-sm leading-5 whitespace-no-wrap">31.04.2019</td>
                                         <td class="flex flex-row items-center px-4 py-4">
                                             <img class="object-cover w-8 h-8 rounded-full" src="img/profileStudent.jpg" alt=""/>
-                                            <span class="ml-2 font-semibold text-center">Pero Perovic</span>
+                                            <a href="ucenikProfile.php" class="ml-2 font-medium text-center">Pero Perovic</a>
                                         </td>
                                         <td class="px-4 py-4 text-sm leading-5 text-blue-900 whitespace-no-wrap">
-                                            <span class="relative inline-block px-3 py-1 font-semibold leading-tight text-green-900">
-                                                <span aria-hidden class="absolute inset-0 bg-yellow-500"></span>
-                                                <span class="relative text-xs text-white">Rezervisano</span>
+                                            <span class="relative inline-block px-3 py-1 font-medium leading-tight text-green-900">
+                                            <span aria-hidden class="absolute inset-0 bg-yellow-200 rounded-[5px]"></span>
+                                                <span class="relative text-xs text-yellow-700">Rezervisano</span>
                                             </span>
                                         </td>
                                         <td class="px-4 py-4 text-sm leading-5 text-right whitespace-no-wrap">
@@ -348,7 +369,7 @@
                                             </p>
                                         </td>
                                     </tr>
-                                    <tr class="border-b-2 border-gray-300">
+                                    <tr class="border-b-[1px] border-[#e4dfdf]">
                                         <td class="px-4 py-4 whitespace-no-wrap">
                                             <label class="inline-flex items-center">
                                                 <input type="checkbox" class="form-checkbox">
@@ -357,19 +378,19 @@
                                         <td class="flex flex-row items-center px-4 py-4">
                                             <img class="object-cover w-8 h-11" src="img/tomsojer.jpg" alt=""/>
                                             <a href="knjigaOsnovniDetalji.php">
-                                                <span class="ml-2 font-semibold text-center">Robinson Kruso</span>
+                                                <span class="ml-2 font-medium text-center">Robinson Kruso</span>
                                             </a>
                                         </td>
                                         <td class="px-4 py-4 text-sm leading-5 whitespace-no-wrap">Daniel Defoe</td>
                                         <td class="px-4 py-4 text-sm leading-5 whitespace-no-wrap">31.04.2019</td>
                                         <td class="flex flex-row items-center px-4 py-4">
                                             <img class="object-cover w-8 h-8 rounded-full" src="img/profileStudent.jpg" alt=""/>
-                                            <span class="ml-2 font-semibold text-center">Pero Perovic</span>
+                                            <a href="ucenikProfile.php" class="ml-2 font-medium text-center">Pero Perovic</a>
                                         </td>
                                         <td class="px-4 py-4 text-sm leading-5 text-blue-900 whitespace-no-wrap">
-                                            <span class="relative inline-block px-3 py-1 font-semibold leading-tight text-green-900">
-                                                <span aria-hidden class="absolute inset-0 bg-yellow-500"></span>
-                                                <span class="relative text-xs text-white">Rezervisano</span>
+                                            <span class="relative inline-block px-3 py-1 font-medium leading-tight text-green-900">
+                                            <span aria-hidden class="absolute inset-0 bg-yellow-200 rounded-[5px]"></span>
+                                                <span class="relative text-xs text-yellow-700">Rezervisano</span>
                                             </span>
                                         </td>
                                         <td class="px-4 py-4 text-sm leading-5 text-right whitespace-no-wrap">
@@ -378,7 +399,7 @@
                                             </p>
                                         </td>
                                     </tr>
-                                    <tr class="border-b-2 border-gray-300">
+                                    <tr class="border-b-[1px] border-[#e4dfdf]">
                                         <td class="px-4 py-4 whitespace-no-wrap">
                                             <label class="inline-flex items-center">
                                                 <input type="checkbox" class="form-checkbox">
@@ -387,19 +408,19 @@
                                         <td class="flex flex-row items-center px-4 py-4">
                                             <img class="object-cover w-8 h-11" src="img/tomsojer.jpg" alt=""/>
                                             <a href="knjigaOsnovniDetalji.php">
-                                                <span class="ml-2 font-semibold text-center">Robinson Kruso</span>
+                                                <span class="ml-2 font-medium text-center">Robinson Kruso</span>
                                             </a>
                                         </td>
                                         <td class="px-4 py-4 text-sm leading-5 whitespace-no-wrap">Daniel Defoe</td>
                                         <td class="px-4 py-4 text-sm leading-5 whitespace-no-wrap">31.04.2019</td>
                                         <td class="flex flex-row items-center px-4 py-4">
                                             <img class="object-cover w-8 h-8 rounded-full" src="img/profileStudent.jpg" alt=""/>
-                                            <span class="ml-2 font-semibold text-center">Pero Perovic</span>
+                                            <a href="ucenikProfile.php" class="ml-2 font-medium text-center">Pero Perovic</a>
                                         </td>
                                         <td class="px-4 py-4 text-sm leading-5 text-blue-900 whitespace-no-wrap">
-                                            <span class="relative inline-block px-3 py-1 font-semibold leading-tight text-green-900">
-                                                <span aria-hidden class="absolute inset-0 bg-red-600"></span>
-                                                <span class="relative text-xs text-white">Odbijeno</span>
+                                            <span class="relative inline-block px-[6px] py-[2px] font-medium leading-tight text-green-900">
+                                            <span aria-hidden class="absolute inset-0 bg-red-200 rounded-[5px]"></span>
+                                                <span class="relative text-xs text-red-800">Odbijeno</span>
                                             </span>
                                         </td>
                                         <td class="px-4 py-4 text-sm leading-5 text-right whitespace-no-wrap">
