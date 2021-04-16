@@ -1042,6 +1042,10 @@ h3 {
 .m-1{
   margin: 0.25rem;
 }
+.my-2{
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
+}
 .mx-2{
   margin-left: 0.5rem;
   margin-right: 0.5rem;
@@ -1066,10 +1070,6 @@ h3 {
   margin-top: 10px;
   margin-bottom: 10px;
 }
-.my-2{
-  margin-top: 0.5rem;
-  margin-bottom: 0.5rem;
-}
 .mt-\[7px\]{
   margin-top: 7px;
 }
@@ -1079,11 +1079,8 @@ h3 {
 .ml-3{
   margin-left: 0.75rem;
 }
-.ml-2{
-  margin-left: 0.5rem;
-}
-.mt-2{
-  margin-top: 0.5rem;
+.mr-2{
+  margin-right: 0.5rem;
 }
 .-ml-px{
   margin-left: -1px;
@@ -1093,6 +1090,9 @@ h3 {
 }
 .ml-\[20px\]{
   margin-left: 20px;
+}
+.mt-2{
+  margin-top: 0.5rem;
 }
 .mr-\[10px\]{
   margin-right: 10px;
@@ -1133,6 +1133,9 @@ h3 {
 .mr-\[50px\]{
   margin-right: 50px;
 }
+.ml-2{
+  margin-left: 0.5rem;
+}
 .mr-\[5px\]{
   margin-right: 5px;
 }
@@ -1153,9 +1156,6 @@ h3 {
 }
 .mt-\[2px\]{
   margin-top: 2px;
-}
-.mr-2{
-  margin-right: 0.5rem;
 }
 .ml-\[4px\]{
   margin-left: 4px;
@@ -1816,10 +1816,6 @@ h3 {
   --tw-bg-opacity: 1;
   background-color: rgba(254, 202, 202, var(--tw-bg-opacity));
 }
-.bg-yellow-500{
-  --tw-bg-opacity: 1;
-  background-color: rgba(245, 158, 11, var(--tw-bg-opacity));
-}
 .bg-blue-500{
   --tw-bg-opacity: 1;
   background-color: rgba(59, 130, 246, var(--tw-bg-opacity));
@@ -2002,6 +1998,10 @@ h3 {
 .py-\[20px\]{
   padding-top: 20px;
   padding-bottom: 20px;
+}
+.py-\[1px\]{
+  padding-top: 1px;
+  padding-bottom: 1px;
 }
 .py-\[18px\]{
   padding-top: 18px;
