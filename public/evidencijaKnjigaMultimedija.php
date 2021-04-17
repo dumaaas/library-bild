@@ -34,17 +34,17 @@
         <!-- End Sidebar -->
 
         <!-- Content -->
-        <section class="w-screen h-screen py-4 pl-[80px] text-gray-700">
+        <section class="w-screen h-screen pb-2 pl-[80px] text-gray-700">
             <!-- Heading of content -->
             <div class="heading">
-                <div class="flex flex-row justify-between border-b-[2px] border-gray-300">
-                    <div class="flex flex-row">
-                        <div class="w-[80px] pl-[30px]">
+                <div class="flex flex-row justify-between border-b-[1px] border-[#e4dfdf]">
+                    <div class="py-[10px] flex flex-row">
+                        <div class="w-[77px] pl-[30px]">
                             <img src="img/tomsojer.jpg" alt="">
                         </div>
-                        <div class="pl-[15px] pb-[10px] flex flex-col">
+                        <div class="pl-[15px]  flex flex-col">
                             <div>
-                                <h1 class=" text-[35px] font-bold">
+                                <h1>
                                     Tom Sojer
                                 </h1>
                             </div>
@@ -52,7 +52,7 @@
                                 <nav class="w-full rounded">
                                     <ol class="flex list-reset">
                                         <li>
-                                            <a href="evidencija.php" class="font-medium text-blue-600 hover:text-blue-800">
+                                            <a href="evidencija.php" class="text-[#2196f3] hover:text-blue-600">
                                                 Evidencija knjiga
                                             </a>
                                         </li>
@@ -60,7 +60,8 @@
                                             <span class="mx-2">/</span>
                                         </li>
                                         <li>
-                                            <a href="knjigaOsnovniDetalji.php" class="font-medium text-blue-600 hover:text-blue-800">
+                                            <a href="knjigaOsnovniDetalji.php"
+                                                class="text-[#2196f3] hover:text-blue-600">
                                                 KNJIGA-467
                                             </a>
                                         </li>
@@ -69,7 +70,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="mt-[15px] mr-[30px]">
+                    <div class="pt-[24px] mr-[30px]">
                         <a href="otpisiKnjigu.php" class="inline hover:text-blue-600">
                             <i class="fas fa-power-off mr-[3px]"></i>
                             Otpisi knjigu
@@ -86,15 +87,37 @@
                             <i class="far fa-calendar-check mr-[3px] "></i>
                             Rezervisi knjigu
                         </a>
-                        <p class="inline cursor-pointer text-[25px] py-[10px] pl-[30px] border-l-[2px] border-gray-300">
-                            <i class="fas fa-ellipsis-v"></i>
+                        <p class="inline cursor-pointer text-[25px] py-[10px] pl-[30px] border-l-[1px] border-[#e4dfdf]"
+                            id="dropdownBookDetail">
+                            <i
+                                class="fas fa-ellipsis-v hover:text-gray-500 focus:outline-none active:text-gray-800"></i>
                         </p>
+                        <div
+                            class="hidden transition-all duration-300 origin-top-right transform scale-95 -translate-y-2 dropdown-menu-book-detail">
+                            <div class="absolute right-0 w-56 mt-2 origin-top-right bg-white border border-[#e4dfdf] divide-y divide-gray-100 rounded-md shadow-lg outline-none"
+                                aria-labelledby="headlessui-menu-button-1" id="headlessui-menu-items-117" role="menu">
+                                <div class="py-1">
+                                    <a href="javascript:void(0)" tabindex="0"
+                                        class="flex w-full px-4 py-2 text-sm leading-5 text-left text-gray-700"
+                                        role="menuitem">
+                                        <i class="fas fa-edit mr-[6px] ml-[5px] py-1"></i>
+                                        <span class="px-4 py-0">Izmijeni knjigu</span>
+                                    </a>
+                                    <a href="javascript:void(0)" tabindex="0"
+                                        class="flex w-full px-4 py-2 text-sm leading-5 text-left text-gray-700"
+                                        role="menuitem">
+                                        <i class="fa fa-trash mr-[10px] ml-[5px] py-1"></i>
+                                        <span class="px-4 py-0">Izbrisi knjigu</span>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
             <div class="flex flex-row overflow-auto height-osnovniDetalji">
                 <div class="w-[80%]">
-                    <div class="border-b-[2px] py-4 text-gray-500 border-gray-300 pl-[30px]">
+                    <div class="border-b-[1px] border-[#e4dfdf] py-4 text-gray-500 pl-[30px]">
                         <a href="knjigaOsnovniDetalji.php" class="inline hover:text-blue-800">
                             Osnovni detalji
                         </a>
@@ -114,7 +137,8 @@
                             <div class="flex flex-row">
                                 <div class="w-[100%]">
                                     <div class="w-[90%] mx-auto bg-white rounded p7 mt-[20px]">
-                                        <div x-data="dataFileDnD()" class="relative flex flex-col p-4 text-gray-400 border border-gray-200 rounded">
+                                        <div x-data="dataFileDnD()"
+                                            class="relative flex flex-col p-4 text-gray-400 border border-gray-200 rounded">
                                             <div x-ref="dnd"
                                                 class="relative flex flex-col text-gray-400 border border-gray-200 border-dashed rounded cursor-pointer">
                                                 <input accept="*" type="file" multiple
@@ -125,10 +149,13 @@
                                                     @drop="$refs.dnd.classList.remove('border-blue-400'); $refs.dnd.classList.remove('ring-4'); $refs.dnd.classList.remove('ring-inset');"
                                                     title="" />
 
-                                                <div class="flex flex-col items-center justify-center py-10 text-center">
-                                                    <svg class="w-6 h-6 mr-1 text-current-50" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
-                                                        stroke="currentColor">
-                                                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                                <div
+                                                    class="flex flex-col items-center justify-center py-10 text-center">
+                                                    <svg class="w-6 h-6 mr-1 text-current-50"
+                                                        xmlns="http://www.w3.org/2000/svg" fill="none"
+                                                        viewBox="0 0 24 24" stroke="currentColor">
+                                                        <path stroke-linecap="round" stroke-linejoin="round"
+                                                            stroke-width="2"
                                                             d="M4 16l4.586-4.586a2 2 0 012.828 0L16 16m-2-2l1.586-1.586a2 2 0 012.828 0L20 14m-6-6h.01M6 20h12a2 2 0 002-2V6a2 2 0 00-2-2H6a2 2 0 00-2 2v12a2 2 0 002 2z" />
                                                     </svg>
                                                     <p class="m-0">Drag your files here or click in this area.</p>
@@ -136,100 +163,134 @@
                                             </div>
 
                                             <!-- <template x-if="files.length > 0"> -->
-                                                <div class="grid grid-cols-2 gap-4 mt-4 2xl:grid-cols-4" @drop.prevent="drop($event)"
-                                                    @dragover.prevent="$event.dataTransfer.dropEffect = 'move'">
-                                                    <!-- Image 1 -->
-                                                    <div class="relative flex flex-col p-2 text-xs bg-white bg-opacity-50">
-                                                        <img src="img/tomsojer.jpg" alt="" class="h-[300px]">
-                                                        <!-- Checkbox -->
-                                                        <input class="absolute top-[10px] right-[10px] z-50 p-1 bg-white rounded-bl focus:outline-none" type="radio" name="chosen_image" checked/>
-                                                            <!-- End checkbox -->
-                                                        <button class="absolute bottom-[5px] right-[6px] z-50 p-1 bg-white rounded-bl focus:outline-none" type="button">
-                                                            <svg class="w-[25px] h-[25px] text-gray-700" xmlns="http://www.w3.org/2000/svg" fill="none"
-                                                                nviewBox="0 0 24 24" stroke="currentColor">
-                                                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-                                                                      d="M19 7l-.867 12.142A2 2 0 0116.138 21H7.862a2 2 0 01-1.995-1.858L5 7m5 4v6m4-6v6m1-10V4a1 1 0 00-1-1h-4a1 1 0 00-1 1v3M4 7h16" />
-                                                            </svg>
-                                                        </button>
-                                                        <div class="absolute bottom-[20px] left-0 right-0 flex flex-col p-2 text-xs bg-white bg-opacity-50 text-center">
-                                                            <span class="w-full font-bold text-gray-900 truncate">tomsojer.jpg</span>
-                                                            <span class="text-xs text-gray-900">89kB</span>
-                                                        </div>
+                                            <div class="grid grid-cols-2 gap-4 mt-4 2xl:grid-cols-4"
+                                                @drop.prevent="drop($event)"
+                                                @dragover.prevent="$event.dataTransfer.dropEffect = 'move'">
+                                                <!-- Image 1 -->
+                                                <div class="relative flex flex-col p-2 text-xs bg-white bg-opacity-50">
+                                                    <img src="img/tomsojer.jpg" alt="" class="h-[300px]">
+                                                    <!-- Checkbox -->
+                                                    <input
+                                                        class="absolute top-[10px] right-[10px] z-50 p-1 bg-white rounded-bl focus:outline-none"
+                                                        type="radio" name="chosen_image" checked />
+                                                    <!-- End checkbox -->
+                                                    <button
+                                                        class="absolute bottom-[5px] right-[6px] z-50 p-1 bg-white rounded-bl focus:outline-none"
+                                                        type="button">
+                                                        <svg class="w-[25px] h-[25px] text-gray-700"
+                                                            xmlns="http://www.w3.org/2000/svg" fill="none"
+                                                            nviewBox="0 0 24 24" stroke="currentColor">
+                                                            <path stroke-linecap="round" stroke-linejoin="round"
+                                                                stroke-width="2"
+                                                                d="M19 7l-.867 12.142A2 2 0 0116.138 21H7.862a2 2 0 01-1.995-1.858L5 7m5 4v6m4-6v6m1-10V4a1 1 0 00-1-1h-4a1 1 0 00-1 1v3M4 7h16" />
+                                                        </svg>
+                                                    </button>
+                                                    <div
+                                                        class="absolute bottom-[20px] left-0 right-0 flex flex-col p-2 text-xs bg-white bg-opacity-50 text-center">
+                                                        <span
+                                                            class="w-full font-bold text-gray-900 truncate">tomsojer.jpg</span>
+                                                        <span class="text-xs text-gray-900">89kB</span>
                                                     </div>
-                                                    <!-- End of image 1 -->
-                                                    <!-- Image 2 -->
-                                                    <div class="relative flex flex-col p-2 text-xs bg-white bg-opacity-50">
-                                                        <img src="img/tomsojer2.jpg" alt="" class="h-[300px]">
-                                                        <!-- Checkbox -->
-                                                        <input class="absolute top-[10px] right-[10px] z-50 p-1 bg-white rounded-bl focus:outline-none" type="radio" name="chosen_image"/>
-                                                            <!-- End checkbox -->
-                                                        <button class="absolute bottom-[5px] right-[6px] z-50 p-1 bg-white rounded-bl focus:outline-none" type="button">
-                                                            <svg class="w-[25px] h-[25px] text-gray-700" xmlns="http://www.w3.org/2000/svg" fill="none"
-                                                                nviewBox="0 0 24 24" stroke="currentColor">
-                                                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-                                                                      d="M19 7l-.867 12.142A2 2 0 0116.138 21H7.862a2 2 0 01-1.995-1.858L5 7m5 4v6m4-6v6m1-10V4a1 1 0 00-1-1h-4a1 1 0 00-1 1v3M4 7h16" />
-                                                            </svg>
-                                                        </button>
-                                                        <div class="absolute bottom-[20px] left-0 right-0 flex flex-col p-2 text-xs bg-white bg-opacity-50 text-center">
-                                                            <span class="w-full font-bold text-gray-900 truncate">tomsojer2.jpg</span>
-                                                            <span class="text-xs text-gray-900">41kB</span>
-                                                        </div>
-                                                    </div>
-                                                    <!-- End of image 2 -->
-
-                                                    <template x-for="(_, index) in Array.from({ length: files.length })">
-                                                        <div class="relative flex flex-col items-center overflow-hidden text-center bg-gray-100 border rounded cursor-move select-none"
-                                                            style="padding-top: 100%;" @dragstart="dragstart($event)" @dragend="fileDragging = null"
-                                                            :class="{'border-blue-600': fileDragging == index}" draggable="true" :data-index="index">
-                                                            <!-- Checkbox -->
-                                                            <input class="absolute top-0 right-0 z-50 p-1 bg-white rounded-bl focus:outline-none" type="radio" name="chosen_image"/>
-                                                            <!-- End checkbox -->
-                                                            <button class="absolute bottom-0 right-0 z-50 p-1 bg-white rounded-bl focus:outline-none" type="button" @click="remove(index)">
-                                                                <svg class="w-[25px] h-[25px] text-gray-700" xmlns="http://www.w3.org/2000/svg" fill="none"
-                                                                    nviewBox="0 0 24 24" stroke="currentColor">
-                                                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-                                                                        d="M19 7l-.867 12.142A2 2 0 0116.138 21H7.862a2 2 0 01-1.995-1.858L5 7m5 4v6m4-6v6m1-10V4a1 1 0 00-1-1h-4a1 1 0 00-1 1v3M4 7h16" />
-                                                                </svg>
-                                                            </button>
-                                                            <template x-if="files[index].type.includes('audio/')">
-                                                                <svg class="absolute w-12 h-12 text-gray-400 transform top-1/2 -translate-y-2/3"
-                                                                    xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                                                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-                                                                        d="M9 19V6l12-3v13M9 19c0 1.105-1.343 2-3 2s-3-.895-3-2 1.343-2 3-2 3 .895 3 2zm12-3c0 1.105-1.343 2-3 2s-3-.895-3-2 1.343-2 3-2 3 .895 3 2zM9 10l12-3" />
-                                                                </svg>
-                                                            </template>
-                                                            <template x-if="files[index].type.includes('application/') || files[index].type === ''">
-                                                                <svg class="absolute w-12 h-12 text-gray-400 transform top-1/2 -translate-y-2/3"
-                                                                    xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                                                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-                                                                        d="M7 21h10a2 2 0 002-2V9.414a1 1 0 00-.293-.707l-5.414-5.414A1 1 0 0012.586 3H7a2 2 0 00-2 2v14a2 2 0 002 2z" />
-                                                                </svg>
-                                                                </template>
-                                                            <template x-if="files[index].type.includes('image/')">
-                                                                <img class="absolute inset-0 z-0 object-cover w-full h-full border-4 border-white preview"
-                                                                    x-bind:src="loadFile(files[index])" />
-                                                            </template>
-                                                            <template x-if="files[index].type.includes('video/')">
-                                                                <video
-                                                                    class="absolute inset-0 object-cover w-full h-full border-4 border-white pointer-events-none preview">
-                                                                    <fileDragging x-bind:src="loadFile(files[index])" type="video/mp4">
-                                                                </video>
-                                                                </template>
-
-                                                            <div class="absolute bottom-0 left-0 right-0 flex flex-col p-2 text-xs bg-white bg-opacity-50">
-                                                                <span class="w-full font-bold text-gray-900 truncate"
-                                                                    x-text="files[index].name">Loading</span>
-                                                                <span class="text-xs text-gray-900" x-text="humanFileSize(files[index].size)">...</span>
-                                                            </div>
-
-                                                            <div class="absolute inset-0 z-40 transition-colors duration-300" @dragenter="dragenter($event)"
-                                                                @dragleave="fileDropping = null"
-                                                                :class="{'bg-blue-200 bg-opacity-80': fileDropping == index && fileDragging != index}">
-                                                            </div>
-                                                            
-                                                        </div>
-                                                    </template>
                                                 </div>
+                                                <!-- End of image 1 -->
+                                                <!-- Image 2 -->
+                                                <div class="relative flex flex-col p-2 text-xs bg-white bg-opacity-50">
+                                                    <img src="img/tomsojer2.jpg" alt="" class="h-[300px]">
+                                                    <!-- Checkbox -->
+                                                    <input
+                                                        class="absolute top-[10px] right-[10px] z-50 p-1 bg-white rounded-bl focus:outline-none"
+                                                        type="radio" name="chosen_image" />
+                                                    <!-- End checkbox -->
+                                                    <button
+                                                        class="absolute bottom-[5px] right-[6px] z-50 p-1 bg-white rounded-bl focus:outline-none"
+                                                        type="button">
+                                                        <svg class="w-[25px] h-[25px] text-gray-700"
+                                                            xmlns="http://www.w3.org/2000/svg" fill="none"
+                                                            nviewBox="0 0 24 24" stroke="currentColor">
+                                                            <path stroke-linecap="round" stroke-linejoin="round"
+                                                                stroke-width="2"
+                                                                d="M19 7l-.867 12.142A2 2 0 0116.138 21H7.862a2 2 0 01-1.995-1.858L5 7m5 4v6m4-6v6m1-10V4a1 1 0 00-1-1h-4a1 1 0 00-1 1v3M4 7h16" />
+                                                        </svg>
+                                                    </button>
+                                                    <div
+                                                        class="absolute bottom-[20px] left-0 right-0 flex flex-col p-2 text-xs bg-white bg-opacity-50 text-center">
+                                                        <span
+                                                            class="w-full font-bold text-gray-900 truncate">tomsojer2.jpg</span>
+                                                        <span class="text-xs text-gray-900">41kB</span>
+                                                    </div>
+                                                </div>
+                                                <!-- End of image 2 -->
+
+                                                <template x-for="(_, index) in Array.from({ length: files.length })">
+                                                    <div class="relative flex flex-col items-center overflow-hidden text-center bg-gray-100 border rounded cursor-move select-none"
+                                                        style="padding-top: 100%;" @dragstart="dragstart($event)"
+                                                        @dragend="fileDragging = null"
+                                                        :class="{'border-blue-600': fileDragging == index}"
+                                                        draggable="true" :data-index="index">
+                                                        <!-- Checkbox -->
+                                                        <input
+                                                            class="absolute top-0 right-0 z-50 p-1 bg-white rounded-bl focus:outline-none"
+                                                            type="radio" name="chosen_image" />
+                                                        <!-- End checkbox -->
+                                                        <button
+                                                            class="absolute bottom-0 right-0 z-50 p-1 bg-white rounded-bl focus:outline-none"
+                                                            type="button" @click="remove(index)">
+                                                            <svg class="w-[25px] h-[25px] text-gray-700"
+                                                                xmlns="http://www.w3.org/2000/svg" fill="none"
+                                                                nviewBox="0 0 24 24" stroke="currentColor">
+                                                                <path stroke-linecap="round" stroke-linejoin="round"
+                                                                    stroke-width="2"
+                                                                    d="M19 7l-.867 12.142A2 2 0 0116.138 21H7.862a2 2 0 01-1.995-1.858L5 7m5 4v6m4-6v6m1-10V4a1 1 0 00-1-1h-4a1 1 0 00-1 1v3M4 7h16" />
+                                                            </svg>
+                                                        </button>
+                                                        <template x-if="files[index].type.includes('audio/')">
+                                                            <svg class="absolute w-12 h-12 text-gray-400 transform top-1/2 -translate-y-2/3"
+                                                                xmlns="http://www.w3.org/2000/svg" fill="none"
+                                                                viewBox="0 0 24 24" stroke="currentColor">
+                                                                <path stroke-linecap="round" stroke-linejoin="round"
+                                                                    stroke-width="2"
+                                                                    d="M9 19V6l12-3v13M9 19c0 1.105-1.343 2-3 2s-3-.895-3-2 1.343-2 3-2 3 .895 3 2zm12-3c0 1.105-1.343 2-3 2s-3-.895-3-2 1.343-2 3-2 3 .895 3 2zM9 10l12-3" />
+                                                            </svg>
+                                                        </template>
+                                                        <template
+                                                            x-if="files[index].type.includes('application/') || files[index].type === ''">
+                                                            <svg class="absolute w-12 h-12 text-gray-400 transform top-1/2 -translate-y-2/3"
+                                                                xmlns="http://www.w3.org/2000/svg" fill="none"
+                                                                viewBox="0 0 24 24" stroke="currentColor">
+                                                                <path stroke-linecap="round" stroke-linejoin="round"
+                                                                    stroke-width="2"
+                                                                    d="M7 21h10a2 2 0 002-2V9.414a1 1 0 00-.293-.707l-5.414-5.414A1 1 0 0012.586 3H7a2 2 0 00-2 2v14a2 2 0 002 2z" />
+                                                            </svg>
+                                                        </template>
+                                                        <template x-if="files[index].type.includes('image/')">
+                                                            <img class="absolute inset-0 z-0 object-cover w-full h-full border-4 border-white preview"
+                                                                x-bind:src="loadFile(files[index])" />
+                                                        </template>
+                                                        <template x-if="files[index].type.includes('video/')">
+                                                            <video
+                                                                class="absolute inset-0 object-cover w-full h-full border-4 border-white pointer-events-none preview">
+                                                                <fileDragging x-bind:src="loadFile(files[index])"
+                                                                    type="video/mp4">
+                                                            </video>
+                                                        </template>
+
+                                                        <div
+                                                            class="absolute bottom-0 left-0 right-0 flex flex-col p-2 text-xs bg-white bg-opacity-50">
+                                                            <span class="w-full font-bold text-gray-900 truncate"
+                                                                x-text="files[index].name">Loading</span>
+                                                            <span class="text-xs text-gray-900"
+                                                                x-text="humanFileSize(files[index].size)">...</span>
+                                                        </div>
+
+                                                        <div class="absolute inset-0 z-40 transition-colors duration-300"
+                                                            @dragenter="dragenter($event)"
+                                                            @dragleave="fileDropping = null"
+                                                            :class="{'bg-blue-200 bg-opacity-80': fileDropping == index && fileDragging != index}">
+                                                        </div>
+
+                                                    </div>
+                                                </template>
+                                            </div>
                                             <!-- </template> -->
                                         </div>
                                     </div>
@@ -238,45 +299,36 @@
                         </div>
                     </div>
                 </div>
-                <div class="min-w-[20%] border-l-[2px] border-gray-300px ">
-                    <div class="border-b-[2px] border-gray-300">
-                        <div class="mx-[30px] mt-[20px] flex flex-row justify-between">
+                <div class="min-w-[20%] border-l-[1px] border-[#e4dfdf] ">
+                    <div class="border-b-[1px] border-[#e4dfdf]">
+                        <div class="ml-[30px] mr-[70px] mt-[20px] flex flex-row justify-between">
                             <div class="text-gray-500 ">
-                                <p>Status:</p>
-                                <p class="mt-[20px]">
-                                    Datum izdavanja:
-                                </p>
-                                <p class="mt-[20px]">
-                                    Izdato korisniku:
-                                </p>
-                                <p class="mt-[20px]">
-                                    Knjiga zadrzana:
-                                </p>
-                                <p class="mt-[20px]">
-                                    Izdao bibliotekar:
-                                </p>
+                                <p>Na raspolaganju:</p>
+                                <p class="mt-[20px]">Rezervisano:</p>
+                                <p class="mt-[20px]">Izdato:</p>
+                                <p class="mt-[20px]">U prekoracenju:</p>
+                                <p class="mt-[20px]">Ukupna kolicina:</p>
                             </div>
-                            <div class="font-medium text-left pb-[30px]">
-                                <span class="bg-blue-600 text-white text-center px-[15px] py-[5px]">
-                                    Knjiga je izdata
-                                </span>
-                                <p class="mt-[20px]">
-                                    21.02.2021
-                                </p>
-                                <a href="ucenikProfile.php" class="block hover:text-blue-800 text-blue-500 mt-[20px]">
-                                    Pero Perovic
-                                </a>
-                                <p class="mt-[20px]">
-                                    2 mjeseca i 3 dana
-                                </p>
-                                <a href="bibliotekarProfile" class="block hover:text-blue-800 text-blue-500 mt-[20px]">
-                                    Valentina Kascelan
-                                </a>
+                            <div class="text-center pb-[30px]">
+                                <p class=" bg-green-200 text-green-700 rounded-[10px] px-[6px] py-[2px] text-[14px]">5
+                                    primjeraka</p>
+                                <p
+                                    class=" mt-[16px] bg-yellow-200 text-yellow-700 rounded-[10px] px-[6px] py-[2px] text-[14px]">
+                                    2 primjerka</p>
+                                <p
+                                    class=" mt-[16px] bg-blue-200 text-blue-800 rounded-[10px] px-[6px] py-[2px] text-[14px]">
+                                    102 primjerka</p>
+                                <p
+                                    class=" mt-[16px] bg-red-200 text-red-800 rounded-[10px] px-[6px] py-[2px] text-[14px]">
+                                    2 primjerka</p>
+                                <p
+                                    class=" mt-[16px] border-[1px] border-green-700 text-green-700 rounded-[10px] px-[6px] py-[2px] text-[14px]">
+                                    15 primjeraka</p>
                             </div>
                         </div>
                     </div>
                     <div class="mt-[40px] mx-[30px]">
-                        <div class="flex flex-col">
+                        <div class="flex flex-col max-w-[304px]">
                             <div class="text-gray-500 ">
                                 <p class="inline uppercase">
                                     Izdavanja knjige
@@ -287,26 +339,26 @@
                             </div>
                             <div>
                                 <p>
-                                    <a href="bibliotekarProfile.php" class="text-blue-500 hover:text-blue-800">
+                                    <a href="bibliotekarProfile.php" class="text-[#2196f3] hover:text-blue-600">
                                         Valentina K.
                                     </a>
                                     je izdala knjigu
-                                    <a href="ucenikProfile.php" class="text-blue-500 hover:text-blue-800">
+                                    <a href="ucenikProfile.php" class="text-[#2196f3] hover:text-blue-600">
                                         Peru Perovicu
                                     </a>
                                     dana
-                                    <span class="font-bold">
+                                    <span class="font-medium">
                                         21.02.2021.
                                     </span>
                                 </p>
                             </div>
                             <div>
-                                <a href="izdavanjeDetalji.php" class="text-blue-500 hover:text-blue-800">
+                                <a href="izdavanjeDetalji.php" class="text-[#2196f3] hover:text-blue-600">
                                     pogledaj detaljnije >>
                                 </a>
                             </div>
                         </div>
-                        <div class="mt-[40px] flex flex-col">
+                        <div class="mt-[40px] flex flex-col max-w-[304px]">
                             <div class="text-gray-500 ">
                                 <p class="inline uppercase">
                                     Izdavanja knjige
@@ -317,26 +369,26 @@
                             </div>
                             <div>
                                 <p>
-                                    <a href="bibliotekarProfile.php" class="text-blue-500 hover:text-blue-800">
+                                    <a href="bibliotekarProfile.php" class="text-[#2196f3] hover:text-blue-600">
                                         Valentina K.
                                     </a>
                                     je izdala knjigu
-                                    <a href="ucenikProfile.php" class="text-blue-500 hover:text-blue-800">
+                                    <a href="ucenikProfile.php" class="text-[#2196f3] hover:text-blue-600">
                                         Peru Perovicu
                                     </a>
                                     dana
-                                    <span class="font-bold">
+                                    <span class="font-medium">
                                         21.02.2021.
                                     </span>
                                 </p>
                             </div>
                             <div>
-                                <a href="izdavanjeDetalji.php" class="text-blue-500 hover:text-blue-800">
+                                <a href="izdavanjeDetalji.php" class="text-[#2196f3] hover:text-blue-600">
                                     pogledaj detaljnije >>
                                 </a>
                             </div>
                         </div>
-                        <div class="mt-[40px] flex flex-col">
+                        <div class="mt-[40px] flex flex-col max-w-[304px]">
                             <div class="text-gray-500 ">
                                 <p class="inline uppercase">
                                     Izdavanja knjige
@@ -347,27 +399,27 @@
                             </div>
                             <div>
                                 <p>
-                                    <a href="bibliotekarProfile.php" class="text-blue-500 hover:text-blue-800">
+                                    <a href="bibliotekarProfile.php" class="text-[#2196f3] hover:text-blue-600">
                                         Valentina K.
                                     </a>
                                     je izdala knjigu
-                                    <a href="ucenikProfile.php" class="text-blue-500 hover:text-blue-800">
+                                    <a href="ucenikProfile.php" class="text-[#2196f3] hover:text-blue-600">
                                         Peru Perovicu
                                     </a>
                                     dana
-                                    <span class="font-bold">
+                                    <span class="font-medium">
                                         21.02.2021.
                                     </span>
-                                </p>    
+                                </p>
                             </div>
                             <div>
-                                <a href="izdavanjeDetalji.php" class="text-blue-500 hover:text-blue-800">
+                                <a href="izdavanjeDetalji.php" class="text-[#2196f3] hover:text-blue-600">
                                     pogledaj detaljnije >>
                                 </a>
                             </div>
                         </div>
                         <div class="mt-[40px]">
-                            <a href="dashboardAktivnost.php" class="text-blue-500 hover:text-blue-800">
+                            <a href="dashboardAktivnost.php" class="text-[#2196f3] hover:text-blue-600">
                                 <i class="fas fa-history"></i> Prikazi sve
                             </a>
                         </div>

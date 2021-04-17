@@ -34,17 +34,17 @@
         <!-- End Sidebar -->
 
         <!-- Content -->
-        <section class="w-screen h-screen py-4 pl-[80px] text-gray-700">
+        <section class="w-screen h-screen pl-[80px] pb-2 text-gray-700">
             <!-- Heading of content -->
             <div class="heading">
-                <div class="flex flex-row justify-between border-b-[2px] border-gray-300">
-                    <div class="flex flex-row">
-                        <div class="w-[80px] pl-[30px]">
+                <div class="flex flex-row justify-between border-b-[1px] border-[#e4dfdf]">
+                    <div class="py-[10px] flex flex-row">
+                        <div class="w-[77px] pl-[30px]">
                             <img src="img/tomsojer.jpg" alt="">
                         </div>
-                        <div class="pl-[15px] pb-[10px] flex flex-col">
+                        <div class="pl-[15px]  flex flex-col">
                             <div>
-                                <h1 class=" text-[35px] font-bold">
+                                <h1>
                                     Tom Sojer
                                 </h1>
                             </div>
@@ -52,7 +52,7 @@
                                 <nav class="w-full rounded">
                                     <ol class="flex list-reset">
                                         <li>
-                                            <a href="evidencija.php" class="font-medium text-blue-600 hover:text-blue-800">
+                                            <a href="evidencija.php" class="text-[#2196f3] hover:text-blue-600">
                                                 Evidencija knjiga
                                             </a>
                                         </li>
@@ -60,7 +60,8 @@
                                             <span class="mx-2">/</span>
                                         </li>
                                         <li>
-                                            <a href="knjigaOsnovniDetalji.php" class="font-medium text-blue-600 hover:text-blue-800">
+                                            <a href="knjigaOsnovniDetalji.php"
+                                                class="text-[#2196f3] hover:text-blue-600">
                                                 KNJIGA-467
                                             </a>
                                         </li>
@@ -69,7 +70,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="mt-[15px] mr-[30px]">
+                    <div class="pt-[24px] mr-[30px]">
                         <a href="otpisiKnjigu.php" class="inline hover:text-blue-600">
                             <i class="fas fa-power-off mr-[3px]"></i>
                             Otpisi knjigu
@@ -86,15 +87,37 @@
                             <i class="far fa-calendar-check mr-[3px] "></i>
                             Rezervisi knjigu
                         </a>
-                        <p class="inline cursor-pointer text-[25px] py-[10px] pl-[30px] border-l-[2px] border-gray-300">
-                            <i class="fas fa-ellipsis-v"></i>
+                        <p class="inline cursor-pointer text-[25px] py-[10px] pl-[30px] border-l-[1px] border-[#e4dfdf]"
+                            id="dropdownBookDetail">
+                            <i
+                                class="fas fa-ellipsis-v hover:text-gray-500 focus:outline-none active:text-gray-800"></i>
                         </p>
+                        <div
+                            class="hidden transition-all duration-300 origin-top-right transform scale-95 -translate-y-2 dropdown-menu-book-detail">
+                            <div class="absolute right-0 w-56 mt-2 origin-top-right bg-white border border-[#e4dfdf] divide-y divide-gray-100 rounded-md shadow-lg outline-none"
+                                aria-labelledby="headlessui-menu-button-1" id="headlessui-menu-items-117" role="menu">
+                                <div class="py-1">
+                                    <a href="javascript:void(0)" tabindex="0"
+                                        class="flex w-full px-4 py-2 text-sm leading-5 text-left text-gray-700"
+                                        role="menuitem">
+                                        <i class="fas fa-edit mr-[6px] ml-[5px] py-1"></i>
+                                        <span class="px-4 py-0">Izmijeni knjigu</span>
+                                    </a>
+                                    <a href="javascript:void(0)" tabindex="0"
+                                        class="flex w-full px-4 py-2 text-sm leading-5 text-left text-gray-700"
+                                        role="menuitem">
+                                        <i class="fa fa-trash mr-[10px] ml-[5px] py-1"></i>
+                                        <span class="px-4 py-0">Izbrisi knjigu</span>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
             <div class="flex flex-row overflow-auto height-osnovniDetalji">
                 <div class="w-[80%]">
-                    <div class="border-b-[2px] py-4 text-gray-500 border-gray-300 pl-[30px]">
+                    <div class="border-b-[1px] py-4 text-gray-500 border-[#e4dfdf] pl-[30px]">
                         <a href="knjigaOsnovniDetalji.php" class="inline hover:text-blue-800">
                             Osnovni detalji
                         </a>
@@ -114,27 +137,27 @@
                             <div class="flex flex-row justify-between">
                                 <div class="mr-[30px]">
                                     <div class="mt-[20px]">
-                                        <span class="text-gray-500">Broj strana</span>
+                                        <span class="text-gray-500 text-[14px]">Broj strana</span>
                                         <p class="font-medium">264</p>
                                     </div>
                                     <div class="mt-[40px]">
-                                        <span class="text-gray-500">Pismo</span>
+                                        <span class="text-gray-500 text-[14px]">Pismo</span>
                                         <p class="font-medium">Cirilica</p>
                                     </div>
                                     <div class="mt-[40px]">
-                                        <span class="text-gray-500">Jezik</span>
+                                        <span class="text-gray-500 text-[14px]">Jezik</span>
                                         <p class="font-medium">Crnogorski</p>
                                     </div>
                                     <div class="mt-[40px]">
-                                        <span class="text-gray-500">Povez</span>
+                                        <span class="text-gray-500 text-[14px]">Povez</span>
                                         <p class="font-medium">Tvrd</p>
                                     </div>
                                     <div class="mt-[40px]">
-                                        <span class="text-gray-500">Format</span>
+                                        <span class="text-gray-500 text-[14px]">Format</span>
                                         <p class="font-medium">21 cm</p>
                                     </div>
                                     <div class="mt-[40px]">
-                                        <span class="text-gray-500">International Standard Book Number (ISBN)</span>
+                                        <span class="text-gray-500 text-[14px]">International Standard Book Number (ISBN)</span>
                                         <p class="font-medium">1546213456878</p>
                                     </div>
                                 </div>
@@ -142,45 +165,36 @@
                         </div>
                     </div>
                 </div>
-                <div class="min-w-[20%] border-l-[2px] border-gray-300px ">
-                    <div class="border-b-[2px] border-gray-300">
-                        <div class="mx-[30px] mt-[20px] flex flex-row justify-between">
+                <div class="min-w-[20%] border-l-[1px] border-[#e4dfdf] ">
+                    <div class="border-b-[1px] border-[#e4dfdf]">
+                        <div class="ml-[30px] mr-[70px] mt-[20px] flex flex-row justify-between">
                             <div class="text-gray-500 ">
-                                <p>Status:</p>
-                                <p class="mt-[20px]">
-                                    Datum izdavanja:
-                                </p>
-                                <p class="mt-[20px]">
-                                    Izdato korisniku:
-                                </p>
-                                <p class="mt-[20px]">
-                                    Knjiga zadrzana:
-                                </p>
-                                <p class="mt-[20px]">
-                                    Izdao bibliotekar:
-                                </p>
+                                <p>Na raspolaganju:</p>
+                                <p class="mt-[20px]">Rezervisano:</p>
+                                <p class="mt-[20px]">Izdato:</p>
+                                <p class="mt-[20px]">U prekoracenju:</p>
+                                <p class="mt-[20px]">Ukupna kolicina:</p>
                             </div>
-                            <div class="font-medium text-left pb-[30px]">
-                                <span class="bg-blue-600 text-white text-center px-[15px] py-[5px]">
-                                    Knjiga je izdata
-                                </span>
-                                <p class="mt-[20px]">
-                                    21.02.2021
-                                </p>
-                                <a href="ucenikProfile.php" class="block hover:text-blue-800 text-blue-500 mt-[20px]">
-                                    Pero Perovic
-                                </a>
-                                <p class="mt-[20px]">
-                                    2 mjeseca i 3 dana
-                                </p>
-                                <a href="bibliotekarProfile" class="block hover:text-blue-800 text-blue-500 mt-[20px]">
-                                    Valentina Kascelan
-                                </a>
+                            <div class="text-center pb-[30px]">
+                                <p class=" bg-green-200 text-green-700 rounded-[10px] px-[6px] py-[2px] text-[14px]">5
+                                    primjeraka</p>
+                                <p
+                                    class=" mt-[16px] bg-yellow-200 text-yellow-700 rounded-[10px] px-[6px] py-[2px] text-[14px]">
+                                    2 primjerka</p>
+                                <p
+                                    class=" mt-[16px] bg-blue-200 text-blue-800 rounded-[10px] px-[6px] py-[2px] text-[14px]">
+                                    102 primjerka</p>
+                                <p
+                                    class=" mt-[16px] bg-red-200 text-red-800 rounded-[10px] px-[6px] py-[2px] text-[14px]">
+                                    2 primjerka</p>
+                                <p
+                                    class=" mt-[16px] border-[1px] border-green-700 text-green-700 rounded-[10px] px-[6px] py-[2px] text-[14px]">
+                                    15 primjeraka</p>
                             </div>
                         </div>
                     </div>
                     <div class="mt-[40px] mx-[30px]">
-                        <div class="flex flex-col">
+                        <div class="flex flex-col max-w-[304px]">
                             <div class="text-gray-500 ">
                                 <p class="inline uppercase">
                                     Izdavanja knjige
@@ -191,26 +205,26 @@
                             </div>
                             <div>
                                 <p>
-                                    <a href="bibliotekarProfile.php" class="text-blue-500 hover:text-blue-800">
+                                    <a href="bibliotekarProfile.php" class="text-[#2196f3] hover:text-blue-600">
                                         Valentina K.
                                     </a>
                                     je izdala knjigu
-                                    <a href="ucenikProfile.php" class="text-blue-500 hover:text-blue-800">
+                                    <a href="ucenikProfile.php" class="text-[#2196f3] hover:text-blue-600">
                                         Peru Perovicu
                                     </a>
                                     dana
-                                    <span class="font-bold">
+                                    <span class="font-medium">
                                         21.02.2021.
                                     </span>
                                 </p>
                             </div>
                             <div>
-                                <a href="izdavanjeDetalji.php" class="text-blue-500 hover:text-blue-800">
+                                <a href="izdavanjeDetalji.php" class="text-[#2196f3] hover:text-blue-600">
                                     pogledaj detaljnije >>
                                 </a>
                             </div>
                         </div>
-                        <div class="mt-[40px] flex flex-col">
+                        <div class="mt-[40px] flex flex-col max-w-[304px]">
                             <div class="text-gray-500 ">
                                 <p class="inline uppercase">
                                     Izdavanja knjige
@@ -221,26 +235,26 @@
                             </div>
                             <div>
                                 <p>
-                                    <a href="bibliotekarProfile.php" class="text-blue-500 hover:text-blue-800">
+                                    <a href="bibliotekarProfile.php" class="text-[#2196f3] hover:text-blue-600">
                                         Valentina K.
                                     </a>
                                     je izdala knjigu
-                                    <a href="ucenikProfile.php" class="text-blue-500 hover:text-blue-800">
+                                    <a href="ucenikProfile.php" class="text-[#2196f3] hover:text-blue-600">
                                         Peru Perovicu
                                     </a>
                                     dana
-                                    <span class="font-bold">
+                                    <span class="font-medium">
                                         21.02.2021.
                                     </span>
                                 </p>
                             </div>
                             <div>
-                                <a href="izdavanjeDetalji.php" class="text-blue-500 hover:text-blue-800">
+                                <a href="izdavanjeDetalji.php" class="text-[#2196f3] hover:text-blue-600">
                                     pogledaj detaljnije >>
                                 </a>
                             </div>
                         </div>
-                        <div class="mt-[40px] flex flex-col">
+                        <div class="mt-[40px] flex flex-col max-w-[304px]">
                             <div class="text-gray-500 ">
                                 <p class="inline uppercase">
                                     Izdavanja knjige
@@ -251,27 +265,27 @@
                             </div>
                             <div>
                                 <p>
-                                    <a href="bibliotekarProfile.php" class="text-blue-500 hover:text-blue-800">
+                                    <a href="bibliotekarProfile.php" class="text-[#2196f3] hover:text-blue-600">
                                         Valentina K.
                                     </a>
                                     je izdala knjigu
-                                    <a href="ucenikProfile.php" class="text-blue-500 hover:text-blue-800">
+                                    <a href="ucenikProfile.php" class="text-[#2196f3] hover:text-blue-600">
                                         Peru Perovicu
                                     </a>
                                     dana
-                                    <span class="font-bold">
+                                    <span class="font-medium">
                                         21.02.2021.
                                     </span>
-                                </p>    
+                                </p>
                             </div>
                             <div>
-                                <a href="izdavanjeDetalji.php" class="text-blue-500 hover:text-blue-800">
+                                <a href="izdavanjeDetalji.php" class="text-[#2196f3] hover:text-blue-600">
                                     pogledaj detaljnije >>
                                 </a>
                             </div>
                         </div>
                         <div class="mt-[40px]">
-                            <a href="dashboardAktivnost.php" class="text-blue-500 hover:text-blue-800">
+                            <a href="dashboardAktivnost.php" class="text-[#2196f3] hover:text-blue-600">
                                 <i class="fas fa-history"></i> Prikazi sve
                             </a>
                         </div>
