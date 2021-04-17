@@ -34,17 +34,17 @@
         <!-- End Sidebar -->
 
         <!-- Content -->
-        <section class="relative w-screen h-screen pl-[80px] py-4 text-gray-700">
+        <section class="w-screen h-screen pl-[80px] pb-2 text-gray-700">
             <!-- Heading of content -->
             <div class="heading">
-                <div class="flex flex-row justify-between border-b-[2px] border-gray-300">
-                    <div class="flex flex-row">
-                        <div class="w-[80px] pl-[30px]">
+                <div class="flex flex-row justify-between border-b-[1px] border-[#e4dfdf]">
+                    <div class="py-[10px] flex flex-row">
+                        <div class="w-[77px] pl-[30px]">
                             <img src="img/tomsojer.jpg" alt="">
                         </div>
-                        <div class="pl-[15px] pb-[10px] flex flex-col">
+                        <div class="pl-[15px]  flex flex-col">
                             <div>
-                                <h1 class=" text-[35px] font-bold">
+                                <h1>
                                     Tom Sojer
                                 </h1>
                             </div>
@@ -52,7 +52,7 @@
                                 <nav class="w-full rounded">
                                     <ol class="flex list-reset">
                                         <li>
-                                            <a href="evidencija.php" class="font-medium text-blue-600 hover:text-blue-800">
+                                            <a href="evidencija.php" class="text-[#2196f3] hover:text-blue-600">
                                                 Evidencija knjiga
                                             </a>
                                         </li>
@@ -60,16 +60,9 @@
                                             <span class="mx-2">/</span>
                                         </li>
                                         <li>
-                                            <a href="knjigaOsnovniDetalji.php" class="font-medium text-blue-600 hover:text-blue-800">
+                                            <a href="knjigaOsnovniDetalji.php"
+                                                class="text-[#2196f3] hover:text-blue-600">
                                                 KNJIGA-467
-                                            </a>
-                                        </li>
-                                        <li>
-                                            <span class="mx-2">/</span>
-                                        </li>
-                                        <li>
-                                            <a href="izdajKnjigu.php" class="font-medium text-gray-600 hover:text-gray-800">
-                                                Izdaj knjigu
                                             </a>
                                         </li>
                                     </ol>
@@ -77,8 +70,7 @@
                             </div>
                         </div>
                     </div>
-                    
-                    <div class="mt-[15px] mr-[30px]">
+                    <div class="pt-[24px] mr-[30px]">
                         <a href="otpisiKnjigu.php" class="inline hover:text-blue-600">
                             <i class="fas fa-power-off mr-[3px]"></i>
                             Otpisi knjigu
@@ -95,12 +87,35 @@
                             <i class="far fa-calendar-check mr-[3px] "></i>
                             Rezervisi knjigu
                         </a>
-                        <p class="inline cursor-pointer text-[25px] py-[10px] pl-[30px] border-l-[2px] border-gray-300">
-                            <i class="fas fa-ellipsis-v"></i>
+                        <p class="inline cursor-pointer text-[25px] py-[10px] pl-[30px] border-l-[1px] border-[#e4dfdf]"
+                            id="dropdownBookDetail">
+                            <i
+                                class="fas fa-ellipsis-v hover:text-gray-500 focus:outline-none active:text-gray-800"></i>
                         </p>
+                        <div
+                            class="hidden transition-all duration-300 origin-top-right transform scale-95 -translate-y-2 dropdown-menu-book-detail">
+                            <div class="absolute right-0 w-56 mt-2 origin-top-right bg-white border border-[#e4dfdf] divide-y divide-gray-100 rounded-md shadow-lg outline-none"
+                                aria-labelledby="headlessui-menu-button-1" id="headlessui-menu-items-117" role="menu">
+                                <div class="py-1">
+                                    <a href="javascript:void(0)" tabindex="0"
+                                        class="flex w-full px-4 py-2 text-sm leading-5 text-left text-gray-700"
+                                        role="menuitem">
+                                        <i class="fas fa-edit mr-[6px] ml-[5px] py-1"></i>
+                                        <span class="px-4 py-0">Izmijeni knjigu</span>
+                                    </a>
+                                    <a href="javascript:void(0)" tabindex="0"
+                                        class="flex w-full px-4 py-2 text-sm leading-5 text-left text-gray-700"
+                                        role="menuitem">
+                                        <i class="fa fa-trash mr-[10px] ml-[5px] py-1"></i>
+                                        <span class="px-4 py-0">Izbrisi knjigu</span>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
+
             <div class="flex flex-row overflow-auto height-izdajKnjigu">
                 <div class="">
                     <!-- Space for content -->
@@ -115,7 +130,7 @@
                                             d="M11.983,0a12.206,12.206,0,0,0-8.51,3.653A11.8,11.8,0,0,0,0,12.207,11.779,11.779,0,0,0,11.8,24h.214A12.111,12.111,0,0,0,24,11.791h0A11.766,11.766,0,0,0,11.983,0ZM10.5,16.542a1.476,1.476,0,0,1,1.449-1.53h.027a1.527,1.527,0,0,1,1.523,1.47,1.475,1.475,0,0,1-1.449,1.53h-.027A1.529,1.529,0,0,1,10.5,16.542ZM11,12.5v-6a1,1,0,0,1,2,0v6a1,1,0,1,1-2,0Z">
                                         </path>
                                     </svg>
-                                    <span class="font-medium text-red-600"> Ne mozete izdati knjigu koja je vec izdata </span>
+                                    <p class="font-medium text-red-600"> Ne mozete izdati knjigu koja je vec izdata </p>
                                 </div>
                                 <!-- End Alert Error -->
                                 <div>
@@ -126,12 +141,12 @@
                                 </div>
                                 <div class="mt-[20px]">
                                     <span class="text-gray-500">Ucenik</span>
-                                    <a href="ucenikProfile.php" class="block font-medium text-blue-500 hover:text-blue-800">Milos
+                                    <a href="ucenikProfile.php" class="block font-medium text-[#2196f3] hover:text-blue-600">Milos
                                         Milosevic</a>
                                 </div>
                                 <div class="mt-[20px]">
                                     <span class="text-gray-500">Bibliotekar</span>
-                                    <a href="bibliotekarProfile.php" class="block font-medium text-blue-500 hover:text-blue-800">Valentina
+                                    <a href="bibliotekarProfile.php" class="block font-medium text-[#2196f3] hover:text-blue-600">Valentina
                                         Kascelan</a>
                                 </div>
                                 <div class="mt-[20px]">
@@ -143,7 +158,7 @@
                                     <p class="font-medium">2 nedelje i 3 dana</p>
                                 </div>
                                 <div class="mt-[20px]">
-                                    <a href="vratiKnjigu.php" class="block font-medium text-blue-500 hover:text-blue-800">
+                                    <a href="vratiKnjigu.php" class="block font-medium text-[#2196f3] hover:text-blue-600">
                                         Vrati poslednju knjigu >>
                                     </a>
                                 </div>

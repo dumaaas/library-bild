@@ -34,17 +34,17 @@
         <!-- End Sidebar -->
 
         <!-- Content -->
-        <section class="w-screen h-screen pl-[80px] py-4 text-gray-700">
+        <section class="w-screen h-screen pl-[80px] pb-2 text-gray-700">
             <!-- Heading of content -->
             <div class="heading">
-                <div class="flex flex-row justify-between border-b-[2px] border-gray-300">
-                    <div class="flex flex-row">
-                        <div class="w-[80px] pl-[30px]">
+                <div class="flex flex-row justify-between border-b-[1px] border-[#e4dfdf]">
+                    <div class="py-[10px] flex flex-row">
+                        <div class="w-[77px] pl-[30px]">
                             <img src="img/tomsojer.jpg" alt="">
                         </div>
-                        <div class="pl-[15px] pb-[10px] flex flex-col">
+                        <div class="pl-[15px]  flex flex-col">
                             <div>
-                                <h1 class=" text-[35px] font-bold">
+                                <h1>
                                     Tom Sojer
                                 </h1>
                             </div>
@@ -52,7 +52,7 @@
                                 <nav class="w-full rounded">
                                     <ol class="flex list-reset">
                                         <li>
-                                            <a href="evidencija.php" class="font-medium text-blue-600 hover:text-blue-800">
+                                            <a href="evidencija.php" class="text-[#2196f3] hover:text-blue-600">
                                                 Evidencija knjiga
                                             </a>
                                         </li>
@@ -60,16 +60,9 @@
                                             <span class="mx-2">/</span>
                                         </li>
                                         <li>
-                                            <a href="knjigaOsnovniDetalji.php" class="font-medium text-blue-600 hover:text-blue-800">
+                                            <a href="knjigaOsnovniDetalji.php"
+                                                class="text-[#2196f3] hover:text-blue-600">
                                                 KNJIGA-467
-                                            </a>
-                                        </li>
-                                        <li>
-                                            <span class="mx-2">/</span>
-                                        </li>
-                                        <li>
-                                            <a href="#" class="font-medium text-gray-600 hover:text-gray-800">
-                                                Izdaj knjigu
                                             </a>
                                         </li>
                                     </ol>
@@ -77,8 +70,7 @@
                             </div>
                         </div>
                     </div>
-                    
-                    <div class="mt-[15px] mr-[30px]">
+                    <div class="pt-[24px] mr-[30px]">
                         <a href="otpisiKnjigu.php" class="inline hover:text-blue-600">
                             <i class="fas fa-power-off mr-[3px]"></i>
                             Otpisi knjigu
@@ -95,9 +87,31 @@
                             <i class="far fa-calendar-check mr-[3px] "></i>
                             Rezervisi knjigu
                         </a>
-                        <p class="inline cursor-pointer text-[25px] py-[10px] pl-[30px] border-l-[2px] border-gray-300">
-                            <i class="fas fa-ellipsis-v"></i>
+                        <p class="inline cursor-pointer text-[25px] py-[10px] pl-[30px] border-l-[1px] border-[#e4dfdf]"
+                            id="dropdownBookDetail">
+                            <i
+                                class="fas fa-ellipsis-v hover:text-gray-500 focus:outline-none active:text-gray-800"></i>
                         </p>
+                        <div
+                            class="hidden transition-all duration-300 origin-top-right transform scale-95 -translate-y-2 dropdown-menu-book-detail">
+                            <div class="absolute right-0 w-56 mt-2 origin-top-right bg-white border border-[#e4dfdf] divide-y divide-gray-100 rounded-md shadow-lg outline-none"
+                                aria-labelledby="headlessui-menu-button-1" id="headlessui-menu-items-117" role="menu">
+                                <div class="py-1">
+                                    <a href="javascript:void(0)" tabindex="0"
+                                        class="flex w-full px-4 py-2 text-sm leading-5 text-left text-gray-700"
+                                        role="menuitem">
+                                        <i class="fas fa-edit mr-[6px] ml-[5px] py-1"></i>
+                                        <span class="px-4 py-0">Izmijeni knjigu</span>
+                                    </a>
+                                    <a href="javascript:void(0)" tabindex="0"
+                                        class="flex w-full px-4 py-2 text-sm leading-5 text-left text-gray-700"
+                                        role="menuitem">
+                                        <i class="fa fa-trash mr-[10px] ml-[5px] py-1"></i>
+                                        <span class="px-4 py-0">Izbrisi knjigu</span>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -107,9 +121,9 @@
                 <form class="text-gray-700 forma">
                     <div class="flex flex-row ml-[30px]">
                         <div class="w-[50%] mb-[100px]">
-                            <span class="inline-block mt-[20px] mb-[10px] font-bold text-xl">Izdaj knjigu</span>
+                            <h3 class="mt-[20px] mb-[10px]">Izdaj knjigu</h3>
                             <div class="mt-[20px]">
-                                <span>Izaberi ucenika koji zaduzuje knjigu <span class="text-red-500">*</span></span>
+                                <p>Izaberi ucenika koji zaduzuje knjigu <span class="text-red-500">*</span></p>
                                 <select class="flex w-[90%] mt-2 px-2 py-2 border bg-white border-gray-300 shadow-sm focus:outline-none focus:ring-2 focus:ring-[#576cdf]" name="ucenik" id="ucenikIzdavanje" onclick="clearErrorsUcenikIzdavanje()">
                                     <option disabled selected></option>
                                     <option value="">
@@ -122,7 +136,7 @@
                                 <div id="validateUcenikIzdavanje"></div>
                             </div>
                             <div class="mt-[20px]">
-                                <span>Datum izdavanja <span class="text-red-500">*</span></span>
+                                <p>Datum izdavanja <span class="text-red-500">*</span></p>
                                 <label class="text-gray-700" for="date">
                                     <input type="date" name="datumIzdavanja" id="datumIzdavanja" class="flex w-[50%] mt-2 px-4 py-2 text-base placeholder-gray-400 bg-white border border-gray-300 appearance-none focus:outline-none focus:ring-2 focus:ring-[#576cdf]" onclick="clearErrorsDatumIzdavanja()"/>
                                 </label>
