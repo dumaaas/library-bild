@@ -99,7 +99,7 @@
             </div>
              <!-- Space for content -->
             <div class="height-ucenikEvidencija scroll">
-                <div class="inline-block min-w-full px-[30px] pt-3 mt-10 overflow-hidden align-middle bg-white rounded-bl-lg rounded-br-lg shadow-dashboard">
+                <div class="inline-block min-w-full px-[30px] pt-3 mt-10 align-middle bg-white rounded-bl-lg rounded-br-lg shadow-dashboard">
                     <table class="min-w-full border-[1px] border-[#e4dfdf] sortTableDate">
                         <thead class="bg-[#EFF3F6]">
                             <tr class="border-b-[2px] border-[#e4dfdf]">
@@ -110,7 +110,7 @@
                                 </th>
                                 <th class="px-4 py-4 leading-4 tracking-wider text-left">Naziv knjige</th>
                                 <th class="flex items-center px-4 py-4 leading-4 tracking-wider text-left">Datum transakcije<a href="#"><i class="ml-2 fa-lg fas fa-long-arrow-alt-down" onclick="sortTableDate(2)"></i></a></th>
-                                <th class="px-4 py-4 leading-4 tracking-wider text-left">Tip akcije</th>
+                                <th class="px-4 py-4 leading-4 tracking-wider text-left">Tip transakcije</th>
                                 <th class="px-4 py-4 leading-4 tracking-wider text-left">Bibliotekar</th>
                                 <th class="px-4 py-4 leading-4 tracking-wider text-left">Ucenik</th>
                                 <th class="px-4 py-4"> </th>
@@ -125,17 +125,16 @@
                                         </label>
                                     </td>
                                     <td class="flex flex-row items-center px-4 py-4">
-                                            <img class="object-cover w-8 h-11" src="img/tomsojer.jpg" alt=""/>
+                                            <img class="object-cover w-8 mr-2 h-11" src="img/tomsojer.jpg" alt=""/>
                                             <a href="knjigaOsnovniDetalji.php">
-                                                <span class="ml-2 font-medium text-center">Geografija Crne Gore</span>
+                                                <span class="font-medium text-center">Geografija Crne Gore</span>
                                             </a>
                                     </td>
                                     <td class="px-4 py-4 text-sm leading-5 whitespace-no-wrap">21.02.2021</td>
                                     <td class="px-4 py-4 text-sm leading-5 text-blue-900 whitespace-no-wrap">
-                                        <span class="relative inline-block px-[6px] py-[2px] font-medium leading-tight text-green-900">
-                                            <span aria-hidden class="absolute inset-0 bg-transparent border-[1px] rounded-[10px] border-yellow-500 borderColor"></span>
-                                            <span class="relative text-xs text-yellow-500 borderText">Otvorene rezervacije</span>
-                                        </span>
+                                        <div class="inline-block px-[6px] py-[1px] font-medium bg-transparent border-[1px] rounded-[10px] border-yellow-500 borderColor">
+                                            <span class="text-xs text-yellow-500 borderText">Otvorene rezervacije</span>
+                                        </div>
                                     </td>
                                     <td class="px-4 py-4 text-sm leading-5 whitespace-no-wrap">Valentina Kascelan</td>
                                     <td class="px-4 py-4 text-sm leading-5 whitespace-no-wrap">Pero Perovic</td>
@@ -161,17 +160,16 @@
                                         </label>
                                     </td>
                                     <td class="flex flex-row items-center px-4 py-4">
-                                            <img class="object-cover w-8 h-11" src="img/tomsojer.jpg" alt=""/>
+                                            <img class="object-cover w-8 mr-2 h-11" src="img/tomsojer.jpg" alt=""/>
                                             <a href="knjigaOsnovniDetalji.php">
-                                                <span class="ml-2 font-medium text-center">Tom Sojer</span>
+                                                <span class="font-medium text-center">Tom Sojer</span>
                                             </a>
                                     </td>
                                     <td class="px-4 py-4 text-sm leading-5 whitespace-no-wrap">12.05.2020</td>
                                     <td class="px-4 py-4 text-sm leading-5 text-blue-900 whitespace-no-wrap">
-                                        <span class="relative inline-block px-[6px] py-[2px] font-medium leading-tight text-green-900">
-                                            <span aria-hidden class="absolute inset-0 bg-blue-200 rounded-[10px]"></span>
-                                            <span class="relative text-xs text-blue-800">Izdata knjige</span>
-                                        </span>
+                                        <div class="inline-block px-[6px] py-[2px] font-medium bg-blue-200 rounded-[10px]">
+                                            <span class="text-xs text-blue-800">Izdata knjiga</span>
+                                        </div>
                                     </td>
                                     <td class="px-4 py-4 text-sm leading-5 whitespace-no-wrap">Valentina Kascelan</td>
                                     <td class="px-4 py-4 text-sm leading-5 whitespace-no-wrap">Pero Perovic</td>
@@ -189,17 +187,16 @@
                                         </label>
                                     </td>
                                     <td class="flex flex-row items-center px-4 py-4">
-                                            <img class="object-cover w-8 h-11" src="img/tomsojer.jpg" alt=""/>
+                                            <img class="object-cover w-8 mr-2 h-11" src="img/tomsojer.jpg" alt=""/>
                                             <a href="knjigaOsnovniDetalji.php">
-                                                <span class="ml-2 font-medium text-center">Robinson Kruso</span>
+                                                <span class="font-medium text-center">Robinson Kruso</span>
                                             </a>
                                     </td>
                                     <td class="px-4 py-4 text-sm leading-5 whitespace-no-wrap">25.05.2020</td>
                                     <td class="px-4 py-4 text-sm leading-5 text-blue-900 whitespace-no-wrap">
-                                        <span class="relative inline-block px-[6px] py-[2px] font-medium leading-tight text-green-900">
-                                            <span aria-hidden class="absolute inset-0 bg-green-200 rounded-[10px]"></span>
-                                            <span class="relative text-xs text-green-800">Vracena knjige</span>
-                                        </span>
+                                        <div class="inline-block px-[6px] py-[2px] font-medium bg-green-200 rounded-[10px]">
+                                            <span class="text-xs text-green-800">Vracena knjiga</span>
+                                        </div>
                                     </td>
                                     <td class="px-4 py-4 text-sm leading-5 whitespace-no-wrap">Nina Bracovic</td>
                                     <td class="px-4 py-4 text-sm leading-5 whitespace-no-wrap">Pero Perovic</td>
@@ -217,17 +214,16 @@
                                         </label>
                                     </td>
                                     <td class="flex flex-row items-center px-4 py-4">
-                                            <img class="object-cover w-8 h-11" src="img/tomsojer.jpg" alt=""/>
+                                            <img class="object-cover w-8 mr-2 h-11" src="img/tomsojer.jpg" alt=""/>
                                             <a href="knjigaOsnovniDetalji.php">
-                                                <span class="ml-2 font-medium text-center">Galebova stijena</span>
+                                                <span class="font-medium text-center">Galebova stijena</span>
                                             </a>
                                     </td>
                                     <td class="px-4 py-4 text-sm leading-5 whitespace-no-wrap">12.05.2020</td>
                                     <td class="px-4 py-4 text-sm leading-5 text-blue-900 whitespace-no-wrap">
-                                        <span class="relative inline-block px-[6px] py-[2px] font-medium leading-tight text-green-900">
-                                            <span aria-hidden class="absolute inset-0 bg-yellow-200 rounded-[10px]"></span>
-                                            <span class="relative text-xs text-yellow-700">Potvrdjene rezervacije</span>
-                                        </span>
+                                        <div class="inline-block px-[6px] py-[2px] font-medium bg-yellow-200 rounded-[10px]">
+                                            <span class="text-xs text-yellow-700">Potvrdjene rezervacije</span>
+                                        </div>
                                     </td>
                                     <td class="px-4 py-4 text-sm leading-5 whitespace-no-wrap">Nina Bracovic</td>
                                     <td class="px-4 py-4 text-sm leading-5 whitespace-no-wrap">Pero Perovic</td>
@@ -245,17 +241,16 @@
                                         </label>
                                     </td>
                                     <td class="flex flex-row items-center px-4 py-4">
-                                            <img class="object-cover w-8 h-11" src="img/tomsojer.jpg" alt=""/>
+                                            <img class="object-cover w-8 mr-2 h-11" src="img/tomsojer.jpg" alt=""/>
                                             <a href="knjigaOsnovniDetalji.php">
-                                                <span class="ml-2 font-medium text-center">Sa druge strane ljuske</span>
+                                                <span class="font-medium text-center">Sa druge strane ljuske</span>
                                             </a>
                                     </td>
                                     <td class="px-4 py-4 text-sm leading-5 whitespace-no-wrap">12.05.2020</td>
                                     <td class="px-4 py-4 text-sm leading-5 text-blue-900 whitespace-no-wrap">
-                                        <span class="relative inline-block px-[6px] py-[2px] font-medium leading-tight text-green-900">
-                                            <span aria-hidden class="absolute inset-0 bg-green-200 rounded-[10px]"></span>
-                                            <span class="relative text-xs text-green-800">Vracena knjiga</span>
-                                        </span>
+                                        <div class="inline-block px-[6px] py-[2px] font-medium bg-green-200 rounded-[10px]">
+                                            <span class="text-xs text-green-800">Vracena knjiga</span>
+                                        </div>
                                     </td>
                                     <td class="px-4 py-4 text-sm leading-5 whitespace-no-wrap">Nina Bracovic</td>
                                     <td class="px-4 py-4 text-sm leading-5 whitespace-no-wrap">Pero Perovic</td>
@@ -273,17 +268,16 @@
                                         </label>
                                     </td>
                                     <td class="flex flex-row items-center px-4 py-4">
-                                            <img class="object-cover w-8 h-11" src="img/tomsojer.jpg" alt=""/>
+                                            <img class="object-cover w-8 mr-2 h-11" src="img/tomsojer.jpg" alt=""/>
                                             <a href="knjigaOsnovniDetalji.php">
-                                                <span class="ml-2 font-medium text-center">Umjetnici kao djeca</span>
+                                                <span class="font-medium text-center">Umjetnici kao djeca</span>
                                             </a>
                                     </td>
                                     <td class="px-4 py-4 text-sm leading-5 whitespace-no-wrap">12.05.2020</td>
                                     <td class="px-4 py-4 text-sm leading-5 text-blue-900 whitespace-no-wrap">
-                                        <span class="relative inline-block px-[6px] py-[2px] font-medium leading-tight text-green-900">
-                                            <span aria-hidden class="absolute inset-0 bg-red-200 rounded-[10px]"></span>
-                                            <span class="relative text-xs text-red-800">Odbijene rezervacije</span>
-                                        </span>
+                                        <div class="inline-block px-[6px] py-[2px] font-medium bg-red-200 rounded-[10px]">
+                                            <span class="text-xs text-red-800">Odbijene rezervacije</span>
+                                        </div>
                                     </td>
                                     <td class="px-4 py-4 text-sm leading-5 whitespace-no-wrap">Valentina Kascelan</td>
                                     <td class="px-4 py-4 text-sm leading-5 whitespace-no-wrap">Pero Perovic</td>
@@ -297,7 +291,7 @@
                         </tbody>
                     </table>
                     
-                    <div class="flex flex-row items-center justify-end mt-2">
+                    <div class="flex flex-row items-center justify-end my-2">
                         <div>
                             <p class="inline text-md">
                                 Rows per page:

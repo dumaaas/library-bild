@@ -67,9 +67,9 @@
                         </p>
                     </div>
                 </div>
-                <div class="overflow-auto">
+                <div>
                     <!-- Space for content -->
-                    <div class="flex justify-start pt-3 overflow-hidden bg-white">
+                    <div class="flex justify-start pt-3 bg-white">
                         <div class="mt-[10px]">
                             <ul class="text-[#2D3B48]">
                                 <li class="mb-[4px] pt-[18px] pb-[14px] group hover:bg-[#EAEAEA] ">
@@ -179,21 +179,18 @@
                                             </label>
                                         </td>
                                         <td class="flex flex-row items-center px-4 py-4">
-                                            <img class="object-cover w-8 h-11" src="img/tomsojer.jpg" alt="" />
+                                            <img class="object-cover w-8 mr-2 h-11" src="img/tomsojer.jpg" alt="" />
                                             <a href="knjigaOsnovniDetalji.php">
-                                                <span class="ml-2 font-medium text-center">Ep o Gilgamesu</span>
+                                                <span class="font-medium text-center">Ep o Gilgamesu</span>
                                             </a>
                                         </td>
                                         <td class="px-4 py-4 text-sm leading-5 whitespace-no-wrap">Nepoznat</td>
                                         <td class="px-4 py-4 text-sm leading-5 whitespace-no-wrap">31.04.2019</td>
                                         <td class="px-4 py-4 text-sm leading-5 whitespace-no-wrap">Pero Perovic</td>
                                         <td class="px-4 py-4 text-sm leading-5 text-blue-900 whitespace-no-wrap">
-                                            <span
-                                                class="relative inline-block px-[6px] py-[2px] font-medium leading-tight text-green-900">
-                                                <span aria-hidden
-                                                    class="absolute inset-0 bg-blue-200 rounded-[10px]"></span>
-                                                <span class="relative text-xs text-blue-800">Izdato</span>
-                                            </span>
+                                            <div class="inline-block px-[6px] py-[2px] font-medium bg-blue-200 rounded-[5px]">
+                                                <span class="text-xs text-blue-800">Izdato</span>
+                                            </div>
                                         </td>
                                         <td class="px-4 py-4 text-sm leading-5 text-right whitespace-no-wrap">
                                             <p
@@ -209,21 +206,18 @@
                                             </label>
                                         </td>
                                         <td class="flex flex-row items-center px-4 py-4">
-                                            <img class="object-cover w-8 h-11" src="img/tomsojer.jpg" alt="" />
+                                            <img class="object-cover w-8 mr-2 h-11" src="img/tomsojer.jpg" alt="" />
                                             <a href="knjigaOsnovniDetalji.php">
-                                                <span class="ml-2 font-medium text-center">Ilijada</span>
+                                                <span class="font-medium text-center">Ilijada</span>
                                             </a>
                                         </td>
                                         <td class="px-4 py-4 text-sm leading-5 whitespace-no-wrap">Homer</td>
                                         <td class="px-4 py-4 text-sm leading-5 whitespace-no-wrap">05.11.2020</td>
                                         <td class="px-4 py-4 text-sm leading-5 whitespace-no-wrap">Pero Perovic</td>
                                         <td class="px-4 py-4 text-sm leading-5 text-blue-900 whitespace-no-wrap">
-                                            <span
-                                                class="relative inline-block px-[6px] py-[2px] font-medium leading-tight text-green-900">
-                                                <span aria-hidden
-                                                    class="absolute inset-0 bg-blue-200 rounded-[10px]"></span>
-                                                <span class="relative text-xs text-blue-800">Izdato</span>
-                                            </span>
+                                            <div class="inline-block px-[6px] py-[2px] font-medium bg-blue-200 rounded-[5px]">
+                                                <span class="text-xs text-blue-800">Izdato</span>
+                                            </div>
                                         </td>
                                         <td class="px-4 py-4 text-sm leading-5 text-right whitespace-no-wrap">
                                             <p
@@ -239,21 +233,18 @@
                                             </label>
                                         </td>
                                         <td class="flex flex-row items-center px-4 py-4">
-                                            <img class="object-cover w-8 h-11" src="img/tomsojer.jpg" alt="" />
+                                            <img class="object-cover w-8 mr-2 h-11" src="img/tomsojer.jpg" alt="" />
                                             <a href="knjigaOsnovniDetalji.php">
-                                                <span class="ml-2 font-medium text-center">Tom Sojer</span>
+                                                <span class="font-medium text-center">Tom Sojer</span>
                                             </a>
                                         </td>
                                         <td class="px-4 py-4 text-sm leading-5 whitespace-no-wrap">Mark Twain</td>
                                         <td class="px-4 py-4 text-sm leading-5 whitespace-no-wrap">31.02.2021</td>
                                         <td class="px-4 py-4 text-sm leading-5 whitespace-no-wrap">Pero Perovic</td>
                                         <td class="px-4 py-4 text-sm leading-5 text-blue-900 whitespace-no-wrap">
-                                            <span
-                                                class="relative inline-block px-[6px] py-[2px] font-medium leading-tight text-green-900">
-                                                <span aria-hidden
-                                                    class="absolute inset-0 bg-blue-200 rounded-[10px]"></span>
-                                                <span class="relative text-xs text-blue-800">Izdato</span>
-                                            </span>
+                                            <div class="inline-block px-[6px] py-[2px] font-medium bg-blue-200 rounded-[5px]">
+                                                <span class="text-xs text-blue-800">Izdato</span>
+                                            </div>
                                         </td>
                                         <td class="px-4 py-4 text-sm leading-5 text-right whitespace-no-wrap">
                                             <p
@@ -269,21 +260,18 @@
                                             </label>
                                         </td>
                                         <td class="flex flex-row items-center px-4 py-4">
-                                            <img class="object-cover w-8 h-11" src="img/tomsojer.jpg" alt="" />
+                                            <img class="object-cover w-8 mr-2 h-11" src="img/tomsojer.jpg" alt="" />
                                             <a href="knjigaOsnovniDetalji.php">
-                                                <span class="ml-2 font-medium text-center">Robinson Kruso</span>
+                                                <span class="font-medium text-center">Robinson Kruso</span>
                                             </a>
                                         </td>
                                         <td class="px-4 py-4 text-sm leading-5 whitespace-no-wrap">Daniel Defoe</td>
                                         <td class="px-4 py-4 text-sm leading-5 whitespace-no-wrap">31.04.2019</td>
                                         <td class="px-4 py-4 text-sm leading-5 whitespace-no-wrap">Pero Perovic</td>
                                         <td class="px-4 py-4 text-sm leading-5 text-blue-900 whitespace-no-wrap">
-                                            <span
-                                                class="relative inline-block px-[6px] py-[2px] font-medium leading-tight text-green-900">
-                                                <span aria-hidden
-                                                    class="absolute inset-0 bg-blue-200 rounded-[10px]"></span>
-                                                <span class="relative text-xs text-blue-800">Izdato</span>
-                                            </span>
+                                            <div class="inline-block px-[6px] py-[2px] font-medium bg-blue-200 rounded-[5px]">
+                                                <span class="text-xs text-blue-800">Izdato</span>
+                                            </div>
                                         </td>
                                         <td class="px-4 py-4 text-sm leading-5 text-right whitespace-no-wrap">
                                             <p
@@ -295,7 +283,7 @@
                                 </tbody>
                             </table>
 
-                            <div class="flex flex-row items-center justify-end mt-2">
+                            <div class="flex flex-row items-center justify-end my-2">
                                 <div>
                                     <p class="inline text-md">
                                         Rows per page:

@@ -1046,6 +1046,10 @@ h4 {
 .m-1{
   margin: 0.25rem;
 }
+.my-2{
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
+}
 .mx-2{
   margin-left: 0.5rem;
   margin-right: 0.5rem;
@@ -1070,10 +1074,6 @@ h4 {
   margin-top: 10px;
   margin-bottom: 10px;
 }
-.my-2{
-  margin-top: 0.5rem;
-  margin-bottom: 0.5rem;
-}
 .mt-\[7px\]{
   margin-top: 7px;
 }
@@ -1083,11 +1083,8 @@ h4 {
 .ml-3{
   margin-left: 0.75rem;
 }
-.ml-2{
-  margin-left: 0.5rem;
-}
-.mt-2{
-  margin-top: 0.5rem;
+.mr-2{
+  margin-right: 0.5rem;
 }
 .-ml-px{
   margin-left: -1px;
@@ -1097,6 +1094,9 @@ h4 {
 }
 .ml-\[20px\]{
   margin-left: 20px;
+}
+.mt-2{
+  margin-top: 0.5rem;
 }
 .mr-\[10px\]{
   margin-right: 10px;
@@ -1137,6 +1137,9 @@ h4 {
 .mr-\[50px\]{
   margin-right: 50px;
 }
+.ml-2{
+  margin-left: 0.5rem;
+}
 .mr-\[5px\]{
   margin-right: 5px;
 }
@@ -1157,9 +1160,6 @@ h4 {
 }
 .mt-\[2px\]{
   margin-top: 2px;
-}
-.mr-2{
-  margin-right: 0.5rem;
 }
 .ml-\[4px\]{
   margin-left: 4px;
@@ -2008,6 +2008,10 @@ h4 {
   padding-top: 20px;
   padding-bottom: 20px;
 }
+.py-\[1px\]{
+  padding-top: 1px;
+  padding-bottom: 1px;
+}
 .py-\[18px\]{
   padding-top: 18px;
   padding-bottom: 18px;
@@ -2328,10 +2332,6 @@ h4 {
   --tw-text-opacity: 1;
   color: rgba(30, 58, 138, var(--tw-text-opacity));
 }
-.text-green-900{
-  --tw-text-opacity: 1;
-  color: rgba(6, 78, 59, var(--tw-text-opacity));
-}
 .text-yellow-700{
   --tw-text-opacity: 1;
   color: rgba(180, 83, 9, var(--tw-text-opacity));
@@ -2339,6 +2339,10 @@ h4 {
 .text-blue-800{
   --tw-text-opacity: 1;
   color: rgba(30, 64, 175, var(--tw-text-opacity));
+}
+.text-green-900{
+  --tw-text-opacity: 1;
+  color: rgba(6, 78, 59, var(--tw-text-opacity));
 }
 .text-yellow-500{
   --tw-text-opacity: 1;

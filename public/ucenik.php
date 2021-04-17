@@ -62,7 +62,7 @@
                     </div>
                 </div>
           
-                <div class="inline-block min-w-full px-[50px] pt-3 overflow-hidden align-middle bg-white rounded-bl-lg rounded-br-lg shadow-dashboard">
+                <div class="inline-block min-w-full px-[50px] pt-3 align-middle bg-white rounded-bl-lg rounded-br-lg shadow-dashboard">
                     <table class="min-w-full border-[1px] border-[#e4dfdf]" id="myTable">
                         <thead class="bg-[#EFF3F6]">
                             <tr class="border-b-[1px] border-[#e4dfdf]">
@@ -86,9 +86,9 @@
                                     </label>
                                 </td>
                                 <td class="flex flex-row items-center px-4 py-4">
-                                    <img class="object-cover w-8 h-8 rounded-full" src="img/profileStudent.jpg" alt=""/>
+                                    <img class="object-cover w-8 h-8 mr-2 rounded-full" src="img/profileStudent.jpg" alt=""/>
                                     <a href="ucenikProfile.php">
-                                        <span class="ml-2 font-medium text-center">Pero Perovic</span>
+                                        <span class="font-medium text-center">Pero Perovic</span>
                                     </a>
                                 </td>
                                 <td class="px-4 py-4 text-sm leading-5 whitespace-no-wrap">pero.perovic@domain.net</td>
@@ -107,9 +107,9 @@
                                     </label>
                                 </td>
                                 <td class="flex flex-row items-center px-4 py-4">
-                                        <img class="object-cover w-8 h-8 rounded-full" src="img/profileStudent.jpg" alt=""/>
+                                        <img class="object-cover w-8 h-8 mr-2 rounded-full" src="img/profileStudent.jpg" alt=""/>
                                         <a href="ucenikProfile.php">
-                                            <span class="ml-2 font-medium text-center">Nikola Nikolic</span>
+                                            <span class="font-medium text-center">Nikola Nikolic</span>
                                         </a>
                                 </td>
                                 <td class="px-4 py-4 text-sm leading-5 whitespace-no-wrap">nikola.nikolic@domain.net</td>
@@ -128,9 +128,9 @@
                                     </label>
                                 </td>
                                 <td class="flex flex-row items-center px-4 py-4">
-                                        <img class="object-cover w-8 h-8 rounded-full" src="img/profileExample.jpg" alt=""/>
+                                        <img class="object-cover w-8 h-8 mr-2 rounded-full" src="img/profileExample.jpg" alt=""/>
                                         <a href="ucenikProfile.php">
-                                            <span class="ml-2 font-medium text-center">Mika Milic</span>
+                                            <span class="font-medium text-center">Mika Milic</span>
                                         </a>
                                 </td>
                                 <td class="px-4 py-4 text-sm leading-5 whitespace-no-wrap">mika.milic@domain.net</td>
@@ -149,9 +149,9 @@
                                     </label>
                                 </td>
                                 <td class="flex flex-row items-center px-4 py-4">
-                                        <img class="object-cover w-8 h-8 rounded-full" src="img/profileStudent.jpg" alt=""/>
+                                        <img class="object-cover w-8 h-8 mr-2 rounded-full" src="img/profileStudent.jpg" alt=""/>
                                         <a href="ucenikProfile.php">
-                                            <span class="ml-2 font-medium text-center">Zaim Zaimovic</span>
+                                            <span class="font-medium text-center">Zaim Zaimovic</span>
                                         </a>
                                 </td>
                                 <td class="px-4 py-4 text-sm leading-5 whitespace-no-wrap">zaim.zaimovic@domain.net</td>
@@ -166,7 +166,7 @@
                         </tbody>
                     </table>
 
-                    <div class="flex flex-row items-center justify-end mt-2">
+                    <div class="flex flex-row items-center justify-end my-2">
                         <div>
                             <p class="inline text-md">
                                 Rows per page:

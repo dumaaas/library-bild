@@ -68,7 +68,7 @@
                 </div>
 
                 <div
-                    class="inline-block min-w-full px-[30px] pt-3 overflow-hidden align-middle bg-white rounded-bl-lg rounded-br-lg shadow-dashboard">
+                    class="inline-block min-w-full px-[30px] pt-3 align-middle bg-white rounded-bl-lg rounded-br-lg shadow-dashboard">
                     <table class="min-w-full border-[1px] border-[#e4dfdf]" id="myTable">
                         <thead class="bg-[#EFF3F6]">
                             <tr class="border-[1px] border-[#e4dfdf]">
@@ -95,10 +95,10 @@
                                     </label>
                                 </td>
                                 <td class="flex flex-row items-center px-4 py-4">
-                                    <img class="object-cover w-8 h-8 rounded-full" src="img/profileExample.jpg"
+                                    <img class="object-cover w-8 h-8 mr-2 rounded-full" src="img/profileExample.jpg"
                                         alt="" />
                                     <a href="ucenikProfile.php">
-                                        <span class="ml-2 font-medium text-center">Valentina Kascelan</span>
+                                        <span class="font-medium text-center">Valentina Kascelan</span>
                                     </a>
                                 </td>
                                 <td class="px-4 py-4 text-sm leading-5 whitespace-no-wrap">valentina.kascelan@domain...
@@ -118,10 +118,10 @@
                                     </label>
                                 </td>
                                 <td class="flex flex-row items-center px-4 py-4">
-                                    <img class="object-cover w-8 h-8 rounded-full " src="img/profileStudent.jpg"
+                                    <img class="object-cover w-8 h-8 mr-2 rounded-full" src="img/profileStudent.jpg"
                                         alt="" />
                                     <a href="ucenikProfile.php">
-                                        <span class="ml-2 font-medium text-center">Tarik Zaimovic</span>
+                                        <span class="font-medium text-center">Tarik Zaimovic</span>
                                     </a>
                                 </td>
                                 <td class="px-4 py-4 text-sm leading-5 whitespace-no-wrap">tarik.zaimovic@domain.netcom
@@ -141,10 +141,10 @@
                                     </label>
                                 </td>
                                 <td class="flex flex-row items-center px-4 py-4">
-                                    <img class="object-cover w-8 h-8 rounded-full" src="img/profileStudent.jpg"
+                                    <img class="object-cover w-8 h-8 mr-2 rounded-full" src="img/profileStudent.jpg"
                                         alt="" />
                                     <a href="ucenikProfile.php">
-                                        <span class="ml-2 font-medium text-center">Test Akontacijevic</span>
+                                        <span class="font-medium text-center">Test Akontacijevic</span>
                                     </a>
                                 </td>
                                 <td class="px-4 py-4 text-sm leading-5 whitespace-no-wrap">
@@ -164,10 +164,10 @@
                                     </label>
                                 </td>
                                 <td class="flex flex-row items-center px-4 py-4">
-                                    <img class="object-cover w-8 h-8 rounded-full" src="img/profileStudent.jpg"
+                                    <img class="object-cover w-8 h-8 mr-2 rounded-full" src="img/profileStudent.jpg"
                                         alt="" />
                                     <a href="ucenikProfile.php">
-                                        <span class="ml-2 font-medium text-center">Darko Kascelan</span>
+                                        <span class="font-medium text-center">Darko Kascelan</span>
                                     </a>
                                 </td>
                                 <td class="px-4 py-4 text-sm leading-5 whitespace-no-wrap">darko.kascelan@bild-studio...
@@ -183,8 +183,8 @@
                         </tbody>
                     </table>
 
-                    <div class="flex flex-row items-center justify-end mt-2">
-                        <div class="">
+                    <div class="flex flex-row items-center justify-end my-2">
+                        <div>
                             <p class="inline text-md">
                                 Rows per page:
                             </p>
