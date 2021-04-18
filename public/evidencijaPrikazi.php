@@ -34,17 +34,17 @@
         <!-- End Sidebar -->
 
         <!-- Content -->
-        <section class="w-screen h-screen pl-[80px] py-4 text-gray-700">
+        <section class="w-screen h-screen pb-2 pl-[80px] text-gray-700">
             <!-- Heading of content -->
             <div class="heading">
-                <div class="flex flex-row justify-between border-b-[2px] border-gray-300">
-                    <div class="flex flex-row">
-                        <div class="w-[80px] pl-[30px]">
+                <div class="flex flex-row justify-between border-b-[1px] border-[#e4dfdf]">
+                    <div class="py-[10px] flex flex-row">
+                        <div class="w-[77px] pl-[30px]">
                             <img src="img/tomsojer.jpg" alt="">
                         </div>
-                        <div class="pl-[30px] pb-[10px] flex flex-col">
+                        <div class="pl-[15px]  flex flex-col">
                             <div>
-                                <h1 class=" text-[35px] font-bold">
+                                <h1>
                                     Tom Sojer
                                 </h1>
                             </div>
@@ -52,7 +52,7 @@
                                 <nav class="w-full rounded">
                                     <ol class="flex list-reset">
                                         <li>
-                                            <a href="evidencija.php" class="font-medium text-blue-600 hover:text-blue-800">
+                                            <a href="evidencija.php" class="text-[#2196f3] hover:text-blue-600">
                                                 Evidencija knjiga
                                             </a>
                                         </li>
@@ -60,16 +60,9 @@
                                             <span class="mx-2">/</span>
                                         </li>
                                         <li>
-                                            <a href="../ucenici/profile.php" class="font-medium text-blue-600 hover:text-blue-800">
+                                            <a href="knjigaOsnovniDetalji.php"
+                                                class="text-[#2196f3] hover:text-blue-600">
                                                 KNJIGA-467
-                                            </a>
-                                        </li>
-                                        <li>
-                                            <span class="mx-2">/</span>
-                                        </li>
-                                        <li>
-                                            <a href="evidencijaIznajmljivanja.php" class="font-medium text-blue-600 hover:text-blue-800">
-                                                Evidencija iznajmljivanja
                                             </a>
                                         </li>
                                     </ol>
@@ -77,49 +70,73 @@
                             </div>
                         </div>
                     </div>
-                    <div class="mt-[15px] mr-[40px]">
+                    <div class="pt-[24px] mr-[30px]">
                         <a href="otpisiKnjigu.php" class="inline hover:text-blue-600">
                             <i class="fas fa-power-off mr-[3px]"></i>
                             Otpisi knjigu
                         </a>
                         <a href="izdajKnjigu.php" class="inline hover:text-blue-600 ml-[20px] pr-[10px]">
-                            <i class="far fa-hand-scissors"></i>
+                            <i class="far fa-hand-scissors mr-[3px]"></i>
                             Izdaj knjigu
                         </a>
                         <a href="vratiKnjigu.php" class="hover:text-blue-600 inline ml-[20px] pr-[10px]">
-                            <i class="fas fa-redo-alt mr-[3px]"></i>
+                            <i class="fas fa-redo-alt mr-[3px] "></i>
                             Vrati knjigu
                         </a>
                         <a href="rezervisiKnjigu.php" class="hover:text-blue-600 inline ml-[20px] pr-[10px]">
-                            <i class="far fa-calendar-check"></i>
+                            <i class="far fa-calendar-check mr-[3px] "></i>
                             Rezervisi knjigu
                         </a>
-                        <p class="inline cursor-pointer text-[25px] py-[10px] pl-[30px] border-l-[2px] border-gray-300">
-                            <i class="fas fa-ellipsis-v"></i>
+                        <p class="inline cursor-pointer text-[25px] py-[10px] pl-[30px] border-l-[1px] border-[#e4dfdf]"
+                            id="dropdownBookDetail">
+                            <i
+                                class="fas fa-ellipsis-v hover:text-gray-500 focus:outline-none active:text-gray-800"></i>
                         </p>
+                        <div
+                            class="hidden transition-all duration-300 origin-top-right transform scale-95 -translate-y-2 dropdown-menu-book-detail">
+                            <div class="absolute right-0 w-56 mt-2 origin-top-right bg-white border border-[#e4dfdf] divide-y divide-gray-100 rounded-md shadow-lg outline-none"
+                                aria-labelledby="headlessui-menu-button-1" id="headlessui-menu-items-117" role="menu">
+                                <div class="py-1">
+                                    <a href="javascript:void(0)" tabindex="0"
+                                        class="flex w-full px-4 py-2 text-sm leading-5 text-left text-gray-700"
+                                        role="menuitem">
+                                        <i class="fas fa-edit mr-[6px] ml-[5px] py-1"></i>
+                                        <span class="px-4 py-0">Izmijeni knjigu</span>
+                                    </a>
+                                    <a href="javascript:void(0)" tabindex="0"
+                                        class="flex w-full px-4 py-2 text-sm leading-5 text-left text-gray-700"
+                                        role="menuitem">
+                                        <i class="fa fa-trash mr-[10px] ml-[5px] py-1"></i>
+                                        <span class="px-4 py-0">Izbrisi knjigu</span>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
             <div class="scroll height-ucenikEvidencija">
                 <!-- Space for content -->
                 <div class="px-[30px] mt-10">
-                    <table class="w-full border-2 border-gray-300 sortTableDate">
-                        <thead>
-                            <tr class="border-b-2 border-gray-300">
-                                <th class="px-6 py-3 leading-4 tracking-wider text-left text-blue-500">
+                    <table class="w-full border-[1px] border-[#e4dfdf] sortTableDate">
+                        <thead class="bg-[#EFF3F6]">
+                            <tr class="border-b-[1px] border-[#e4dfdf]">
+                                <th class="px-6 py-4 leading-4 tracking-wider text-left text-blue-500">
                                     <label class="inline-flex items-center">
                                         <input type="checkbox" class="form-checkbox">
                                     </label>
                                 </th>
-                                <th class="px-6 py-3 text-sm leading-4 tracking-wider text-left">Datum transakcije<a href="#"><i class="ml-3 fa-lg fas fa-long-arrow-alt-down" onclick="sortTableDate(1)"></i></a></th>
-                                <th class="px-6 py-3 text-sm leading-4 tracking-wider text-left">Tip transakcije</th>
-                                <th class="px-6 py-3 text-sm leading-4 tracking-wider text-left">Bibliotekar</th>
-                                <th class="px-6 py-3 text-sm leading-4 tracking-wider text-left">Ucenik</th>
-                                <th class="px-6 py-3"> </th>
+                                <th class="px-6 py-4 text-sm leading-4 tracking-wider text-left">Datum transakcije<a
+                                        href="#"><i class="ml-3 fa-lg fas fa-long-arrow-alt-down"
+                                            onclick="sortTableDate(1)"></i></a></th>
+                                <th class="px-6 py-4 text-sm leading-4 tracking-wider text-left">Tip transakcije</th>
+                                <th class="px-6 py-4 text-sm leading-4 tracking-wider text-left">Bibliotekar</th>
+                                <th class="px-6 py-4 text-sm leading-4 tracking-wider text-left">Ucenik</th>
+                                <th class="px-6 py-4"> </th>
                             </tr>
                         </thead>
                         <tbody class="bg-white">
-                            <tr class="border-b-2 border-gray-300">
+                            <tr class="border-b-[1px] border-[#e4dfdf]">
                                 <td class="px-6 py-4 whitespace-no-wrap">
                                     <label class="inline-flex items-center">
                                         <input type="checkbox" class="form-checkbox">
@@ -127,34 +144,44 @@
                                 </td>
                                 <td class="px-6 py-4 text-sm leading-5 whitespace-no-wrap">21.02.2021</td>
                                 <td class="px-6 py-4 text-sm leading-5 text-blue-900 whitespace-no-wrap">
-                                    <span class="relative inline-block px-3 py-1 font-semibold leading-tight text-green-900">
-                                        <span aria-hidden class="absolute inset-0 bg-blue-600"></span>
-                                        <span class="relative text-xs text-white">Izdata knjiga</span>
+                                    <span
+                                        class="relative inline-block px-[6px] py-[2px] font-medium leading-tight text-green-900">
+                                        <span aria-hidden class="absolute inset-0 bg-blue-200 rounded-[10px]"></span>
+                                        <span class="relative text-xs text-blue-800">Izdata knjiga</span>
                                     </span>
                                 </td>
                                 <td class="px-6 py-4 text-sm leading-5 whitespace-no-wrap">Valentina Kascelan</td>
                                 <td class="px-6 py-4 text-sm leading-5 whitespace-no-wrap">Pero Perovic</td>
                                 <td class="px-6 py-4 text-sm leading-5 text-right whitespace-no-wrap">
-                                    <p class="inline cursor-pointer text-[20px] py-[10px] px-[30px]" id="dropdownRentalRecordDetailsRow1">
-                                        <i class="fas fa-ellipsis-v hover:text-gray-500 focus:outline-none active:text-gray-800"></i>
+                                    <p class="inline cursor-pointer text-[20px] py-[10px] px-[30px]"
+                                        id="dropdownRentalRecordDetailsRow1">
+                                        <i
+                                            class="fas fa-ellipsis-v hover:text-gray-500 focus:outline-none active:text-gray-800"></i>
                                     </p>
-                                    <div class="relative z-20 hidden transition-all duration-300 origin-top-right transform scale-95 -translate-y-2 dropdown-menu-rental-record-details-row1">
-                                        <div class="absolute right-0 w-56 mt-2 origin-top-right bg-white border border-gray-200 divide-y divide-gray-100 rounded-md shadow-lg outline-none" aria-labelledby="headlessui-menu-button-1" id="headlessui-menu-items-117" role="menu">
+                                    <div
+                                        class="relative z-20 hidden transition-all duration-300 origin-top-right transform scale-95 -translate-y-2 dropdown-menu-rental-record-details-row1">
+                                        <div class="absolute right-0 w-56 mt-2 origin-top-right bg-white border border-gray-200 divide-y divide-gray-100 rounded-md shadow-lg outline-none"
+                                            aria-labelledby="headlessui-menu-button-1" id="headlessui-menu-items-117"
+                                            role="menu">
                                             <div class="py-1">
-                                            <a href="javascript:void(0)" tabindex="0" class="flex w-full px-4 py-2 text-sm leading-5 text-left text-gray-700"  role="menuitem" >
-                                                <i class="far fa-file mr-[10px] ml-[5px] py-1"></i>
-                                                <span class="px-4 py-0">Pogledaj detalje</span>
-                                            </a>
-                                            <a href="javascript:void(0)" tabindex="0" class="flex w-full px-4 py-2 text-sm leading-5 text-left text-gray-700"  role="menuitem" >
-                                                <i class="fa fa-trash mr-[10px] ml-[5px] py-1"></i>
-                                                <span class="px-4 py-0">Izbrisi zapis</span>
-                                            </a>
+                                                <a href="javascript:void(0)" tabindex="0"
+                                                    class="flex w-full px-4 py-2 text-sm leading-5 text-left text-gray-700"
+                                                    role="menuitem">
+                                                    <i class="far fa-file mr-[10px] ml-[5px] py-1"></i>
+                                                    <span class="px-4 py-0">Pogledaj detalje</span>
+                                                </a>
+                                                <a href="javascript:void(0)" tabindex="0"
+                                                    class="flex w-full px-4 py-2 text-sm leading-5 text-left text-gray-700"
+                                                    role="menuitem">
+                                                    <i class="fa fa-trash mr-[10px] ml-[5px] py-1"></i>
+                                                    <span class="px-4 py-0">Izbrisi zapis</span>
+                                                </a>
                                             </div>
                                         </div>
-                                    </div> 
+                                    </div>
                                 </td>
                             </tr>
-                            <tr class="border-b-2 border-gray-300">
+                            <tr class="border-b-[1px] border-[#e4dfdf]">
                                 <td class="px-6 py-4 whitespace-no-wrap">
                                     <label class="inline-flex items-center">
                                         <input type="checkbox" class="form-checkbox">
@@ -162,34 +189,44 @@
                                 </td>
                                 <td class="px-6 py-4 text-sm leading-5 whitespace-no-wrap">12.05.2020</td>
                                 <td class="px-6 py-4 text-sm leading-5 text-blue-900 whitespace-no-wrap">
-                                    <span class="relative inline-block px-3 py-1 font-semibold leading-tight text-green-900">
-                                        <span aria-hidden class="absolute inset-0 bg-red-600"></span>
-                                        <span class="relative text-xs text-white">Vracena knjiga</span>
+                                <span
+                                        class="relative inline-block px-[6px] py-[2px] font-medium leading-tight text-green-900">
+                                        <span aria-hidden class="absolute inset-0 bg-red-200 rounded-[10px]"></span>
+                                        <span class="relative text-xs text-red-800">Vracena knjiga</span>
                                     </span>
                                 </td>
                                 <td class="px-6 py-4 text-sm leading-5 whitespace-no-wrap">Valentina Kascelan</td>
                                 <td class="px-6 py-4 text-sm leading-5 whitespace-no-wrap">Nina Bulatovic</td>
                                 <td class="px-6 py-4 text-sm leading-5 text-right whitespace-no-wrap">
-                                    <p class="inline cursor-pointer text-[20px] py-[10px] px-[30px]" id="dropdownRentalRecordDetailsRow2">
-                                        <i class="fas fa-ellipsis-v hover:text-gray-500 focus:outline-none active:text-gray-800"></i>
+                                    <p class="inline cursor-pointer text-[20px] py-[10px] px-[30px]"
+                                        id="dropdownRentalRecordDetailsRow2">
+                                        <i
+                                            class="fas fa-ellipsis-v hover:text-gray-500 focus:outline-none active:text-gray-800"></i>
                                     </p>
-                                    <div class="relative z-20 hidden transition-all duration-300 origin-top-right transform scale-95 -translate-y-2 dropdown-menu-rental-record-details-row2">
-                                        <div class="absolute right-0 w-56 mt-2 origin-top-right bg-white border border-gray-200 divide-y divide-gray-100 rounded-md shadow-lg outline-none" aria-labelledby="headlessui-menu-button-1" id="headlessui-menu-items-117" role="menu">
+                                    <div
+                                        class="relative z-20 hidden transition-all duration-300 origin-top-right transform scale-95 -translate-y-2 dropdown-menu-rental-record-details-row2">
+                                        <div class="absolute right-0 w-56 mt-2 origin-top-right bg-white border border-gray-200 divide-y divide-gray-100 rounded-md shadow-lg outline-none"
+                                            aria-labelledby="headlessui-menu-button-1" id="headlessui-menu-items-117"
+                                            role="menu">
                                             <div class="py-1">
-                                            <a href="javascript:void(0)" tabindex="0" class="flex w-full px-4 py-2 text-sm leading-5 text-left text-gray-700"  role="menuitem" >
-                                                <i class="far fa-file mr-[10px] ml-[5px] py-1"></i>
-                                                <span class="px-4 py-0">Pogledaj detalje</span>
-                                            </a>
-                                            <a href="javascript:void(0)" tabindex="0" class="flex w-full px-4 py-2 text-sm leading-5 text-left text-gray-700"  role="menuitem" >
-                                                <i class="fa fa-trash mr-[10px] ml-[5px] py-1"></i>
-                                                <span class="px-4 py-0">Izbrisi zapis</span>
-                                            </a>
+                                                <a href="javascript:void(0)" tabindex="0"
+                                                    class="flex w-full px-4 py-2 text-sm leading-5 text-left text-gray-700"
+                                                    role="menuitem">
+                                                    <i class="far fa-file mr-[10px] ml-[5px] py-1"></i>
+                                                    <span class="px-4 py-0">Pogledaj detalje</span>
+                                                </a>
+                                                <a href="javascript:void(0)" tabindex="0"
+                                                    class="flex w-full px-4 py-2 text-sm leading-5 text-left text-gray-700"
+                                                    role="menuitem">
+                                                    <i class="fa fa-trash mr-[10px] ml-[5px] py-1"></i>
+                                                    <span class="px-4 py-0">Izbrisi zapis</span>
+                                                </a>
                                             </div>
                                         </div>
-                                    </div> 
+                                    </div>
                                 </td>
                             </tr>
-                            <tr class="border-b-2 border-gray-300">
+                            <tr class="border-b-[1px] border-[#e4dfdf]">
                                 <td class="px-6 py-4 whitespace-no-wrap">
                                     <label class="inline-flex items-center">
                                         <input type="checkbox" class="form-checkbox">
@@ -197,34 +234,44 @@
                                 </td>
                                 <td class="px-6 py-4 text-sm leading-5 whitespace-no-wrap">12.05.2020</td>
                                 <td class="px-6 py-4 text-sm leading-5 text-blue-900 whitespace-no-wrap">
-                                    <span class="relative inline-block px-3 py-1 font-semibold leading-tight text-green-900">
-                                        <span aria-hidden class="absolute inset-0 bg-blue-600"></span>
-                                        <span class="relative text-xs text-white">Izdata knjiga</span>
+                                    <span
+                                        class="relative inline-block px-[6px] py-[2px] font-medium leading-tight text-green-900">
+                                        <span aria-hidden class="absolute inset-0 bg-blue-200 rounded-[10px]"></span>
+                                        <span class="relative text-xs text-blue-800">Izdata knjiga</span>
                                     </span>
                                 </td>
                                 <td class="px-6 py-4 text-sm leading-5 whitespace-no-wrap">Valentina Kascelan</td>
                                 <td class="px-6 py-4 text-sm leading-5 whitespace-no-wrap">Milos Milosevic</td>
                                 <td class="px-6 py-4 text-sm leading-5 text-right whitespace-no-wrap">
-                                    <p class="inline cursor-pointer text-[20px] py-[10px] px-[30px]" id="dropdownRentalRecordDetailsRow3">
-                                        <i class="fas fa-ellipsis-v hover:text-gray-500 focus:outline-none active:text-gray-800"></i>
+                                    <p class="inline cursor-pointer text-[20px] py-[10px] px-[30px]"
+                                        id="dropdownRentalRecordDetailsRow3">
+                                        <i
+                                            class="fas fa-ellipsis-v hover:text-gray-500 focus:outline-none active:text-gray-800"></i>
                                     </p>
-                                    <div class="relative z-20 hidden transition-all duration-300 origin-top-right transform scale-95 -translate-y-2 dropdown-menu-rental-record-details-row3">
-                                        <div class="absolute right-0 w-56 mt-2 origin-top-right bg-white border border-gray-200 divide-y divide-gray-100 rounded-md shadow-lg outline-none" aria-labelledby="headlessui-menu-button-1" id="headlessui-menu-items-117" role="menu">
+                                    <div
+                                        class="relative z-20 hidden transition-all duration-300 origin-top-right transform scale-95 -translate-y-2 dropdown-menu-rental-record-details-row3">
+                                        <div class="absolute right-0 w-56 mt-2 origin-top-right bg-white border border-gray-200 divide-y divide-gray-100 rounded-md shadow-lg outline-none"
+                                            aria-labelledby="headlessui-menu-button-1" id="headlessui-menu-items-117"
+                                            role="menu">
                                             <div class="py-1">
-                                            <a href="javascript:void(0)" tabindex="0" class="flex w-full px-4 py-2 text-sm leading-5 text-left text-gray-700"  role="menuitem" >
-                                                <i class="far fa-file mr-[10px] ml-[5px] py-1"></i>
-                                                <span class="px-4 py-0">Pogledaj detalje</span>
-                                            </a>
-                                            <a href="javascript:void(0)" tabindex="0" class="flex w-full px-4 py-2 text-sm leading-5 text-left text-gray-700"  role="menuitem" >
-                                                <i class="fa fa-trash mr-[10px] ml-[5px] py-1"></i>
-                                                <span class="px-4 py-0">Izbrisi zapis</span>
-                                            </a>
+                                                <a href="javascript:void(0)" tabindex="0"
+                                                    class="flex w-full px-4 py-2 text-sm leading-5 text-left text-gray-700"
+                                                    role="menuitem">
+                                                    <i class="far fa-file mr-[10px] ml-[5px] py-1"></i>
+                                                    <span class="px-4 py-0">Pogledaj detalje</span>
+                                                </a>
+                                                <a href="javascript:void(0)" tabindex="0"
+                                                    class="flex w-full px-4 py-2 text-sm leading-5 text-left text-gray-700"
+                                                    role="menuitem">
+                                                    <i class="fa fa-trash mr-[10px] ml-[5px] py-1"></i>
+                                                    <span class="px-4 py-0">Izbrisi zapis</span>
+                                                </a>
                                             </div>
                                         </div>
-                                    </div> 
+                                    </div>
                                 </td>
                             </tr>
-                            <tr class="border-b-2 border-gray-300">
+                            <tr class="border-b-[1px] border-[#e4dfdf]">
                                 <td class="px-6 py-4 whitespace-no-wrap">
                                     <label class="inline-flex items-center">
                                         <input type="checkbox" class="form-checkbox">
@@ -232,34 +279,44 @@
                                 </td>
                                 <td class="px-6 py-4 text-sm leading-5 whitespace-no-wrap">12.05.2020</td>
                                 <td class="px-6 py-4 text-sm leading-5 text-blue-900 whitespace-no-wrap">
-                                    <span class="relative inline-block px-3 py-1 font-semibold leading-tight text-green-900">
-                                        <span aria-hidden class="absolute inset-0 bg-red-600"></span>
-                                        <span class="relative text-xs text-white">Vracena knjiga</span>
+                                <span
+                                        class="relative inline-block px-[6px] py-[2px] font-medium leading-tight text-green-900">
+                                        <span aria-hidden class="absolute inset-0 bg-red-200 rounded-[10px]"></span>
+                                        <span class="relative text-xs text-red-800">Vracena knjiga</span>
                                     </span>
                                 </td>
                                 <td class="px-6 py-4 text-sm leading-5 whitespace-no-wrap">Nina Bracovic</td>
                                 <td class="px-6 py-4 text-sm leading-5 whitespace-no-wrap">Nenad Novovic</td>
                                 <td class="px-6 py-4 text-sm leading-5 text-right whitespace-no-wrap">
-                                    <p class="inline cursor-pointer text-[20px] py-[10px] px-[30px]" id="dropdownRentalRecordDetailsRow4">
-                                        <i class="fas fa-ellipsis-v hover:text-gray-500 focus:outline-none active:text-gray-800"></i>
+                                    <p class="inline cursor-pointer text-[20px] py-[10px] px-[30px]"
+                                        id="dropdownRentalRecordDetailsRow4">
+                                        <i
+                                            class="fas fa-ellipsis-v hover:text-gray-500 focus:outline-none active:text-gray-800"></i>
                                     </p>
-                                    <div class="relative z-20 hidden transition-all duration-300 origin-top-right transform scale-95 -translate-y-2 dropdown-menu-rental-record-details-row4">
-                                        <div class="absolute right-0 w-56 mt-2 origin-top-right bg-white border border-gray-200 divide-y divide-gray-100 rounded-md shadow-lg outline-none" aria-labelledby="headlessui-menu-button-1" id="headlessui-menu-items-117" role="menu">
+                                    <div
+                                        class="relative z-20 hidden transition-all duration-300 origin-top-right transform scale-95 -translate-y-2 dropdown-menu-rental-record-details-row4">
+                                        <div class="absolute right-0 w-56 mt-2 origin-top-right bg-white border border-gray-200 divide-y divide-gray-100 rounded-md shadow-lg outline-none"
+                                            aria-labelledby="headlessui-menu-button-1" id="headlessui-menu-items-117"
+                                            role="menu">
                                             <div class="py-1">
-                                            <a href="javascript:void(0)" tabindex="0" class="flex w-full px-4 py-2 text-sm leading-5 text-left text-gray-700"  role="menuitem" >
-                                                <i class="far fa-file mr-[10px] ml-[5px] py-1"></i>
-                                                <span class="px-4 py-0">Pogledaj detalje</span>
-                                            </a>
-                                            <a href="javascript:void(0)" tabindex="0" class="flex w-full px-4 py-2 text-sm leading-5 text-left text-gray-700"  role="menuitem" >
-                                                <i class="fa fa-trash mr-[10px] ml-[5px] py-1"></i>
-                                                <span class="px-4 py-0">Izbrisi zapis</span>
-                                            </a>
+                                                <a href="javascript:void(0)" tabindex="0"
+                                                    class="flex w-full px-4 py-2 text-sm leading-5 text-left text-gray-700"
+                                                    role="menuitem">
+                                                    <i class="far fa-file mr-[10px] ml-[5px] py-1"></i>
+                                                    <span class="px-4 py-0">Pogledaj detalje</span>
+                                                </a>
+                                                <a href="javascript:void(0)" tabindex="0"
+                                                    class="flex w-full px-4 py-2 text-sm leading-5 text-left text-gray-700"
+                                                    role="menuitem">
+                                                    <i class="fa fa-trash mr-[10px] ml-[5px] py-1"></i>
+                                                    <span class="px-4 py-0">Izbrisi zapis</span>
+                                                </a>
                                             </div>
                                         </div>
-                                    </div> 
+                                    </div>
                                 </td>
                             </tr>
-                            <tr class="border-b-2 border-gray-300">
+                            <tr class="border-b-[1px] border-[#e4dfdf]">
                                 <td class="px-6 py-4 whitespace-no-wrap">
                                     <label class="inline-flex items-center">
                                         <input type="checkbox" class="form-checkbox">
@@ -267,34 +324,44 @@
                                 </td>
                                 <td class="px-6 py-4 text-sm leading-5 whitespace-no-wrap">12.05.2020</td>
                                 <td class="px-6 py-4 text-sm leading-5 text-blue-900 whitespace-no-wrap">
-                                    <span class="relative inline-block px-3 py-1 font-semibold leading-tight text-green-900">
-                                        <span aria-hidden class="absolute inset-0 bg-blue-600"></span>
-                                        <span class="relative text-xs text-white">Izdata knjiga</span>
+                                    <span
+                                        class="relative inline-block px-[6px] py-[2px] font-medium leading-tight text-green-900">
+                                        <span aria-hidden class="absolute inset-0 bg-blue-200 rounded-[10px]"></span>
+                                        <span class="relative text-xs text-blue-800">Izdata knjiga</span>
                                     </span>
                                 </td>
                                 <td class="px-6 py-4 text-sm leading-5 whitespace-no-wrap">Nina Bracovic</td>
                                 <td class="px-6 py-4 text-sm leading-5 whitespace-no-wrap">Pero Perovic</td>
                                 <td class="px-6 py-4 text-sm leading-5 text-right whitespace-no-wrap">
-                                    <p class="inline cursor-pointer text-[20px] py-[10px] px-[30px]" id="dropdownRentalRecordDetailsRow5">
-                                        <i class="fas fa-ellipsis-v hover:text-gray-500 focus:outline-none active:text-gray-800"></i>
+                                    <p class="inline cursor-pointer text-[20px] py-[10px] px-[30px]"
+                                        id="dropdownRentalRecordDetailsRow5">
+                                        <i
+                                            class="fas fa-ellipsis-v hover:text-gray-500 focus:outline-none active:text-gray-800"></i>
                                     </p>
-                                    <div class="relative z-20 hidden transition-all duration-300 origin-top-right transform scale-95 -translate-y-2 dropdown-menu-rental-record-details-row5">
-                                        <div class="absolute right-0 w-56 mt-2 origin-top-right bg-white border border-gray-200 divide-y divide-gray-100 rounded-md shadow-lg outline-none" aria-labelledby="headlessui-menu-button-1" id="headlessui-menu-items-117" role="menu">
+                                    <div
+                                        class="relative z-20 hidden transition-all duration-300 origin-top-right transform scale-95 -translate-y-2 dropdown-menu-rental-record-details-row5">
+                                        <div class="absolute right-0 w-56 mt-2 origin-top-right bg-white border border-gray-200 divide-y divide-gray-100 rounded-md shadow-lg outline-none"
+                                            aria-labelledby="headlessui-menu-button-1" id="headlessui-menu-items-117"
+                                            role="menu">
                                             <div class="py-1">
-                                            <a href="javascript:void(0)" tabindex="0" class="flex w-full px-4 py-2 text-sm leading-5 text-left text-gray-700"  role="menuitem" >
-                                                <i class="far fa-file mr-[10px] ml-[5px] py-1"></i>
-                                                <span class="px-4 py-0">Pogledaj detalje</span>
-                                            </a>
-                                            <a href="javascript:void(0)" tabindex="0" class="flex w-full px-4 py-2 text-sm leading-5 text-left text-gray-700"  role="menuitem" >
-                                                <i class="fa fa-trash mr-[10px] ml-[5px] py-1"></i>
-                                                <span class="px-4 py-0">Izbrisi zapis</span>
-                                            </a>
+                                                <a href="javascript:void(0)" tabindex="0"
+                                                    class="flex w-full px-4 py-2 text-sm leading-5 text-left text-gray-700"
+                                                    role="menuitem">
+                                                    <i class="far fa-file mr-[10px] ml-[5px] py-1"></i>
+                                                    <span class="px-4 py-0">Pogledaj detalje</span>
+                                                </a>
+                                                <a href="javascript:void(0)" tabindex="0"
+                                                    class="flex w-full px-4 py-2 text-sm leading-5 text-left text-gray-700"
+                                                    role="menuitem">
+                                                    <i class="fa fa-trash mr-[10px] ml-[5px] py-1"></i>
+                                                    <span class="px-4 py-0">Izbrisi zapis</span>
+                                                </a>
                                             </div>
                                         </div>
-                                    </div> 
+                                    </div>
                                 </td>
                             </tr>
-                            <tr class="border-b-2 border-gray-300">
+                            <tr class="border-b-[1px] border-[#e4dfdf]">
                                 <td class="px-6 py-4 whitespace-no-wrap">
                                     <label class="inline-flex items-center">
                                         <input type="checkbox" class="form-checkbox">
@@ -302,34 +369,44 @@
                                 </td>
                                 <td class="px-6 py-4 text-sm leading-5 whitespace-no-wrap">12.05.2020</td>
                                 <td class="px-6 py-4 text-sm leading-5 text-blue-900 whitespace-no-wrap">
-                                    <span class="relative inline-block px-3 py-1 font-semibold leading-tight text-green-900">
-                                        <span aria-hidden class="absolute inset-0 bg-red-600"></span>
-                                        <span class="relative text-xs text-white">Vracena knjiga</span>
+                                    <span
+                                        class="relative inline-block px-[6px] py-[2px] font-medium leading-tight text-green-900">
+                                        <span aria-hidden class="absolute inset-0 bg-red-200 rounded-[10px]"></span>
+                                        <span class="relative text-xs text-red-800">Vracena knjiga</span>
                                     </span>
                                 </td>
                                 <td class="px-6 py-4 text-sm leading-5 whitespace-no-wrap">Nina Bracovic</td>
                                 <td class="px-6 py-4 text-sm leading-5 whitespace-no-wrap">Nina Bulatovic</td>
                                 <td class="px-6 py-4 text-sm leading-5 text-right whitespace-no-wrap">
-                                    <p class="inline cursor-pointer text-[20px] py-[10px] px-[30px]" id="dropdownRentalRecordDetailsRow6">
-                                        <i class="fas fa-ellipsis-v hover:text-gray-500 focus:outline-none active:text-gray-800"></i>
+                                    <p class="inline cursor-pointer text-[20px] py-[10px] px-[30px]"
+                                        id="dropdownRentalRecordDetailsRow6">
+                                        <i
+                                            class="fas fa-ellipsis-v hover:text-gray-500 focus:outline-none active:text-gray-800"></i>
                                     </p>
-                                    <div class="relative z-20 hidden transition-all duration-300 origin-top-right transform scale-95 -translate-y-2 dropdown-menu-rental-record-details-row6">
-                                        <div class="absolute right-0 w-56 mt-2 origin-top-right bg-white border border-gray-200 divide-y divide-gray-100 rounded-md shadow-lg outline-none" aria-labelledby="headlessui-menu-button-1" id="headlessui-menu-items-117" role="menu">
+                                    <div
+                                        class="relative z-20 hidden transition-all duration-300 origin-top-right transform scale-95 -translate-y-2 dropdown-menu-rental-record-details-row6">
+                                        <div class="absolute right-0 w-56 mt-2 origin-top-right bg-white border border-gray-200 divide-y divide-gray-100 rounded-md shadow-lg outline-none"
+                                            aria-labelledby="headlessui-menu-button-1" id="headlessui-menu-items-117"
+                                            role="menu">
                                             <div class="py-1">
-                                            <a href="javascript:void(0)" tabindex="0" class="flex w-full px-4 py-2 text-sm leading-5 text-left text-gray-700"  role="menuitem" >
-                                                <i class="far fa-file mr-[10px] ml-[5px] py-1"></i>
-                                                <span class="px-4 py-0">Pogledaj detalje</span>
-                                            </a>
-                                            <a href="javascript:void(0)" tabindex="0" class="flex w-full px-4 py-2 text-sm leading-5 text-left text-gray-700"  role="menuitem" >
-                                                <i class="fa fa-trash mr-[10px] ml-[5px] py-1"></i>
-                                                <span class="px-4 py-0">Izbrisi zapis</span>
-                                            </a>
+                                                <a href="javascript:void(0)" tabindex="0"
+                                                    class="flex w-full px-4 py-2 text-sm leading-5 text-left text-gray-700"
+                                                    role="menuitem">
+                                                    <i class="far fa-file mr-[10px] ml-[5px] py-1"></i>
+                                                    <span class="px-4 py-0">Pogledaj detalje</span>
+                                                </a>
+                                                <a href="javascript:void(0)" tabindex="0"
+                                                    class="flex w-full px-4 py-2 text-sm leading-5 text-left text-gray-700"
+                                                    role="menuitem">
+                                                    <i class="fa fa-trash mr-[10px] ml-[5px] py-1"></i>
+                                                    <span class="px-4 py-0">Izbrisi zapis</span>
+                                                </a>
                                             </div>
                                         </div>
-                                    </div> 
+                                    </div>
                                 </td>
                             </tr>
-                            <tr class="border-b-2 border-gray-300">
+                            <tr class="border-b-[1px] border-[#e4dfdf]">
                                 <td class="px-6 py-4 whitespace-no-wrap">
                                     <label class="inline-flex items-center">
                                         <input type="checkbox" class="form-checkbox">
@@ -337,34 +414,44 @@
                                 </td>
                                 <td class="px-6 py-4 text-sm leading-5 whitespace-no-wrap">12.05.2020</td>
                                 <td class="px-6 py-4 text-sm leading-5 text-blue-900 whitespace-no-wrap">
-                                    <span class="relative inline-block px-3 py-1 font-semibold leading-tight text-green-900">
-                                        <span aria-hidden class="absolute inset-0 bg-blue-600"></span>
-                                        <span class="relative text-xs text-white">Izdata knjiga</span>
+                                    <span
+                                        class="relative inline-block px-[6px] py-[2px] font-medium leading-tight text-green-900">
+                                        <span aria-hidden class="absolute inset-0 bg-blue-200 rounded-[10px]"></span>
+                                        <span class="relative text-xs text-blue-800">Izdata knjiga</span>
                                     </span>
                                 </td>
                                 <td class="px-6 py-4 text-sm leading-5 whitespace-no-wrap">Valentina Kascelan</td>
                                 <td class="px-6 py-4 text-sm leading-5 whitespace-no-wrap">Milos Milosevic</td>
                                 <td class="px-6 py-4 text-sm leading-5 text-right whitespace-no-wrap">
-                                    <p class="inline cursor-pointer text-[20px] py-[10px] px-[30px]" id="dropdownRentalRecordDetailsRow7">
-                                        <i class="fas fa-ellipsis-v hover:text-gray-500 focus:outline-none active:text-gray-800"></i>
+                                    <p class="inline cursor-pointer text-[20px] py-[10px] px-[30px]"
+                                        id="dropdownRentalRecordDetailsRow7">
+                                        <i
+                                            class="fas fa-ellipsis-v hover:text-gray-500 focus:outline-none active:text-gray-800"></i>
                                     </p>
-                                    <div class="relative z-20 hidden transition-all duration-300 origin-top-right transform scale-95 -translate-y-2 dropdown-menu-rental-record-details-row7">
-                                        <div class="absolute right-0 w-56 mt-2 origin-top-right bg-white border border-gray-200 divide-y divide-gray-100 rounded-md shadow-lg outline-none" aria-labelledby="headlessui-menu-button-1" id="headlessui-menu-items-117" role="menu">
+                                    <div
+                                        class="relative z-20 hidden transition-all duration-300 origin-top-right transform scale-95 -translate-y-2 dropdown-menu-rental-record-details-row7">
+                                        <div class="absolute right-0 w-56 mt-2 origin-top-right bg-white border border-gray-200 divide-y divide-gray-100 rounded-md shadow-lg outline-none"
+                                            aria-labelledby="headlessui-menu-button-1" id="headlessui-menu-items-117"
+                                            role="menu">
                                             <div class="py-1">
-                                            <a href="javascript:void(0)" tabindex="0" class="flex w-full px-4 py-2 text-sm leading-5 text-left text-gray-700"  role="menuitem" >
-                                                <i class="far fa-file mr-[10px] ml-[5px] py-1"></i>
-                                                <span class="px-4 py-0">Pogledaj detalje</span>
-                                            </a>
-                                            <a href="javascript:void(0)" tabindex="0" class="flex w-full px-4 py-2 text-sm leading-5 text-left text-gray-700"  role="menuitem" >
-                                                <i class="fa fa-trash mr-[10px] ml-[5px] py-1"></i>
-                                                <span class="px-4 py-0">Izbrisi zapis</span>
-                                            </a>
+                                                <a href="javascript:void(0)" tabindex="0"
+                                                    class="flex w-full px-4 py-2 text-sm leading-5 text-left text-gray-700"
+                                                    role="menuitem">
+                                                    <i class="far fa-file mr-[10px] ml-[5px] py-1"></i>
+                                                    <span class="px-4 py-0">Pogledaj detalje</span>
+                                                </a>
+                                                <a href="javascript:void(0)" tabindex="0"
+                                                    class="flex w-full px-4 py-2 text-sm leading-5 text-left text-gray-700"
+                                                    role="menuitem">
+                                                    <i class="fa fa-trash mr-[10px] ml-[5px] py-1"></i>
+                                                    <span class="px-4 py-0">Izbrisi zapis</span>
+                                                </a>
                                             </div>
                                         </div>
-                                    </div> 
+                                    </div>
                                 </td>
                             </tr>
-                            <tr class="border-b-2 border-gray-300">
+                            <tr class="border-b-[1px] border-[#e4dfdf]">
                                 <td class="px-6 py-4 whitespace-no-wrap">
                                     <label class="inline-flex items-center">
                                         <input type="checkbox" class="form-checkbox">
@@ -372,36 +459,46 @@
                                 </td>
                                 <td class="px-6 py-4 text-sm leading-5 whitespace-no-wrap">12.05.2020</td>
                                 <td class="px-6 py-4 text-sm leading-5 text-blue-900 whitespace-no-wrap">
-                                    <span class="relative inline-block px-3 py-1 font-semibold leading-tight text-green-900">
-                                        <span aria-hidden class="absolute inset-0 bg-red-600"></span>
-                                        <span class="relative text-xs text-white">Vracena knjiga</span>
+                                <span
+                                        class="relative inline-block px-[6px] py-[2px] font-medium leading-tight text-green-900">
+                                        <span aria-hidden class="absolute inset-0 bg-red-200 rounded-[10px]"></span>
+                                        <span class="relative text-xs text-red-800">Vracena knjiga</span>
                                     </span>
                                 </td>
                                 <td class="px-6 py-4 text-sm leading-5 whitespace-no-wrap">Valentina Kascelan</td>
                                 <td class="px-6 py-4 text-sm leading-5 whitespace-no-wrap">Nenad Novovic</td>
                                 <td class="px-6 py-4 text-sm leading-5 text-right whitespace-no-wrap">
-                                    <p class="inline cursor-pointer text-[20px] py-[10px] px-[30px]" id="dropdownRentalRecordDetailsRow8">
-                                        <i class="fas fa-ellipsis-v hover:text-gray-500 focus:outline-none active:text-gray-800"></i>
+                                    <p class="inline cursor-pointer text-[20px] py-[10px] px-[30px]"
+                                        id="dropdownRentalRecordDetailsRow8">
+                                        <i
+                                            class="fas fa-ellipsis-v hover:text-gray-500 focus:outline-none active:text-gray-800"></i>
                                     </p>
-                                    <div class="relative z-20 hidden transition-all duration-300 origin-top-right transform scale-95 -translate-y-2 dropdown-menu-rental-record-details-row8">
-                                        <div class="absolute right-0 w-56 mt-2 origin-top-right bg-white border border-gray-200 divide-y divide-gray-100 rounded-md shadow-lg outline-none" aria-labelledby="headlessui-menu-button-1" id="headlessui-menu-items-117" role="menu">
+                                    <div
+                                        class="relative z-20 hidden transition-all duration-300 origin-top-right transform scale-95 -translate-y-2 dropdown-menu-rental-record-details-row8">
+                                        <div class="absolute right-0 w-56 mt-2 origin-top-right bg-white border border-gray-200 divide-y divide-gray-100 rounded-md shadow-lg outline-none"
+                                            aria-labelledby="headlessui-menu-button-1" id="headlessui-menu-items-117"
+                                            role="menu">
                                             <div class="py-1">
-                                            <a href="javascript:void(0)" tabindex="0" class="flex w-full px-4 py-2 text-sm leading-5 text-left text-gray-700"  role="menuitem" >
-                                                <i class="far fa-file mr-[10px] ml-[5px] py-1"></i>
-                                                <span class="px-4 py-0">Pogledaj detalje</span>
-                                            </a>
-                                            <a href="javascript:void(0)" tabindex="0" class="flex w-full px-4 py-2 text-sm leading-5 text-left text-gray-700"  role="menuitem" >
-                                                <i class="fa fa-trash mr-[10px] ml-[5px] py-1"></i>
-                                                <span class="px-4 py-0">Izbrisi zapis</span>
-                                            </a>
+                                                <a href="javascript:void(0)" tabindex="0"
+                                                    class="flex w-full px-4 py-2 text-sm leading-5 text-left text-gray-700"
+                                                    role="menuitem">
+                                                    <i class="far fa-file mr-[10px] ml-[5px] py-1"></i>
+                                                    <span class="px-4 py-0">Pogledaj detalje</span>
+                                                </a>
+                                                <a href="javascript:void(0)" tabindex="0"
+                                                    class="flex w-full px-4 py-2 text-sm leading-5 text-left text-gray-700"
+                                                    role="menuitem">
+                                                    <i class="fa fa-trash mr-[10px] ml-[5px] py-1"></i>
+                                                    <span class="px-4 py-0">Izbrisi zapis</span>
+                                                </a>
                                             </div>
                                         </div>
-                                    </div> 
+                                    </div>
                                 </td>
                             </tr>
                         </tbody>
                     </table>
-    
+
                     <div class="flex flex-row items-center justify-end mt-2">
                         <div>
                             <p class="inline text-md">
@@ -427,34 +524,44 @@
                                 </option>
                             </select>
                         </div>
-                        
+
                         <div>
                             <nav class="relative z-0 inline-flex">
                                 <div>
-                                    <a href="#" class="relative inline-flex items-center px-4 py-2 -ml-px font-medium leading-5 transition duration-150 ease-in-out bg-white text-md focus:z-10 focus:outline-none">
+                                    <a href="#"
+                                        class="relative inline-flex items-center px-4 py-2 -ml-px font-medium leading-5 transition duration-150 ease-in-out bg-white text-md focus:z-10 focus:outline-none">
                                         1 of 1
                                     </a>
                                 </div>
                                 <div>
-                                    <a href="#" class="relative inline-flex items-center px-2 py-2 font-medium leading-5 text-gray-500 transition duration-150 ease-in-out bg-white text-md rounded-l-md hover:text-gray-400 focus:z-10 focus:outline-none" aria-label="Previous" v-on:click.prevent="changePage(pagination.current_page - 1)">
+                                    <a href="#"
+                                        class="relative inline-flex items-center px-2 py-2 font-medium leading-5 text-gray-500 transition duration-150 ease-in-out bg-white text-md rounded-l-md hover:text-gray-400 focus:z-10 focus:outline-none"
+                                        aria-label="Previous"
+                                        v-on:click.prevent="changePage(pagination.current_page - 1)">
                                         <svg class="w-5 h-5" viewBox="0 0 20 20" fill="currentColor">
-                                            <path fill-rule="evenodd" d="M12.707 5.293a1 1 0 010 1.414L9.414 10l3.293 3.293a1 1 0 01-1.414 1.414l-4-4a1 1 0 010-1.414l4-4a1 1 0 011.414 0z" clip-rule="evenodd" />
+                                            <path fill-rule="evenodd"
+                                                d="M12.707 5.293a1 1 0 010 1.414L9.414 10l3.293 3.293a1 1 0 01-1.414 1.414l-4-4a1 1 0 010-1.414l4-4a1 1 0 011.414 0z"
+                                                clip-rule="evenodd" />
                                         </svg>
                                     </a>
                                 </div>
                                 <div v-if="pagination.current_page < pagination.last_page">
-                                    <a href="#" class="relative inline-flex items-center px-2 py-2 -ml-px font-medium leading-5 text-gray-500 transition duration-150 ease-in-out bg-white text-md rounded-r-md hover:text-gray-400 focus:z-10 focus:outline-none" aria-label="Next">
+                                    <a href="#"
+                                        class="relative inline-flex items-center px-2 py-2 -ml-px font-medium leading-5 text-gray-500 transition duration-150 ease-in-out bg-white text-md rounded-r-md hover:text-gray-400 focus:z-10 focus:outline-none"
+                                        aria-label="Next">
                                         <svg class="w-5 h-5" viewBox="0 0 20 20" fill="currentColor">
-                                            <path fill-rule="evenodd" d="M7.293 14.707a1 1 0 010-1.414L10.586 10 7.293 6.707a1 1 0 011.414-1.414l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414 0z" clip-rule="evenodd" />
+                                            <path fill-rule="evenodd"
+                                                d="M7.293 14.707a1 1 0 010-1.414L10.586 10 7.293 6.707a1 1 0 011.414-1.414l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414 0z"
+                                                clip-rule="evenodd" />
                                         </svg>
                                     </a>
                                 </div>
                             </nav>
                         </div>
-                        
+
                     </div>
                 </div>
-                
+
             </div>
         </section>
         <!-- End Content -->
