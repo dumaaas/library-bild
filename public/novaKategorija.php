@@ -34,13 +34,13 @@
         <!-- End Sidebar -->
 
         <!-- Content -->
-        <section class="w-screen h-screen pl-[80px] py-4 text-gray-700">
+        <section class="w-screen h-screen pl-[80px] pb-4 text-gray-700">
             <!-- Heading of content -->
             <div class="heading">
-                <div class="flex border-b-[2px] border-gray-300">
-                    <div class="pl-[30px] pb-[10px] flex flex-col">
+                <div class="flex border-b-[1px] border-[#e4dfdf]">
+                    <div class="pl-[30px] py-[10px] flex flex-col">
                         <div>
-                            <h1 class=" text-[35px] font-bold">
+                            <h1>
                                 Nova kategorija
                             </h1>
                         </div>
@@ -48,7 +48,7 @@
                             <nav class="w-full rounded">
                                 <ol class="flex list-reset">
                                     <li>
-                                        <a href="settingsPolisa.php" class="font-medium text-blue-600 hover:text-blue-800">
+                                        <a href="settingsPolisa.php" class="text-[#2196f3] hover:text-blue-600">
                                             Settings
                                         </a>
                                     </li>
@@ -56,7 +56,7 @@
                                         <span class="mx-2">/</span>
                                     </li>
                                     <li>
-                                        <a href="settingsKategorije.php" class="font-medium text-blue-600 hover:text-blue-800">
+                                        <a href="settingsKategorije.php" class="text-[#2196f3] hover:text-blue-600">
                                             Kategorije
                                         </a>
                                     </li>
@@ -64,7 +64,7 @@
                                         <span class="mx-2">/</span>
                                     </li>
                                     <li>
-                                        <a href="#" class="font-medium text-gray-500 hover:text-blue-800">
+                                        <a href="#" class="text-[#2196f3] hover:text-blue-600">
                                             Nova kategorija
                                         </a>
                                     </li>
@@ -80,46 +80,52 @@
                     <div class="flex flex-row ml-[30px]">
                         <div class="w-[50%] mb-[100px]">
                             <div class="mt-[20px]">
-                                <span>Naziv kategorije <span class="text-red-500">*</span></span>
-                                <input type="text" name="nazivKategorije" id="nazivKategorije" class="flex w-[90%] mt-2 px-2 py-2 text-base bg-white border border-gray-300 shadow-sm appearance-none focus:outline-none focus:ring-2 focus:ring-[#576cdf]" onkeydown="clearErrorsNazivKategorije()"/>
+                                <p>Naziv kategorije <span class="text-red-500">*</span></p>
+                                <input type="text" name="nazivKategorije" id="nazivKategorije"
+                                    class="flex w-[90%] mt-2 px-2 py-2 text-base bg-white border border-gray-300 shadow-sm appearance-none focus:outline-none focus:ring-2 focus:ring-[#576cdf]"
+                                    onkeydown="clearErrorsNazivKategorije()" />
                                 <div id="validateNazivKategorije"></div>
                             </div>
 
                             <div class="mt-[20px]">
-                                <span>Uploaduj ikonicu </span>
-                                <div id="empty-cover-art-ikonica" class="flex w-[90%] mt-2 text-base bg-white border border-gray-300 shadow-sm appearance-none focus:outline-none focus:ring-2 focus:ring-[#576cdf]">
+                                <p>Uploaduj ikonicu </p>
+                                <div id="empty-cover-art-ikonica"
+                                    class="flex w-[90%] mt-2 text-base bg-white border border-gray-300 shadow-sm appearance-none focus:outline-none focus:ring-2 focus:ring-[#576cdf]">
                                     <div class="bg-gray-300 h-[40px] w-[102px] px-[20px] pt-[7px]">
                                         <label class="cursor-pointer">
-                                            <span class="leading-normal">Browse...</span>
-                                            <input id="icon-upload" type='file' class="hidden" :multiple="multiple" :accept="accept" />
-                                        </label>	
+                                            <p class="leading-normal">Browse...</p>
+                                            <input id="icon-upload" type='file' class="hidden" :multiple="multiple"
+                                                :accept="accept" />
+                                        </label>
                                     </div>
                                     <div id="icon-output" class="h-[40px] px-[20px] pt-[7px]"></div>
                                 </div>
                             </div>
 
                             <div class="mt-[20px]">
-                                <span class="inline-block">Opis</span>
-                                <textarea name="opisKategorije" rows="10" class="flex w-[90%] mt-2 px-2 py-2 text-base bg-white border border-gray-300 shadow-sm appearance-none focus:outline-none focus:ring-2 focus:ring-[#576cdf]">
-                                
+                                <p class="inline-block">Opis</p>
+                                <textarea name="opisKategorije" rows="10"
+                                    class="flex w-[90%] mt-2 px-2 py-2 text-base bg-white border border-gray-300 shadow-sm appearance-none focus:outline-none focus:ring-2 focus:ring-[#576cdf]">
+
                                 </textarea>
                             </div>
                         </div>
                     </div>
-                        <div class="w-full absolute border-t-[2px] border-gray-300 bottom-0 bg-white">
-                            <div class="flex flex-row">
-                                <div class="inline-block w-full text-right py-[7px] mr-[100px]">
-                                    <button type="button"
-                                            class="mr-[15px] w-[150px] focus:outline-none text-black text-sm py-2.5 px-5 rounded-md border transition duration-300 ease-in border-black hover:bg-gray-600 hover:text-white">
-                                                Ponisti
-                                    </button>
-                                    <button id="sacuvajKategoriju" type="submit"
-                                            class="w-[150px] disabled:opacity-50 focus:outline-none text-white text-sm py-2.5 px-5 rounded-md border transition duration-300 ease-in border-gray-600 bg-blue-500 hover:bg-blue-800" onclick="validacijaKategorija()">
-                                                Sacuvaj
-                                    </button>
-                                </div>
-                            </div>        
+                    <div class="absolute bottom-0 w-full">
+                        <div class="flex flex-row">
+                            <div class="inline-block w-full text-white text-right py-[7px] mr-[100px]">
+                                <button type="button"
+                                    class="shadow-lg mr-[15px] w-[150px] focus:outline-none text-sm py-2.5 px-5 transition duration-300 ease-in bg-[#F44336] hover:bg-[#F55549] rounded-[5px]">
+                                    Ponisti <i class="fas fa-times ml-[4px]"></i>
+                                </button>
+                                <button id="sacuvajKategoriju" type="submit"
+                                    class="shadow-lg w-[150px] disabled:opacity-50 focus:outline-none text-sm py-2.5 px-5 transition duration-300 ease-in rounded-[5px] hover:bg-[#46A149] bg-[#4CAF50]"
+                                    onclick="validacijaKategorija()">
+                                    Sacuvaj <i class="fas fa-check ml-[4px]"></i>
+                                </button>
+                            </div>
                         </div>
+                    </div>
                 </form>
             </div>
         </section>

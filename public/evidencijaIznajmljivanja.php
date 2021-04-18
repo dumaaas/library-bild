@@ -163,7 +163,7 @@
                                     <td class="px-4 py-4 text-sm leading-5 whitespace-no-wrap">21.02.2021</td>
                                     <td class="px-4 py-4 text-sm leading-5 text-blue-900 whitespace-no-wrap">
                                         <span
-                                            class="relative inline-block px-3 py-1 font-medium leading-tight text-green-900">
+                                            class="relative inline-block px-[6px] py-[2px] font-medium leading-tight text-green-900">
                                             <span aria-hidden
                                                 class="absolute inset-0 bg-transparent border-[1px]  border-yellow-500 rounded-[10px] borderColor"></span>
                                             <span class="relative text-xs text-yellow-500 borderText">Otvorene
@@ -227,7 +227,7 @@
                                     <td class="px-4 py-4 text-sm leading-5 whitespace-no-wrap">12.05.2020</td>
                                     <td class="px-4 py-4 text-sm leading-5 text-blue-900 whitespace-no-wrap">
                                         <span
-                                            class="relative inline-block px-3 py-1 font-medium leading-tight text-green-900">
+                                            class="relative inline-block px-[6px] py-[2px] font-medium leading-tight text-green-900">
                                             <span aria-hidden
                                                 class="absolute inset-0 bg-transparent border-[1px]  border-yellow-500 rounded-[10px] borderColor"></span>
                                             <span class="relative text-xs text-yellow-500 borderText">
@@ -291,7 +291,7 @@
                                     <td class="px-4 py-4 text-sm leading-5 whitespace-no-wrap">12.05.2020</td>
                                     <td class="px-4 py-4 text-sm leading-5 text-blue-900 whitespace-no-wrap">
                                         <span
-                                            class="relative inline-block px-3 py-1 font-medium leading-tight text-green-900">
+                                            class="relative inline-block px-[6px] py-[2px] font-medium leading-tight text-green-900">
                                             <span aria-hidden
                                                 class="absolute inset-0 bg-blue-200 rounded-[10px]"></span>
                                             <span class="relative text-xs text-blue-800">Izdata knjiga</span>
@@ -346,7 +346,7 @@
                                     <td class="px-4 py-4 text-sm leading-5 whitespace-no-wrap">25.05.2020</td>
                                     <td class="px-4 py-4 text-sm leading-5 text-blue-900 whitespace-no-wrap">
                                         <span
-                                            class="relative inline-block px-3 py-1 font-medium leading-tight text-green-900">
+                                            class="relative inline-block px-[6px] py-[2px] font-medium leading-tight text-green-900">
                                             <span aria-hidden class="absolute inset-0 bg-red-200 rounded-[10px]"></span>
                                             <span class="relative text-xs text-red-800">Vracena knjiga</span>
                                         </span>
@@ -400,7 +400,7 @@
                                     <td class="px-4 py-4 text-sm leading-5 whitespace-no-wrap">12.05.2020</td>
                                     <td class="px-4 py-4 text-sm leading-5 text-blue-900 whitespace-no-wrap">
                                         <span
-                                            class="relative inline-block px-3 py-1 font-medium leading-tight text-green-900">
+                                            class="relative inline-block px-[6px] py-[2px] font-medium leading-tight text-green-900">
                                             <span aria-hidden
                                                 class="absolute inset-0 bg-yellow-200 rounded-[10px]"></span>
                                             <span class="relative text-xs text-yellow-700">Potvrdjene rezervacije</span>
@@ -455,7 +455,7 @@
                                     <td class="px-4 py-4 text-sm leading-5 whitespace-no-wrap">12.05.2020</td>
                                     <td class="px-4 py-4 text-sm leading-5 text-blue-900 whitespace-no-wrap">
                                         <span
-                                            class="relative inline-block px-3 py-1 font-medium leading-tight text-green-900">
+                                            class="relative inline-block px-[6px] py-[2px] font-medium leading-tight text-green-900">
                                             <span aria-hidden class="absolute inset-0 bg-red-200 rounded-[10px]"></span>
                                             <span class="relative text-xs text-red-800">Vracena knjiga</span>
                                         </span>
@@ -509,7 +509,7 @@
                                     <td class="px-4 py-4 text-sm leading-5 whitespace-no-wrap">12.05.2020</td>
                                     <td class="px-4 py-4 text-sm leading-5 text-blue-900 whitespace-no-wrap">
                                         <span
-                                            class="relative inline-block px-3 py-1 font-medium leading-tight text-green-900">
+                                            class="relative inline-block px-[6px] py-[2px] font-medium leading-tight text-green-900">
                                             <span aria-hidden
                                                 class="absolute inset-0 border-red-600 border-[1px] rounded-[10px]"></span>
                                             <span class="relative text-xs text-red-600">Odbijene rezervacije</span>
@@ -564,7 +564,7 @@
                                     <td class="px-4 py-4 text-sm leading-5 whitespace-no-wrap">12.05.2020</td>
                                     <td class="px-4 py-4 text-sm leading-5 text-blue-900 whitespace-no-wrap">
                                         <span
-                                            class="relative inline-block px-3 py-1 font-medium leading-tight text-green-900">
+                                            class="relative inline-block px-[6px] py-[2px] font-medium leading-tight text-green-900">
                                             <span aria-hidden class="absolute inset-0 bg-red-200 rounded-[10px]"></span>
                                             <span class="relative text-xs text-red-800">Vracena knjiga</span>
                                         </span>

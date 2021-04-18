@@ -34,13 +34,13 @@
         <!-- End Sidebar -->
 
         <!-- Content -->
-        <section class="w-screen h-screen pl-[80px] py-4 text-gray-700">
+        <section class="w-screen h-screen pl-[80px] pb-4 text-gray-700">
             <!-- Heading of content -->
             <div class="heading">
-                <div class="flex border-b-[2px] border-gray-300">
-                    <div class="pl-[30px] pb-[10px] flex flex-col">
+                <div class="flex border-b-[1px] border-[#e4dfdf]">
+                    <div class="pl-[30px] py-[10px] flex flex-col">
                         <div>
-                            <h1 class=" text-[35px] font-bold">
+                            <h1>
                                 Nova knjiga
                             </h1>
                         </div>
@@ -48,7 +48,7 @@
                             <nav class="w-full rounded">
                                 <ol class="flex list-reset">
                                     <li>
-                                        <a href="evidencija.php" class="font-medium text-blue-600 hover:text-blue-800">
+                                        <a href="evidencija.php" class="text-[#2196f3] hover:text-blue-600">
                                             Evidencija knjiga
                                         </a>
                                     </li>
@@ -56,7 +56,7 @@
                                         <span class="mx-2">/</span>
                                     </li>
                                     <li>
-                                        <a href="#" class="font-medium text-gray-500 hover:text-blue-800">
+                                        <a href="#" class="text-[#2196f3] hover:text-blue-600">
                                             Nova knjiga
                                         </a>
                                     </li>
@@ -83,13 +83,13 @@
                     <div class="flex flex-row ml-[30px]">
                         <div class="w-[50%] mb-[150px]">
                             <div class="mt-[20px]">
-                                <span>Broj strana <span class="text-red-500">*</span></span>
+                                <p>Broj strana <span class="text-red-500">*</span></p>
                                 <input type="text" name="brStrana" id="brStrana" class="flex w-[45%] mt-2 px-2 py-2 text-base bg-white border border-gray-300 shadow-sm appearance-none focus:outline-none focus:ring-2 focus:ring-[#576cdf]" onkeydown="clearErrorsBrStrana()"/>
                                 <div id="validateBrStrana"></div>
                             </div>
 
                             <div class="mt-[20px]">
-                                <span>Pismo <span class="text-red-500">*</span></span>
+                                <p>Pismo <span class="text-red-500">*</span></p>
                                 <select class="flex w-[45%] mt-2 px-2 py-2 border bg-white border-gray-300 shadow-sm focus:outline-none focus:ring-2 focus:ring-[#576cdf]" name="pismo" id="pismo" onclick="clearErrorsPismo()">
                                     <option disabled selected></option>
                                     <option value="">
@@ -109,7 +109,7 @@
                             </div>
 
                             <div class="mt-[20px]">
-                                <span>Povez <span class="text-red-500">*</span></span>
+                                <p>Povez <span class="text-red-500">*</span></p>
                                 <select class="flex w-[45%] mt-2 px-2 py-2 border bg-white border-gray-300 shadow-sm focus:outline-none focus:ring-2 focus:ring-[#576cdf]" name="povez" id="povez" onclick="clearErrorsPovez()">
                                     <option disabled selected></option>
                                     <option value="">
@@ -123,7 +123,7 @@
                             </div>
 
                             <div class="mt-[20px]">
-                                <span>Format <span class="text-red-500">*</span></span>
+                                <p>Format <span class="text-red-500">*</span></p>
                                 <select class="flex w-[45%] mt-2 px-2 py-2 border bg-white border-gray-300 shadow-sm focus:outline-none focus:ring-2 focus:ring-[#576cdf]" name="format" id="format" onclick="clearErrorsFormat()">
                                     <option disabled selected></option>
                                     <option value="">
@@ -137,28 +137,26 @@
                             </div>
 
                             <div class="mt-[20px]">
-                                <span>International Standard Book Num <span class="text-red-500">*</span></span>
+                                <p>International Standard Book Num <span class="text-red-500">*</span></p>
                                 <input type="text" name="isbn" id="isbn" class="flex w-[45%] mt-2 px-2 py-2 text-base bg-white border border-gray-300 shadow-sm appearance-none focus:outline-none focus:ring-2 focus:ring-[#576cdf]" onkeydown="clearErrorsIsbn()"/>
                                 <div id="validateIsbn"></div>
                             </div>
                         </div>
                     </div>
-
-                    <div class="w-full absolute border-t-[2px] border-gray-300 bottom-0 bg-white">
+                    <div class="absolute bottom-0 w-full">
                         <div class="flex flex-row">
-                            <div class="inline-block w-full text-right py-[7px] mr-[100px]">
+                            <div class="inline-block w-full text-white text-right py-[7px] mr-[100px]">
                                 <button type="button"
-                                        class="mr-[15px] w-[150px] focus:outline-none text-black text-sm py-2.5 px-5 rounded-md border transition duration-300 ease-in border-black hover:bg-gray-600 hover:text-white">
-                                            Ponisti
+                                    class="shadow-lg mr-[15px] w-[150px] focus:outline-none text-sm py-2.5 px-5 transition duration-300 ease-in bg-[#F44336] hover:bg-[#F55549] rounded-[5px]">
+                                    Ponisti <i class="fas fa-times ml-[4px]"></i>
                                 </button>
                                 <button id="sacuvajSpecifikaciju" type="submit"
-                                        class="w-[150px] disabled:opacity-50 focus:outline-none text-white text-sm py-2.5 px-5 rounded-md border transition duration-300 ease-in border-gray-600 bg-blue-500 hover:bg-blue-800" onclick="validacijaSpecifikacija()">
-                                            Sacuvaj
+                                    class="shadow-lg w-[150px] disabled:opacity-50 focus:outline-none text-sm py-2.5 px-5 transition duration-300 ease-in rounded-[5px] hover:bg-[#46A149] bg-[#4CAF50]" onclick="validacijaSpecifikacija()">
+                                    Sacuvaj <i class="fas fa-check ml-[4px]"></i>
                                 </button>
                             </div>
-                        </div>        
+                        </div>
                     </div>
-                    
                 </form>
             </div>
         </section>

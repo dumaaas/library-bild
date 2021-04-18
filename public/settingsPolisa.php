@@ -32,24 +32,23 @@
         <!-- Sidebar -->
         <?php include('includes/layout/sidebar.php'); ?>
         <!-- End Sidebar -->
-
         <!-- Content -->
         <section class="w-screen h-screen pl-[80px] py-4 text-gray-700">
             <!-- Heading of content -->
-            <div class="heading">
-                <div class="border-b-[2px] border-gray-300">
-                    <div class="pl-[30px] pb-[10px]">
-                            <h1 class=" text-[35px] font-bold">
-                                Settings
-                            </h1>
+            <div class="heading mt-[7px]">
+                <div class="border-b-[1px] border-[#e4dfdf]">
+                    <div class="pl-[30px] pb-[21px]">
+                        <h1>
+                            Settings
+                        </h1>
                     </div>
                 </div>
             </div>
-            <div class="border-b-[2px] py-4 text-gray-500 border-gray-300 pl-[30px]">
+            <div class="border-b-[1px] border-[#e4dfdf] py-4 text-gray-500 pl-[30px]">
                 <a href="settingsPolisa.php" class="inline active-book-nav">
                     Polisa
                 </a>
-                <a href="#" class="inline ml-[70px] hover:text-blue-800">
+                <a href="settingsKategorije.php" class="inline ml-[70px] hover:text-blue-800">
                     Kategorije
                 </a>
                 <a href="#" class="inline ml-[70px] hover:text-blue-800">
@@ -72,45 +71,57 @@
                 <!-- Space for content -->
                 <div class="section- mt-[20px]">
                     <div class="flex flex-col">
-                        <div class="pl-[30px] flex border-b-[1px] border-gray-300 pb-[20px]">
+                        <div class="pl-[30px] flex border-b-[1px] border-[#e4dfdf]  pb-[20px]">
                             <div>
-                                <h3 class="font-bold text-[17px]">
+                                <h3>
                                     Rok za rezervaciju
                                 </h3>
-                                <p class="pt-[15px] text-[15px] max-w-[400px]">
-                                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Earum eligendi nihil, vel necessitatibus saepe laboriosam! Perspiciatis laboriosam culpa veritatis ea voluptatum commodi tempora unde, dolorum debitis quia id dicta vitae.
+                                <p class="pt-[15px] max-w-[400px]">
+                                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Earum eligendi nihil, vel
+                                    necessitatibus saepe laboriosam! Perspiciatis laboriosam culpa veritatis ea
+                                    voluptatum commodi tempora unde, dolorum debitis quia id dicta vitae.
                                 </p>
                             </div>
                             <div class="relative flex ml-[60px] mt-[20px]">
-                                <input type="text" class="h-[50px] flex-1 w-full px-4 py-2 text-base text-gray-700 placeholder-gray-400 bg-white border border-transparent border-gray-400 rounded-lg shadow-sm appearance-none focus:outline-none focus:ring-2 focus:ring-purple-600 focus:border-transparent" placeholder="..."/>
+                                <input type="text"
+                                    class="h-[50px] flex-1 w-full px-4 py-2 text-sm text-gray-700 placeholder-gray-400 bg-white border-[1px]  border-[#e4dfdf]  rounded-lg shadow-sm appearance-none focus:outline-none focus:ring-2 focus:ring-blue-600 focus:border-transparent"
+                                    placeholder="..." />
                                 <p class="ml-[10px] mt-[10px]">dana</p>
                             </div>
                         </div>
-                        <div class="pl-[30px] flex border-b-[1px] border-gray-300 py-[20px]">
+                        <div class="pl-[30px] flex border-b-[1px] border-[#e4dfdf]  py-[20px]">
                             <div>
-                                <h3 class="font-bold text-[17px]">
+                                <h3>
                                     Rok vracanja
                                 </h3>
-                                <p class="pt-[15px] text-[15px] max-w-[400px]">
-                                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Earum eligendi nihil, vel necessitatibus saepe laboriosam! Perspiciatis laboriosam culpa veritatis ea voluptatum commodi tempora unde, dolorum debitis quia id dicta vitae.
+                                <p class="pt-[15px] max-w-[400px]">
+                                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Earum eligendi nihil, vel
+                                    necessitatibus saepe laboriosam! Perspiciatis laboriosam culpa veritatis ea
+                                    voluptatum commodi tempora unde, dolorum debitis quia id dicta vitae.
                                 </p>
                             </div>
                             <div class="relative flex ml-[60px] mt-[20px]">
-                                <input type="text" class="h-[50px] flex-1 w-full px-4 py-2 text-base text-gray-700 placeholder-gray-400 bg-white border border-transparent border-gray-400 rounded-lg shadow-sm appearance-none focus:outline-none focus:ring-2 focus:ring-purple-600 focus:border-transparent" placeholder="..."/>
+                                <input type="text"
+                                    class="h-[50px] flex-1 w-full px-4 py-2 text-sm text-gray-700 placeholder-gray-400 bg-white border-[1px]  border-[#e4dfdf]  rounded-lg shadow-sm appearance-none focus:outline-none focus:ring-2 focus:ring-blue-600 focus:border-transparent"
+                                    placeholder="..." />
                                 <p class="ml-[10px] mt-[10px]">dana</p>
                             </div>
                         </div>
-                        <div class="pl-[30px] flex border-b-[1px] border-gray-300 py-[20px]">
+                        <div class="pl-[30px] flex border-b-[1px] border-[#e4dfdf]  py-[20px]">
                             <div>
-                                <h3 class="font-bold text-[17px]">
+                                <h3>
                                     Rok konflikta
                                 </h3>
-                                <p class="pt-[15px] text-[15px] max-w-[400px]">
-                                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Earum eligendi nihil, vel necessitatibus saepe laboriosam! Perspiciatis laboriosam culpa veritatis ea voluptatum commodi tempora unde, dolorum debitis quia id dicta vitae.
+                                <p class="pt-[15px] max-w-[400px]">
+                                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Earum eligendi nihil, vel
+                                    necessitatibus saepe laboriosam! Perspiciatis laboriosam culpa veritatis ea
+                                    voluptatum commodi tempora unde, dolorum debitis quia id dicta vitae.
                                 </p>
                             </div>
                             <div class="relative flex ml-[60px] mt-[20px]">
-                                <input type="text" class="h-[50px] flex-1 w-full px-4 py-2 text-base text-gray-700 placeholder-gray-400 bg-white border border-transparent border-gray-400 rounded-lg shadow-sm appearance-none focus:outline-none focus:ring-2 focus:ring-purple-600 focus:border-transparent" placeholder="..."/>
+                                <input type="text"
+                                    class="h-[50px] flex-1 w-full px-4 py-2 text-sm text-gray-700 placeholder-gray-400 bg-white border-[1px]  border-[#e4dfdf]  rounded-lg shadow-sm appearance-none focus:outline-none focus:ring-2 focus:ring-blue-600 focus:border-transparent"
+                                    placeholder="..." />
                                 <p class="ml-[10px] mt-[10px]">dana</p>
                             </div>
                         </div>
