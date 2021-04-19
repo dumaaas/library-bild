@@ -64,7 +64,7 @@
                                         <span class="mx-2">/</span>
                                     </li>
                                     <li>
-                                        <a href="#" class="text-[#2196f3] hover:text-blue-600">
+                                        <a href="#" class="text-gray-400 hover:text-blue-600">
                                             Nova kategorija
                                         </a>
                                     </li>
@@ -91,7 +91,7 @@
                                 <p>Uploaduj ikonicu </p>
                                 <div id="empty-cover-art-ikonica"
                                     class="flex w-[90%] mt-2 text-base bg-white border border-gray-300 shadow-sm appearance-none focus:outline-none focus:ring-2 focus:ring-[#576cdf]">
-                                    <div class="bg-gray-300 h-[40px] w-[102px] px-[20px] pt-[7px]">
+                                    <div class="bg-gray-300 h-[40px] w-[102px] px-[20px] pt-[10px]">
                                         <label class="cursor-pointer">
                                             <p class="leading-normal">Browse...</p>
                                             <input id="icon-upload" type='file' class="hidden" :multiple="multiple"
