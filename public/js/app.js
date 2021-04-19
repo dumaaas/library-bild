@@ -856,6 +856,29 @@ $("#sacuvajPovez").keypress(function (e) {
   }
 });
 
+// Form validation for new book format
+function validacijaFormat() {
+
+  $("#validateNazivFormat").empty();
+
+  let nazivFormat = $("#nazivFormat").val();
+
+  if (nazivFormat.length == 0) {
+    $('#validateNazivFormat').append('<p style="color:red;font-size:13px;">Morate unijeti naziv formata!</p>');
+  }
+}
+
+function clearErrorsNazivFormat() {
+  $("#validateNazivFormat").empty();
+}
+
+$("#sacuvajFormat").keypress(function (e) {
+  if (e.which == 13) {
+    validacijaFormat();
+    return false;
+  }
+});
+
 function sortTableDate(row) {
   var table, rows, switching, i, x, y, shouldSwitch;
   table = $(".sortTableDate");
