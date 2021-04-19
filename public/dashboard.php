@@ -349,10 +349,10 @@
                             </div>
                         </div>
                         <div class="inline-block w-full mt-4">
-                            <button type="button" 
-                                class="w-full px-4 py-2 text-sm tracking-wider text-gray-600 transition duration-300 ease-in border-[1px] border-gray-400 rounded activity-showMore hover:bg-gray-200 focus:outline-none focus:ring-[1px] focus:ring-gray-300">
-                                Show more
-                            </button>
+                            <a href="dashboardAktivnost.php" 
+                                class="block text-center w-full px-4 py-2 text-sm tracking-wider text-gray-600 transition duration-300 ease-in border-[1px] border-gray-400 rounded hover:bg-gray-200 focus:outline-none focus:ring-[1px] focus:ring-gray-300">
+                                Show
+                            </a>
                         </div>
                     </div>
                     <div class="mr-[50px] ">
@@ -473,7 +473,7 @@
                             </h3>
                             <div class="text-right">
                                 <div class="flex pb-[30px]">
-                                    <a class="w-[145px] text-[#2196f3] hover:text-blue-600" href="#">
+                                    <a class="w-[145px] text-[#2196f3] hover:text-blue-600" href="evidencijaIzdate.php">
                                         Izdate knjige
                                     </a>
                                     <div class="ml-[30px] bg-green-600 transition duration-200 ease-in  hover:bg-green-900 stats-bar-green h-[26px]">
@@ -484,7 +484,7 @@
                                     </p>
                                 </div>
                                 <div class="flex pb-[30px]">
-                                    <a class="w-[145px] text-[#2196f3] hover:text-blue-600" href="#">
+                                    <a class="w-[145px] text-[#2196f3] hover:text-blue-600" href="evidencijaRezervacije.php">
                                         Rezervisane knjige
                                     </a>
                                     <div class="ml-[30px] bg-yellow-600 transition duration-200 ease-in  hover:bg-yellow-900 stats-bar-yellow  h-[26px]">

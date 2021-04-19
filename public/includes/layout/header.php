@@ -36,14 +36,13 @@
                     <span
                         class="absolute bg-[#EF4F4C] text-[11px] font-medium text-white right-[10px] top-[-10px] pl-[4px] pr-[5px] pt-[1px] text-center">12</span>
                 </div>
-                <!-- Help Icon -->
+                <!-- Add Icon -->
                 <a class="inline-block border-l-[1px] border-gray-300 px-3 " href="#" aria-label="Add something">
                     <span
-                        class="transition duration-300 ease-in bg-[#606FC7] text-[25px] rounded-full  px-[11px] py-[7px]  ">
-                        <i class="far fa-question-circle"></i>
+                        class="transition duration-300 ease-in bg-[#606FC7] text-[25px] rounded-full px-[11px] py-[7px]  ">
+                        <i class="fas fa-plus"></i>
                     </span>
                 </a>
-
                 <!-- Bild Studio Icon -->
                 <a href="https://www.bild-studio.com/">
                     <svg xmlns="http://www.w3.org/2000/svg" class="ml-[20px] svg-icon svg-icon-bildstudio">
