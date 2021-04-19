@@ -879,6 +879,29 @@ $("#sacuvajFormat").keypress(function (e) {
   }
 });
 
+// Form validation for new book script
+function validacijaPismo() {
+
+  $("#validateNazivPismo").empty();
+
+  let nazivPismo = $("#nazivPismo").val();
+
+  if (nazivPismo.length == 0) {
+    $('#validateNazivPismo').append('<p style="color:red;font-size:13px;">Morate unijeti naziv pisma!</p>');
+  }
+}
+
+function clearErrorsNazivPismo() {
+  $("#validateNazivPismo").empty();
+}
+
+$("#sacuvajPismo").keypress(function (e) {
+  if (e.which == 13) {
+    validacijaPismo();
+    return false;
+  }
+});
+
 function sortTableDate(row) {
   var table, rows, switching, i, x, y, shouldSwitch;
   table = $(".sortTableDate");
