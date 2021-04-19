@@ -764,6 +764,29 @@ $("#sacuvajKategoriju").keypress(function (e) {
   }
 });
 
+// Form validation for new author
+function validacijaAutor() {
+
+  $("#validateImePrezimeAutor").empty();
+
+  let imePrezimeAutor = $("#imePrezimeAutor").val();
+
+  if (imePrezimeAutor.length == 0) {
+    $('#validateImePrezimeAutor').append('<p style="color:red;font-size:13px;">Morate unijeti ime i prezime autora!</p>');
+  }
+}
+
+function clearErrorsImePrezimeAutor() {
+  $("#validateImePrezimeAutor").empty();
+}
+
+$("#sacuvajAutora").keypress(function (e) {
+  if (e.which == 13) {
+    validacijaAutor();
+    return false;
+  }
+});
+
 function sortTableDate(row) {
   var table, rows, switching, i, x, y, shouldSwitch;
   table = $(".sortTableDate");
