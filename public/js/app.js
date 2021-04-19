@@ -55,9 +55,9 @@ $(function () {
 $(function () {
   $('.form-checkbox').click(function () {
     if ($('.form-checkbox:checked').length > 0) {
-      $('#vratiKnjigu').removeAttr('disabled');
+      $('.disabled-btn').removeAttr('disabled');
     } else {
-      $('#vratiKnjigu').attr('disabled', 'disabled');
+      $('.disabled-btn').attr('disabled', 'disabled');
     }
   });
 });
@@ -172,6 +172,36 @@ $(document).ready(function () {
   $(".close-modal").on('click', function() {
     modal.addClass('hidden');
   })
+
+  // Vrati Knjigu Modal
+    vratiModal = $(".vrati-modal");
+    $(".show-vratiModal").on('click', function() {
+      vratiModal.removeClass('hidden');
+    })
+    // Close Modal
+    $(".close-modal").on('click', function() {
+      vratiModal.addClass('hidden');
+    })
+
+    // Otpisi Knjigu Modal
+    otpisiModal = $(".otpisi-modal");
+    $(".show-otpisiModal").on('click', function() {
+      otpisiModal.removeClass('hidden');
+    })
+    // Close Modal
+    $(".otpisi-modal").on('click', function() {
+      otpisiModal.addClass('hidden');
+    })
+
+    // Izbrisi Zapis Modal
+    izbrisiModal = $(".izbrisi-modal");
+    $(".show-izbrisiModal").on('click', function() {
+      izbrisiModal.removeClass('hidden');
+    })
+    // Close Modal
+    $(".izbrisi-modal").on('click', function() {
+      izbrisiModal.addClass('hidden');
+    })
 });
 
 
@@ -971,6 +1001,12 @@ $('#transakcijeMenu').on('click', function () {
   $('.transakcijeMenu').toggle();
 })
 
+$('#datumMenu').on('click', function () {
+
+  $('.datumMenu').toggle();
+})
+
+
 function filterFunction(id, dropdown) {
   var input, filter, ul, li, a, i;
   console.log(id);
@@ -1084,3 +1120,21 @@ function funkcijaDatumVracanja(){
   document.getElementById('datumVracanja').value = newDate;
 }
 
+//click on one and check all checkboxes (vratiKnjigu.php)
+$('.select-all').click(function() {
+  if ($(this).is(':checked')) {
+      $('.form-checkbox').prop('checked', true);
+      $('tr').addClass('bg-gray-200');
+  } else {
+      $('.form-checkbox').prop('checked', false);
+      $('tr').removeClass('bg-gray-200');
+  }
+});
+
+$('.form-checkbox').click(function() {
+  if ($(this).is(':checked')) {
+    $(this).closest('tr').addClass('bg-gray-200');
+  } else {
+    $(this).closest('tr').removeClass('bg-gray-200');
+  }
+})

@@ -70,7 +70,7 @@
                                                     <li class="flex p-2 mt-[2px] pt-[15px] group hover:bg-gray-200">
                                                         <label class="flex items-center justify-start">
                                                             <div
-                                                                class="flex items-center justify-center flex-shrink-0 w-6 h-6 mr-2 bg-white border-2 border-gray-400 rounded focus-within:border-blue-500">
+                                                                class="flex items-center justify-center flex-shrink-0 w-[16px] h-[16px] mr-2 bg-white border-2 border-gray-400 rounded focus-within:border-blue-500">
                                                                 <input type="checkbox" class="absolute opacity-0">
                                                                 <svg class="hidden w-4 h-4 text-green-500 pointer-events-none fill-current"
                                                                     viewBox="0 0 20 20">
@@ -88,7 +88,7 @@
                                                     <li class="flex p-2 mt-[2px] pt-[15px] group hover:bg-gray-200">
                                                         <label class="flex items-center justify-start">
                                                             <div
-                                                                class="flex items-center justify-center flex-shrink-0 w-6 h-6 mr-2 bg-white border-2 border-gray-400 rounded focus-within:border-blue-500">
+                                                                class="flex items-center justify-center flex-shrink-0 w-[16px] h-[16px] mr-2 bg-white border-2 border-gray-400 rounded focus-within:border-blue-500">
                                                                 <input type="checkbox" class="absolute opacity-0">
                                                                 <svg class="hidden w-4 h-4 text-green-500 pointer-events-none fill-current"
                                                                     viewBox="0 0 20 20">
@@ -106,7 +106,7 @@
                                                     <li class="flex p-2 mt-[2px] pt-[15px] group hover:bg-gray-200">
                                                         <label class="flex items-center justify-start">
                                                             <div
-                                                                class="flex items-center justify-center flex-shrink-0 w-6 h-6 mr-2 bg-white border-2 border-gray-400 rounded focus-within:border-blue-500">
+                                                                class="flex items-center justify-center flex-shrink-0 w-[16px] h-[16px] mr-2 bg-white border-2 border-gray-400 rounded focus-within:border-blue-500">
                                                                 <input type="checkbox" class="absolute opacity-0">
                                                                 <svg class="hidden w-4 h-4 text-green-500 pointer-events-none fill-current"
                                                                     viewBox="0 0 20 20">
@@ -124,7 +124,7 @@
                                                     <li class="flex p-2 mt-[2px] pt-[15px] group hover:bg-gray-200">
                                                         <label class="flex items-center justify-start">
                                                             <div
-                                                                class="flex items-center justify-center flex-shrink-0 w-6 h-6 mr-2 bg-white border-2 border-gray-400 rounded focus-within:border-blue-500">
+                                                                class="flex items-center justify-center flex-shrink-0 w-[16px] h-[16px] mr-2 bg-white border-2 border-gray-400 rounded focus-within:border-blue-500">
                                                                 <input type="checkbox" class="absolute opacity-0">
                                                                 <svg class="hidden w-4 h-4 text-green-500 pointer-events-none fill-current"
                                                                     viewBox="0 0 20 20">
@@ -142,7 +142,7 @@
                                                     <li class="flex p-2 mt-[2px] pt-[15px] group hover:bg-gray-200">
                                                         <label class="flex items-center justify-start">
                                                             <div
-                                                                class="flex items-center justify-center flex-shrink-0 w-6 h-6 mr-2 bg-white border-2 border-gray-400 rounded focus-within:border-blue-500">
+                                                                class="flex items-center justify-center flex-shrink-0 w-[16px] h-[16px] mr-2 bg-white border-2 border-gray-400 rounded focus-within:border-blue-500">
                                                                 <input type="checkbox" class="absolute opacity-0">
                                                                 <svg class="hidden w-4 h-4 text-green-500 pointer-events-none fill-current"
                                                                     viewBox="0 0 20 20">
@@ -160,7 +160,7 @@
                                                     <li class="flex p-2 mt-[2px] pt-[15px] group hover:bg-gray-200">
                                                         <label class="flex items-center justify-start">
                                                             <div
-                                                                class="flex items-center justify-center flex-shrink-0 w-6 h-6 mr-2 bg-white border-2 border-gray-400 rounded focus-within:border-blue-500">
+                                                                class="flex items-center justify-center flex-shrink-0 w-[16px] h-[16px] mr-2 bg-white border-2 border-gray-400 rounded focus-within:border-blue-500">
                                                                 <input type="checkbox" class="absolute opacity-0">
                                                                 <svg class="hidden w-4 h-4 text-green-500 pointer-events-none fill-current"
                                                                     viewBox="0 0 20 20">
@@ -180,11 +180,11 @@
                                             <div class="flex pt-[10px] text-white ">
                                                 <a href="#"
                                                     class="py-2 px-[20px] transition duration-300 ease-in hover:bg-[#46A149] bg-[#4CAF50] rounded-[5px]">
-                                                    Sacuvaj <i class="fas fa-check ml-[4px]"></i> 
+                                                    Sacuvaj <i class="fas fa-check ml-[4px]"></i>
                                                 </a>
                                                 <a href="#"
                                                     class="ml-[20px] py-2 px-[20px] transition duration-300 ease-in bg-[#F44336] hover:bg-[#F55549] rounded-[5px]">
-                                                    Ponisti <i class="fas fa-times ml-[4px]"></i> 
+                                                    Ponisti <i class="fas fa-times ml-[4px]"></i>
                                                 </a>
                                             </div>
                                         </div>
@@ -215,7 +215,7 @@
                                                     <li class="flex p-2 mt-[2px] pt-[15px] group hover:bg-gray-200">
                                                         <label class="flex items-center justify-start">
                                                             <div
-                                                                class="flex items-center justify-center flex-shrink-0 w-6 h-6 mr-2 bg-white border-2 border-gray-400 rounded focus-within:border-blue-500">
+                                                                class="flex items-center justify-center flex-shrink-0 w-[16px] h-[16px] mr-2 bg-white border-2 border-gray-400 rounded focus-within:border-blue-500">
                                                                 <input type="checkbox" class="absolute opacity-0">
                                                                 <svg class="hidden w-4 h-4 text-green-500 pointer-events-none fill-current"
                                                                     viewBox="0 0 20 20">
@@ -233,7 +233,7 @@
                                                     <li class="flex p-2 mt-[2px] pt-[15px] group hover:bg-gray-200">
                                                         <label class="flex items-center justify-start">
                                                             <div
-                                                                class="flex items-center justify-center flex-shrink-0 w-6 h-6 mr-2 bg-white border-2 border-gray-400 rounded focus-within:border-blue-500">
+                                                                class="flex items-center justify-center flex-shrink-0 w-[16px] h-[16px] mr-2 bg-white border-2 border-gray-400 rounded focus-within:border-blue-500">
                                                                 <input type="checkbox" class="absolute opacity-0">
                                                                 <svg class="hidden w-4 h-4 text-green-500 pointer-events-none fill-current"
                                                                     viewBox="0 0 20 20">
@@ -251,7 +251,7 @@
                                                     <li class="flex p-2 mt-[2px] pt-[15px] group hover:bg-gray-200">
                                                         <label class="flex items-center justify-start">
                                                             <div
-                                                                class="flex items-center justify-center flex-shrink-0 w-6 h-6 mr-2 bg-white border-2 border-gray-400 rounded focus-within:border-blue-500">
+                                                                class="flex items-center justify-center flex-shrink-0 w-[16px] h-[16px] mr-2 bg-white border-2 border-gray-400 rounded focus-within:border-blue-500">
                                                                 <input type="checkbox" class="absolute opacity-0">
                                                                 <svg class="hidden w-4 h-4 text-green-500 pointer-events-none fill-current"
                                                                     viewBox="0 0 20 20">
@@ -269,7 +269,7 @@
                                                     <li class="flex p-2 mt-[2px] pt-[15px] group hover:bg-gray-200">
                                                         <label class="flex items-center justify-start">
                                                             <div
-                                                                class="flex items-center justify-center flex-shrink-0 w-6 h-6 mr-2 bg-white border-2 border-gray-400 rounded focus-within:border-blue-500">
+                                                                class="flex items-center justify-center flex-shrink-0 w-[16px] h-[16px] mr-2 bg-white border-2 border-gray-400 rounded focus-within:border-blue-500">
                                                                 <input type="checkbox" class="absolute opacity-0">
                                                                 <svg class="hidden w-4 h-4 text-green-500 pointer-events-none fill-current"
                                                                     viewBox="0 0 20 20">
@@ -287,7 +287,7 @@
                                                     <li class="flex p-2 mt-[2px] pt-[15px] group hover:bg-gray-200">
                                                         <label class="flex items-center justify-start">
                                                             <div
-                                                                class="flex items-center justify-center flex-shrink-0 w-6 h-6 mr-2 bg-white border-2 border-gray-400 rounded focus-within:border-blue-500">
+                                                                class="flex items-center justify-center flex-shrink-0 w-[16px] h-[16px] mr-2 bg-white border-2 border-gray-400 rounded focus-within:border-blue-500">
                                                                 <input type="checkbox" class="absolute opacity-0">
                                                                 <svg class="hidden w-4 h-4 text-green-500 pointer-events-none fill-current"
                                                                     viewBox="0 0 20 20">
@@ -305,7 +305,7 @@
                                                     <li class="flex p-2 mt-[2px] pt-[15px] group hover:bg-gray-200">
                                                         <label class="flex items-center justify-start">
                                                             <div
-                                                                class="flex items-center justify-center flex-shrink-0 w-6 h-6 mr-2 bg-white border-2 border-gray-400 rounded focus-within:border-blue-500">
+                                                                class="flex items-center justify-center flex-shrink-0 w-[16px] h-[16px] mr-2 bg-white border-2 border-gray-400 rounded focus-within:border-blue-500">
                                                                 <input type="checkbox" class="absolute opacity-0">
                                                                 <svg class="hidden w-4 h-4 text-green-500 pointer-events-none fill-current"
                                                                     viewBox="0 0 20 20">
@@ -325,11 +325,11 @@
                                             <div class="flex pt-[10px] text-white ">
                                                 <a href="#"
                                                     class="py-2 px-[20px] transition duration-300 ease-in hover:bg-[#46A149] bg-[#4CAF50] rounded-[5px]">
-                                                    Sacuvaj <i class="fas fa-check ml-[4px]"></i> 
+                                                    Sacuvaj <i class="fas fa-check ml-[4px]"></i>
                                                 </a>
                                                 <a href="#"
                                                     class="ml-[20px] py-2 px-[20px] transition duration-300 ease-in bg-[#F44336] hover:bg-[#F55549] rounded-[5px]">
-                                                    Ponisti <i class="fas fa-times ml-[4px]"></i> 
+                                                    Ponisti <i class="fas fa-times ml-[4px]"></i>
                                                 </a>
                                             </div>
                                         </div>
@@ -360,7 +360,7 @@
                                                     <li class="flex p-2 mt-[2px] pt-[15px] group hover:bg-gray-200">
                                                         <label class="flex items-center justify-start">
                                                             <div
-                                                                class="flex items-center justify-center flex-shrink-0 w-6 h-6 mr-2 bg-white border-2 border-gray-400 rounded focus-within:border-blue-500">
+                                                                class="flex items-center justify-center flex-shrink-0 w-[16px] h-[16px] mr-2 bg-white border-2 border-gray-400 rounded focus-within:border-blue-500">
                                                                 <input type="checkbox" class="absolute opacity-0">
                                                                 <svg class="hidden w-4 h-4 text-green-500 pointer-events-none fill-current"
                                                                     viewBox="0 0 20 20">
@@ -378,7 +378,7 @@
                                                     <li class="flex p-2 mt-[2px] pt-[15px] group hover:bg-gray-200">
                                                         <label class="flex items-center justify-start">
                                                             <div
-                                                                class="flex items-center justify-center flex-shrink-0 w-6 h-6 mr-2 bg-white border-2 border-gray-400 rounded focus-within:border-blue-500">
+                                                                class="flex items-center justify-center flex-shrink-0 w-[16px] h-[16px] mr-2 bg-white border-2 border-gray-400 rounded focus-within:border-blue-500">
                                                                 <input type="checkbox" class="absolute opacity-0">
                                                                 <svg class="hidden w-4 h-4 text-green-500 pointer-events-none fill-current"
                                                                     viewBox="0 0 20 20">
@@ -396,7 +396,7 @@
                                                     <li class="flex p-2 mt-[2px] pt-[15px] group hover:bg-gray-200">
                                                         <label class="flex items-center justify-start">
                                                             <div
-                                                                class="flex items-center justify-center flex-shrink-0 w-6 h-6 mr-2 bg-white border-2 border-gray-400 rounded focus-within:border-blue-500">
+                                                                class="flex items-center justify-center flex-shrink-0 w-[16px] h-[16px] mr-2 bg-white border-2 border-gray-400 rounded focus-within:border-blue-500">
                                                                 <input type="checkbox" class="absolute opacity-0">
                                                                 <svg class="hidden w-4 h-4 text-green-500 pointer-events-none fill-current"
                                                                     viewBox="0 0 20 20">
@@ -414,7 +414,7 @@
                                                     <li class="flex p-2 mt-[2px] pt-[15px] group hover:bg-gray-200">
                                                         <label class="flex items-center justify-start">
                                                             <div
-                                                                class="flex items-center justify-center flex-shrink-0 w-6 h-6 mr-2 bg-white border-2 border-gray-400 rounded focus-within:border-blue-500">
+                                                                class="flex items-center justify-center flex-shrink-0 w-[16px] h-[16px] mr-2 bg-white border-2 border-gray-400 rounded focus-within:border-blue-500">
                                                                 <input type="checkbox" class="absolute opacity-0">
                                                                 <svg class="hidden w-4 h-4 text-green-500 pointer-events-none fill-current"
                                                                     viewBox="0 0 20 20">
@@ -432,7 +432,7 @@
                                                     <li class="flex p-2 mt-[2px] pt-[15px] group hover:bg-gray-200">
                                                         <label class="flex items-center justify-start">
                                                             <div
-                                                                class="flex items-center justify-center flex-shrink-0 w-6 h-6 mr-2 bg-white border-2 border-gray-400 rounded focus-within:border-blue-500">
+                                                                class="flex items-center justify-center flex-shrink-0 w-[16px] h-[16px] mr-2 bg-white border-2 border-gray-400 rounded focus-within:border-blue-500">
                                                                 <input type="checkbox" class="absolute opacity-0">
                                                                 <svg class="hidden w-4 h-4 text-green-500 pointer-events-none fill-current"
                                                                     viewBox="0 0 20 20">
@@ -450,7 +450,7 @@
                                                     <li class="flex p-2 mt-[2px] pt-[15px] group hover:bg-gray-200">
                                                         <label class="flex items-center justify-start">
                                                             <div
-                                                                class="flex items-center justify-center flex-shrink-0 w-6 h-6 mr-2 bg-white border-2 border-gray-400 rounded focus-within:border-blue-500">
+                                                                class="flex items-center justify-center flex-shrink-0 w-[16px] h-[16px] mr-2 bg-white border-2 border-gray-400 rounded focus-within:border-blue-500">
                                                                 <input type="checkbox" class="absolute opacity-0">
                                                                 <svg class="hidden w-4 h-4 text-green-500 pointer-events-none fill-current"
                                                                     viewBox="0 0 20 20">
@@ -470,11 +470,11 @@
                                             <div class="flex pt-[10px] text-white ">
                                                 <a href="#"
                                                     class="py-2 px-[20px] transition duration-300 ease-in hover:bg-[#46A149] bg-[#4CAF50] rounded-[5px]">
-                                                    Sacuvaj <i class="fas fa-check ml-[4px]"></i> 
+                                                    Sacuvaj <i class="fas fa-check ml-[4px]"></i>
                                                 </a>
                                                 <a href="#"
                                                     class="ml-[20px] py-2 px-[20px] transition duration-300 ease-in bg-[#F44336] hover:bg-[#F55549] rounded-[5px]">
-                                                    Ponisti <i class="fas fa-times ml-[4px]"></i> 
+                                                    Ponisti <i class="fas fa-times ml-[4px]"></i>
                                                 </a>
                                             </div>
                                         </div>
@@ -505,7 +505,7 @@
                                                     <li class="flex p-2 mt-[2px] pt-[15px] group hover:bg-gray-200">
                                                         <label class="flex items-center justify-start">
                                                             <div
-                                                                class="flex items-center justify-center flex-shrink-0 w-6 h-6 mr-2 bg-white border-2 border-gray-400 rounded focus-within:border-blue-500">
+                                                                class="flex items-center justify-center flex-shrink-0 w-[16px] h-[16px] mr-2 bg-white border-2 border-gray-400 rounded focus-within:border-blue-500">
                                                                 <input type="checkbox" class="absolute opacity-0">
                                                                 <svg class="hidden w-4 h-4 text-green-500 pointer-events-none fill-current"
                                                                     viewBox="0 0 20 20">
@@ -521,7 +521,7 @@
                                                     <li class="flex p-2 mt-[2px] pt-[15px] group hover:bg-gray-200">
                                                         <label class="flex items-center justify-start">
                                                             <div
-                                                                class="flex items-center justify-center flex-shrink-0 w-6 h-6 mr-2 bg-white border-2 border-gray-400 rounded focus-within:border-blue-500">
+                                                                class="flex items-center justify-center flex-shrink-0 w-[16px] h-[16px] mr-2 bg-white border-2 border-gray-400 rounded focus-within:border-blue-500">
                                                                 <input type="checkbox" class="absolute opacity-0">
                                                                 <svg class="hidden w-4 h-4 text-green-500 pointer-events-none fill-current"
                                                                     viewBox="0 0 20 20">
@@ -537,7 +537,7 @@
                                                     <li class="flex p-2 mt-[2px] pt-[15px] group hover:bg-gray-200">
                                                         <label class="flex items-center justify-start">
                                                             <div
-                                                                class="flex items-center justify-center flex-shrink-0 w-6 h-6 mr-2 bg-white border-2 border-gray-400 rounded focus-within:border-blue-500">
+                                                                class="flex items-center justify-center flex-shrink-0 w-[16px] h-[16px] mr-2 bg-white border-2 border-gray-400 rounded focus-within:border-blue-500">
                                                                 <input type="checkbox" class="absolute opacity-0">
                                                                 <svg class="hidden w-4 h-4 text-green-500 pointer-events-none fill-current"
                                                                     viewBox="0 0 20 20">
@@ -553,7 +553,7 @@
                                                     <li class="flex p-2 mt-[2px] pt-[15px] group hover:bg-gray-200">
                                                         <label class="flex items-center justify-start">
                                                             <div
-                                                                class="flex items-center justify-center flex-shrink-0 w-6 h-6 mr-2 bg-white border-2 border-gray-400 rounded focus-within:border-blue-500">
+                                                                class="flex items-center justify-center flex-shrink-0 w-[16px] h-[16px] mr-2 bg-white border-2 border-gray-400 rounded focus-within:border-blue-500">
                                                                 <input type="checkbox" class="absolute opacity-0">
                                                                 <svg class="hidden w-4 h-4 text-green-500 pointer-events-none fill-current"
                                                                     viewBox="0 0 20 20">
@@ -571,11 +571,11 @@
                                             <div class="flex pt-[10px] text-white ">
                                                 <a href="#"
                                                     class="py-2 px-[20px] transition duration-300 ease-in hover:bg-[#009688] bg-[#46A149] rounded-[5px]">
-                                                    Sacuvaj <i class="fas fa-check ml-[4px]"></i> 
+                                                    Sacuvaj <i class="fas fa-check ml-[4px]"></i>
                                                 </a>
                                                 <a href="#"
                                                     class="ml-[20px] py-2 px-[20px] transition duration-300 ease-in bg-[#F44336] hover:bg-[#F55549] rounded-[5px]">
-                                                    Ponisti <i class="fas fa-times ml-[4px]"></i> 
+                                                    Ponisti <i class="fas fa-times ml-[4px]"></i>
                                                 </a>
                                             </div>
                                         </div>
@@ -583,8 +583,38 @@
                                 </div>
                             </div>
                             <div class="ml-[25px]">
-
-                                <input type="date" class="cursor-pointer focus:outline-none">
+                                <div class="rounded">
+                                    <div class="relative">
+                                        <button class="w-auto rounded focus:outline-none" id="datumMenu">
+                                            <span class="float-left">Datum: Svi <i
+                                                    class="px-[7px] fas fa-angle-down"></i></span>
+                                        </button>
+                                        <div id="datumDropdown"
+                                            class="datumMenu hidden absolute rounded bg-white min-w-[310px] p-[10px] shadow-md pin-t pin-l border-2 border-gray-300">
+                                            <div
+                                                class="flex justify-between flex-row p-2 pb-[15px] border-b-[2px] relative border-gray-300">
+                                                <div>
+                                                    <label class="font-medium text-gray-500">Period od:</label>
+                                                    <input type="date" class="border-[1px] border-[#e4dfdf]  cursor-pointer focus:outline-none">
+                                                </div>
+                                                <div class="ml-[50px]">
+                                                    <label class="font-medium text-gray-500">Period do:</label>
+                                                    <input type="date" class="border-[1px] border-[#e4dfdf]  cursor-pointer focus:outline-none">
+                                                </div>
+                                            </div>
+                                            <div class="flex pt-[10px] text-white ">
+                                                <a href="#"
+                                                    class="py-2 px-[20px] transition duration-300 ease-in hover:bg-[#009688] bg-[#46A149] rounded-[5px]">
+                                                    Sacuvaj <i class="fas fa-check ml-[4px]"></i>
+                                                </a>
+                                                <a href="#"
+                                                    class="ml-[20px] py-2 px-[20px] transition duration-300 ease-in bg-[#F44336] hover:bg-[#F55549] rounded-[5px]">
+                                                    Ponisti <i class="fas fa-times ml-[4px]"></i>
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
                             </div>
                             <div class="ml-[35px] cursor-pointer hover:text-blue-600">
                                 <i class="fas fa-sync-alt"></i>

@@ -72,7 +72,7 @@
                     </div>
                     <div class="pt-[24px] mr-[30px]">
                         <a href="otpisiKnjigu.php" class="inline hover:text-blue-600">
-                            <i class="fas fa-power-off mr-[3px]"></i>
+                            <i class="fas fa-level-up-alt mr-[3px]"></i>
                             Otpisi knjigu
                         </a>
                         <a href="izdajKnjigu.php" class="inline hover:text-blue-600 ml-[20px] pr-[10px]">
@@ -143,7 +143,8 @@
                                     <label class="text-gray-700" for="date">
                                         <input type="date" name="datumIzdavanja" id="datumIzdavanja"
                                             class="flex w-[90%] mt-2 px-4 py-2 text-base placeholder-gray-400 bg-white border border-gray-300 appearance-none focus:outline-none focus:ring-2 focus:ring-[#576cdf]"
-                                            onclick="clearErrorsDatumIzdavanja();" onchange="funkcijaDatumVracanja();"/>
+                                            onclick="clearErrorsDatumIzdavanja();"
+                                            onchange="funkcijaDatumVracanja();" />
                                     </label>
                                     <div id="validateDatumIzdavanja"></div>
                                 </div>
@@ -151,9 +152,12 @@
                                     <p>Datum vracanja</p>
                                     <label class="text-gray-700" for="date">
                                         <input type="text" id="datumVracanja"
-                                        class="flex w-[90%] mt-2 px-2 py-2 text-base text-gray-400 bg-white border border-gray-300 shadow-sm appearance-none focus:outline-none focus:ring-2 focus:ring-[#576cdf]" disabled/>
+                                            class="flex w-[90%] mt-2 px-2 py-2 text-base text-gray-400 bg-white border border-gray-300 shadow-sm appearance-none focus:outline-none focus:ring-2 focus:ring-[#576cdf]"
+                                            disabled />
                                     </label>
-                                    <div><p>Rok vracanja: 20 dana</p></div>
+                                    <div>
+                                        <p>Rok vracanja: 20 dana</p>
+                                    </div>
                                 </div>
                             </div>
                         </div>
@@ -170,7 +174,9 @@
                                         <p class="mt-[20px]">Ukupna kolicina:</p>
                                     </div>
                                     <div class="text-center pb-[30px]">
-                                        <p class=" bg-green-200 text-green-700 rounded-[10px] px-[6px] py-[2px] text-[14px]">5
+                                        <p
+                                            class=" bg-green-200 text-green-700 rounded-[10px] px-[6px] py-[2px] text-[14px]">
+                                            5
                                             primjeraka</p>
                                         <a href="aktivneRezervacije.php">
                                             <p
@@ -184,8 +190,8 @@
                                         </a>
                                         <a href="knjigePrekoracenje.php">
                                             <p
-                                            class=" mt-[16px] bg-red-200 text-red-800 rounded-[10px] px-[6px] py-[2px] text-[14px]">
-                                            2 primjerka</p>
+                                                class=" mt-[16px] bg-red-200 text-red-800 rounded-[10px] px-[6px] py-[2px] text-[14px]">
+                                                2 primjerka</p>
                                         </a>
                                         <p
                                             class=" mt-[16px] border-[1px] border-green-700 text-green-700 rounded-[10px] px-[6px] py-[2px] text-[14px]">
