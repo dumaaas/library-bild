@@ -1103,6 +1103,72 @@ $("#sacuvajPismo").keypress(function (e) {
   }
 });
 
+// Form validation for reseting password - student
+function validacijaSifraUcenik() {
+
+  $("#validatePwResetUcenik").empty();
+  $("#validatePw2ResetUcenik").empty();
+
+  let pwResetUcenik = $("#pwResetUcenik").val();
+  let pw2ResetUcenik = $("#pw2ResetUcenik").val();
+
+  if (pwResetUcenik.length == 0) {
+    $('#validatePwResetUcenik').append('<p style="color:red;font-size:13px;">Morate unijeti sifru!</p>');
+  }
+
+  if (pw2ResetUcenik.length == 0) {
+    $('#validatePw2ResetUcenik').append('<p style="color:red;font-size:13px;">Morate ponoviti sifru!</p>');
+  }
+}
+
+function clearErrorsPwResetUcenik() {
+  $("#validatePwResetUcenik").empty();
+}
+
+function clearErrorsPw2ResetUcenik() {
+  $("#validatePw2ResetUcenik").empty();
+}
+
+$("#resetujSifruUcenik").keypress(function (e) {
+  if (e.which == 13) {
+    validacijaSifraUcenik();
+    return false;
+  }
+});
+
+// Form validation for reseting password - librarian
+function validacijaSifraBibliotekar() {
+
+  $("#validatePwResetBibliotekar").empty();
+  $("#validatePw2ResetBibliotekar").empty();
+
+  let pwResetBibliotekar = $("#pwResetBibliotekar").val();
+  let pw2ResetBibliotekar = $("#pw2ResetBibliotekar").val();
+
+  if (pwResetBibliotekar.length == 0) {
+    $('#validatePwResetBibliotekar').append('<p style="color:red;font-size:13px;">Morate unijeti sifru!</p>');
+  }
+
+  if (pw2ResetBibliotekar.length == 0) {
+    $('#validatePw2ResetBibliotekar').append('<p style="color:red;font-size:13px;">Morate ponoviti sifru!</p>');
+  }
+}
+
+function clearErrorsPwResetBibliotekar() {
+  $("#validatePwResetBibliotekar").empty();
+}
+
+function clearErrorsPw2ResetBibliotekar() {
+  $("#validatePw2ResetBibliotekar").empty();
+}
+
+$("#resetujSifruBibliotekar").keypress(function (e) {
+  if (e.which == 13) {
+    validacijaSifraBibliotekar();
+    return false;
+  }
+});
+
 function sortTableDate(row) {
   var table, rows, switching, i, x, y, shouldSwitch;
   table = $(".sortTableDate");

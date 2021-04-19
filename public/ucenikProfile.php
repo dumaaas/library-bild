@@ -163,12 +163,14 @@
             <!-- Modal Body -->
             <div class="flex flex-col px-[30px] py-[30px]">
                 <div class="flex flex-col pb-[30px]">
-                    <span>Unesi novu sifru</span>
-                    <input class="h-[40px] border-[1px] border-[#e4dfdf]" type="password">
+                    <span>Unesi novu sifru <span class="text-red-500">*</span></span>
+                    <input class="h-[40px] px-2 py-2 text-base bg-white border border-gray-300 shadow-sm appearance-none focus:outline-none focus:ring-2 focus:ring-[#576cdf]" type="password" name="pwResetUcenik" id="pwResetUcenik" onkeydown="clearErrorsPwResetUcenik()">
+                    <div id="validatePwResetUcenik"></div>
                 </div>
                 <div class="flex flex-col pb-[30px]">
-                    <span>Ponovi sifru</span>
-                    <input class="h-[40px] border-[1px] border-[#e4dfdf]" type="password">
+                    <span>Ponovi sifru <span class="text-red-500">*</span></span>
+                    <input class="h-[40px] px-2 py-2 text-base bg-white border border-gray-300 shadow-sm appearance-none focus:outline-none focus:ring-2 focus:ring-[#576cdf]" type="password" name="pw2ResetUcenik" id="pw2ResetUcenik" onkeydown="clearErrorsPw2ResetUcenik()">
+                    <div id="validatePw2ResetUcenik"></div>
                 </div>
             </div>
             <div class="flex items-center justify-end px-[30px] py-[20px] border-t w-100 text-white">
@@ -176,9 +178,9 @@
                     class="shadow-lg mr-[15px] w-[150px] focus:outline-none text-sm py-2.5 px-5 transition duration-300 ease-in bg-[#F44336] hover:bg-[#F55549] rounded-[5px]">
                     Ponisti <i class="fas fa-times ml-[4px]"></i>
                 </button>
-                <button id="resetujSifru" type="submit"
+                <button id="resetujSifruUcenik" type="submit"
                     class="shadow-lg w-[150px] disabled:opacity-50 focus:outline-none text-sm py-2.5 px-5 transition duration-300 ease-in rounded-[5px] hover:bg-[#46A149] bg-[#4CAF50]"
-                    onclick="validacijaSifra()">
+                    onclick="validacijaSifraUcenik()">
                     Sacuvaj <i class="fas fa-check ml-[4px]"></i>
                 </button>
             </div>
