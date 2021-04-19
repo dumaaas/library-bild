@@ -528,6 +528,80 @@ $("#sacuvajUcenika").keypress(function (e) {
   }
 });
 
+// Form validation for editing student info
+function validacijaUcenikEdit() {
+
+  $("#validateNameUcenikEdit").empty();
+  $("#validateJmbgUcenikEdit").empty();
+  $("#validateEmailUcenikEdit").empty();
+  $("#validateUsernameUcenikEdit").empty();
+  $("#validatePwUcenikEdit").empty();
+  $("#validatePw2UcenikEdit").empty();
+
+
+  let nameUcenikEdit = $("#imePrezimeUcenikEdit").val();
+  let jmbgUcenikEdit = $("#jmbgUcenikEdit").val();
+  let emailUcenikEdit = $("#emailUcenikEdit").val();
+  let usernameUcenikEdit = $("#usernameUcenikEdit").val();
+  let pwUcenikEdit = $("#pwUcenikEdit").val();
+  let pw2UcenikEdit = $("#pw2UcenikEdit").val();
+
+  if (nameUcenikEdit.length == 0) {
+    $('#validateNameUcenikEdit').append('<p style="color:red;font-size:13px;">Morate unijeti ime i prezime!</p>');
+  }
+
+  if (jmbgUcenikEdit.length == 0) {
+    $('#validateJmbgUcenikEdit').append('<p style="color:red;font-size:13px;">Morate unijeti JMBG!</p>');
+  }
+
+  if (emailUcenikEdit.length == 0) {
+    $('#validateEmailUcenikEdit').append('<p style="color:red;font-size:13px;">Morate unijeti validnu e-mail adresu!</p>');
+  }
+
+  if (usernameUcenikEdit.length == 0) {
+    $('#validateUsernameUcenikEdit').append('<p style="color:red;font-size:13px;">Morate unijeti korisnicko ime!</p>');
+  }
+
+  if (pwUcenikEdit.length == 0) {
+    $('#validatePwUcenikEdit').append('<p style="color:red;font-size:13px;">Morate unijeti sifru!</p>');
+  }
+
+  if (pw2UcenikEdit.length == 0) {
+    $('#validatePw2UcenikEdit').append('<p style="color:red;font-size:13px;">Morate ponoviti sifru!</p>');
+  }
+}
+
+function clearErrorsNameUcenikEdit() {
+  $("#validateNameUcenikEdit").empty();
+}
+
+function clearErrorsJmbgUcenikEdit() {
+  $("#validateJmbgUcenikEdit").empty();
+}
+
+function clearErrorsEmailUcenikEdit() {
+  $("#validateEmailUcenikEdit").empty();
+}
+
+function clearErrorsUsernameUcenikEdit() {
+  $("#validateUsernameUcenikEdit").empty();
+}
+
+function clearErrorsPwUcenikEdit() {
+  $("#validatePwUcenikEdit").empty();
+}
+
+function clearErrorsPw2UcenikEdit() {
+  $("#validatePw2UcenikEdit").empty();
+}
+
+$("#sacuvajUcenikaEdit").keypress(function (e) {
+  if (e.which == 13) {
+    validacijaUcenikEdit();
+    return false;
+  }
+});
+
 // Form validation for new book
 function validacijaKnjiga() {
 
