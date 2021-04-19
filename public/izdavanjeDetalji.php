@@ -13,7 +13,7 @@
     <!-- End Meta -->
 
     <!-- Title -->
-    <title>Detaljan prikaz | Library - ICT Cortex student project</title>
+    <title>Detalji o transakciji | Library - ICT Cortex student project</title>
     <link rel="shortcut icon" href="img/library-favicon.ico" type="image/vnd.microsoft.icon" />
     <!-- End Title -->
 
@@ -65,6 +65,15 @@
                                                 KNJIGA-467
                                             </a>
                                         </li>
+                                        <li>
+                                            <span class="mx-2">/</span>
+                                        </li>
+                                        <li>
+                                            <a href="izdavanjeDetalji.php"
+                                                class="text-[#2196f3] hover:text-blue-600">
+                                                IZDAVANJE-421
+                                            </a>
+                                        </li>
                                     </ol>
                                 </nav>
                             </div>
@@ -72,7 +81,7 @@
                     </div>
                     <div class="pt-[24px] mr-[30px]">
                         <a href="otpisiKnjigu.php" class="inline hover:text-blue-600">
-                            <i class="fas fa-power-off mr-[3px]"></i>
+                            <i class="fas fa-level-up-alt mr-[3px]"></i> 
                             Otpisi knjigu
                         </a>
                         <a href="izdajKnjigu.php" class="inline hover:text-blue-600 ml-[20px] pr-[10px]">
@@ -122,40 +131,131 @@
                         <div class="flex flex-row justify-between">
                             <div class="mr-[30px]">
                                 <div class="mt-[20px]">
-                                    <span class="text-gray-500">Datum akcije</span>
-                                    <p class="font-medium">12.05.2020</p>
-                                </div>
-                                <div class="mt-[40px]">
-                                    <span class="text-gray-500">Tip akcije</span> <br>
-                                    <p class="inline-block bg-blue-200 text-blue-800 rounded-[10px] text-center px-[6px] py-[2px]">
+                                    <span class="text-gray-500">Tip transakcije</span><br>
+                                    <p
+                                        class="inline-block bg-blue-200 text-blue-800 rounded-[10px] text-center px-[6px] py-[2px]">
                                         Izdavanje knjiga
                                     </p>
                                 </div>
                                 <div class="mt-[40px]">
+                                    <span class="text-gray-500">Datum akcije</span>
+                                    <p class="font-medium">12.05.2020</p>
+                                </div>
+                                <div class="mt-[40px]">
+                                    <span class="text-gray-500">Trenutno zadrzavanje knjige</span>
+                                    <p class="font-medium">1 nedelja i 4 dana</p>
+                                </div>
+                                <div class="mt-[40px]">
+                                    <span class="text-gray-500">Prekoracenje</span>
+                                    <p class="font-medium">Nema prekoracenja</p>
+                                </div>
+                                <div class="mt-[40px]">
                                     <span class="text-gray-500">Bibliotekar</span>
-                                    <a href="bibliotekarProfile.php" class="block font-medium text-[#2196f3] hover:text-blue-600">Valentina Kascelan</a>
+                                    <a href="bibliotekarProfile.php"
+                                        class="block font-medium text-[#2196f3] hover:text-blue-600">Valentina
+                                        Kascelan</a>
                                 </div>
                                 <div class="mt-[40px]">
                                     <span class="text-gray-500">Ucenik</span>
-                                    <a href="ucenikProfile.php" class="block font-medium text-[#2196f3] hover:text-blue-600">Milos Milosevic</a>
+                                    <a href="ucenikProfile.php"
+                                        class="block font-medium text-[#2196f3] hover:text-blue-600">Milos Milosevic</a>
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
-            <div class="w-full absolute border-t-[2px] border-gray-300 bottom-0">
-                <div class="inline-block w-full text-right py-[7px] ml-[-80px]">
-                    <button type="button"
-                        class="w-[150px] focus:outline-none text-gray-600 text-sm py-2.5 px-5 rounded-md border transition duration-300 ease-in border-gray-600 hover:bg-gray-600 hover:text-white">
-                        Izbrisi zapis
-                    </button>
+            <div class="absolute bottom-0 w-full">
+                <div class="flex flex-row">
+                    <div class="inline-block w-full text-white text-right py-[7px] mr-[100px]">
+                        <button type="submit"
+                            class="show-otpisiModal shadow-lg w-[150px] disabled:opacity-50 focus:outline-none text-sm py-2.5 px-5 transition duration-300 ease-in rounded-[5px] hover:bg-[#FF470E] bg-[#FF5722]">
+                            <i class="fas fa-level-up-alt mr-[4px] "></i> Otpisi knjigu
+                        </button>
+                        <button type="submit"
+                            class="show-vratiModal shadow-lg w-[150px] disabled:opacity-50 focus:outline-none text-sm py-2.5 px-5 transition duration-300 ease-in rounded-[5px] hover:bg-[#46A149] bg-[#4CAF50]">
+                            <i class="fas fa-redo-alt mr-[4px] "></i> Vrati knjigu
+                        </button>
+                        <button type="button"
+                            class="show-izbrisiModal shadow-lg mr-[15px] w-[150px] focus:outline-none text-sm py-2.5 px-5 transition duration-300 ease-in bg-[#F44336] hover:bg-[#F55549] rounded-[5px]">
+                            <i class="fas fa-trash mr-[4px]"></i> Izbrisi zapis
+                        </button>
+                    </div>
                 </div>
             </div>
         </section>
         <!-- End Content -->
     </main>
     <!-- End Main content -->
+
+    <!-- Modal - Vrati Knjigu -->
+    <div
+        class="fixed top-0 left-0 flex items-center justify-center hidden w-full h-screen bg-black bg-opacity-50 vrati-modal">
+        <!-- Modal -->
+        <div class="w-[500px] bg-white rounded shadow-lg md:w-1/3">
+            <!-- Modal Header -->
+            <div class="flex items-center justify-between px-[30px] py-[20px] border-b">
+                <h3>Da li zelite da vratite knjigu "Tom Sojer" za ucenika "Milos Milosevic"</h3>
+            </div>
+            <!-- Modal Body -->
+            <div class="flex items-center justify-end px-[30px] py-[20px] border-t w-100 text-white">
+                <button type="button"
+                    class="close-modal shadow-lg mr-[15px] w-[150px] focus:outline-none text-sm py-2.5 px-5 transition duration-300 ease-in bg-[#F44336] hover:bg-[#F55549] rounded-[5px]">
+                    Ponisti <i class="fas fa-times ml-[4px]"></i>
+                </button>
+                <button type="submit"
+                    class="shadow-lg w-[150px] disabled:opacity-50 focus:outline-none text-sm py-2.5 px-5 transition duration-300 ease-in rounded-[5px] hover:bg-[#46A149] bg-[#4CAF50]"">
+                    Potvrdi <i class="fas fa-check ml-[4px]"></i>
+                </button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal - Otpisi Knjigu -->
+    <div
+        class="fixed top-0 left-0 flex items-center justify-center hidden w-full h-screen bg-black bg-opacity-50 otpisi-modal">
+        <!-- Modal -->
+        <div class="w-[500px] bg-white rounded shadow-lg md:w-1/3">
+            <!-- Modal Header -->
+            <div class="flex items-center justify-between px-[30px] py-[20px] border-b">
+                <h3>Da li zelite da otpisete knjigu "Tom Sojer" za ucenika "Milos Milosevic?"</h3>
+            </div>
+            <!-- Modal Body -->
+            <div class="flex items-center justify-end px-[30px] py-[20px] border-t w-100 text-white">
+                <button type="button"
+                    class="close-modal shadow-lg mr-[15px] w-[150px] focus:outline-none text-sm py-2.5 px-5 transition duration-300 ease-in bg-[#F44336] hover:bg-[#F55549] rounded-[5px]">
+                    Ponisti <i class="fas fa-times ml-[4px]"></i>
+                </button>
+                <button type="submit"
+                    class="shadow-lg w-[150px] disabled:opacity-50 focus:outline-none text-sm py-2.5 px-5 transition duration-300 ease-in rounded-[5px] hover:bg-[#46A149] bg-[#4CAF50]"">
+                    Potvrdi <i class="fas fa-check ml-[4px]"></i>
+                </button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal - Izbrisi Zapis -->
+    <div
+        class="fixed top-0 left-0 flex items-center justify-center hidden w-full h-screen bg-black bg-opacity-50 izbrisi-modal">
+        <!-- Modal -->
+        <div class="w-[500px] bg-white rounded shadow-lg md:w-1/3">
+            <!-- Modal Header -->
+            <div class="flex items-center justify-between px-[30px] py-[20px] border-b">
+                <h3>Da li zelite da izbrisete zapis knjige "Tom Sojer" za ucenika "Milos Milosevic?"</h3>
+            </div>
+            <!-- Modal Body -->
+            <div class="flex items-center justify-end px-[30px] py-[20px] border-t w-100 text-white">
+                <button type="button"
+                    class="close-modal shadow-lg mr-[15px] w-[150px] focus:outline-none text-sm py-2.5 px-5 transition duration-300 ease-in bg-[#F44336] hover:bg-[#F55549] rounded-[5px]">
+                    Ponisti <i class="fas fa-times ml-[4px]"></i>
+                </button>
+                <button type="submit"
+                    class="shadow-lg w-[150px] disabled:opacity-50 focus:outline-none text-sm py-2.5 px-5 transition duration-300 ease-in rounded-[5px] hover:bg-[#46A149] bg-[#4CAF50]"">
+                    Potvrdi <i class="fas fa-check ml-[4px]"></i>
+                </button>
+            </div>
+        </div>
+    </div>
 
     <!-- Notification for small devices -->
     <?php include('includes/layout/inProgress.php'); ?>

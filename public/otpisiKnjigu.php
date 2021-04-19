@@ -13,7 +13,7 @@
     <!-- End Meta -->
 
     <!-- Title -->
-    <title>Vrati knjigu | Library - ICT Cortex student project</title>
+    <title>Otpisi knjigu | Library - ICT Cortex student project</title>
     <link rel="shortcut icon" href="img/library-favicon.ico" type="image/vnd.microsoft.icon" />
     <!-- End Title -->
 
@@ -69,8 +69,8 @@
                                             <span class="mx-2">/</span>
                                         </li>
                                         <li>
-                                            <a href="vratiKnjigu.php" class="text-[#2196f3] hover:text-blue-600">
-                                                Vrati knjigu
+                                            <a href="otpisiKnjigu.php" class="text-[#2196f3] hover:text-blue-600">
+                                                Otpisi knjigu
                                             </a>
                                         </li>
                                     </ol>
@@ -80,7 +80,7 @@
                     </div>
                     <div class="pt-[24px] mr-[30px]">
                         <a href="otpisiKnjigu.php" class="inline hover:text-blue-600">
-                            <i class="fas fa-level-up-alt mr-[3px]"></i>
+                            <i class="fas fa-power-off mr-[3px]"></i>
                             Otpisi knjigu
                         </a>
                         <a href="izdajKnjigu.php" class="inline hover:text-blue-600 ml-[20px] pr-[10px]">
@@ -127,7 +127,7 @@
             <div class="scroll height-dashboard px-[30px]">
                 <div class="flex items-center justify-between py-4 pt-[20px] space-x-3 rounded-lg">
                     <h3>
-                        Vrati knjigu
+                        Otpisi knjigu
                     </h3>
                     <div class="relative text-gray-600 focus-within:text-gray-400">
                         <span class="absolute inset-y-0 left-0 flex items-center pl-2">
@@ -186,43 +186,7 @@
                                     </a>
                                 </td>
                                 <td class="px-4 py-4 text-sm leading-5 whitespace-no-wrap">21.02.2021</td>
-                                <td class="px-4 py-4 text-sm leading-5 whitespace-no-wrap">2 nedelje i 3 dana</td>
-                                <td class="px-4 py-4 text-sm leading-5 whitespace-no-wrap">Nema prekoracenja</td>
-                                <td class="px-4 py-4 text-sm leading-5 whitespace-no-wrap">Valentina Kascelan</td>
-                            </tr>
-                            <tr class="border-b-[1px] border-[#e4dfdf]">
-                                <td class="px-4 py-4 whitespace-no-wrap">
-                                    <label class="inline-flex items-center">
-                                        <input type="checkbox" class="form-checkbox">
-                                    </label>
-                                </td>
-                                <td class="flex flex-row items-center px-4 py-4">
-                                    <img class="object-cover w-8 h-8 mr-2 rounded-full" src="img/profileStudent.jpg"
-                                        alt="" />
-                                    <a href="ucenikProfile.php">
-                                        <span class="font-medium text-center">Pero Perovic</span>
-                                    </a>
-                                </td>
-                                <td class="px-4 py-4 text-sm leading-5 whitespace-no-wrap">15.05.2020</td>
-                                <td class="px-4 py-4 text-sm leading-5 whitespace-no-wrap">5 dana</td>
-                                <td class="px-4 py-4 text-sm leading-5 whitespace-no-wrap">Nema prekoracenja</td>
-                                <td class="px-4 py-4 text-sm leading-5 whitespace-no-wrap">Valentina Kascelan</td>
-                            </tr>
-                            <tr class="border-b-[1px] border-[#e4dfdf]">
-                                <td class="px-4 py-4 whitespace-no-wrap">
-                                    <label class="inline-flex items-center">
-                                        <input type="checkbox" class="form-checkbox">
-                                    </label>
-                                </td>
-                                <td class="flex flex-row items-center px-4 py-4">
-                                    <img class="object-cover w-8 h-8 mr-2 rounded-full" src="img/profileStudent.jpg"
-                                        alt="" />
-                                    <a href="ucenikProfile.php">
-                                        <span class="font-medium text-center">Pero Perovic</span>
-                                    </a>
-                                </td>
-                                <td class="px-4 py-4 text-sm leading-5 whitespace-no-wrap">09.04.2020</td>
-                                <td class="px-4 py-4 text-sm leading-5 whitespace-no-wrap">3 mjeseca i 2 nedelje</td>
+                                <td class="px-4 py-4 text-sm leading-5 whitespace-no-wrap">2 mjeseca i 15 dana</td>
                                 <td class="px-4 py-4 text-sm leading-5 whitespace-no-wrap">
                                     <span class="px-[6px] py-[2px] bg-red-200 text-red-800 rounded-[10px]">
                                         75 dana
@@ -243,11 +207,55 @@
                                         <span class="font-medium text-center">Pero Perovic</span>
                                     </a>
                                 </td>
-                                <td class="px-4 py-4 text-sm leading-5 whitespace-no-wrap">21.02.2021</td>
-                                <td class="px-4 py-4 text-sm leading-5 whitespace-no-wrap">1 mjesec i 3 dana</td>
+                                <td class="px-4 py-4 text-sm leading-5 whitespace-no-wrap">15.05.2020</td>
+                                <td class="px-4 py-4 text-sm leading-5 whitespace-no-wrap">2 mjeseca i 5 dana</td>
                                 <td class="px-4 py-4 text-sm leading-5 whitespace-no-wrap">
                                     <span class="px-[6px] py-[2px] bg-red-200 text-red-800 rounded-[10px]">
-                                        13 dana
+                                        60 dana
+                                    </span>
+                                </td>
+                                <td class="px-4 py-4 text-sm leading-5 whitespace-no-wrap">Valentina Kascelan</td>
+                            </tr>
+                            <tr class="border-b-[1px] border-[#e4dfdf]">
+                                <td class="px-4 py-4 whitespace-no-wrap">
+                                    <label class="inline-flex items-center">
+                                        <input type="checkbox" class="form-checkbox">
+                                    </label>
+                                </td>
+                                <td class="flex flex-row items-center px-4 py-4">
+                                    <img class="object-cover w-8 h-8 mr-2 rounded-full" src="img/profileStudent.jpg"
+                                        alt="" />
+                                    <a href="ucenikProfile.php">
+                                        <span class="font-medium text-center">Pero Perovic</span>
+                                    </a>
+                                </td>
+                                <td class="px-4 py-4 text-sm leading-5 whitespace-no-wrap">09.04.2020</td>
+                                <td class="px-4 py-4 text-sm leading-5 whitespace-no-wrap">2 mjeseca i 2 dana</td>
+                                <td class="px-4 py-4 text-sm leading-5 whitespace-no-wrap">
+                                    <span class="px-[6px] py-[2px] bg-red-200 text-red-800 rounded-[10px]">
+                                        31 dan
+                                    </span>
+                                </td>
+                                <td class="px-4 py-4 text-sm leading-5 whitespace-no-wrap">Valentina Kascelan</td>
+                            </tr>
+                            <tr class="border-b-[1px] border-[#e4dfdf]">
+                                <td class="px-4 py-4 whitespace-no-wrap">
+                                    <label class="inline-flex items-center">
+                                        <input type="checkbox" class="form-checkbox">
+                                    </label>
+                                </td>
+                                <td class="flex flex-row items-center px-4 py-4">
+                                    <img class="object-cover w-8 h-8 mr-2 rounded-full" src="img/profileStudent.jpg"
+                                        alt="" />
+                                    <a href="ucenikProfile.php">
+                                        <span class="font-medium text-center">Pero Perovic</span>
+                                    </a>
+                                </td>
+                                <td class="px-4 py-4 text-sm leading-5 whitespace-no-wrap">21.02.2021</td>
+                                <td class="px-4 py-4 text-sm leading-5 whitespace-no-wrap">2 mjeseca i 2 dana</td>
+                                <td class="px-4 py-4 text-sm leading-5 whitespace-no-wrap">
+                                    <span class="px-[6px] py-[2px] bg-red-200 text-red-800 rounded-[10px]">
+                                        31 dan
                                     </span>
                                 </td>
                                 <td class="px-4 py-4 text-sm leading-5 whitespace-no-wrap">Valentina Kascelan</td>
@@ -266,8 +274,12 @@
                                     </a>
                                 </td>
                                 <td class="px-4 py-4 text-sm leading-5 whitespace-no-wrap">12.05.2020</td>
-                                <td class="px-4 py-4 text-sm leading-5 whitespace-no-wrap">1 nedelje i 4 dana</td>
-                                <td class="px-4 py-4 text-sm leading-5 whitespace-no-wrap">Nema prekoracenja</td>
+                                <td class="px-4 py-4 text-sm leading-5 whitespace-no-wrap">1 mjesec i 3 dana</td>
+                                <td class="px-4 py-4 text-sm leading-5 whitespace-no-wrap">
+                                    <span class="px-[6px] py-[2px] bg-red-200 text-red-800 rounded-[10px]">
+                                        10 dana
+                                    </span>
+                                </td>
                                 <td class="px-4 py-4 text-sm leading-5 whitespace-no-wrap">Valentina Kascelan</td>
                             </tr>
                         </tbody>
@@ -345,8 +357,8 @@
                         </button>
                         <button type="submit"
                             class="disabled-btn shadow-lg w-[150px] disabled:opacity-50 focus:outline-none text-sm py-2.5 px-5 transition duration-300 ease-in rounded-[5px] hover:bg-[#46A149] bg-[#4CAF50]"
-                            disabled>
-                            Vrati knjigu <i class="fas fa-check ml-[4px]"></i>
+                            disabled onclick="validacijaUcenik()">
+                            Otpisi knjigu <i class="fas fa-check ml-[4px]"></i>
                         </button>
                     </div>
                 </div>

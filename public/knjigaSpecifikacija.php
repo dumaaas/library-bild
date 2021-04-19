@@ -72,7 +72,7 @@
                     </div>
                     <div class="pt-[24px] mr-[30px]">
                         <a href="otpisiKnjigu.php" class="inline hover:text-blue-600">
-                            <i class="fas fa-power-off mr-[3px]"></i>
+                            <i class="fas fa-level-up-alt mr-[3px]"></i>
                             Otpisi knjigu
                         </a>
                         <a href="izdajKnjigu.php" class="inline hover:text-blue-600 ml-[20px] pr-[10px]">
@@ -157,7 +157,8 @@
                                         <p class="font-medium">21 cm</p>
                                     </div>
                                     <div class="mt-[40px]">
-                                        <span class="text-gray-500 text-[14px]">International Standard Book Number (ISBN)</span>
+                                        <span class="text-gray-500 text-[14px]">International Standard Book Number
+                                            (ISBN)</span>
                                         <p class="font-medium">1546213456878</p>
                                     </div>
                                 </div>

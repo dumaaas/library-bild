@@ -37,7 +37,7 @@
         <section class="w-screen h-screen pl-[80px] pb-4 text-gray-700">
             <!-- Heading of content -->
             <div class="heading">
-                <div class="flex border-b-[1px] border-[#e4dfdf]">
+                <div class="flex justify-between border-b-[1px] border-[#e4dfdf]">
                     <div class="pl-[30px] py-[10px] flex flex-col">
                         <div>
                             <h1>
@@ -63,6 +63,13 @@
                                 </ol>
                             </nav>
                         </div>
+                    </div>
+                    <div class="pt-[24px] pr-[30px]">
+                        <p class="inline cursor-pointer text-[25px] py-[10px] pl-[30px] border-l-[1px] border-gray-300"
+                            id="dropdownStudent">
+                            <i
+                                class="fas fa-ellipsis-v hover:text-gray-500 focus:outline-none active:text-gray-800"></i>
+                        </p>
                     </div>
                 </div>
             </div>
