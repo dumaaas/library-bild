@@ -1,3 +1,15 @@
+<?php
+    if($_SERVER['REQUEST_METHOD'] == "GET") {
+        if(isset($_GET['knjiga'])) {
+            $knjiga = $_GET['knjiga'];
+        } else {
+            $knjiga = "Sve";
+        }
+    } else {
+        $e = new Exception('Error', 222);
+        echo '<h1>'.$e->getCode().' '.$e->getMessage().'</h1>';
+    }
+?>
 <!DOCTYPE html>
 <html lang="en">
 
@@ -340,8 +352,13 @@
                                 <div class="rounded">
                                     <div class="relative">
                                         <button class="w-auto rounded focus:outline-none" id="knjigeMenu">
-                                            <span class="float-left">Knjige: Sve <i
-                                                    class="px-[7px] fas fa-angle-down"></i></span>
+                                            <?php if($knjiga==="Sve") {
+                                                echo "<span class='float-left'>";
+                                            } else {
+                                                echo "<span class='float-left bg-blue-200 text-blue-800 px-[8px] py-[2px]'>";
+                                            }
+                                            ?>
+                                            Knjiga: <?php echo $knjiga ?> <i class="px-[7px] fas fa-angle-down"></i></span>
                                         </button>
                                         <div id="knjigeDropdown"
                                             class="knjigeMenu hidden absolute rounded bg-white min-w-[310px] p-[10px] shadow-md pin-t pin-l border-2 border-gray-300">
