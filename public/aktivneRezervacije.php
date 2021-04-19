@@ -38,29 +38,22 @@
             <!-- Heading of content -->
             <div class="heading mt-[7px]">
                 <h1 class="pl-[30px] pb-[21px] border-b-[1px] border-[#e4dfdf] ">
-                    Vracanje i iznajmljivanje knjiga
+                    Izdavanje knjiga
                 </h1>
             </div>
             <!-- Space for content -->
             <div class="scroll height-dashboard">
-                <div class="flex items-center justify-between px-6 py-4 space-x-3 rounded-lg">
-                    <a href="novaKnjiga.php"
-                        class="inline-flex items-center text-sm py-2.5 px-5 transition duration-300 ease-in rounded-[10px] tracking-wider text-white bg-[#3f51b5] rounded hover:bg-[#4558BE]">
-                        <i class="fas fa-plus mr-[15px]"></i> Nova knjiga
-                    </a>
+                <div class="flex items-center px-6 py-4 space-x-3 rounded-lg ml-[292px]">
                     <div class="flex items-center">
                         <div class="relative text-gray-600 focus-within:text-gray-400">
-                            <span class="absolute inset-y-0 left-0 flex items-center pl-2">
-                                <button type="submit" class="p-1 focus:outline-none focus:shadow-outline">
-                                    <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24" class="w-6 h-6"><path d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"></path></svg>
-                                </button>
-                            </span>
-                            <input type="search" name="q" class="py-2 pl-10 text-sm text-white bg-white rounded-md focus:outline-none focus:bg-white focus:text-gray-900" placeholder="Search..." autocomplete="off">
+                            <input type="search" name="q"
+                                class="py-2 pl-2 text-sm text-white bg-white border-2 border-gray-200 rounded-md focus:outline-none focus:bg-white focus:text-gray-900"
+                                placeholder="Pretrazi knjige..." autocomplete="off">
                         </div>
-                        <p class="inline cursor-pointer text-[20px] py-[10px] pl-[30px]">
-                            <i class="fas fa-filter"></i>
-                        </p>
                     </div>
+                    <a href="#"
+                        class="inline-flex items-center text-sm py-2.5 px-5 transition duration-300 ease-in rounded-[5px] tracking-wider text-white bg-[#3f51b5] rounded hover:bg-[#4558BE]">Pretrazi
+                    </a>
                 </div>
                 <div>
                 <!-- Space for content -->
@@ -72,32 +65,13 @@
                                         <span
                                             class=" whitespace-nowrap w-full text-[25px] flex justify-between fill-current">
                                             <div class="">
-                                                <a href="evidencija.php" aria-label="Sve knjige"
+                                                <a href="izdateKnjige.php" aria-label="Sve knjige"
                                                     class="flex items-center">
                                                     <i
                                                         class="transition duration-300 ease-in group-hover:text-[#576cdf] text-[#707070] far fa-copy text-[24px]"></i>
                                                     <div>
                                                         <p
                                                             class="transition duration-300 ease-in group-hover:text-[#576cdf] text-[15px] ml-[23px]">
-                                                            Sve knjige</p>
-                                                    </div>
-                                                </a>
-                                            </div>
-                                        </span>
-                                    </div>
-                                </li>
-                                <li class="mb-[4px] pt-[18px] pb-[14px] group hover:bg-[#EAEAEA]">
-                                    <div class="w-[300px] pl-[28px]">
-                                        <span
-                                            class=" whitespace-nowrap w-full text-[25px] flex justify-between fill-current">
-                                            <div class="transition duration-300 ease-in hover:text-[#576cdf]">
-                                                <a href="evidencijaIzdate.php" aria-label="Izdate knjige"
-                                                    class="flex items-center">
-                                                    <i
-                                                        class="text-[#707070] text-[29px] fas fa-file transition duration-300 ease-in group-hover:text-[#576cdf]"></i>
-                                                    <div>
-                                                        <p
-                                                            class="text-[15px] ml-[22px] transition duration-300 ease-in group-hover:text-[#576cdf]">
                                                             Izdate knjige</p>
                                                     </div>
                                                 </a>
@@ -110,33 +84,71 @@
                                         <span
                                             class=" whitespace-nowrap w-full text-[25px] flex justify-between fill-current">
                                             <div class="transition duration-300 ease-in hover:text-[#576cdf]">
-                                                <a href="evidencijaRaspolaganje.php" aria-label="Knjige na raspolaganju"
+                                                <a href="vraceneKnjige.php" aria-label="Izdate knjige"
                                                     class="flex items-center">
                                                     <i
-                                                        class="text-[#707070] text-[29px] far fa-file transition duration-300 ease-in group-hover:text-[#576cdf]"></i>
+                                                        class="text-[#707070] text-[29px] fas fa-file transition duration-300 ease-in group-hover:text-[#576cdf]"></i>
                                                     <div>
                                                         <p
                                                             class="text-[15px] ml-[22px] transition duration-300 ease-in group-hover:text-[#576cdf]">
-                                                            Knjige na raspolaganju</p>
+                                                            Vracene knjige</p>
                                                     </div>
                                                 </a>
                                             </div>
                                         </span>
                                     </div>
                                 </li>
-                                <li class="mb-[4px] pt-[18px] pb-[14px] group hover:bg-[#EAEAEA] bg-[#EAEAEA] group hover:bg-[#EAEAEA]">
+                                <li class="mb-[4px] pt-[18px] pb-[14px] group hover:bg-[#EAEAEA]">
+                                    <div class="w-[300px] pl-[28px]">
+                                        <span
+                                            class=" whitespace-nowrap w-full text-[25px] flex justify-between fill-current">
+                                            <div class="transition duration-300 ease-in hover:text-[#576cdf]">
+                                                <a href="knjigePrekoracenje.php" aria-label="Knjige na raspolaganju"
+                                                    class="flex items-center">
+                                                    <i
+                                                        class="text-[#707070] text-[29px] fas fa-exclamation-triangle transition duration-300 ease-in group-hover:text-[#576cdf]"></i>
+                                                    <div>
+                                                        <p
+                                                            class="text-[15px] ml-[22px] transition duration-300 ease-in group-hover:text-[#576cdf]">
+                                                            Knjige nu prekoracenju</p>
+                                                    </div>
+                                                </a>
+                                            </div>
+                                        </span>
+                                    </div>
+                                </li>
+                                <li class="mb-[4px] pt-[18px] pb-[14px] group hover:bg-[#EAEAEA] bg-[#EAEAEA] border-t-2 border-gray-200">
                                     <div class="w-[300px] pl-[24px]">
                                         <span
                                             class=" whitespace-nowrap w-full text-[25px] flex justify-between fill-current">
                                             <div class="transition duration-300 ease-in hover:text-[#576cdf]">
-                                                <a href="evidencijaRezervacije.php" aria-label="Rezervacije"
+                                                <a href="aktivneRezervacije.php" aria-label="Rezervacije"
                                                     class="flex items-center">
                                                     <i
-                                                        class="text-white bg-[#3F51B5] px-[5px] pt-[4px] pb-[4px] far fa-check-square text-[23px] rounded-[3px]"></i>
+                                                        class="text-white bg-[#3F51B5] px-[5px] pt-[4px] pb-[4px] far fa-calendar-check text-[23px] rounded-[3px]"></i>
                                                     <div>
                                                         <p
                                                             class="text-[15px] ml-[18px] transition duration-300 ease-in group-hover:text-[#576cdf]">
-                                                            Rezervacije</p>
+                                                            Aktivne rezervacije</p>
+                                                    </div>
+                                                </a>
+                                            </div>
+                                        </span>
+                                    </div>
+                                </li>
+                                <li class="mb-[4px] pt-[18px] pb-[14px] group hover:bg-[#EAEAEA]">
+                                    <div class="w-[300px] pl-[28px]">
+                                        <span
+                                            class=" whitespace-nowrap w-full text-[25px] flex ju3tify-between fill-current">
+                                            <div class="transition duration-300 ease-in hover:text-[#576cdf]">
+                                                <a href="arhiviraneRezervacije.php" aria-label="Rezervacije"
+                                                    class="flex items-center">
+                                                    <i
+                                                        class="text-[#707070] text-[25px] fas fa-calendar-alt transition duration-300 ease-in group-hover:text-[#576cdf]"></i>
+                                                    <div>
+                                                        <p
+                                                            class="text-[15px] ml-[22px] transition duration-300 ease-in group-hover:text-[#576cdf]">
+                                                            Arhivirane rezervacije</p>
                                                     </div>
                                                 </a>
                                             </div>
@@ -155,33 +167,33 @@
                                             </label>
                                         </th>
                                         <th class="flex items-center px-4 py-3 leading-4 tracking-wider text-left">Naziv knjige<a href="#"><i class="ml-2 fa-lg fas fa-long-arrow-alt-down" onclick="sortTable()"></i></a></th>
-                                        <th class="px-4 py-3 text-sm leading-4 tracking-wider text-left">Autor</th>
-                                        <th class="px-4 py-3 text-sm leading-4 tracking-wider text-left">Datum rezervacije</th>
-                                        <th class="px-4 py-3 text-sm leading-4 tracking-wider text-left">Rezervaciju podnio</th>
-                                        <th class="px-4 py-3 text-sm leading-4 tracking-wider text-left">Status</th>
+                                        <th class="px-4 py-3 text-sm leading-4 tracking-wider text-left">Datum rezervacije<i class="ml-2 fas fa-filter"></i></th>
+                                        <th class="px-4 py-3 text-sm leading-4 tracking-wider text-left">Rezervacija istice<i class="ml-2 fas fa-filter"></i></th>
+                                        <th class="px-4 py-3 text-sm leading-4 tracking-wider text-left">Rezervaciju podnio<i class="ml-2 fas fa-filter"></i></th>
+                                        <th class="px-4 py-3 text-sm leading-4 tracking-wider text-left">Status<i class="ml-2 fas fa-filter"></i></th>
                                         <th class="px-4 py-3"> </th>
                                     </tr>
                                 </thead>
                                 <tbody class="bg-white">
                                     <tr class="bg-gray-200 border-b-[1px] border-[#e4dfdf] changeBg">
-                                        <td class="px-4 py-4 whitespace-no-wrap">
+                                        <td class="px-4 py-3 whitespace-no-wrap">
                                             <label class="inline-flex items-center">
                                                 <input type="checkbox" class="form-checkbox">
                                             </label>
                                         </td>
-                                        <td class="flex flex-row items-center px-4 py-4">
+                                        <td class="flex flex-row items-center px-4 py-3">
                                             <img class="object-cover w-8 mr-2 h-11" src="img/tomsojer.jpg" alt=""/>
                                             <a href="knjigaOsnovniDetalji.php">
                                                 <span class="font-medium text-center">Ep o Gilgamesu</span>
                                             </a>
                                         </td>
-                                        <td class="px-4 py-4 text-sm leading-5 whitespace-no-wrap">Nepoznat</td>
-                                        <td class="px-4 py-4 text-sm leading-5 whitespace-no-wrap">31.04.2019</td>
-                                        <td class="flex flex-row items-center px-4 py-4">
+                                        <td class="px-4 py-3 text-sm leading-5 whitespace-no-wrap">31.04.2019</td>
+                                        <td class="px-4 py-3 text-sm leading-5 whitespace-no-wrap">10.05.2019</td>
+                                        <td class="flex flex-row items-center px-4 py-3">
                                             <img class="object-cover w-8 h-8 rounded-full" src="img/profileStudent.jpg" alt=""/>
                                             <a href="ucenikProfile.php" class="ml-2 font-medium text-center">Pero Perovic</a>
                                         </td>
-                                        <td class="px-4 py-2 changeStatus">
+                                        <td class="px-4 py-3 changeStatus">
                                             <a href="#" class="hover:text-green-500 mr-[5px]">
                                                 <i class="fas fa-check reservedStatus"></i>
                                             </a>
@@ -189,41 +201,41 @@
                                                 <i class="fas fa-times deniedStatus"></i>
                                             </a>
                                         </td>
-                                        <td class="hidden px-4 py-4 text-sm leading-5 text-blue-900 whitespace-no-wrap">
+                                        <td class="hidden px-4 py-3 text-sm leading-5 text-blue-900 whitespace-no-wrap">
                                             <div class="inline-block px-3 py-1 font-medium bg-yellow-200 rounded-[5px]">
                                                 <span class="text-xs text-yellow-700">Rezervisano</span>
                                             </div>
                                         </td>
-                                        <td class="hidden px-4 py-4 text-sm leading-5 text-blue-900 whitespace-no-wrap">
+                                        <td class="hidden px-4 py-3 text-sm leading-5 text-blue-900 whitespace-no-wrap">
                                             <div class="inline-block px-[6px] py-[2px] font-medium bg-red-200 rounded-[5px]">
                                                 <span class="text-xs text-red-800">Odbijeno</span>
                                             </div>
                                         </td>
-                                        <td class="px-4 py-4 text-sm leading-5 text-right whitespace-no-wrap">
+                                        <td class="px-4 py-3 text-sm leading-5 text-right whitespace-no-wrap">
                                             <p class="inline cursor-pointer text-[20px] py-[10px] px-[30px] border-gray-300">
                                                 <i class="fas fa-ellipsis-v"></i>
                                             </p>
                                         </td>
                                     </tr>
                                     <tr class="bg-gray-200 border-b-[1px] border-[#e4dfdf] changeBg">
-                                        <td class="px-4 py-4 whitespace-no-wrap">
+                                        <td class="px-4 py-3 whitespace-no-wrap">
                                             <label class="inline-flex items-center">
                                                 <input type="checkbox" class="form-checkbox">
                                             </label>
                                         </td>
-                                        <td class="flex flex-row items-center px-4 py-4">
+                                        <td class="flex flex-row items-center px-4 py-3">
                                             <img class="object-cover w-8 mr-2 h-11" src="img/tomsojer.jpg" alt=""/>
                                             <a href="knjigaOsnovniDetalji.php">
                                                 <span class="font-medium text-center">Ilijada</span>
                                             </a>
                                         </td>
-                                        <td class="px-4 py-4 text-sm leading-5 whitespace-no-wrap">Homer</td>
-                                        <td class="px-4 py-4 text-sm leading-5 whitespace-no-wrap">05.11.2020</td>
-                                        <td class="flex flex-row items-center px-4 py-4">
+                                        <td class="px-4 py-3 text-sm leading-5 whitespace-no-wrap">05.11.2020</td> 
+                                        <td class="px-4 py-3 text-sm leading-5 whitespace-no-wrap">25.11.2020</td>
+                                        <td class="flex flex-row items-center px-4 py-3">
                                             <img class="object-cover w-8 h-8 rounded-full" src="img/profileStudent.jpg" alt=""/>
                                             <a href="ucenikProfile.php" class="ml-2 font-medium text-center">Pero Perovic</a>
                                         </td>
-                                        <td class="px-4 py-2 changeStatus">
+                                        <td class="px-4 py-3 changeStatus">
                                             <a href="#" class="hover:text-green-500 mr-[5px]">
                                                 <i class="fas fa-check reservedStatus"></i>
                                             </a>
@@ -231,41 +243,41 @@
                                                 <i class="fas fa-times deniedStatus"></i>
                                             </a>
                                         </td>
-                                        <td class="hidden px-4 py-4 text-sm leading-5 text-blue-900 whitespace-no-wrap">
+                                        <td class="hidden px-4 py-3 text-sm leading-5 text-blue-900 whitespace-no-wrap">
                                             <div class="inline-block px-3 py-1 font-medium bg-yellow-200 rounded-[5px]">
                                                 <span class="text-xs text-yellow-700">Rezervisano</span>
                                             </div>
                                         </td>
-                                        <td class="hidden px-4 py-4 text-sm leading-5 text-blue-900 whitespace-no-wrap">
+                                        <td class="hidden px-4 py-3 text-sm leading-5 text-blue-900 whitespace-no-wrap">
                                             <div class="inline-block px-[6px] py-[2px] font-medium bg-red-200 rounded-[5px]">
                                                 <span class="text-xs text-red-800">Odbijeno</span>
                                             </div>
                                         </td>
-                                        <td class="px-4 py-4 text-sm leading-5 text-right whitespace-no-wrap">
+                                        <td class="px-4 py-3 text-sm leading-5 text-right whitespace-no-wrap">
                                             <p class="inline cursor-pointer text-[20px] py-[10px] px-[30px] border-gray-300">
                                                 <i class="fas fa-ellipsis-v"></i>
                                             </p>
                                         </td>
                                     </tr>
                                     <tr class="bg-gray-200 border-b-[1px] border-[#e4dfdf] changeBg">
-                                        <td class="px-4 py-4 whitespace-no-wrap">
+                                        <td class="px-4 py-3 whitespace-no-wrap">
                                             <label class="inline-flex items-center">
                                                 <input type="checkbox" class="form-checkbox">
                                             </label>
                                         </td>
-                                        <td class="flex flex-row items-center px-4 py-4">
+                                        <td class="flex flex-row items-center px-4 py-3">
                                             <img class="object-cover w-8 mr-2 h-11" src="img/tomsojer.jpg" alt=""/>
                                             <a href="knjigaOsnovniDetalji.php">
                                                 <span class="font-medium text-center">Tom Sojer</span>
                                             </a>
                                         </td>
-                                        <td class="px-4 py-4 text-sm leading-5 whitespace-no-wrap">Mark Twain</td>
-                                        <td class="px-4 py-4 text-sm leading-5 whitespace-no-wrap">31.02.2021</td>
-                                        <td class="flex flex-row items-center px-4 py-4">
+                                        <td class="px-4 py-3 text-sm leading-5 whitespace-no-wrap">31.02.2021</td>
+                                        <td class="px-4 py-3 text-sm leading-5 whitespace-no-wrap">10.03.2021</td>
+                                        <td class="flex flex-row items-center px-4 py-3">
                                             <img class="object-cover w-8 h-8 rounded-full" src="img/profileStudent.jpg" alt=""/>
                                             <a href="ucenikProfile.php" class="ml-2 font-medium text-center">Pero Perovic</a>
                                         </td>
-                                        <td class="px-4 py-2 changeStatus">
+                                        <td class="px-4 py-3 changeStatus">
                                             <a href="#" class="hover:text-green-500 mr-[5px]">
                                                 <i class="fas fa-check reservedStatus"></i>
                                             </a>
@@ -273,41 +285,41 @@
                                                 <i class="fas fa-times deniedStatus"></i>
                                             </a>
                                         </td>
-                                        <td class="hidden px-4 py-4 text-sm leading-5 text-blue-900 whitespace-no-wrap">
+                                        <td class="hidden px-4 py-3 text-sm leading-5 text-blue-900 whitespace-no-wrap">
                                             <div class="inline-block px-3 py-1 font-medium bg-yellow-200 rounded-[5px]">
                                                 <span class="text-xs text-yellow-700">Rezervisano</span>
                                             </div>
                                         </td>
-                                        <td class="hidden px-4 py-4 text-sm leading-5 text-blue-900 whitespace-no-wrap">
+                                        <td class="hidden px-4 py-3 text-sm leading-5 text-blue-900 whitespace-no-wrap">
                                             <div class="inline-block px-[6px] py-[2px] font-medium bg-red-200 rounded-[5px]">
                                                 <span class="text-xs text-red-800">Odbijeno</span>
                                             </div>
                                         </td>
-                                        <td class="px-4 py-4 text-sm leading-5 text-right whitespace-no-wrap">
+                                        <td class="px-4 py-3 text-sm leading-5 text-right whitespace-no-wrap">
                                             <p class="inline cursor-pointer text-[20px] py-[10px] px-[30px] border-[#e4dfdf]">
                                                 <i class="fas fa-ellipsis-v"></i>
                                             </p>
                                         </td>
                                     </tr>
                                     <tr class="bg-gray-200 border-b-[1px] border-[#e4dfdf] changeBg">
-                                        <td class="px-4 py-4 whitespace-no-wrap">
+                                        <td class="px-4 py-3 whitespace-no-wrap">
                                             <label class="inline-flex items-center">
                                                 <input type="checkbox" class="form-checkbox">
                                             </label>
                                         </td>
-                                        <td class="flex flex-row items-center px-4 py-4">
+                                        <td class="flex flex-row items-center px-4 py-3">
                                             <img class="object-cover w-8 mr-2 h-11" src="img/tomsojer.jpg" alt=""/>
                                             <a href="knjigaOsnovniDetalji.php">
                                                 <span class="font-medium text-center">Robinson Kruso</span>
                                             </a>
                                         </td>
-                                        <td class="px-4 py-4 text-sm leading-5 whitespace-no-wrap">Daniel Defoe</td>
-                                        <td class="px-4 py-4 text-sm leading-5 whitespace-no-wrap">31.04.2019</td>
-                                        <td class="flex flex-row items-center px-4 py-4">
+                                        <td class="px-4 py-3 text-sm leading-5 whitespace-no-wrap">31.04.2019</td>
+                                        <td class="px-4 py-3 text-sm leading-5 whitespace-no-wrap">10.05.2019</td>
+                                        <td class="flex flex-row items-center px-4 py-3">
                                             <img class="object-cover w-8 h-8 rounded-full" src="img/profileStudent.jpg" alt=""/>
                                             <a href="ucenikProfile.php" class="ml-2 font-medium text-center">Pero Perovic</a>
                                         </td>
-                                        <td class="px-4 py-2 changeStatus">
+                                        <td class="px-4 py-3 changeStatus">
                                             <a href="#" class="hover:text-green-500 mr-[5px]">
                                                 <i class="fas fa-check reservedStatus"></i>
                                             </a>
@@ -315,104 +327,104 @@
                                                 <i class="fas fa-times deniedStatus"></i>
                                             </a>
                                         </td>
-                                        <td class="hidden px-4 py-4 text-sm leading-5 text-blue-900 whitespace-no-wrap">
+                                        <td class="hidden px-4 py-3 text-sm leading-5 text-blue-900 whitespace-no-wrap">
                                             <div class="inline-block px-3 py-1 font-medium bg-yellow-200 rounded-[5px]">
                                                 <span class="text-xs text-yellow-700">Rezervisano</span>
                                             </div>
                                         </td>
-                                        <td class="hidden px-4 py-4 text-sm leading-5 text-blue-900 whitespace-no-wrap">
+                                        <td class="hidden px-4 py-3 text-sm leading-5 text-blue-900 whitespace-no-wrap">
                                             <div class="inline-block px-[6px] py-[2px] font-medium bg-red-200 rounded-[5px]">
                                                 <span class="text-xs text-red-800">Odbijeno</span>
                                             </div>
                                         </td>
-                                        <td class="px-4 py-4 text-sm leading-5 text-right whitespace-no-wrap">
+                                        <td class="px-4 py-3 text-sm leading-5 text-right whitespace-no-wrap">
                                             <p class="inline cursor-pointer text-[20px] py-[10px] px-[30px] border-gray-300">
                                                 <i class="fas fa-ellipsis-v"></i>
                                             </p>
                                         </td>
                                     </tr>
                                     <tr class="border-b-[1px] border-[#e4dfdf]">
-                                        <td class="px-4 py-4 whitespace-no-wrap">
+                                        <td class="px-4 py-3 whitespace-no-wrap">
                                             <label class="inline-flex items-center">
                                                 <input type="checkbox" class="form-checkbox">
                                             </label>
                                         </td>
-                                        <td class="flex flex-row items-center px-4 py-4">
+                                        <td class="flex flex-row items-center px-4 py-3">
                                             <img class="object-cover w-8 mr-2 h-11" src="img/tomsojer.jpg" alt=""/>
                                             <a href="knjigaOsnovniDetalji.php">
                                                 <span class="font-medium text-center">Robinson Kruso</span>
                                             </a>
                                         </td>
-                                        <td class="px-4 py-4 text-sm leading-5 whitespace-no-wrap">Daniel Defoe</td>
-                                        <td class="px-4 py-4 text-sm leading-5 whitespace-no-wrap">31.04.2019</td>
-                                        <td class="flex flex-row items-center px-4 py-4">
+                                        <td class="px-4 py-3 text-sm leading-5 whitespace-no-wrap">31.04.2019</td> 
+                                        <td class="px-4 py-3 text-sm leading-5 whitespace-no-wrap">10.05.2019</td>
+                                        <td class="flex flex-row items-center px-4 py-3">
                                             <img class="object-cover w-8 h-8 rounded-full" src="img/profileStudent.jpg" alt=""/>
                                             <a href="ucenikProfile.php" class="ml-2 font-medium text-center">Pero Perovic</a>
                                         </td>
-                                        <td class="px-4 py-4 text-sm leading-5 text-blue-900 whitespace-no-wrap">
+                                        <td class="px-4 py-3 text-sm leading-5 text-blue-900 whitespace-no-wrap">
                                             <div class="inline-block px-3 py-1 font-medium bg-yellow-200 rounded-[5px]">
                                                 <span class="text-xs text-yellow-700">Rezervisano</span>
                                             </div>
                                         </td>
-                                        <td class="px-4 py-4 text-sm leading-5 text-right whitespace-no-wrap">
+                                        <td class="px-4 py-3 text-sm leading-5 text-right whitespace-no-wrap">
                                             <p class="inline cursor-pointer text-[20px] py-[10px] px-[30px] border-gray-300">
                                                 <i class="fas fa-ellipsis-v"></i>
                                             </p>
                                         </td>
                                     </tr>
                                     <tr class="border-b-[1px] border-[#e4dfdf]">
-                                        <td class="px-4 py-4 whitespace-no-wrap">
+                                        <td class="px-4 py-3 whitespace-no-wrap">
                                             <label class="inline-flex items-center">
                                                 <input type="checkbox" class="form-checkbox">
                                             </label>
                                         </td>
-                                        <td class="flex flex-row items-center px-4 py-4">
+                                        <td class="flex flex-row items-center px-4 py-3">
                                             <img class="object-cover w-8 mr-2 h-11" src="img/tomsojer.jpg" alt=""/>
                                             <a href="knjigaOsnovniDetalji.php">
                                                 <span class="font-medium text-center">Robinson Kruso</span>
                                             </a>
                                         </td>
-                                        <td class="px-4 py-4 text-sm leading-5 whitespace-no-wrap">Daniel Defoe</td>
-                                        <td class="px-4 py-4 text-sm leading-5 whitespace-no-wrap">31.04.2019</td>
-                                        <td class="flex flex-row items-center px-4 py-4">
+                                        <td class="px-4 py-3 text-sm leading-5 whitespace-no-wrap">31.04.2019</td>
+                                        <td class="px-4 py-3 text-sm leading-5 whitespace-no-wrap">10.05.2019</td>
+                                        <td class="flex flex-row items-center px-4 py-3">
                                             <img class="object-cover w-8 h-8 rounded-full" src="img/profileStudent.jpg" alt=""/>
                                             <a href="ucenikProfile.php" class="ml-2 font-medium text-center">Pero Perovic</a>
                                         </td>
-                                        <td class="px-4 py-4 text-sm leading-5 text-blue-900 whitespace-no-wrap">
+                                        <td class="px-4 py-3 text-sm leading-5 text-blue-900 whitespace-no-wrap">
                                             <div class="inline-block px-3 py-1 font-medium bg-yellow-200 rounded-[5px]">
                                                 <span class="text-xs text-yellow-700">Rezervisano</span>
                                             </div>
                                         </td>
-                                        <td class="px-4 py-4 text-sm leading-5 text-right whitespace-no-wrap">
+                                        <td class="px-4 py-3 text-sm leading-5 text-right whitespace-no-wrap">
                                             <p class="inline cursor-pointer text-[20px] py-[10px] px-[30px] border-gray-300">
                                                 <i class="fas fa-ellipsis-v"></i>
                                             </p>
                                         </td>
                                     </tr>
                                     <tr class="border-b-[1px] border-[#e4dfdf]">
-                                        <td class="px-4 py-4 whitespace-no-wrap">
+                                        <td class="px-4 py-3 whitespace-no-wrap">
                                             <label class="inline-flex items-center">
                                                 <input type="checkbox" class="form-checkbox">
                                             </label>
                                         </td>
-                                        <td class="flex flex-row items-center px-4 py-4">
+                                        <td class="flex flex-row items-center px-4 py-3">
                                             <img class="object-cover w-8 mr-2 h-11" src="img/tomsojer.jpg" alt=""/>
                                             <a href="knjigaOsnovniDetalji.php">
                                                 <span class="font-medium text-center">Robinson Kruso</span>
                                             </a>
                                         </td>
-                                        <td class="px-4 py-4 text-sm leading-5 whitespace-no-wrap">Daniel Defoe</td>
-                                        <td class="px-4 py-4 text-sm leading-5 whitespace-no-wrap">31.04.2019</td>
-                                        <td class="flex flex-row items-center px-4 py-4">
+                                        <td class="px-4 py-3 text-sm leading-5 whitespace-no-wrap">31.04.2019</td>
+                                        <td class="px-4 py-3 text-sm leading-5 whitespace-no-wrap">10.05.2019</td>
+                                        <td class="flex flex-row items-center px-4 py-3">
                                             <img class="object-cover w-8 h-8 rounded-full" src="img/profileStudent.jpg" alt=""/>
                                             <a href="ucenikProfile.php" class="ml-2 font-medium text-center">Pero Perovic</a>
                                         </td>
-                                        <td class="px-4 py-4 text-sm leading-5 text-blue-900 whitespace-no-wrap">
+                                        <td class="px-4 py-3 text-sm leading-5 text-blue-900 whitespace-no-wrap">
                                             <div class="inline-block px-[6px] py-[2px] font-medium bg-red-200 rounded-[5px]">
                                                 <span class="text-xs text-red-800">Odbijeno</span>
                                             </div>
                                         </td>
-                                        <td class="px-4 py-4 text-sm leading-5 text-right whitespace-no-wrap">
+                                        <td class="px-4 py-3 text-sm leading-5 text-right whitespace-no-wrap">
                                             <p class="inline cursor-pointer text-[20px] py-[10px] px-[30px] border-gray-300">
                                                 <i class="fas fa-ellipsis-v"></i>
                                             </p>

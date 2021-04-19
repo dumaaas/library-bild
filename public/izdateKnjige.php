@@ -60,7 +60,7 @@
                     <div class="flex justify-start pt-3 bg-white">
                         <div class="mt-[10px]">
                             <ul class="text-[#2D3B48]">
-                                <li class="mb-[4px] bg-[#EAEAEA] pt-[18px] pb-[14px]">
+                                <li class="mb-[4px] pt-[18px] pb-[14px] group hover:bg-[#EAEAEA] bg-[#EAEAEA]">
                                     <div class="w-[300px] pl-6">
                                         <span
                                             class=" whitespace-nowrap w-full text-[25px] group flex justify-between fill-current">

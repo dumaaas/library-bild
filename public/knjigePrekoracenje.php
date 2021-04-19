@@ -51,7 +51,7 @@
                                 placeholder="Pretrazi knjige..." autocomplete="off">
                         </div>
                     </div>
-                    <a href="novaKnjiga.php"
+                    <a href="#"
                         class="inline-flex items-center text-sm py-2.5 px-5 transition duration-300 ease-in rounded-[5px] tracking-wider text-white bg-[#3f51b5] rounded hover:bg-[#4558BE]">Pretrazi
                     </a>
                 </div>
@@ -77,7 +77,7 @@
                                         </span>
                                     </div>
                                 </li>
-                                <li class="mb-[4px] pt-[18px] pb-[14px] group hover:bg-[#EAEAEA] bg-[#EAEAEA]">
+                                <li class="mb-[4px] pt-[18px] pb-[14px] group hover:bg-[#EAEAEA]">
                                     <div class="w-[300px] pl-[28px]">
                                         <span
                                             class=" whitespace-nowrap w-full text-[25px] flex justify-between fill-current">
@@ -85,10 +85,10 @@
                                                 <a href="vraceneKnjige.php" aria-label="Izdate knjige"
                                                     class="flex items-center">
                                                     <i
-                                                        class="text-white bg-[#3F51B5] px-[5px] pt-[4px] pb-[5px] fas fa-file text-[23px] rounded-[3px]"></i>
+                                                        class="text-[#707070] text-[29px] fas fa-file transition duration-300 ease-in group-hover:text-[#576cdf]"></i>
                                                     <div>
                                                         <p
-                                                            class="text-[15px] ml-[18px]">
+                                                            class="text-[15px] ml-[22px] transition duration-300 ease-in group-hover:text-[#576cdf]">
                                                             Vracene knjige</p>
                                                     </div>
                                                 </a>
@@ -96,7 +96,7 @@
                                         </span>
                                     </div>
                                 </li>
-                                <li class="mb-[4px] pt-[18px] pb-[14px] group hover:bg-[#EAEAEA]">
+                                <li class="mb-[4px] pt-[18px] pb-[14px] group hover:bg-[#EAEAEA] bg-[#EAEAEA]">
                                     <div class="w-[300px] pl-[28px]">
                                         <span
                                             class=" whitespace-nowrap w-full text-[25px] flex justify-between fill-current">
@@ -104,10 +104,10 @@
                                                 <a href="knjigePrekoracenje.php" aria-label="Knjige na raspolaganju"
                                                     class="flex items-center">
                                                     <i
-                                                        class="text-[#707070] text-[29px] fas fa-exclamation-triangle transition duration-300 ease-in group-hover:text-[#576cdf]"></i>
+                                                        class="text-white bg-[#3F51B5] px-[5px] pt-[4px] pb-[5px] fas fa-exclamation-triangle text-[23px] rounded-[3px]"></i>
                                                     <div>
                                                         <p
-                                                            class="text-[15px] ml-[22px] transition duration-300 ease-in group-hover:text-[#576cdf]">
+                                                            class="text-[15px] ml-[18px]">
                                                             Knjige u prekoracenju</p>
                                                     </div>
                                                 </a>
@@ -171,11 +171,10 @@
                                                     onclick="sortTable()"></i>
                                             </a>
                                         </th>
-                                        <th class="px-4 py-4 text-sm leading-4 tracking-wider text-left">Izdato uceniku<i class="ml-2 fas fa-filter"></i></th>
-                                        <th class="px-4 py-4 text-sm leading-4 tracking-wider text-left">Datum izdavanja<i class="fas fa-filter"></i></th>
-                                        <th class="px-4 py-4 text-sm leading-4 tracking-wider text-left">Datum vracanja<i class="fas fa-filter"></i></th>
-                                        <th class="px-4 py-4 text-sm leading-4 tracking-wider text-left">Zadrzavanje knjige <i class="fas fa-filter"></i></th>
-                                        <th class="px-4 py-4 text-sm leading-4 tracking-wider text-left">Knjigu primio<i class="fas fa-filter"></i></th>
+                                        <th class="px-4 py-4 text-sm leading-4 tracking-wider text-left">Datum izdavanja<i class="ml-2 fas fa-filter"></i></th>
+                                        <th class="px-4 py-4 text-sm leading-4 tracking-wider text-left">Izdato uceniku<i class="fas fa-filter"></i></th>
+                                        <th class="px-4 py-4 text-sm leading-4 tracking-wider text-left">Prekoracenje u danima<i class="fas fa-filter"></i></th>
+                                        <th class="px-4 py-4 text-sm leading-4 tracking-wider text-left">Trenutno zadrzavanje knjige<i class="fas fa-filter"></i></th>
                                         <th class="px-4 py-4"> </th>
                                     </tr>
                                 </thead>
@@ -189,18 +188,21 @@
                                         <td class="flex flex-row items-center px-4 py-3">
                                             <img class="object-cover w-8 mr-2 h-11" src="img/tomsojer.jpg" alt="" />
                                             <a href="knjigaOsnovniDetalji.php">
-                                                <span class="font-medium text-center">Geografija Crne Gore</span>
+                                                <span class="font-medium text-center">Zbirka etida za harm...</span>
                                             </a>
                                         </td>
-                                        <td class="px-4 py-3 text-sm leading-5 whitespace-no-wrap">Pero Perovic</td>
                                         <td class="px-4 py-3 text-sm leading-5 whitespace-no-wrap">21.02.2021</td>
-                                        <td class="px-4 py-3 text-sm leading-5 whitespace-no-wrap">29.02.2021</td>
+                                        <td class="px-4 py-3 text-sm leading-5 whitespace-no-wrap">Pero Perovic</td>
                                         <td class="px-4 py-3 text-sm leading-5 whitespace-no-wrap">
-                                            <div>
-                                                <span>2 nedelje i 3 dana</span>
+                                            <div class="inline-block px-[6px] py-[2px] font-medium bg-red-200 rounded-[5px]">
+                                                <span class="text-xs text-white">60 dana</span>
                                             </div>
                                         </td>
-                                        <td class="px-4 py-3 text-sm leading-5 whitespace-no-wrap">Valentina Kascelan</td>
+                                        <td class="px-4 py-3 text-sm leading-5 whitespace-no-wrap">
+                                            <div>
+                                                <span>3 mjeseca i 3 dana</span>
+                                            </div>
+                                        </td>
                                         <td class="px-6 py-3 text-sm leading-5 text-right whitespace-no-wrap">
                                             <p class="inline cursor-pointer text-[20px] py-[10px] px-[30px] border-gray-300"
                                                 id="dropdownBookRow1">
@@ -254,18 +256,21 @@
                                         <td class="flex flex-row items-center px-4 py-3">
                                             <img class="object-cover w-8 mr-2 h-11" src="img/tomsojer.jpg" alt="" />
                                             <a href="knjigaOsnovniDetalji.php">
-                                                <span class="font-medium text-center">Muzicka kultura I Razred Gi...</span>
+                                                <span class="font-medium text-center">Antigona</span>
                                             </a>
                                         </td>
+                                        <td class="px-4 py-3 text-sm leading-5 whitespace-no-wrap">15.05.2020</td>
                                         <td class="px-4 py-3 text-sm leading-5 whitespace-no-wrap">Nina Bulatovic</td>
-                                        <td class="px-4 py-3 text-sm leading-5 whitespace-no-wrap">15.05.2020</td>
-                                        <td class="px-4 py-3 text-sm leading-5 whitespace-no-wrap">15.05.2020</td>
                                         <td class="px-4 py-3 text-sm leading-5 whitespace-no-wrap">
-                                            <div>
-                                                <span>5 dana</span>
+                                            <div class="inline-block px-[6px] py-[2px] font-medium bg-red-200 rounded-[5px]">
+                                                <span class="text-xs text-white">31 dana</span>
                                             </div>
                                         </td>
-                                        <td class="px-4 py-3 text-sm leading-5 whitespace-no-wrap">Valentina Kascelan</td>
+                                        <td class="px-4 py-3 text-sm leading-5 whitespace-no-wrap">
+                                            <div>
+                                                <span>2 mjeseca i 2 nedelje</span>
+                                            </div>
+                                        </td>
                                         <td class="px-6 py-3 text-sm leading-5 text-right whitespace-no-wrap">
                                             <p class="inline cursor-pointer text-[20px] py-[10px] px-[30px] border-gray-300"
                                                 id="dropdownBookRow2">
@@ -319,18 +324,21 @@
                                         <td class="flex flex-row items-center px-4 py-3">
                                             <img class="object-cover w-8 mr-2 h-11" src="img/tomsojer.jpg" alt="" />
                                             <a href="knjigaOsnovniDetalji.php">
-                                                <span class="font-medium text-center">Tom Sojer</span>
+                                                <span class="font-medium text-center">Dundo Maroje</span>
                                             </a>
                                         </td>
+                                        <td class="px-4 py-3 text-sm leading-5 whitespace-no-wrap">12.05.2020</td>
                                         <td class="px-4 py-3 text-sm leading-5 whitespace-no-wrap">Milos Milosevic</td>
-                                        <td class="px-4 py-3 text-sm leading-5 whitespace-no-wrap">12.05.2020</td>
-                                        <td class="px-4 py-3 text-sm leading-5 whitespace-no-wrap">12.05.2020</td>
                                         <td class="px-4 py-3 text-sm leading-5 whitespace-no-wrap">
-                                            <div>
-                                                <span>1 nedelja i 4 dana</span>
+                                            <div class="inline-block px-[6px] py-[2px] font-medium bg-red-200 rounded-[5px]">
+                                                <span class="text-xs text-white">31 dana</span>
                                             </div>
                                         </td>
-                                        <td class="px-4 py-3 text-sm leading-5 whitespace-no-wrap">Valentina Kascelan</td>
+                                        <td class="px-4 py-3 text-sm leading-5 whitespace-no-wrap">
+                                            <div>
+                                                <span>2 mjeseca i 2 nedelje</span>
+                                            </div>
+                                        </td>
                                         <td class="px-6 py-3 text-sm leading-5 text-right whitespace-no-wrap">
                                             <p class="inline cursor-pointer text-[20px] py-[10px] px-[30px] border-gray-300"
                                                 id="dropdownBookRow3">
@@ -387,15 +395,18 @@
                                                 <span class="font-medium text-center">Robinson Kruso</span>
                                             </a>
                                         </td>
+                                        <td class="px-4 py-3 text-sm leading-5 whitespace-no-wrap">09.04.2020</td>
                                         <td class="px-4 py-3 text-sm leading-5 whitespace-no-wrap">Sanja Gardasevic</td>
-                                        <td class="px-4 py-3 text-sm leading-5 whitespace-no-wrap">09.04.2020</td>
-                                        <td class="px-4 py-3 text-sm leading-5 whitespace-no-wrap">09.04.2020</td>
                                         <td class="px-4 py-3 text-sm leading-5 whitespace-no-wrap">
                                             <div class="inline-block px-[6px] py-[2px] font-medium bg-red-200 rounded-[5px]">
-                                                <span class="text-xs text-white">7 nedelja i 6 dana</span>
+                                                <span class="text-xs text-white">15 dana</span>
                                             </div>
                                         </td>
-                                        <td class="px-4 py-3 text-sm leading-5 whitespace-no-wrap">Valentina Kascelan</td>
+                                        <td class="px-4 py-3 text-sm leading-5 whitespace-no-wrap">
+                                            <div>
+                                                <span>1 mjesec i 2 nedelje</span>
+                                            </div>
+                                        </td>
                                         <td class="px-6 py-3 text-sm leading-5 text-right whitespace-no-wrap">
                                             <p class="inline cursor-pointer text-[20px] py-[10px] px-[30px] border-gray-300"
                                                 id="dropdownBookRow4">
@@ -452,15 +463,18 @@
                                                 <span class="font-medium text-center">Geografija Crne Gore</span>
                                             </a>
                                         </td>
+                                        <td class="px-4 py-3 text-sm leading-5 whitespace-no-wrap">21.02.2021</td>
                                         <td class="px-4 py-3 text-sm leading-5 whitespace-no-wrap">Pero Perovic</td>
-                                        <td class="px-4 py-3 text-sm leading-5 whitespace-no-wrap">21.02.2021</td>
-                                        <td class="px-4 py-3 text-sm leading-5 whitespace-no-wrap">21.02.2021</td>
                                         <td class="px-4 py-3 text-sm leading-5 whitespace-no-wrap">
                                             <div class="inline-block px-[6px] py-[2px] font-medium bg-red-200 rounded-[5px]">
-                                                <span class="text-xs text-white">8 nedelja i 3 dana</span>
+                                                <span class="text-xs text-white">7 dana</span>
                                             </div>
                                         </td>
-                                        <td class="px-4 py-3 text-sm leading-5 whitespace-no-wrap">Valentina Kascelan</td>
+                                        <td class="px-4 py-3 text-sm leading-5 whitespace-no-wrap">
+                                            <div>
+                                                <span>1 mjesec i 1 nedelja</span>
+                                            </div>
+                                        </td>
                                         <td class="px-6 py-3 text-sm leading-5 text-right whitespace-no-wrap">
                                             <p class="inline cursor-pointer text-[20px] py-[10px] px-[30px] border-gray-300"
                                                 id="dropdownBookRow1">
@@ -514,18 +528,21 @@
                                         <td class="flex flex-row items-center px-4 py-3">
                                             <img class="object-cover w-8 mr-2 h-11" src="img/tomsojer.jpg" alt="" />
                                             <a href="knjigaOsnovniDetalji.php">
-                                                <span class="font-medium text-center">Muzicka kultura I Raz</span>
+                                                <span class="font-medium text-center">Don Kihot</span>
                                             </a>
                                         </td>
+                                        <td class="px-4 py-3 text-sm leading-5 whitespace-no-wrap">15.05.2020</td>
                                         <td class="px-4 py-3 text-sm leading-5 whitespace-no-wrap">Nina Bulatovic</td>
-                                        <td class="px-4 py-3 text-sm leading-5 whitespace-no-wrap">15.05.2020</td>
-                                        <td class="px-4 py-3 text-sm leading-5 whitespace-no-wrap">15.05.2020</td>
                                         <td class="px-4 py-3 text-sm leading-5 whitespace-no-wrap">
-                                            <div>
-                                                <span>5 dana</span>
+                                            <div class="inline-block px-[6px] py-[2px] font-medium bg-red-200 rounded-[5px]">
+                                                <span class="text-xs text-white">6 dana</span>
                                             </div>
                                         </td>
-                                        <td class="px-4 py-3 text-sm leading-5 whitespace-no-wrap">Valentina Kascelan</td>
+                                        <td class="px-4 py-3 text-sm leading-5 whitespace-no-wrap">
+                                            <div>
+                                                <span>4 nedelje i 6 dana</span>
+                                            </div>
+                                        </td>
                                         <td class="px-6 py-3 text-sm leading-5 text-right whitespace-no-wrap">
                                             <p class="inline cursor-pointer text-[20px] py-[10px] px-[30px] border-gray-300"
                                                 id="dropdownBookRow2">
@@ -582,15 +599,18 @@
                                                 <span class="font-medium text-center">Tom Sojer</span>
                                             </a>
                                         </td>
+                                        <td class="px-4 py-3 text-sm leading-5 whitespace-no-wrap">12.05.2020</td>
                                         <td class="px-4 py-3 text-sm leading-5 whitespace-no-wrap">Milos Milosevic</td>
-                                        <td class="px-4 py-3 text-sm leading-5 whitespace-no-wrap">12.05.2020</td>
-                                        <td class="px-4 py-3 text-sm leading-5 whitespace-no-wrap">12.05.2020</td>
                                         <td class="px-4 py-3 text-sm leading-5 whitespace-no-wrap">
-                                            <div>
-                                                <span>1 nedelja i 4 dana</span>
+                                            <div class="inline-block px-[6px] py-[2px] font-medium bg-red-200 rounded-[5px]">
+                                                <span class="text-xs text-white">3 dana</span>
                                             </div>
                                         </td>
-                                        <td class="px-4 py-3 text-sm leading-5 whitespace-no-wrap">Valentina Kascelan</td>
+                                        <td class="px-4 py-3 text-sm leading-5 whitespace-no-wrap">
+                                            <div>
+                                                <span>4 nedelje i 3 dana</span>
+                                            </div>
+                                        </td>
                                         <td class="px-6 py-3 text-sm leading-5 text-right whitespace-no-wrap">
                                             <p class="inline cursor-pointer text-[20px] py-[10px] px-[30px] border-gray-300"
                                                 id="dropdownBookRow3">
@@ -644,18 +664,21 @@
                                         <td class="flex flex-row items-center px-4 py-3">
                                             <img class="object-cover w-8 mr-2 h-11" src="img/tomsojer.jpg" alt="" />
                                             <a href="knjigaOsnovniDetalji.php">
-                                                <span class="font-medium text-center">Robinson Kruso</span>
+                                                <span class="font-medium text-center">Evgenije Onjegin</span>
                                             </a>
                                         </td>
+                                        <td class="px-4 py-3 text-sm leading-5 whitespace-no-wrap">09.04.2020</td>
                                         <td class="px-4 py-3 text-sm leading-5 whitespace-no-wrap">Sanja Gardasevic</td>
-                                        <td class="px-4 py-3 text-sm leading-5 whitespace-no-wrap">09.04.2020</td>
-                                        <td class="px-4 py-3 text-sm leading-5 whitespace-no-wrap">09.04.2020</td>
                                         <td class="px-4 py-3 text-sm leading-5 whitespace-no-wrap">
-                                            <div>
-                                                <span>3 nedelje i 6 dana</span>
+                                            <div class="inline-block px-[6px] py-[2px] font-medium bg-red-200 rounded-[5px]">
+                                                <span class="text-xs text-white">2 dana</span>
                                             </div>
                                         </td>
-                                        <td class="px-4 py-3 text-sm leading-5 whitespace-no-wrap">Valentina Kascelan</td>
+                                        <td class="px-4 py-3 text-sm leading-5 whitespace-no-wrap">
+                                            <div>
+                                                <span>4 nedelje i 2 dana</span>
+                                            </div>
+                                        </td>
                                         <td class="px-6 py-3 text-sm leading-5 text-right whitespace-no-wrap">
                                             <p class="inline cursor-pointer text-[20px] py-[10px] px-[30px] border-gray-300"
                                                 id="dropdownBookRow4">
