@@ -69,7 +69,7 @@
                             <i class="fas fa-redo-alt mr-[3px]"></i>
                             Resetuj sifru
                         </a>
-                        <a href="#" class="hover:text-blue-600 inline ml-[20px] pr-[10px]">
+                        <a href="editBibliotekar.php" class="hover:text-blue-600 inline ml-[20px] pr-[10px]">
                             <i class="fas fa-edit mr-[3px] "></i>
                             Izmjeni podatke
                         </a>

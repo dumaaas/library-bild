@@ -484,6 +484,80 @@ $("#sacuvajBibliotekara").keypress(function (e) {
   }
 });
 
+// Form validation for editing librarian info
+function validacijaBibliotekarEdit() {
+
+  $("#validateNameBibliotekarEdit").empty();
+  $("#validateJmbgBibliotekarEdit").empty();
+  $("#validateEmailBibliotekarEdit").empty();
+  $("#validateUsernameBibliotekarEdit").empty();
+  $("#validatePwBibliotekarEdit").empty();
+  $("#validatePw2BibliotekarEdit").empty();
+
+
+  let nameBibliotekarEdit = $("#imePrezimeBibliotekarEdit").val();
+  let jmbgBibliotekarEdit = $("#jmbgBibliotekarEdit").val();
+  let emailBibliotekarEdit = $("#emailBibliotekarEdit").val();
+  let usernameBibliotekarEdit = $("#usernameBibliotekarEdit").val();
+  let pwBibliotekarEdit = $("#pwBibliotekarEdit").val();
+  let pw2BibliotekarEdit = $("#pw2BibliotekarEdit").val();
+
+  if (nameBibliotekarEdit.length == 0) {
+    $('#validateNameBibliotekarEdit').append('<p style="color:red;font-size:13px;">Morate unijeti ime i prezime!</p>');
+  }
+
+  if (jmbgBibliotekarEdit.length == 0) {
+    $('#validateJmbgBibliotekarEdit').append('<p style="color:red;font-size:13px;">Morate unijeti JMBG!</p>');
+  }
+
+  if (emailBibliotekarEdit.length == 0) {
+    $('#validateEmailBibliotekarEdit').append('<p style="color:red;font-size:13px;">Morate unijeti validnu e-mail adresu!</p>');
+  }
+
+  if (usernameBibliotekarEdit.length == 0) {
+    $('#validateUsernameBibliotekarEdit').append('<p style="color:red;font-size:13px;">Morate unijeti korisnicko ime!</p>');
+  }
+
+  if (pwBibliotekarEdit.length == 0) {
+    $('#validatePwBibliotekarEdit').append('<p style="color:red;font-size:13px;">Morate unijeti sifru!</p>');
+  }
+
+  if (pw2BibliotekarEdit.length == 0) {
+    $('#validatePw2BibliotekarEdit').append('<p style="color:red;font-size:13px;">Morate ponoviti sifru!</p>');
+  }
+}
+
+function clearErrorsNameBibliotekarEdit() {
+  $("#validateNameBibliotekarEdit").empty();
+}
+
+function clearErrorsJmbgBibliotekarEdit() {
+  $("#validateJmbgBibliotekarEdit").empty();
+}
+
+function clearErrorsEmailBibliotekarEdit() {
+  $("#validateEmailBibliotekarEdit").empty();
+}
+
+function clearErrorsUsernameBibliotekarEdit() {
+  $("#validateUsernameBibliotekarEdit").empty();
+}
+
+function clearErrorsPwBibliotekarEdit() {
+  $("#validatePwBibliotekarEdit").empty();
+}
+
+function clearErrorsPw2BibliotekarEdit() {
+  $("#validatePw2BibliotekarEdit").empty();
+}
+
+$("#sacuvajBibliotekaraEdit").keypress(function (e) {
+  if (e.which == 13) {
+    validacijaBibliotekarEdit();
+    return false;
+  }
+});
+
 // Form validation for new student
 function validacijaUcenik() {
 
