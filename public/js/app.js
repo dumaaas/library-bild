@@ -833,6 +833,29 @@ $("#sacuvajIzdavac").keypress(function (e) {
   }
 });
 
+// Form validation for new book bind
+function validacijaPovez() {
+
+  $("#validateNazivPovez").empty();
+
+  let nazivPovez = $("#nazivPovez").val();
+
+  if (nazivPovez.length == 0) {
+    $('#validateNazivPovez').append('<p style="color:red;font-size:13px;">Morate unijeti naziv poveza!</p>');
+  }
+}
+
+function clearErrorsNazivPovez() {
+  $("#validateNazivPovez").empty();
+}
+
+$("#sacuvajPovez").keypress(function (e) {
+  if (e.which == 13) {
+    validacijaPovez();
+    return false;
+  }
+});
+
 function sortTableDate(row) {
   var table, rows, switching, i, x, y, shouldSwitch;
   table = $(".sortTableDate");
