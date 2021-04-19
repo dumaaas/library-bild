@@ -40,32 +40,40 @@
                 <div class="border-b-[1px] border-[#e4dfdf]">
                     <div class="pl-[30px] pb-[21px]">
                         <h1>
-                            Autori
+                            Settings
                         </h1>
                     </div>
                 </div>
             </div>
-            <div class="height-dashboard pb-[30px] scroll">
-                <div class="flex items-center px-[50px] py-8 space-x-3 rounded-lg justify-between">
-                    <a href="noviAutor.php"
+            <div class="py-4 text-gray-500 border-b-[1px] border-[#e4dfdf] pl-[30px]">
+                <a href="settingsPolisa.php" class="inline hover:text-blue-800">
+                    Polisa
+                </a>
+                <a href="settingsKategorije.php" class="inline ml-[70px] hover:text-blue-800">
+                    Kategorije
+                </a>
+                <a href="settingsZanrovi.php" class="inline ml-[70px] hover:text-blue-800 active-book-nav">
+                    Zanrovi
+                </a>
+                <a href="settingsIzdavac.php" class="inline ml-[70px] hover:text-blue-800">
+                    Izdavac
+                </a>
+                <a href="settingsPovez.php" class="inline ml-[70px] hover:text-blue-800">
+                    Povez
+                </a>
+                <a href="settingsFormat.php" class="inline ml-[70px] hover:text-blue-800">
+                    Format
+                </a>
+                <a href="settingsPismo.php" class="inline ml-[70px] hover:text-blue-800">
+                    Pismo
+                </a>
+            </div>
+            <div class="height-ucenikProfile pb-[30px] scroll">
+                <div class="flex items-center px-[50px] py-8 space-x-3 rounded-lg">
+                    <a href="noviZanr.php"
                         class="inline-flex items-center text-sm py-2.5 px-5 transition duration-300 ease-in rounded-[5px] tracking-wider text-white bg-[#3f51b5] rounded hover:bg-[#4558BE]">
-                        <i class="fas fa-plus mr-[15px]"></i> Novi autor
+                        <i class="fas fa-plus mr-[15px]"></i> Novi zanr
                     </a>
-                    <div class="flex items-center">
-                        <div class="relative text-gray-600 focus-within:text-gray-400">
-                            <span class="absolute inset-y-0 left-0 flex items-center pl-2">
-                                <button type="submit" class="p-1 focus:outline-none focus:shadow-outline">
-                                    <svg fill="none" stroke="currentColor" stroke-linecap="round"
-                                        stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24" class="w-6 h-6">
-                                        <path d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"></path>
-                                    </svg>
-                                </button>
-                            </span>
-                            <input type="search" name="q"
-                                class="py-2 pl-10 text-sm text-white bg-white rounded-md focus:outline-none focus:bg-white focus:text-gray-900"
-                                placeholder="Search..." autocomplete="off">
-                        </div>
-                    </div>
                 </div>
 
                 <div
@@ -78,162 +86,98 @@
                                         <input type="checkbox" class="form-checkbox">
                                     </label>
                                 </th>
-                                <th class="px-4 py-4 leading-4 tracking-wider text-left">Naziv autora<a href="#"><i
+                                <th class="px-4 py-4 leading-4 tracking-wider text-left">Naziv zanra<a href="#"><i
                                             class="ml-3 fa-lg fas fa-long-arrow-alt-down" onclick="sortTable()"></i></a>
                                 </th>
-                                <th class="px-4 py-4 text-sm leading-4 tracking-wider text-left">Opis</th>
                                 <th class="px-4 py-4"> </th>
                             </tr>
                         </thead>
                         <tbody class="bg-white">
                             <tr class="border-b-[1px] border-[#e4dfdf]">
-                                <td class="px-4 py-3 whitespace-no-wrap">
+                                <td class="px-4 py-4 whitespace-no-wrap">
                                     <label class="inline-flex items-center">
                                         <input type="checkbox" class="form-checkbox">
                                     </label>
                                 </td>
-                                <td class="flex flex-row items-center px-4 py-3">
-                                    <img class="object-cover w-8 mr-2 h-11" src="img/profileStudent.jpg" alt="" />
-                                    <a href="#">
-                                        <span class="mr-2 font-medium text-center">Mark Twain</span>
-                                    </a>
+                                <td class="flex flex-row items-center px-4 py-4">
+                                    <p>Poezija</p>
                                 </td>
-                                </td>
-                                <td class="px-4 py-3 text-sm leading-5 whitespace-no-wrap">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Non, perferendis repudiandae ratione at porro, enim labore illo animi tempora quas neque. Dignissimos voluptates quos possimus...</td>
-                                <td class="px-4 py-3 text-sm leading-5 text-right whitespace-no-wrap">
+                                <td class="px-4 py-4 text-sm leading-5 text-right whitespace-no-wrap">
                                     <p class="inline cursor-pointer text-[20px] py-[10px] px-[30px] border-gray-300">
                                         <i class="fas fa-ellipsis-v"></i>
                                     </p>
                                 </td>
                             </tr>
                             <tr class="border-b-[1px] border-[#e4dfdf]">
-                                <td class="px-4 py-3 whitespace-no-wrap">
+                                <td class="px-4 py-4 whitespace-no-wrap">
                                     <label class="inline-flex items-center">
                                         <input type="checkbox" class="form-checkbox">
                                     </label>
                                 </td>
-                                <td class="flex flex-row items-center px-4 py-3">
-                                <img class="object-cover w-8 mr-2 h-11" src="img/profileStudent.jpg" alt="" />
-                                    <a href="#">
-                                        <span class="mr-2 font-medium text-center">Danijel Defoe</span>
-                                    </a>
+                                <td class="flex flex-row items-center px-4 py-4">
+                                    <p>Strucna literatura</p>
                                 </td>
-                                <td class="px-4 py-3 text-sm leading-5 whitespace-no-wrap">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Non, perferendis repudiandae ratione at porro, enim labore illo animi tempora quas neque. Dignissimos voluptates quos possimus...</td>
-                                <td class="px-4 py-3 text-sm leading-5 text-right whitespace-no-wrap">
+                                <td class="px-4 py-4 text-sm leading-5 text-right whitespace-no-wrap">
                                     <p class="inline cursor-pointer text-[20px] py-[10px] px-[30px] border-gray-300">
                                         <i class="fas fa-ellipsis-v"></i>
                                     </p>
                                 </td>
                             </tr>
                             <tr class="border-b-[1px] border-[#e4dfdf]">
-                                <td class="px-4 py-3 whitespace-no-wrap">
+                                <td class="px-4 py-4 whitespace-no-wrap">
                                     <label class="inline-flex items-center">
                                         <input type="checkbox" class="form-checkbox">
                                     </label>
                                 </td>
-                                <td class="flex flex-row items-center px-4 py-3">
-                                <img class="object-cover w-8 mr-2 h-11" src="img/profileStudent.jpg" alt="" />
-                                    <a href="#">
-                                        <span class="mr-2 font-medium text-center">Danka Maksimovic</span>
-                                    </a>
+                                <td class="flex flex-row items-center px-4 py-4">
+                                    <p>Poezija</p>
                                 </td>
-                                <td class="px-4 py-3 text-sm leading-5 whitespace-no-wrap">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Non, perferendis repudiandae ratione at porro, enim labore illo animi tempora quas neque. Dignissimos voluptates quos possimus...</td>
-                                <td class="px-4 py-3 text-sm leading-5 text-right whitespace-no-wrap">
+                                <td class="px-4 py-4 text-sm leading-5 text-right whitespace-no-wrap">
                                     <p class="inline cursor-pointer text-[20px] py-[10px] px-[30px] border-gray-300">
                                         <i class="fas fa-ellipsis-v"></i>
                                     </p>
                                 </td>
                             </tr>
                             <tr class="border-b-[1px] border-[#e4dfdf]">
-                                <td class="px-4 py-3 whitespace-no-wrap">
+                                <td class="px-4 py-4 whitespace-no-wrap">
                                     <label class="inline-flex items-center">
                                         <input type="checkbox" class="form-checkbox">
                                     </label>
                                 </td>
-                                <td class="flex flex-row items-center px-4 py-3">
-                                <img class="object-cover w-8 mr-2 h-11" src="img/profileStudent.jpg" alt="" />
-                                    <a href="#">
-                                        <span class="mr-2 font-medium text-center">Bubalo Zivkovic</span>
-                                    </a>
+                                <td class="flex flex-row items-center px-4 py-4">
+                                    <p>Strucna literatura</p>
                                 </td>
-                                <td class="px-4 py-3 text-sm leading-5 whitespace-no-wrap">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Non, perferendis repudiandae ratione at porro, enim labore illo animi tempora quas neque. Dignissimos voluptates quos possimus...</td>
-                                <td class="px-4 py-3 text-sm leading-5 text-right whitespace-no-wrap">
+                                <td class="px-4 py-4 text-sm leading-5 text-right whitespace-no-wrap">
                                     <p class="inline cursor-pointer text-[20px] py-[10px] px-[30px] border-gray-300">
                                         <i class="fas fa-ellipsis-v"></i>
                                     </p>
                                 </td>
                             </tr>
                             <tr class="border-b-[1px] border-[#e4dfdf]">
-                                <td class="px-4 py-3 whitespace-no-wrap">
+                                <td class="px-4 py-4 whitespace-no-wrap">
                                     <label class="inline-flex items-center">
                                         <input type="checkbox" class="form-checkbox">
                                     </label>
                                 </td>
-                                <td class="flex flex-row items-center px-4 py-3">
-                                <img class="object-cover w-8 mr-2 h-11" src="img/profileStudent.jpg" alt="" />
-                                    <a href="#">
-                                        <span class="font-medium text-center">Ivo Andric</span>
-                                    </a>
+                                <td class="flex flex-row items-center px-4 py-4">
+                                    <p>Poezija</p>
                                 </td>
-                                <td class="px-4 py-3 text-sm leading-5 whitespace-no-wrap">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Non, perferendis repudiandae ratione at porro, enim labore illo animi tempora quas neque. Dignissimos voluptates quos possimus...</td>
-                                <td class="px-4 py-3 text-sm leading-5 text-right whitespace-no-wrap">
+                                <td class="px-4 py-4 text-sm leading-5 text-right whitespace-no-wrap">
                                     <p class="inline cursor-pointer text-[20px] py-[10px] px-[30px] border-gray-300">
                                         <i class="fas fa-ellipsis-v"></i>
                                     </p>
                                 </td>
                             </tr>
                             <tr class="border-b-[1px] border-[#e4dfdf]">
-                                <td class="px-4 py-3 whitespace-no-wrap">
+                                <td class="px-4 py-4 whitespace-no-wrap">
                                     <label class="inline-flex items-center">
                                         <input type="checkbox" class="form-checkbox">
                                     </label>
                                 </td>
-                                <td class="flex flex-row items-center px-4 py-3">
-                                <img class="object-cover w-8 mr-2 h-11" src="img/profileStudent.jpg" alt="" />
-                                    <a href="#">
-                                        <span class="mr-2 font-medium text-center">Mark Twain</span>
-                                    </a>
+                                <td class="flex flex-row items-center px-4 py-4">
+                                    <p>Strucna literatura</p>
                                 </td>
-                                <td class="px-4 py-3 text-sm leading-5 whitespace-no-wrap">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Non, perferendis repudiandae ratione at porro, enim labore illo animi tempora quas neque. Dignissimos voluptates quos possimus...</td>
-                                <td class="px-4 py-3 text-sm leading-5 text-right whitespace-no-wrap">
-                                    <p class="inline cursor-pointer text-[20px] py-[10px] px-[30px] border-gray-300">
-                                        <i class="fas fa-ellipsis-v"></i>
-                                    </p>
-                                </td>
-                            </tr>
-                            <tr class="border-b-[1px] border-[#e4dfdf]">
-                                <td class="px-4 py-3 whitespace-no-wrap">
-                                    <label class="inline-flex items-center">
-                                        <input type="checkbox" class="form-checkbox">
-                                    </label>
-                                </td>
-                                <td class="flex flex-row items-center px-4 py-3">
-                                <img class="object-cover w-8 mr-2 h-11" src="img/profileStudent.jpg" alt="" />
-                                    <a href="#">
-                                        <span class="mr-2 font-medium text-center">Danka Maksimovic</span>
-                                    </a>
-                                </td>
-                                <td class="px-4 py-3 text-sm leading-5 whitespace-no-wrap">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Non, perferendis repudiandae ratione at porro, enim labore illo animi tempora quas neque. Dignissimos voluptates quos possimus...</td>
-                                <td class="px-4 py-3 text-sm leading-5 text-right whitespace-no-wrap">
-                                    <p class="inline cursor-pointer text-[20px] py-[10px] px-[30px] border-gray-300">
-                                        <i class="fas fa-ellipsis-v"></i>
-                                    </p>
-                                </td>
-                            </tr>
-                            <tr class="border-b-[1px] border-[#e4dfdf]">
-                                <td class="px-4 py-3 whitespace-no-wrap">
-                                    <label class="inline-flex items-center">
-                                        <input type="checkbox" class="form-checkbox">
-                                    </label>
-                                </td>
-                                <td class="flex flex-row items-center px-4 py-3">
-                                <img class="object-cover w-8 mr-2 h-11" src="img/profileStudent.jpg" alt="" />
-                                    <a href="#">
-                                        <span class="mr-2 font-medium text-center">Bubalo Zivkovic</span>
-                                    </a>
-                                </td>
-                                <td class="px-4 py-3 text-sm leading-5 whitespace-no-wrap">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Non, perferendis repudiandae ratione at porro, enim labore illo animi tempora quas neque. Dignissimos voluptates quos possimus...</td>
-                                <td class="px-4 py-3 text-sm leading-5 text-right whitespace-no-wrap">
+                                <td class="px-4 py-4 text-sm leading-5 text-right whitespace-no-wrap">
                                     <p class="inline cursor-pointer text-[20px] py-[10px] px-[30px] border-gray-300">
                                         <i class="fas fa-ellipsis-v"></i>
                                     </p>

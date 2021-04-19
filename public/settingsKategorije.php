@@ -52,19 +52,19 @@
                 <a href="settingsKategorije.php" class="inline ml-[70px] hover:text-blue-800 active-book-nav">
                     Kategorije
                 </a>
-                <a href="#" class="inline ml-[70px] hover:text-blue-800">
+                <a href="settingsZanrovi.php" class="inline ml-[70px] hover:text-blue-800">
                     Zanrovi
                 </a>
-                <a href="#" class="inline ml-[70px] hover:text-blue-800">
+                <a href="settingsIzdavac.php" class="inline ml-[70px] hover:text-blue-800">
                     Izdavac
                 </a>
-                <a href="#" class="inline ml-[70px] hover:text-blue-800">
+                <a href="settingsPovez.php" class="inline ml-[70px] hover:text-blue-800">
                     Povez
                 </a>
-                <a href="#" class="inline ml-[70px] hover:text-blue-800">
+                <a href="settingsFormat.php" class="inline ml-[70px] hover:text-blue-800">
                     Format
                 </a>
-                <a href="#" class="inline ml-[70px] hover:text-blue-800">
+                <a href="settingsPismo.php" class="inline ml-[70px] hover:text-blue-800">
                     Pismo
                 </a>
             </div>
