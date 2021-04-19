@@ -810,6 +810,29 @@ $("#sacuvajZanr").keypress(function (e) {
   }
 });
 
+// Form validation for new publisher
+function validacijaIzdavac() {
+
+  $("#validateNazivIzdavac").empty();
+
+  let nazivIzdavac = $("#nazivIzdavac").val();
+
+  if (nazivIzdavac.length == 0) {
+    $('#validateNazivIzdavac').append('<p style="color:red;font-size:13px;">Morate unijeti naziv izdavaca!</p>');
+  }
+}
+
+function clearErrorsNazivIzdavac() {
+  $("#validateNazivIzdavac").empty();
+}
+
+$("#sacuvajIzdavac").keypress(function (e) {
+  if (e.which == 13) {
+    validacijaIzdavac();
+    return false;
+  }
+});
+
 function sortTableDate(row) {
   var table, rows, switching, i, x, y, shouldSwitch;
   table = $(".sortTableDate");
