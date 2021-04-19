@@ -163,6 +163,15 @@ $(document).ready(function () {
     e.preventDefault();
   });
 
+  // Open Modal
+  modal = $(".modal");
+  $(".show-modal").on('click', function() {
+    modal.removeClass('hidden');
+  })
+  // Close Modal
+  $(".close-modal").on('click', function() {
+    modal.addClass('hidden');
+  })
 });
 
 

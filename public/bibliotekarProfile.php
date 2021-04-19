@@ -65,7 +65,7 @@
                         </div>
                     </div>
                     <div class="pt-[24px] pr-[30px]">
-                        <a href="#" class="inline hover:text-blue-600">
+                        <a href="#" class="inline hover:text-blue-600 show-modal">
                             <i class="fas fa-redo-alt mr-[3px]"></i>
                             Resetuj sifru
                         </a>
@@ -114,7 +114,8 @@
                         </div>
                         <div class="mt-[40px]">
                             <span class="text-gray-500">Email</span>
-                            <a class="cursor-pointer block font-medium text-[#2196f3] hover:text-blue-600">valentina.kascelan@domain.net</a>
+                            <a
+                                class="cursor-pointer block font-medium text-[#2196f3] hover:text-blue-600">valentina.kascelan@domain.net</a>
                         </div>
                         <div class="mt-[40px]">
                             <span class="text-gray-500">Korisnicko ime</span>
@@ -128,7 +129,7 @@
                             <span class="text-gray-500">Poslednji put logovan/a</span>
                             <p class="font-medium">Juce 11:57 AM</p>
                         </div>
-                        
+
                     </div>
                     <div class="ml-[100px]  mt-[20px]">
                         <img class="p-2 border-2 border-gray-300" width="300px" src="img/profileExample.jpg" alt="">
@@ -139,6 +140,41 @@
         <!-- End Content -->
     </main>
     <!-- End Main content -->
+
+    <!-- This code will show up when we press reset password -->
+    <div
+        class="fixed top-0 left-0 flex items-center justify-center hidden w-full h-screen bg-black bg-opacity-50 modal">
+        <!-- Modal -->
+        <div class="w-[500px] bg-white rounded shadow-lg md:w-1/3">
+            <!-- Modal Header -->
+            <div class="flex items-center justify-between px-[30px] py-[20px] border-b">
+                <h3>Resetuj sifru: Valentina Kascelan</h3>
+                <button class="text-black close-modal">&cross;</button>
+            </div>
+            <!-- Modal Body -->
+            <div class="flex flex-col px-[30px] py-[30px]">
+                <div class="flex flex-col pb-[30px]">
+                    <span>Unesi novu sifru</span>
+                    <input class="h-[40px] border-[1px] border-[#e4dfdf]" type="password">
+                </div>
+                <div class="flex flex-col pb-[30px]">
+                    <span>Ponovi sifru</span>
+                    <input class="h-[40px] border-[1px] border-[#e4dfdf]" type="password">
+                </div>
+            </div>
+            <div class="flex items-center justify-end px-[30px] py-[20px] border-t w-100 text-white">
+                <button type="button"
+                    class="shadow-lg mr-[15px] w-[150px] focus:outline-none text-sm py-2.5 px-5 transition duration-300 ease-in bg-[#F44336] hover:bg-[#F55549] rounded-[5px]">
+                    Ponisti <i class="fas fa-times ml-[4px]"></i>
+                </button>
+                <button id="resetujSifru" type="submit"
+                    class="shadow-lg w-[150px] disabled:opacity-50 focus:outline-none text-sm py-2.5 px-5 transition duration-300 ease-in rounded-[5px] hover:bg-[#46A149] bg-[#4CAF50]"
+                    onclick="validacijaSifra()">
+                    Sacuvaj <i class="fas fa-check ml-[4px]"></i>
+                </button>
+            </div>
+        </div>
+    </div>
 
     <!-- Notification for small devices -->
     <?php include('includes/layout/inProgress.php'); ?>
