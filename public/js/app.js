@@ -1375,3 +1375,33 @@ $('.form-checkbox').click(function() {
     $(this).closest('tr').removeClass('bg-gray-200');
   }
 })
+
+// Header - dropdown for create button
+$('#dropdownCreate').click(function () {
+  $('.dropdown-create').toggle();
+});
+
+$(document).on('mouseup', function (e){
+  var dropdownCreate = $(".dropdown-create");
+  if (!dropdownCreate.is(e.target) 
+       && dropdownCreate.has(e.target).length === 0 
+       && !$(e.target).is('.dropdownCreate'))
+  {
+    dropdownCreate.slideUp();
+  }
+});
+
+// Header - dropdown for profile button
+$('#dropdownProfile').click(function () {
+  $('.dropdown-profile').toggle();
+});
+
+$(document).on('mouseup', function (e){
+  var dropdownProfile = $(".dropdown-profile");
+  if (!dropdownProfile.is(e.target) 
+       && dropdownProfile.has(e.target).length === 0 
+       && !$(e.target).is('.dropdownProfile'))
+  {
+    dropdownProfile.slideUp();
+  }
+});

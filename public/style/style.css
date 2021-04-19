@@ -1019,6 +1019,9 @@ h4 {
 .top-\[-10px\]{
   top: -10px;
 }
+.right-\[12px\]{
+  right: 12px;
+}
 .z-0{
   z-index: 0;
 }
@@ -1256,6 +1259,15 @@ h4 {
 }
 .ml-\[60px\]{
   margin-left: 60px;
+}
+.mt-\[35px\]{
+  margin-top: 35px;
+}
+.mr-\[8px\]{
+  margin-right: 8px;
+}
+.ml-\[3px\]{
+  margin-left: 3px;
 }
 .mt-\[15px\]{
   margin-top: 15px;
