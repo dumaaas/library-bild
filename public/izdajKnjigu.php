@@ -143,14 +143,14 @@
                                     <label class="text-gray-700" for="date">
                                         <input type="date" name="datumIzdavanja" id="datumIzdavanja"
                                             class="flex w-[90%] mt-2 px-4 py-2 text-base placeholder-gray-400 bg-white border border-gray-300 appearance-none focus:outline-none focus:ring-2 focus:ring-[#576cdf]"
-                                            onclick="clearErrorsDatumIzdavanja()" />
+                                            onclick="clearErrorsDatumIzdavanja();" onchange="funkcijaDatumVracanja();"/>
                                     </label>
                                     <div id="validateDatumIzdavanja"></div>
                                 </div>
                                 <div class="w-[50%]">
                                     <p>Datum vracanja</p>
                                     <label class="text-gray-700" for="date">
-                                        <input type="text"
+                                        <input type="text" id="datumVracanja"
                                         class="flex w-[90%] mt-2 px-2 py-2 text-base text-gray-400 bg-white border border-gray-300 shadow-sm appearance-none focus:outline-none focus:ring-2 focus:ring-[#576cdf]" disabled/>
                                     </label>
                                     <div><p>Rok vracanja: 20 dana</p></div>
