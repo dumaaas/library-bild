@@ -1206,11 +1206,14 @@ h4 {
 .mb-\[100px\]{
   margin-bottom: 100px;
 }
+.mr-\[100px\]{
+  margin-right: 100px;
+}
 .mb-\[10px\]{
   margin-bottom: 10px;
 }
-.mr-\[100px\]{
-  margin-right: 100px;
+.mt-\[75px\]{
+  margin-top: 75px;
 }
 .mr-3{
   margin-right: 0.75rem;
@@ -1424,6 +1427,9 @@ h4 {
 }
 .w-\[50\%\]{
   width: 50%;
+}
+.w-\[360px\]{
+  width: 360px;
 }
 .w-\[102px\]{
   width: 102px;

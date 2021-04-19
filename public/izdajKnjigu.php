@@ -120,7 +120,7 @@
             <div class="scroll height-content section-content">
                 <form class="text-gray-700 forma">
                     <div class="flex flex-row ml-[30px]">
-                        <div class="w-[50%] mb-[100px]">
+                        <div class="w-[50%] mb-[100px] mr-[100px]">
                             <h3 class="mt-[20px] mb-[10px]">Izdaj knjigu</h3>
                             <div class="mt-[20px]">
                                 <p>Izaberi ucenika koji zaduzuje knjigu <span class="text-red-500">*</span></p>
@@ -137,19 +137,66 @@
                                 </select>
                                 <div id="validateUcenikIzdavanje"></div>
                             </div>
-                            <div class="mt-[20px]">
-                                <p>Datum izdavanja <span class="text-red-500">*</span></p>
-                                <label class="text-gray-700" for="date">
-                                    <input type="date" name="datumIzdavanja" id="datumIzdavanja"
-                                        class="flex w-[50%] mt-2 px-4 py-2 text-base placeholder-gray-400 bg-white border border-gray-300 appearance-none focus:outline-none focus:ring-2 focus:ring-[#576cdf]"
-                                        onclick="clearErrorsDatumIzdavanja()" />
-                                </label>
-                                <div id="validateDatumIzdavanja"></div>
+                            <div class="mt-[20px] flex justify-between w-[90%]">
+                                <div class="w-[50%]">
+                                    <p>Datum izdavanja <span class="text-red-500">*</span></p>
+                                    <label class="text-gray-700" for="date">
+                                        <input type="date" name="datumIzdavanja" id="datumIzdavanja"
+                                            class="flex w-[90%] mt-2 px-4 py-2 text-base placeholder-gray-400 bg-white border border-gray-300 appearance-none focus:outline-none focus:ring-2 focus:ring-[#576cdf]"
+                                            onclick="clearErrorsDatumIzdavanja()" />
+                                    </label>
+                                    <div id="validateDatumIzdavanja"></div>
+                                </div>
+                                <div class="w-[50%]">
+                                    <p>Datum vracanja</p>
+                                    <label class="text-gray-700" for="date">
+                                        <input type="text"
+                                        class="flex w-[90%] mt-2 px-2 py-2 text-base text-gray-400 bg-white border border-gray-300 shadow-sm appearance-none focus:outline-none focus:ring-2 focus:ring-[#576cdf]" disabled/>
+                                    </label>
+                                    <div><p>Rok vracanja: 20 dana</p></div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="w-[50%] mb-[100px]">
+                            <div class="border-[1px] border-[#e4dfdf] w-[360px] mt-[75px]">
+                                <h2 class="mt-[20px] ml-[30px]">KOLICINE</h2>
+                                <div class="ml-[30px] mr-[70px] mt-[20px] flex flex-row justify-between">
+                                    <div class="text-gray-500 ">
+                                        <p>Na raspolaganju:</p>
+                                        <p class="mt-[20px]">Rezervisano:</p>
+                                        <p class="mt-[20px]">Izdato:</p>
+                                        <p class="mt-[20px]">U prekoracenju:</p>
+                                        <p class="mt-[20px]">Ukupna kolicina:</p>
+                                    </div>
+                                    <div class="text-center pb-[30px]">
+                                        <p class=" bg-green-200 text-green-700 rounded-[10px] px-[6px] py-[2px] text-[14px]">5
+                                            primjeraka</p>
+                                        <a href="aktivneRezervacije.php">
+                                            <p
+                                                class=" mt-[16px] bg-yellow-200 text-yellow-700 rounded-[10px] px-[6px] py-[2px] text-[14px]">
+                                                2 primjerka</p>
+                                        </a>
+                                        <a href="izdateKnjige.php">
+                                            <p
+                                                class=" mt-[16px] bg-blue-200 text-blue-800 rounded-[10px] px-[6px] py-[2px] text-[14px]">
+                                                10 primjeraka</p>
+                                        </a>
+                                        <a href="knjigePrekoracenje.php">
+                                            <p
+                                            class=" mt-[16px] bg-red-200 text-red-800 rounded-[10px] px-[6px] py-[2px] text-[14px]">
+                                            2 primjerka</p>
+                                        </a>
+                                        <p
+                                            class=" mt-[16px] border-[1px] border-green-700 text-green-700 rounded-[10px] px-[6px] py-[2px] text-[14px]">
+                                            15 primjeraka</p>
+                                    </div>
+                                </div>
                             </div>
                         </div>
                     </div>
 
-                    <div class="w-full absolute border-t-[2px] border-gray-300 bottom-0 bg-white">
+                    <div class="absolute bottom-0 w-full">
                         <div class="flex flex-row">
                             <div class="inline-block w-full text-right py-[7px] mr-[100px] text-white">
                                 <button type="button"
