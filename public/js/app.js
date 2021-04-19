@@ -787,6 +787,29 @@ $("#sacuvajAutora").keypress(function (e) {
   }
 });
 
+// Form validation for new genre
+function validacijaZanr() {
+
+  $("#validateNazivZanra").empty();
+
+  let nazivZanra = $("#nazivZanra").val();
+
+  if (nazivZanra.length == 0) {
+    $('#validateNazivZanra').append('<p style="color:red;font-size:13px;">Morate unijeti naziv zanra!</p>');
+  }
+}
+
+function clearErrorsNazivZanra() {
+  $("#validateNazivZanra").empty();
+}
+
+$("#sacuvajZanr").keypress(function (e) {
+  if (e.which == 13) {
+    validacijaZanr();
+    return false;
+  }
+});
+
 function sortTableDate(row) {
   var table, rows, switching, i, x, y, shouldSwitch;
   table = $(".sortTableDate");
