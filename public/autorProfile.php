@@ -41,7 +41,7 @@
                     <div class="pl-[30px] py-[10px] flex flex-col">
                         <div>
                             <h1>
-                                Mark Twen
+                                Mark Twain
                             </h1>
                         </div>
                         <div>
@@ -79,7 +79,7 @@
                 <div class="mr-[30px]">
                     <div class="mt-[20px]">
                         <span class="text-gray-500">Ime i prezime</span>
-                        <p class="font-medium">Mark Twen</p>
+                        <p class="font-medium">Mark Twain</p>
                     </div>
                     <div class="mt-[40px]">
                         <span class="text-gray-500">Opis</span>

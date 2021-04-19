@@ -965,6 +965,29 @@ $("#sacuvajAutora").keypress(function (e) {
   }
 });
 
+// Form validation for editing author info
+function validacijaAutorEdit() {
+
+  $("#validateImePrezimeAutorEdit").empty();
+
+  let imePrezimeAutorEdit = $("#imePrezimeAutorEdit").val();
+
+  if (imePrezimeAutorEdit.length == 0) {
+    $('#validateImePrezimeAutorEdit').append('<p style="color:red;font-size:13px;">Morate unijeti ime i prezime autora!</p>');
+  }
+}
+
+function clearErrorsImePrezimeAutorEdit() {
+  $("#validateImePrezimeAutorEdit").empty();
+}
+
+$("#sacuvajAutoraEdit").keypress(function (e) {
+  if (e.which == 13) {
+    validacijaAutorEdit();
+    return false;
+  }
+});
+
 // Form validation for new genre
 function validacijaZanr() {
 
