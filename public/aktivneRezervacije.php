@@ -110,7 +110,7 @@
                                                     <div>
                                                         <p
                                                             class="text-[15px] ml-[22px] transition duration-300 ease-in group-hover:text-[#576cdf]">
-                                                            Knjige nu prekoracenju</p>
+                                                            Knjige u prekoracenju</p>
                                                     </div>
                                                 </a>
                                             </div>
