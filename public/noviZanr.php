@@ -48,7 +48,7 @@
                             <nav class="w-full rounded">
                                 <ol class="flex list-reset">
                                     <li>
-                                        <a href="zanrovi.php" class="text-[#2196f3] hover:text-blue-600">
+                                        <a href="settingsZanrovi.php" class="text-[#2196f3] hover:text-blue-600">
                                             Evidencija zanrova
                                         </a>
                                     </li>
