@@ -56,9 +56,6 @@
                             </span>
                             <input type="search" name="q" class="py-2 pl-10 text-sm text-white bg-white rounded-md focus:outline-none focus:bg-white focus:text-gray-900" placeholder="Search..." autocomplete="off">
                         </div>
-                        <p class="inline cursor-pointer text-[20px] py-[10px] px-[30px]">
-                            <i class="fas fa-filter"></i>
-                        </p>
                     </div>
                 </div>
           
