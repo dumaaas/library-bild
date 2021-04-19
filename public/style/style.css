@@ -1242,6 +1242,12 @@ h4 {
 .mt-6{
   margin-top: 1.5rem;
 }
+.mb-\[15px\]{
+  margin-bottom: 15px;
+}
+.ml-\[-1px\]{
+  margin-left: -1px;
+}
 .ml-4{
   margin-left: 1rem;
 }
@@ -1961,6 +1967,10 @@ h4 {
   padding-left: 0.75rem;
   padding-right: 0.75rem;
 }
+.px-3{
+  padding-left: 0.75rem;
+  padding-right: 0.75rem;
+}
 .py-\[7px\]{
   padding-top: 7px;
   padding-bottom: 7px;
@@ -1969,9 +1979,9 @@ h4 {
   padding-left: 3rem;
   padding-right: 3rem;
 }
-.py-16{
-  padding-top: 4rem;
-  padding-bottom: 4rem;
+.py-\[48px\]{
+  padding-top: 48px;
+  padding-bottom: 48px;
 }
 .py-\[1px\]{
   padding-top: 1px;
