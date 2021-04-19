@@ -1068,3 +1068,19 @@ function dropdown() {
     }
   }
 }
+
+function funkcijaDatumVracanja(){
+  var selectedDate = new Date($('#datumIzdavanja').val());
+  var numberOfDaysToAdd = 20;
+
+  selectedDate.setDate(selectedDate.getDate() + numberOfDaysToAdd);
+
+  var day = selectedDate.getDate();
+  var month = selectedDate.getMonth() + 1;
+  var year = selectedDate.getFullYear();
+
+  var newDate = [day, month, year].join('/');
+
+  document.getElementById('datumVracanja').value = newDate;
+}
+
