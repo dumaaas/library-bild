@@ -59,54 +59,59 @@
                     <!-- Space for content -->
                     <div class="flex justify-start pt-3 bg-white">
                         <div class="mt-[10px]">
-                            <ul class="text-[#2D3B48]">
-                                <li class="mb-[4px] pt-[18px] pb-[14px] group hover:bg-[#EAEAEA]">
+                        <ul class="text-[#2D3B48]">
+                                <li class="mb-[4px]">
                                     <div class="w-[300px] pl-[32px]">
                                         <span
-                                            class=" whitespace-nowrap w-full text-[25px] group flex justify-between fill-current">
-                                            <div class="">
+                                            class=" whitespace-nowrap w-full text-[25px]  flex justify-between fill-current">
+                                            <div
+                                                class="py-[15px] px-[20px] w-[268px] cursor-pointer group hover:bg-[#EFF3F6] rounded-[10px]">
                                                 <a href="izdateKnjige.php" aria-label="Sve knjige"
                                                     class="flex items-center">
                                                     <i
                                                         class="text-[#707070] transition duration-300 ease-in group-hover:text-[#576cdf] far fa-copy text-[20px]"></i>
                                                     <div>
                                                         <p
-                                                            class="transition duration-300 ease-in group-hover:text-[#576cdf] text-[15px] ml-[18px]">
-                                                            Izdate knjige</p>
+                                                            class="transition duration-300 ease-in group-hover:text-[#576cdf]  text-[15px] ml-[18px]">
+                                                            Izdate knjige
+                                                        </p>
                                                     </div>
                                                 </a>
                                             </div>
                                         </span>
                                     </div>
                                 </li>
-                                <li class="mb-[4px] pt-[18px] pb-[14px] group hover:bg-[#EAEAEA]">
+                                <li class="mb-[4px]">
                                     <div class="w-[300px] pl-[32px]">
                                         <span
                                             class=" whitespace-nowrap w-full text-[25px] flex justify-between fill-current">
-                                            <div class="transition duration-300 ease-in hover:text-[#576cdf]">
-                                                <a href="vraceneKnjige.php" aria-label="Izdate knjige"
+                                            <div
+                                                class="group hover:bg-[#EFF3F6] py-[15px] px-[20px] w-[268px] rounded-[10px] cursor-pointer">
+                                                <a href="vraceneKnjige.php" aria-label="Vracene knjige"
                                                     class="flex items-center">
                                                     <i
-                                                        class="text-[#707070] text-[20px] fas fa-file transition duration-300 ease-in group-hover:text-[#576cdf]"></i>
+                                                        class="transition duration-300 ease-in  text-[#707070] text-[20px] fas fa-file group-hover:text-[#576cdf]"></i>
                                                     <div>
                                                         <p
-                                                            class="text-[15px] ml-[21px] transition duration-300 ease-in group-hover:text-[#576cdf]">
-                                                            Vracene knjige</p>
+                                                            class="transition duration-300 ease-in  text-[15px] ml-[21px] group-hover:text-[#576cdf]">
+                                                            Vracene knjige
+                                                        </p>
                                                     </div>
                                                 </a>
                                             </div>
                                         </span>
                                     </div>
                                 </li>
-                                <li class="mb-[4px] pt-[18px] pb-[14px] group hover:bg-[#EAEAEA]">
+                                <li class="mb-[4px]">
                                     <div class="w-[300px] pl-[28px]">
                                         <span
                                             class=" whitespace-nowrap w-full text-[25px] flex justify-between fill-current">
-                                            <div class="transition duration-300 ease-in hover:text-[#576cdf]">
+                                            <div
+                                                class="group hover:bg-[#EFF3F6] py-[15px] px-[20px] w-[268px] rounded-[10px] cursor-pointer">
                                                 <a href="knjigePrekoracenje.php" aria-label="Knjige na raspolaganju"
                                                     class="flex items-center">
                                                     <i
-                                                        class="text-[#707070] text-[20px] fas fa-exclamation-triangle transition duration-300 ease-in group-hover:text-[#576cdf]"></i>
+                                                        class="group-hover:text-[#576cdf] text-[#707070] text-[20px] fas fa-exclamation-triangle transition duration-300 ease-in "></i>
                                                     <div>
                                                         <p
                                                             class="text-[15px] ml-[17px] transition duration-300 ease-in group-hover:text-[#576cdf]">
@@ -117,19 +122,19 @@
                                         </span>
                                     </div>
                                 </li>
-                                <li
-                                    class="mb-[4px] pt-[18px] pb-[14px] group hover:bg-[#EAEAEA] border-t-2 border-gray-200 bg-[#EAEAEA]">
+                                <li class="mb-[4px]">
                                     <div class="w-[300px] pl-[32px]">
                                         <span
                                             class=" whitespace-nowrap w-full text-[25px] flex justify-between fill-current">
-                                            <div class="transition duration-300 ease-in hover:text-[#576cdf]">
+                                            <div
+                                                class="group bg-[#EFF3F6] hover:bg-[#EFF3F6] py-[15px] px-[20px] w-[268px] rounded-[10px] cursor-pointer">
                                                 <a href="aktivneRezervacije.php" aria-label="Rezervacije"
                                                     class="flex items-center">
                                                     <i
-                                                        class="text-[20px] far fa-calendar-check transition text-[#576cdf] duration-300 ease-in group-hover:text-[#576cdf]"></i>
+                                                        class="text-[#576cdf] text-[20px] far fa-calendar-check transition duration-300 ease-in"></i>
                                                     <div>
                                                         <p
-                                                            class="text-[15px] ml-[19px] transition duration-300 ease-in text-[#576cdf] group-hover:text-[#576cdf]">
+                                                            class="text-[15px] ml-[19px] transition duration-300 ease-in text-[#576cdf]">
                                                             Aktivne rezervacije</p>
                                                     </div>
                                                 </a>
@@ -137,11 +142,12 @@
                                         </span>
                                     </div>
                                 </li>
-                                <li class="mb-[4px] pt-[18px] pb-[14px] group hover:bg-[#EAEAEA]">
+                                <li class="mb-[4px]">
                                     <div class="w-[300px] pl-[32px]">
                                         <span
                                             class=" whitespace-nowrap w-full text-[25px] flex justify-between fill-current">
-                                            <div class="transition duration-300 ease-in hover:text-[#576cdf]">
+                                            <div
+                                                class="group hover:bg-[#EFF3F6] py-[15px] px-[20px] w-[268px] rounded-[10px] cursor-pointer">
                                                 <a href="arhiviraneRezervacije.php" aria-label="Rezervacije"
                                                     class="flex items-center">
                                                     <i

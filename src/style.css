@@ -5,7 +5,9 @@
   font-family: 'Rubik';
 }
 
-
+.bg-login {
+  background-image: url('../img/login.jpg');
+}
 
 /* Sidebar transition*/
 .sidebar {
