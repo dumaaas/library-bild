@@ -102,7 +102,7 @@
                 </a>
             </div>
              <!-- Space for content -->
-             <div class="flex justify-start pt-3 bg-white height-ucenikIzdate">
+             <div class="flex justify-start pt-3 bg-white height-ucenikIzdate scroll">
                         <div class="mt-[10px]">
                             <ul class="text-[#2D3B48]">
                                 <li class="mb-[4px] pt-[18px] pb-[14px] group hover:bg-[#EAEAEA] bg-[#EAEAEA]">
