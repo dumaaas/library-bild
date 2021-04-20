@@ -1080,6 +1080,29 @@ $("#sacuvajIzdavac").keypress(function (e) {
   }
 });
 
+// Form validation for editing publisher info
+function validacijaIzdavacEdit() {
+
+  $("#validateNazivIzdavacEdit").empty();
+
+  let nazivIzdavacEdit = $("#nazivIzdavacEdit").val();
+
+  if (nazivIzdavacEdit.length == 0) {
+    $('#validateNazivIzdavacEdit').append('<p style="color:red;font-size:13px;">Morate unijeti naziv izdavaca!</p>');
+  }
+}
+
+function clearErrorsNazivIzdavacEdit() {
+  $("#validateNazivIzdavacEdit").empty();
+}
+
+$("#sacuvajIzdavacEdit").keypress(function (e) {
+  if (e.which == 13) {
+    validacijaIzdavacEdit();
+    return false;
+  }
+});
+
 // Form validation for new book bind
 function validacijaPovez() {
 
@@ -1103,6 +1126,29 @@ $("#sacuvajPovez").keypress(function (e) {
   }
 });
 
+// Form validation for editing book bind info
+function validacijaPovezEdit() {
+
+  $("#validateNazivPovezEdit").empty();
+
+  let nazivPovezEdit = $("#nazivPovezEdit").val();
+
+  if (nazivPovezEdit.length == 0) {
+    $('#validateNazivPovezEdit').append('<p style="color:red;font-size:13px;">Morate unijeti naziv poveza!</p>');
+  }
+}
+
+function clearErrorsNazivPovezEdit() {
+  $("#validateNazivPovezEdit").empty();
+}
+
+$("#sacuvajPovezEdit").keypress(function (e) {
+  if (e.which == 13) {
+    validacijaPovezEdit();
+    return false;
+  }
+});
+
 // Form validation for new book format
 function validacijaFormat() {
 
@@ -1122,6 +1168,29 @@ function clearErrorsNazivFormat() {
 $("#sacuvajFormat").keypress(function (e) {
   if (e.which == 13) {
     validacijaFormat();
+    return false;
+  }
+});
+
+// Form validation for editing book format info
+function validacijaFormatEdit() {
+
+  $("#validateNazivFormatEdit").empty();
+
+  let nazivFormatEdit = $("#nazivFormatEdit").val();
+
+  if (nazivFormatEdit.length == 0) {
+    $('#validateNazivFormatEdit').append('<p style="color:red;font-size:13px;">Morate unijeti naziv formata!</p>');
+  }
+}
+
+function clearErrorsNazivFormatEdit() {
+  $("#validateNazivFormatEdit").empty();
+}
+
+$("#sacuvajFormatEdit").keypress(function (e) {
+  if (e.which == 13) {
+    validacijaFormatEdit();
     return false;
   }
 });
@@ -1522,5 +1591,53 @@ $(document).on('mouseup', function (e){
        && dropdownGenre.has(e.target).length === 0)
   {
     dropdownGenre.slideUp();
+  }
+});
+
+// Publisher - table - dropdown
+$(".dotsPublisher").click(function () {
+  var dotsPublisher = $(this);
+  var dropdownPublisher = dotsPublisher.closest("td").find(".dropdown-publisher");
+  dropdownPublisher.toggle();
+})
+
+$(document).on('mouseup', function (e){
+  var dropdownPublisher = $(".dropdown-publisher");
+  if (!dropdownPublisher.is(e.target) 
+       && dropdownPublisher.has(e.target).length === 0)
+  {
+    dropdownPublisher.slideUp();
+  }
+});
+
+// Book bind - table - dropdown
+$(".dotsBookBind").click(function () {
+  var dotsBookBind = $(this);
+  var dropdownBookBind = dotsBookBind.closest("td").find(".dropdown-book-bind");
+  dropdownBookBind.toggle();
+})
+
+$(document).on('mouseup', function (e){
+  var dropdownBookBind = $(".dropdown-book-bind");
+  if (!dropdownBookBind.is(e.target) 
+       && dropdownBookBind.has(e.target).length === 0)
+  {
+    dropdownBookBind.slideUp();
+  }
+});
+
+// Format - table - dropdown
+$(".dotsFormat").click(function () {
+  var dotsFormat = $(this);
+  var dropdownFormat = dotsFormat.closest("td").find(".dropdown-format");
+  dropdownFormat.toggle();
+})
+
+$(document).on('mouseup', function (e){
+  var dropdownFormat = $(".dropdown-format");
+  if (!dropdownFormat.is(e.target) 
+       && dropdownFormat.has(e.target).length === 0)
+  {
+    dropdownFormat.slideUp();
   }
 });
