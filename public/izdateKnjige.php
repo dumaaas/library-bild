@@ -567,7 +567,7 @@
                                                     class="fas fa-ellipsis-v"></i>
                                             </p>
                                             <div
-                                                class="hidden transition-all duration-300 origin-top-right transform scale-95 -translate-y-2 izdate-knjige">
+                                                class="relative z-10 hidden transition-all duration-300 origin-top-right transform scale-95 -translate-y-2 izdate-knjige">
                                                 <div class="absolute right-0 w-56 mt-2 origin-top-right bg-white border border-gray-200 divide-y divide-gray-100 rounded-md shadow-lg outline-none"
                                                     aria-labelledby="headlessui-menu-button-1"
                                                     id="headlessui-menu-items-117" role="menu">
@@ -624,7 +624,7 @@
                                                     class="fas fa-ellipsis-v"></i>
                                             </p>
                                             <div
-                                                class="hidden transition-all duration-300 origin-top-right transform scale-95 -translate-y-2 izdate-knjige">
+                                                class="relative z-10 hidden transition-all duration-300 origin-top-right transform scale-95 -translate-y-2 izdate-knjige">
                                                 <div class="absolute right-0 w-56 mt-2 origin-top-right bg-white border border-gray-200 divide-y divide-gray-100 rounded-md shadow-lg outline-none"
                                                     aria-labelledby="headlessui-menu-button-1"
                                                     id="headlessui-menu-items-117" role="menu">
@@ -681,7 +681,7 @@
                                                     class="fas fa-ellipsis-v"></i>
                                             </p>
                                             <div
-                                                class="hidden transition-all duration-300 origin-top-right transform scale-95 -translate-y-2 izdate-knjige">
+                                                class="relative z-10 hidden transition-all duration-300 origin-top-right transform scale-95 -translate-y-2 izdate-knjige">
                                                 <div class="absolute right-0 w-56 mt-2 origin-top-right bg-white border border-gray-200 divide-y divide-gray-100 rounded-md shadow-lg outline-none"
                                                     aria-labelledby="headlessui-menu-button-1"
                                                     id="headlessui-menu-items-117" role="menu">
@@ -739,7 +739,7 @@
                                                     class="fas fa-ellipsis-v"></i>
                                             </p>
                                             <div
-                                                class="hidden transition-all duration-300 origin-top-right transform scale-95 -translate-y-2 izdate-knjige">
+                                                class="relative z-10 hidden transition-all duration-300 origin-top-right transform scale-95 -translate-y-2 izdate-knjige">
                                                 <div class="absolute right-0 w-56 mt-2 origin-top-right bg-white border border-gray-200 divide-y divide-gray-100 rounded-md shadow-lg outline-none"
                                                     aria-labelledby="headlessui-menu-button-1"
                                                     id="headlessui-menu-items-117" role="menu">
@@ -797,7 +797,7 @@
                                                     class="fas fa-ellipsis-v"></i>
                                             </p>
                                             <div
-                                                class="hidden transition-all duration-300 origin-top-right transform scale-95 -translate-y-2 izdate-knjige">
+                                                class="relative z-10 hidden transition-all duration-300 origin-top-right transform scale-95 -translate-y-2 izdate-knjige">
                                                 <div class="absolute right-0 w-56 mt-2 origin-top-right bg-white border border-gray-200 divide-y divide-gray-100 rounded-md shadow-lg outline-none"
                                                     aria-labelledby="headlessui-menu-button-1"
                                                     id="headlessui-menu-items-117" role="menu">
@@ -854,7 +854,7 @@
                                                     class="fas fa-ellipsis-v"></i>
                                             </p>
                                             <div
-                                                class="hidden transition-all duration-300 origin-top-right transform scale-95 -translate-y-2 izdate-knjige">
+                                                class="relative z-10 hidden transition-all duration-300 origin-top-right transform scale-95 -translate-y-2 izdate-knjige">
                                                 <div class="absolute right-0 w-56 mt-2 origin-top-right bg-white border border-gray-200 divide-y divide-gray-100 rounded-md shadow-lg outline-none"
                                                     aria-labelledby="headlessui-menu-button-1"
                                                     id="headlessui-menu-items-117" role="menu">
@@ -911,7 +911,7 @@
                                                     class="fas fa-ellipsis-v"></i>
                                             </p>
                                             <div
-                                                class="hidden transition-all duration-300 origin-top-right transform scale-95 -translate-y-2 izdate-knjige">
+                                                class="relative z-10 hidden transition-all duration-300 origin-top-right transform scale-95 -translate-y-2 izdate-knjige">
                                                 <div class="absolute right-0 w-56 mt-2 origin-top-right bg-white border border-gray-200 divide-y divide-gray-100 rounded-md shadow-lg outline-none"
                                                     aria-labelledby="headlessui-menu-button-1"
                                                     id="headlessui-menu-items-117" role="menu">
@@ -968,7 +968,7 @@
                                                     class="fas fa-ellipsis-v"></i>
                                             </p>
                                             <div
-                                                class="hidden transition-all duration-300 origin-top-right transform scale-95 -translate-y-2 izdate-knjige">
+                                                class="relative z-10 hidden transition-all duration-300 origin-top-right transform scale-95 -translate-y-2 izdate-knjige">
                                                 <div class="absolute right-0 w-56 mt-2 origin-top-right bg-white border border-gray-200 divide-y divide-gray-100 rounded-md shadow-lg outline-none"
                                                     aria-labelledby="headlessui-menu-button-1"
                                                     id="headlessui-menu-items-117" role="menu">
