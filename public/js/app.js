@@ -1446,3 +1446,19 @@ $(document).on('mouseup', function (e){
     dropdownProfile.slideUp();
   }
 });
+
+// Category - table - dropdown
+$(".dotsCategory").click(function () {
+  var dotsCategory = $(this);
+  var dropdownCategory = dotsCategory.closest("td").find(".dropdown-category");
+  dropdownCategory.toggle();
+})
+
+$(document).on('mouseup', function (e){
+  var dropdownCategory = $(".dropdown-category");
+  if (!dropdownCategory.is(e.target) 
+       && dropdownCategory.has(e.target).length === 0)
+  {
+    dropdownCategory.slideUp();
+  }
+});

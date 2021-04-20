@@ -1016,6 +1016,9 @@ h4 {
 .top-1\/2{
   top: 50%;
 }
+.right-\[25px\]{
+  right: 25px;
+}
 .top-\[-10px\]{
   top: -10px;
 }
@@ -1256,6 +1259,9 @@ h4 {
 }
 .ml-4{
   margin-left: 1rem;
+}
+.mr-\[1px\]{
+  margin-right: 1px;
 }
 .ml-\[60px\]{
   margin-left: 60px;
@@ -2537,6 +2543,10 @@ h4 {
 .hover\:text-blue-800:hover{
   --tw-text-opacity: 1;
   color: rgba(30, 64, 175, var(--tw-text-opacity));
+}
+.hover\:text-\[\#606FC7\]:hover{
+  --tw-text-opacity: 1;
+  color: rgba(96, 111, 199, var(--tw-text-opacity));
 }
 .hover\:text-\[\#2d3b48\]:hover{
   --tw-text-opacity: 1;
