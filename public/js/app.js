@@ -1080,6 +1080,29 @@ $("#sacuvajIzdavac").keypress(function (e) {
   }
 });
 
+// Form validation for editing publisher info
+function validacijaIzdavacEdit() {
+
+  $("#validateNazivIzdavacEdit").empty();
+
+  let nazivIzdavacEdit = $("#nazivIzdavacEdit").val();
+
+  if (nazivIzdavacEdit.length == 0) {
+    $('#validateNazivIzdavacEdit').append('<p style="color:red;font-size:13px;">Morate unijeti naziv izdavaca!</p>');
+  }
+}
+
+function clearErrorsNazivIzdavacEdit() {
+  $("#validateNazivIzdavacEdit").empty();
+}
+
+$("#sacuvajIzdavacEdit").keypress(function (e) {
+  if (e.which == 13) {
+    validacijaIzdavacEdit();
+    return false;
+  }
+});
+
 // Form validation for new book bind
 function validacijaPovez() {
 
@@ -1522,5 +1545,21 @@ $(document).on('mouseup', function (e){
        && dropdownGenre.has(e.target).length === 0)
   {
     dropdownGenre.slideUp();
+  }
+});
+
+// Publisher - table - dropdown
+$(".dotsPublisher").click(function () {
+  var dotsPublisher = $(this);
+  var dropdownPublisher = dotsPublisher.closest("td").find(".dropdown-publisher");
+  dropdownPublisher.toggle();
+})
+
+$(document).on('mouseup', function (e){
+  var dropdownPublisher = $(".dropdown-publisher");
+  if (!dropdownPublisher.is(e.target) 
+       && dropdownPublisher.has(e.target).length === 0)
+  {
+    dropdownPublisher.slideUp();
   }
 });
