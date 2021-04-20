@@ -942,6 +942,29 @@ $("#sacuvajKategoriju").keypress(function (e) {
   }
 });
 
+// Form validation for editing category info
+function validacijaKategorijaEdit() {
+
+  $("#validateNazivKategorijeEdit").empty();
+
+  let nazivKategorijeEdit = $("#nazivKategorijeEdit").val();
+
+  if (nazivKategorijeEdit.length == 0) {
+    $('#validateNazivKategorijeEdit').append('<p style="color:red;font-size:13px;">Morate unijeti naziv kategorije!</p>');
+  }
+}
+
+function clearErrorsNazivKategorijeEdit() {
+  $("#validateNazivKategorijeEdit").empty();
+}
+
+$("#sacuvajKategorijuEdit").keypress(function (e) {
+  if (e.which == 13) {
+    validacijaKategorijaEdit();
+    return false;
+  }
+});
+
 // Form validation for new author
 function validacijaAutor() {
 
