@@ -213,10 +213,10 @@
                                             </label>
                                         </th>
                                         <th class="flex items-center px-4 py-3 leading-4 tracking-wider text-left">Naziv knjige<a href="#"><i class="ml-2 fa-lg fas fa-long-arrow-alt-down" onclick="sortTable()"></i></a></th>
-                                        <th class="px-4 py-3 text-sm leading-4 tracking-wider text-left">Datum rezervacije<i class="ml-2 fas fa-filter"></i></th>
-                                        <th class="px-4 py-3 text-sm leading-4 tracking-wider text-left">Rezervacija istice<i class="ml-2 fas fa-filter"></i></th>
-                                        <th class="px-4 py-3 text-sm leading-4 tracking-wider text-left">Rezervaciju podnio<i class="ml-2 fas fa-filter"></i></th>
-                                        <th class="px-4 py-3 text-sm leading-4 tracking-wider text-left">Status<i class="ml-2 fas fa-filter"></i></th>
+                                        <th class="px-4 py-3 text-sm leading-4 tracking-wider text-left">Datum rezervacije</th>
+                                        <th class="px-4 py-3 text-sm leading-4 tracking-wider text-left">Rezervacija istice</th>
+                                        <th class="px-4 py-3 text-sm leading-4 tracking-wider text-left">Rezervaciju podnio</th>
+                                        <th class="px-4 py-3 text-sm leading-4 tracking-wider text-left">Status</th>
                                         <th class="px-4 py-3"> </th>
                                     </tr>
                                 </thead>

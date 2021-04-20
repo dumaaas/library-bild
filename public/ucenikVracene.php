@@ -215,11 +215,11 @@
                                                     onclick="sortTable()"></i>
                                             </a>
                                         </th>
-                                        <th class="px-4 py-4 text-sm leading-4 tracking-wider text-left">Izdato uceniku<i class="ml-2 fas fa-filter"></i></th>
-                                        <th class="px-4 py-4 text-sm leading-4 tracking-wider text-left">Datum izdavanja<i class="fas fa-filter"></i></th>
-                                        <th class="px-4 py-4 text-sm leading-4 tracking-wider text-left">Datum vracanja<i class="fas fa-filter"></i></th>
-                                        <th class="px-4 py-4 text-sm leading-4 tracking-wider text-left">Zadrzavanje knjige <i class="fas fa-filter"></i></th>
-                                        <th class="px-4 py-4 text-sm leading-4 tracking-wider text-left">Knjigu primio<i class="fas fa-filter"></i></th>
+                                        <th class="px-4 py-4 text-sm leading-4 tracking-wider text-left">Izdato uceniku</th>
+                                        <th class="px-4 py-4 text-sm leading-4 tracking-wider text-left">Datum izdavanja</th>
+                                        <th class="px-4 py-4 text-sm leading-4 tracking-wider text-left">Datum vracanja</th>
+                                        <th class="px-4 py-4 text-sm leading-4 tracking-wider text-left">Zadrzavanje knjige </th>
+                                        <th class="px-4 py-4 text-sm leading-4 tracking-wider text-left">Knjigu primio</th>
                                         <th class="px-4 py-4"> </th>
                                     </tr>
                                 </thead>
