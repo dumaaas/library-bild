@@ -70,11 +70,7 @@ $(document).ready(function () {
   }
 
   // Dropdown
-  $('#dropdownStudent').click(function () {
-    $('.dropdown-menu-student').toggle();
-  });
-
-  $('#dropdownBookRow1').click(function () {
+   $('#dropdownBookRow1').click(function () {
     $('.dropdown-menu-book-row1').toggle();
   });
 
@@ -1710,5 +1706,35 @@ $(document).on('mouseup', function (e){
        && dropdownStudent.has(e.target).length === 0)
   {
     dropdownStudent.slideUp();
+  }
+});
+
+// Student - profile - dropdown
+$(".dotsStudentProfile").click(function () {
+  $(".dropdown-student-profile").toggle();
+})
+
+$(document).on('mouseup', function (e){
+  var dropdownStudentProfile = $(".dropdown-student-profile");
+  if (!dropdownStudentProfile.is(e.target) 
+       && dropdownStudentProfile.has(e.target).length === 0
+       && !$(e.target).is('.dotsStudentProfile'))
+  {
+    dropdownStudentProfile.slideUp();
+  }
+});
+
+// Librarian - profile - dropdown
+$(".dotsLibrarianProfile").click(function () {
+  $(".dropdown-librarian-profile").toggle();
+})
+
+$(document).on('mouseup', function (e){
+  var dropdownLibrarianProfile = $(".dropdown-librarian-profile");
+  if (!dropdownLibrarianProfile.is(e.target) 
+       && dropdownLibrarianProfile.has(e.target).length === 0
+       && !$(e.target).is('.dotsLibrarianProfile'))
+  {
+    dropdownLibrarianProfile.slideUp();
   }
 });
