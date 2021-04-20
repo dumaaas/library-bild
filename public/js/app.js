@@ -1224,7 +1224,7 @@ $(document).on('mouseup', function (e){
        && uceniciMenu.has(e.target).length === 0 
        && !$(e.target).is('.uceniciMenu'))
   {
-    uceniciMenu.hide();
+    uceniciMenu.slideUp();
   }
 });
 
@@ -1238,7 +1238,7 @@ $(document).on('mouseup', function (e){
        && uceniciMenu.has(e.target).length === 0 
        && !$(e.target).is('.bibliotekariMenu'))
   {
-    uceniciMenu.hide();
+    uceniciMenu.slideUp();
   }
 });
 
@@ -1252,7 +1252,7 @@ $(document).on('mouseup', function (e){
        && uceniciMenu.has(e.target).length === 0 
        && !$(e.target).is('.knjigeMenu'))
   {
-    uceniciMenu.hide();
+    uceniciMenu.slideUp();
   }
 });
 
@@ -1266,7 +1266,7 @@ $(document).on('mouseup', function (e){
        && uceniciMenu.has(e.target).length === 0 
        && !$(e.target).is('.transakcijeMenu'))
   {
-    uceniciMenu.hide();
+    uceniciMenu.slideUp();
   }
 });
 
@@ -1280,7 +1280,7 @@ $(document).on('mouseup', function (e){
        && uceniciMenu.has(e.target).length === 0 
        && !$(e.target).is('.datumMenu'))
   {
-    uceniciMenu.hide();
+    uceniciMenu.slideUp();
   }
 });
 
