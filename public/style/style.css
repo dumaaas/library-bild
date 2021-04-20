@@ -158,6 +158,26 @@
   width: calc(100% - 300px);
 }
 
+.height-kategorije {
+  height: calc(100% - 165px);
+}
+
+.height-ucenikIzdate {
+  height: calc(100% - 210px);
+}
+
+.height-autori {
+  height: calc(100% - 105px);
+}
+
+.height-evidencija {
+  height: calc(100% - 130px);
+}
+
+.height-iznajmljivanje {
+  height: calc(100% - 160px);
+}
+
 /*Show More/Show less - text*/
 .addReadMore.showlesscontent .SecSec,
 .addReadMore.showlesscontent .readLess {
@@ -944,11 +964,15 @@ h1 {
     color: #374151;
   }
 
-a,p,th,tr {
+a,
+  p,
+  th,
+  tr {
     font-size: 14px;
   }
 
-th, tr {
+th,
+  tr {
     color: #374151;
   }
 
@@ -1041,11 +1065,11 @@ h4 {
 .right-\[12px\]{
   right: 12px;
 }
-.z-0{
-  z-index: 0;
-}
 .z-10{
   z-index: 10;
+}
+.z-0{
+  z-index: 0;
 }
 .z-50{
   z-index: 50;
@@ -2563,10 +2587,6 @@ h4 {
   --tw-text-opacity: 1;
   color: rgba(156, 163, 175, var(--tw-text-opacity));
 }
-.hover\:text-gray-500:hover{
-  --tw-text-opacity: 1;
-  color: rgba(107, 114, 128, var(--tw-text-opacity));
-}
 .hover\:text-blue-800:hover{
   --tw-text-opacity: 1;
   color: rgba(30, 64, 175, var(--tw-text-opacity));
@@ -2622,10 +2642,6 @@ h4 {
 .focus\:ring-blue-600:focus{
   --tw-ring-opacity: 1;
   --tw-ring-color: rgba(37, 99, 235, var(--tw-ring-opacity));
-}
-.active\:text-gray-800:active{
-  --tw-text-opacity: 1;
-  color: rgba(31, 41, 55, var(--tw-text-opacity));
 }
 .disabled\:opacity-50:disabled{
   opacity: 0.5;

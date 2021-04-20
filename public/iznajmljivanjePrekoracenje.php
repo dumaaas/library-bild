@@ -114,7 +114,7 @@
                     </div>
                 </div>
             </div>
-            <div class="flex flex-row h-full overflow-auto">
+            <div class="flex flex-row height-iznajmljivanje scroll">
                 <div class="w-[80%]">
                     <div class="border-b-[1px] border-[#e4dfdf] py-4  border-gray-300 pl-[30px]">
                         <a href="knjigaOsnovniDetalji.php" class="inline hover:text-blue-800">
