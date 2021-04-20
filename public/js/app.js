@@ -2172,6 +2172,86 @@ $(document).on('mouseup', function (e) {
   }
 });
 
+// Iznajmljivanje - izdate knjige - tabela - dropdown
+$(".dotsIznajmljivanjeIzdateKnjige").click(function () {
+  var dotsIznajmljivanjeIzdateKnjige = $(this);
+  var dropdownIznajmljivanjeIzdateKnjige = dotsIznajmljivanjeIzdateKnjige.closest("td").find(".iznajmljivanje-izdate-knjige");
+  dropdownIznajmljivanjeIzdateKnjige.toggle();
+})
+
+$(document).on('mouseup', function (e){
+  var dropdownIznajmljivanjeIzdateKnjige = $(".iznajmljivanje-izdate-knjige");
+  if (!dropdownIznajmljivanjeIzdateKnjige.is(e.target) 
+       && dropdownIznajmljivanjeIzdateKnjige.has(e.target).length === 0)
+  {
+    dropdownIznajmljivanjeIzdateKnjige.slideUp();
+  }
+});
+
+// Iznajmljivanje - vracene knjige - tabela - dropdown
+$(".dotsIznajmljivanjeVraceneKnjige").click(function () {
+  var dotsIznajmljivanjeVraceneKnjige = $(this);
+  var dropdownIznajmljivanjeVraceneKnjige = dotsIznajmljivanjeVraceneKnjige.closest("td").find(".iznajmljivanje-vracene-knjige");
+  dropdownIznajmljivanjeVraceneKnjige.toggle();
+})
+
+$(document).on('mouseup', function (e){
+  var dropdownIznajmljivanjeVraceneKnjige = $(".iznajmljivanje-vracene-knjige");
+  if (!dropdownIznajmljivanjeVraceneKnjige.is(e.target) 
+       && dropdownIznajmljivanjeVraceneKnjige.has(e.target).length === 0)
+  {
+    dropdownIznajmljivanjeVraceneKnjige.slideUp();
+  }
+});
+
+// Iznajmljivanje - knjige u prekoracenju - tabela - dropdown
+$(".dotsIznajmljivanjeKnjigePrekoracenje").click(function () {
+  var dotsIznajmljivanjeKnjigePrekoracenje = $(this);
+  var dropdownIznajmljivanjeKnjigePrekoracenje = dotsIznajmljivanjeKnjigePrekoracenje.closest("td").find(".iznajmljivanje-knjige-prekoracenje");
+  dropdownIznajmljivanjeKnjigePrekoracenje.toggle();
+})
+
+$(document).on('mouseup', function (e){
+  var dropdownIznajmljivanjeKnjigePrekoracenje = $(".iznajmljivanje-knjige-prekoracenje");
+  if (!dropdownIznajmljivanjeKnjigePrekoracenje.is(e.target) 
+       && dropdownIznajmljivanjeKnjigePrekoracenje.has(e.target).length === 0)
+  {
+    dropdownIznajmljivanjeKnjigePrekoracenje.slideUp();
+  }
+});
+
+// Iznajmljivanje - aktivne rezervacije - tabela - dropdown
+$(".dotsIznajmljivanjeAktivneRezervacijeTabela").click(function () {
+  var dotsIznajmljivanjeAktivneRezervacijeTabela = $(this);
+  var dropdownIznajmljivanjeAktivneRezervacijeTabela = dotsIznajmljivanjeAktivneRezervacijeTabela.closest("td").find(".iznajmljivanje-aktivne-rezervacije");
+  dropdownIznajmljivanjeAktivneRezervacijeTabela.toggle();
+})
+
+$(document).on('mouseup', function (e){
+  var dropdownIznajmljivanjeAktivneRezervacijeTabela = $(".iznajmljivanje-aktivne-rezervacije");
+  if (!dropdownIznajmljivanjeAktivneRezervacijeTabela.is(e.target) 
+       && dropdownIznajmljivanjeAktivneRezervacijeTabela.has(e.target).length === 0)
+  {
+    dropdownIznajmljivanjeAktivneRezervacijeTabela.slideUp();
+  }
+});
+
+// Iznajmljivanje - aktivne rezervacije - tabela - dropdown
+$(".dotsIznajmljivanjeArhiviraneRezervacijeTabela").click(function () {
+  var dotsIznajmljivanjeArhiviraneRezervacijeTabela = $(this);
+  var dropdownIznajmljivanjeArhiviraneRezervacijeTabela = dotsIznajmljivanjeArhiviraneRezervacijeTabela.closest("td").find(".iznajmljivanje-arhivirane-rezervacije");
+  dropdownIznajmljivanjeArhiviraneRezervacijeTabela.toggle();
+})
+
+$(document).on('mouseup', function (e){
+  var dropdownIznajmljivanjeArhiviraneRezervacijeTabela = $(".iznajmljivanje-arhivirane-rezervacije");
+  if (!dropdownIznajmljivanjeArhiviraneRezervacijeTabela.is(e.target) 
+       && dropdownIznajmljivanjeArhiviraneRezervacijeTabela.has(e.target).length === 0)
+  {
+    dropdownIznajmljivanjeArhiviraneRezervacijeTabela.slideUp();
+  }
+});
+
 //click on one and check all checkboxes(evidencijaKnjiga.php)
 $('.checkSelect').click(function () {
   if ($(this).is(':checked')) {
