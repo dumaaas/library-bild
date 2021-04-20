@@ -103,9 +103,29 @@
                                     <p>Poezija</p>
                                 </td>
                                 <td class="px-4 py-4 text-sm leading-5 text-right whitespace-no-wrap">
-                                    <p class="inline cursor-pointer text-[20px] py-[10px] px-[30px] border-gray-300">
+                                    <p class="inline cursor-pointer text-[20px] py-[10px] px-[30px] border-gray-300 dotsGenre hover:text-[#606FC7]">
                                         <i class="fas fa-ellipsis-v"></i>
                                     </p>
+                                    <div
+                                        class="z-10 hidden transition-all duration-300 origin-top-right transform scale-95 -translate-y-2 dropdown-genre">
+                                        <div class="absolute right-[25px] w-56 mt-[7px] origin-top-right bg-white border border-gray-200 divide-y divide-gray-100 rounded-md shadow-lg outline-none"
+                                            aria-labelledby="headlessui-menu-button-1" id="headlessui-menu-items-117" role="menu">
+                                            <div class="py-1">
+                                                <a href="editZanr.php" tabindex="0"
+                                                    class="flex w-full px-4 py-2 text-sm leading-5 text-left text-gray-700 outline-none hover:text-blue-600"
+                                                    role="menuitem">
+                                                    <i class="fas fa-edit mr-[1px] ml-[5px] py-1"></i>
+                                                    <span class="px-4 py-0">Izmijeni zanr</span>
+                                                </a>
+                                                <a href="#" tabindex="0"
+                                                    class="flex w-full px-4 py-2 text-sm leading-5 text-left text-gray-700 outline-none hover:text-blue-600"
+                                                    role="menuitem">
+                                                    <i class="fa fa-trash mr-[5px] ml-[5px] py-1"></i>
+                                                    <span class="px-4 py-0">Izbrisi zanr</span>
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
                                 </td>
                             </tr>
                             <tr class="border-b-[1px] border-[#e4dfdf]">
@@ -118,9 +138,29 @@
                                     <p>Strucna literatura</p>
                                 </td>
                                 <td class="px-4 py-4 text-sm leading-5 text-right whitespace-no-wrap">
-                                    <p class="inline cursor-pointer text-[20px] py-[10px] px-[30px] border-gray-300">
+                                    <p class="inline cursor-pointer text-[20px] py-[10px] px-[30px] border-gray-300 dotsGenre hover:text-[#606FC7]">
                                         <i class="fas fa-ellipsis-v"></i>
                                     </p>
+                                    <div
+                                        class="z-10 hidden transition-all duration-300 origin-top-right transform scale-95 -translate-y-2 dropdown-genre">
+                                        <div class="absolute right-[25px] w-56 mt-[7px] origin-top-right bg-white border border-gray-200 divide-y divide-gray-100 rounded-md shadow-lg outline-none"
+                                            aria-labelledby="headlessui-menu-button-1" id="headlessui-menu-items-117" role="menu">
+                                            <div class="py-1">
+                                                <a href="editZanr.php" tabindex="0"
+                                                    class="flex w-full px-4 py-2 text-sm leading-5 text-left text-gray-700 outline-none hover:text-blue-600"
+                                                    role="menuitem">
+                                                    <i class="fas fa-edit mr-[1px] ml-[5px] py-1"></i>
+                                                    <span class="px-4 py-0">Izmijeni zanr</span>
+                                                </a>
+                                                <a href="#" tabindex="0"
+                                                    class="flex w-full px-4 py-2 text-sm leading-5 text-left text-gray-700 outline-none hover:text-blue-600"
+                                                    role="menuitem">
+                                                    <i class="fa fa-trash mr-[5px] ml-[5px] py-1"></i>
+                                                    <span class="px-4 py-0">Izbrisi zanr</span>
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
                                 </td>
                             </tr>
                             <tr class="border-b-[1px] border-[#e4dfdf]">
@@ -133,9 +173,29 @@
                                     <p>Poezija</p>
                                 </td>
                                 <td class="px-4 py-4 text-sm leading-5 text-right whitespace-no-wrap">
-                                    <p class="inline cursor-pointer text-[20px] py-[10px] px-[30px] border-gray-300">
+                                    <p class="inline cursor-pointer text-[20px] py-[10px] px-[30px] border-gray-300 dotsGenre hover:text-[#606FC7]">
                                         <i class="fas fa-ellipsis-v"></i>
                                     </p>
+                                    <div
+                                        class="z-10 hidden transition-all duration-300 origin-top-right transform scale-95 -translate-y-2 dropdown-genre">
+                                        <div class="absolute right-[25px] w-56 mt-[7px] origin-top-right bg-white border border-gray-200 divide-y divide-gray-100 rounded-md shadow-lg outline-none"
+                                            aria-labelledby="headlessui-menu-button-1" id="headlessui-menu-items-117" role="menu">
+                                            <div class="py-1">
+                                                <a href="editZanr.php" tabindex="0"
+                                                    class="flex w-full px-4 py-2 text-sm leading-5 text-left text-gray-700 outline-none hover:text-blue-600"
+                                                    role="menuitem">
+                                                    <i class="fas fa-edit mr-[1px] ml-[5px] py-1"></i>
+                                                    <span class="px-4 py-0">Izmijeni zanr</span>
+                                                </a>
+                                                <a href="#" tabindex="0"
+                                                    class="flex w-full px-4 py-2 text-sm leading-5 text-left text-gray-700 outline-none hover:text-blue-600"
+                                                    role="menuitem">
+                                                    <i class="fa fa-trash mr-[5px] ml-[5px] py-1"></i>
+                                                    <span class="px-4 py-0">Izbrisi zanr</span>
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
                                 </td>
                             </tr>
                             <tr class="border-b-[1px] border-[#e4dfdf]">
@@ -148,9 +208,29 @@
                                     <p>Strucna literatura</p>
                                 </td>
                                 <td class="px-4 py-4 text-sm leading-5 text-right whitespace-no-wrap">
-                                    <p class="inline cursor-pointer text-[20px] py-[10px] px-[30px] border-gray-300">
+                                    <p class="inline cursor-pointer text-[20px] py-[10px] px-[30px] border-gray-300 dotsGenre hover:text-[#606FC7]">
                                         <i class="fas fa-ellipsis-v"></i>
                                     </p>
+                                    <div
+                                        class="z-10 hidden transition-all duration-300 origin-top-right transform scale-95 -translate-y-2 dropdown-genre">
+                                        <div class="absolute right-[25px] w-56 mt-[7px] origin-top-right bg-white border border-gray-200 divide-y divide-gray-100 rounded-md shadow-lg outline-none"
+                                            aria-labelledby="headlessui-menu-button-1" id="headlessui-menu-items-117" role="menu">
+                                            <div class="py-1">
+                                                <a href="editZanr.php" tabindex="0"
+                                                    class="flex w-full px-4 py-2 text-sm leading-5 text-left text-gray-700 outline-none hover:text-blue-600"
+                                                    role="menuitem">
+                                                    <i class="fas fa-edit mr-[1px] ml-[5px] py-1"></i>
+                                                    <span class="px-4 py-0">Izmijeni zanr</span>
+                                                </a>
+                                                <a href="#" tabindex="0"
+                                                    class="flex w-full px-4 py-2 text-sm leading-5 text-left text-gray-700 outline-none hover:text-blue-600"
+                                                    role="menuitem">
+                                                    <i class="fa fa-trash mr-[5px] ml-[5px] py-1"></i>
+                                                    <span class="px-4 py-0">Izbrisi zanr</span>
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
                                 </td>
                             </tr>
                             <tr class="border-b-[1px] border-[#e4dfdf]">
@@ -163,9 +243,29 @@
                                     <p>Poezija</p>
                                 </td>
                                 <td class="px-4 py-4 text-sm leading-5 text-right whitespace-no-wrap">
-                                    <p class="inline cursor-pointer text-[20px] py-[10px] px-[30px] border-gray-300">
+                                    <p class="inline cursor-pointer text-[20px] py-[10px] px-[30px] border-gray-300 dotsGenre hover:text-[#606FC7]">
                                         <i class="fas fa-ellipsis-v"></i>
                                     </p>
+                                    <div
+                                        class="z-10 hidden transition-all duration-300 origin-top-right transform scale-95 -translate-y-2 dropdown-genre">
+                                        <div class="absolute right-[25px] w-56 mt-[7px] origin-top-right bg-white border border-gray-200 divide-y divide-gray-100 rounded-md shadow-lg outline-none"
+                                            aria-labelledby="headlessui-menu-button-1" id="headlessui-menu-items-117" role="menu">
+                                            <div class="py-1">
+                                                <a href="editZanr.php" tabindex="0"
+                                                    class="flex w-full px-4 py-2 text-sm leading-5 text-left text-gray-700 outline-none hover:text-blue-600"
+                                                    role="menuitem">
+                                                    <i class="fas fa-edit mr-[1px] ml-[5px] py-1"></i>
+                                                    <span class="px-4 py-0">Izmijeni zanr</span>
+                                                </a>
+                                                <a href="#" tabindex="0"
+                                                    class="flex w-full px-4 py-2 text-sm leading-5 text-left text-gray-700 outline-none hover:text-blue-600"
+                                                    role="menuitem">
+                                                    <i class="fa fa-trash mr-[5px] ml-[5px] py-1"></i>
+                                                    <span class="px-4 py-0">Izbrisi zanr</span>
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
                                 </td>
                             </tr>
                             <tr class="border-b-[1px] border-[#e4dfdf]">
@@ -178,9 +278,29 @@
                                     <p>Strucna literatura</p>
                                 </td>
                                 <td class="px-4 py-4 text-sm leading-5 text-right whitespace-no-wrap">
-                                    <p class="inline cursor-pointer text-[20px] py-[10px] px-[30px] border-gray-300">
+                                    <p class="inline cursor-pointer text-[20px] py-[10px] px-[30px] border-gray-300 dotsGenre hover:text-[#606FC7]">
                                         <i class="fas fa-ellipsis-v"></i>
                                     </p>
+                                    <div
+                                        class="z-10 hidden transition-all duration-300 origin-top-right transform scale-95 -translate-y-2 dropdown-genre">
+                                        <div class="absolute right-[25px] w-56 mt-[7px] origin-top-right bg-white border border-gray-200 divide-y divide-gray-100 rounded-md shadow-lg outline-none"
+                                            aria-labelledby="headlessui-menu-button-1" id="headlessui-menu-items-117" role="menu">
+                                            <div class="py-1">
+                                                <a href="editZanr.php" tabindex="0"
+                                                    class="flex w-full px-4 py-2 text-sm leading-5 text-left text-gray-700 outline-none hover:text-blue-600"
+                                                    role="menuitem">
+                                                    <i class="fas fa-edit mr-[1px] ml-[5px] py-1"></i>
+                                                    <span class="px-4 py-0">Izmijeni zanr</span>
+                                                </a>
+                                                <a href="#" tabindex="0"
+                                                    class="flex w-full px-4 py-2 text-sm leading-5 text-left text-gray-700 outline-none hover:text-blue-600"
+                                                    role="menuitem">
+                                                    <i class="fa fa-trash mr-[5px] ml-[5px] py-1"></i>
+                                                    <span class="px-4 py-0">Izbrisi zanr</span>
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
                                 </td>
                             </tr>
                         </tbody>

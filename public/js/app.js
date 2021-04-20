@@ -1034,6 +1034,29 @@ $("#sacuvajZanr").keypress(function (e) {
   }
 });
 
+// Form validation for editing genre info
+function validacijaZanrEdit() {
+
+  $("#validateNazivZanraEdit").empty();
+
+  let nazivZanraEdit = $("#nazivZanraEdit").val();
+
+  if (nazivZanraEdit.length == 0) {
+    $('#validateNazivZanraEdit').append('<p style="color:red;font-size:13px;">Morate unijeti naziv zanra!</p>');
+  }
+}
+
+function clearErrorsNazivZanraEdit() {
+  $("#validateNazivZanraEdit").empty();
+}
+
+$("#sacuvajZanrEdit").keypress(function (e) {
+  if (e.which == 13) {
+    validacijaZanrEdit();
+    return false;
+  }
+});
+
 // Form validation for new publisher
 function validacijaIzdavac() {
 
@@ -1483,5 +1506,21 @@ $(document).on('mouseup', function (e){
        && dropdownCategory.has(e.target).length === 0)
   {
     dropdownCategory.slideUp();
+  }
+});
+
+// Genre - table - dropdown
+$(".dotsGenre").click(function () {
+  var dotsGenre = $(this);
+  var dropdownGenre = dotsGenre.closest("td").find(".dropdown-genre");
+  dropdownGenre.toggle();
+})
+
+$(document).on('mouseup', function (e){
+  var dropdownGenre = $(".dropdown-genre");
+  if (!dropdownGenre.is(e.target) 
+       && dropdownGenre.has(e.target).length === 0)
+  {
+    dropdownGenre.slideUp();
   }
 });
