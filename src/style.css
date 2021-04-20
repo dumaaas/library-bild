@@ -5,6 +5,17 @@
   font-family: 'Rubik';
 }
 
+/*Button - transition*/
+
+.btn-animation {
+  transition: all 0.3s;
+}
+
+.btn-animation:hover {
+  transform: scale(1.05);
+}
+
+/*Login - background*/
 .bg-login {
   background-image: url('../img/login.jpg');
 }
