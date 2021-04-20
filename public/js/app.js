@@ -1680,3 +1680,35 @@ $(document).on('mouseup', function (e){
     dropdownScript.slideUp();
   }
 });
+
+// Librarian - table - dropdown
+$(".dotsLibrarian").click(function () {
+  var dotsLibrarian = $(this);
+  var dropdownLibrarian = dotsLibrarian.closest("td").find(".dropdown-librarian");
+  dropdownLibrarian.toggle();
+})
+
+$(document).on('mouseup', function (e){
+  var dropdownLibrarian = $(".dropdown-librarian");
+  if (!dropdownLibrarian.is(e.target) 
+       && dropdownLibrarian.has(e.target).length === 0)
+  {
+    dropdownLibrarian.slideUp();
+  }
+});
+
+// Student - table - dropdown
+$(".dotsStudent").click(function () {
+  var dotsStudent = $(this);
+  var dropdownStudent = dotsStudent.closest("td").find(".dropdown-student");
+  dropdownStudent.toggle();
+})
+
+$(document).on('mouseup', function (e){
+  var dropdownStudent = $(".dropdown-student");
+  if (!dropdownStudent.is(e.target) 
+       && dropdownStudent.has(e.target).length === 0)
+  {
+    dropdownStudent.slideUp();
+  }
+});
