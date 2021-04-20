@@ -1724,6 +1724,68 @@ $(document).on('mouseup', function (e){
   }
 });
 
+// Student - profile - record - dropdown
+$(".dotsStudentProfileEvidencija").click(function () {
+  $(".dropdown-student-profile-evidencija").toggle();
+})
+
+$(document).on('mouseup', function (e){
+  var dropdownStudentProfileEvidencija = $(".dropdown-student-profile-evidencija");
+  if (!dropdownStudentProfileEvidencija.is(e.target) 
+       && dropdownStudentProfileEvidencija.has(e.target).length === 0
+       && !$(e.target).is('.dotsStudentProfileEvidencija'))
+  {
+    dropdownStudentProfileEvidencija.slideUp();
+  }
+});
+
+// Student - profile - vracene knjige - dropdown
+$(".dotsUcenikVraceneKnjige").click(function () {
+  $(".ucenik-vracene-knjige").toggle();
+})
+
+$(document).on('mouseup', function (e){
+  var dropdownUcenikVraceneKnjige = $(".ucenik-vracene-knjige");
+  if (!dropdownUcenikVraceneKnjige.is(e.target) 
+       && dropdownUcenikVraceneKnjige.has(e.target).length === 0
+       && !$(e.target).is('.dotsUcenikVraceneKnjige'))
+  {
+    dropdownUcenikVraceneKnjige.slideUp();
+  }
+});
+
+// Student - profile - book record - dropdown
+$(".dotsStudentProfileBookRecord").click(function () {
+  var dotsStudentProfileBookRecord = $(this);
+  var dropdownStudentProfileEvidencijaKnjige = dotsStudentProfileBookRecord.closest("td").find(".dropdown-student-profile-evidencija-knjige");
+  dropdownStudentProfileEvidencijaKnjige.toggle();
+})
+
+$(document).on('mouseup', function (e){
+  var dropdownStudentProfileEvidencijaKnjige = $(".dropdown-student-profile-evidencija-knjige");
+  if (!dropdownStudentProfileEvidencijaKnjige.is(e.target) 
+       && dropdownStudentProfileEvidencijaKnjige.has(e.target).length === 0)
+  {
+    dropdownStudentProfileEvidencijaKnjige.slideUp();
+  }
+});
+
+// Student - profile - vracene knjige tabela - dropdown
+$(".dotsUcenikVraceneKnjigeTabela").click(function () {
+  var dotsUcenikVraceneKnjigeTabela = $(this);
+  var dropdownUcenikVraceneKnjigeTabela = dotsUcenikVraceneKnjigeTabela.closest("td").find(".ucenik-vracene-knjige-tabela");
+  dropdownUcenikVraceneKnjigeTabela.toggle();
+})
+
+$(document).on('mouseup', function (e){
+  var dropdownUcenikVraceneKnjigeTabela = $(".ucenik-vracene-knjige-tabela");
+  if (!dropdownUcenikVraceneKnjigeTabela.is(e.target) 
+       && dropdownUcenikVraceneKnjigeTabela.has(e.target).length === 0)
+  {
+    dropdownUcenikVraceneKnjigeTabela.slideUp();
+  }
+});
+
 // Librarian - profile - dropdown
 $(".dotsLibrarianProfile").click(function () {
   $(".dropdown-librarian-profile").toggle();
