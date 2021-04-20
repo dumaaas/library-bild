@@ -93,7 +93,7 @@
                 <a href="ucenikProfile.php" class="inline hover:text-blue-800">
                     Osnovni detalji
                 </a>
-                <a href="ucenikEvidencija.php" class="inline ml-[70px] active-book-nav">
+                <a href="ucenikIzdate.php" class="inline ml-[70px] active-book-nav">
                     Evidencija iznajmljivanja
                 </a>
             </div>

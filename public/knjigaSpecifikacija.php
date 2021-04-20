@@ -52,7 +52,7 @@
                                 <nav class="w-full rounded">
                                     <ol class="flex list-reset">
                                         <li>
-                                            <a href="evidencija.php" class="text-[#2196f3] hover:text-blue-600">
+                                            <a href="evidencijaKnjiga.php" class="text-[#2196f3] hover:text-blue-600">
                                                 Evidencija knjiga
                                             </a>
                                         </li>
@@ -124,7 +124,7 @@
                         <a href="knjigaSpecifikacija.php" class="inline ml-[70px] active-book-nav hover:text-blue-800">
                             Specifikacija
                         </a>
-                        <a href="evidencijaIznajmljivanja.php" class="inline ml-[70px] hover:text-blue-800">
+                        <a href="iznajmljivanjeIzdate.php" class="inline ml-[70px] hover:text-blue-800">
                             Evidencija iznajmljivanja
                         </a>
                         <a href="evidencijaKnjigaMultimedija.php" class="inline ml-[70px] hover:text-blue-800">
@@ -179,15 +179,15 @@
                             <div class="text-center pb-[30px]">
                                 <p class=" bg-green-200 text-green-700 rounded-[10px] px-[6px] py-[2px] text-[14px]">5
                                     primjeraka</p>
-                                <p
+                                <a href="iznajmljivanjeAktivne.php"><p
                                     class=" mt-[16px] bg-yellow-200 text-yellow-700 rounded-[10px] px-[6px] py-[2px] text-[14px]">
-                                    2 primjerka</p>
-                                <p
+                                    2 primjerka</p></a>
+                                    <a href="iznajmljivanjeIzdate.php"><p
                                     class=" mt-[16px] bg-blue-200 text-blue-800 rounded-[10px] px-[6px] py-[2px] text-[14px]">
-                                    102 primjerka</p>
-                                <p
+                                    102 primjerka</p></a>
+                                    <a href="iznajmljivanjePrekoracenje.php"> <p
                                     class=" mt-[16px] bg-red-200 text-red-800 rounded-[10px] px-[6px] py-[2px] text-[14px]">
-                                    2 primjerka</p>
+                                    2 primjerka</p></a>
                                 <p
                                     class=" mt-[16px] border-[1px] border-green-700 text-green-700 rounded-[10px] px-[6px] py-[2px] text-[14px]">
                                     15 primjeraka</p>
