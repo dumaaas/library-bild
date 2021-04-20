@@ -267,7 +267,7 @@
                                         </td>
                                         <td class="px-4 py-3 text-sm leading-5 text-right whitespace-no-wrap">
                                             <p
-                                                class="inline cursor-pointer text-[20px] py-[10px] px-[30px] border-gray-300 dotsUcenikAktivneKnjige hover:text-[#606FC7]">
+                                                class="hidden inline cursor-pointer text-[20px] py-[10px] px-[30px] border-gray-300 dotsUcenikAktivneKnjige hover:text-[#606FC7]">
                                                 <i class="fas fa-ellipsis-v"></i>
                                             </p>
                                             <div
@@ -376,7 +376,7 @@
                                         </td>
                                         <td class="px-4 py-3 text-sm leading-5 text-right whitespace-no-wrap">
                                             <p
-                                                class="inline cursor-pointer text-[20px] py-[10px] px-[30px] border-gray-300 dotsUcenikAktivneKnjige hover:text-[#606FC7]">
+                                                class="hidden inline cursor-pointer text-[20px] py-[10px] px-[30px] border-gray-300 dotsUcenikAktivneKnjige hover:text-[#606FC7]">
                                                 <i class="fas fa-ellipsis-v"></i>
                                             </p>
                                             <div
@@ -485,7 +485,7 @@
                                         </td>
                                         <td class="px-4 py-3 text-sm leading-5 text-right whitespace-no-wrap">
                                             <p
-                                                class="inline cursor-pointer text-[20px] py-[10px] px-[30px] border-[#e4dfdf] dotsUcenikAktivneKnjige hover:text-[#606FC7]">
+                                                class="hidden inline cursor-pointer text-[20px] py-[10px] px-[30px] border-[#e4dfdf] dotsUcenikAktivneKnjige hover:text-[#606FC7]">
                                                 <i class="fas fa-ellipsis-v"></i>
                                             </p>
                                             <div
@@ -594,7 +594,7 @@
                                         </td>
                                         <td class="px-4 py-3 text-sm leading-5 text-right whitespace-no-wrap">
                                             <p
-                                                class="inline cursor-pointer text-[20px] py-[10px] px-[30px] border-gray-300 dotsUcenikAktivneKnjige hover:text-[#606FC7]">
+                                                class="hidden inline cursor-pointer text-[20px] py-[10px] px-[30px] border-gray-300 dotsUcenikAktivneKnjige hover:text-[#606FC7]">
                                                 <i class="fas fa-ellipsis-v"></i>
                                             </p>
                                             <div
