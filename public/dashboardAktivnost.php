@@ -61,12 +61,12 @@
                             <div class="">
                                 <div class="rounded">
                                     <div class="relative">
-                                        <button class="w-auto rounded focus:outline-none" id="uceniciMenu">
+                                        <button class="w-auto rounded focus:outline-none uceniciDrop-toggle">
                                             <span class="float-left">Ucenici: Svi <i
                                                     class="px-[7px] fas fa-angle-down"></i></span>
                                         </button>
                                         <div id="uceniciDropdown"
-                                            class="uceniciMenu hidden absolute rounded bg-white min-w-[310px] p-[10px] shadow-md pin-t pin-l border-2 border-gray-300">
+                                            class="uceniciMenu hidden absolute rounded bg-white min-w-[310px] p-[10px] shadow-md top-[42px] pin-l border-2 border-gray-300">
                                             <ul class="border-b-2 border-gray-300 list-reset">
                                                 <li class="p-2 pb-[15px] border-b-[2px] relative border-gray-300">
                                                     <input class="w-full h-10 px-2 border-2 rounded focus:outline-none"
@@ -206,7 +206,7 @@
                             <div class="ml-[25px]">
                                 <div class="rounded">
                                     <div class="relative">
-                                        <button class="w-auto rounded focus:outline-none" id="bibliotekariMenu">
+                                        <button class="w-auto rounded focus:outline-none bibliotekariDrop-toggle">
                                             <span class="float-left">Bibliotekari: Svi <i
                                                     class="px-[7px] fas fa-angle-down"></i></span>
                                         </button>
@@ -602,7 +602,7 @@
                             <div class="ml-[25px]">
                                 <div class="rounded">
                                     <div class="relative">
-                                        <button class="w-auto rounded focus:outline-none" id="datumMenu">
+                                        <button class="w-auto rounded focus:outline-none datumDrop-toggle">
                                             <span class="float-left">Datum: Svi <i
                                                     class="px-[7px] fas fa-angle-down"></i></span>
                                         </button>
