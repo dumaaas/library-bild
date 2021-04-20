@@ -1047,14 +1047,14 @@ h4 {
 .z-10{
   z-index: 10;
 }
-.z-20{
-  z-index: 20;
-}
 .z-50{
   z-index: 50;
 }
 .z-40{
   z-index: 40;
+}
+.z-20{
+  z-index: 20;
 }
 .float-left{
   float: left;
@@ -1244,6 +1244,9 @@ h4 {
 .mr-\[6px\]{
   margin-right: 6px;
 }
+.mr-\[14px\]{
+  margin-right: 14px;
+}
 .ml-\[70px\]{
   margin-left: 70px;
 }
@@ -1267,9 +1270,6 @@ h4 {
 }
 .mt-\[19px\]{
   margin-top: 19px;
-}
-.mr-\[14px\]{
-  margin-right: 14px;
 }
 .mb-4{
   margin-bottom: 1rem;

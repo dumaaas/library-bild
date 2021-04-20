@@ -1976,6 +1976,20 @@ $(document).on('mouseup', function (e){
   }
 });
 
+// knjiga - osnovni detalji - dropdown
+$(".dotsKnjigaOsnovniDetalji").click(function () {
+  $(".dropdown-knjiga-osnovni-detalji").toggle();
+})
+
+$(document).on('mouseup', function (e) {
+  var dropdownKnjigaOsnovniDetalji = $(".dropdown-knjiga-osnovni-detalji");
+  if (!dropdownKnjigaOsnovniDetalji.is(e.target) &&
+  dropdownKnjigaOsnovniDetalji.has(e.target).length === 0 &&
+    !$(e.target).is('.dotsKnjigaOsnovniDetalji')) {
+      dropdownKnjigaOsnovniDetalji.slideUp();
+  }
+});
+
 //click on one and check all checkboxes(evidencijaKnjiga.php)
 $('.checkSelect').click(function () {
   if ($(this).is(':checked')) {
