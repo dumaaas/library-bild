@@ -1215,31 +1215,22 @@ function sortTableDate(row) {
 }
 
 $('#uceniciMenu').on('click', function () {
-
   $('.uceniciMenu').toggle();
-  $('.bibliotekariMenu').addClass('hidden');
-  $('.knjigeMenu').addClass('hidden');
-  $('.transakcijeMenu').addClass('hidden');
-
 })
 
 $('#bibliotekariMenu').on('click', function () {
-
   $('.bibliotekariMenu').toggle();
 })
 
 $('#knjigeMenu').on('click', function () {
-
   $('.knjigeMenu').toggle();
 })
 
 $('#transakcijeMenu').on('click', function () {
-
   $('.transakcijeMenu').toggle();
 })
 
 $('#datumMenu').on('click', function () {
-
   $('.datumMenu').toggle();
 })
 
