@@ -69,91 +69,6 @@ $(document).ready(function () {
     $('.activity-showMore').show();
   }
 
-  // Dropdown
-   $('#dropdownBookRow1').click(function () {
-    $('.dropdown-menu-book-row1').toggle();
-  });
-
-  $('#dropdownBookRow2').click(function () {
-    $('.dropdown-menu-book-row2').toggle();
-  });
-
-  $('#dropdownBookRow3').click(function () {
-    $('.dropdown-menu-book-row3').toggle();
-  });
-
-  $('#dropdownBookRow4').click(function () {
-    $('.dropdown-menu-book-row4').toggle();
-  });
-
-  $('#dropdownBookDetail').click(function () {
-    $('.dropdown-menu-book-detail').toggle();
-  });
-
-  $('#dropdownRentalRecordRow1').click(function () {
-    $('.dropdown-menu-rental-record-row1').toggle();
-  });
-
-  $('#dropdownRentalRecordRow2').click(function () {
-    $('.dropdown-menu-rental-record-row2').toggle();
-  });
-
-  $('#dropdownRentalRecordRow3').click(function () {
-    $('.dropdown-menu-rental-record-row3').toggle();
-  });
-
-  $('#dropdownRentalRecordRow4').click(function () {
-    $('.dropdown-menu-rental-record-row4').toggle();
-  });
-
-  $('#dropdownRentalRecordRow5').click(function () {
-    $('.dropdown-menu-rental-record-row5').toggle();
-  });
-
-  $('#dropdownRentalRecordRow6').click(function () {
-    $('.dropdown-menu-rental-record-row6').toggle();
-  });
-
-  $('#dropdownRentalRecordRow7').click(function () {
-    $('.dropdown-menu-rental-record-row7').toggle();
-  });
-
-  $('#dropdownRentalRecordRow8').click(function () {
-    $('.dropdown-menu-rental-record-row8').toggle();
-  });
-
-  $('#dropdownRentalRecordDetailsRow1').click(function () {
-    $('.dropdown-menu-rental-record-details-row1').toggle();
-  });
-
-  $('#dropdownRentalRecordDetailsRow2').click(function () {
-    $('.dropdown-menu-rental-record-details-row2').toggle();
-  });
-
-  $('#dropdownRentalRecordDetailsRow3').click(function () {
-    $('.dropdown-menu-rental-record-details-row3').toggle();
-  });
-
-  $('#dropdownRentalRecordDetailsRow4').click(function () {
-    $('.dropdown-menu-rental-record-details-row4').toggle();
-  });
-
-  $('#dropdownRentalRecordDetailsRow5').click(function () {
-    $('.dropdown-menu-rental-record-details-row5').toggle();
-  });
-
-  $('#dropdownRentalRecordDetailsRow6').click(function () {
-    $('.dropdown-menu-rental-record-details-row6').toggle();
-  });
-
-  $('#dropdownRentalRecordDetailsRow7').click(function () {
-    $('.dropdown-menu-rental-record-details-row7').toggle();
-  });
-
-  $('#dropdownRentalRecordDetailsRow8').click(function () {
-    $('.dropdown-menu-rental-record-details-row8').toggle();
-  });
-
   // Form
   $(".forma").submit(function (e) {
     e.preventDefault();
@@ -1825,6 +1740,51 @@ $(document).on('mouseup', function (e){
   }
 });
 
+// Student - profile - knjige u prekoracenju - dropdown
+$(".dotsUcenikKnjigePrekoracenje").click(function () {
+  $(".ucenik-prekoracenje-knjige").toggle();
+})
+
+$(document).on('mouseup', function (e){
+  var dropdownUcenikKnjigePrekoracenje = $(".ucenik-prekoracenje-knjige");
+  if (!dropdownUcenikKnjigePrekoracenje.is(e.target) 
+       && dropdownUcenikKnjigePrekoracenje.has(e.target).length === 0
+       && !$(e.target).is('.dotsUcenikKnjigePrekoracenje'))
+  {
+    dropdownUcenikKnjigePrekoracenje.slideUp();
+  }
+});
+
+// Student - profile - aktivne knjige - dropdown
+$(".dotsUcenikKnjigeAktivne").click(function () {
+  $(".ucenik-aktivne-knjige").toggle();
+})
+
+$(document).on('mouseup', function (e){
+  var dropdownUcenikKnjigeAktivne = $(".ucenik-aktivne-knjige");
+  if (!dropdownUcenikKnjigeAktivne.is(e.target) 
+       && dropdownUcenikKnjigeAktivne.has(e.target).length === 0
+       && !$(e.target).is('.dotsUcenikKnjigeAktivne'))
+  {
+    dropdownUcenikKnjigeAktivne.slideUp();
+  }
+});
+
+// Student - profile - arhivirane knjige - dropdown
+$(".dotsUcenikKnjigeArhivirane").click(function () {
+  $(".ucenik-arhivirane-knjige").toggle();
+})
+
+$(document).on('mouseup', function (e){
+  var dropdownUcenikKnjigeArhivirane = $(".ucenik-arhivirane-knjige");
+  if (!dropdownUcenikKnjigeArhivirane.is(e.target) 
+       && dropdownUcenikKnjigeArhivirane.has(e.target).length === 0
+       && !$(e.target).is('.dotsUcenikKnjigeArhivirane'))
+  {
+    dropdownUcenikKnjigeArhivirane.slideUp();
+  }
+});
+
 // Student - profile - book record - dropdown
 $(".dotsStudentProfileBookRecord").click(function () {
   var dotsStudentProfileBookRecord = $(this);
@@ -1854,6 +1814,54 @@ $(document).on('mouseup', function (e){
        && dropdownUcenikVraceneKnjigeTabela.has(e.target).length === 0)
   {
     dropdownUcenikVraceneKnjigeTabela.slideUp();
+  }
+});
+
+// Student - profile - knjige u prekoracenju tabela - dropdown
+$(".dotsUcenikPrekoracenjeKnjige").click(function () {
+  var dotsUcenikPrekoracenjeKnjige = $(this);
+  var dropdownPrekoracenjeKnjige = dotsUcenikPrekoracenjeKnjige.closest("td").find(".ucenik-prekoracenje-knjige-tabela");
+  dropdownPrekoracenjeKnjige.toggle();
+})
+
+$(document).on('mouseup', function (e){
+  var dropdownPrekoracenjeKnjige = $(".ucenik-prekoracenje-knjige-tabela");
+  if (!dropdownPrekoracenjeKnjige.is(e.target) 
+       && dropdownPrekoracenjeKnjige.has(e.target).length === 0)
+  {
+    dropdownPrekoracenjeKnjige.slideUp();
+  }
+});
+
+// Student - profile - aktivne knjige tabela - dropdown
+$(".dotsUcenikAktivneKnjige").click(function () {
+  var dotsUcenikAktivneKnjige = $(this);
+  var dropdownAktivneKnjige = dotsUcenikAktivneKnjige.closest("td").find(".ucenik-aktivne-knjige-tabela");
+  dropdownAktivneKnjige.toggle();
+})
+
+$(document).on('mouseup', function (e){
+  var dropdownAktivneKnjige = $(".ucenik-aktivne-knjige-tabela");
+  if (!dropdownAktivneKnjige.is(e.target) 
+       && dropdownAktivneKnjige.has(e.target).length === 0)
+  {
+    dropdownAktivneKnjige.slideUp();
+  }
+});
+
+// Student - profile - arhivirane knjige tabela - dropdown
+$(".dotsUcenikArhiviraneKnjige").click(function () {
+  var dotsUcenikArhiviraneKnjige = $(this);
+  var dropdownArhiviraneKnjige = dotsUcenikArhiviraneKnjige.closest("td").find(".ucenik-arhivirane-knjige-tabela");
+  dropdownArhiviraneKnjige.toggle();
+})
+
+$(document).on('mouseup', function (e){
+  var dropdownArhiviraneKnjige = $(".ucenik-arhivirane-knjige-tabela");
+  if (!dropdownArhiviraneKnjige.is(e.target) 
+       && dropdownArhiviraneKnjige.has(e.target).length === 0)
+  {
+    dropdownArhiviraneKnjige.slideUp();
   }
 });
 

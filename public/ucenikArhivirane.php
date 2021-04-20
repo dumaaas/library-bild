@@ -69,18 +69,22 @@
                             <i class="fas fa-redo-alt mr-[3px]"></i>
                             Resetuj sifru
                         </a>
-                        <a href="#" class="hover:text-blue-600 inline ml-[20px] pr-[10px]">
+                        <a href="editUcenik.php" class="hover:text-blue-600 inline ml-[20px] pr-[10px]">
                             <i class="fas fa-edit mr-[3px] "></i>
                             Izmjeni podatke
                         </a>
-                        <p class="inline cursor-pointer text-[25px] py-[10px] pl-[30px] border-l-[1px] border-gray-300" id="dropdownStudent">
-                            <i class="fas fa-ellipsis-v hover:text-gray-500 focus:outline-none active:text-gray-800"></i>
+                        <p class="inline cursor-pointer text-[25px] py-[10px] pl-[30px] border-l-[1px] border-gray-300 dotsUcenikKnjigeArhivirane hover:text-[#606FC7]">
+                            <i class="fas fa-ellipsis-v"></i>
                         </p>
-                        <div class="hidden transition-all duration-300 origin-top-right transform scale-95 -translate-y-2 dropdown-menu-student">
-                            <div class="absolute right-0 w-56 mt-2 origin-top-right bg-white border border-gray-200 divide-y divide-gray-100 rounded-md shadow-lg outline-none" aria-labelledby="headlessui-menu-button-1" id="headlessui-menu-items-117" role="menu">
+                        <div
+                            class="z-10 hidden transition-all duration-300 origin-top-right transform scale-95 -translate-y-2 ucenik-arhivirane-knjige">
+                            <div class="absolute right-0 w-56 mt-[10px] origin-top-right bg-white border border-gray-200 divide-y divide-gray-100 rounded-md shadow-lg outline-none"
+                                aria-labelledby="headlessui-menu-button-1" id="headlessui-menu-items-117" role="menu">
                                 <div class="py-1">
-                                    <a href="javascript:void(0)" tabindex="0" class="flex w-full px-4 py-2 text-sm leading-5 text-left text-gray-700"  role="menuitem" >
-                                        <i class="fa fa-trash mr-[10px] ml-[5px] py-1"></i>
+                                    <a href="#" tabindex="0"
+                                        class="flex w-full px-4 py-2 text-sm leading-5 text-left text-gray-700 outline-none hover:text-blue-600"
+                                        role="menuitem">
+                                        <i class="fa fa-trash mr-[5px] ml-[5px] py-1"></i>
                                         <span class="px-4 py-0">Izbrisi korisnika</span>
                                     </a>
                                 </div>
@@ -241,9 +245,66 @@
                                             </div>
                                         </td>
                                         <td class="px-4 py-3 text-sm leading-5 text-right whitespace-no-wrap">
-                                            <p class="inline cursor-pointer text-[20px] py-[10px] px-[30px] border-gray-300">
+                                            <p class="inline cursor-pointer text-[20px] py-[10px] px-[30px] border-gray-300 dotsUcenikArhiviraneKnjige hover:text-[#606FC7]">
                                                 <i class="fas fa-ellipsis-v"></i>
                                             </p>
+                                            <div
+                                                class="hidden transition-all duration-300 origin-top-right transform scale-95 -translate-y-2 ucenik-arhivirane-knjige-tabela">
+                                                <div class="absolute right-0 w-56 mt-2 origin-top-right bg-white border border-gray-200 divide-y divide-gray-100 rounded-md shadow-lg outline-none"
+                                                    aria-labelledby="headlessui-menu-button-1"
+                                                    id="headlessui-menu-items-117" role="menu">
+                                                    <div class="py-1">
+                                                        <a href="knjigaOsnovniDetalji.php" tabindex="0"
+                                                            class="flex w-full px-4 py-2 text-sm leading-5 text-left text-gray-700 outline-none hover:text-blue-600"
+                                                            role="menuitem">
+                                                            <i class="far fa-file mr-[10px] ml-[5px] py-1"></i>
+                                                            <span class="px-4 py-0">Pogledaj detalje</span>
+                                                        </a>
+
+                                                        <a href="editKnjiga.php" tabindex="0"
+                                                            class="flex w-full px-4 py-2 text-sm leading-5 text-left text-gray-700 outline-none hover:text-blue-600"
+                                                            role="menuitem">
+                                                            <i class="fas fa-edit mr-[6px] ml-[5px] py-1"></i>
+                                                            <span class="px-4 py-0">Izmijeni knjigu</span>
+                                                        </a>
+
+                                                        <a href="izdajKnjigu.php" tabindex="0"
+                                                            class="flex w-full px-4 py-2 text-sm leading-5 text-left text-gray-700 outline-none hover:text-blue-600"
+                                                            role="menuitem">
+                                                            <i class="far fa-hand-scissors mr-[10px] ml-[5px] py-1"></i>
+                                                            <span class="px-4 py-0">Izdaj knjigu</span>
+                                                        </a>
+
+                                                        <a href="rezervisiKnjigu.php" tabindex="0"
+                                                            class="flex w-full px-4 py-2 text-sm leading-5 text-left text-gray-700 outline-none hover:text-blue-600"
+                                                            role="menuitem">
+                                                            <i class="far fa-calendar-check mr-[10px] ml-[5px] py-1"></i>
+                                                            <span class="px-4 py-0">Rezervisi knjigu</span>
+                                                        </a>
+
+                                                        <a href="vratiKnjigu.php" tabindex="0"
+                                                            class="flex w-full px-4 py-2 text-sm leading-5 text-left text-gray-700 outline-none hover:text-blue-600"
+                                                            role="menuitem">
+                                                            <i class="fas fa-redo-alt mr-[10px] ml-[5px] py-1"></i>
+                                                            <span class="px-4 py-0">Vrati knjigu</span>
+                                                        </a>
+
+                                                        <a href="otpisiKnjigu.php" tabindex="0"
+                                                            class="flex w-full px-4 py-2 text-sm leading-5 text-left text-gray-700 outline-none hover:text-blue-600"
+                                                            role="menuitem">
+                                                            <i class="fas fa-level-up-alt mr-[14px] ml-[5px] py-1"></i>
+                                                            <span class="px-4 py-0">Otpisi knjigu</span>
+                                                        </a>
+
+                                                        <a href="#" tabindex="0"
+                                                            class="flex w-full px-4 py-2 text-sm leading-5 text-left text-gray-700 outline-none hover:text-blue-600"
+                                                            role="menuitem">
+                                                            <i class="fa fa-trash mr-[10px] ml-[5px] py-1"></i>
+                                                            <span class="px-4 py-0">Izbrisi knjigu</span>
+                                                        </a>
+                                                    </div>
+                                                </div>
+                                            </div>
                                         </td>
                                     </tr>
                                     <tr class="border-b-[1px] border-[#e4dfdf]">
@@ -270,9 +331,66 @@
                                             </div>
                                         </td>
                                         <td class="px-4 py-3 text-sm leading-5 text-right whitespace-no-wrap">
-                                            <p class="inline cursor-pointer text-[20px] py-[10px] px-[30px] border-gray-300">
+                                            <p class="inline cursor-pointer text-[20px] py-[10px] px-[30px] border-gray-300 dotsUcenikArhiviraneKnjige hover:text-[#606FC7]">
                                                 <i class="fas fa-ellipsis-v"></i>
                                             </p>
+                                            <div
+                                                class="hidden transition-all duration-300 origin-top-right transform scale-95 -translate-y-2 ucenik-arhivirane-knjige-tabela">
+                                                <div class="absolute right-0 w-56 mt-2 origin-top-right bg-white border border-gray-200 divide-y divide-gray-100 rounded-md shadow-lg outline-none"
+                                                    aria-labelledby="headlessui-menu-button-1"
+                                                    id="headlessui-menu-items-117" role="menu">
+                                                    <div class="py-1">
+                                                        <a href="knjigaOsnovniDetalji.php" tabindex="0"
+                                                            class="flex w-full px-4 py-2 text-sm leading-5 text-left text-gray-700 outline-none hover:text-blue-600"
+                                                            role="menuitem">
+                                                            <i class="far fa-file mr-[10px] ml-[5px] py-1"></i>
+                                                            <span class="px-4 py-0">Pogledaj detalje</span>
+                                                        </a>
+
+                                                        <a href="editKnjiga.php" tabindex="0"
+                                                            class="flex w-full px-4 py-2 text-sm leading-5 text-left text-gray-700 outline-none hover:text-blue-600"
+                                                            role="menuitem">
+                                                            <i class="fas fa-edit mr-[6px] ml-[5px] py-1"></i>
+                                                            <span class="px-4 py-0">Izmijeni knjigu</span>
+                                                        </a>
+
+                                                        <a href="izdajKnjigu.php" tabindex="0"
+                                                            class="flex w-full px-4 py-2 text-sm leading-5 text-left text-gray-700 outline-none hover:text-blue-600"
+                                                            role="menuitem">
+                                                            <i class="far fa-hand-scissors mr-[10px] ml-[5px] py-1"></i>
+                                                            <span class="px-4 py-0">Izdaj knjigu</span>
+                                                        </a>
+
+                                                        <a href="rezervisiKnjigu.php" tabindex="0"
+                                                            class="flex w-full px-4 py-2 text-sm leading-5 text-left text-gray-700 outline-none hover:text-blue-600"
+                                                            role="menuitem">
+                                                            <i class="far fa-calendar-check mr-[10px] ml-[5px] py-1"></i>
+                                                            <span class="px-4 py-0">Rezervisi knjigu</span>
+                                                        </a>
+
+                                                        <a href="vratiKnjigu.php" tabindex="0"
+                                                            class="flex w-full px-4 py-2 text-sm leading-5 text-left text-gray-700 outline-none hover:text-blue-600"
+                                                            role="menuitem">
+                                                            <i class="fas fa-redo-alt mr-[10px] ml-[5px] py-1"></i>
+                                                            <span class="px-4 py-0">Vrati knjigu</span>
+                                                        </a>
+
+                                                        <a href="otpisiKnjigu.php" tabindex="0"
+                                                            class="flex w-full px-4 py-2 text-sm leading-5 text-left text-gray-700 outline-none hover:text-blue-600"
+                                                            role="menuitem">
+                                                            <i class="fas fa-level-up-alt mr-[14px] ml-[5px] py-1"></i>
+                                                            <span class="px-4 py-0">Otpisi knjigu</span>
+                                                        </a>
+
+                                                        <a href="#" tabindex="0"
+                                                            class="flex w-full px-4 py-2 text-sm leading-5 text-left text-gray-700 outline-none hover:text-blue-600"
+                                                            role="menuitem">
+                                                            <i class="fa fa-trash mr-[10px] ml-[5px] py-1"></i>
+                                                            <span class="px-4 py-0">Izbrisi knjigu</span>
+                                                        </a>
+                                                    </div>
+                                                </div>
+                                            </div>
                                         </td>
                                     </tr>
                                     <tr class="border-b-[1px] border-[#e4dfdf]">
@@ -299,9 +417,66 @@
                                             </div>
                                         </td>
                                         <td class="px-4 py-3 text-sm leading-5 text-right whitespace-no-wrap">
-                                            <p class="inline cursor-pointer text-[20px] py-[10px] px-[30px] border-[#e4dfdf]">
+                                            <p class="inline cursor-pointer text-[20px] py-[10px] px-[30px] border-[#e4dfdf] dotsUcenikArhiviraneKnjige hover:text-[#606FC7]">
                                                 <i class="fas fa-ellipsis-v"></i>
                                             </p>
+                                            <div
+                                                class="hidden transition-all duration-300 origin-top-right transform scale-95 -translate-y-2 ucenik-arhivirane-knjige-tabela">
+                                                <div class="absolute right-0 w-56 mt-2 origin-top-right bg-white border border-gray-200 divide-y divide-gray-100 rounded-md shadow-lg outline-none"
+                                                    aria-labelledby="headlessui-menu-button-1"
+                                                    id="headlessui-menu-items-117" role="menu">
+                                                    <div class="py-1">
+                                                        <a href="knjigaOsnovniDetalji.php" tabindex="0"
+                                                            class="flex w-full px-4 py-2 text-sm leading-5 text-left text-gray-700 outline-none hover:text-blue-600"
+                                                            role="menuitem">
+                                                            <i class="far fa-file mr-[10px] ml-[5px] py-1"></i>
+                                                            <span class="px-4 py-0">Pogledaj detalje</span>
+                                                        </a>
+
+                                                        <a href="editKnjiga.php" tabindex="0"
+                                                            class="flex w-full px-4 py-2 text-sm leading-5 text-left text-gray-700 outline-none hover:text-blue-600"
+                                                            role="menuitem">
+                                                            <i class="fas fa-edit mr-[6px] ml-[5px] py-1"></i>
+                                                            <span class="px-4 py-0">Izmijeni knjigu</span>
+                                                        </a>
+
+                                                        <a href="izdajKnjigu.php" tabindex="0"
+                                                            class="flex w-full px-4 py-2 text-sm leading-5 text-left text-gray-700 outline-none hover:text-blue-600"
+                                                            role="menuitem">
+                                                            <i class="far fa-hand-scissors mr-[10px] ml-[5px] py-1"></i>
+                                                            <span class="px-4 py-0">Izdaj knjigu</span>
+                                                        </a>
+
+                                                        <a href="rezervisiKnjigu.php" tabindex="0"
+                                                            class="flex w-full px-4 py-2 text-sm leading-5 text-left text-gray-700 outline-none hover:text-blue-600"
+                                                            role="menuitem">
+                                                            <i class="far fa-calendar-check mr-[10px] ml-[5px] py-1"></i>
+                                                            <span class="px-4 py-0">Rezervisi knjigu</span>
+                                                        </a>
+
+                                                        <a href="vratiKnjigu.php" tabindex="0"
+                                                            class="flex w-full px-4 py-2 text-sm leading-5 text-left text-gray-700 outline-none hover:text-blue-600"
+                                                            role="menuitem">
+                                                            <i class="fas fa-redo-alt mr-[10px] ml-[5px] py-1"></i>
+                                                            <span class="px-4 py-0">Vrati knjigu</span>
+                                                        </a>
+
+                                                        <a href="otpisiKnjigu.php" tabindex="0"
+                                                            class="flex w-full px-4 py-2 text-sm leading-5 text-left text-gray-700 outline-none hover:text-blue-600"
+                                                            role="menuitem">
+                                                            <i class="fas fa-level-up-alt mr-[14px] ml-[5px] py-1"></i>
+                                                            <span class="px-4 py-0">Otpisi knjigu</span>
+                                                        </a>
+
+                                                        <a href="#" tabindex="0"
+                                                            class="flex w-full px-4 py-2 text-sm leading-5 text-left text-gray-700 outline-none hover:text-blue-600"
+                                                            role="menuitem">
+                                                            <i class="fa fa-trash mr-[10px] ml-[5px] py-1"></i>
+                                                            <span class="px-4 py-0">Izbrisi knjigu</span>
+                                                        </a>
+                                                    </div>
+                                                </div>
+                                            </div>
                                         </td>
                                     </tr>
                                     <tr class="border-b-[1px] border-[#e4dfdf]">
@@ -328,9 +503,66 @@
                                             </div>
                                         </td>
                                         <td class="px-4 py-3 text-sm leading-5 text-right whitespace-no-wrap">
-                                            <p class="inline cursor-pointer text-[20px] py-[10px] px-[30px] border-gray-300">
+                                            <p class="inline cursor-pointer text-[20px] py-[10px] px-[30px] border-gray-300 dotsUcenikArhiviraneKnjige hover:text-[#606FC7]">
                                                 <i class="fas fa-ellipsis-v"></i>
                                             </p>
+                                            <div
+                                                class="hidden transition-all duration-300 origin-top-right transform scale-95 -translate-y-2 ucenik-arhivirane-knjige-tabela">
+                                                <div class="absolute right-0 w-56 mt-2 origin-top-right bg-white border border-gray-200 divide-y divide-gray-100 rounded-md shadow-lg outline-none"
+                                                    aria-labelledby="headlessui-menu-button-1"
+                                                    id="headlessui-menu-items-117" role="menu">
+                                                    <div class="py-1">
+                                                        <a href="knjigaOsnovniDetalji.php" tabindex="0"
+                                                            class="flex w-full px-4 py-2 text-sm leading-5 text-left text-gray-700 outline-none hover:text-blue-600"
+                                                            role="menuitem">
+                                                            <i class="far fa-file mr-[10px] ml-[5px] py-1"></i>
+                                                            <span class="px-4 py-0">Pogledaj detalje</span>
+                                                        </a>
+
+                                                        <a href="editKnjiga.php" tabindex="0"
+                                                            class="flex w-full px-4 py-2 text-sm leading-5 text-left text-gray-700 outline-none hover:text-blue-600"
+                                                            role="menuitem">
+                                                            <i class="fas fa-edit mr-[6px] ml-[5px] py-1"></i>
+                                                            <span class="px-4 py-0">Izmijeni knjigu</span>
+                                                        </a>
+
+                                                        <a href="izdajKnjigu.php" tabindex="0"
+                                                            class="flex w-full px-4 py-2 text-sm leading-5 text-left text-gray-700 outline-none hover:text-blue-600"
+                                                            role="menuitem">
+                                                            <i class="far fa-hand-scissors mr-[10px] ml-[5px] py-1"></i>
+                                                            <span class="px-4 py-0">Izdaj knjigu</span>
+                                                        </a>
+
+                                                        <a href="rezervisiKnjigu.php" tabindex="0"
+                                                            class="flex w-full px-4 py-2 text-sm leading-5 text-left text-gray-700 outline-none hover:text-blue-600"
+                                                            role="menuitem">
+                                                            <i class="far fa-calendar-check mr-[10px] ml-[5px] py-1"></i>
+                                                            <span class="px-4 py-0">Rezervisi knjigu</span>
+                                                        </a>
+
+                                                        <a href="vratiKnjigu.php" tabindex="0"
+                                                            class="flex w-full px-4 py-2 text-sm leading-5 text-left text-gray-700 outline-none hover:text-blue-600"
+                                                            role="menuitem">
+                                                            <i class="fas fa-redo-alt mr-[10px] ml-[5px] py-1"></i>
+                                                            <span class="px-4 py-0">Vrati knjigu</span>
+                                                        </a>
+
+                                                        <a href="otpisiKnjigu.php" tabindex="0"
+                                                            class="flex w-full px-4 py-2 text-sm leading-5 text-left text-gray-700 outline-none hover:text-blue-600"
+                                                            role="menuitem">
+                                                            <i class="fas fa-level-up-alt mr-[14px] ml-[5px] py-1"></i>
+                                                            <span class="px-4 py-0">Otpisi knjigu</span>
+                                                        </a>
+
+                                                        <a href="#" tabindex="0"
+                                                            class="flex w-full px-4 py-2 text-sm leading-5 text-left text-gray-700 outline-none hover:text-blue-600"
+                                                            role="menuitem">
+                                                            <i class="fa fa-trash mr-[10px] ml-[5px] py-1"></i>
+                                                            <span class="px-4 py-0">Izbrisi knjigu</span>
+                                                        </a>
+                                                    </div>
+                                                </div>
+                                            </div>
                                         </td>
                                     </tr>
                                     <tr class="border-b-[1px] border-[#e4dfdf]">
@@ -357,9 +589,66 @@
                                             </div>
                                         </td>
                                         <td class="px-4 py-3 text-sm leading-5 text-right whitespace-no-wrap">
-                                            <p class="inline cursor-pointer text-[20px] py-[10px] px-[30px] border-gray-300">
+                                            <p class="inline cursor-pointer text-[20px] py-[10px] px-[30px] border-gray-300 dotsUcenikArhiviraneKnjige hover:text-[#606FC7]">
                                                 <i class="fas fa-ellipsis-v"></i>
                                             </p>
+                                            <div
+                                                class="hidden transition-all duration-300 origin-top-right transform scale-95 -translate-y-2 ucenik-arhivirane-knjige-tabela">
+                                                <div class="absolute right-0 w-56 mt-2 origin-top-right bg-white border border-gray-200 divide-y divide-gray-100 rounded-md shadow-lg outline-none"
+                                                    aria-labelledby="headlessui-menu-button-1"
+                                                    id="headlessui-menu-items-117" role="menu">
+                                                    <div class="py-1">
+                                                        <a href="knjigaOsnovniDetalji.php" tabindex="0"
+                                                            class="flex w-full px-4 py-2 text-sm leading-5 text-left text-gray-700 outline-none hover:text-blue-600"
+                                                            role="menuitem">
+                                                            <i class="far fa-file mr-[10px] ml-[5px] py-1"></i>
+                                                            <span class="px-4 py-0">Pogledaj detalje</span>
+                                                        </a>
+
+                                                        <a href="editKnjiga.php" tabindex="0"
+                                                            class="flex w-full px-4 py-2 text-sm leading-5 text-left text-gray-700 outline-none hover:text-blue-600"
+                                                            role="menuitem">
+                                                            <i class="fas fa-edit mr-[6px] ml-[5px] py-1"></i>
+                                                            <span class="px-4 py-0">Izmijeni knjigu</span>
+                                                        </a>
+
+                                                        <a href="izdajKnjigu.php" tabindex="0"
+                                                            class="flex w-full px-4 py-2 text-sm leading-5 text-left text-gray-700 outline-none hover:text-blue-600"
+                                                            role="menuitem">
+                                                            <i class="far fa-hand-scissors mr-[10px] ml-[5px] py-1"></i>
+                                                            <span class="px-4 py-0">Izdaj knjigu</span>
+                                                        </a>
+
+                                                        <a href="rezervisiKnjigu.php" tabindex="0"
+                                                            class="flex w-full px-4 py-2 text-sm leading-5 text-left text-gray-700 outline-none hover:text-blue-600"
+                                                            role="menuitem">
+                                                            <i class="far fa-calendar-check mr-[10px] ml-[5px] py-1"></i>
+                                                            <span class="px-4 py-0">Rezervisi knjigu</span>
+                                                        </a>
+
+                                                        <a href="vratiKnjigu.php" tabindex="0"
+                                                            class="flex w-full px-4 py-2 text-sm leading-5 text-left text-gray-700 outline-none hover:text-blue-600"
+                                                            role="menuitem">
+                                                            <i class="fas fa-redo-alt mr-[10px] ml-[5px] py-1"></i>
+                                                            <span class="px-4 py-0">Vrati knjigu</span>
+                                                        </a>
+
+                                                        <a href="otpisiKnjigu.php" tabindex="0"
+                                                            class="flex w-full px-4 py-2 text-sm leading-5 text-left text-gray-700 outline-none hover:text-blue-600"
+                                                            role="menuitem">
+                                                            <i class="fas fa-level-up-alt mr-[14px] ml-[5px] py-1"></i>
+                                                            <span class="px-4 py-0">Otpisi knjigu</span>
+                                                        </a>
+
+                                                        <a href="#" tabindex="0"
+                                                            class="flex w-full px-4 py-2 text-sm leading-5 text-left text-gray-700 outline-none hover:text-blue-600"
+                                                            role="menuitem">
+                                                            <i class="fa fa-trash mr-[10px] ml-[5px] py-1"></i>
+                                                            <span class="px-4 py-0">Izbrisi knjigu</span>
+                                                        </a>
+                                                    </div>
+                                                </div>
+                                            </div>
                                         </td>
                                     </tr>
                                     <tr class="border-b-[1px] border-[#e4dfdf]">
@@ -386,9 +675,66 @@
                                             </div>
                                         </td>
                                         <td class="px-4 py-3 text-sm leading-5 text-right whitespace-no-wrap">
-                                            <p class="inline cursor-pointer text-[20px] py-[10px] px-[30px] border-gray-300">
+                                            <p class="inline cursor-pointer text-[20px] py-[10px] px-[30px] border-gray-300 dotsUcenikArhiviraneKnjige hover:text-[#606FC7]">
                                                 <i class="fas fa-ellipsis-v"></i>
                                             </p>
+                                            <div
+                                                class="hidden transition-all duration-300 origin-top-right transform scale-95 -translate-y-2 ucenik-arhivirane-knjige-tabela">
+                                                <div class="absolute right-0 w-56 mt-2 origin-top-right bg-white border border-gray-200 divide-y divide-gray-100 rounded-md shadow-lg outline-none"
+                                                    aria-labelledby="headlessui-menu-button-1"
+                                                    id="headlessui-menu-items-117" role="menu">
+                                                    <div class="py-1">
+                                                        <a href="knjigaOsnovniDetalji.php" tabindex="0"
+                                                            class="flex w-full px-4 py-2 text-sm leading-5 text-left text-gray-700 outline-none hover:text-blue-600"
+                                                            role="menuitem">
+                                                            <i class="far fa-file mr-[10px] ml-[5px] py-1"></i>
+                                                            <span class="px-4 py-0">Pogledaj detalje</span>
+                                                        </a>
+
+                                                        <a href="editKnjiga.php" tabindex="0"
+                                                            class="flex w-full px-4 py-2 text-sm leading-5 text-left text-gray-700 outline-none hover:text-blue-600"
+                                                            role="menuitem">
+                                                            <i class="fas fa-edit mr-[6px] ml-[5px] py-1"></i>
+                                                            <span class="px-4 py-0">Izmijeni knjigu</span>
+                                                        </a>
+
+                                                        <a href="izdajKnjigu.php" tabindex="0"
+                                                            class="flex w-full px-4 py-2 text-sm leading-5 text-left text-gray-700 outline-none hover:text-blue-600"
+                                                            role="menuitem">
+                                                            <i class="far fa-hand-scissors mr-[10px] ml-[5px] py-1"></i>
+                                                            <span class="px-4 py-0">Izdaj knjigu</span>
+                                                        </a>
+
+                                                        <a href="rezervisiKnjigu.php" tabindex="0"
+                                                            class="flex w-full px-4 py-2 text-sm leading-5 text-left text-gray-700 outline-none hover:text-blue-600"
+                                                            role="menuitem">
+                                                            <i class="far fa-calendar-check mr-[10px] ml-[5px] py-1"></i>
+                                                            <span class="px-4 py-0">Rezervisi knjigu</span>
+                                                        </a>
+
+                                                        <a href="vratiKnjigu.php" tabindex="0"
+                                                            class="flex w-full px-4 py-2 text-sm leading-5 text-left text-gray-700 outline-none hover:text-blue-600"
+                                                            role="menuitem">
+                                                            <i class="fas fa-redo-alt mr-[10px] ml-[5px] py-1"></i>
+                                                            <span class="px-4 py-0">Vrati knjigu</span>
+                                                        </a>
+
+                                                        <a href="otpisiKnjigu.php" tabindex="0"
+                                                            class="flex w-full px-4 py-2 text-sm leading-5 text-left text-gray-700 outline-none hover:text-blue-600"
+                                                            role="menuitem">
+                                                            <i class="fas fa-level-up-alt mr-[14px] ml-[5px] py-1"></i>
+                                                            <span class="px-4 py-0">Otpisi knjigu</span>
+                                                        </a>
+
+                                                        <a href="#" tabindex="0"
+                                                            class="flex w-full px-4 py-2 text-sm leading-5 text-left text-gray-700 outline-none hover:text-blue-600"
+                                                            role="menuitem">
+                                                            <i class="fa fa-trash mr-[10px] ml-[5px] py-1"></i>
+                                                            <span class="px-4 py-0">Izbrisi knjigu</span>
+                                                        </a>
+                                                    </div>
+                                                </div>
+                                            </div>
                                         </td>
                                     </tr>
                                     <tr class="border-b-[1px] border-[#e4dfdf]">
@@ -415,9 +761,66 @@
                                             </div>
                                         </td>
                                         <td class="px-4 py-3 text-sm leading-5 text-right whitespace-no-wrap">
-                                            <p class="inline cursor-pointer text-[20px] py-[10px] px-[30px] border-[#e4dfdf]">
+                                            <p class="inline cursor-pointer text-[20px] py-[10px] px-[30px] border-[#e4dfdf] dotsUcenikArhiviraneKnjige hover:text-[#606FC7]">
                                                 <i class="fas fa-ellipsis-v"></i>
                                             </p>
+                                            <div
+                                                class="hidden transition-all duration-300 origin-top-right transform scale-95 -translate-y-2 ucenik-arhivirane-knjige-tabela">
+                                                <div class="absolute right-0 w-56 mt-2 origin-top-right bg-white border border-gray-200 divide-y divide-gray-100 rounded-md shadow-lg outline-none"
+                                                    aria-labelledby="headlessui-menu-button-1"
+                                                    id="headlessui-menu-items-117" role="menu">
+                                                    <div class="py-1">
+                                                        <a href="knjigaOsnovniDetalji.php" tabindex="0"
+                                                            class="flex w-full px-4 py-2 text-sm leading-5 text-left text-gray-700 outline-none hover:text-blue-600"
+                                                            role="menuitem">
+                                                            <i class="far fa-file mr-[10px] ml-[5px] py-1"></i>
+                                                            <span class="px-4 py-0">Pogledaj detalje</span>
+                                                        </a>
+
+                                                        <a href="editKnjiga.php" tabindex="0"
+                                                            class="flex w-full px-4 py-2 text-sm leading-5 text-left text-gray-700 outline-none hover:text-blue-600"
+                                                            role="menuitem">
+                                                            <i class="fas fa-edit mr-[6px] ml-[5px] py-1"></i>
+                                                            <span class="px-4 py-0">Izmijeni knjigu</span>
+                                                        </a>
+
+                                                        <a href="izdajKnjigu.php" tabindex="0"
+                                                            class="flex w-full px-4 py-2 text-sm leading-5 text-left text-gray-700 outline-none hover:text-blue-600"
+                                                            role="menuitem">
+                                                            <i class="far fa-hand-scissors mr-[10px] ml-[5px] py-1"></i>
+                                                            <span class="px-4 py-0">Izdaj knjigu</span>
+                                                        </a>
+
+                                                        <a href="rezervisiKnjigu.php" tabindex="0"
+                                                            class="flex w-full px-4 py-2 text-sm leading-5 text-left text-gray-700 outline-none hover:text-blue-600"
+                                                            role="menuitem">
+                                                            <i class="far fa-calendar-check mr-[10px] ml-[5px] py-1"></i>
+                                                            <span class="px-4 py-0">Rezervisi knjigu</span>
+                                                        </a>
+
+                                                        <a href="vratiKnjigu.php" tabindex="0"
+                                                            class="flex w-full px-4 py-2 text-sm leading-5 text-left text-gray-700 outline-none hover:text-blue-600"
+                                                            role="menuitem">
+                                                            <i class="fas fa-redo-alt mr-[10px] ml-[5px] py-1"></i>
+                                                            <span class="px-4 py-0">Vrati knjigu</span>
+                                                        </a>
+
+                                                        <a href="otpisiKnjigu.php" tabindex="0"
+                                                            class="flex w-full px-4 py-2 text-sm leading-5 text-left text-gray-700 outline-none hover:text-blue-600"
+                                                            role="menuitem">
+                                                            <i class="fas fa-level-up-alt mr-[14px] ml-[5px] py-1"></i>
+                                                            <span class="px-4 py-0">Otpisi knjigu</span>
+                                                        </a>
+
+                                                        <a href="#" tabindex="0"
+                                                            class="flex w-full px-4 py-2 text-sm leading-5 text-left text-gray-700 outline-none hover:text-blue-600"
+                                                            role="menuitem">
+                                                            <i class="fa fa-trash mr-[10px] ml-[5px] py-1"></i>
+                                                            <span class="px-4 py-0">Izbrisi knjigu</span>
+                                                        </a>
+                                                    </div>
+                                                </div>
+                                            </div>
                                         </td>
                                     </tr>
                                     <tr class="border-b-[1px] border-[#e4dfdf]">
@@ -444,9 +847,66 @@
                                             </div>
                                         </td>
                                         <td class="px-4 py-3 text-sm leading-5 text-right whitespace-no-wrap">
-                                            <p class="inline cursor-pointer text-[20px] py-[10px] px-[30px] border-gray-300">
+                                            <p class="inline cursor-pointer text-[20px] py-[10px] px-[30px] border-gray-300 dotsUcenikArhiviraneKnjige hover:text-[#606FC7]">
                                                 <i class="fas fa-ellipsis-v"></i>
                                             </p>
+                                            <div
+                                                class="hidden transition-all duration-300 origin-top-right transform scale-95 -translate-y-2 ucenik-arhivirane-knjige-tabela">
+                                                <div class="absolute right-0 w-56 mt-2 origin-top-right bg-white border border-gray-200 divide-y divide-gray-100 rounded-md shadow-lg outline-none"
+                                                    aria-labelledby="headlessui-menu-button-1"
+                                                    id="headlessui-menu-items-117" role="menu">
+                                                    <div class="py-1">
+                                                        <a href="knjigaOsnovniDetalji.php" tabindex="0"
+                                                            class="flex w-full px-4 py-2 text-sm leading-5 text-left text-gray-700 outline-none hover:text-blue-600"
+                                                            role="menuitem">
+                                                            <i class="far fa-file mr-[10px] ml-[5px] py-1"></i>
+                                                            <span class="px-4 py-0">Pogledaj detalje</span>
+                                                        </a>
+
+                                                        <a href="editKnjiga.php" tabindex="0"
+                                                            class="flex w-full px-4 py-2 text-sm leading-5 text-left text-gray-700 outline-none hover:text-blue-600"
+                                                            role="menuitem">
+                                                            <i class="fas fa-edit mr-[6px] ml-[5px] py-1"></i>
+                                                            <span class="px-4 py-0">Izmijeni knjigu</span>
+                                                        </a>
+
+                                                        <a href="izdajKnjigu.php" tabindex="0"
+                                                            class="flex w-full px-4 py-2 text-sm leading-5 text-left text-gray-700 outline-none hover:text-blue-600"
+                                                            role="menuitem">
+                                                            <i class="far fa-hand-scissors mr-[10px] ml-[5px] py-1"></i>
+                                                            <span class="px-4 py-0">Izdaj knjigu</span>
+                                                        </a>
+
+                                                        <a href="rezervisiKnjigu.php" tabindex="0"
+                                                            class="flex w-full px-4 py-2 text-sm leading-5 text-left text-gray-700 outline-none hover:text-blue-600"
+                                                            role="menuitem">
+                                                            <i class="far fa-calendar-check mr-[10px] ml-[5px] py-1"></i>
+                                                            <span class="px-4 py-0">Rezervisi knjigu</span>
+                                                        </a>
+
+                                                        <a href="vratiKnjigu.php" tabindex="0"
+                                                            class="flex w-full px-4 py-2 text-sm leading-5 text-left text-gray-700 outline-none hover:text-blue-600"
+                                                            role="menuitem">
+                                                            <i class="fas fa-redo-alt mr-[10px] ml-[5px] py-1"></i>
+                                                            <span class="px-4 py-0">Vrati knjigu</span>
+                                                        </a>
+
+                                                        <a href="otpisiKnjigu.php" tabindex="0"
+                                                            class="flex w-full px-4 py-2 text-sm leading-5 text-left text-gray-700 outline-none hover:text-blue-600"
+                                                            role="menuitem">
+                                                            <i class="fas fa-level-up-alt mr-[14px] ml-[5px] py-1"></i>
+                                                            <span class="px-4 py-0">Otpisi knjigu</span>
+                                                        </a>
+
+                                                        <a href="#" tabindex="0"
+                                                            class="flex w-full px-4 py-2 text-sm leading-5 text-left text-gray-700 outline-none hover:text-blue-600"
+                                                            role="menuitem">
+                                                            <i class="fa fa-trash mr-[10px] ml-[5px] py-1"></i>
+                                                            <span class="px-4 py-0">Izbrisi knjigu</span>
+                                                        </a>
+                                                    </div>
+                                                </div>
+                                            </div>
                                         </td>
                                     </tr>
                                    
