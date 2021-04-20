@@ -1946,6 +1946,20 @@ $(document).on('mouseup', function (e){
   }
 });
 
+// Autori - profile - dropdown
+$(".dotsAutor").click(function () {
+  $(".dropdown-autor").toggle();
+})
+
+$(document).on('mouseup', function (e) {
+  var dropdownAutor = $(".dropdown-autor");
+  if (!dropdownAutor.is(e.target) &&
+  dropdownAutor.has(e.target).length === 0 &&
+    !$(e.target).is('.dotsAutor')) {
+      dropdownAutor.slideUp();
+  }
+});
+
 //click on one and check all checkboxes(evidencijaKnjiga.php)
 $('.checkSelect').click(function () {
   if ($(this).is(':checked')) {
