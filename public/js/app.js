@@ -70,7 +70,7 @@ $(document).ready(function () {
   }
 
   // Dropdown
-   $('#dropdownBookRow1').click(function () {
+  $('#dropdownBookRow1').click(function () {
     $('.dropdown-menu-book-row1').toggle();
   });
 
@@ -161,43 +161,43 @@ $(document).ready(function () {
 
   // Open Modal
   modal = $(".modal");
-  $(".show-modal").on('click', function() {
+  $(".show-modal").on('click', function () {
     modal.removeClass('hidden');
   })
   // Close Modal
-  $(".close-modal").on('click', function() {
+  $(".close-modal").on('click', function () {
     modal.addClass('hidden');
   })
 
   // Vrati Knjigu Modal
-    vratiModal = $(".vrati-modal");
-    $(".show-vratiModal").on('click', function() {
-      vratiModal.removeClass('hidden');
-    })
-    // Close Modal
-    $(".close-modal").on('click', function() {
-      vratiModal.addClass('hidden');
-    })
+  vratiModal = $(".vrati-modal");
+  $(".show-vratiModal").on('click', function () {
+    vratiModal.removeClass('hidden');
+  })
+  // Close Modal
+  $(".close-modal").on('click', function () {
+    vratiModal.addClass('hidden');
+  })
 
-    // Otpisi Knjigu Modal
-    otpisiModal = $(".otpisi-modal");
-    $(".show-otpisiModal").on('click', function() {
-      otpisiModal.removeClass('hidden');
-    })
-    // Close Modal
-    $(".otpisi-modal").on('click', function() {
-      otpisiModal.addClass('hidden');
-    })
+  // Otpisi Knjigu Modal
+  otpisiModal = $(".otpisi-modal");
+  $(".show-otpisiModal").on('click', function () {
+    otpisiModal.removeClass('hidden');
+  })
+  // Close Modal
+  $(".otpisi-modal").on('click', function () {
+    otpisiModal.addClass('hidden');
+  })
 
-    // Izbrisi Zapis Modal
-    izbrisiModal = $(".izbrisi-modal");
-    $(".show-izbrisiModal").on('click', function() {
-      izbrisiModal.removeClass('hidden');
-    })
-    // Close Modal
-    $(".izbrisi-modal").on('click', function() {
-      izbrisiModal.addClass('hidden');
-    })
+  // Izbrisi Zapis Modal
+  izbrisiModal = $(".izbrisi-modal");
+  $(".show-izbrisiModal").on('click', function () {
+    izbrisiModal.removeClass('hidden');
+  })
+  // Close Modal
+  $(".izbrisi-modal").on('click', function () {
+    izbrisiModal.addClass('hidden');
+  })
 });
 
 
@@ -1353,12 +1353,11 @@ $('#autoriMenu').on('click', function () {
   $('.autoriMenu').toggle();
 })
 
-$(document).on('mouseup', function (e){
+$(document).on('mouseup', function (e) {
   var autoriMenu = $(".autoriMenu");
-  if (!autoriMenu.is(e.target) 
-       && autoriMenu.has(e.target).length === 0 
-       && !$(e.target).is('.autoriMenu'))
-  {
+  if (!autoriMenu.is(e.target) &&
+    autoriMenu.has(e.target).length === 0 &&
+    !$(e.target).is('.autoriMenu')) {
     autoriMenu.slideUp();
   }
 });
@@ -1367,12 +1366,11 @@ $('#kategorijeMenu').on('click', function () {
   $('.kategorijeMenu').toggle();
 })
 
-$(document).on('mouseup', function (e){
+$(document).on('mouseup', function (e) {
   var kategorijeMenu = $(".kategorijeMenu");
-  if (!kategorijeMenu.is(e.target) 
-       && kategorijeMenu.has(e.target).length === 0 
-       && !$(e.target).is('.kategorijeMenu'))
-  {
+  if (!kategorijeMenu.is(e.target) &&
+    kategorijeMenu.has(e.target).length === 0 &&
+    !$(e.target).is('.kategorijeMenu')) {
     kategorijeMenu.slideUp();
   }
 });
@@ -1382,12 +1380,11 @@ $('.uceniciDrop-toggle').on('click', function () {
   $('.uceniciMenu').toggle();
 })
 
-$(document).on('mouseup', function (e){
+$(document).on('mouseup', function (e) {
   var uceniciMenu = $(".uceniciMenu");
-  if (!uceniciMenu.is(e.target) 
-       && uceniciMenu.has(e.target).length === 0 
-       && !$(e.target).is('.uceniciMenu'))
-  {
+  if (!uceniciMenu.is(e.target) &&
+    uceniciMenu.has(e.target).length === 0 &&
+    !$(e.target).is('.uceniciMenu')) {
     uceniciMenu.slideUp();
   }
 });
@@ -1396,12 +1393,11 @@ $('.bibliotekariDrop-toggle').on('click', function () {
   $('.bibliotekariMenu').toggle();
 })
 
-$(document).on('mouseup', function (e){
+$(document).on('mouseup', function (e) {
   var bibliotekariMenu = $(".bibliotekariMenu");
-  if (!bibliotekariMenu.is(e.target) 
-       && bibliotekariMenu.has(e.target).length === 0 
-       && !$(e.target).is('.bibliotekariMenu'))
-  {
+  if (!bibliotekariMenu.is(e.target) &&
+    bibliotekariMenu.has(e.target).length === 0 &&
+    !$(e.target).is('.bibliotekariMenu')) {
     bibliotekariMenu.slideUp();
   }
 });
@@ -1410,12 +1406,11 @@ $('#knjigeMenu').on('click', function () {
   $('.knjigeMenu').toggle();
 })
 
-$(document).on('mouseup', function (e){
+$(document).on('mouseup', function (e) {
   var knjigeMenu = $(".knjigeMenu");
-  if (!knjigeMenu.is(e.target) 
-       && knjigeMenu.has(e.target).length === 0 
-       && !$(e.target).is('.knjigeMenu'))
-  {
+  if (!knjigeMenu.is(e.target) &&
+    knjigeMenu.has(e.target).length === 0 &&
+    !$(e.target).is('.knjigeMenu')) {
     knjigeMenu.slideUp();
   }
 });
@@ -1424,12 +1419,11 @@ $('#transakcijeMenu').on('click', function () {
   $('.transakcijeMenu').toggle();
 })
 
-$(document).on('mouseup', function (e){
+$(document).on('mouseup', function (e) {
   var transakcijeMenu = $(".transakcijeMenu");
-  if (!transakcijeMenu.is(e.target) 
-       && transakcijeMenu.has(e.target).length === 0 
-       && !$(e.target).is('.transakcijeMenu'))
-  {
+  if (!transakcijeMenu.is(e.target) &&
+    transakcijeMenu.has(e.target).length === 0 &&
+    !$(e.target).is('.transakcijeMenu')) {
     transakcijeMenu.slideUp();
   }
 });
@@ -1438,12 +1432,11 @@ $('.datumDrop-toggle').on('click', function () {
   $('.datumMenu').toggle();
 })
 
-$(document).on('mouseup', function (e){
+$(document).on('mouseup', function (e) {
   var datumMenu = $(".datumMenu");
-  if (!datumMenu.is(e.target) 
-       && datumMenu.has(e.target).length === 0 
-       && !$(e.target).is('.datumMenu'))
-  {
+  if (!datumMenu.is(e.target) &&
+    datumMenu.has(e.target).length === 0 &&
+    !$(e.target).is('.datumMenu')) {
     datumMenu.slideUp();
   }
 });
@@ -1452,12 +1445,11 @@ $('.zadrzavanjeDrop-toggle').on('click', function () {
   $('.zadrzavanjeMenu').toggle();
 })
 
-$(document).on('mouseup', function (e){
+$(document).on('mouseup', function (e) {
   var datumMenu = $(".zadrzavanjeMenu");
-  if (!datumMenu.is(e.target) 
-       && datumMenu.has(e.target).length === 0 
-       && !$(e.target).is('.zadrzavanjeMenu'))
-  {
+  if (!datumMenu.is(e.target) &&
+    datumMenu.has(e.target).length === 0 &&
+    !$(e.target).is('.zadrzavanjeMenu')) {
     datumMenu.slideUp();
   }
 });
@@ -1466,12 +1458,11 @@ $('.vracanjeDrop-toggle').on('click', function () {
   $('.vracanjeMenu').toggle();
 })
 
-$(document).on('mouseup', function (e){
+$(document).on('mouseup', function (e) {
   var vracanjeMenu = $(".vracanjeMenu");
-  if (!vracanjeMenu.is(e.target) 
-       && vracanjeMenu.has(e.target).length === 0 
-       && !$(e.target).is('.vracanjeMenu'))
-  {
+  if (!vracanjeMenu.is(e.target) &&
+    vracanjeMenu.has(e.target).length === 0 &&
+    !$(e.target).is('.vracanjeMenu')) {
     vracanjeMenu.slideUp();
   }
 });
@@ -1480,12 +1471,11 @@ $('.statusDrop-toggle').on('click', function () {
   $('.statusMenu').toggle();
 })
 
-$(document).on('mouseup', function (e){
+$(document).on('mouseup', function (e) {
   var statusMenu = $(".statusMenu");
-  if (!statusMenu.is(e.target) 
-       && statusMenu.has(e.target).length === 0 
-       && !$(e.target).is('.statusMenu'))
-  {
+  if (!statusMenu.is(e.target) &&
+    statusMenu.has(e.target).length === 0 &&
+    !$(e.target).is('.statusMenu')) {
     statusMenu.slideUp();
   }
 });
@@ -1588,7 +1578,7 @@ function dropdown() {
   }
 }
 
-function funkcijaDatumVracanja(){
+function funkcijaDatumVracanja() {
   var selectedDate = new Date($('#datumIzdavanja').val());
   var numberOfDaysToAdd = 20;
 
@@ -1604,17 +1594,17 @@ function funkcijaDatumVracanja(){
 }
 
 //click on one and check all checkboxes (vratiKnjigu.php)
-$('.select-all').click(function() {
+$('.select-all').click(function () {
   if ($(this).is(':checked')) {
-      $('.form-checkbox').prop('checked', true);
-      $('tr').addClass('bg-gray-200');
+    $('.form-checkbox').prop('checked', true);
+    $('tr').addClass('bg-gray-200');
   } else {
-      $('.form-checkbox').prop('checked', false);
-      $('tr').removeClass('bg-gray-200');
+    $('.form-checkbox').prop('checked', false);
+    $('tr').removeClass('bg-gray-200');
   }
 });
 
-$('.form-checkbox').click(function() {
+$('.form-checkbox').click(function () {
   if ($(this).is(':checked')) {
     $(this).closest('tr').addClass('bg-gray-200');
   } else {
@@ -1627,12 +1617,11 @@ $('#dropdownCreate').click(function () {
   $('.dropdown-create').toggle();
 });
 
-$(document).on('mouseup', function (e){
+$(document).on('mouseup', function (e) {
   var dropdownCreate = $(".dropdown-create");
-  if (!dropdownCreate.is(e.target) 
-       && dropdownCreate.has(e.target).length === 0 
-       && !$(e.target).is('.dropdownCreate'))
-  {
+  if (!dropdownCreate.is(e.target) &&
+    dropdownCreate.has(e.target).length === 0 &&
+    !$(e.target).is('.dropdownCreate')) {
     dropdownCreate.slideUp();
   }
 });
@@ -1642,12 +1631,11 @@ $('#dropdownProfile').click(function () {
   $('.dropdown-profile').toggle();
 });
 
-$(document).on('mouseup', function (e){
+$(document).on('mouseup', function (e) {
   var dropdownProfile = $(".dropdown-profile");
-  if (!dropdownProfile.is(e.target) 
-       && dropdownProfile.has(e.target).length === 0 
-       && !$(e.target).is('.dropdownProfile'))
-  {
+  if (!dropdownProfile.is(e.target) &&
+    dropdownProfile.has(e.target).length === 0 &&
+    !$(e.target).is('.dropdownProfile')) {
     dropdownProfile.slideUp();
   }
 });
@@ -1659,11 +1647,10 @@ $(".dotsCategory").click(function () {
   dropdownCategory.toggle();
 })
 
-$(document).on('mouseup', function (e){
+$(document).on('mouseup', function (e) {
   var dropdownCategory = $(".dropdown-category");
-  if (!dropdownCategory.is(e.target) 
-       && dropdownCategory.has(e.target).length === 0)
-  {
+  if (!dropdownCategory.is(e.target) &&
+    dropdownCategory.has(e.target).length === 0) {
     dropdownCategory.slideUp();
   }
 });
@@ -1675,11 +1662,10 @@ $(".dotsGenre").click(function () {
   dropdownGenre.toggle();
 })
 
-$(document).on('mouseup', function (e){
+$(document).on('mouseup', function (e) {
   var dropdownGenre = $(".dropdown-genre");
-  if (!dropdownGenre.is(e.target) 
-       && dropdownGenre.has(e.target).length === 0)
-  {
+  if (!dropdownGenre.is(e.target) &&
+    dropdownGenre.has(e.target).length === 0) {
     dropdownGenre.slideUp();
   }
 });
@@ -1691,11 +1677,10 @@ $(".dotsPublisher").click(function () {
   dropdownPublisher.toggle();
 })
 
-$(document).on('mouseup', function (e){
+$(document).on('mouseup', function (e) {
   var dropdownPublisher = $(".dropdown-publisher");
-  if (!dropdownPublisher.is(e.target) 
-       && dropdownPublisher.has(e.target).length === 0)
-  {
+  if (!dropdownPublisher.is(e.target) &&
+    dropdownPublisher.has(e.target).length === 0) {
     dropdownPublisher.slideUp();
   }
 });
@@ -1707,11 +1692,10 @@ $(".dotsBookBind").click(function () {
   dropdownBookBind.toggle();
 })
 
-$(document).on('mouseup', function (e){
+$(document).on('mouseup', function (e) {
   var dropdownBookBind = $(".dropdown-book-bind");
-  if (!dropdownBookBind.is(e.target) 
-       && dropdownBookBind.has(e.target).length === 0)
-  {
+  if (!dropdownBookBind.is(e.target) &&
+    dropdownBookBind.has(e.target).length === 0) {
     dropdownBookBind.slideUp();
   }
 });
@@ -1723,11 +1707,10 @@ $(".dotsFormat").click(function () {
   dropdownFormat.toggle();
 })
 
-$(document).on('mouseup', function (e){
+$(document).on('mouseup', function (e) {
   var dropdownFormat = $(".dropdown-format");
-  if (!dropdownFormat.is(e.target) 
-       && dropdownFormat.has(e.target).length === 0)
-  {
+  if (!dropdownFormat.is(e.target) &&
+    dropdownFormat.has(e.target).length === 0) {
     dropdownFormat.slideUp();
   }
 });
@@ -1739,11 +1722,10 @@ $(".dotsScript").click(function () {
   dropdownScript.toggle();
 })
 
-$(document).on('mouseup', function (e){
+$(document).on('mouseup', function (e) {
   var dropdownScript = $(".dropdown-script");
-  if (!dropdownScript.is(e.target) 
-       && dropdownScript.has(e.target).length === 0)
-  {
+  if (!dropdownScript.is(e.target) &&
+    dropdownScript.has(e.target).length === 0) {
     dropdownScript.slideUp();
   }
 });
@@ -1755,11 +1737,10 @@ $(".dotsLibrarian").click(function () {
   dropdownLibrarian.toggle();
 })
 
-$(document).on('mouseup', function (e){
+$(document).on('mouseup', function (e) {
   var dropdownLibrarian = $(".dropdown-librarian");
-  if (!dropdownLibrarian.is(e.target) 
-       && dropdownLibrarian.has(e.target).length === 0)
-  {
+  if (!dropdownLibrarian.is(e.target) &&
+    dropdownLibrarian.has(e.target).length === 0) {
     dropdownLibrarian.slideUp();
   }
 });
@@ -1771,11 +1752,10 @@ $(".dotsStudent").click(function () {
   dropdownStudent.toggle();
 })
 
-$(document).on('mouseup', function (e){
+$(document).on('mouseup', function (e) {
   var dropdownStudent = $(".dropdown-student");
-  if (!dropdownStudent.is(e.target) 
-       && dropdownStudent.has(e.target).length === 0)
-  {
+  if (!dropdownStudent.is(e.target) &&
+    dropdownStudent.has(e.target).length === 0) {
     dropdownStudent.slideUp();
   }
 });
@@ -1785,12 +1765,11 @@ $(".dotsStudentProfile").click(function () {
   $(".dropdown-student-profile").toggle();
 })
 
-$(document).on('mouseup', function (e){
+$(document).on('mouseup', function (e) {
   var dropdownStudentProfile = $(".dropdown-student-profile");
-  if (!dropdownStudentProfile.is(e.target) 
-       && dropdownStudentProfile.has(e.target).length === 0
-       && !$(e.target).is('.dotsStudentProfile'))
-  {
+  if (!dropdownStudentProfile.is(e.target) &&
+    dropdownStudentProfile.has(e.target).length === 0 &&
+    !$(e.target).is('.dotsStudentProfile')) {
     dropdownStudentProfile.slideUp();
   }
 });
@@ -1800,12 +1779,11 @@ $(".dotsStudentProfileEvidencija").click(function () {
   $(".dropdown-student-profile-evidencija").toggle();
 })
 
-$(document).on('mouseup', function (e){
+$(document).on('mouseup', function (e) {
   var dropdownStudentProfileEvidencija = $(".dropdown-student-profile-evidencija");
-  if (!dropdownStudentProfileEvidencija.is(e.target) 
-       && dropdownStudentProfileEvidencija.has(e.target).length === 0
-       && !$(e.target).is('.dotsStudentProfileEvidencija'))
-  {
+  if (!dropdownStudentProfileEvidencija.is(e.target) &&
+    dropdownStudentProfileEvidencija.has(e.target).length === 0 &&
+    !$(e.target).is('.dotsStudentProfileEvidencija')) {
     dropdownStudentProfileEvidencija.slideUp();
   }
 });
@@ -1815,12 +1793,11 @@ $(".dotsUcenikVraceneKnjige").click(function () {
   $(".ucenik-vracene-knjige").toggle();
 })
 
-$(document).on('mouseup', function (e){
+$(document).on('mouseup', function (e) {
   var dropdownUcenikVraceneKnjige = $(".ucenik-vracene-knjige");
-  if (!dropdownUcenikVraceneKnjige.is(e.target) 
-       && dropdownUcenikVraceneKnjige.has(e.target).length === 0
-       && !$(e.target).is('.dotsUcenikVraceneKnjige'))
-  {
+  if (!dropdownUcenikVraceneKnjige.is(e.target) &&
+    dropdownUcenikVraceneKnjige.has(e.target).length === 0 &&
+    !$(e.target).is('.dotsUcenikVraceneKnjige')) {
     dropdownUcenikVraceneKnjige.slideUp();
   }
 });
@@ -1832,11 +1809,10 @@ $(".dotsStudentProfileBookRecord").click(function () {
   dropdownStudentProfileEvidencijaKnjige.toggle();
 })
 
-$(document).on('mouseup', function (e){
+$(document).on('mouseup', function (e) {
   var dropdownStudentProfileEvidencijaKnjige = $(".dropdown-student-profile-evidencija-knjige");
-  if (!dropdownStudentProfileEvidencijaKnjige.is(e.target) 
-       && dropdownStudentProfileEvidencijaKnjige.has(e.target).length === 0)
-  {
+  if (!dropdownStudentProfileEvidencijaKnjige.is(e.target) &&
+    dropdownStudentProfileEvidencijaKnjige.has(e.target).length === 0) {
     dropdownStudentProfileEvidencijaKnjige.slideUp();
   }
 });
@@ -1848,11 +1824,10 @@ $(".dotsUcenikVraceneKnjigeTabela").click(function () {
   dropdownUcenikVraceneKnjigeTabela.toggle();
 })
 
-$(document).on('mouseup', function (e){
+$(document).on('mouseup', function (e) {
   var dropdownUcenikVraceneKnjigeTabela = $(".ucenik-vracene-knjige-tabela");
-  if (!dropdownUcenikVraceneKnjigeTabela.is(e.target) 
-       && dropdownUcenikVraceneKnjigeTabela.has(e.target).length === 0)
-  {
+  if (!dropdownUcenikVraceneKnjigeTabela.is(e.target) &&
+    dropdownUcenikVraceneKnjigeTabela.has(e.target).length === 0) {
     dropdownUcenikVraceneKnjigeTabela.slideUp();
   }
 });
@@ -1862,12 +1837,62 @@ $(".dotsLibrarianProfile").click(function () {
   $(".dropdown-librarian-profile").toggle();
 })
 
-$(document).on('mouseup', function (e){
+$(document).on('mouseup', function (e) {
   var dropdownLibrarianProfile = $(".dropdown-librarian-profile");
-  if (!dropdownLibrarianProfile.is(e.target) 
-       && dropdownLibrarianProfile.has(e.target).length === 0
-       && !$(e.target).is('.dotsLibrarianProfile'))
-  {
+  if (!dropdownLibrarianProfile.is(e.target) &&
+    dropdownLibrarianProfile.has(e.target).length === 0 &&
+    !$(e.target).is('.dotsLibrarianProfile')) {
     dropdownLibrarianProfile.slideUp();
+  }
+});
+//click on one and check all checkboxes(evidencijaKnjiga.php)
+$('.checkSelect').click(function () {
+  if ($(this).is(':checked')) {
+    $('.form-checkbox').prop('checked', true);
+    $('tr').addClass('bg-gray-200');
+    $('tr').children().eq(1).html('<a class="text-blue-800" href="knjigaOsnovniDetalji.php"><i class="far fa-copy"></i>  Pogledaj detalje</p>')
+    $('tr').children().eq(2).html('<a class="text-blue-800" href="editKnjiga.php.php"><i class="far fa-copy"></i>  Izmjeni knjigu</p>')
+    $('tr').children().eq(3).html('<a class="text-blue-800 border-l-2 border-gray-200" href="otpisiKnjigu.php"><i class="fas fa-level-up-alt ml-4"></i>  Otpisi knjigu</p>')
+    $('tr').children().eq(4).html('<a class="text-blue-800" href="izdajKnjigu.php"><i class="far fa-hand-scissors"></i>  Izdaj knjigu</p>')
+    $('tr').children().eq(5).html('<a class="text-blue-800" href="vratiKnjigu.php"><i class="fas fa-redo-alt"></i>  Vrati knjigu</p>')
+    $('tr').children().eq(6).html('<a class="text-blue-800" href="otpisiKnjigu.php"><i class="far fa-calendar-check"></i>  Rezervisi knjigu</p>')
+    $('tr').children().eq(7).html('<a class="text-blue-800 border-l-2 border-gray-200" href="otpisiKnjigu.php"><i class="fa fa-trash ml-4"></i>  Izbrisi knjigu</p>')
+    $('tr').children().eq(8).html('')
+  } else {
+    $('.form-checkbox').prop('checked', false);
+    $('tr').removeClass('bg-gray-200');
+    $('tr').children().eq(1).html('Naziv knjige<a href="#"><i class="ml-2 fa-lg fas fa-long-arrow-alt-down" onclick="sortTable()"></i></a>')
+    $('tr').children().eq(2).html('Autor<i class="ml-2 fas fa-filter"></i>')
+    $('tr').children().eq(3).html('Kategorija<i class="ml-2 fas fa-filter"></i>')
+    $('tr').children().eq(4).html('Na raspolaganju')
+    $('tr').children().eq(5).html('Rezervisano')
+    $('tr').children().eq(6).html('Izdato')
+    $('tr').children().eq(7).html('U prekoracenju')
+    $('tr').children().eq(8).html('Ukupna kolicina')
+  }
+});
+$('.checkSelectOthers').click(function () {
+  if ($(this).is(':checked')) {
+    $('.form-checkbox').first().prop('checked', true);
+    $('tr').first().addClass('bg-gray-200');
+    $('tr').children().eq(1).html('<a class="text-blue-800" href="knjigaOsnovniDetalji.php"><i class="far fa-copy"></i>  Pogledaj detalje</p>')
+    $('tr').children().eq(2).html('<a class="text-blue-800" href="editKnjiga.php.php"><i class="far fa-copy"></i>  Izmjeni knjigu</p>')
+    $('tr').children().eq(3).html('<a class="text-blue-800 border-l-2 border-gray-200" href="otpisiKnjigu.php"><i class="fas fa-level-up-alt ml-4"></i>  Otpisi knjigu</p>')
+    $('tr').children().eq(4).html('<a class="text-blue-800" href="izdajKnjigu.php"><i class="far fa-hand-scissors"></i>  Izdaj knjigu</p>')
+    $('tr').children().eq(5).html('<a class="text-blue-800" href="vratiKnjigu.php"><i class="fas fa-redo-alt"></i>  Vrati knjigu</p>')
+    $('tr').children().eq(6).html('<a class="text-blue-800" href="otpisiKnjigu.php"><i class="far fa-calendar-check"></i>  Rezervisi knjigu</p>')
+    $('tr').children().eq(7).html('<a class="text-blue-800 border-l-2 border-gray-200" href="otpisiKnjigu.php"><i class="fa fa-trash ml-4"></i>  Izbrisi knjigu</p>')
+    $('tr').children().eq(8).html('')
+  } else {
+    $('.form-checkbox').prop('checked', false);
+    $('tr').removeClass('bg-gray-200');
+    $('tr').children().eq(1).html('Naziv knjige<a href="#"><i class="ml-2 fa-lg fas fa-long-arrow-alt-down" onclick="sortTable()"></i></a>')
+    $('tr').children().eq(2).html('Autor<i class="ml-2 fas fa-filter"></i>')
+    $('tr').children().eq(3).html('Kategorija<i class="ml-2 fas fa-filter"></i>')
+    $('tr').children().eq(4).html('Na raspolaganju')
+    $('tr').children().eq(5).html('Rezervisano')
+    $('tr').children().eq(6).html('Izdato')
+    $('tr').children().eq(7).html('U prekoracenju')
+    $('tr').children().eq(8).html('Ukupna kolicina')
   }
 });
