@@ -185,8 +185,8 @@
                                             <a href="ucenikProfile.php" class="ml-2 font-medium text-center">Pero Perovic</a>
                                         </td>
                                         <td class="px-4 py-3 text-sm leading-5 text-blue-900 whitespace-no-wrap">
-                                            <div class="inline-block px-3 py-1 font-medium bg-green-500 rounded-[5px]">
-                                                <span class="text-xs text-white">Knjiga izdata</span>
+                                            <div class="inline-block px-[6px] py-[2px] font-medium bg-green-200 rounded-[10px]">
+                                                <span class="text-xs text-green-800">Knjiga izdata</span>
                                             </div>
                                         </td>
                                         <td class="px-4 py-3 text-sm leading-5 text-right whitespace-no-wrap">
@@ -208,8 +208,8 @@
                                             <a href="ucenikProfile.php" class="ml-2 font-medium text-center">Pero Perovic</a>
                                         </td>
                                         <td class="px-4 py-3 text-sm leading-5 text-blue-900 whitespace-no-wrap">
-                                            <div class="inline-block px-3 py-1 font-medium bg-red-200 rounded-[5px]">
-                                                <span class="text-xs text-white">Rezervacija istekla</span>
+                                            <div class="inline-block px-[6px] py-[2px] font-medium bg-red-200 rounded-[10px]">
+                                                <span class="text-xs text-red-800">Rezervacija istekla</span>
                                             </div>
                                         </td>
                                         <td class="px-4 py-3 text-sm leading-5 text-right whitespace-no-wrap">
@@ -231,8 +231,8 @@
                                             <a href="ucenikProfile.php" class="ml-2 font-medium text-center">Pero Perovic</a>
                                         </td>
                                         <td class="px-4 py-3 text-sm leading-5 text-blue-900 whitespace-no-wrap">
-                                            <div class="inline-block px-3 py-1 font-medium bg-red-500 rounded-[5px]">
-                                                <span class="text-xs text-white">Rezervacija odbijena</span>
+                                            <div class="inline-block px-[6px] py-[2px] font-medium bg-red-200 rounded-[10px]">
+                                                <span class="text-xs text-red-800">Rezervacija odbijena</span>
                                             </div>
                                         </td>
                                         <td class="px-4 py-3 text-sm leading-5 text-right whitespace-no-wrap">
@@ -254,8 +254,8 @@
                                             <a href="ucenikProfile.php" class="ml-2 font-medium text-center">Pero Perovic</a>
                                         </td>
                                         <td class="px-4 py-3 text-sm leading-5 text-blue-900 whitespace-no-wrap">
-                                            <div class="inline-block px-3 py-1 font-medium bg-red-700 rounded-[5px]">
-                                                <span class="text-xs text-white">Rezervacija otkazana</span>
+                                            <div class="inline-block px-[6px] py-[2px] font-medium bg-red-200 rounded-[10px]">
+                                                <span class="text-xs text-red-800">Rezervacija otkazana</span>
                                             </div>
                                         </td>
                                         <td class="px-4 py-3 text-sm leading-5 text-right whitespace-no-wrap">
@@ -277,8 +277,8 @@
                                             <a href="ucenikProfile.php" class="ml-2 font-medium text-center">Pero Perovic</a>
                                         </td>
                                         <td class="px-4 py-3 text-sm leading-5 text-blue-900 whitespace-no-wrap">
-                                            <div class="inline-block px-3 py-1 font-medium bg-green-500 rounded-[5px]">
-                                                <span class="text-xs text-white">Knjiga izdata</span>
+                                            <div class="inline-block px-[6px] py-[2px] font-medium bg-green-200 rounded-[10px]">
+                                                <span class="text-xs text-green-800">Knjiga izdata</span>
                                             </div>
                                         </td>
                                         <td class="px-4 py-3 text-sm leading-5 text-right whitespace-no-wrap">
@@ -300,8 +300,8 @@
                                             <a href="ucenikProfile.php" class="ml-2 font-medium text-center">Pero Perovic</a>
                                         </td>
                                         <td class="px-4 py-3 text-sm leading-5 text-blue-900 whitespace-no-wrap">
-                                            <div class="inline-block px-3 py-1 font-medium bg-red-200 rounded-[5px]">
-                                                <span class="text-xs text-white">Rezervacija istekla</span>
+                                            <div class="inline-block px-[6px] py-[2px] font-medium bg-red-200 rounded-[10px]">
+                                                <span class="text-xs text-red-800">Rezervacija istekla</span>
                                             </div>
                                         </td>
                                         <td class="px-4 py-3 text-sm leading-5 text-right whitespace-no-wrap">
@@ -323,8 +323,8 @@
                                             <a href="ucenikProfile.php" class="ml-2 font-medium text-center">Pero Perovic</a>
                                         </td>
                                         <td class="px-4 py-3 text-sm leading-5 text-blue-900 whitespace-no-wrap">
-                                            <div class="inline-block px-3 py-1 font-medium bg-red-500 rounded-[5px]">
-                                                <span class="text-xs text-white">Rezervacija odbijena</span>
+                                            <div class="inline-block px-[6px] py-[2px] font-medium bg-red-200 rounded-[10px]">
+                                                <span class="text-xs text-red-800">Rezervacija odbijena</span>
                                             </div>
                                         </td>
                                         <td class="px-4 py-3 text-sm leading-5 text-right whitespace-no-wrap">
@@ -346,8 +346,8 @@
                                             <a href="ucenikProfile.php" class="ml-2 font-medium text-center">Pero Perovic</a>
                                         </td>
                                         <td class="px-4 py-3 text-sm leading-5 text-blue-900 whitespace-no-wrap">
-                                            <div class="inline-block px-3 py-1 font-medium bg-red-700 rounded-[5px]">
-                                                <span class="text-xs text-white">Rezervacija otkazana</span>
+                                            <div class="inline-block px-[6px] py-[2px] font-medium bg-red-200 rounded-[10px]">
+                                                <span class="text-xs text-red-800">Rezervacija otkazana</span>
                                             </div>
                                         </td>
                                         <td class="px-4 py-3 text-sm leading-5 text-right whitespace-no-wrap">

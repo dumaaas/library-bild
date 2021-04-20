@@ -252,13 +252,13 @@
                                             </a>
                                         </td>
                                         <td class="hidden px-4 py-3 text-sm leading-5 text-blue-900 whitespace-no-wrap">
-                                            <div class="inline-block px-3 py-1 font-medium bg-yellow-200 rounded-[5px]">
+                                            <div class="inline-block px-[6px] py-[2px] font-medium bg-yellow-200 rounded-[10px]">
                                                 <span class="text-xs text-yellow-700">Rezervisano</span>
                                             </div>
                                         </td>
                                         <td class="hidden px-4 py-3 text-sm leading-5 text-blue-900 whitespace-no-wrap">
                                             <div
-                                                class="inline-block px-[6px] py-[2px] font-medium bg-red-200 rounded-[5px]">
+                                                class="inline-block px-[6px] py-[2px] font-medium bg-red-200 rounded-[10px]">
                                                 <span class="text-xs text-red-800">Odbijeno</span>
                                             </div>
                                         </td>
@@ -298,13 +298,13 @@
                                             </a>
                                         </td>
                                         <td class="hidden px-4 py-3 text-sm leading-5 text-blue-900 whitespace-no-wrap">
-                                            <div class="inline-block px-3 py-1 font-medium bg-yellow-200 rounded-[5px]">
+                                            <div class="inline-block px-[6px] py-[2px] font-medium bg-yellow-200 rounded-[10px]">
                                                 <span class="text-xs text-yellow-700">Rezervisano</span>
                                             </div>
                                         </td>
                                         <td class="hidden px-4 py-3 text-sm leading-5 text-blue-900 whitespace-no-wrap">
                                             <div
-                                                class="inline-block px-[6px] py-[2px] font-medium bg-red-200 rounded-[5px]">
+                                                class="inline-block px-[6px] py-[2px] font-medium bg-red-200 rounded-[10px]">
                                                 <span class="text-xs text-red-800">Odbijeno</span>
                                             </div>
                                         </td>
@@ -344,13 +344,13 @@
                                             </a>
                                         </td>
                                         <td class="hidden px-4 py-3 text-sm leading-5 text-blue-900 whitespace-no-wrap">
-                                            <div class="inline-block px-3 py-1 font-medium bg-yellow-200 rounded-[5px]">
+                                            <div class="inline-block px-[6px] py-[2px] font-medium bg-yellow-200 rounded-[10px]">
                                                 <span class="text-xs text-yellow-700">Rezervisano</span>
                                             </div>
                                         </td>
                                         <td class="hidden px-4 py-3 text-sm leading-5 text-blue-900 whitespace-no-wrap">
                                             <div
-                                                class="inline-block px-[6px] py-[2px] font-medium bg-red-200 rounded-[5px]">
+                                                class="inline-block px-[6px] py-[2px] font-medium bg-red-200 rounded-[10px]">
                                                 <span class="text-xs text-red-800">Odbijeno</span>
                                             </div>
                                         </td>
@@ -390,13 +390,13 @@
                                             </a>
                                         </td>
                                         <td class="hidden px-4 py-3 text-sm leading-5 text-blue-900 whitespace-no-wrap">
-                                            <div class="inline-block px-3 py-1 font-medium bg-yellow-200 rounded-[5px]">
+                                            <div class="inline-block px-[6px] py-[2px] font-medium bg-yellow-200 rounded-[10px]">
                                                 <span class="text-xs text-yellow-700">Rezervisano</span>
                                             </div>
                                         </td>
                                         <td class="hidden px-4 py-3 text-sm leading-5 text-blue-900 whitespace-no-wrap">
                                             <div
-                                                class="inline-block px-[6px] py-[2px] font-medium bg-red-200 rounded-[5px]">
+                                                class="inline-block px-[6px] py-[2px] font-medium bg-red-200 rounded-[10px]">
                                                 <span class="text-xs text-red-800">Odbijeno</span>
                                             </div>
                                         </td>
@@ -428,7 +428,7 @@
                                                 Perovic</a>
                                         </td>
                                         <td class="px-4 py-3 text-sm leading-5 text-blue-900 whitespace-no-wrap">
-                                            <div class="inline-block px-3 py-1 font-medium bg-yellow-200 rounded-[5px]">
+                                            <div class="inline-block px-[6px] py-[2px] font-medium bg-yellow-200 rounded-[10px]">
                                                 <span class="text-xs text-yellow-700">Rezervisano</span>
                                             </div>
                                         </td>
@@ -460,7 +460,7 @@
                                                 Perovic</a>
                                         </td>
                                         <td class="px-4 py-3 text-sm leading-5 text-blue-900 whitespace-no-wrap">
-                                            <div class="inline-block px-3 py-1 font-medium bg-yellow-200 rounded-[5px]">
+                                            <div class="inline-block px-[6px] py-[2px] font-medium bg-yellow-200 rounded-[10px]">
                                                 <span class="text-xs text-yellow-700">Rezervisano</span>
                                             </div>
                                         </td>
@@ -493,7 +493,7 @@
                                         </td>
                                         <td class="px-4 py-3 text-sm leading-5 text-blue-900 whitespace-no-wrap">
                                             <div
-                                                class="inline-block px-[6px] py-[2px] font-medium bg-red-200 rounded-[5px]">
+                                                class="inline-block px-[6px] py-[2px] font-medium bg-red-200 rounded-[10px]">
                                                 <span class="text-xs text-red-800">Odbijeno</span>
                                             </div>
                                         </td>

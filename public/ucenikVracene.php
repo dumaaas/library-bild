@@ -431,8 +431,8 @@
                                         <td class="px-4 py-3 text-sm leading-5 whitespace-no-wrap">09.04.2020</td>
                                         <td class="px-4 py-3 text-sm leading-5 whitespace-no-wrap">09.04.2020</td>
                                         <td class="px-4 py-3 text-sm leading-5 whitespace-no-wrap">
-                                            <div class="inline-block px-[6px] py-[2px] font-medium bg-red-200 rounded-[5px]">
-                                                <span class="text-xs text-white">7 nedelja i 6 dana</span>
+                                            <div class="inline-block px-[6px] py-[2px] font-medium bg-red-200 rounded-[10px]">
+                                                <span class="text-xs text-red-800">7 nedelja i 6 dana</span>
                                             </div>
                                         </td>
                                         <td class="px-4 py-3 text-sm leading-5 whitespace-no-wrap">Valentina Kascelan</td>
@@ -496,8 +496,8 @@
                                         <td class="px-4 py-3 text-sm leading-5 whitespace-no-wrap">21.02.2021</td>
                                         <td class="px-4 py-3 text-sm leading-5 whitespace-no-wrap">21.02.2021</td>
                                         <td class="px-4 py-3 text-sm leading-5 whitespace-no-wrap">
-                                            <div class="inline-block px-[6px] py-[2px] font-medium bg-red-200 rounded-[5px]">
-                                                <span class="text-xs text-white">8 nedelja i 3 dana</span>
+                                            <div class="inline-block px-[6px] py-[2px] font-medium bg-red-200 rounded-[10px]">
+                                                <span class="text-xs text-red-800">8 nedelja i 3 dana</span>
                                             </div>
                                         </td>
                                         <td class="px-4 py-3 text-sm leading-5 whitespace-no-wrap">Valentina Kascelan</td>
