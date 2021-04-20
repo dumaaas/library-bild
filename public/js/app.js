@@ -279,11 +279,13 @@ rezervacije.on('click', (event) => {
   if (event.target.classList.contains('reservedStatus')) {
     event.target.closest('.changeStatus').classList.add('hidden');
     event.target.closest('.changeStatus').nextElementSibling.classList.remove('hidden');
+    event.target.closest('.changeStatus').nextElementSibling.nextElementSibling.nextElementSibling.children[0].classList.remove('hidden');
     event.target.closest('.changeBg').classList.remove('bg-gray-200');
   }
   if (event.target.classList.contains('deniedStatus')) {
     event.target.closest('.changeStatus').classList.add('hidden');
     event.target.closest('.changeStatus').nextElementSibling.nextElementSibling.classList.remove('hidden');
+    event.target.closest('.changeStatus').nextElementSibling.nextElementSibling.nextElementSibling.children[0].classList.remove('hidden');
     event.target.closest('.changeBg').classList.remove('bg-gray-200');
   }
 
