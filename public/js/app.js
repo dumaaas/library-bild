@@ -1348,7 +1348,37 @@ function sortTableDate(row) {
   }
 }
 
-$('#uceniciMenu').on('click', function () {
+
+$('#autoriMenu').on('click', function () {
+  $('.autoriMenu').toggle();
+})
+
+$(document).on('mouseup', function (e){
+  var autoriMenu = $(".autoriMenu");
+  if (!autoriMenu.is(e.target) 
+       && autoriMenu.has(e.target).length === 0 
+       && !$(e.target).is('.autoriMenu'))
+  {
+    autoriMenu.slideUp();
+  }
+});
+
+$('#kategorijeMenu').on('click', function () {
+  $('.kategorijeMenu').toggle();
+})
+
+$(document).on('mouseup', function (e){
+  var kategorijeMenu = $(".kategorijeMenu");
+  if (!kategorijeMenu.is(e.target) 
+       && kategorijeMenu.has(e.target).length === 0 
+       && !$(e.target).is('.kategorijeMenu'))
+  {
+    kategorijeMenu.slideUp();
+  }
+});
+
+
+$('.uceniciDrop-toggle').on('click', function () {
   $('.uceniciMenu').toggle();
 })
 
@@ -1362,17 +1392,17 @@ $(document).on('mouseup', function (e){
   }
 });
 
-$('#bibliotekariMenu').on('click', function () {
+$('.bibliotekariDrop-toggle').on('click', function () {
   $('.bibliotekariMenu').toggle();
 })
 
 $(document).on('mouseup', function (e){
-  var uceniciMenu = $(".bibliotekariMenu");
-  if (!uceniciMenu.is(e.target) 
-       && uceniciMenu.has(e.target).length === 0 
+  var bibliotekariMenu = $(".bibliotekariMenu");
+  if (!bibliotekariMenu.is(e.target) 
+       && bibliotekariMenu.has(e.target).length === 0 
        && !$(e.target).is('.bibliotekariMenu'))
   {
-    uceniciMenu.slideUp();
+    bibliotekariMenu.slideUp();
   }
 });
 
@@ -1381,12 +1411,12 @@ $('#knjigeMenu').on('click', function () {
 })
 
 $(document).on('mouseup', function (e){
-  var uceniciMenu = $(".knjigeMenu");
-  if (!uceniciMenu.is(e.target) 
-       && uceniciMenu.has(e.target).length === 0 
+  var knjigeMenu = $(".knjigeMenu");
+  if (!knjigeMenu.is(e.target) 
+       && knjigeMenu.has(e.target).length === 0 
        && !$(e.target).is('.knjigeMenu'))
   {
-    uceniciMenu.slideUp();
+    knjigeMenu.slideUp();
   }
 });
 
@@ -1395,29 +1425,70 @@ $('#transakcijeMenu').on('click', function () {
 })
 
 $(document).on('mouseup', function (e){
-  var uceniciMenu = $(".transakcijeMenu");
-  if (!uceniciMenu.is(e.target) 
-       && uceniciMenu.has(e.target).length === 0 
+  var transakcijeMenu = $(".transakcijeMenu");
+  if (!transakcijeMenu.is(e.target) 
+       && transakcijeMenu.has(e.target).length === 0 
        && !$(e.target).is('.transakcijeMenu'))
   {
-    uceniciMenu.slideUp();
+    transakcijeMenu.slideUp();
   }
 });
 
-$('#datumMenu').on('click', function () {
+$('.datumDrop-toggle').on('click', function () {
   $('.datumMenu').toggle();
 })
 
 $(document).on('mouseup', function (e){
-  var uceniciMenu = $(".datumMenu");
-  if (!uceniciMenu.is(e.target) 
-       && uceniciMenu.has(e.target).length === 0 
+  var datumMenu = $(".datumMenu");
+  if (!datumMenu.is(e.target) 
+       && datumMenu.has(e.target).length === 0 
        && !$(e.target).is('.datumMenu'))
   {
-    uceniciMenu.slideUp();
+    datumMenu.slideUp();
   }
 });
 
+$('.zadrzavanjeDrop-toggle').on('click', function () {
+  $('.zadrzavanjeMenu').toggle();
+})
+
+$(document).on('mouseup', function (e){
+  var datumMenu = $(".zadrzavanjeMenu");
+  if (!datumMenu.is(e.target) 
+       && datumMenu.has(e.target).length === 0 
+       && !$(e.target).is('.zadrzavanjeMenu'))
+  {
+    datumMenu.slideUp();
+  }
+});
+
+$('.vracanjeDrop-toggle').on('click', function () {
+  $('.vracanjeMenu').toggle();
+})
+
+$(document).on('mouseup', function (e){
+  var vracanjeMenu = $(".vracanjeMenu");
+  if (!vracanjeMenu.is(e.target) 
+       && vracanjeMenu.has(e.target).length === 0 
+       && !$(e.target).is('.vracanjeMenu'))
+  {
+    vracanjeMenu.slideUp();
+  }
+});
+
+$('.statusDrop-toggle').on('click', function () {
+  $('.statusMenu').toggle();
+})
+
+$(document).on('mouseup', function (e){
+  var statusMenu = $(".statusMenu");
+  if (!statusMenu.is(e.target) 
+       && statusMenu.has(e.target).length === 0 
+       && !$(e.target).is('.statusMenu'))
+  {
+    statusMenu.slideUp();
+  }
+});
 
 function filterFunction(id, dropdown) {
   var input, filter, ul, li, a, i;
