@@ -1218,6 +1218,29 @@ $("#sacuvajPismo").keypress(function (e) {
   }
 });
 
+// Form validation for new book script
+function validacijaPismoEdit() {
+
+  $("#validateNazivPismoEdit").empty();
+
+  let nazivPismoEdit = $("#nazivPismoEdit").val();
+
+  if (nazivPismoEdit.length == 0) {
+    $('#validateNazivPismoEdit').append('<p style="color:red;font-size:13px;">Morate unijeti naziv pisma!</p>');
+  }
+}
+
+function clearErrorsNazivPismoEdit() {
+  $("#validateNazivPismoEdit").empty();
+}
+
+$("#sacuvajPismoEdit").keypress(function (e) {
+  if (e.which == 13) {
+    validacijaPismoEdit();
+    return false;
+  }
+});
+
 // Form validation for reseting password - student
 function validacijaSifraUcenik() {
 
@@ -1639,5 +1662,21 @@ $(document).on('mouseup', function (e){
        && dropdownFormat.has(e.target).length === 0)
   {
     dropdownFormat.slideUp();
+  }
+});
+
+// Script - table - dropdown
+$(".dotsScript").click(function () {
+  var dotsScript = $(this);
+  var dropdownScript = dotsScript.closest("td").find(".dropdown-script");
+  dropdownScript.toggle();
+})
+
+$(document).on('mouseup', function (e){
+  var dropdownScript = $(".dropdown-script");
+  if (!dropdownScript.is(e.target) 
+       && dropdownScript.has(e.target).length === 0)
+  {
+    dropdownScript.slideUp();
   }
 });
