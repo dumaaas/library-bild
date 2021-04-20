@@ -42,8 +42,8 @@
                 </h1>
             </div>
             <!-- Space for content -->
-            <div class="scroll height-dashboard">
-                <div class="flex items-center justify-between px-6 py-2 space-x-3 rounded-lg">
+            <div class="scroll height-content">
+                <div class="flex items-center justify-between px-[30px] py-4 space-x-3 rounded-lg">
                     <a href="novaKnjiga.php"
                         class="inline-flex items-center text-sm py-2.5 px-5 transition duration-300 ease-in rounded-[5px] tracking-wider text-white bg-[#3f51b5] rounded hover:bg-[#4558BE]">
                         <i class="fas fa-plus mr-[15px]"></i> Nova knjiga
@@ -65,8 +65,8 @@
                     </div>
                 </div>
                     <!-- Space for content -->
-                    <div class="px-2 pt-2 bg-white">
-                        <div class="w-full px-2 mt-2 ml-2">
+                    <div class="px-[30px] pt-2 bg-white">
+                        <div class="w-full mt-2">
                             <table class="w-full border-[1px] border-[#e4dfdf]" id="myTable">
                                 <thead class="bg-[#EFF3F6]">
                                     <tr class="border-b-[1px] border-[#e4dfdf]">
@@ -605,7 +605,7 @@
                                 </tbody>
                             </table>
 
-                            <div class="flex flex-row items-center justify-end my-2">
+                            <div class="flex flex-row items-center justify-end my-3">
                                 <div>
                                     <p class="inline text-md">
                                         Rows per page:
