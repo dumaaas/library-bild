@@ -59,48 +59,55 @@
                     <!-- Space for content -->
                     <div class="flex justify-start pt-3 bg-white">
                         <div class="mt-[10px]">
-                        <ul class="text-[#2D3B48]">
-                                <li class="mb-[4px] pt-[18px] pb-[14px] group hover:bg-[#EAEAEA]">
+                            <ul class="text-[#2D3B48]">
+                                <li class="mb-[4px]">
                                     <div class="w-[300px] pl-[32px]">
                                         <span
-                                            class=" whitespace-nowrap w-full text-[25px] group flex justify-between fill-current">
-                                            <div class="">
+                                            class=" whitespace-nowrap w-full text-[25px]  flex justify-between fill-current">
+                                            <div
+                                                class="py-[15px] px-[20px] w-[268px] cursor-pointer group hover:bg-[#EFF3F6] rounded-[10px]">
                                                 <a href="izdateKnjige.php" aria-label="Sve knjige"
                                                     class="flex items-center">
                                                     <i
-                                                        class="text-[#707070]  transition duration-300 ease-in group-hover:text-[#576cdf] far fa-copy text-[20px]"></i>
+                                                        class="text-[#707070] transition duration-300 ease-in group-hover:text-[#576cdf] far fa-copy text-[20px]"></i>
                                                     <div>
-                                                        <p class="transition duration-300 ease-in group-hover:text-[#576cdf] text-[15px] ml-[18px]">Izdate knjige</p>
+                                                        <p
+                                                            class="transition duration-300 ease-in group-hover:text-[#576cdf]  text-[15px] ml-[18px]">
+                                                            Izdate knjige
+                                                        </p>
                                                     </div>
                                                 </a>
                                             </div>
                                         </span>
                                     </div>
                                 </li>
-                                <li class="mb-[4px] pt-[18px] pb-[14px] group hover:bg-[#EAEAEA] bg-[#EAEAEA]">
+                                <li class="mb-[4px]">
                                     <div class="w-[300px] pl-[32px]">
                                         <span
                                             class=" whitespace-nowrap w-full text-[25px] flex justify-between fill-current">
-                                            <div class="transition duration-300 ease-in hover:text-[#576cdf]">
-                                                <a href="vraceneKnjige.php" aria-label="Izdate knjige"
+                                            <div
+                                                class="group bg-[#EFF3F6] hover:bg-[#EFF3F6] py-[15px] px-[20px] w-[268px] rounded-[10px] cursor-pointer">
+                                                <a href="vraceneKnjige.php" aria-label="Vracene knjige"
                                                     class="flex items-center">
                                                     <i
-                                                        class="text-[20px] fas fa-file text-[#576cdf] transition duration-300 ease-in group-hover:text-[#576cdf]"></i>
+                                                        class="transition duration-300 ease-in  text-[#707070] text-[20px] fas fa-file text-[#576cdf]"></i>
                                                     <div>
                                                         <p
-                                                            class="text-[15px] ml-[21px] transition text-[#576cdf] duration-300 ease-in group-hover:text-[#576cdf]">
-                                                            Vracene knjige</p>
+                                                            class="transition duration-300 ease-in  text-[15px] ml-[21px] text-[#576cdf]">
+                                                            Vracene knjige
+                                                        </p>
                                                     </div>
                                                 </a>
                                             </div>
                                         </span>
                                     </div>
                                 </li>
-                                <li class="mb-[4px] pt-[18px] pb-[14px] group hover:bg-[#EAEAEA]">
+                                <li class="mb-[4px]">
                                     <div class="w-[300px] pl-[28px]">
                                         <span
                                             class=" whitespace-nowrap w-full text-[25px] flex justify-between fill-current">
-                                            <div class="transition duration-300 ease-in hover:text-[#576cdf]">
+                                            <div
+                                                class="group hover:bg-[#EFF3F6] py-[15px] px-[20px] w-[268px] rounded-[10px] cursor-pointer">
                                                 <a href="knjigePrekoracenje.php" aria-label="Knjige na raspolaganju"
                                                     class="flex items-center">
                                                     <i
@@ -115,11 +122,12 @@
                                         </span>
                                     </div>
                                 </li>
-                                <li class="mb-[4px] pt-[18px] pb-[14px] group hover:bg-[#EAEAEA] border-t-2 border-gray-200">
+                                <li class="mb-[4px]">
                                     <div class="w-[300px] pl-[32px]">
                                         <span
                                             class=" whitespace-nowrap w-full text-[25px] flex justify-between fill-current">
-                                            <div class="transition duration-300 ease-in hover:text-[#576cdf]">
+                                            <div
+                                                class="group hover:bg-[#EFF3F6] py-[15px] px-[20px] w-[268px] rounded-[10px] cursor-pointer">
                                                 <a href="aktivneRezervacije.php" aria-label="Rezervacije"
                                                     class="flex items-center">
                                                     <i
@@ -134,11 +142,12 @@
                                         </span>
                                     </div>
                                 </li>
-                                <li class="mb-[4px] pt-[18px] pb-[14px] group hover:bg-[#EAEAEA]">
+                                <li class="mb-[4px]">
                                     <div class="w-[300px] pl-[32px]">
                                         <span
                                             class=" whitespace-nowrap w-full text-[25px] flex justify-between fill-current">
-                                            <div class="transition duration-300 ease-in hover:text-[#576cdf]">
+                                            <div
+                                                class="group hover:bg-[#EFF3F6] py-[15px] px-[20px] w-[268px] rounded-[10px] cursor-pointer">
                                                 <a href="arhiviraneRezervacije.php" aria-label="Rezervacije"
                                                     class="flex items-center">
                                                     <i
@@ -171,11 +180,16 @@
                                                     onclick="sortTable()"></i>
                                             </a>
                                         </th>
-                                        <th class="px-4 py-4 text-sm leading-4 tracking-wider text-left">Izdato uceniku<i class="ml-2 fas fa-filter"></i></th>
-                                        <th class="px-4 py-4 text-sm leading-4 tracking-wider text-left">Datum izdavanja<i class="fas fa-filter"></i></th>
-                                        <th class="px-4 py-4 text-sm leading-4 tracking-wider text-left">Datum vracanja<i class="fas fa-filter"></i></th>
-                                        <th class="px-4 py-4 text-sm leading-4 tracking-wider text-left">Zadrzavanje knjige <i class="fas fa-filter"></i></th>
-                                        <th class="px-4 py-4 text-sm leading-4 tracking-wider text-left">Knjigu primio<i class="fas fa-filter"></i></th>
+                                        <th class="px-4 py-4 text-sm leading-4 tracking-wider text-left">Izdato
+                                            uceniku<i class="ml-2 fas fa-filter"></i></th>
+                                        <th class="px-4 py-4 text-sm leading-4 tracking-wider text-left">Datum
+                                            izdavanja<i class="fas fa-filter"></i></th>
+                                        <th class="px-4 py-4 text-sm leading-4 tracking-wider text-left">Datum
+                                            vracanja<i class="fas fa-filter"></i></th>
+                                        <th class="px-4 py-4 text-sm leading-4 tracking-wider text-left">Zadrzavanje
+                                            knjige <i class="fas fa-filter"></i></th>
+                                        <th class="px-4 py-4 text-sm leading-4 tracking-wider text-left">Knjigu primio<i
+                                                class="fas fa-filter"></i></th>
                                         <th class="px-4 py-4"> </th>
                                     </tr>
                                 </thead>
@@ -200,7 +214,8 @@
                                                 <span>2 nedelje i 3 dana</span>
                                             </div>
                                         </td>
-                                        <td class="px-4 py-3 text-sm leading-5 whitespace-no-wrap">Valentina Kascelan</td>
+                                        <td class="px-4 py-3 text-sm leading-5 whitespace-no-wrap">Valentina Kascelan
+                                        </td>
                                         <td class="px-6 py-3 text-sm leading-5 text-right whitespace-no-wrap">
                                             <p class="inline cursor-pointer text-[20px] py-[10px] px-[30px] border-gray-300"
                                                 id="dropdownBookRow1">
@@ -254,7 +269,8 @@
                                         <td class="flex flex-row items-center px-4 py-3">
                                             <img class="object-cover w-8 mr-2 h-11" src="img/tomsojer.jpg" alt="" />
                                             <a href="knjigaOsnovniDetalji.php">
-                                                <span class="font-medium text-center">Muzicka kultura I Razred Gi...</span>
+                                                <span class="font-medium text-center">Muzicka kultura I Razred
+                                                    Gi...</span>
                                             </a>
                                         </td>
                                         <td class="px-4 py-3 text-sm leading-5 whitespace-no-wrap">Nina Bulatovic</td>
@@ -265,7 +281,8 @@
                                                 <span>5 dana</span>
                                             </div>
                                         </td>
-                                        <td class="px-4 py-3 text-sm leading-5 whitespace-no-wrap">Valentina Kascelan</td>
+                                        <td class="px-4 py-3 text-sm leading-5 whitespace-no-wrap">Valentina Kascelan
+                                        </td>
                                         <td class="px-6 py-3 text-sm leading-5 text-right whitespace-no-wrap">
                                             <p class="inline cursor-pointer text-[20px] py-[10px] px-[30px] border-gray-300"
                                                 id="dropdownBookRow2">
@@ -330,7 +347,8 @@
                                                 <span>1 nedelja i 4 dana</span>
                                             </div>
                                         </td>
-                                        <td class="px-4 py-3 text-sm leading-5 whitespace-no-wrap">Valentina Kascelan</td>
+                                        <td class="px-4 py-3 text-sm leading-5 whitespace-no-wrap">Valentina Kascelan
+                                        </td>
                                         <td class="px-6 py-3 text-sm leading-5 text-right whitespace-no-wrap">
                                             <p class="inline cursor-pointer text-[20px] py-[10px] px-[30px] border-gray-300"
                                                 id="dropdownBookRow3">
@@ -391,11 +409,13 @@
                                         <td class="px-4 py-3 text-sm leading-5 whitespace-no-wrap">09.04.2020</td>
                                         <td class="px-4 py-3 text-sm leading-5 whitespace-no-wrap">09.04.2020</td>
                                         <td class="px-4 py-3 text-sm leading-5 whitespace-no-wrap">
-                                            <div class="inline-block px-[6px] py-[2px] font-medium bg-red-200 rounded-[5px]">
+                                            <div
+                                                class="inline-block px-[6px] py-[2px] font-medium bg-red-200 rounded-[5px]">
                                                 <span class="text-xs text-white">7 nedelja i 6 dana</span>
                                             </div>
                                         </td>
-                                        <td class="px-4 py-3 text-sm leading-5 whitespace-no-wrap">Valentina Kascelan</td>
+                                        <td class="px-4 py-3 text-sm leading-5 whitespace-no-wrap">Valentina Kascelan
+                                        </td>
                                         <td class="px-6 py-3 text-sm leading-5 text-right whitespace-no-wrap">
                                             <p class="inline cursor-pointer text-[20px] py-[10px] px-[30px] border-gray-300"
                                                 id="dropdownBookRow4">
@@ -456,11 +476,13 @@
                                         <td class="px-4 py-3 text-sm leading-5 whitespace-no-wrap">21.02.2021</td>
                                         <td class="px-4 py-3 text-sm leading-5 whitespace-no-wrap">21.02.2021</td>
                                         <td class="px-4 py-3 text-sm leading-5 whitespace-no-wrap">
-                                            <div class="inline-block px-[6px] py-[2px] font-medium bg-red-200 rounded-[5px]">
+                                            <div
+                                                class="inline-block px-[6px] py-[2px] font-medium bg-red-200 rounded-[5px]">
                                                 <span class="text-xs text-white">8 nedelja i 3 dana</span>
                                             </div>
                                         </td>
-                                        <td class="px-4 py-3 text-sm leading-5 whitespace-no-wrap">Valentina Kascelan</td>
+                                        <td class="px-4 py-3 text-sm leading-5 whitespace-no-wrap">Valentina Kascelan
+                                        </td>
                                         <td class="px-6 py-3 text-sm leading-5 text-right whitespace-no-wrap">
                                             <p class="inline cursor-pointer text-[20px] py-[10px] px-[30px] border-gray-300"
                                                 id="dropdownBookRow1">
@@ -525,7 +547,8 @@
                                                 <span>5 dana</span>
                                             </div>
                                         </td>
-                                        <td class="px-4 py-3 text-sm leading-5 whitespace-no-wrap">Valentina Kascelan</td>
+                                        <td class="px-4 py-3 text-sm leading-5 whitespace-no-wrap">Valentina Kascelan
+                                        </td>
                                         <td class="px-6 py-3 text-sm leading-5 text-right whitespace-no-wrap">
                                             <p class="inline cursor-pointer text-[20px] py-[10px] px-[30px] border-gray-300"
                                                 id="dropdownBookRow2">
@@ -590,7 +613,8 @@
                                                 <span>1 nedelja i 4 dana</span>
                                             </div>
                                         </td>
-                                        <td class="px-4 py-3 text-sm leading-5 whitespace-no-wrap">Valentina Kascelan</td>
+                                        <td class="px-4 py-3 text-sm leading-5 whitespace-no-wrap">Valentina Kascelan
+                                        </td>
                                         <td class="px-6 py-3 text-sm leading-5 text-right whitespace-no-wrap">
                                             <p class="inline cursor-pointer text-[20px] py-[10px] px-[30px] border-gray-300"
                                                 id="dropdownBookRow3">
@@ -655,7 +679,8 @@
                                                 <span>3 nedelje i 6 dana</span>
                                             </div>
                                         </td>
-                                        <td class="px-4 py-3 text-sm leading-5 whitespace-no-wrap">Valentina Kascelan</td>
+                                        <td class="px-4 py-3 text-sm leading-5 whitespace-no-wrap">Valentina Kascelan
+                                        </td>
                                         <td class="px-6 py-3 text-sm leading-5 text-right whitespace-no-wrap">
                                             <p class="inline cursor-pointer text-[20px] py-[10px] px-[30px] border-gray-300"
                                                 id="dropdownBookRow4">
