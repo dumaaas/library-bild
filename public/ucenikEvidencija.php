@@ -98,252 +98,705 @@
                 </a>
             </div>
              <!-- Space for content -->
-            <div class="height-ucenikEvidencija scroll">
-                <div class="inline-block min-w-full px-[30px] pt-3 mt-10 align-middle bg-white rounded-bl-lg rounded-br-lg shadow-dashboard">
-                    <table class="min-w-full border-[1px] border-[#e4dfdf] sortTableDate">
-                        <thead class="bg-[#EFF3F6]">
-                            <tr class="border-b-[2px] border-[#e4dfdf]">
-                                <th class="px-4 py-4 leading-4 tracking-wider text-left text-blue-500">
-                                    <label class="inline-flex items-center">
-                                        <input type="checkbox" class="form-checkbox">
-                                    </label>
-                                </th>
-                                <th class="px-4 py-4 leading-4 tracking-wider text-left">Naziv knjige</th>
-                                <th class="flex items-center px-4 py-4 leading-4 tracking-wider text-left">Datum transakcije<a href="#"><i class="ml-2 fa-lg fas fa-long-arrow-alt-down" onclick="sortTableDate(2)"></i></a></th>
-                                <th class="px-4 py-4 leading-4 tracking-wider text-left">Tip transakcije</th>
-                                <th class="px-4 py-4 leading-4 tracking-wider text-left">Bibliotekar</th>
-                                <th class="px-4 py-4 leading-4 tracking-wider text-left">Ucenik</th>
-                                <th class="px-4 py-4"> </th>
-                                <th class="px-4 py-4"> </th>
-                            </tr>
-                        </thead>
-                        <tbody class="bg-white">
-                                <tr class="bg-gray-200 border-b-[1px] border-[#e4dfdf] backgroundStyle">
-                                    <td class="px-4 py-4 whitespace-no-wrap">
-                                        <label class="inline-flex items-center">
-                                            <input type="checkbox" class="form-checkbox">
-                                        </label>
-                                    </td>
-                                    <td class="flex flex-row items-center px-4 py-4">
-                                            <img class="object-cover w-8 mr-2 h-11" src="img/tomsojer.jpg" alt=""/>
+             <div class="flex justify-start pt-3 bg-white">
+                    <div class="mt-[10px]">
+                            <ul class="text-[#2D3B48]">
+                                <li class="mb-[4px] pt-[18px] pb-[14px] group hover:bg-[#EAEAEA] bg-[#EAEAEA]">
+                                    <div class="w-[300px] pl-[32px]">
+                                        <span
+                                            class=" whitespace-nowrap w-full text-[25px] group flex justify-between fill-current">
+                                            <div class="">
+                                                <a href="izdateKnjige.php" aria-label="Sve knjige"
+                                                    class="flex items-center">
+                                                    <i
+                                                        class="transition duration-300 ease-in group-hover:text-[#576cdf] text-[#576cdf] far fa-copy text-[20px]"></i>
+                                                    <div>
+                                                        <p class="transition duration-300 ease-in group-hover:text-[#576cdf] text-[#576cdf] text-[15px] ml-[18px]">Izdate knjige</p>
+                                                    </div>
+                                                </a>
+                                            </div>
+                                        </span>
+                                    </div>
+                                </li>
+                                <li class="mb-[4px] pt-[18px] pb-[14px] group hover:bg-[#EAEAEA]">
+                                    <div class="w-[300px] pl-[32px]">
+                                        <span
+                                            class=" whitespace-nowrap w-full text-[25px] flex justify-between fill-current">
+                                            <div class="transition duration-300 ease-in hover:text-[#576cdf]">
+                                                <a href="vraceneKnjige.php" aria-label="Izdate knjige"
+                                                    class="flex items-center">
+                                                    <i
+                                                        class="text-[#707070] text-[20px] fas fa-file transition duration-300 ease-in group-hover:text-[#576cdf]"></i>
+                                                    <div>
+                                                        <p
+                                                            class="text-[15px] ml-[21px] transition duration-300 ease-in group-hover:text-[#576cdf]">
+                                                            Vracene knjige</p>
+                                                    </div>
+                                                </a>
+                                            </div>
+                                        </span>
+                                    </div>
+                                </li>
+                                <li class="mb-[4px] pt-[18px] pb-[14px] group hover:bg-[#EAEAEA]">
+                                    <div class="w-[300px] pl-[28px]">
+                                        <span
+                                            class=" whitespace-nowrap w-full text-[25px] flex justify-between fill-current">
+                                            <div class="transition duration-300 ease-in hover:text-[#576cdf]">
+                                                <a href="knjigePrekoracenje.php" aria-label="Knjige na raspolaganju"
+                                                    class="flex items-center">
+                                                    <i
+                                                        class="text-[#707070] text-[20px] fas fa-exclamation-triangle transition duration-300 ease-in group-hover:text-[#576cdf]"></i>
+                                                    <div>
+                                                        <p
+                                                            class="text-[15px] ml-[17px] transition duration-300 ease-in group-hover:text-[#576cdf]">
+                                                            Knjige u prekoracenju</p>
+                                                    </div>
+                                                </a>
+                                            </div>
+                                        </span>
+                                    </div>
+                                </li>
+                                <li class="mb-[4px] pt-[18px] pb-[14px] group hover:bg-[#EAEAEA] border-t-2 border-gray-200">
+                                    <div class="w-[300px] pl-[32px]">
+                                        <span
+                                            class=" whitespace-nowrap w-full text-[25px] flex justify-between fill-current">
+                                            <div class="transition duration-300 ease-in hover:text-[#576cdf]">
+                                                <a href="aktivneRezervacije.php" aria-label="Rezervacije"
+                                                    class="flex items-center">
+                                                    <i
+                                                        class="text-[#707070] text-[20px] far fa-calendar-check transition duration-300 ease-in group-hover:text-[#576cdf]"></i>
+                                                    <div>
+                                                        <p
+                                                            class="text-[15px] ml-[19px] transition duration-300 ease-in group-hover:text-[#576cdf]">
+                                                            Aktivne rezervacije</p>
+                                                    </div>
+                                                </a>
+                                            </div>
+                                        </span>
+                                    </div>
+                                </li>
+                                <li class="mb-[4px] pt-[18px] pb-[14px] group hover:bg-[#EAEAEA]">
+                                    <div class="w-[300px] pl-[32px]">
+                                        <span
+                                            class=" whitespace-nowrap w-full text-[25px] flex justify-between fill-current">
+                                            <div class="transition duration-300 ease-in hover:text-[#576cdf]">
+                                                <a href="arhiviraneRezervacije.php" aria-label="Rezervacije"
+                                                    class="flex items-center">
+                                                    <i
+                                                        class="text-[#707070] text-[20px] fas fa-calendar-alt transition duration-300 ease-in group-hover:text-[#576cdf]"></i>
+                                                    <div>
+                                                        <p
+                                                            class="text-[15px] ml-[19px] transition duration-300 ease-in group-hover:text-[#576cdf]">
+                                                            Arhivirane rezervacije</p>
+                                                    </div>
+                                                </a>
+                                            </div>
+                                        </span>
+                                    </div>
+                                </li>
+                            </ul>
+                    </div>
+                        <div class="w-full mt-[10px] ml-2 px-2">
+                            <table class="w-full border-[1px] border-[#e4dfdf]" id="myTable">
+                                <thead class="bg-[#EFF3F6]">
+                                    <tr class="border-b-[1px] border-[#e4dfdf]">
+                                        <th class="px-4 py-4 leading-4 tracking-wider text-left text-blue-500">
+                                            <label class="inline-flex items-center">
+                                                <input type="checkbox" class="form-checkbox">
+                                            </label>
+                                        </th>
+                                        <th class="px-4 py-4 leading-4 tracking-wider text-left">
+                                            Naziv knjige
+                                            <a href="#"><i class="ml-2 fa-lg fas fa-long-arrow-alt-down"
+                                                    onclick="sortTable()"></i>
+                                            </a>
+                                        </th>
+                                        <th class="px-4 py-4 text-sm leading-4 tracking-wider text-left">Izdato uceniku<i class="ml-2 fas fa-filter"></i></th>
+                                        <th class="px-4 py-4 text-sm leading-4 tracking-wider text-left">Datum izdavanja<i class="fas fa-filter"></i></th>
+                                        <th class="px-4 py-4 text-sm leading-4 tracking-wider text-left">Trenutno zadrzavanje knjige <i class="fas fa-filter"></i></th>
+                                        <th class="px-4 py-4 text-sm leading-4 tracking-wider text-left">Knjigu izdao<i class="fas fa-filter"></i></th>
+                                        <th class="px-4 py-4"> </th>
+                                    </tr>
+                                </thead>
+                                <tbody class="bg-white">
+                                    <tr class="border-b-[1px] border-[#e4dfdf]">
+                                        <td class="px-4 py-3 whitespace-no-wrap">
+                                            <label class="inline-flex items-center">
+                                                <input type="checkbox" class="form-checkbox">
+                                            </label>
+                                        </td>
+                                        <td class="flex flex-row items-center px-4 py-3">
+                                            <img class="object-cover w-8 mr-2 h-11" src="img/tomsojer.jpg" alt="" />
                                             <a href="knjigaOsnovniDetalji.php">
                                                 <span class="font-medium text-center">Geografija Crne Gore</span>
                                             </a>
-                                    </td>
-                                    <td class="px-4 py-4 text-sm leading-5 whitespace-no-wrap">21.02.2021</td>
-                                    <td class="px-4 py-4 text-sm leading-5 text-blue-900 whitespace-no-wrap">
-                                        <div class="inline-block px-[6px] py-[1px] font-medium bg-transparent border-[1px] rounded-[10px] border-yellow-500 borderColor">
-                                            <span class="text-xs text-yellow-500 borderText">Otvorene rezervacije</span>
-                                        </div>
-                                    </td>
-                                    <td class="px-4 py-4 text-sm leading-5 whitespace-no-wrap">Valentina Kascelan</td>
-                                    <td class="px-4 py-4 text-sm leading-5 whitespace-no-wrap">Pero Perovic</td>
-                                    <td class="px-4 py-2">
-                                        <a href="#" class="hover:text-green-500 mr-[5px] reservedBook" >
-                                            <i class="fas fa-check"></i>
-                                        </a>
-                                        <a href="#" class="hover:text-red-500 deniedBook">
-                                            <i class="fas fa-times"></i>
-                                        </a>
-                                    </td>
-                                    <td class="hidden px-4 py-2"></td>
-                                    <td class="px-4 py-4 text-sm leading-5 text-right whitespace-no-wrap">
-                                        <p class="inline cursor-pointer text-[20px] py-[10px] px-[30px] border-[#e4dfdf]">
-                                            <i class="fas fa-ellipsis-v"></i>
-                                        </p>
-                                    </td>
-                                </tr>
-                                <tr class="border-b-[1px] border-[#e4dfdf]">
-                                    <td class="px-4 py-4 whitespace-no-wrap">
-                                        <label class="inline-flex items-center">
-                                            <input type="checkbox" class="form-checkbox">
-                                        </label>
-                                    </td>
-                                    <td class="flex flex-row items-center px-4 py-4">
-                                            <img class="object-cover w-8 mr-2 h-11" src="img/tomsojer.jpg" alt=""/>
+                                        </td>
+                                        <td class="px-4 py-3 text-sm leading-5 whitespace-no-wrap">Pero Perovic</td>
+                                        <td class="px-4 py-3 text-sm leading-5 whitespace-no-wrap">21.02.2021</td>
+                                        <td class="px-4 py-3 text-sm leading-5 whitespace-no-wrap">
+                                            <div>
+                                                <span>2 nedelje i 3 dana</span>
+                                            </div>
+                                        </td>
+                                        <td class="px-4 py-3 text-sm leading-5 whitespace-no-wrap">Valentina Kascelan</td>
+                                        <td class="px-6 py-3 text-sm leading-5 text-right whitespace-no-wrap">
+                                            <p class="inline cursor-pointer text-[20px] py-[10px] px-[30px] border-gray-300"
+                                                id="dropdownBookRow1">
+                                                <i
+                                                    class="fas fa-ellipsis-v hover:text-gray-500 focus:outline-none active:text-gray-800"></i>
+                                            </p>
+                                            <div
+                                                class="hidden transition-all duration-300 origin-top-right transform scale-95 -translate-y-2 dropdown-menu-book-row1">
+                                                <div class="absolute right-0 w-56 mt-2 origin-top-right bg-white border border-gray-200 divide-y divide-gray-100 rounded-md shadow-lg outline-none"
+                                                    aria-labelledby="headlessui-menu-button-1"
+                                                    id="headlessui-menu-items-117" role="menu">
+                                                    <div class="py-1">
+                                                        <a href="javascript:void(0)" tabindex="0"
+                                                            class="flex w-full px-4 py-2 text-sm leading-5 text-left text-gray-700"
+                                                            role="menuitem">
+                                                            <i class="far fa-file mr-[10px] ml-[5px] py-1"></i>
+                                                            <span class="px-4 py-0">Pogledaj detalje</span>
+                                                        </a>
+
+                                                        <a href="javascript:void(0)" tabindex="0"
+                                                            class="flex w-full px-4 py-2 text-sm leading-5 text-left text-gray-700"
+                                                            role="menuitem">
+                                                            <i class="far fa-hand-scissors mr-[10px] ml-[5px] py-1"></i>
+                                                            <span class="px-4 py-0">Izdaj knjigu</span>
+                                                        </a>
+
+                                                        <a href="javascript:void(0)" tabindex="0"
+                                                            class="flex w-full px-4 py-2 text-sm leading-5 text-left text-gray-700"
+                                                            role="menuitem">
+                                                            <i class="fas fa-redo-alt mr-[10px] ml-[5px] py-1"></i>
+                                                            <span class="px-4 py-0">Vrati knjigu</span>
+                                                        </a>
+
+                                                        <a href="javascript:void(0)" tabindex="0"
+                                                            class="flex w-full px-4 py-2 text-sm leading-5 text-left text-gray-700"
+                                                            role="menuitem">
+                                                            <i class="fa fa-trash mr-[10px] ml-[5px] py-1"></i>
+                                                            <span class="px-4 py-0">Izbrisi knjigu</span>
+                                                        </a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </td>
+                                    </tr>
+                                    <tr class="border-b-[1px] border-[#e4dfdf]">
+                                        <td class="px-4 py-3 whitespace-no-wrap">
+                                            <label class="inline-flex items-center">
+                                                <input type="checkbox" class="form-checkbox">
+                                            </label>
+                                        </td>
+                                        <td class="flex flex-row items-center px-4 py-3">
+                                            <img class="object-cover w-8 mr-2 h-11" src="img/tomsojer.jpg" alt="" />
+                                            <a href="knjigaOsnovniDetalji.php">
+                                                <span class="font-medium text-center">Muzicka kultura I Raz</span>
+                                            </a>
+                                        </td>
+                                        <td class="px-4 py-3 text-sm leading-5 whitespace-no-wrap">Nina Bulatovic</td>
+                                        <td class="px-4 py-3 text-sm leading-5 whitespace-no-wrap">15.05.2020</td>
+                                        <td class="px-4 py-3 text-sm leading-5 whitespace-no-wrap">
+                                            <div>
+                                                <span>5 dana</span>
+                                            </div>
+                                        </td>
+                                        <td class="px-4 py-3 text-sm leading-5 whitespace-no-wrap">Valentina Kascelan</td>
+                                        <td class="px-6 py-3 text-sm leading-5 text-right whitespace-no-wrap">
+                                            <p class="inline cursor-pointer text-[20px] py-[10px] px-[30px] border-gray-300"
+                                                id="dropdownBookRow2">
+                                                <i
+                                                    class="fas fa-ellipsis-v hover:text-gray-500 focus:outline-none active:text-gray-800"></i>
+                                            </p>
+                                            <div
+                                                class="hidden transition-all duration-300 origin-top-right transform scale-95 -translate-y-2 dropdown-menu-book-row2">
+                                                <div class="absolute right-0 w-56 mt-2 origin-top-right bg-white border border-gray-200 divide-y divide-gray-100 rounded-md shadow-lg outline-none"
+                                                    aria-labelledby="headlessui-menu-button-1"
+                                                    id="headlessui-menu-items-117" role="menu">
+                                                    <div class="py-1">
+                                                        <a href="javascript:void(0)" tabindex="0"
+                                                            class="flex w-full px-4 py-2 text-sm leading-5 text-left text-gray-700"
+                                                            role="menuitem">
+                                                            <i class="far fa-file mr-[10px] ml-[5px] py-1"></i>
+                                                            <span class="px-4 py-0">Pogledaj detalje</span>
+                                                        </a>
+
+                                                        <a href="javascript:void(0)" tabindex="0"
+                                                            class="flex w-full px-4 py-2 text-sm leading-5 text-left text-gray-700"
+                                                            role="menuitem">
+                                                            <i class="far fa-hand-scissors mr-[10px] ml-[5px] py-1"></i>
+                                                            <span class="px-4 py-0">Izdaj knjigu</span>
+                                                        </a>
+
+                                                        <a href="javascript:void(0)" tabindex="0"
+                                                            class="flex w-full px-4 py-2 text-sm leading-5 text-left text-gray-700"
+                                                            role="menuitem">
+                                                            <i class="fas fa-redo-alt mr-[10px] ml-[5px] py-1"></i>
+                                                            <span class="px-4 py-0">Vrati knjigu</span>
+                                                        </a>
+
+                                                        <a href="javascript:void(0)" tabindex="0"
+                                                            class="flex w-full px-4 py-2 text-sm leading-5 text-left text-gray-700"
+                                                            role="menuitem">
+                                                            <i class="fa fa-trash mr-[10px] ml-[5px] py-1"></i>
+                                                            <span class="px-4 py-0">Izbrisi knjigu</span>
+                                                        </a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </td>
+                                    </tr>
+                                    <tr class="border-b-[1px] border-[#e4dfdf]">
+                                        <td class="px-4 py-3 whitespace-no-wrap">
+                                            <label class="inline-flex items-center">
+                                                <input type="checkbox" class="form-checkbox">
+                                            </label>
+                                        </td>
+                                        <td class="flex flex-row items-center px-4 py-3">
+                                            <img class="object-cover w-8 mr-2 h-11" src="img/tomsojer.jpg" alt="" />
                                             <a href="knjigaOsnovniDetalji.php">
                                                 <span class="font-medium text-center">Tom Sojer</span>
                                             </a>
-                                    </td>
-                                    <td class="px-4 py-4 text-sm leading-5 whitespace-no-wrap">12.05.2020</td>
-                                    <td class="px-4 py-4 text-sm leading-5 text-blue-900 whitespace-no-wrap">
-                                        <div class="inline-block px-[6px] py-[2px] font-medium bg-blue-200 rounded-[10px]">
-                                            <span class="text-xs text-blue-800">Izdata knjiga</span>
-                                        </div>
-                                    </td>
-                                    <td class="px-4 py-4 text-sm leading-5 whitespace-no-wrap">Valentina Kascelan</td>
-                                    <td class="px-4 py-4 text-sm leading-5 whitespace-no-wrap">Pero Perovic</td>
-                                    <td class="px-4 py-2"></td>
-                                    <td class="px-4 py-4 text-sm leading-5 text-right whitespace-no-wrap">
-                                        <p class="inline cursor-pointer text-[20px] py-[10px] px-[30px] border-gray-300">
-                                            <i class="fas fa-ellipsis-v"></i>
-                                        </p>
-                                    </td>
-                                </tr>
-                                <tr class="border-b-[1px] border-[#e4dfdf]">
-                                    <td class="px-4 py-4 whitespace-no-wrap">
-                                        <label class="inline-flex items-center">
-                                            <input type="checkbox" class="form-checkbox">
-                                        </label>
-                                    </td>
-                                    <td class="flex flex-row items-center px-4 py-4">
-                                            <img class="object-cover w-8 mr-2 h-11" src="img/tomsojer.jpg" alt=""/>
+                                        </td>
+                                        <td class="px-4 py-3 text-sm leading-5 whitespace-no-wrap">Milos Milosevic</td>
+                                        <td class="px-4 py-3 text-sm leading-5 whitespace-no-wrap">12.05.2020</td>
+                                        <td class="px-4 py-3 text-sm leading-5 whitespace-no-wrap">
+                                            <div>
+                                                <span>1 nedelja i 4 dana</span>
+                                            </div>
+                                        </td>
+                                        <td class="px-4 py-3 text-sm leading-5 whitespace-no-wrap">Valentina Kascelan</td>
+                                        <td class="px-6 py-3 text-sm leading-5 text-right whitespace-no-wrap">
+                                            <p class="inline cursor-pointer text-[20px] py-[10px] px-[30px] border-gray-300"
+                                                id="dropdownBookRow3">
+                                                <i
+                                                    class="fas fa-ellipsis-v hover:text-gray-500 focus:outline-none active:text-gray-800"></i>
+                                            </p>
+                                            <div
+                                                class="relative z-20 hidden transition-all duration-300 origin-top-right transform scale-95 -translate-y-2 dropdown-menu-book-row3">
+                                                <div class="absolute right-0 w-56 mt-2 origin-top-right bg-white border border-gray-200 divide-y divide-gray-100 rounded-md shadow-lg outline-none"
+                                                    aria-labelledby="headlessui-menu-button-1"
+                                                    id="headlessui-menu-items-117" role="menu">
+                                                    <div class="py-1">
+                                                        <a href="javascript:void(0)" tabindex="0"
+                                                            class="flex w-full px-4 py-2 text-sm leading-5 text-left text-gray-700"
+                                                            role="menuitem">
+                                                            <i class="far fa-file mr-[10px] ml-[5px] py-1"></i>
+                                                            <span class="px-4 py-0">Pogledaj detalje</span>
+                                                        </a>
+
+                                                        <a href="javascript:void(0)" tabindex="0"
+                                                            class="flex w-full px-4 py-2 text-sm leading-5 text-left text-gray-700"
+                                                            role="menuitem">
+                                                            <i class="far fa-hand-scissors mr-[10px] ml-[5px] py-1"></i>
+                                                            <span class="px-4 py-0">Izdaj knjigu</span>
+                                                        </a>
+
+                                                        <a href="javascript:void(0)" tabindex="0"
+                                                            class="flex w-full px-4 py-2 text-sm leading-5 text-left text-gray-700"
+                                                            role="menuitem">
+                                                            <i class="fas fa-redo-alt mr-[10px] ml-[5px] py-1"></i>
+                                                            <span class="px-4 py-0">Vrati knjigu</span>
+                                                        </a>
+
+                                                        <a href="javascript:void(0)" tabindex="0"
+                                                            class="flex w-full px-4 py-2 text-sm leading-5 text-left text-gray-700"
+                                                            role="menuitem">
+                                                            <i class="fa fa-trash mr-[10px] ml-[5px] py-1"></i>
+                                                            <span class="px-4 py-0">Izbrisi knjigu</span>
+                                                        </a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </td>
+                                    </tr>
+                                    <tr class="border-b-[1px] border-[#e4dfdf]">
+                                        <td class="px-4 py-3 whitespace-no-wrap">
+                                            <label class="inline-flex items-center">
+                                                <input type="checkbox" class="form-checkbox">
+                                            </label>
+                                        </td>
+                                        <td class="flex flex-row items-center px-4 py-3">
+                                            <img class="object-cover w-8 mr-2 h-11" src="img/tomsojer.jpg" alt="" />
                                             <a href="knjigaOsnovniDetalji.php">
                                                 <span class="font-medium text-center">Robinson Kruso</span>
                                             </a>
-                                    </td>
-                                    <td class="px-4 py-4 text-sm leading-5 whitespace-no-wrap">25.05.2020</td>
-                                    <td class="px-4 py-4 text-sm leading-5 text-blue-900 whitespace-no-wrap">
-                                        <div class="inline-block px-[6px] py-[2px] font-medium bg-green-200 rounded-[10px]">
-                                            <span class="text-xs text-green-800">Vracena knjiga</span>
-                                        </div>
-                                    </td>
-                                    <td class="px-4 py-4 text-sm leading-5 whitespace-no-wrap">Nina Bracovic</td>
-                                    <td class="px-4 py-4 text-sm leading-5 whitespace-no-wrap">Pero Perovic</td>
-                                    <td class="px-4 py-2"></td>
-                                    <td class="px-4 py-4 text-sm leading-5 text-right whitespace-no-wrap">
-                                        <p class="inline cursor-pointer text-[20px] py-[10px] px-[30px] border-gray-300">
-                                            <i class="fas fa-ellipsis-v"></i>
-                                        </p>
-                                    </td>
-                                </tr>
-                                <tr class="border-b-[1px] border-gray-[#e4dfdf]">
-                                    <td class="px-4 py-4 whitespace-no-wrap">
-                                        <label class="inline-flex items-center">
-                                            <input type="checkbox" class="form-checkbox">
-                                        </label>
-                                    </td>
-                                    <td class="flex flex-row items-center px-4 py-4">
-                                            <img class="object-cover w-8 mr-2 h-11" src="img/tomsojer.jpg" alt=""/>
-                                            <a href="knjigaOsnovniDetalji.php">
-                                                <span class="font-medium text-center">Galebova stijena</span>
-                                            </a>
-                                    </td>
-                                    <td class="px-4 py-4 text-sm leading-5 whitespace-no-wrap">12.05.2020</td>
-                                    <td class="px-4 py-4 text-sm leading-5 text-blue-900 whitespace-no-wrap">
-                                        <div class="inline-block px-[6px] py-[2px] font-medium bg-yellow-200 rounded-[10px]">
-                                            <span class="text-xs text-yellow-700">Potvrdjene rezervacije</span>
-                                        </div>
-                                    </td>
-                                    <td class="px-4 py-4 text-sm leading-5 whitespace-no-wrap">Nina Bracovic</td>
-                                    <td class="px-4 py-4 text-sm leading-5 whitespace-no-wrap">Pero Perovic</td>
-                                    <td class="px-4 py-2"></td>
-                                    <td class="px-4 py-4 text-sm leading-5 text-right whitespace-no-wrap">
-                                        <p class="inline cursor-pointer text-[20px] py-[10px] px-[30px] border-gray-300">
-                                            <i class="fas fa-ellipsis-v"></i>
-                                        </p>
-                                    </td>
-                                </tr>
-                                <tr class="border-b-[1px] border-[#e4dfdf]">
-                                    <td class="px-4 py-4 whitespace-no-wrap">
-                                        <label class="inline-flex items-center">
-                                            <input type="checkbox" class="form-checkbox">
-                                        </label>
-                                    </td>
-                                    <td class="flex flex-row items-center px-4 py-4">
-                                            <img class="object-cover w-8 mr-2 h-11" src="img/tomsojer.jpg" alt=""/>
-                                            <a href="knjigaOsnovniDetalji.php">
-                                                <span class="font-medium text-center">Sa druge strane ljuske</span>
-                                            </a>
-                                    </td>
-                                    <td class="px-4 py-4 text-sm leading-5 whitespace-no-wrap">12.05.2020</td>
-                                    <td class="px-4 py-4 text-sm leading-5 text-blue-900 whitespace-no-wrap">
-                                        <div class="inline-block px-[6px] py-[2px] font-medium bg-green-200 rounded-[10px]">
-                                            <span class="text-xs text-green-800">Vracena knjiga</span>
-                                        </div>
-                                    </td>
-                                    <td class="px-4 py-4 text-sm leading-5 whitespace-no-wrap">Nina Bracovic</td>
-                                    <td class="px-4 py-4 text-sm leading-5 whitespace-no-wrap">Pero Perovic</td>
-                                    <td class="px-4 py-2"></td>
-                                    <td class="px-4 py-4 text-sm leading-5 text-right whitespace-no-wrap">
-                                        <p class="inline cursor-pointer text-[20px] py-[10px] px-[30px] border-gray-300">
-                                            <i class="fas fa-ellipsis-v"></i>
-                                        </p>
-                                    </td>
-                                </tr>
-                                <tr class="border-b-[1px] border-[#e4dfdf]">
-                                    <td class="px-4 py-4 whitespace-no-wrap">
-                                        <label class="inline-flex items-center">
-                                            <input type="checkbox" class="form-checkbox">
-                                        </label>
-                                    </td>
-                                    <td class="flex flex-row items-center px-4 py-4">
-                                            <img class="object-cover w-8 mr-2 h-11" src="img/tomsojer.jpg" alt=""/>
-                                            <a href="knjigaOsnovniDetalji.php">
-                                                <span class="font-medium text-center">Umjetnici kao djeca</span>
-                                            </a>
-                                    </td>
-                                    <td class="px-4 py-4 text-sm leading-5 whitespace-no-wrap">12.05.2020</td>
-                                    <td class="px-4 py-4 text-sm leading-5 text-blue-900 whitespace-no-wrap">
-                                        <div class="inline-block px-[6px] py-[2px] font-medium bg-red-200 rounded-[10px]">
-                                            <span class="text-xs text-red-800">Odbijene rezervacije</span>
-                                        </div>
-                                    </td>
-                                    <td class="px-4 py-4 text-sm leading-5 whitespace-no-wrap">Valentina Kascelan</td>
-                                    <td class="px-4 py-4 text-sm leading-5 whitespace-no-wrap">Pero Perovic</td>
-                                    <td class="px-4 py-2"></td>
-                                    <td class="px-4 py-4 text-sm leading-5 text-right whitespace-no-wrap">
-                                        <p class="inline cursor-pointer text-[20px] py-[10px] px-[30px] border-[#e4dfdf]">
-                                            <i class="fas fa-ellipsis-v"></i>
-                                        </p>
-                                    </td>
-                                </tr>
-                        </tbody>
-                    </table>
-                    
-                    <div class="flex flex-row items-center justify-end my-2">
-                        <div>
-                            <p class="inline text-md">
-                                Rows per page:
-                            </p>
-                            <select
-                                class=" text-gray-700 bg-white rounded-md w-[46px] focus:outline-none focus:ring-primary-500 focus:border-primary-500 text-md"
-                                name="ucenici">
-                                <option value="">
-                                    8
-                                </option>
-                                <option value="">
-                                    Option1
-                                </option>
-                                <option value="">
-                                    Option2
-                                </option>
-                                <option value="">
-                                    Option3
-                                </option>
-                                <option value="">
-                                    Option4
-                                </option>
-                            </select>
-                        </div>
-                        
-                        <div>
-                            <nav class="relative z-0 inline-flex">
-                                <div>
-                                    <a href="#" class="relative inline-flex items-center px-4 py-2 -ml-px font-medium leading-5 transition duration-150 ease-in-out bg-white text-md focus:z-10 focus:outline-none">
-                                        1 of 35
-                                    </a>
-                                </div>
-                                <div>
-                                    <a href="#" class="relative inline-flex items-center px-2 py-2 font-medium leading-5 text-gray-500 transition duration-150 ease-in-out bg-white text-md rounded-l-md hover:text-gray-400 focus:z-10 focus:outline-none" aria-label="Previous" v-on:click.prevent="changePage(pagination.current_page - 1)">
-                                        <svg class="w-5 h-5" viewBox="0 0 20 20" fill="currentColor">
-                                            <path fill-rule="evenodd" d="M12.707 5.293a1 1 0 010 1.414L9.414 10l3.293 3.293a1 1 0 01-1.414 1.414l-4-4a1 1 0 010-1.414l4-4a1 1 0 011.414 0z" clip-rule="evenodd" />
-                                        </svg>
-                                    </a>
-                                </div>
-                                <div v-if="pagination.current_page < pagination.last_page">
-                                    <a href="#" class="relative inline-flex items-center px-2 py-2 -ml-px font-medium leading-5 text-gray-500 transition duration-150 ease-in-out bg-white text-md rounded-r-md hover:text-gray-400 focus:z-10 focus:outline-none" aria-label="Next">
-                                        <svg class="w-5 h-5" viewBox="0 0 20 20" fill="currentColor">
-                                            <path fill-rule="evenodd" d="M7.293 14.707a1 1 0 010-1.414L10.586 10 7.293 6.707a1 1 0 011.414-1.414l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414 0z" clip-rule="evenodd" />
-                                        </svg>
-                                    </a>
-                                </div>
-                            </nav>
-                        </div> 
-                    </div>
+                                        </td>
+                                        <td class="px-4 py-3 text-sm leading-5 whitespace-no-wrap">Sanja Gardasevic</td>
+                                        <td class="px-4 py-3 text-sm leading-5 whitespace-no-wrap">09.04.2020</td>
+                                        <td class="px-4 py-3 text-sm leading-5 whitespace-no-wrap">
+                                            <div class="inline-block px-[6px] py-[2px] font-medium bg-red-200 rounded-[5px]">
+                                                <span class="text-xs text-white">1 mjesec i 3 dana</span>
+                                            </div>
+                                        </td>
+                                        <td class="px-4 py-3 text-sm leading-5 whitespace-no-wrap">Valentina Kascelan</td>
+                                        <td class="px-6 py-3 text-sm leading-5 text-right whitespace-no-wrap">
+                                            <p class="inline cursor-pointer text-[20px] py-[10px] px-[30px] border-gray-300"
+                                                id="dropdownBookRow4">
+                                                <i
+                                                    class="fas fa-ellipsis-v hover:text-gray-500 focus:outline-none active:text-gray-800"></i>
+                                            </p>
+                                            <div
+                                                class="relative z-20 hidden transition-all duration-300 origin-top-right transform scale-95 -translate-y-2 dropdown-menu-book-row4">
+                                                <div class="absolute right-0 w-56 mt-2 origin-top-right bg-white border border-gray-200 divide-y divide-gray-100 rounded-md shadow-lg outline-none"
+                                                    aria-labelledby="headlessui-menu-button-1"
+                                                    id="headlessui-menu-items-117" role="menu">
+                                                    <div class="py-1">
+                                                        <a href="javascript:void(0)" tabindex="0"
+                                                            class="flex w-full px-4 py-2 text-sm leading-5 text-left text-gray-700"
+                                                            role="menuitem">
+                                                            <i class="far fa-file mr-[10px] ml-[5px] py-1"></i>
+                                                            <span class="px-4 py-0">Pogledaj detalje</span>
+                                                        </a>
 
+                                                        <a href="javascript:void(0)" tabindex="0"
+                                                            class="flex w-full px-4 py-2 text-sm leading-5 text-left text-gray-700"
+                                                            role="menuitem">
+                                                            <i class="far fa-hand-scissors mr-[10px] ml-[5px] py-1"></i>
+                                                            <span class="px-4 py-0">Izdaj knjigu</span>
+                                                        </a>
+
+                                                        <a href="javascript:void(0)" tabindex="0"
+                                                            class="flex w-full px-4 py-2 text-sm leading-5 text-left text-gray-700"
+                                                            role="menuitem">
+                                                            <i class="fas fa-redo-alt mr-[10px] ml-[5px] py-1"></i>
+                                                            <span class="px-4 py-0">Vrati knjigu</span>
+                                                        </a>
+
+                                                        <a href="javascript:void(0)" tabindex="0"
+                                                            class="flex w-full px-4 py-2 text-sm leading-5 text-left text-gray-700"
+                                                            role="menuitem">
+                                                            <i class="fa fa-trash mr-[10px] ml-[5px] py-1"></i>
+                                                            <span class="px-4 py-0">Izbrisi knjigu</span>
+                                                        </a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </td>
+                                    </tr>
+                                    <tr class="border-b-[1px] border-[#e4dfdf]">
+                                        <td class="px-4 py-3 whitespace-no-wrap">
+                                            <label class="inline-flex items-center">
+                                                <input type="checkbox" class="form-checkbox">
+                                            </label>
+                                        </td>
+                                        <td class="flex flex-row items-center px-4 py-3">
+                                            <img class="object-cover w-8 mr-2 h-11" src="img/tomsojer.jpg" alt="" />
+                                            <a href="knjigaOsnovniDetalji.php">
+                                                <span class="font-medium text-center">Geografija Crne Gore</span>
+                                            </a>
+                                        </td>
+                                        <td class="px-4 py-3 text-sm leading-5 whitespace-no-wrap">Pero Perovic</td>
+                                        <td class="px-4 py-3 text-sm leading-5 whitespace-no-wrap">21.02.2021</td>
+                                        <td class="px-4 py-3 text-sm leading-5 whitespace-no-wrap">
+                                            <div class="inline-block px-[6px] py-[2px] font-medium bg-red-200 rounded-[5px]">
+                                                <span class="text-xs text-white">3 mjeseca i 2 nedelje</span>
+                                            </div>
+                                        </td>
+                                        <td class="px-4 py-3 text-sm leading-5 whitespace-no-wrap">Valentina Kascelan</td>
+                                        <td class="px-6 py-3 text-sm leading-5 text-right whitespace-no-wrap">
+                                            <p class="inline cursor-pointer text-[20px] py-[10px] px-[30px] border-gray-300"
+                                                id="dropdownBookRow1">
+                                                <i
+                                                    class="fas fa-ellipsis-v hover:text-gray-500 focus:outline-none active:text-gray-800"></i>
+                                            </p>
+                                            <div
+                                                class="hidden transition-all duration-300 origin-top-right transform scale-95 -translate-y-2 dropdown-menu-book-row1">
+                                                <div class="absolute right-0 w-56 mt-2 origin-top-right bg-white border border-gray-200 divide-y divide-gray-100 rounded-md shadow-lg outline-none"
+                                                    aria-labelledby="headlessui-menu-button-1"
+                                                    id="headlessui-menu-items-117" role="menu">
+                                                    <div class="py-1">
+                                                        <a href="javascript:void(0)" tabindex="0"
+                                                            class="flex w-full px-4 py-2 text-sm leading-5 text-left text-gray-700"
+                                                            role="menuitem">
+                                                            <i class="far fa-file mr-[10px] ml-[5px] py-1"></i>
+                                                            <span class="px-4 py-0">Pogledaj detalje</span>
+                                                        </a>
+
+                                                        <a href="javascript:void(0)" tabindex="0"
+                                                            class="flex w-full px-4 py-2 text-sm leading-5 text-left text-gray-700"
+                                                            role="menuitem">
+                                                            <i class="far fa-hand-scissors mr-[10px] ml-[5px] py-1"></i>
+                                                            <span class="px-4 py-0">Izdaj knjigu</span>
+                                                        </a>
+
+                                                        <a href="javascript:void(0)" tabindex="0"
+                                                            class="flex w-full px-4 py-2 text-sm leading-5 text-left text-gray-700"
+                                                            role="menuitem">
+                                                            <i class="fas fa-redo-alt mr-[10px] ml-[5px] py-1"></i>
+                                                            <span class="px-4 py-0">Vrati knjigu</span>
+                                                        </a>
+
+                                                        <a href="javascript:void(0)" tabindex="0"
+                                                            class="flex w-full px-4 py-2 text-sm leading-5 text-left text-gray-700"
+                                                            role="menuitem">
+                                                            <i class="fa fa-trash mr-[10px] ml-[5px] py-1"></i>
+                                                            <span class="px-4 py-0">Izbrisi knjigu</span>
+                                                        </a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </td>
+                                    </tr>
+                                    <tr class="border-b-[1px] border-[#e4dfdf]">
+                                        <td class="px-4 py-3 whitespace-no-wrap">
+                                            <label class="inline-flex items-center">
+                                                <input type="checkbox" class="form-checkbox">
+                                            </label>
+                                        </td>
+                                        <td class="flex flex-row items-center px-4 py-3">
+                                            <img class="object-cover w-8 mr-2 h-11" src="img/tomsojer.jpg" alt="" />
+                                            <a href="knjigaOsnovniDetalji.php">
+                                                <span class="font-medium text-center">Muzicka kultura I Raz</span>
+                                            </a>
+                                        </td>
+                                        <td class="px-4 py-3 text-sm leading-5 whitespace-no-wrap">Nina Bulatovic</td>
+                                        <td class="px-4 py-3 text-sm leading-5 whitespace-no-wrap">15.05.2020</td>
+                                        <td class="px-4 py-3 text-sm leading-5 whitespace-no-wrap">
+                                            <div>
+                                                <span>5 dana</span>
+                                            </div>
+                                        </td>
+                                        <td class="px-4 py-3 text-sm leading-5 whitespace-no-wrap">Valentina Kascelan</td>
+                                        <td class="px-6 py-3 text-sm leading-5 text-right whitespace-no-wrap">
+                                            <p class="inline cursor-pointer text-[20px] py-[10px] px-[30px] border-gray-300"
+                                                id="dropdownBookRow2">
+                                                <i
+                                                    class="fas fa-ellipsis-v hover:text-gray-500 focus:outline-none active:text-gray-800"></i>
+                                            </p>
+                                            <div
+                                                class="hidden transition-all duration-300 origin-top-right transform scale-95 -translate-y-2 dropdown-menu-book-row2">
+                                                <div class="absolute right-0 w-56 mt-2 origin-top-right bg-white border border-gray-200 divide-y divide-gray-100 rounded-md shadow-lg outline-none"
+                                                    aria-labelledby="headlessui-menu-button-1"
+                                                    id="headlessui-menu-items-117" role="menu">
+                                                    <div class="py-1">
+                                                        <a href="javascript:void(0)" tabindex="0"
+                                                            class="flex w-full px-4 py-2 text-sm leading-5 text-left text-gray-700"
+                                                            role="menuitem">
+                                                            <i class="far fa-file mr-[10px] ml-[5px] py-1"></i>
+                                                            <span class="px-4 py-0">Pogledaj detalje</span>
+                                                        </a>
+
+                                                        <a href="javascript:void(0)" tabindex="0"
+                                                            class="flex w-full px-4 py-2 text-sm leading-5 text-left text-gray-700"
+                                                            role="menuitem">
+                                                            <i class="far fa-hand-scissors mr-[10px] ml-[5px] py-1"></i>
+                                                            <span class="px-4 py-0">Izdaj knjigu</span>
+                                                        </a>
+
+                                                        <a href="javascript:void(0)" tabindex="0"
+                                                            class="flex w-full px-4 py-2 text-sm leading-5 text-left text-gray-700"
+                                                            role="menuitem">
+                                                            <i class="fas fa-redo-alt mr-[10px] ml-[5px] py-1"></i>
+                                                            <span class="px-4 py-0">Vrati knjigu</span>
+                                                        </a>
+
+                                                        <a href="javascript:void(0)" tabindex="0"
+                                                            class="flex w-full px-4 py-2 text-sm leading-5 text-left text-gray-700"
+                                                            role="menuitem">
+                                                            <i class="fa fa-trash mr-[10px] ml-[5px] py-1"></i>
+                                                            <span class="px-4 py-0">Izbrisi knjigu</span>
+                                                        </a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </td>
+                                    </tr>
+                                    <tr class="border-b-[1px] border-[#e4dfdf]">
+                                        <td class="px-4 py-3 whitespace-no-wrap">
+                                            <label class="inline-flex items-center">
+                                                <input type="checkbox" class="form-checkbox">
+                                            </label>
+                                        </td>
+                                        <td class="flex flex-row items-center px-4 py-3">
+                                            <img class="object-cover w-8 mr-2 h-11" src="img/tomsojer.jpg" alt="" />
+                                            <a href="knjigaOsnovniDetalji.php">
+                                                <span class="font-medium text-center">Tom Sojer</span>
+                                            </a>
+                                        </td>
+                                        <td class="px-4 py-3 text-sm leading-5 whitespace-no-wrap">Milos Milosevic</td>
+                                        <td class="px-4 py-3 text-sm leading-5 whitespace-no-wrap">12.05.2020</td>
+                                        <td class="px-4 py-3 text-sm leading-5 whitespace-no-wrap">
+                                            <div>
+                                                <span>1 nedelja i 4 dana</span>
+                                            </div>
+                                        </td>
+                                        <td class="px-4 py-3 text-sm leading-5 whitespace-no-wrap">Valentina Kascelan</td>
+                                        <td class="px-6 py-3 text-sm leading-5 text-right whitespace-no-wrap">
+                                            <p class="inline cursor-pointer text-[20px] py-[10px] px-[30px] border-gray-300"
+                                                id="dropdownBookRow3">
+                                                <i
+                                                    class="fas fa-ellipsis-v hover:text-gray-500 focus:outline-none active:text-gray-800"></i>
+                                            </p>
+                                            <div
+                                                class="relative z-20 hidden transition-all duration-300 origin-top-right transform scale-95 -translate-y-2 dropdown-menu-book-row3">
+                                                <div class="absolute right-0 w-56 mt-2 origin-top-right bg-white border border-gray-200 divide-y divide-gray-100 rounded-md shadow-lg outline-none"
+                                                    aria-labelledby="headlessui-menu-button-1"
+                                                    id="headlessui-menu-items-117" role="menu">
+                                                    <div class="py-1">
+                                                        <a href="javascript:void(0)" tabindex="0"
+                                                            class="flex w-full px-4 py-2 text-sm leading-5 text-left text-gray-700"
+                                                            role="menuitem">
+                                                            <i class="far fa-file mr-[10px] ml-[5px] py-1"></i>
+                                                            <span class="px-4 py-0">Pogledaj detalje</span>
+                                                        </a>
+
+                                                        <a href="javascript:void(0)" tabindex="0"
+                                                            class="flex w-full px-4 py-2 text-sm leading-5 text-left text-gray-700"
+                                                            role="menuitem">
+                                                            <i class="far fa-hand-scissors mr-[10px] ml-[5px] py-1"></i>
+                                                            <span class="px-4 py-0">Izdaj knjigu</span>
+                                                        </a>
+
+                                                        <a href="javascript:void(0)" tabindex="0"
+                                                            class="flex w-full px-4 py-2 text-sm leading-5 text-left text-gray-700"
+                                                            role="menuitem">
+                                                            <i class="fas fa-redo-alt mr-[10px] ml-[5px] py-1"></i>
+                                                            <span class="px-4 py-0">Vrati knjigu</span>
+                                                        </a>
+
+                                                        <a href="javascript:void(0)" tabindex="0"
+                                                            class="flex w-full px-4 py-2 text-sm leading-5 text-left text-gray-700"
+                                                            role="menuitem">
+                                                            <i class="fa fa-trash mr-[10px] ml-[5px] py-1"></i>
+                                                            <span class="px-4 py-0">Izbrisi knjigu</span>
+                                                        </a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </td>
+                                    </tr>
+                                    <tr class="border-b-[1px] border-[#e4dfdf]">
+                                        <td class="px-4 py-3 whitespace-no-wrap">
+                                            <label class="inline-flex items-center">
+                                                <input type="checkbox" class="form-checkbox">
+                                            </label>
+                                        </td>
+                                        <td class="flex flex-row items-center px-4 py-3">
+                                            <img class="object-cover w-8 mr-2 h-11" src="img/tomsojer.jpg" alt="" />
+                                            <a href="knjigaOsnovniDetalji.php">
+                                                <span class="font-medium text-center">Robinson Kruso</span>
+                                            </a>
+                                        </td>
+                                        <td class="px-4 py-3 text-sm leading-5 whitespace-no-wrap">Sanja Gardasevic</td>
+                                        <td class="px-4 py-3 text-sm leading-5 whitespace-no-wrap">09.04.2020</td>
+                                        <td class="px-4 py-3 text-sm leading-5 whitespace-no-wrap">
+                                            <div>
+                                                <span>3 nedelje i 6 dana</span>
+                                            </div>
+                                        </td>
+                                        <td class="px-4 py-3 text-sm leading-5 whitespace-no-wrap">Valentina Kascelan</td>
+                                        <td class="px-6 py-3 text-sm leading-5 text-right whitespace-no-wrap">
+                                            <p class="inline cursor-pointer text-[20px] py-[10px] px-[30px] border-gray-300"
+                                                id="dropdownBookRow4">
+                                                <i
+                                                    class="fas fa-ellipsis-v hover:text-gray-500 focus:outline-none active:text-gray-800"></i>
+                                            </p>
+                                            <div
+                                                class="relative z-20 hidden transition-all duration-300 origin-top-right transform scale-95 -translate-y-2 dropdown-menu-book-row4">
+                                                <div class="absolute right-0 w-56 mt-2 origin-top-right bg-white border border-gray-200 divide-y divide-gray-100 rounded-md shadow-lg outline-none"
+                                                    aria-labelledby="headlessui-menu-button-1"
+                                                    id="headlessui-menu-items-117" role="menu">
+                                                    <div class="py-1">
+                                                        <a href="javascript:void(0)" tabindex="0"
+                                                            class="flex w-full px-4 py-2 text-sm leading-5 text-left text-gray-700"
+                                                            role="menuitem">
+                                                            <i class="far fa-file mr-[10px] ml-[5px] py-1"></i>
+                                                            <span class="px-4 py-0">Pogledaj detalje</span>
+                                                        </a>
+
+                                                        <a href="javascript:void(0)" tabindex="0"
+                                                            class="flex w-full px-4 py-2 text-sm leading-5 text-left text-gray-700"
+                                                            role="menuitem">
+                                                            <i class="far fa-hand-scissors mr-[10px] ml-[5px] py-1"></i>
+                                                            <span class="px-4 py-0">Izdaj knjigu</span>
+                                                        </a>
+
+                                                        <a href="javascript:void(0)" tabindex="0"
+                                                            class="flex w-full px-4 py-2 text-sm leading-5 text-left text-gray-700"
+                                                            role="menuitem">
+                                                            <i class="fas fa-redo-alt mr-[10px] ml-[5px] py-1"></i>
+                                                            <span class="px-4 py-0">Vrati knjigu</span>
+                                                        </a>
+
+                                                        <a href="javascript:void(0)" tabindex="0"
+                                                            class="flex w-full px-4 py-2 text-sm leading-5 text-left text-gray-700"
+                                                            role="menuitem">
+                                                            <i class="fa fa-trash mr-[10px] ml-[5px] py-1"></i>
+                                                            <span class="px-4 py-0">Izbrisi knjigu</span>
+                                                        </a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </td>
+                                    </tr>
+                                </tbody>
+                            </table>
+
+                            <div class="flex flex-row items-center justify-end my-2">
+                                <div>
+                                    <p class="inline text-md">
+                                        Rows per page:
+                                    </p>
+                                    <select
+                                        class=" text-gray-700 bg-white rounded-md w-[46px] focus:outline-none focus:ring-primary-500 focus:border-primary-500 text-md"
+                                        name="ucenici">
+                                        <option value="">
+                                            20
+                                        </option>
+                                        <option value="">
+                                            Option1
+                                        </option>
+                                        <option value="">
+                                            Option2
+                                        </option>
+                                        <option value="">
+                                            Option3
+                                        </option>
+                                        <option value="">
+                                            Option4
+                                        </option>
+                                    </select>
+                                </div>
+
+                                <div>
+                                    <nav class="relative z-0 inline-flex">
+                                        <div>
+                                            <a href="#"
+                                                class="relative inline-flex items-center px-4 py-2 -ml-px font-medium leading-5 transition duration-150 ease-in-out bg-white text-md focus:z-10 focus:outline-none">
+                                                1 of 1
+                                            </a>
+                                        </div>
+                                        <div>
+                                            <a href="#"
+                                                class="relative inline-flex items-center px-2 py-2 font-medium leading-5 text-gray-500 transition duration-150 ease-in-out bg-white text-md rounded-l-md hover:text-gray-400 focus:z-10 focus:outline-none"
+                                                aria-label="Previous"
+                                                v-on:click.prevent="changePage(pagination.current_page - 1)">
+                                                <svg class="w-5 h-5" viewBox="0 0 20 20" fill="currentColor">
+                                                    <path fill-rule="evenodd"
+                                                        d="M12.707 5.293a1 1 0 010 1.414L9.414 10l3.293 3.293a1 1 0 01-1.414 1.414l-4-4a1 1 0 010-1.414l4-4a1 1 0 011.414 0z"
+                                                        clip-rule="evenodd" />
+                                                </svg>
+                                            </a>
+                                        </div>
+                                        <div v-if="pagination.current_page < pagination.last_page">
+                                            <a href="#"
+                                                class="relative inline-flex items-center px-2 py-2 -ml-px font-medium leading-5 text-gray-500 transition duration-150 ease-in-out bg-white text-md rounded-r-md hover:text-gray-400 focus:z-10 focus:outline-none"
+                                                aria-label="Next">
+                                                <svg class="w-5 h-5" viewBox="0 0 20 20" fill="currentColor">
+                                                    <path fill-rule="evenodd"
+                                                        d="M7.293 14.707a1 1 0 010-1.414L10.586 10 7.293 6.707a1 1 0 011.414-1.414l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414 0z"
+                                                        clip-rule="evenodd" />
+                                                </svg>
+                                            </a>
+                                        </div>
+                                    </nav>
+                                </div>
+                            </div>
+
+                        </div>
                 </div>
-            </div>
         </section>
         <!-- End Content -->
     </main>
