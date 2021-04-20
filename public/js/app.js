@@ -1126,6 +1126,29 @@ $("#sacuvajPovez").keypress(function (e) {
   }
 });
 
+// Form validation for editing book bind info
+function validacijaPovezEdit() {
+
+  $("#validateNazivPovezEdit").empty();
+
+  let nazivPovezEdit = $("#nazivPovezEdit").val();
+
+  if (nazivPovezEdit.length == 0) {
+    $('#validateNazivPovezEdit').append('<p style="color:red;font-size:13px;">Morate unijeti naziv poveza!</p>');
+  }
+}
+
+function clearErrorsNazivPovezEdit() {
+  $("#validateNazivPovezEdit").empty();
+}
+
+$("#sacuvajPovezEdit").keypress(function (e) {
+  if (e.which == 13) {
+    validacijaPovezEdit();
+    return false;
+  }
+});
+
 // Form validation for new book format
 function validacijaFormat() {
 
@@ -1561,5 +1584,21 @@ $(document).on('mouseup', function (e){
        && dropdownPublisher.has(e.target).length === 0)
   {
     dropdownPublisher.slideUp();
+  }
+});
+
+// Book bind - table - dropdown
+$(".dotsBookBind").click(function () {
+  var dotsBookBind = $(this);
+  var dropdownBookBind = dotsBookBind.closest("td").find(".dropdown-book-bind");
+  dropdownBookBind.toggle();
+})
+
+$(document).on('mouseup', function (e){
+  var dropdownBookBind = $(".dropdown-book-bind");
+  if (!dropdownBookBind.is(e.target) 
+       && dropdownBookBind.has(e.target).length === 0)
+  {
+    dropdownBookBind.slideUp();
   }
 });
