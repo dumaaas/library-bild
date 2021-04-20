@@ -1218,21 +1218,71 @@ $('#uceniciMenu').on('click', function () {
   $('.uceniciMenu').toggle();
 })
 
+$(document).on('mouseup', function (e){
+  var uceniciMenu = $(".uceniciMenu");
+  if (!uceniciMenu.is(e.target) 
+       && uceniciMenu.has(e.target).length === 0 
+       && !$(e.target).is('.uceniciMenu'))
+  {
+    uceniciMenu.hide();
+  }
+});
+
 $('#bibliotekariMenu').on('click', function () {
   $('.bibliotekariMenu').toggle();
 })
+
+$(document).on('mouseup', function (e){
+  var uceniciMenu = $(".bibliotekariMenu");
+  if (!uceniciMenu.is(e.target) 
+       && uceniciMenu.has(e.target).length === 0 
+       && !$(e.target).is('.bibliotekariMenu'))
+  {
+    uceniciMenu.hide();
+  }
+});
 
 $('#knjigeMenu').on('click', function () {
   $('.knjigeMenu').toggle();
 })
 
+$(document).on('mouseup', function (e){
+  var uceniciMenu = $(".knjigeMenu");
+  if (!uceniciMenu.is(e.target) 
+       && uceniciMenu.has(e.target).length === 0 
+       && !$(e.target).is('.knjigeMenu'))
+  {
+    uceniciMenu.hide();
+  }
+});
+
 $('#transakcijeMenu').on('click', function () {
   $('.transakcijeMenu').toggle();
 })
 
+$(document).on('mouseup', function (e){
+  var uceniciMenu = $(".transakcijeMenu");
+  if (!uceniciMenu.is(e.target) 
+       && uceniciMenu.has(e.target).length === 0 
+       && !$(e.target).is('.transakcijeMenu'))
+  {
+    uceniciMenu.hide();
+  }
+});
+
 $('#datumMenu').on('click', function () {
   $('.datumMenu').toggle();
 })
+
+$(document).on('mouseup', function (e){
+  var uceniciMenu = $(".datumMenu");
+  if (!uceniciMenu.is(e.target) 
+       && uceniciMenu.has(e.target).length === 0 
+       && !$(e.target).is('.datumMenu'))
+  {
+    uceniciMenu.hide();
+  }
+});
 
 
 function filterFunction(id, dropdown) {

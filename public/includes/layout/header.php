@@ -37,7 +37,7 @@
                         class="absolute bg-[#EF4F4C] text-[11px] font-medium text-white right-[10px] top-[-10px] pl-[4px] pr-[5px] pt-[1px] text-center">12</span>
                 </div>
                 <!-- Add Icon -->
-                <a class="inline-block border-l-[1px] border-gray-300 px-3 " href="#" aria-label="Add something" id="dropdownCreate">
+                <a class="inline-block border-l-[1px] border-gray-300 px-3" href="#" aria-label="Add something" id="dropdownCreate">
                     <span
                         class="transition duration-300 ease-in bg-[#606FC7] text-[25px] rounded-full px-[11px] py-[7px]  ">
                         <i class="fas fa-plus"></i>
