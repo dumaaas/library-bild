@@ -119,7 +119,7 @@
                     <div class="ml-[30px]">
                         <span class="flex justify-between w-full whitespace-nowrap">
                             <div>
-                                <a href="evidencija.php" aria-label="Knjige">
+                                <a href="evidencijaKnjiga.php" aria-label="Knjige">
                                     <i
                                         class="text-[25px] transition duration-300 ease-in group-hover:text-[#576cdf] text-[#707070] far fa-copy"></i>
                                     <div class="hidden sidebar-item">
@@ -137,7 +137,7 @@
                     <div class="ml-[30px]">
                         <span class="flex justify-between w-full whitespace-nowrap">
                             <div>
-                                <a href="evidencija.php" aria-label="Knjige">
+                                <a href="autori.php" aria-label="Knjige">
                                     <i
                                         class="text-[25px] transition duration-300 ease-in group-hover:text-[#576cdf] text-[#707070] far fa-address-book"></i>
                                     <div class="hidden sidebar-item">
@@ -155,14 +155,15 @@
                     <div class="ml-[30px]">
                         <span class="flex justify-between w-full whitespace-nowrap">
                             <div>
-                                <a href="evidencija.php" aria-label="Knjige">
+                                <a href="izdateKnjige.php" aria-label="Knjige">
                                     <i
                                         class="text-[22px] transition duration-300 ease-in group-hover:text-[#576cdf] text-[#707070] fas fa-exchange-alt"></i>
                                     <div class="hidden sidebar-item">
                                         <p
                                             class="transition duration-300 ease-in group-hover:text-[#576cdf] inline text-[15px] ml-[20px]">
                                             Izdavanje
-                                            knjiga</p>
+                                            knjiga
+                                        </p>
                                     </div>
                                 </a>
                             </div>
