@@ -324,6 +324,12 @@
                                                             <i class="fa fa-trash mr-[10px] ml-[5px] py-1"></i>
                                                             <span class="px-4 py-0">Izbrisi knjigu</span>
                                                         </a>
+                                                        <a href="#" tabindex="0"
+                                                            class="flex w-full px-4 py-2 text-sm leading-5 text-left text-gray-700 outline-none hover:text-blue-600"
+                                                            role="menuitem">
+                                                            <i class="fas fa-undo mr-[10px] ml-[5px] py-1"></i>
+                                                            <span class="px-4 py-0">Otkazi rezervaciju</span>
+                                                        </a>
                                                     </div>
                                                 </div>
                                             </div>
@@ -426,6 +432,12 @@
                                                             role="menuitem">
                                                             <i class="fa fa-trash mr-[10px] ml-[5px] py-1"></i>
                                                             <span class="px-4 py-0">Izbrisi knjigu</span>
+                                                        </a>
+                                                        <a href="#" tabindex="0"
+                                                            class="flex w-full px-4 py-2 text-sm leading-5 text-left text-gray-700 outline-none hover:text-blue-600"
+                                                            role="menuitem">
+                                                            <i class="fas fa-undo mr-[10px] ml-[5px] py-1"></i>
+                                                            <span class="px-4 py-0">Otkazi rezervaciju</span>
                                                         </a>
                                                     </div>
                                                 </div>
@@ -530,6 +542,12 @@
                                                             <i class="fa fa-trash mr-[10px] ml-[5px] py-1"></i>
                                                             <span class="px-4 py-0">Izbrisi knjigu</span>
                                                         </a>
+                                                        <a href="#" tabindex="0"
+                                                            class="flex w-full px-4 py-2 text-sm leading-5 text-left text-gray-700 outline-none hover:text-blue-600"
+                                                            role="menuitem">
+                                                            <i class="fas fa-undo mr-[10px] ml-[5px] py-1"></i>
+                                                            <span class="px-4 py-0">Otkazi rezervaciju</span>
+                                                        </a>
                                                     </div>
                                                 </div>
                                             </div>
@@ -633,6 +651,12 @@
                                                             <i class="fa fa-trash mr-[10px] ml-[5px] py-1"></i>
                                                             <span class="px-4 py-0">Izbrisi knjigu</span>
                                                         </a>
+                                                        <a href="#" tabindex="0"
+                                                            class="flex w-full px-4 py-2 text-sm leading-5 text-left text-gray-700 outline-none hover:text-blue-600"
+                                                            role="menuitem">
+                                                            <i class="fas fa-undo mr-[10px] ml-[5px] py-1"></i>
+                                                            <span class="px-4 py-0">Otkazi rezervaciju</span>
+                                                        </a>
                                                     </div>
                                                 </div>
                                             </div>
@@ -722,6 +746,12 @@
                                                             <i class="fa fa-trash mr-[10px] ml-[5px] py-1"></i>
                                                             <span class="px-4 py-0">Izbrisi knjigu</span>
                                                         </a>
+                                                        <a href="#" tabindex="0"
+                                                            class="flex w-full px-4 py-2 text-sm leading-5 text-left text-gray-700 outline-none hover:text-blue-600"
+                                                            role="menuitem">
+                                                            <i class="fas fa-undo mr-[10px] ml-[5px] py-1"></i>
+                                                            <span class="px-4 py-0">Otkazi rezervaciju</span>
+                                                        </a>
                                                     </div>
                                                 </div>
                                             </div>
@@ -810,6 +840,12 @@
                                                             role="menuitem">
                                                             <i class="fa fa-trash mr-[10px] ml-[5px] py-1"></i>
                                                             <span class="px-4 py-0">Izbrisi knjigu</span>
+                                                        </a>
+                                                        <a href="#" tabindex="0"
+                                                            class="flex w-full px-4 py-2 text-sm leading-5 text-left text-gray-700 outline-none hover:text-blue-600"
+                                                            role="menuitem">
+                                                            <i class="fas fa-undo mr-[10px] ml-[5px] py-1"></i>
+                                                            <span class="px-4 py-0">Otkazi rezervaciju</span>
                                                         </a>
                                                     </div>
                                                 </div>
@@ -900,6 +936,12 @@
                                                             role="menuitem">
                                                             <i class="fa fa-trash mr-[10px] ml-[5px] py-1"></i>
                                                             <span class="px-4 py-0">Izbrisi knjigu</span>
+                                                        </a>
+                                                        <a href="#" tabindex="0"
+                                                            class="flex w-full px-4 py-2 text-sm leading-5 text-left text-gray-700 outline-none hover:text-blue-600"
+                                                            role="menuitem">
+                                                            <i class="fas fa-undo mr-[10px] ml-[5px] py-1"></i>
+                                                            <span class="px-4 py-0">Otkazi rezervaciju</span>
                                                         </a>
                                                     </div>
                                                 </div>

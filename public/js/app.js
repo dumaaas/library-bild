@@ -1853,6 +1853,87 @@ $(document).on('mouseup', function (e) {
     dropdownLibrarianProfile.slideUp();
   }
 });
+
+// Izdate knjige - dropdown
+$(".dotsIzdateKnjige").click(function () {
+  var dotsIzdateKnjige = $(this);
+  var dropdownIzdateKnjige = dotsIzdateKnjige.closest("td").find(".izdate-knjige");
+  dropdownIzdateKnjige.toggle();
+})
+
+$(document).on('mouseup', function (e){
+  var dropdownIzdateKnjige = $(".izdate-knjige");
+  if (!dropdownIzdateKnjige.is(e.target) 
+       && dropdownIzdateKnjige.has(e.target).length === 0)
+  {
+    dropdownIzdateKnjige.slideUp();
+  }
+});
+
+// Vracene knjige - dropdown
+$(".dotsVraceneKnjige").click(function () {
+  var dotsVraceneKnjige = $(this);
+  var dropdownVraceneKnjige = dotsVraceneKnjige.closest("td").find(".vracene-knjige");
+  dropdownVraceneKnjige.toggle();
+})
+
+$(document).on('mouseup', function (e){
+  var dropdownVraceneKnjige = $(".vracene-knjige");
+  if (!dropdownVraceneKnjige.is(e.target) 
+       && dropdownVraceneKnjige.has(e.target).length === 0)
+  {
+    dropdownVraceneKnjige.slideUp();
+  }
+});
+
+// Knjige u prekoracenju - dropdown
+$(".dotsKnjigePrekoracenje").click(function () {
+  var dotsKnjigePrekoracenje = $(this);
+  var dropdownKnjigePrekoracenje = dotsKnjigePrekoracenje.closest("td").find(".knjige-prekoracenje");
+  dropdownKnjigePrekoracenje.toggle();
+})
+
+$(document).on('mouseup', function (e){
+  var dropdownKnjigePrekoracenje = $(".knjige-prekoracenje");
+  if (!dropdownKnjigePrekoracenje.is(e.target) 
+       && dropdownKnjigePrekoracenje.has(e.target).length === 0)
+  {
+    dropdownKnjigePrekoracenje.slideUp();
+  }
+});
+
+// Aktivne rezervacije - dropdown
+$(".dotsAktivneRezervacije").click(function () {
+  var dotsAktivneRezervacije = $(this);
+  var dropdownAktivneRezervacije = dotsAktivneRezervacije.closest("td").find(".aktivne-rezervacije");
+  dropdownAktivneRezervacije.toggle();
+})
+
+$(document).on('mouseup', function (e){
+  var dropdownAktivneRezervacije = $(".aktivne-rezervacije");
+  if (!dropdownAktivneRezervacije.is(e.target) 
+       && dropdownAktivneRezervacije.has(e.target).length === 0)
+  {
+    dropdownAktivneRezervacije.slideUp();
+  }
+});
+
+// Arhivirane rezervacije - dropdown
+$(".dotsArhiviraneRezervacije").click(function () {
+  var dotsArhiviraneRezervacije = $(this);
+  var dropdownArhiviraneRezervacije = dotsArhiviraneRezervacije.closest("td").find(".arhivirane-rezervacije");
+  dropdownArhiviraneRezervacije.toggle();
+})
+
+$(document).on('mouseup', function (e){
+  var dropdownArhiviraneRezervacije = $(".arhivirane-rezervacije");
+  if (!dropdownArhiviraneRezervacije.is(e.target) 
+       && dropdownArhiviraneRezervacije.has(e.target).length === 0)
+  {
+    dropdownArhiviraneRezervacije.slideUp();
+  }
+});
+
 //click on one and check all checkboxes(evidencijaKnjiga.php)
 $('.checkSelect').click(function () {
   if ($(this).is(':checked')) {
