@@ -52,7 +52,7 @@
                         </div>
                     </div>
                     <a href="novaKnjiga.php"
-                        class="inline-flex items-center text-sm py-2.5 px-5 transition duration-300 ease-in rounded-[5px] tracking-wider text-white bg-[#3f51b5] rounded hover:bg-[#4558BE]">Pretrazi
+                        class="btn-animation inline-flex items-center text-sm py-2.5 px-5 transition duration-300 ease-in rounded-[5px] tracking-wider text-white bg-[#3f51b5] rounded hover:bg-[#4558BE]">Pretrazi
                     </a>
                 </div>
                 <div>
@@ -315,11 +315,11 @@
                                                 </ul>
                                                 <div class="flex pt-[10px] text-white ">
                                                     <a href="#"
-                                                        class="py-2 px-[20px] transition duration-300 ease-in hover:bg-[#46A149] bg-[#4CAF50] rounded-[5px]">
+                                                        class="btn-animation py-2 px-[20px] transition duration-300 ease-in hover:bg-[#46A149] bg-[#4CAF50] rounded-[5px]">
                                                         Sacuvaj <i class="fas fa-check ml-[4px]"></i>
                                                     </a>
                                                     <a href="#"
-                                                        class="ml-[20px] py-2 px-[20px] transition duration-300 ease-in bg-[#F44336] hover:bg-[#F55549] rounded-[5px]">
+                                                        class="btn-animation ml-[20px] py-2 px-[20px] transition duration-300 ease-in bg-[#F44336] hover:bg-[#F55549] rounded-[5px]">
                                                         Ponisti <i class="fas fa-times ml-[4px]"></i>
                                                     </a>
                                                 </div>
@@ -347,11 +347,11 @@
                                                 </div>
                                                 <div class="flex pt-[10px] text-white ">
                                                     <a href="#"
-                                                        class="py-2 px-[20px] transition duration-300 ease-in hover:bg-[#009688] bg-[#46A149] rounded-[5px]">
+                                                        class="btn-animation py-2 px-[20px] transition duration-300 ease-in hover:bg-[#46A149] bg-[#4CAF50] rounded-[5px]">
                                                         Sacuvaj <i class="fas fa-check ml-[4px]"></i>
                                                     </a>
                                                     <a href="#"
-                                                        class="ml-[20px] py-2 px-[20px] transition duration-300 ease-in bg-[#F44336] hover:bg-[#F55549] rounded-[5px]">
+                                                        class="btn-animation ml-[20px] py-2 px-[20px] transition duration-300 ease-in bg-[#F44336] hover:bg-[#F55549] rounded-[5px]">
                                                         Ponisti <i class="fas fa-times ml-[4px]"></i>
                                                     </a>
                                                 </div>
@@ -379,11 +379,11 @@
                                                 </div>
                                                 <div class="flex pt-[10px] text-white ">
                                                     <a href="#"
-                                                        class="py-2 px-[20px] transition duration-300 ease-in hover:bg-[#009688] bg-[#46A149] rounded-[5px]">
+                                                        class="btn-animation py-2 px-[20px] transition duration-300 ease-in hover:bg-[#46A149] bg-[#4CAF50] rounded-[5px]">
                                                         Sacuvaj <i class="fas fa-check ml-[4px]"></i>
                                                     </a>
                                                     <a href="#"
-                                                        class="ml-[20px] py-2 px-[20px] transition duration-300 ease-in bg-[#F44336] hover:bg-[#F55549] rounded-[5px]">
+                                                        class="btn-animation ml-[20px] py-2 px-[20px] transition duration-300 ease-in bg-[#F44336] hover:bg-[#F55549] rounded-[5px]">
                                                         Ponisti <i class="fas fa-times ml-[4px]"></i>
                                                     </a>
                                                 </div>
@@ -526,11 +526,11 @@
                                                 </ul>
                                                 <div class="flex pt-[10px] text-white ">
                                                     <a href="#"
-                                                        class="py-2 px-[20px] transition duration-300 ease-in hover:bg-[#46A149] bg-[#4CAF50] rounded-[5px]">
+                                                        class="btn-animation py-2 px-[20px] transition duration-300 ease-in hover:bg-[#46A149] bg-[#4CAF50] rounded-[5px]">
                                                         Sacuvaj <i class="fas fa-check ml-[4px]"></i>
                                                     </a>
                                                     <a href="#"
-                                                        class="ml-[20px] py-2 px-[20px] transition duration-300 ease-in bg-[#F44336] hover:bg-[#F55549] rounded-[5px]">
+                                                        class="btn-animation ml-[20px] py-2 px-[20px] transition duration-300 ease-in bg-[#F44336] hover:bg-[#F55549] rounded-[5px]">
                                                         Ponisti <i class="fas fa-times ml-[4px]"></i>
                                                     </a>
                                                 </div>

@@ -51,8 +51,8 @@
                                 placeholder="Pretrazi knjige..." autocomplete="off">
                         </div>
                     </div>
-                    <a href="novaKnjiga.php"
-                        class="inline-flex items-center text-sm py-2.5 px-5 transition duration-300 ease-in rounded-[5px] tracking-wider text-white bg-[#3f51b5] rounded hover:bg-[#4558BE]">Pretrazi
+                    <a href="#"
+                        class="btn-animation inline-flex items-center text-sm py-2.5 px-5 transition duration-300 ease-in rounded-[5px] tracking-wider text-white bg-[#3f51b5] rounded hover:bg-[#4558BE]">Pretrazi
                     </a>
                 </div>
                 <div>
@@ -317,11 +317,11 @@
                                                 </ul>
                                                 <div class="flex pt-[10px] text-white ">
                                                     <a href="#"
-                                                        class="py-2 px-[20px] transition duration-300 ease-in hover:bg-[#46A149] bg-[#4CAF50] rounded-[5px]">
+                                                        class="btn-animation py-2 px-[20px] transition duration-300 ease-in hover:bg-[#46A149] bg-[#4CAF50] rounded-[5px]">
                                                         Sacuvaj <i class="fas fa-check ml-[4px]"></i>
                                                     </a>
                                                     <a href="#"
-                                                        class="ml-[20px] py-2 px-[20px] transition duration-300 ease-in bg-[#F44336] hover:bg-[#F55549] rounded-[5px]">
+                                                        class="btn-animation ml-[20px] py-2 px-[20px] transition duration-300 ease-in bg-[#F44336] hover:bg-[#F55549] rounded-[5px]">
                                                         Ponisti <i class="fas fa-times ml-[4px]"></i>
                                                     </a>
                                                 </div>
@@ -348,11 +348,11 @@
                                                 </div>
                                                 <div class="flex pt-[10px] text-white ">
                                                     <a href="#"
-                                                        class="py-2 px-[20px] transition duration-300 ease-in hover:bg-[#009688] bg-[#46A149] rounded-[5px]">
+                                                        class="btn-animation py-2 px-[20px] transition duration-300 ease-in hover:bg-[#46A149] bg-[#4CAF50] rounded-[5px]">
                                                         Sacuvaj <i class="fas fa-check ml-[4px]"></i>
                                                     </a>
                                                     <a href="#"
-                                                        class="ml-[20px] py-2 px-[20px] transition duration-300 ease-in bg-[#F44336] hover:bg-[#F55549] rounded-[5px]">
+                                                        class="btn-animation ml-[20px] py-2 px-[20px] transition duration-300 ease-in bg-[#F44336] hover:bg-[#F55549] rounded-[5px]">
                                                         Ponisti <i class="fas fa-times ml-[4px]"></i>
                                                     </a>
                                                 </div>
@@ -379,11 +379,11 @@
                                                 </div>
                                                 <div class="flex pt-[10px] text-white ">
                                                     <a href="#"
-                                                        class="py-2 px-[20px] transition duration-300 ease-in hover:bg-[#009688] bg-[#46A149] rounded-[5px]">
+                                                        class="btn-animation py-2 px-[20px] transition duration-300 ease-in hover:bg-[#46A149] bg-[#4CAF50] rounded-[5px]">
                                                         Sacuvaj <i class="fas fa-check ml-[4px]"></i>
                                                     </a>
                                                     <a href="#"
-                                                        class="ml-[20px] py-2 px-[20px] transition duration-300 ease-in bg-[#F44336] hover:bg-[#F55549] rounded-[5px]">
+                                                        class="btn-animation ml-[20px] py-2 px-[20px] transition duration-300 ease-in bg-[#F44336] hover:bg-[#F55549] rounded-[5px]">
                                                         Ponisti <i class="fas fa-times ml-[4px]"></i>
                                                     </a>
                                                 </div>
@@ -410,11 +410,11 @@
                                                 </div>
                                                 <div class="flex pt-[10px] text-white ">
                                                     <a href="#"
-                                                        class="py-2 px-[20px] transition duration-300 ease-in hover:bg-[#009688] bg-[#46A149] rounded-[5px]">
+                                                        class="btn-animation py-2 px-[20px] transition duration-300 ease-in hover:bg-[#46A149] bg-[#4CAF50] rounded-[5px]">
                                                         Sacuvaj <i class="fas fa-check ml-[4px]"></i>
                                                     </a>
                                                     <a href="#"
-                                                        class="ml-[20px] py-2 px-[20px] transition duration-300 ease-in bg-[#F44336] hover:bg-[#F55549] rounded-[5px]">
+                                                        class="btn-animation ml-[20px] py-2 px-[20px] transition duration-300 ease-in bg-[#F44336] hover:bg-[#F55549] rounded-[5px]">
                                                         Ponisti <i class="fas fa-times ml-[4px]"></i>
                                                     </a>
                                                 </div>
@@ -557,11 +557,11 @@
                                                 </ul>
                                                 <div class="flex pt-[10px] text-white ">
                                                     <a href="#"
-                                                        class="py-2 px-[20px] transition duration-300 ease-in hover:bg-[#46A149] bg-[#4CAF50] rounded-[5px]">
+                                                        class="btn-animation py-2 px-[20px] transition duration-300 ease-in hover:bg-[#46A149] bg-[#4CAF50] rounded-[5px]">
                                                         Sacuvaj <i class="fas fa-check ml-[4px]"></i>
                                                     </a>
                                                     <a href="#"
-                                                        class="ml-[20px] py-2 px-[20px] transition duration-300 ease-in bg-[#F44336] hover:bg-[#F55549] rounded-[5px]">
+                                                        class="btn-animation ml-[20px] py-2 px-[20px] transition duration-300 ease-in bg-[#F44336] hover:bg-[#F55549] rounded-[5px]">
                                                         Ponisti <i class="fas fa-times ml-[4px]"></i>
                                                     </a>
                                                 </div>
@@ -594,9 +594,9 @@
                                         <td class="px-4 py-3 text-sm leading-5 whitespace-no-wrap">Valentina Kascelan
                                         </td>
                                         <td class="px-6 py-3 text-sm leading-5 text-right whitespace-no-wrap">
-                                            <p class="inline cursor-pointer text-[20px] py-[10px] px-[30px] border-gray-300 dotsVraceneKnjige hover:text-[#606FC7]">
-                                                <i
-                                                    class="fas fa-ellipsis-v"></i>
+                                            <p
+                                                class="inline cursor-pointer text-[20px] py-[10px] px-[30px] border-gray-300 dotsVraceneKnjige hover:text-[#606FC7]">
+                                                <i class="fas fa-ellipsis-v"></i>
                                             </p>
                                             <div
                                                 class="relative z-10 hidden transition-all duration-300 origin-top-right transform scale-95 -translate-y-2 vracene-knjige">
@@ -628,7 +628,8 @@
                                                         <a href="rezervisiKnjigu.php" tabindex="0"
                                                             class="flex w-full px-4 py-2 text-sm leading-5 text-left text-gray-700 outline-none hover:text-blue-600"
                                                             role="menuitem">
-                                                            <i class="far fa-calendar-check mr-[10px] ml-[5px] py-1"></i>
+                                                            <i
+                                                                class="far fa-calendar-check mr-[10px] ml-[5px] py-1"></i>
                                                             <span class="px-4 py-0">Rezervisi knjigu</span>
                                                         </a>
 
@@ -674,9 +675,9 @@
                                         <td class="px-4 py-3 text-sm leading-5 whitespace-no-wrap">Valentina Kascelan
                                         </td>
                                         <td class="px-6 py-3 text-sm leading-5 text-right whitespace-no-wrap">
-                                            <p class="inline cursor-pointer text-[20px] py-[10px] px-[30px] border-gray-300 dotsVraceneKnjige hover:text-[#606FC7]">
-                                                <i
-                                                    class="fas fa-ellipsis-v"></i>
+                                            <p
+                                                class="inline cursor-pointer text-[20px] py-[10px] px-[30px] border-gray-300 dotsVraceneKnjige hover:text-[#606FC7]">
+                                                <i class="fas fa-ellipsis-v"></i>
                                             </p>
                                             <div
                                                 class="relative z-10 hidden transition-all duration-300 origin-top-right transform scale-95 -translate-y-2 vracene-knjige">
@@ -708,7 +709,8 @@
                                                         <a href="rezervisiKnjigu.php" tabindex="0"
                                                             class="flex w-full px-4 py-2 text-sm leading-5 text-left text-gray-700 outline-none hover:text-blue-600"
                                                             role="menuitem">
-                                                            <i class="far fa-calendar-check mr-[10px] ml-[5px] py-1"></i>
+                                                            <i
+                                                                class="far fa-calendar-check mr-[10px] ml-[5px] py-1"></i>
                                                             <span class="px-4 py-0">Rezervisi knjigu</span>
                                                         </a>
 
@@ -753,9 +755,9 @@
                                         <td class="px-4 py-3 text-sm leading-5 whitespace-no-wrap">Valentina Kascelan
                                         </td>
                                         <td class="px-6 py-3 text-sm leading-5 text-right whitespace-no-wrap">
-                                            <p class="inline cursor-pointer text-[20px] py-[10px] px-[30px] border-gray-300 dotsVraceneKnjige hover:text-[#606FC7]">
-                                                <i
-                                                    class="fas fa-ellipsis-v"></i>
+                                            <p
+                                                class="inline cursor-pointer text-[20px] py-[10px] px-[30px] border-gray-300 dotsVraceneKnjige hover:text-[#606FC7]">
+                                                <i class="fas fa-ellipsis-v"></i>
                                             </p>
                                             <div
                                                 class="relative z-10 hidden transition-all duration-300 origin-top-right transform scale-95 -translate-y-2 vracene-knjige">
@@ -787,7 +789,8 @@
                                                         <a href="rezervisiKnjigu.php" tabindex="0"
                                                             class="flex w-full px-4 py-2 text-sm leading-5 text-left text-gray-700 outline-none hover:text-blue-600"
                                                             role="menuitem">
-                                                            <i class="far fa-calendar-check mr-[10px] ml-[5px] py-1"></i>
+                                                            <i
+                                                                class="far fa-calendar-check mr-[10px] ml-[5px] py-1"></i>
                                                             <span class="px-4 py-0">Rezervisi knjigu</span>
                                                         </a>
 
@@ -833,9 +836,9 @@
                                         <td class="px-4 py-3 text-sm leading-5 whitespace-no-wrap">Valentina Kascelan
                                         </td>
                                         <td class="px-6 py-3 text-sm leading-5 text-right whitespace-no-wrap">
-                                            <p class="inline cursor-pointer text-[20px] py-[10px] px-[30px] border-gray-300 dotsVraceneKnjige hover:text-[#606FC7]">
-                                                <i
-                                                    class="fas fa-ellipsis-v"></i>
+                                            <p
+                                                class="inline cursor-pointer text-[20px] py-[10px] px-[30px] border-gray-300 dotsVraceneKnjige hover:text-[#606FC7]">
+                                                <i class="fas fa-ellipsis-v"></i>
                                             </p>
                                             <div
                                                 class="relative z-10 hidden transition-all duration-300 origin-top-right transform scale-95 -translate-y-2 vracene-knjige">
@@ -867,7 +870,8 @@
                                                         <a href="rezervisiKnjigu.php" tabindex="0"
                                                             class="flex w-full px-4 py-2 text-sm leading-5 text-left text-gray-700 outline-none hover:text-blue-600"
                                                             role="menuitem">
-                                                            <i class="far fa-calendar-check mr-[10px] ml-[5px] py-1"></i>
+                                                            <i
+                                                                class="far fa-calendar-check mr-[10px] ml-[5px] py-1"></i>
                                                             <span class="px-4 py-0">Rezervisi knjigu</span>
                                                         </a>
 
@@ -913,9 +917,9 @@
                                         <td class="px-4 py-3 text-sm leading-5 whitespace-no-wrap">Valentina Kascelan
                                         </td>
                                         <td class="px-6 py-3 text-sm leading-5 text-right whitespace-no-wrap">
-                                            <p class="inline cursor-pointer text-[20px] py-[10px] px-[30px] border-gray-300 dotsVraceneKnjige hover:text-[#606FC7]">
-                                                <i
-                                                    class="fas fa-ellipsis-v"></i>
+                                            <p
+                                                class="inline cursor-pointer text-[20px] py-[10px] px-[30px] border-gray-300 dotsVraceneKnjige hover:text-[#606FC7]">
+                                                <i class="fas fa-ellipsis-v"></i>
                                             </p>
                                             <div
                                                 class="relative z-10 hidden transition-all duration-300 origin-top-right transform scale-95 -translate-y-2 vracene-knjige">
@@ -947,7 +951,8 @@
                                                         <a href="rezervisiKnjigu.php" tabindex="0"
                                                             class="flex w-full px-4 py-2 text-sm leading-5 text-left text-gray-700 outline-none hover:text-blue-600"
                                                             role="menuitem">
-                                                            <i class="far fa-calendar-check mr-[10px] ml-[5px] py-1"></i>
+                                                            <i
+                                                                class="far fa-calendar-check mr-[10px] ml-[5px] py-1"></i>
                                                             <span class="px-4 py-0">Rezervisi knjigu</span>
                                                         </a>
 
@@ -992,9 +997,9 @@
                                         <td class="px-4 py-3 text-sm leading-5 whitespace-no-wrap">Valentina Kascelan
                                         </td>
                                         <td class="px-6 py-3 text-sm leading-5 text-right whitespace-no-wrap">
-                                            <p class="inline cursor-pointer text-[20px] py-[10px] px-[30px] border-gray-300 dotsVraceneKnjige hover:text-[#606FC7]">
-                                                <i
-                                                    class="fas fa-ellipsis-v"></i>
+                                            <p
+                                                class="inline cursor-pointer text-[20px] py-[10px] px-[30px] border-gray-300 dotsVraceneKnjige hover:text-[#606FC7]">
+                                                <i class="fas fa-ellipsis-v"></i>
                                             </p>
                                             <div
                                                 class="relative z-10 hidden transition-all duration-300 origin-top-right transform scale-95 -translate-y-2 vracene-knjige">
@@ -1026,7 +1031,8 @@
                                                         <a href="rezervisiKnjigu.php" tabindex="0"
                                                             class="flex w-full px-4 py-2 text-sm leading-5 text-left text-gray-700 outline-none hover:text-blue-600"
                                                             role="menuitem">
-                                                            <i class="far fa-calendar-check mr-[10px] ml-[5px] py-1"></i>
+                                                            <i
+                                                                class="far fa-calendar-check mr-[10px] ml-[5px] py-1"></i>
                                                             <span class="px-4 py-0">Rezervisi knjigu</span>
                                                         </a>
 
@@ -1071,9 +1077,9 @@
                                         <td class="px-4 py-3 text-sm leading-5 whitespace-no-wrap">Valentina Kascelan
                                         </td>
                                         <td class="px-6 py-3 text-sm leading-5 text-right whitespace-no-wrap">
-                                            <p class="inline cursor-pointer text-[20px] py-[10px] px-[30px] border-gray-300 dotsVraceneKnjige hover:text-[#606FC7]">
-                                                <i
-                                                    class="fas fa-ellipsis-v"></i>
+                                            <p
+                                                class="inline cursor-pointer text-[20px] py-[10px] px-[30px] border-gray-300 dotsVraceneKnjige hover:text-[#606FC7]">
+                                                <i class="fas fa-ellipsis-v"></i>
                                             </p>
                                             <div
                                                 class="relative z-10 hidden transition-all duration-300 origin-top-right transform scale-95 -translate-y-2 vracene-knjige">
@@ -1105,7 +1111,8 @@
                                                         <a href="rezervisiKnjigu.php" tabindex="0"
                                                             class="flex w-full px-4 py-2 text-sm leading-5 text-left text-gray-700 outline-none hover:text-blue-600"
                                                             role="menuitem">
-                                                            <i class="far fa-calendar-check mr-[10px] ml-[5px] py-1"></i>
+                                                            <i
+                                                                class="far fa-calendar-check mr-[10px] ml-[5px] py-1"></i>
                                                             <span class="px-4 py-0">Rezervisi knjigu</span>
                                                         </a>
 
@@ -1150,9 +1157,9 @@
                                         <td class="px-4 py-3 text-sm leading-5 whitespace-no-wrap">Valentina Kascelan
                                         </td>
                                         <td class="px-6 py-3 text-sm leading-5 text-right whitespace-no-wrap">
-                                            <p class="inline cursor-pointer text-[20px] py-[10px] px-[30px] border-gray-300 dotsVraceneKnjige hover:text-[#606FC7]">
-                                                <i
-                                                    class="fas fa-ellipsis-v"></i>
+                                            <p
+                                                class="inline cursor-pointer text-[20px] py-[10px] px-[30px] border-gray-300 dotsVraceneKnjige hover:text-[#606FC7]">
+                                                <i class="fas fa-ellipsis-v"></i>
                                             </p>
                                             <div
                                                 class="relative z-10 hidden transition-all duration-300 origin-top-right transform scale-95 -translate-y-2 vracene-knjige">
@@ -1184,7 +1191,8 @@
                                                         <a href="rezervisiKnjigu.php" tabindex="0"
                                                             class="flex w-full px-4 py-2 text-sm leading-5 text-left text-gray-700 outline-none hover:text-blue-600"
                                                             role="menuitem">
-                                                            <i class="far fa-calendar-check mr-[10px] ml-[5px] py-1"></i>
+                                                            <i
+                                                                class="far fa-calendar-check mr-[10px] ml-[5px] py-1"></i>
                                                             <span class="px-4 py-0">Rezervisi knjigu</span>
                                                         </a>
 

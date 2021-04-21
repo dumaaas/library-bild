@@ -46,69 +46,6 @@
                 <p class="pl-[50px] pt-[20px] text-[20px]">
                     Content of the section
                 </p>
-                <p class="pl-[50px] pt-[20px] text-[20px]">
-                    Content of the section
-                </p>
-                <p class="pl-[50px] pt-[20px] text-[20px]">
-                    Content of the section
-                </p>
-                <p class="pl-[50px] pt-[20px] text-[20px]">
-                    Content of the section
-                </p>
-                <p class="pl-[50px] pt-[20px] text-[20px]">
-                    Content of the section
-                </p>
-                <p class="pl-[50px] pt-[20px] text-[20px]">
-                    Content of the section
-                </p>
-                <p class="pl-[50px] pt-[20px] text-[20px]">
-                    Content of the section
-                </p>
-                <p class="pl-[50px] pt-[20px] text-[20px]">
-                    Content of the section
-                </p>
-                <p class="pl-[50px] pt-[20px] text-[20px]">
-                    Content of the section
-                </p>
-                <p class="pl-[50px] pt-[20px] text-[20px]">
-                    Content of the section
-                </p>
-                <p class="pl-[50px] pt-[20px] text-[20px]">
-                    Content of the section
-                </p>
-                <p class="pl-[50px] pt-[20px] text-[20px]">
-                    Content of the section
-                </p>
-                <p class="pl-[50px] pt-[20px] text-[20px]">
-                    Content of the section
-                </p>
-                <p class="pl-[50px] pt-[20px] text-[20px]">
-                    Content of the section
-                </p>
-                <p class="pl-[50px] pt-[20px] text-[20px]">
-                    Content of the section
-                </p>
-                <p class="pl-[50px] pt-[20px] text-[20px]">
-                    Content of the section
-                </p>
-                <p class="pl-[50px] pt-[20px] text-[20px]">
-                    Content of the section
-                </p>
-                <p class="pl-[50px] pt-[20px] text-[20px]">
-                    Content of the section
-                </p>
-                <p class="pl-[50px] pt-[20px] text-[20px]">
-                    Content of the section
-                </p>
-                <p class="pl-[50px] pt-[20px] text-[20px]">
-                    Content of the section
-                </p>
-                <p class="pl-[50px] pt-[20px] text-[20px]">
-                    Content of the section
-                </p>
-                <p class="pl-[50px] pt-[20px] text-[20px]">
-                    Content of the section
-                </p>
             </div>
         </section>
         <!-- End Content -->
