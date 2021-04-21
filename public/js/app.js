@@ -850,6 +850,69 @@ $("#sacuvajSpecifikaciju").keypress(function (e) {
   }
 });
 
+// Form validation for editing specification of the book
+function validacijaSpecifikacijaEdit() {
+
+  $("#validateBrStranaEdit").empty();
+  $("#validatePismoEdit").empty();
+  $("#validatePovezEdit").empty();
+  $("#validateFormatEdit").empty();
+  $("#validateIsbnEdit").empty();
+
+  let brStranaEdit = $("#brStranaEdit").val();
+  let pismoEdit = $("#pismoEdit").val();
+  let povezEdit = $("#povezEdit").val();
+  let formatEdit = $("#formatEdit").val();
+  let isbnEdit = $("#isbnEdit").val();
+
+  if (brStranaEdit.length == 0) {
+    $('#validateBrStranaEdit').append('<p style="color:red;font-size:13px;">Morate unijeti broj strana!</p>');
+  }
+
+  if (pismoEdit == null) {
+    $('#validatePismoEdit').append('<p style="color:red;font-size:13px;">Morate selektovati pismo!</p>');
+  }
+
+  if (povezEdit == null) {
+    $('#validatePovezEdit').append('<p style="color:red;font-size:13px;">Morate selektovati povez!</p>');
+  }
+
+  if (formatEdit == null) {
+    $('#validateFormatEdit').append('<p style="color:red;font-size:13px;">Morate selektovati format!</p>');
+  }
+
+  if (isbnEdit.length == 0) {
+    $('#validateIsbnEdit').append('<p style="color:red;font-size:13px;">Morate unijeti ISBN!</p>');
+  }
+}
+
+function clearErrorsBrStranaEdit() {
+  $("#validateBrStranaEdit").empty();
+}
+
+function clearErrorsPismoEdit() {
+  $("#validatePismoEdit").empty();
+}
+
+function clearErrorsPovezEdit() {
+  $("#validatePovezEdit").empty();
+}
+
+function clearErrorsFormatEdit() {
+  $("#validateFormatEdit").empty();
+}
+
+function clearErrorsIsbnEdit() {
+  $("#validateIsbnEdit").empty();
+}
+
+$("#sacuvajSpecifikacijuEdit").keypress(function (e) {
+  if (e.which == 13) {
+    validacijaSpecifikacijaEdit();
+    return false;
+  }
+});
+
 // Form validation for renting books
 function validacijaIzdavanje() {
 
