@@ -74,7 +74,7 @@
                                 <tr class="border-b-[1px] border-[#e4dfdf]">
                                     <th class="px-4 py-4 leading-4 tracking-wider text-left text-blue-500">
                                         <label class="inline-flex items-center">
-                                            <input type="checkbox" class="form-checkbox checkSelect">
+                                            <input type="checkbox" class="form-checkbox checkAll">
                                         </label>
                                     </th>
                                     <th class="flex items-center px-4 py-4 leading-4 tracking-wider text-left">
@@ -355,7 +355,7 @@
                                 <tr class="border-b-[1px] border-[#e4dfdf]">
                                     <td class="px-4 py-4 whitespace-no-wrap">
                                         <label class="inline-flex items-center">
-                                            <input type="checkbox" class="form-checkbox checkSelectOthers">
+                                            <input type="checkbox" class="form-checkbox checkOthers">
                                         </label>
                                     </td>
                                     <td class="flex flex-row items-center px-4 py-4">
@@ -442,7 +442,7 @@
                                 <tr class="border-b-[1px] border-[#e4dfdf]">
                                     <td class="px-4 py-4 whitespace-no-wrap">
                                         <label class="inline-flex items-center">
-                                            <input type="checkbox" class="form-checkbox checkSelectOthers">
+                                            <input type="checkbox" class="form-checkbox checkOthers">
                                         </label>
                                     </td>
                                     <td class="flex flex-row items-center px-4 py-4">
@@ -530,7 +530,7 @@
                                 <tr class="border-b-[1px] border-[#e4dfdf]">
                                     <td class="px-4 py-4 whitespace-no-wrap">
                                         <label class="inline-flex items-center">
-                                            <input type="checkbox" class="form-checkbox checkSelectOthers">
+                                            <input type="checkbox" class="form-checkbox checkOthers">
                                         </label>
                                     </td>
                                     <td class="flex flex-row items-center px-4 py-4">
@@ -616,7 +616,7 @@
                                 <tr class="border-b-[1px] border-[#e4dfdf]">
                                     <td class="px-4 py-4 whitespace-no-wrap">
                                         <label class="inline-flex items-center">
-                                            <input type="checkbox" class="form-checkbox checkSelectOthers">
+                                            <input type="checkbox" class="form-checkbox checkOthers">
                                         </label>
                                     </td>
                                     <td class="flex flex-row items-center px-4 py-4">
@@ -702,7 +702,7 @@
                                 <tr class="border-b-[1px] border-[#e4dfdf]">
                                     <td class="px-4 py-4 whitespace-no-wrap">
                                         <label class="inline-flex items-center">
-                                            <input type="checkbox" class="form-checkbox checkSelectOthers">
+                                            <input type="checkbox" class="form-checkbox checkOthers">
                                         </label>
                                     </td>
                                     <td class="flex flex-row items-center px-4 py-4">
@@ -789,7 +789,7 @@
                                 <tr class="border-b-[1px] border-[#e4dfdf]">
                                     <td class="px-4 py-4 whitespace-no-wrap">
                                         <label class="inline-flex items-center">
-                                            <input type="checkbox" class="form-checkbox checkSelectOthers">
+                                            <input type="checkbox" class="form-checkbox checkOthers">
                                         </label>
                                     </td>
                                     <td class="flex flex-row items-center px-4 py-4">
@@ -877,7 +877,7 @@
                                 <tr class="border-b-[1px] border-[#e4dfdf]">
                                     <td class="px-4 py-4 whitespace-no-wrap">
                                         <label class="inline-flex items-center">
-                                            <input type="checkbox" class="form-checkbox checkSelectOthers">
+                                            <input type="checkbox" class="form-checkbox checkOthers">
                                         </label>
                                     </td>
                                     <td class="flex flex-row items-center px-4 py-4">
@@ -963,7 +963,7 @@
                                 <tr class="border-b-[1px] border-[#e4dfdf]">
                                     <td class="px-4 py-4 whitespace-no-wrap">
                                         <label class="inline-flex items-center">
-                                            <input type="checkbox" class="form-checkbox checkSelectOthers">
+                                            <input type="checkbox" class="form-checkbox checkOthers">
                                         </label>
                                     </td>
                                     <td class="flex flex-row items-center px-4 py-4">
