@@ -703,6 +703,90 @@ $("#sacuvajKnjigu").keypress(function (e) {
   }
 });
 
+// Form validation for editing book info
+function validacijaKnjigaEdit() {
+
+  $("#validateNazivKnjigaEdit").empty();
+  $("#validateKategorijaEdit").empty();
+  $("#validateZanrEdit").empty();
+  $("#validateAutoriEdit").empty();
+  $("#validateIzdavacEdit").empty();
+  $("#validateGodinaIzdavanjaEdit").empty();
+  $("#validateKnjigaKolicinaEdit").empty();
+
+
+  let nazivKnjigaEdit = $("#nazivKnjigaEdit").val();
+  let kategorijaInputEdit = $("#kategorijaInputEdit").val();
+  let zanroviInputEdit = $("#zanroviInputEdit").val();
+  let autoriInputEdit = $("#autoriInputEdit").val();
+  let izdavacEdit = $("#izdavacEdit").val();
+  let godinaIzdavanjaEdit = $("#godinaIzdavanjaEdit").val();
+  let knjigaKolicinaEdit = $("#knjigaKolicinaEdit").val();
+
+  if (nazivKnjigaEdit.length == 0) {
+    $('#validateNazivKnjigaEdit').append('<p style="color:red;font-size:13px;">Morate unijeti naziv knjige!</p>');
+  }
+
+  if (kategorijaInputEdit.length == 0) {
+    $('#validateKategorijaEdit').append('<p style="color:red;font-size:13px;">Morate selektovati kategoriju!</p>');
+  }
+
+  if (zanroviInputEdit.length == 0) {
+    $('#validateZanrEdit').append('<p style="color:red;font-size:13px;">Morate selektovati zanr!</p>');
+  }
+
+  if (autoriInputEdit.length == 0) {
+    $('#validateAutoriEdit').append('<p style="color:red;font-size:13px;">Morate odabrati autore!</p>');
+  }
+
+  if (izdavacEdit == null) {
+    $('#validateIzdavacEdit').append('<p style="color:red;font-size:13px;">Morate selektovati izdavaca!</p>');
+  }
+
+  if (godinaIzdavanjaEdit == null) {
+    $('#validateGodinaIzdavanjaEdit').append('<p style="color:red;font-size:13px;">Morate selektovati godinu izdavanja!</p>');
+  }
+
+  if (knjigaKolicinaEdit.length == 0) {
+    $('#validateKnjigaKolicinaEdit').append('<p style="color:red;font-size:13px;">Morate unijeti kolicinu!</p>');
+  }
+}
+
+function clearErrorsNazivKnjigaEdit() {
+  $("#validateNazivKnjigaEdit").empty();
+}
+
+function clearErrorsKategorijaEdit() {
+  $("#validateKategorijaEdit").empty();
+}
+
+function clearErrorsZanrEdit() {
+  $("#validateZanrEdit").empty();
+}
+
+function clearErrorsAutoriEdit() {
+  $("#validateAutoriEdit").empty();
+}
+
+function clearErrorsIzdavacEdit() {
+  $("#validateIzdavacEdit").empty();
+}
+
+function clearErrorsGodinaIzdavanjaEdit() {
+  $("#validateGodinaIzdavanjaEdit").empty();
+}
+
+function clearErrorsKnjigaKolicinaEdit() {
+  $("#validateKnjigaKolicinaEdit").empty();
+}
+
+$("#sacuvajKnjiguEdit").keypress(function (e) {
+  if (e.which == 13) {
+    validacijaKnjigaEdit();
+    return false;
+  }
+});
+
 // Form validation for new specification of the book
 function validacijaSpecifikacija() {
 
@@ -1467,6 +1551,16 @@ function dropdown() {
         });
       }
     },
+    loadOptionsEdit() {
+      const options = document.getElementById('kategorijaEdit').options;
+      for (let i = 0; i < options.length; i++) {
+        this.options.push({
+          value: options[i].value,
+          text: options[i].innerText,
+          selected: options[i].getAttribute('selected') != null ? options[i].getAttribute('selected') : false
+        });
+      }
+    },
     loadOptionsZanrovi() {
       const options = document.getElementById('zanr').options;
       for (let i = 0; i < options.length; i++) {
@@ -1477,8 +1571,28 @@ function dropdown() {
         });
       }
     },
+    loadOptionsZanroviEdit() {
+      const options = document.getElementById('zanrEdit').options;
+      for (let i = 0; i < options.length; i++) {
+        this.options.push({
+          value: options[i].value,
+          text: options[i].innerText,
+          selected: options[i].getAttribute('selected') != null ? options[i].getAttribute('selected') : false
+        });
+      }
+    },
     loadOptionsAutori() {
       const options = document.getElementById('autori').options;
+      for (let i = 0; i < options.length; i++) {
+        this.options.push({
+          value: options[i].value,
+          text: options[i].innerText,
+          selected: options[i].getAttribute('selected') != null ? options[i].getAttribute('selected') : false
+        });
+      }
+    },
+    loadOptionsAutoriEdit() {
+      const options = document.getElementById('autoriEdit').options;
       for (let i = 0; i < options.length; i++) {
         this.options.push({
           value: options[i].value,
