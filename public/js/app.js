@@ -74,7 +74,7 @@ $(document).ready(function () {
     //toggle elements with class .ty-compact-list that their index is bigger than 2
     $('.activity-card:gt(6)').toggle();
     //change text of show more element just for demonstration purposes to this demo
-    if($(this).text() == 'Show less') {
+    if ($(this).text() == 'Show less') {
       $(this).text('Show more')
     } else {
       $(this).text('Show less');
@@ -261,12 +261,30 @@ function sortTable() {
       one from current row and one from the next:*/
       x = rows[i].getElementsByTagName("TD")[1];
       y = rows[i + 1].getElementsByTagName("TD")[1];
-      let [firstName, secondName] = [x.children[1].children[0], y.children[1].children[0]]
-      //check if the two rows should switch place:
-      if (firstName.innerHTML.toLowerCase() > secondName.innerHTML.toLowerCase()) {
-        //if so, mark as a switch and break the loop:
-        shouldSwitch = true;
-        break;
+      if (x.children.length == 2) {
+        if (x.children[1].children.length == 1) {
+          let [firstName, secondName] = [x.children[1].children[0], y.children[1].children[0]]
+          //check if the two rows should switch place:
+          if (firstName.innerHTML.toLowerCase() > secondName.innerHTML.toLowerCase()) {
+            //if so, mark as a switch and break the loop:
+            shouldSwitch = true;
+            break;
+          }
+        } else {
+          let [firstName1, secondName1] = [x.children[1], y.children[1]]
+          if (firstName1.innerHTML.toLowerCase() > secondName1.innerHTML.toLowerCase()) {
+            //if so, mark as a switch and break the loop:
+            shouldSwitch = true;
+            break;
+          }
+        }
+      } else if (x.children.length == 1) {
+        let [firstName2, secondName2] = [x.children[0], y.children[0]]
+        if (firstName2.innerHTML.toLowerCase() > secondName2.innerHTML.toLowerCase()) {
+          //if so, mark as a switch and break the loop:
+          shouldSwitch = true;
+          break;
+        }
       }
     }
     if (shouldSwitch) {
@@ -1666,15 +1684,15 @@ function dropdown() {
     },
     selectedValuesKategorijaEdit() {
       const options = document.getElementById('kategorijaEdit').options;
-        return options[1].innerText;
+      return options[1].innerText;
     },
     selectedValuesZanrEdit() {
       const options = document.getElementById('zanrEdit').options;
-        return options[2].innerText;
+      return options[2].innerText;
     },
     selectedValuesAutoriEdit() {
       const options = document.getElementById('autoriEdit').options;
-        return options[0].innerText;
+      return options[0].innerText;
     }
   }
 }
