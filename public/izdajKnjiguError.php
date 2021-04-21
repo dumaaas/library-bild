@@ -153,23 +153,23 @@
                                             <span class="mt-[20px]">Ukupna kolicina:</span>
                                         </div>
                                         <div class="flex flex-col text-center ml-[30px]">
-                                            <a href="ucenikProfile.php"
+                                            <a href="#"
                                                 class="mt-[20px] block ml-[30px] bg-green-200 text-green-800 rounded-[10px] px-[6px] py-[2px]">
                                                 0 primjeraka
                                             </a>
-                                            <a href="ucenikProfile.php"
+                                            <a href="iznajmljivanjeAktivne.php"
                                                 class="mt-[19px] block ml-[30px] bg-yellow-200 text-yellow-700 rounded-[10px] px-[6px] py-[2px]">
                                                 4 primjerka
                                             </a>
-                                            <a href="ucenikProfile.php"
+                                            <a href="iznajmljivanjeIzdate.php"
                                                 class="mt-[19px] block ml-[30px] bg-blue-200 text-blue-800 rounded-[10px] px-[6px] py-[2px]">
                                                 10 primjeraka
                                             </a>
-                                            <a href="ucenikProfile.php"
+                                            <a href="iznajmljivanjePrekoracenje.php"
                                                 class="mt-[19px] block ml-[30px] bg-red-200 text-red-800 rounded-[10px] px-[6px] py-[2px]">
                                                 2 primjerka
                                             </a>
-                                            <a href="ucenikProfile.php"
+                                            <a href="#"
                                                 class="mt-[19px] block ml-[30px] border-[1px] border-green-700 text-green-700 rounded-[10px] px-[6px] py-[2px]">
                                                 14 primjeraka
                                             </a>

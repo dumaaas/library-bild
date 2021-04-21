@@ -94,7 +94,7 @@
                                 </td>
                                 <td class="flex flex-row items-center px-4 py-3">
                                     <img class="object-cover w-8 mr-2 h-11" src="img/profileStudent.jpg" alt="" />
-                                    <a href="#">
+                                    <a href="autorProfile.php">
                                         <span class="mr-2 font-medium text-center">Mark Twain</span>
                                     </a>
                                 </td>
@@ -140,7 +140,7 @@
                                 </td>
                                 <td class="flex flex-row items-center px-4 py-3">
                                 <img class="object-cover w-8 mr-2 h-11" src="img/profileStudent.jpg" alt="" />
-                                    <a href="#">
+                                    <a href="autorProfile.php">
                                         <span class="mr-2 font-medium text-center">Danijel Defoe</span>
                                     </a>
                                 </td>
@@ -185,7 +185,7 @@
                                 </td>
                                 <td class="flex flex-row items-center px-4 py-3">
                                 <img class="object-cover w-8 mr-2 h-11" src="img/profileStudent.jpg" alt="" />
-                                    <a href="#">
+                                    <a href="autorProfile.php">
                                         <span class="mr-2 font-medium text-center">Danka Maksimovic</span>
                                     </a>
                                 </td>
@@ -230,7 +230,7 @@
                                 </td>
                                 <td class="flex flex-row items-center px-4 py-3">
                                 <img class="object-cover w-8 mr-2 h-11" src="img/profileStudent.jpg" alt="" />
-                                    <a href="#">
+                                    <a href="autorProfile.php">
                                         <span class="mr-2 font-medium text-center">Bubalo Zivkovic</span>
                                     </a>
                                 </td>
@@ -275,7 +275,7 @@
                                 </td>
                                 <td class="flex flex-row items-center px-4 py-3">
                                 <img class="object-cover w-8 mr-2 h-11" src="img/profileStudent.jpg" alt="" />
-                                    <a href="#">
+                                    <a href="autorProfile.php">
                                         <span class="font-medium text-center">Ivo Andric</span>
                                     </a>
                                 </td>
@@ -320,7 +320,7 @@
                                 </td>
                                 <td class="flex flex-row items-center px-4 py-3">
                                 <img class="object-cover w-8 mr-2 h-11" src="img/profileStudent.jpg" alt="" />
-                                    <a href="#">
+                                    <a href="autorProfile.php">
                                         <span class="mr-2 font-medium text-center">Mark Twain</span>
                                     </a>
                                 </td>
@@ -365,7 +365,7 @@
                                 </td>
                                 <td class="flex flex-row items-center px-4 py-3">
                                 <img class="object-cover w-8 mr-2 h-11" src="img/profileStudent.jpg" alt="" />
-                                    <a href="#">
+                                    <a href="autorProfile.php">
                                         <span class="mr-2 font-medium text-center">Danka Maksimovic</span>
                                     </a>
                                 </td>
@@ -410,7 +410,7 @@
                                 </td>
                                 <td class="flex flex-row items-center px-4 py-3">
                                 <img class="object-cover w-8 mr-2 h-11" src="img/profileStudent.jpg" alt="" />
-                                    <a href="#">
+                                    <a href="autorProfile.php">
                                         <span class="mr-2 font-medium text-center">Bubalo Zivkovic</span>
                                     </a>
                                 </td>
