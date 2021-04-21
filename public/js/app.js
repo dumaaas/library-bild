@@ -1706,6 +1706,15 @@ $('.form-checkbox').click(function () {
   }
 })
 
+// Edit book multimedia - delete (hide) image
+$('#hide-image1').click(function () {
+  $('.hiddenImage1').hide();
+});
+
+$('#hide-image2').click(function () {
+  $('.hiddenImage2').hide();
+});
+
 // Header - dropdown for create button
 $('#dropdownCreate').click(function () {
   $('.dropdown-create').toggle();
