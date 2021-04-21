@@ -168,19 +168,19 @@
                             <table class="overflow-hidden shadow-lg rounded-xl w-full border-[1px] border-[#e4dfdf] rezervacije" id="myTable">
                                 <thead class="bg-[#EFF3F6]">
                                     <tr class="border-b-[1px] border-[#e4dfdf]">
-                                        <th class="px-4 py-3 leading-4 tracking-wider text-left text-blue-500">
+                                        <th class="px-4 py-4 leading-4 tracking-wider text-left text-blue-500">
                                             <label class="inline-flex items-center">
                                                 <input type="checkbox" class="form-checkbox">
                                             </label>
                                         </th>
-                                        <th class="flex items-center px-4 py-3 leading-4 tracking-wider text-left">Naziv
+                                        <th class="flex items-center px-4 py-4 leading-4 tracking-wider text-left">Naziv
                                             knjige<a href="#"><i class="ml-2 fa-lg fas fa-long-arrow-alt-down"
                                                     onclick="sortTable()"></i></a>
                                         </th>
 
                                         <!-- Datum rezervacije + dropdown filter for date -->
                                         <th
-                                            class="relative px-4 py-3 text-sm leading-4 tracking-wider text-left cursor-pointer datumDrop-toggle">
+                                            class="relative px-4 py-4 text-sm leading-4 tracking-wider text-left cursor-pointer datumDrop-toggle">
                                             Datum rezervacije<i class="ml-2 fas fa-filter"></i>
                                             <div id="datumDropdown"
                                                 class="datumMenu hidden absolute rounded bg-white min-w-[310px] p-[10px] shadow-md top-[42px] pin-l border-2 border-gray-300">
@@ -212,7 +212,7 @@
 
                                         <!-- Rezervacija istice + dropdown filter for date -->
                                         <th
-                                            class="relative px-4 py-3 text-sm leading-4 tracking-wider text-left cursor-pointer zadrzavanjeDrop-toggle">
+                                            class="relative px-4 py-4 text-sm leading-4 tracking-wider text-left cursor-pointer zadrzavanjeDrop-toggle">
                                             Rezervacija
                                             istice<i class="ml-2 fas fa-filter"></i>
                                             <div id="zadrzavanjeDropdown"
@@ -245,7 +245,7 @@
 
                                         <!-- Rezervaciju podnio + dropdown filter for ucenik -->
                                         <th
-                                            class="relative px-4 py-3 text-sm leading-4 tracking-wider text-left cursor-pointer uceniciDrop-toggle">
+                                            class="relative px-4 py-4 text-sm leading-4 tracking-wider text-left cursor-pointer uceniciDrop-toggle">
                                             Rezervaciju
                                             podnio<i class="ml-2 fas fa-filter"></i>
                                             <div id="uceniciDropdown"
@@ -394,7 +394,7 @@
 
                                         <!-- Status + dropdown filter for status -->
                                         <th
-                                            class="relative px-4 py-3 text-sm leading-4 tracking-wider text-left cursor-pointer statusDrop-toggle">
+                                            class="relative px-4 py-4 text-sm leading-4 tracking-wider text-left cursor-pointer statusDrop-toggle">
                                             Status<i class="ml-2 fas fa-filter"></i>
                                             <div id="statusDropdown"
                                                 class="statusMenu hidden absolute rounded bg-white min-w-[310px] p-[10px] shadow-md top-[42px] right-0 border-2 border-gray-300">
@@ -457,7 +457,7 @@
                                                 </div>
                                             </div>
                                         </th>
-                                        <th class="px-4 py-3"> </th>
+                                        <th class="px-4 py-4"> </th>
                                     </tr>
                                 </thead>
                                 <tbody class="bg-white">
