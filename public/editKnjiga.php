@@ -107,7 +107,7 @@
 
                                 <div x-data="dropdown()" x-init="loadOptionsEdit()" class="flex flex-col w-[90%]">
                                     <input name="values" id="kategorijaInputEdit" type="hidden"
-                                        x-bind:value="selectedValues()">
+                                        x-bind:value="selectedValuesKategorijaEdit()">
                                     <div class="relative inline-block w-[100%]">
                                         <div class="relative flex flex-col items-center">
                                             <div x-on:click="open" class="w-full svelte-1l8159u">
@@ -138,7 +138,7 @@
                                                     <div x-show="selected.length    == 0" class="flex-1">
                                                         <input
                                                             class="w-full h-full p-1 px-2 text-gray-800 bg-transparent outline-none appearance-none"
-                                                            x-bind:value="selectedValues()">
+                                                            x-bind:value="selectedValuesKategorijaEdit()">
                                                     </div>
                                                 </div>
                                                 <div
@@ -197,10 +197,11 @@
                             <select x-cloak id="zanrEdit">
                                 <option value="1">Poezija</option>
                                 <option value="2">Strucna literatura</option>
+                                <option value="2">Knjige za djecu</option>
                             </select>
 
                             <div x-data="dropdown()" x-init="loadOptionsZanroviEdit()" class="flex flex-col w-[90%]">
-                                <input name="values" id="zanroviInputEdit" type="hidden" x-bind:value="selectedValues()">
+                                <input name="values" id="zanroviInputEdit" type="hidden" x-bind:value="selectedValuesZanrEdit()">
                                 <div class="relative inline-block w-[100%]">
                                     <div class="relative flex flex-col items-center">
                                         <div x-on:click="open" class="w-full svelte-1l8159u">
@@ -231,7 +232,7 @@
                                                 <div x-show="selected.length    == 0" class="flex-1">
                                                     <input
                                                         class="w-full h-full p-1 px-2 text-gray-800 bg-transparent outline-none appearance-none"
-                                                        x-bind:value="selectedValues()">
+                                                        x-bind:value="selectedValuesZanrEdit()">
                                                 </div>
                                             </div>
                                             <div
@@ -295,7 +296,7 @@
                     </select>
 
                     <div x-data="dropdown()" x-init="loadOptionsAutoriEdit()" class="flex flex-col w-[90%]">
-                        <input name="values" id="autoriInputEdit" type="hidden" x-bind:value="selectedValues()">
+                        <input name="values" id="autoriInputEdit" type="hidden" x-bind:value="selectedValuesAutoriEdit()">
                         <div class="relative inline-block w-[100%]">
                             <div class="relative flex flex-col items-center">
                                 <div x-on:click="open" class="w-full svelte-1l8159u">
@@ -325,7 +326,7 @@
                                         <div x-show="selected.length    == 0" class="flex-1">
                                             <input
                                                 class="w-full h-full p-1 px-2 text-gray-800 bg-transparent outline-none appearance-none"
-                                                x-bind:value="selectedValues()">
+                                                x-bind:value="selectedValuesAutoriEdit()">
                                         </div>
                                     </div>
                                     <div class="flex items-center w-8 py-1 pl-2 pr-1 text-gray-300 svelte-1l8159u">

@@ -1668,6 +1668,18 @@ function dropdown() {
       return this.selected.map((option) => {
         return this.options[option].value;
       })
+    },
+    selectedValuesKategorijaEdit() {
+      const options = document.getElementById('kategorijaEdit').options;
+        return options[1].innerText;
+    },
+    selectedValuesZanrEdit() {
+      const options = document.getElementById('zanrEdit').options;
+        return options[2].innerText;
+    },
+    selectedValuesAutoriEdit() {
+      const options = document.getElementById('autoriEdit').options;
+        return options[0].innerText;
     }
   }
 }
