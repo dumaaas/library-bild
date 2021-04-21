@@ -2043,11 +2043,10 @@ $(".dotsIzdateKnjige").click(function () {
   dropdownIzdateKnjige.toggle();
 })
 
-$(document).on('mouseup', function (e){
+$(document).on('mouseup', function (e) {
   var dropdownIzdateKnjige = $(".izdate-knjige");
-  if (!dropdownIzdateKnjige.is(e.target) 
-       && dropdownIzdateKnjige.has(e.target).length === 0)
-  {
+  if (!dropdownIzdateKnjige.is(e.target) &&
+    dropdownIzdateKnjige.has(e.target).length === 0) {
     dropdownIzdateKnjige.slideUp();
   }
 });
@@ -2059,11 +2058,10 @@ $(".dotsVraceneKnjige").click(function () {
   dropdownVraceneKnjige.toggle();
 })
 
-$(document).on('mouseup', function (e){
+$(document).on('mouseup', function (e) {
   var dropdownVraceneKnjige = $(".vracene-knjige");
-  if (!dropdownVraceneKnjige.is(e.target) 
-       && dropdownVraceneKnjige.has(e.target).length === 0)
-  {
+  if (!dropdownVraceneKnjige.is(e.target) &&
+    dropdownVraceneKnjige.has(e.target).length === 0) {
     dropdownVraceneKnjige.slideUp();
   }
 });
@@ -2075,11 +2073,10 @@ $(".dotsKnjigePrekoracenje").click(function () {
   dropdownKnjigePrekoracenje.toggle();
 })
 
-$(document).on('mouseup', function (e){
+$(document).on('mouseup', function (e) {
   var dropdownKnjigePrekoracenje = $(".knjige-prekoracenje");
-  if (!dropdownKnjigePrekoracenje.is(e.target) 
-       && dropdownKnjigePrekoracenje.has(e.target).length === 0)
-  {
+  if (!dropdownKnjigePrekoracenje.is(e.target) &&
+    dropdownKnjigePrekoracenje.has(e.target).length === 0) {
     dropdownKnjigePrekoracenje.slideUp();
   }
 });
@@ -2091,11 +2088,10 @@ $(".dotsAktivneRezervacije").click(function () {
   dropdownAktivneRezervacije.toggle();
 })
 
-$(document).on('mouseup', function (e){
+$(document).on('mouseup', function (e) {
   var dropdownAktivneRezervacije = $(".aktivne-rezervacije");
-  if (!dropdownAktivneRezervacije.is(e.target) 
-       && dropdownAktivneRezervacije.has(e.target).length === 0)
-  {
+  if (!dropdownAktivneRezervacije.is(e.target) &&
+    dropdownAktivneRezervacije.has(e.target).length === 0) {
     dropdownAktivneRezervacije.slideUp();
   }
 });
@@ -2107,11 +2103,10 @@ $(".dotsArhiviraneRezervacije").click(function () {
   dropdownArhiviraneRezervacije.toggle();
 })
 
-$(document).on('mouseup', function (e){
+$(document).on('mouseup', function (e) {
   var dropdownArhiviraneRezervacije = $(".arhivirane-rezervacije");
-  if (!dropdownArhiviraneRezervacije.is(e.target) 
-       && dropdownArhiviraneRezervacije.has(e.target).length === 0)
-  {
+  if (!dropdownArhiviraneRezervacije.is(e.target) &&
+    dropdownArhiviraneRezervacije.has(e.target).length === 0) {
     dropdownArhiviraneRezervacije.slideUp();
   }
 });
@@ -2123,11 +2118,10 @@ $(".dotsAutori").click(function () {
   dropdownAutori.toggle();
 })
 
-$(document).on('mouseup', function (e){
+$(document).on('mouseup', function (e) {
   var dropdownAutori = $(".dropdown-autori");
-  if (!dropdownAutori.is(e.target) 
-       && dropdownAutori.has(e.target).length === 0)
-  {
+  if (!dropdownAutori.is(e.target) &&
+    dropdownAutori.has(e.target).length === 0) {
     dropdownAutori.slideUp();
   }
 });
@@ -2140,9 +2134,9 @@ $(".dotsAutor").click(function () {
 $(document).on('mouseup', function (e) {
   var dropdownAutor = $(".dropdown-autor");
   if (!dropdownAutor.is(e.target) &&
-  dropdownAutor.has(e.target).length === 0 &&
+    dropdownAutor.has(e.target).length === 0 &&
     !$(e.target).is('.dotsAutor')) {
-      dropdownAutor.slideUp();
+    dropdownAutor.slideUp();
   }
 });
 
@@ -2153,11 +2147,10 @@ $(".dotsKnjige").click(function () {
   dropdownKnjige.toggle();
 })
 
-$(document).on('mouseup', function (e){
+$(document).on('mouseup', function (e) {
   var dropdownKnjige = $(".dropdown-knjige");
-  if (!dropdownKnjige.is(e.target) 
-       && dropdownKnjige.has(e.target).length === 0)
-  {
+  if (!dropdownKnjige.is(e.target) &&
+    dropdownKnjige.has(e.target).length === 0) {
     dropdownKnjige.slideUp();
   }
 });
@@ -2170,9 +2163,9 @@ $(".dotsKnjigaOsnovniDetalji").click(function () {
 $(document).on('mouseup', function (e) {
   var dropdownKnjigaOsnovniDetalji = $(".dropdown-knjiga-osnovni-detalji");
   if (!dropdownKnjigaOsnovniDetalji.is(e.target) &&
-  dropdownKnjigaOsnovniDetalji.has(e.target).length === 0 &&
+    dropdownKnjigaOsnovniDetalji.has(e.target).length === 0 &&
     !$(e.target).is('.dotsKnjigaOsnovniDetalji')) {
-      dropdownKnjigaOsnovniDetalji.slideUp();
+    dropdownKnjigaOsnovniDetalji.slideUp();
   }
 });
 
@@ -2184,9 +2177,9 @@ $(".dotsIzdajKnjigu").click(function () {
 $(document).on('mouseup', function (e) {
   var dropdownIzdajKnjigu = $(".dropdown-izdaj-knjigu");
   if (!dropdownIzdajKnjigu.is(e.target) &&
-  dropdownIzdajKnjigu.has(e.target).length === 0 &&
+    dropdownIzdajKnjigu.has(e.target).length === 0 &&
     !$(e.target).is('.dotsIzdajKnjigu')) {
-      dropdownIzdajKnjigu.slideUp();
+    dropdownIzdajKnjigu.slideUp();
   }
 });
 
@@ -2198,9 +2191,9 @@ $(".dotsIzdajKnjiguError").click(function () {
 $(document).on('mouseup', function (e) {
   var dropdownIzdajKnjiguError = $(".dropdown-izdaj-knjigu-error");
   if (!dropdownIzdajKnjiguError.is(e.target) &&
-  dropdownIzdajKnjiguError.has(e.target).length === 0 &&
+    dropdownIzdajKnjiguError.has(e.target).length === 0 &&
     !$(e.target).is('.dotsIzdajKnjiguError')) {
-      dropdownIzdajKnjiguError.slideUp();
+    dropdownIzdajKnjiguError.slideUp();
   }
 });
 
@@ -2212,9 +2205,9 @@ $(".dotsVratiKnjigu").click(function () {
 $(document).on('mouseup', function (e) {
   var dropdownVratiKnjigu = $(".dropdown-vrati-knjigu");
   if (!dropdownVratiKnjigu.is(e.target) &&
-  dropdownVratiKnjigu.has(e.target).length === 0 &&
+    dropdownVratiKnjigu.has(e.target).length === 0 &&
     !$(e.target).is('.dotsVratiKnjigu')) {
-      dropdownVratiKnjigu.slideUp();
+    dropdownVratiKnjigu.slideUp();
   }
 });
 
@@ -2226,9 +2219,9 @@ $(".dotsRezervisiKnjigu").click(function () {
 $(document).on('mouseup', function (e) {
   var dropdownRezervisiKnjigu = $(".dropdown-rezervisi-knjigu");
   if (!dropdownRezervisiKnjigu.is(e.target) &&
-  dropdownRezervisiKnjigu.has(e.target).length === 0 &&
+    dropdownRezervisiKnjigu.has(e.target).length === 0 &&
     !$(e.target).is('.dotsRezervisiKnjigu')) {
-      dropdownRezervisiKnjigu.slideUp();
+    dropdownRezervisiKnjigu.slideUp();
   }
 });
 
@@ -2240,9 +2233,9 @@ $(".dotsOtpisiKnjigu").click(function () {
 $(document).on('mouseup', function (e) {
   var dropdownOtpisiKnjigu = $(".dropdown-otpisi-knjigu");
   if (!dropdownOtpisiKnjigu.is(e.target) &&
-  dropdownOtpisiKnjigu.has(e.target).length === 0 &&
+    dropdownOtpisiKnjigu.has(e.target).length === 0 &&
     !$(e.target).is('.dotsOtpisiKnjigu')) {
-      dropdownOtpisiKnjigu.slideUp();
+    dropdownOtpisiKnjigu.slideUp();
   }
 });
 
@@ -2254,9 +2247,9 @@ $(".dotsKnjigaSpecifikacija").click(function () {
 $(document).on('mouseup', function (e) {
   var dropdownKnjigaSpecifikacija = $(".dropdown-knjiga-specifikacija");
   if (!dropdownKnjigaSpecifikacija.is(e.target) &&
-  dropdownKnjigaSpecifikacija.has(e.target).length === 0 &&
+    dropdownKnjigaSpecifikacija.has(e.target).length === 0 &&
     !$(e.target).is('.dotsKnjigaSpecifikacija')) {
-      dropdownKnjigaSpecifikacija.slideUp();
+    dropdownKnjigaSpecifikacija.slideUp();
   }
 });
 
@@ -2268,9 +2261,9 @@ $(".dotsKnjigaMultimedija").click(function () {
 $(document).on('mouseup', function (e) {
   var dropdownKnjigaMultimedija = $(".dropdown-knjiga-multimedija");
   if (!dropdownKnjigaMultimedija.is(e.target) &&
-  dropdownKnjigaMultimedija.has(e.target).length === 0 &&
+    dropdownKnjigaMultimedija.has(e.target).length === 0 &&
     !$(e.target).is('.dotsKnjigaMultimedija')) {
-      dropdownKnjigaMultimedija.slideUp();
+    dropdownKnjigaMultimedija.slideUp();
   }
 });
 
@@ -2282,9 +2275,9 @@ $(".dotsIznajmljivanjeIzdate").click(function () {
 $(document).on('mouseup', function (e) {
   var dropdownIznajmljivanjeIzdate = $(".dropdown-iznajmljivanje-izdate");
   if (!dropdownIznajmljivanjeIzdate.is(e.target) &&
-  dropdownIznajmljivanjeIzdate.has(e.target).length === 0 &&
+    dropdownIznajmljivanjeIzdate.has(e.target).length === 0 &&
     !$(e.target).is('.dotsIznajmljivanjeIzdate')) {
-      dropdownIznajmljivanjeIzdate.slideUp();
+    dropdownIznajmljivanjeIzdate.slideUp();
   }
 });
 
@@ -2296,9 +2289,9 @@ $(".dotsIznajmljivanjeVracene").click(function () {
 $(document).on('mouseup', function (e) {
   var dropdownIznajmljivanjeVracene = $(".dropdown-iznajmljivanje-vracene");
   if (!dropdownIznajmljivanjeVracene.is(e.target) &&
-  dropdownIznajmljivanjeVracene.has(e.target).length === 0 &&
+    dropdownIznajmljivanjeVracene.has(e.target).length === 0 &&
     !$(e.target).is('.dotsIznajmljivanjeVracene')) {
-      dropdownIznajmljivanjeVracene.slideUp();
+    dropdownIznajmljivanjeVracene.slideUp();
   }
 });
 
@@ -2310,9 +2303,9 @@ $(".dotsIznajmljivanjePrekoracenje").click(function () {
 $(document).on('mouseup', function (e) {
   var dropdownIznajmljivanjePrekoracenje = $(".dropdown-iznajmljivanje-prekoracenje");
   if (!dropdownIznajmljivanjePrekoracenje.is(e.target) &&
-  dropdownIznajmljivanjePrekoracenje.has(e.target).length === 0 &&
+    dropdownIznajmljivanjePrekoracenje.has(e.target).length === 0 &&
     !$(e.target).is('.dotsIznajmljivanjePrekoracenje')) {
-      dropdownIznajmljivanjePrekoracenje.slideUp();
+    dropdownIznajmljivanjePrekoracenje.slideUp();
   }
 });
 
@@ -2324,9 +2317,9 @@ $(".dotsIznajmljivanjeAktivneRezervacije").click(function () {
 $(document).on('mouseup', function (e) {
   var dropdownIznajmljivanjeAktivneRezervacije = $(".dropdown-iznajmljivanje-aktivne-rezervacije");
   if (!dropdownIznajmljivanjeAktivneRezervacije.is(e.target) &&
-  dropdownIznajmljivanjeAktivneRezervacije.has(e.target).length === 0 &&
+    dropdownIznajmljivanjeAktivneRezervacije.has(e.target).length === 0 &&
     !$(e.target).is('.dotsIznajmljivanjeAktivneRezervacije')) {
-      dropdownIznajmljivanjeAktivneRezervacije.slideUp();
+    dropdownIznajmljivanjeAktivneRezervacije.slideUp();
   }
 });
 
@@ -2338,9 +2331,9 @@ $(".dotsIznajmljivanjeArhiviraneRezervacije").click(function () {
 $(document).on('mouseup', function (e) {
   var dropdownIznajmljivanjeArhiviraneRezervacije = $(".dropdown-iznajmljivanje-arhivirane-rezervacije");
   if (!dropdownIznajmljivanjeArhiviraneRezervacije.is(e.target) &&
-  dropdownIznajmljivanjeArhiviraneRezervacije.has(e.target).length === 0 &&
+    dropdownIznajmljivanjeArhiviraneRezervacije.has(e.target).length === 0 &&
     !$(e.target).is('.dotsIznajmljivanjeArhiviraneRezervacije')) {
-      dropdownIznajmljivanjeArhiviraneRezervacije.slideUp();
+    dropdownIznajmljivanjeArhiviraneRezervacije.slideUp();
   }
 });
 
@@ -2352,9 +2345,9 @@ $(".dotsIzdavanjeDetalji").click(function () {
 $(document).on('mouseup', function (e) {
   var dropdownIzdavanjeDetalji = $(".dropdown-izdavanje-detalji");
   if (!dropdownIzdavanjeDetalji.is(e.target) &&
-  dropdownIzdavanjeDetalji.has(e.target).length === 0 &&
+    dropdownIzdavanjeDetalji.has(e.target).length === 0 &&
     !$(e.target).is('.dotsIzdavanjeDetalji')) {
-      dropdownIzdavanjeDetalji.slideUp();
+    dropdownIzdavanjeDetalji.slideUp();
   }
 });
 
@@ -2365,11 +2358,10 @@ $(".dotsIznajmljivanjeIzdateKnjige").click(function () {
   dropdownIznajmljivanjeIzdateKnjige.toggle();
 })
 
-$(document).on('mouseup', function (e){
+$(document).on('mouseup', function (e) {
   var dropdownIznajmljivanjeIzdateKnjige = $(".iznajmljivanje-izdate-knjige");
-  if (!dropdownIznajmljivanjeIzdateKnjige.is(e.target) 
-       && dropdownIznajmljivanjeIzdateKnjige.has(e.target).length === 0)
-  {
+  if (!dropdownIznajmljivanjeIzdateKnjige.is(e.target) &&
+    dropdownIznajmljivanjeIzdateKnjige.has(e.target).length === 0) {
     dropdownIznajmljivanjeIzdateKnjige.slideUp();
   }
 });
@@ -2381,11 +2373,10 @@ $(".dotsIznajmljivanjeVraceneKnjige").click(function () {
   dropdownIznajmljivanjeVraceneKnjige.toggle();
 })
 
-$(document).on('mouseup', function (e){
+$(document).on('mouseup', function (e) {
   var dropdownIznajmljivanjeVraceneKnjige = $(".iznajmljivanje-vracene-knjige");
-  if (!dropdownIznajmljivanjeVraceneKnjige.is(e.target) 
-       && dropdownIznajmljivanjeVraceneKnjige.has(e.target).length === 0)
-  {
+  if (!dropdownIznajmljivanjeVraceneKnjige.is(e.target) &&
+    dropdownIznajmljivanjeVraceneKnjige.has(e.target).length === 0) {
     dropdownIznajmljivanjeVraceneKnjige.slideUp();
   }
 });
@@ -2397,11 +2388,10 @@ $(".dotsIznajmljivanjeKnjigePrekoracenje").click(function () {
   dropdownIznajmljivanjeKnjigePrekoracenje.toggle();
 })
 
-$(document).on('mouseup', function (e){
+$(document).on('mouseup', function (e) {
   var dropdownIznajmljivanjeKnjigePrekoracenje = $(".iznajmljivanje-knjige-prekoracenje");
-  if (!dropdownIznajmljivanjeKnjigePrekoracenje.is(e.target) 
-       && dropdownIznajmljivanjeKnjigePrekoracenje.has(e.target).length === 0)
-  {
+  if (!dropdownIznajmljivanjeKnjigePrekoracenje.is(e.target) &&
+    dropdownIznajmljivanjeKnjigePrekoracenje.has(e.target).length === 0) {
     dropdownIznajmljivanjeKnjigePrekoracenje.slideUp();
   }
 });
@@ -2413,11 +2403,10 @@ $(".dotsIznajmljivanjeAktivneRezervacijeTabela").click(function () {
   dropdownIznajmljivanjeAktivneRezervacijeTabela.toggle();
 })
 
-$(document).on('mouseup', function (e){
+$(document).on('mouseup', function (e) {
   var dropdownIznajmljivanjeAktivneRezervacijeTabela = $(".iznajmljivanje-aktivne-rezervacije");
-  if (!dropdownIznajmljivanjeAktivneRezervacijeTabela.is(e.target) 
-       && dropdownIznajmljivanjeAktivneRezervacijeTabela.has(e.target).length === 0)
-  {
+  if (!dropdownIznajmljivanjeAktivneRezervacijeTabela.is(e.target) &&
+    dropdownIznajmljivanjeAktivneRezervacijeTabela.has(e.target).length === 0) {
     dropdownIznajmljivanjeAktivneRezervacijeTabela.slideUp();
   }
 });
@@ -2429,27 +2418,26 @@ $(".dotsIznajmljivanjeArhiviraneRezervacijeTabela").click(function () {
   dropdownIznajmljivanjeArhiviraneRezervacijeTabela.toggle();
 })
 
-$(document).on('mouseup', function (e){
+$(document).on('mouseup', function (e) {
   var dropdownIznajmljivanjeArhiviraneRezervacijeTabela = $(".iznajmljivanje-arhivirane-rezervacije");
-  if (!dropdownIznajmljivanjeArhiviraneRezervacijeTabela.is(e.target) 
-       && dropdownIznajmljivanjeArhiviraneRezervacijeTabela.has(e.target).length === 0)
-  {
+  if (!dropdownIznajmljivanjeArhiviraneRezervacijeTabela.is(e.target) &&
+    dropdownIznajmljivanjeArhiviraneRezervacijeTabela.has(e.target).length === 0) {
     dropdownIznajmljivanjeArhiviraneRezervacijeTabela.slideUp();
   }
 });
 
 //click on one and check all checkboxes(evidencijaKnjiga.php)
-$('.checkSelect').click(function () {
+$('.checkAll').click(function () {
   if ($(this).is(':checked')) {
     $('.form-checkbox').prop('checked', true);
     $('tr').addClass('bg-gray-200');
-    $('tr').children().eq(1).html('<a class="text-blue-800" href="knjigaOsnovniDetalji.php"><i class="far fa-copy"></i>  Pogledaj detalje</a>')
-    $('tr').children().eq(2).html('<a class="text-blue-800" href="editKnjiga.php.php"><i class="far fa-copy"></i>  Izmjeni knjigu</a>')
-    $('tr').children().eq(3).html('<a class="text-blue-800 border-l-2 border-gray-200" href="otpisiKnjigu.php"><i class="fas fa-level-up-alt ml-4"></i>  Otpisi knjigu</a>')
-    $('tr').children().eq(4).html('<a class="text-blue-800" href="izdajKnjigu.php"><i class="far fa-hand-scissors"></i>  Izdaj knjigu</a>')
-    $('tr').children().eq(5).html('<a class="text-blue-800" href="vratiKnjigu.php"><i class="fas fa-redo-alt"></i>  Vrati knjigu</a>')
-    $('tr').children().eq(6).html('<a class="text-blue-800" href="otpisiKnjigu.php"><i class="far fa-calendar-check"></i>  Rezervisi knjigu</a>')
-    $('tr').children().eq(7).html('<a class="text-blue-800 border-l-2 border-gray-200" href="otpisiKnjigu.php"><i class="fa fa-trash ml-4"></i>  Izbrisi knjigu</a>')
+    $('tr').children().eq(1).html('<a class="text-blue-800 border-l-2 border-gray-200" href="otpisiKnjigu.php"><i class="fa fa-trash ml-4"></i>  Izbrisi knjigu</a>')
+    $('tr').children().eq(2).html('')
+    $('tr').children().eq(3).html('')
+    $('tr').children().eq(4).html('')
+    $('tr').children().eq(5).html('')
+    $('tr').children().eq(6).html('')
+    $('tr').children().eq(7).html('')
     $('tr').children().eq(8).html('')
   } else {
     $('.form-checkbox').prop('checked', false);
@@ -2464,10 +2452,10 @@ $('.checkSelect').click(function () {
     $('tr').children().eq(8).html('Ukupna kolicina')
   }
 });
-$('.checkSelectOthers').click(function () {
-  if ($(this).is(':checked')) {
-    $('.form-checkbox').first().prop('checked', true);
-    $('tr').first().addClass('bg-gray-200');
+$('.checkOthers').change(function () {
+  var checked = $('#myTable').find(':checked').length;
+  if (checked == 1) {
+    $(this).addClass('bg-gray-200');
     $('tr').children().eq(1).html('<a class="text-blue-800" href="knjigaOsnovniDetalji.php"><i class="far fa-copy"></i>  Pogledaj detalje</a>')
     $('tr').children().eq(2).html('<a class="text-blue-800" href="editKnjiga.php.php"><i class="far fa-copy"></i>  Izmjeni knjigu</a>')
     $('tr').children().eq(3).html('<a class="text-blue-800 border-l-2 border-gray-200" href="otpisiKnjigu.php"><i class="fas fa-level-up-alt ml-4"></i>  Otpisi knjigu</a>')
@@ -2475,6 +2463,16 @@ $('.checkSelectOthers').click(function () {
     $('tr').children().eq(5).html('<a class="text-blue-800" href="vratiKnjigu.php"><i class="fas fa-redo-alt"></i>  Vrati knjigu</a>')
     $('tr').children().eq(6).html('<a class="text-blue-800" href="otpisiKnjigu.php"><i class="far fa-calendar-check"></i>  Rezervisi knjigu</a>')
     $('tr').children().eq(7).html('<a class="text-blue-800 border-l-2 border-gray-200" href="otpisiKnjigu.php"><i class="fa fa-trash ml-4"></i>  Izbrisi knjigu</a>')
+    $('tr').children().eq(8).html('')
+  } else if (checked >= 2) {
+    $(this).addClass('bg-gray-200');
+    $('tr').children().eq(1).html('<a class="text-blue-800 border-l-2 border-gray-200" href="otpisiKnjigu.php"><i class="fa fa-trash ml-4"></i>  Izbrisi knjigu</a>')
+    $('tr').children().eq(2).html('')
+    $('tr').children().eq(3).html('')
+    $('tr').children().eq(4).html('')
+    $('tr').children().eq(5).html('')
+    $('tr').children().eq(6).html('')
+    $('tr').children().eq(7).html('')
     $('tr').children().eq(8).html('')
   } else {
     $('.form-checkbox').prop('checked', false);
