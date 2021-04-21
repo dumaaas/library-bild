@@ -68,7 +68,7 @@
                 <div class="px-[30px] pt-2 bg-white">
                     <div class="w-full mt-2">
                         <!-- Table -->
-                        <table class="w-full border-[1px] border-[#e4dfdf]" id="myTable">
+                        <table class="w-full overflow-hidden shadow-lg rounded-xl" id="myTable">
                             <!-- Table head-->
                             <thead class="bg-[#EFF3F6]">
                                 <tr class="border-b-[1px] border-[#e4dfdf]">
@@ -352,7 +352,7 @@
                                 </tr>
                             </thead>
                             <tbody class="bg-white">
-                                <tr class="border-b-[1px] border-[#e4dfdf]">
+                                <tr class="hover:bg-gray-200 hover:shadow-md border-b-[1px] border-[#e4dfdf]">
                                     <td class="px-4 py-4 whitespace-no-wrap">
                                         <label class="inline-flex items-center">
                                             <input type="checkbox" class="form-checkbox checkOthers">
@@ -439,7 +439,7 @@
                                         </div>
                                     </td>
                                 </tr>
-                                <tr class="border-b-[1px] border-[#e4dfdf]">
+                                <tr class="hover:bg-gray-200 hover:shadow-md  border-b-[1px] border-[#e4dfdf]">
                                     <td class="px-4 py-4 whitespace-no-wrap">
                                         <label class="inline-flex items-center">
                                             <input type="checkbox" class="form-checkbox checkOthers">
@@ -527,7 +527,7 @@
                                         </div>
                                     </td>
                                 </tr>
-                                <tr class="border-b-[1px] border-[#e4dfdf]">
+                                <tr class="hover:bg-gray-200 hover:shadow-md border-b-[1px] border-[#e4dfdf]">
                                     <td class="px-4 py-4 whitespace-no-wrap">
                                         <label class="inline-flex items-center">
                                             <input type="checkbox" class="form-checkbox checkOthers">
@@ -613,7 +613,7 @@
                                         </div>
                                     </td>
                                 </tr>
-                                <tr class="border-b-[1px] border-[#e4dfdf]">
+                                <tr class="hover:bg-gray-200 hover:shadow-md border-b-[1px] border-[#e4dfdf]">
                                     <td class="px-4 py-4 whitespace-no-wrap">
                                         <label class="inline-flex items-center">
                                             <input type="checkbox" class="form-checkbox checkOthers">
@@ -699,7 +699,7 @@
                                         </div>
                                     </td>
                                 </tr>
-                                <tr class="border-b-[1px] border-[#e4dfdf]">
+                                <tr class="hover:bg-gray-200 hover:shadow-md border-b-[1px] border-[#e4dfdf]">
                                     <td class="px-4 py-4 whitespace-no-wrap">
                                         <label class="inline-flex items-center">
                                             <input type="checkbox" class="form-checkbox checkOthers">
@@ -786,7 +786,7 @@
                                         </div>
                                     </td>
                                 </tr>
-                                <tr class="border-b-[1px] border-[#e4dfdf]">
+                                <tr class="hover:bg-gray-200 hover:shadow-md border-b-[1px] border-[#e4dfdf]">
                                     <td class="px-4 py-4 whitespace-no-wrap">
                                         <label class="inline-flex items-center">
                                             <input type="checkbox" class="form-checkbox checkOthers">
@@ -874,7 +874,7 @@
                                         </div>
                                     </td>
                                 </tr>
-                                <tr class="border-b-[1px] border-[#e4dfdf]">
+                                <tr class="hover:bg-gray-200 hover:shadow-md border-b-[1px] border-[#e4dfdf]">
                                     <td class="px-4 py-4 whitespace-no-wrap">
                                         <label class="inline-flex items-center">
                                             <input type="checkbox" class="form-checkbox checkOthers">
@@ -960,7 +960,7 @@
                                         </div>
                                     </td>
                                 </tr>
-                                <tr class="border-b-[1px] border-[#e4dfdf]">
+                                <tr class="hover:bg-gray-200 hover:shadow-md border-b-[1px] border-[#e4dfdf]">
                                     <td class="px-4 py-4 whitespace-no-wrap">
                                         <label class="inline-flex items-center">
                                             <input type="checkbox" class="form-checkbox checkOthers">

@@ -1699,6 +1699,9 @@ h4 {
 .rounded-\[10px\]{
   border-radius: 10px;
 }
+.rounded-xl{
+  border-radius: 0.75rem;
+}
 .rounded-full{
   border-radius: 9999px;
 }
@@ -2430,12 +2433,12 @@ h4 {
 .opacity-0{
   opacity: 0;
 }
-.shadow-md{
-  --tw-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
-  box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
-}
 .shadow-lg{
   --tw-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
+  box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
+}
+.shadow-md{
+  --tw-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
   box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
 }
 .shadow-sm{
@@ -2602,6 +2605,10 @@ h4 {
 .hover\:text-\[\#2d3b48\]:hover{
   --tw-text-opacity: 1;
   color: rgba(45, 59, 72, var(--tw-text-opacity));
+}
+.hover\:shadow-md:hover{
+  --tw-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+  box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
 }
 .focus\:z-10:focus{
   z-index: 10;
