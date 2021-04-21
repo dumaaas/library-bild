@@ -71,7 +71,7 @@
                                                 <li class="p-2 pb-[15px] border-b-[2px] relative border-gray-300">
                                                     <input class="w-full h-10 px-2 border-2 rounded focus:outline-none"
                                                         placeholder="Search"
-                                                        onkeyup="filterFunction('searchUcenici', 'uceniciDropdown')"
+                                                        onkeyup="filterFunction('searchUcenici', 'uceniciDropdown', 'dropdown-item-izdato')"
                                                         id="searchUcenici"><br>
                                                     <button
                                                         class="absolute block text-xl text-center text-gray-400 transition-colors w-7 h-7 leading-0 top-[14px] right-4 focus:outline-none hover:text-gray-900">
@@ -79,7 +79,7 @@
                                                     </button>
                                                 </li>
                                                 <div class="h-[200px] scroll">
-                                                    <li class="flex p-2 mt-[2px] pt-[15px] group hover:bg-gray-200">
+                                                    <li class="flex p-2 mt-[2px] pt-[15px] group hover:bg-gray-200 dropdown-item-izdato">
                                                         <label class="flex items-center justify-start">
                                                             <div
                                                                 class="flex items-center justify-center flex-shrink-0 w-[16px] h-[16px] mr-2 bg-white border-2 border-gray-400 rounded focus-within:border-blue-500">
@@ -97,7 +97,7 @@
                                                             Ucenik Ucenikovic
                                                         </p>
                                                     </li>
-                                                    <li class="flex p-2 mt-[2px] pt-[15px] group hover:bg-gray-200">
+                                                    <li class="flex p-2 mt-[2px] pt-[15px] group hover:bg-gray-200 dropdown-item-izdato">
                                                         <label class="flex items-center justify-start">
                                                             <div
                                                                 class="flex items-center justify-center flex-shrink-0 w-[16px] h-[16px] mr-2 bg-white border-2 border-gray-400 rounded focus-within:border-blue-500">
@@ -115,7 +115,7 @@
                                                             Pero Perovic
                                                         </p>
                                                     </li>
-                                                    <li class="flex p-2 mt-[2px] pt-[15px] group hover:bg-gray-200">
+                                                    <li class="flex p-2 mt-[2px] pt-[15px] group hover:bg-gray-200 dropdown-item-izdato">
                                                         <label class="flex items-center justify-start">
                                                             <div
                                                                 class="flex items-center justify-center flex-shrink-0 w-[16px] h-[16px] mr-2 bg-white border-2 border-gray-400 rounded focus-within:border-blue-500">
@@ -133,7 +133,7 @@
                                                             Marko Markovic
                                                         </p>
                                                     </li>
-                                                    <li class="flex p-2 mt-[2px] pt-[15px] group hover:bg-gray-200">
+                                                    <li class="flex p-2 mt-[2px] pt-[15px] group hover:bg-gray-200 dropdown-item-izdato">
                                                         <label class="flex items-center justify-start">
                                                             <div
                                                                 class="flex items-center justify-center flex-shrink-0 w-[16px] h-[16px] mr-2 bg-white border-2 border-gray-400 rounded focus-within:border-blue-500">
@@ -151,7 +151,7 @@
                                                             Nikola Nikolic
                                                         </p>
                                                     </li>
-                                                    <li class="flex p-2 mt-[2px] pt-[15px] group hover:bg-gray-200">
+                                                    <li class="flex p-2 mt-[2px] pt-[15px] group hover:bg-gray-200 dropdown-item-izdato">
                                                         <label class="flex items-center justify-start">
                                                             <div
                                                                 class="flex items-center justify-center flex-shrink-0 w-[16px] h-[16px] mr-2 bg-white border-2 border-gray-400 rounded focus-within:border-blue-500">
@@ -169,7 +169,7 @@
                                                             Zivko Zivkovic
                                                         </p>
                                                     </li>
-                                                    <li class="flex p-2 mt-[2px] pt-[15px] group hover:bg-gray-200">
+                                                    <li class="flex p-2 mt-[2px] pt-[15px] group hover:bg-gray-200 dropdown-item-izdato">
                                                         <label class="flex items-center justify-start">
                                                             <div
                                                                 class="flex items-center justify-center flex-shrink-0 w-[16px] h-[16px] mr-2 bg-white border-2 border-gray-400 rounded focus-within:border-blue-500">
@@ -216,7 +216,7 @@
                                                 <li class="p-2 pb-[15px] border-b-[2px] relative border-gray-300">
                                                     <input class="w-full h-10 px-2 border-2 rounded focus:outline-none"
                                                         placeholder="Search"
-                                                        onkeyup="filterFunction('searchBibliotekari', 'bibliotekariDropdown')"
+                                                        onkeyup="filterFunction('searchBibliotekari', 'bibliotekariDropdown', 'dropdown-item-bibliotekar')"
                                                         id="searchBibliotekari"><br>
                                                     <button
                                                         class="absolute block text-xl text-center text-gray-400 transition-colors w-7 h-7 leading-0 top-[14px] right-4 focus:outline-none hover:text-gray-900">
@@ -224,7 +224,7 @@
                                                     </button>
                                                 </li>
                                                 <div class="h-[200px] scroll">
-                                                    <li class="flex p-2 mt-[2px] pt-[15px] group hover:bg-gray-200">
+                                                    <li class="flex p-2 mt-[2px] pt-[15px] group hover:bg-gray-200 dropdown-item-bibliotekar">
                                                         <label class="flex items-center justify-start">
                                                             <div
                                                                 class="flex items-center justify-center flex-shrink-0 w-[16px] h-[16px] mr-2 bg-white border-2 border-gray-400 rounded focus-within:border-blue-500">
@@ -242,7 +242,7 @@
                                                             Bibliotekar Bulatovic
                                                         </p>
                                                     </li>
-                                                    <li class="flex p-2 mt-[2px] pt-[15px] group hover:bg-gray-200">
+                                                    <li class="flex p-2 mt-[2px] pt-[15px] group hover:bg-gray-200 dropdown-item-bibliotekar">
                                                         <label class="flex items-center justify-start">
                                                             <div
                                                                 class="flex items-center justify-center flex-shrink-0 w-[16px] h-[16px] mr-2 bg-white border-2 border-gray-400 rounded focus-within:border-blue-500">
@@ -260,7 +260,7 @@
                                                             Pero Perovic
                                                         </p>
                                                     </li>
-                                                    <li class="flex p-2 mt-[2px] pt-[15px] group hover:bg-gray-200">
+                                                    <li class="flex p-2 mt-[2px] pt-[15px] group hover:bg-gray-200 dropdown-item-bibliotekar">
                                                         <label class="flex items-center justify-start">
                                                             <div
                                                                 class="flex items-center justify-center flex-shrink-0 w-[16px] h-[16px] mr-2 bg-white border-2 border-gray-400 rounded focus-within:border-blue-500">
@@ -278,7 +278,7 @@
                                                             Marko Markovic
                                                         </p>
                                                     </li>
-                                                    <li class="flex p-2 mt-[2px] pt-[15px] group hover:bg-gray-200">
+                                                    <li class="flex p-2 mt-[2px] pt-[15px] group hover:bg-gray-200 dropdown-item-bibliotekar">
                                                         <label class="flex items-center justify-start">
                                                             <div
                                                                 class="flex items-center justify-center flex-shrink-0 w-[16px] h-[16px] mr-2 bg-white border-2 border-gray-400 rounded focus-within:border-blue-500">
@@ -296,7 +296,7 @@
                                                             Nikola Nikolic
                                                         </p>
                                                     </li>
-                                                    <li class="flex p-2 mt-[2px] pt-[15px] group hover:bg-gray-200">
+                                                    <li class="flex p-2 mt-[2px] pt-[15px] group hover:bg-gray-200 dropdown-item-bibliotekar">
                                                         <label class="flex items-center justify-start">
                                                             <div
                                                                 class="flex items-center justify-center flex-shrink-0 w-[16px] h-[16px] mr-2 bg-white border-2 border-gray-400 rounded focus-within:border-blue-500">
@@ -314,7 +314,7 @@
                                                             Zivko Zivkovic
                                                         </p>
                                                     </li>
-                                                    <li class="flex p-2 mt-[2px] pt-[15px] group hover:bg-gray-200">
+                                                    <li class="flex p-2 mt-[2px] pt-[15px] group hover:bg-gray-200 dropdown-item-bibliotekar">
                                                         <label class="flex items-center justify-start">
                                                             <div
                                                                 class="flex items-center justify-center flex-shrink-0 w-[16px] h-[16px] mr-2 bg-white border-2 border-gray-400 rounded focus-within:border-blue-500">
@@ -366,7 +366,7 @@
                                                 <li class="p-2 pb-[15px] border-b-[2px] relative border-gray-300">
                                                     <input class="w-full h-10 px-2 border-2 rounded focus:outline-none"
                                                         placeholder="Search"
-                                                        onkeyup="filterFunction('searchKnjige', 'knjigeDropdown')"
+                                                        onkeyup="filterFunction('searchKnjige', 'knjigeDropdown', 'dropdown-item-knjiga')"
                                                         id="searchKnjige"><br>
                                                     <button
                                                         class="absolute block text-xl text-center text-gray-400 transition-colors w-7 h-7 leading-0 top-[14px] right-4 focus:outline-none hover:text-gray-900">
@@ -374,7 +374,7 @@
                                                     </button>
                                                 </li>
                                                 <div class="h-[200px] scroll">
-                                                    <li class="flex p-2 mt-[2px] pt-[15px] group hover:bg-gray-200">
+                                                    <li class="flex p-2 mt-[2px] pt-[15px] group hover:bg-gray-200 dropdown-item-knjiga">
                                                         <label class="flex items-center justify-start">
                                                             <div
                                                                 class="flex items-center justify-center flex-shrink-0 w-[16px] h-[16px] mr-2 bg-white border-2 border-gray-400 rounded focus-within:border-blue-500">
@@ -392,7 +392,7 @@
                                                             Tom Sojer
                                                         </p>
                                                     </li>
-                                                    <li class="flex p-2 mt-[2px] pt-[15px] group hover:bg-gray-200">
+                                                    <li class="flex p-2 mt-[2px] pt-[15px] group hover:bg-gray-200 dropdown-item-knjiga">
                                                         <label class="flex items-center justify-start">
                                                             <div
                                                                 class="flex items-center justify-center flex-shrink-0 w-[16px] h-[16px] mr-2 bg-white border-2 border-gray-400 rounded focus-within:border-blue-500">
@@ -410,7 +410,7 @@
                                                             Ilijada
                                                         </p>
                                                     </li>
-                                                    <li class="flex p-2 mt-[2px] pt-[15px] group hover:bg-gray-200">
+                                                    <li class="flex p-2 mt-[2px] pt-[15px] group hover:bg-gray-200 dropdown-item-knjiga">
                                                         <label class="flex items-center justify-start">
                                                             <div
                                                                 class="flex items-center justify-center flex-shrink-0 w-[16px] h-[16px] mr-2 bg-white border-2 border-gray-400 rounded focus-within:border-blue-500">
@@ -428,7 +428,7 @@
                                                             Robinson Kruso
                                                         </p>
                                                     </li>
-                                                    <li class="flex p-2 mt-[2px] pt-[15px] group hover:bg-gray-200">
+                                                    <li class="flex p-2 mt-[2px] pt-[15px] group hover:bg-gray-200 dropdown-item-knjiga">
                                                         <label class="flex items-center justify-start">
                                                             <div
                                                                 class="flex items-center justify-center flex-shrink-0 w-[16px] h-[16px] mr-2 bg-white border-2 border-gray-400 rounded focus-within:border-blue-500">
@@ -446,7 +446,7 @@
                                                             Orlovi rano lete
                                                         </p>
                                                     </li>
-                                                    <li class="flex p-2 mt-[2px] pt-[15px] group hover:bg-gray-200">
+                                                    <li class="flex p-2 mt-[2px] pt-[15px] group hover:bg-gray-200 dropdown-item-knjiga">
                                                         <label class="flex items-center justify-start">
                                                             <div
                                                                 class="flex items-center justify-center flex-shrink-0 w-[16px] h-[16px] mr-2 bg-white border-2 border-gray-400 rounded focus-within:border-blue-500">
@@ -464,7 +464,7 @@
                                                             Tom Sojer
                                                         </p>
                                                     </li>
-                                                    <li class="flex p-2 mt-[2px] pt-[15px] group hover:bg-gray-200">
+                                                    <li class="flex p-2 mt-[2px] pt-[15px] group hover:bg-gray-200 dropdown-item-knjiga">
                                                         <label class="flex items-center justify-start">
                                                             <div
                                                                 class="flex items-center justify-center flex-shrink-0 w-[16px] h-[16px] mr-2 bg-white border-2 border-gray-400 rounded focus-within:border-blue-500">
@@ -511,7 +511,7 @@
                                                 <li class="p-2 pb-[15px] border-b-[2px] relative border-gray-300">
                                                     <input class="w-full h-10 px-2 border-2 rounded focus:outline-none"
                                                         placeholder="Search"
-                                                        onkeyup="filterFunction('searchTransakcije', 'transakcijeDropdown')"
+                                                        onkeyup="filterFunction('searchTransakcije', 'transakcijeDropdown', 'dropdown-item-transakcije')"
                                                         id="searchTransakcije"><br>
                                                     <button
                                                         class="absolute block text-xl text-center text-gray-400 transition-colors w-7 h-7 leading-0 top-[14px] right-4 focus:outline-none hover:text-gray-900">
@@ -519,7 +519,7 @@
                                                     </button>
                                                 </li>
                                                 <div class="h-[200px] scroll">
-                                                    <li class="flex p-2 mt-[2px] pt-[15px] group hover:bg-gray-200">
+                                                    <li class="flex p-2 mt-[2px] pt-[15px] group hover:bg-gray-200 dropdown-item-transakcije">
                                                         <label class="flex items-center justify-start">
                                                             <div
                                                                 class="flex items-center justify-center flex-shrink-0 w-[16px] h-[16px] mr-2 bg-white border-2 border-gray-400 rounded focus-within:border-blue-500">
@@ -535,7 +535,7 @@
                                                             Izdavanje knjiga
                                                         </p>
                                                     </li>
-                                                    <li class="flex p-2 mt-[2px] pt-[15px] group hover:bg-gray-200">
+                                                    <li class="flex p-2 mt-[2px] pt-[15px] group hover:bg-gray-200 dropdown-item-transakcije">
                                                         <label class="flex items-center justify-start">
                                                             <div
                                                                 class="flex items-center justify-center flex-shrink-0 w-[16px] h-[16px] mr-2 bg-white border-2 border-gray-400 rounded focus-within:border-blue-500">
@@ -551,7 +551,7 @@
                                                             Vracanje knjiga
                                                         </p>
                                                     </li>
-                                                    <li class="flex p-2 mt-[2px] pt-[15px] group hover:bg-gray-200">
+                                                    <li class="flex p-2 mt-[2px] pt-[15px] group hover:bg-gray-200 dropdown-item-transakcije">
                                                         <label class="flex items-center justify-start">
                                                             <div
                                                                 class="flex items-center justify-center flex-shrink-0 w-[16px] h-[16px] mr-2 bg-white border-2 border-gray-400 rounded focus-within:border-blue-500">
@@ -567,7 +567,7 @@
                                                             Unos nove knjige
                                                         </p>
                                                     </li>
-                                                    <li class="flex p-2 mt-[2px] pt-[15px] group hover:bg-gray-200">
+                                                    <li class="flex p-2 mt-[2px] pt-[15px] group hover:bg-gray-200 dropdown-item-transakcije">
                                                         <label class="flex items-center justify-start">
                                                             <div
                                                                 class="flex items-center justify-center flex-shrink-0 w-[16px] h-[16px] mr-2 bg-white border-2 border-gray-400 rounded focus-within:border-blue-500">

@@ -67,7 +67,19 @@ $(document).ready(function () {
   if ($('.activity-card').length > 6) {
     $('.activity-card:gt(6)').hide();
     $('.activity-showMore').show();
+    $(this).text('Show more');
   }
+
+  $('.activity-showMore').on('click', function () {
+    //toggle elements with class .ty-compact-list that their index is bigger than 2
+    $('.activity-card:gt(6)').toggle();
+    //change text of show more element just for demonstration purposes to this demo
+    if($(this).text() == 'Show less') {
+      $(this).text('Show more')
+    } else {
+      $(this).text('Show less');
+    }
+  });
 
   // Form
   $(".forma").submit(function (e) {
@@ -113,14 +125,6 @@ $(document).ready(function () {
   $(".izbrisi-modal").on('click', function () {
     izbrisiModal.addClass('hidden');
   })
-});
-
-
-$('.activity-showMore').on('click', function () {
-  //toggle elements with class .ty-compact-list that their index is bigger than 2
-  $('.activity-card:gt(6)').toggle();
-  //change text of show more element just for demonstration purposes to this demo
-  $(this).text() === 'Show more' ? $(this).text('Show less') : $(this).text('Show more');
 });
 
 function AddReadMore() {
@@ -1544,7 +1548,7 @@ $(document).on('mouseup', function (e) {
   }
 });
 
-function filterFunction(id, dropdown) {
+function filterFunction(id, dropdown, item) {
   var input, filter, ul, li, a, i;
   console.log(id);
   console.log(dropdown);
@@ -1552,24 +1556,15 @@ function filterFunction(id, dropdown) {
   input = document.getElementById(id);
   filter = input.value.toUpperCase();
   div = document.getElementById(dropdown);
+  li = document.getElementsByClassName(item);
   text = div.getElementsByTagName("p");
-  label = div.getElementsByTagName("label");
-  img = div.getElementsByTagName("img");
 
   for (i = 0; i < text.length; i++) {
     txtValue = text[i].textContent || text[i].innerText;
     if (txtValue.toUpperCase().indexOf(filter) > -1) {
-      text[i].style.display = "";
-      label[i].style.display = "";
-      if (img[i] !== undefined) {
-        img[i].style.display = "";
-      }
+      li[i].style.display = "";
     } else {
-      text[i].style.display = "none";
-      label[i].style.display = "none";
-      if (img[i] !== undefined) {
-        img[i].style.display = "none";
-      }
+      li[i].style.display = "none";
     }
   }
 }

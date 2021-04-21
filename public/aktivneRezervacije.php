@@ -255,7 +255,7 @@
                                                         <input
                                                             class="w-full h-10 px-2 border-2 rounded focus:outline-none"
                                                             placeholder="Search"
-                                                            onkeyup="filterFunction('searchUcenici', 'uceniciDropdown')"
+                                                            onkeyup="filterFunction('searchUcenici', 'uceniciDropdown', 'dropdown-item-ucenik')"
                                                             id="searchUcenici"><br>
                                                         <button
                                                             class="absolute block text-xl text-center text-gray-400 transition-colors w-7 h-7 leading-0 top-[14px] right-4 focus:outline-none hover:text-gray-900">
@@ -263,7 +263,7 @@
                                                         </button>
                                                     </li>
                                                     <div class="h-[200px] scroll font-normal">
-                                                        <li class="flex p-2 mt-[2px] pt-[15px] group hover:bg-gray-200">
+                                                        <li class="flex p-2 mt-[2px] pt-[15px] group hover:bg-gray-200 dropdown-item-ucenik">
                                                             <label class="flex items-center justify-start">
                                                                 <div
                                                                     class="flex items-center justify-center flex-shrink-0 w-[16px] h-[16px] mr-2 bg-white border-2 border-gray-400 rounded focus-within:border-blue-500">
@@ -282,7 +282,7 @@
                                                                 Ucenik Ucenikovic
                                                             </p>
                                                         </li>
-                                                        <li class="flex p-2 mt-[2px] pt-[15px] group hover:bg-gray-200">
+                                                        <li class="flex p-2 mt-[2px] pt-[15px] group hover:bg-gray-200 dropdown-item-ucenik">
                                                             <label class="flex items-center justify-start">
                                                                 <div
                                                                     class="flex items-center justify-center flex-shrink-0 w-[16px] h-[16px] mr-2 bg-white border-2 border-gray-400 rounded focus-within:border-blue-500">
@@ -301,7 +301,7 @@
                                                                 Pero Perovic
                                                             </p>
                                                         </li>
-                                                        <li class="flex p-2 mt-[2px] pt-[15px] group hover:bg-gray-200">
+                                                        <li class="flex p-2 mt-[2px] pt-[15px] group hover:bg-gray-200 dropdown-item-ucenik">
                                                             <label class="flex items-center justify-start">
                                                                 <div
                                                                     class="flex items-center justify-center flex-shrink-0 w-[16px] h-[16px] mr-2 bg-white border-2 border-gray-400 rounded focus-within:border-blue-500">
@@ -320,7 +320,7 @@
                                                                 Marko Markovic
                                                             </p>
                                                         </li>
-                                                        <li class="flex p-2 mt-[2px] pt-[15px] group hover:bg-gray-200">
+                                                        <li class="flex p-2 mt-[2px] pt-[15px] group hover:bg-gray-200 dropdown-item-ucenik">
                                                             <label class="flex items-center justify-start">
                                                                 <div
                                                                     class="flex items-center justify-center flex-shrink-0 w-[16px] h-[16px] mr-2 bg-white border-2 border-gray-400 rounded focus-within:border-blue-500">
@@ -339,7 +339,7 @@
                                                                 Nikola Nikolic
                                                             </p>
                                                         </li>
-                                                        <li class="flex p-2 mt-[2px] pt-[15px] group hover:bg-gray-200">
+                                                        <li class="flex p-2 mt-[2px] pt-[15px] group hover:bg-gray-200 dropdown-item-ucenik">
                                                             <label class="flex items-center justify-start">
                                                                 <div
                                                                     class="flex items-center justify-center flex-shrink-0 w-[16px] h-[16px] mr-2 bg-white border-2 border-gray-400 rounded focus-within:border-blue-500">
@@ -358,7 +358,7 @@
                                                                 Zivko Zivkovic
                                                             </p>
                                                         </li>
-                                                        <li class="flex p-2 mt-[2px] pt-[15px] group hover:bg-gray-200">
+                                                        <li class="flex p-2 mt-[2px] pt-[15px] group hover:bg-gray-200 dropdown-item-ucenik">
                                                             <label class="flex items-center justify-start">
                                                                 <div
                                                                     class="flex items-center justify-center flex-shrink-0 w-[16px] h-[16px] mr-2 bg-white border-2 border-gray-400 rounded focus-within:border-blue-500">
