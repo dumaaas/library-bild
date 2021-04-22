@@ -186,17 +186,17 @@
                                             class=" bg-green-200 text-green-700 rounded-[10px] px-[6px] py-[2px] text-[14px]">
                                             5
                                             primjeraka</p>
-                                        <a href="aktivneRezervacije.php">
+                                        <a href="iznajmljivanjeAktivne.php">
                                             <p
                                                 class=" mt-[16px] bg-yellow-200 text-yellow-700 rounded-[10px] px-[6px] py-[2px] text-[14px]">
                                                 2 primjerka</p>
                                         </a>
-                                        <a href="izdateKnjige.php">
+                                        <a href="iznajmljivanjeIzdate.php">
                                             <p
                                                 class=" mt-[16px] bg-blue-200 text-blue-800 rounded-[10px] px-[6px] py-[2px] text-[14px]">
                                                 10 primjeraka</p>
                                         </a>
-                                        <a href="knjigePrekoracenje.php">
+                                        <a href="iznajmljivanjePrekoracenje.php">
                                             <p
                                                 class=" mt-[16px] bg-red-200 text-red-800 rounded-[10px] px-[6px] py-[2px] text-[14px]">
                                                 2 primjerka</p>
