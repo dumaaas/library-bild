@@ -1425,6 +1425,9 @@ h4 {
 .w-screen{
   width: 100vw;
 }
+.w-\[600px\]{
+  width: 600px;
+}
 .w-\[300px\]{
   width: 300px;
 }
