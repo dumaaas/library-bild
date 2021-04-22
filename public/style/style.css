@@ -1057,9 +1057,6 @@ h4 {
 .right-\[6px\]{
   right: 6px;
 }
-.top-\[-10px\]{
-  top: -10px;
-}
 .right-\[12px\]{
   right: 12px;
 }
@@ -1699,9 +1696,6 @@ h4 {
 .rounded-\[10px\]{
   border-radius: 10px;
 }
-.rounded-xl{
-  border-radius: 0.75rem;
-}
 .rounded-full{
   border-radius: 9999px;
 }
@@ -1900,10 +1894,6 @@ h4 {
 .bg-\[\#606FC7\]{
   --tw-bg-opacity: 1;
   background-color: rgba(96, 111, 199, var(--tw-bg-opacity));
-}
-.bg-\[\#EF4F4C\]{
-  --tw-bg-opacity: 1;
-  background-color: rgba(239, 79, 76, var(--tw-bg-opacity));
 }
 .bg-\[\#EAEAEA\]{
   --tw-bg-opacity: 1;
@@ -2160,15 +2150,6 @@ h4 {
 .pt-6{
   padding-top: 1.5rem;
 }
-.pl-\[4px\]{
-  padding-left: 4px;
-}
-.pr-\[5px\]{
-  padding-right: 5px;
-}
-.pt-\[1px\]{
-  padding-top: 1px;
-}
 .pt-\[28px\]{
   padding-top: 28px;
 }
@@ -2255,9 +2236,6 @@ h4 {
 .text-2xl{
   font-size: 1.5rem;
   line-height: 2rem;
-}
-.text-\[11px\]{
-  font-size: 11px;
 }
 .text-\[40px\]{
   font-size: 40px;

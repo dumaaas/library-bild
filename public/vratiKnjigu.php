@@ -145,7 +145,7 @@
 
                 <div
                     class="inline-block min-w-full pt-3 align-middle bg-white rounded-bl-lg rounded-br-lg shadow-dashboard">
-                    <table class="min-w-full" id="vratiKnjiguTable">
+                    <table class="min-w-full shadow-lg" id="vratiKnjiguTable">
                         <thead class="bg-[#EFF3F6]">
                             <tr class="border-b-[1px] border-[#e4dfdf]">
                                 <th class="px-4 py-3 leading-4 tracking-wider text-left text-blue-500">
