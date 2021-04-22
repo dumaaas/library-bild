@@ -222,7 +222,6 @@
                                                     onclick="sortTable()"></i>
                                             </a>
                                         </th>
-                                        <th class="px-4 py-4 text-sm leading-4 tracking-wider text-left">Izdato uceniku</th>
                                         <th class="px-4 py-4 text-sm leading-4 tracking-wider text-left">Datum izdavanja</th>
                                         <th class="px-4 py-4 text-sm leading-4 tracking-wider text-left">Trenutno zadrzavanje knjige</th>
                                         <th class="px-4 py-4 text-sm leading-4 tracking-wider text-left">Knjigu izdao</th>
@@ -242,7 +241,6 @@
                                                 <span class="font-medium text-center">Geografija Crne Gore</span>
                                             </a>
                                         </td>
-                                        <td class="px-4 py-3 text-sm leading-5 whitespace-no-wrap">Pero Perovic</td>
                                         <td class="px-4 py-3 text-sm leading-5 whitespace-no-wrap">21.02.2021</td>
                                         <td class="px-4 py-3 text-sm leading-5 whitespace-no-wrap">
                                             <div>
@@ -326,7 +324,6 @@
                                                 <span class="font-medium text-center">Muzicka kultura I Raz</span>
                                             </a>
                                         </td>
-                                        <td class="px-4 py-3 text-sm leading-5 whitespace-no-wrap">Nina Bulatovic</td>
                                         <td class="px-4 py-3 text-sm leading-5 whitespace-no-wrap">15.05.2020</td>
                                         <td class="px-4 py-3 text-sm leading-5 whitespace-no-wrap">
                                             <div>
@@ -410,7 +407,6 @@
                                                 <span class="font-medium text-center">Tom Sojer</span>
                                             </a>
                                         </td>
-                                        <td class="px-4 py-3 text-sm leading-5 whitespace-no-wrap">Milos Milosevic</td>
                                         <td class="px-4 py-3 text-sm leading-5 whitespace-no-wrap">12.05.2020</td>
                                         <td class="px-4 py-3 text-sm leading-5 whitespace-no-wrap">
                                             <div>
@@ -494,7 +490,6 @@
                                                 <span class="font-medium text-center">Robinson Kruso</span>
                                             </a>
                                         </td>
-                                        <td class="px-4 py-3 text-sm leading-5 whitespace-no-wrap">Sanja Gardasevic</td>
                                         <td class="px-4 py-3 text-sm leading-5 whitespace-no-wrap">09.04.2020</td>
                                         <td class="px-4 py-3 text-sm leading-5 whitespace-no-wrap">
                                             <div class="inline-block px-[6px] py-[2px] font-medium bg-red-200 rounded-[10px]">
@@ -578,7 +573,6 @@
                                                 <span class="font-medium text-center">Geografija Crne Gore</span>
                                             </a>
                                         </td>
-                                        <td class="px-4 py-3 text-sm leading-5 whitespace-no-wrap">Pero Perovic</td>
                                         <td class="px-4 py-3 text-sm leading-5 whitespace-no-wrap">21.02.2021</td>
                                         <td class="px-4 py-3 text-sm leading-5 whitespace-no-wrap">
                                             <div class="inline-block px-[6px] py-[2px] font-medium bg-red-200 rounded-[10px]">
@@ -662,7 +656,6 @@
                                                 <span class="font-medium text-center">Muzicka kultura I Raz</span>
                                             </a>
                                         </td>
-                                        <td class="px-4 py-3 text-sm leading-5 whitespace-no-wrap">Nina Bulatovic</td>
                                         <td class="px-4 py-3 text-sm leading-5 whitespace-no-wrap">15.05.2020</td>
                                         <td class="px-4 py-3 text-sm leading-5 whitespace-no-wrap">
                                             <div>
@@ -746,7 +739,6 @@
                                                 <span class="font-medium text-center">Tom Sojer</span>
                                             </a>
                                         </td>
-                                        <td class="px-4 py-3 text-sm leading-5 whitespace-no-wrap">Milos Milosevic</td>
                                         <td class="px-4 py-3 text-sm leading-5 whitespace-no-wrap">12.05.2020</td>
                                         <td class="px-4 py-3 text-sm leading-5 whitespace-no-wrap">
                                             <div>
@@ -830,7 +822,6 @@
                                                 <span class="font-medium text-center">Robinson Kruso</span>
                                             </a>
                                         </td>
-                                        <td class="px-4 py-3 text-sm leading-5 whitespace-no-wrap">Sanja Gardasevic</td>
                                         <td class="px-4 py-3 text-sm leading-5 whitespace-no-wrap">09.04.2020</td>
                                         <td class="px-4 py-3 text-sm leading-5 whitespace-no-wrap">
                                             <div>
