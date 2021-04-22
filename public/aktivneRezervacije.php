@@ -180,8 +180,8 @@
 
                                         <!-- Datum rezervacije + dropdown filter for date -->
                                         <th
-                                            class="relative px-4 py-4 text-sm leading-4 tracking-wider text-left cursor-pointer datumDrop-toggle">
-                                            Datum rezervacije<i class="ml-2 fas fa-filter"></i>
+                                            class="relative px-4 py-4 text-sm leading-4 tracking-wider text-left cursor-pointer ">
+                                            Datum rezervacije<i class="ml-2 fas fa-filter datumDrop-toggle"></i>
                                             <div id="datumDropdown"
                                                 class="datumMenu hidden absolute rounded bg-white min-w-[310px] p-[10px] shadow-md top-[42px] pin-l border-2 border-gray-300">
                                                 <div
@@ -212,9 +212,9 @@
 
                                         <!-- Rezervacija istice + dropdown filter for date -->
                                         <th
-                                            class="relative px-4 py-4 text-sm leading-4 tracking-wider text-left cursor-pointer zadrzavanjeDrop-toggle">
+                                            class="relative px-4 py-4 text-sm leading-4 tracking-wider text-left cursor-pointer ">
                                             Rezervacija
-                                            istice<i class="ml-2 fas fa-filter"></i>
+                                            istice<i class="ml-2 fas fa-filter zadrzavanjeDrop-toggle"></i>
                                             <div id="zadrzavanjeDropdown"
                                                 class="zadrzavanjeMenu hidden absolute rounded bg-white min-w-[310px] p-[10px] shadow-md top-[42px] right-0 border-2 border-gray-300">
                                                 <div
@@ -245,9 +245,9 @@
 
                                         <!-- Rezervaciju podnio + dropdown filter for ucenik -->
                                         <th
-                                            class="relative px-4 py-4 text-sm leading-4 tracking-wider text-left cursor-pointer uceniciDrop-toggle">
+                                            class="relative px-4 py-4 text-sm leading-4 tracking-wider text-left cursor-pointer ">
                                             Rezervaciju
-                                            podnio<i class="ml-2 fas fa-filter"></i>
+                                            podnio<i class="ml-2 fas fa-filter uceniciDrop-toggle"></i>
                                             <div id="uceniciDropdown"
                                                 class="uceniciMenu hidden absolute rounded bg-white min-w-[310px] p-[10px] shadow-md top-[42px]  right-0 border-2 border-gray-300">
                                                 <ul class="border-b-2 border-gray-300 list-reset">
@@ -394,8 +394,8 @@
 
                                         <!-- Status + dropdown filter for status -->
                                         <th
-                                            class="relative px-4 py-4 text-sm leading-4 tracking-wider text-left cursor-pointer statusDrop-toggle">
-                                            Status<i class="ml-2 fas fa-filter"></i>
+                                            class="relative px-4 py-4 text-sm leading-4 tracking-wider text-left cursor-pointer ">
+                                            Status<i class="ml-2 fas fa-filter statusDrop-toggle"></i>
                                             <div id="statusDropdown"
                                                 class="statusMenu hidden absolute rounded bg-white min-w-[310px] p-[10px] shadow-md top-[42px] right-0 border-2 border-gray-300">
                                                 <ul class="border-b-2 border-gray-300 list-reset">

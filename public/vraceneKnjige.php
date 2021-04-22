@@ -182,8 +182,8 @@
                                         </th>
                                         <!-- Izdato uceniku + dropdown filter for ucenik -->
                                         <th
-                                            class="relative px-4 py-4 text-sm leading-4 tracking-wider text-left cursor-pointer uceniciDrop-toggle">
-                                            Izdato uceniku<i class="ml-2 fas fa-filter"></i>
+                                            class="relative px-4 py-4 text-sm leading-4 tracking-wider text-left cursor-pointer ">
+                                            Izdato uceniku<i class="ml-2 fas fa-filter uceniciDrop-toggle"></i>
                                             <div id="uceniciDropdown"
                                                 class="uceniciMenu hidden absolute rounded bg-white min-w-[310px] p-[10px] shadow-md top-[42px] pin-t pin-l border-2 border-gray-300">
                                                 <ul class="border-b-2 border-gray-300 list-reset">
@@ -329,8 +329,8 @@
                                         </th>
                                         <!-- Datum izdavanja + dropdown filter for date -->
                                         <th
-                                            class="relative px-4 py-4 text-sm leading-4 tracking-wider text-left cursor-pointer datumDrop-toggle">
-                                            Datum izdavanja<i class="fas fa-filter"></i>
+                                            class="relative px-4 py-4 text-sm leading-4 tracking-wider text-left cursor-pointer ">
+                                            Datum izdavanja<i class="fas fa-filter datumDrop-toggle"></i>
                                             <div id="datumDropdown"
                                                 class="datumMenu hidden absolute rounded bg-white min-w-[310px] p-[10px] shadow-md top-[42px] pin-l border-2 border-gray-300">
                                                 <div
@@ -360,8 +360,8 @@
                                         </th>
                                         <!-- Datum vracanja + dropdown filter for date -->
                                         <th
-                                            class="relative px-4 py-4 text-sm leading-4 tracking-wider text-left cursor-pointer vracanjeDrop-toggle">
-                                            Datum vracanja<i class="fas fa-filter"></i>
+                                            class="relative px-4 py-4 text-sm leading-4 tracking-wider text-left cursor-pointer ">
+                                            Datum vracanja<i class="fas fa-filter vracanjeDrop-toggle"></i>
                                             <div id="vracanjeDropdown"
                                                 class="vracanjeMenu hidden absolute rounded bg-white min-w-[310px] p-[10px] shadow-md top-[42px] right-0 border-2 border-gray-300">
                                                 <div
@@ -391,8 +391,8 @@
                                         </th>
                                         <!-- Zadrzavanje knjige + dropdown filter for date -->
                                         <th
-                                            class="relative px-4 py-4 text-sm leading-4 tracking-wider text-left cursor-pointer zadrzavanjeDrop-toggle">
-                                            Zadrzavanje knjige <i class="fas fa-filter"></i>
+                                            class="relative px-4 py-4 text-sm leading-4 tracking-wider text-left cursor-pointer ">
+                                            Zadrzavanje knjige <i class="fas fa-filter zadrzavanjeDrop-toggle"></i>
                                             <div id="zadrzavanjeDropdown"
                                                 class="zadrzavanjeMenu hidden absolute rounded bg-white min-w-[310px] p-[10px] shadow-md top-[42px] right-0 border-2 border-gray-300">
                                                 <div
@@ -422,8 +422,8 @@
                                         </th>
                                         <!-- Knjigu primio + dropdown filter for bibliotekari -->
                                         <th
-                                            class="relative px-4 py-4 text-sm leading-4 tracking-wider text-left cursor-pointer bibliotekariDrop-toggle">
-                                            Knjigu primio<i class="fas fa-filter"></i>
+                                            class="relative px-4 py-4 text-sm leading-4 tracking-wider text-left cursor-pointer ">
+                                            Knjigu primio<i class="fas fa-filter bibliotekariDrop-toggle"></i>
                                             <div id="bibliotekariDropdown"
                                                 class="bibliotekariMenu hidden absolute rounded bg-white min-w-[310px] p-[10px] shadow-md top-[42px] right-0 border-2 border-gray-300">
                                                 <ul class="border-b-2 border-gray-300 list-reset">

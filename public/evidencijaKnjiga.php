@@ -85,9 +85,9 @@
                                     </th>
 
                                     <!-- Autor + dropdown filter for autor -->
-                                    <th id="autoriMenu"
+                                    <th 
                                         class="relative px-4 py-4 text-sm leading-4 tracking-wider text-left cursor-pointer ">
-                                        Autor<i class="ml-2 fas fa-filter"></i>
+                                        Autor<i class="ml-2 fas fa-filter" id="autoriMenu"></i>
 
                                         <div id="autoriDropdown"
                                             class="autoriMenu hidden absolute rounded bg-white min-w-[310px] p-[10px] shadow-md top-[42px] pin-t pin-l border-2 border-gray-300">
@@ -215,8 +215,8 @@
                                     </th>
 
                                     <!-- Kategorija + dropdown filter for kategorija -->
-                                    <th id="kategorijeMenu" class="relative px-4 py-4 text-sm leading-4 tracking-wider text-left">Kategorija<i
-                                            class="ml-2 fas fa-filter"></i>
+                                    <th class="relative px-4 py-4 text-sm leading-4 tracking-wider text-left cursor-pointer">Kategorija<i
+                                            class="ml-2 fas fa-filter" id="kategorijeMenu"></i>
                                         <div id="kategorijeDropdown"
                                             class="kategorijeMenu hidden absolute rounded bg-white min-w-[310px] p-[10px] shadow-md top-[42px] pin-t pin-l border-2 border-gray-300">
                                             <ul class="border-b-2 border-gray-300 list-reset">
