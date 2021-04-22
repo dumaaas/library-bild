@@ -164,7 +164,7 @@
                         </div>
 
                         <div class="w-full mt-[10px] ml-2 px-2">
-                            <table class="w-full overflow-hidden shadow-lg rounded-xl" id="myTable">
+                            <table class="w-full shadow-lg" id="myTable">
                                 <thead class="bg-[#EFF3F6]">
                                     <tr class="border-b-[1px] border-[#e4dfdf]">
                                         <th class="px-4 py-4 leading-4 tracking-wider text-left text-blue-500">

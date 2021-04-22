@@ -68,7 +68,7 @@
                 <div class="px-[30px] pt-2 bg-white">
                     <div class="w-full mt-2">
                         <!-- Table -->
-                        <table class="w-full overflow-hidden shadow-lg rounded-xl" id="myTable">
+                        <table class="w-full shadow-lg" id="myTable">
                             <!-- Table head-->
                             <thead class="bg-[#EFF3F6]">
                                 <tr class="border-b-[1px] border-[#e4dfdf]">
