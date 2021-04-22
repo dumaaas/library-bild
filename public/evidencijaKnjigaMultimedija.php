@@ -166,7 +166,7 @@
                                                 @drop.prevent="drop($event)"
                                                 @dragover.prevent="$event.dataTransfer.dropEffect = 'move'">
                                                 <!-- Image 1 -->
-                                                <div class="relative flex flex-col p-2 text-xs bg-white bg-opacity-50">
+                                                <div class="relative flex flex-col p-2 text-xs bg-white bg-opacity-50 hiddenImage1">
                                                     <img src="img/tomsojer.jpg" alt="" class="h-[300px]">
                                                     <!-- Checkbox -->
                                                     <input
@@ -175,7 +175,7 @@
                                                     <!-- End checkbox -->
                                                     <button
                                                         class="absolute bottom-[5px] right-[6px] z-50 p-1 bg-white rounded-bl focus:outline-none"
-                                                        type="button">
+                                                        type="button" id="hide-image1">
                                                         <svg class="w-[25px] h-[25px] text-gray-700"
                                                             xmlns="http://www.w3.org/2000/svg" fill="none"
                                                             nviewBox="0 0 24 24" stroke="currentColor">
@@ -185,7 +185,7 @@
                                                         </svg>
                                                     </button>
                                                     <div
-                                                        class="absolute bottom-[20px] left-0 right-0 flex flex-col p-2 text-xs bg-white bg-opacity-50 text-center">
+                                                        class="absolute bottom-0 left-0 right-0 flex flex-col p-2 text-xs text-center bg-white bg-opacity-50">
                                                         <span
                                                             class="w-full font-bold text-gray-900 truncate">tomsojer.jpg</span>
                                                         <span class="text-xs text-gray-900">89kB</span>
@@ -193,7 +193,7 @@
                                                 </div>
                                                 <!-- End of image 1 -->
                                                 <!-- Image 2 -->
-                                                <div class="relative flex flex-col p-2 text-xs bg-white bg-opacity-50">
+                                                <div class="relative flex flex-col p-2 text-xs bg-white bg-opacity-50 hiddenImage2">
                                                     <img src="img/tomsojer2.jpg" alt="" class="h-[300px]">
                                                     <!-- Checkbox -->
                                                     <input
@@ -202,7 +202,7 @@
                                                     <!-- End checkbox -->
                                                     <button
                                                         class="absolute bottom-[5px] right-[6px] z-50 p-1 bg-white rounded-bl focus:outline-none"
-                                                        type="button">
+                                                        type="button" id="hide-image2">
                                                         <svg class="w-[25px] h-[25px] text-gray-700"
                                                             xmlns="http://www.w3.org/2000/svg" fill="none"
                                                             nviewBox="0 0 24 24" stroke="currentColor">
@@ -212,7 +212,7 @@
                                                         </svg>
                                                     </button>
                                                     <div
-                                                        class="absolute bottom-[20px] left-0 right-0 flex flex-col p-2 text-xs bg-white bg-opacity-50 text-center">
+                                                        class="absolute bottom-0 left-0 right-0 flex flex-col p-2 text-xs text-center bg-white bg-opacity-50">
                                                         <span
                                                             class="w-full font-bold text-gray-900 truncate">tomsojer2.jpg</span>
                                                         <span class="text-xs text-gray-900">41kB</span>
