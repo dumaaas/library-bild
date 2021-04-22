@@ -78,7 +78,7 @@
 
                 <div
                     class="inline-block min-w-full px-[50px] pt-3 align-middle bg-white rounded-bl-lg rounded-br-lg shadow-dashboard">
-                    <table class="overflow-hidden shadow-lg rounded-xl min-w-full border-[1px] border-[#e4dfdf]" id="myTable">
+                    <table class="min-w-full overflow-hidden shadow-lg rounded-xl" id="myTable">
                         <thead class="bg-[#EFF3F6]">
                             <tr class="border-b-[1px] border-[#e4dfdf]">
                                 <th class="px-4 py-4 leading-4 tracking-wider text-left text-blue-500">
@@ -393,13 +393,13 @@
                             <nav class="relative z-0 inline-flex">
                                 <div>
                                     <a href="#"
-                                        class="relative inline-flex items-center px-4 py-2 -ml-px font-medium leading-5 transition duration-150 ease-in-out bg-white text-md focus:z-10 focus:outline-none">
+                                        class="relative inline-flex items-center px-4 py-2 -ml-px font-medium leading-5 transition duration-150 ease-in-out text-md focus:z-10 focus:outline-none">
                                         1 of 1
                                     </a>
                                 </div>
                                 <div>
                                     <a href="#"
-                                        class="relative inline-flex items-center px-2 py-2 font-medium leading-5 text-gray-500 transition duration-150 ease-in-out bg-white text-md rounded-l-md hover:text-gray-400 focus:z-10 focus:outline-none"
+                                        class="relative inline-flex items-center px-2 py-2 font-medium leading-5 text-gray-500 transition duration-150 ease-in-out text-md rounded-l-md hover:text-gray-400 focus:z-10 focus:outline-none"
                                         aria-label="Previous"
                                         v-on:click.prevent="changePage(pagination.current_page - 1)">
                                         <svg class="w-5 h-5" viewBox="0 0 20 20" fill="currentColor">
@@ -411,7 +411,7 @@
                                 </div>
                                 <div v-if="pagination.current_page < pagination.last_page">
                                     <a href="#"
-                                        class="relative inline-flex items-center px-2 py-2 -ml-px font-medium leading-5 text-gray-500 transition duration-150 ease-in-out bg-white text-md rounded-r-md hover:text-gray-400 focus:z-10 focus:outline-none"
+                                        class="relative inline-flex items-center px-2 py-2 -ml-px font-medium leading-5 text-gray-500 transition duration-150 ease-in-out text-md rounded-r-md hover:text-gray-400 focus:z-10 focus:outline-none"
                                         aria-label="Next">
                                         <svg class="w-5 h-5" viewBox="0 0 20 20" fill="currentColor">
                                             <path fill-rule="evenodd"
