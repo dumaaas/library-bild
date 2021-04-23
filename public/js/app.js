@@ -1698,7 +1698,7 @@ function dropdown() {
 
 function funkcijaDatumVracanja() {
   var selectedDate = new Date($('#datumIzdavanja').val());
-  var numberOfDaysToAdd = 20;
+  var numberOfDaysToAdd = 30;
 
   selectedDate.setDate(selectedDate.getDate() + numberOfDaysToAdd);
 

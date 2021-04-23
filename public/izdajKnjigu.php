@@ -164,7 +164,7 @@
                                             disabled />
                                     </label>
                                     <div>
-                                        <p>Rok vracanja: 20 dana</p>
+                                        <p>Rok vracanja: 30 dana</p>
                                     </div>
                                 </div>
                             </div>
