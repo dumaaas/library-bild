@@ -121,9 +121,9 @@
                                     </div>
                                 </li>
                                 <li class="mb-[4px]">
-                                    <div class="w-[300px] pl-[32px]">
+                                    <div class="w-[300px] w-[300px] border-t-[1px] border-[#e4dfdf]">
                                         <span
-                                            class=" whitespace-nowrap w-full text-[25px] flex justify-between fill-current">
+                                            class=" pl-[32px] whitespace-nowrap w-full text-[25px] flex justify-between fill-current">
                                             <div
                                                 class="group hover:bg-[#EFF3F6] py-[15px] px-[20px] w-[268px] rounded-[10px] cursor-pointer">
                                                 <a href="aktivneRezervacije.php" aria-label="Rezervacije"
@@ -197,7 +197,8 @@
                                                         </button>
                                                     </li>
                                                     <div class="h-[200px] scroll font-normal">
-                                                        <li class="flex p-2 mt-[2px] pt-[15px] group hover:bg-gray-200 dropdown-item-ucenik">
+                                                        <li
+                                                            class="flex p-2 mt-[2px] pt-[15px] group hover:bg-gray-200 dropdown-item-ucenik">
                                                             <label class="flex items-center justify-start">
                                                                 <div
                                                                     class="flex items-center justify-center flex-shrink-0 w-[16px] h-[16px] mr-2 bg-white border-2 border-gray-400 rounded focus-within:border-blue-500">
@@ -216,7 +217,8 @@
                                                                 Ucenik Ucenikovic
                                                             </p>
                                                         </li>
-                                                        <li class="flex p-2 mt-[2px] pt-[15px] group hover:bg-gray-200 dropdown-item-ucenik">
+                                                        <li
+                                                            class="flex p-2 mt-[2px] pt-[15px] group hover:bg-gray-200 dropdown-item-ucenik">
                                                             <label class="flex items-center justify-start">
                                                                 <div
                                                                     class="flex items-center justify-center flex-shrink-0 w-[16px] h-[16px] mr-2 bg-white border-2 border-gray-400 rounded focus-within:border-blue-500">
@@ -235,7 +237,8 @@
                                                                 Pero Perovic
                                                             </p>
                                                         </li>
-                                                        <li class="flex p-2 mt-[2px] pt-[15px] group hover:bg-gray-200 dropdown-item-ucenik">
+                                                        <li
+                                                            class="flex p-2 mt-[2px] pt-[15px] group hover:bg-gray-200 dropdown-item-ucenik">
                                                             <label class="flex items-center justify-start">
                                                                 <div
                                                                     class="flex items-center justify-center flex-shrink-0 w-[16px] h-[16px] mr-2 bg-white border-2 border-gray-400 rounded focus-within:border-blue-500">
@@ -254,7 +257,8 @@
                                                                 Marko Markovic
                                                             </p>
                                                         </li>
-                                                        <li class="flex p-2 mt-[2px] pt-[15px] group hover:bg-gray-200 dropdown-item-ucenik">
+                                                        <li
+                                                            class="flex p-2 mt-[2px] pt-[15px] group hover:bg-gray-200 dropdown-item-ucenik">
                                                             <label class="flex items-center justify-start">
                                                                 <div
                                                                     class="flex items-center justify-center flex-shrink-0 w-[16px] h-[16px] mr-2 bg-white border-2 border-gray-400 rounded focus-within:border-blue-500">
@@ -273,7 +277,8 @@
                                                                 Nikola Nikolic
                                                             </p>
                                                         </li>
-                                                        <li class="flex p-2 mt-[2px] pt-[15px] group hover:bg-gray-200 dropdown-item-ucenik">
+                                                        <li
+                                                            class="flex p-2 mt-[2px] pt-[15px] group hover:bg-gray-200 dropdown-item-ucenik">
                                                             <label class="flex items-center justify-start">
                                                                 <div
                                                                     class="flex items-center justify-center flex-shrink-0 w-[16px] h-[16px] mr-2 bg-white border-2 border-gray-400 rounded focus-within:border-blue-500">
@@ -292,7 +297,8 @@
                                                                 Zivko Zivkovic
                                                             </p>
                                                         </li>
-                                                        <li class="flex p-2 mt-[2px] pt-[15px] group hover:bg-gray-200 dropdown-item-ucenik">
+                                                        <li
+                                                            class="flex p-2 mt-[2px] pt-[15px] group hover:bg-gray-200 dropdown-item-ucenik">
                                                             <label class="flex items-center justify-start">
                                                                 <div
                                                                     class="flex items-center justify-center flex-shrink-0 w-[16px] h-[16px] mr-2 bg-white border-2 border-gray-400 rounded focus-within:border-blue-500">
@@ -361,7 +367,8 @@
                                         <!-- Trenutno zadrzavanje + dropdown filter for zadrzavanje -->
                                         <th
                                             class="relative px-4 py-4 text-sm leading-4 tracking-wider text-left cursor-pointer">
-                                            Trenutno zadrzavanje knjige <i class="fas fa-filter zadrzavanjeDrop-toggle"></i>
+                                            Trenutno zadrzavanje knjige <i
+                                                class="fas fa-filter zadrzavanjeDrop-toggle"></i>
                                             <div id="zadrzavanjeDropdown"
                                                 class="zadrzavanjeMenu hidden absolute rounded bg-white min-w-[310px] p-[10px] shadow-md top-[42px] right-0 border-2 border-gray-300">
                                                 <div
@@ -408,7 +415,8 @@
                                                         </button>
                                                     </li>
                                                     <div class="h-[200px] scroll font-normal">
-                                                        <li class="flex p-2 mt-[2px] pt-[15px] group hover:bg-gray-200 dropdown-item-bibliotekar">
+                                                        <li
+                                                            class="flex p-2 mt-[2px] pt-[15px] group hover:bg-gray-200 dropdown-item-bibliotekar">
                                                             <label class="flex items-center justify-start">
                                                                 <div
                                                                     class="flex items-center justify-center flex-shrink-0 w-[16px] h-[16px] mr-2 bg-white border-2 border-gray-400 rounded focus-within:border-blue-500">
@@ -427,7 +435,8 @@
                                                                 Bibliotekar Bulatovic
                                                             </p>
                                                         </li>
-                                                        <li class="flex p-2 mt-[2px] pt-[15px] group hover:bg-gray-200 dropdown-item-bibliotekar">
+                                                        <li
+                                                            class="flex p-2 mt-[2px] pt-[15px] group hover:bg-gray-200 dropdown-item-bibliotekar">
                                                             <label class="flex items-center justify-start">
                                                                 <div
                                                                     class="flex items-center justify-center flex-shrink-0 w-[16px] h-[16px] mr-2 bg-white border-2 border-gray-400 rounded focus-within:border-blue-500">
@@ -446,7 +455,8 @@
                                                                 Pero Perovic
                                                             </p>
                                                         </li>
-                                                        <li class="flex p-2 mt-[2px] pt-[15px] group hover:bg-gray-200 dropdown-item-bibliotekar">
+                                                        <li
+                                                            class="flex p-2 mt-[2px] pt-[15px] group hover:bg-gray-200 dropdown-item-bibliotekar">
                                                             <label class="flex items-center justify-start">
                                                                 <div
                                                                     class="flex items-center justify-center flex-shrink-0 w-[16px] h-[16px] mr-2 bg-white border-2 border-gray-400 rounded focus-within:border-blue-500">
@@ -465,7 +475,8 @@
                                                                 Marko Markovic
                                                             </p>
                                                         </li>
-                                                        <li class="flex p-2 mt-[2px] pt-[15px] group hover:bg-gray-200 dropdown-item-bibliotekar">
+                                                        <li
+                                                            class="flex p-2 mt-[2px] pt-[15px] group hover:bg-gray-200 dropdown-item-bibliotekar">
                                                             <label class="flex items-center justify-start">
                                                                 <div
                                                                     class="flex items-center justify-center flex-shrink-0 w-[16px] h-[16px] mr-2 bg-white border-2 border-gray-400 rounded focus-within:border-blue-500">
@@ -484,7 +495,8 @@
                                                                 Nikola Nikolic
                                                             </p>
                                                         </li>
-                                                        <li class="flex p-2 mt-[2px] pt-[15px] group hover:bg-gray-200 dropdown-item-bibliotekar">
+                                                        <li
+                                                            class="flex p-2 mt-[2px] pt-[15px] group hover:bg-gray-200 dropdown-item-bibliotekar">
                                                             <label class="flex items-center justify-start">
                                                                 <div
                                                                     class="flex items-center justify-center flex-shrink-0 w-[16px] h-[16px] mr-2 bg-white border-2 border-gray-400 rounded focus-within:border-blue-500">
@@ -503,7 +515,8 @@
                                                                 Zivko Zivkovic
                                                             </p>
                                                         </li>
-                                                        <li class="flex p-2 mt-[2px] pt-[15px] group hover:bg-gray-200 dropdown-item-bibliotekar">
+                                                        <li
+                                                            class="flex p-2 mt-[2px] pt-[15px] group hover:bg-gray-200 dropdown-item-bibliotekar">
                                                             <label class="flex items-center justify-start">
                                                                 <div
                                                                     class="flex items-center justify-center flex-shrink-0 w-[16px] h-[16px] mr-2 bg-white border-2 border-gray-400 rounded focus-within:border-blue-500">
@@ -562,9 +575,9 @@
                                         <td class="px-4 py-3 text-sm leading-5 whitespace-no-wrap">Valentina Kascelan
                                         </td>
                                         <td class="px-6 py-3 text-sm leading-5 text-right whitespace-no-wrap">
-                                            <p class="inline cursor-pointer text-[20px] py-[10px] px-[30px] border-gray-300 dotsIzdateKnjige hover:text-[#606FC7]">
-                                                <i
-                                                    class="fas fa-ellipsis-v"></i>
+                                            <p
+                                                class="inline cursor-pointer text-[20px] py-[10px] px-[30px] border-gray-300 dotsIzdateKnjige hover:text-[#606FC7]">
+                                                <i class="fas fa-ellipsis-v"></i>
                                             </p>
                                             <div
                                                 class="relative z-10 hidden transition-all duration-300 origin-top-right transform scale-95 -translate-y-2 izdate-knjige">
@@ -578,7 +591,7 @@
                                                             <i class="far fa-file mr-[10px] ml-[5px] py-1"></i>
                                                             <span class="px-4 py-0">Pogledaj detalje</span>
                                                         </a>
-                                                        
+
                                                         <a href="otpisiKnjigu.php" tabindex="0"
                                                             class="flex w-full px-4 py-2 text-sm leading-5 text-left text-gray-700 outline-none hover:text-blue-600"
                                                             role="menuitem">
@@ -619,9 +632,9 @@
                                         <td class="px-4 py-3 text-sm leading-5 whitespace-no-wrap">Valentina Kascelan
                                         </td>
                                         <td class="px-6 py-3 text-sm leading-5 text-right whitespace-no-wrap">
-                                            <p class="inline cursor-pointer text-[20px] py-[10px] px-[30px] border-gray-300 dotsIzdateKnjige hover:text-[#606FC7]">
-                                                <i
-                                                    class="fas fa-ellipsis-v"></i>
+                                            <p
+                                                class="inline cursor-pointer text-[20px] py-[10px] px-[30px] border-gray-300 dotsIzdateKnjige hover:text-[#606FC7]">
+                                                <i class="fas fa-ellipsis-v"></i>
                                             </p>
                                             <div
                                                 class="relative z-10 hidden transition-all duration-300 origin-top-right transform scale-95 -translate-y-2 izdate-knjige">
@@ -635,7 +648,7 @@
                                                             <i class="far fa-file mr-[10px] ml-[5px] py-1"></i>
                                                             <span class="px-4 py-0">Pogledaj detalje</span>
                                                         </a>
-                                                        
+
                                                         <a href="otpisiKnjigu.php" tabindex="0"
                                                             class="flex w-full px-4 py-2 text-sm leading-5 text-left text-gray-700 outline-none hover:text-blue-600"
                                                             role="menuitem">
@@ -676,9 +689,9 @@
                                         <td class="px-4 py-3 text-sm leading-5 whitespace-no-wrap">Valentina Kascelan
                                         </td>
                                         <td class="px-6 py-3 text-sm leading-5 text-right whitespace-no-wrap">
-                                            <p class="inline cursor-pointer text-[20px] py-[10px] px-[30px] border-gray-300 dotsIzdateKnjige hover:text-[#606FC7]">
-                                                <i
-                                                    class="fas fa-ellipsis-v"></i>
+                                            <p
+                                                class="inline cursor-pointer text-[20px] py-[10px] px-[30px] border-gray-300 dotsIzdateKnjige hover:text-[#606FC7]">
+                                                <i class="fas fa-ellipsis-v"></i>
                                             </p>
                                             <div
                                                 class="relative z-10 hidden transition-all duration-300 origin-top-right transform scale-95 -translate-y-2 izdate-knjige">
@@ -692,7 +705,7 @@
                                                             <i class="far fa-file mr-[10px] ml-[5px] py-1"></i>
                                                             <span class="px-4 py-0">Pogledaj detalje</span>
                                                         </a>
-                                                        
+
                                                         <a href="otpisiKnjigu.php" tabindex="0"
                                                             class="flex w-full px-4 py-2 text-sm leading-5 text-left text-gray-700 outline-none hover:text-blue-600"
                                                             role="menuitem">
@@ -734,9 +747,9 @@
                                         <td class="px-4 py-3 text-sm leading-5 whitespace-no-wrap">Valentina Kascelan
                                         </td>
                                         <td class="px-6 py-3 text-sm leading-5 text-right whitespace-no-wrap">
-                                            <p class="inline cursor-pointer text-[20px] py-[10px] px-[30px] border-gray-300 dotsIzdateKnjige hover:text-[#606FC7]">
-                                                <i
-                                                    class="fas fa-ellipsis-v"></i>
+                                            <p
+                                                class="inline cursor-pointer text-[20px] py-[10px] px-[30px] border-gray-300 dotsIzdateKnjige hover:text-[#606FC7]">
+                                                <i class="fas fa-ellipsis-v"></i>
                                             </p>
                                             <div
                                                 class="relative z-10 hidden transition-all duration-300 origin-top-right transform scale-95 -translate-y-2 izdate-knjige">
@@ -750,7 +763,7 @@
                                                             <i class="far fa-file mr-[10px] ml-[5px] py-1"></i>
                                                             <span class="px-4 py-0">Pogledaj detalje</span>
                                                         </a>
-                                                        
+
                                                         <a href="otpisiKnjigu.php" tabindex="0"
                                                             class="flex w-full px-4 py-2 text-sm leading-5 text-left text-gray-700 outline-none hover:text-blue-600"
                                                             role="menuitem">
@@ -792,9 +805,9 @@
                                         <td class="px-4 py-3 text-sm leading-5 whitespace-no-wrap">Valentina Kascelan
                                         </td>
                                         <td class="px-6 py-3 text-sm leading-5 text-right whitespace-no-wrap">
-                                            <p class="inline cursor-pointer text-[20px] py-[10px] px-[30px] border-gray-300 dotsIzdateKnjige hover:text-[#606FC7]">
-                                                <i
-                                                    class="fas fa-ellipsis-v"></i>
+                                            <p
+                                                class="inline cursor-pointer text-[20px] py-[10px] px-[30px] border-gray-300 dotsIzdateKnjige hover:text-[#606FC7]">
+                                                <i class="fas fa-ellipsis-v"></i>
                                             </p>
                                             <div
                                                 class="relative z-10 hidden transition-all duration-300 origin-top-right transform scale-95 -translate-y-2 izdate-knjige">
@@ -808,7 +821,7 @@
                                                             <i class="far fa-file mr-[10px] ml-[5px] py-1"></i>
                                                             <span class="px-4 py-0">Pogledaj detalje</span>
                                                         </a>
-                                                        
+
                                                         <a href="otpisiKnjigu.php" tabindex="0"
                                                             class="flex w-full px-4 py-2 text-sm leading-5 text-left text-gray-700 outline-none hover:text-blue-600"
                                                             role="menuitem">
@@ -849,9 +862,9 @@
                                         <td class="px-4 py-3 text-sm leading-5 whitespace-no-wrap">Valentina Kascelan
                                         </td>
                                         <td class="px-6 py-3 text-sm leading-5 text-right whitespace-no-wrap">
-                                            <p class="inline cursor-pointer text-[20px] py-[10px] px-[30px] border-gray-300 dotsIzdateKnjige hover:text-[#606FC7]">
-                                                <i
-                                                    class="fas fa-ellipsis-v"></i>
+                                            <p
+                                                class="inline cursor-pointer text-[20px] py-[10px] px-[30px] border-gray-300 dotsIzdateKnjige hover:text-[#606FC7]">
+                                                <i class="fas fa-ellipsis-v"></i>
                                             </p>
                                             <div
                                                 class="relative z-10 hidden transition-all duration-300 origin-top-right transform scale-95 -translate-y-2 izdate-knjige">
@@ -865,7 +878,7 @@
                                                             <i class="far fa-file mr-[10px] ml-[5px] py-1"></i>
                                                             <span class="px-4 py-0">Pogledaj detalje</span>
                                                         </a>
-                                                        
+
                                                         <a href="otpisiKnjigu.php" tabindex="0"
                                                             class="flex w-full px-4 py-2 text-sm leading-5 text-left text-gray-700 outline-none hover:text-blue-600"
                                                             role="menuitem">
@@ -906,9 +919,9 @@
                                         <td class="px-4 py-3 text-sm leading-5 whitespace-no-wrap">Valentina Kascelan
                                         </td>
                                         <td class="px-6 py-3 text-sm leading-5 text-right whitespace-no-wrap">
-                                            <p class="inline cursor-pointer text-[20px] py-[10px] px-[30px] border-gray-300 dotsIzdateKnjige hover:text-[#606FC7]">
-                                                <i
-                                                    class="fas fa-ellipsis-v"></i>
+                                            <p
+                                                class="inline cursor-pointer text-[20px] py-[10px] px-[30px] border-gray-300 dotsIzdateKnjige hover:text-[#606FC7]">
+                                                <i class="fas fa-ellipsis-v"></i>
                                             </p>
                                             <div
                                                 class="relative z-10 hidden transition-all duration-300 origin-top-right transform scale-95 -translate-y-2 izdate-knjige">
@@ -922,7 +935,7 @@
                                                             <i class="far fa-file mr-[10px] ml-[5px] py-1"></i>
                                                             <span class="px-4 py-0">Pogledaj detalje</span>
                                                         </a>
-                                                        
+
                                                         <a href="otpisiKnjigu.php" tabindex="0"
                                                             class="flex w-full px-4 py-2 text-sm leading-5 text-left text-gray-700 outline-none hover:text-blue-600"
                                                             role="menuitem">
@@ -963,9 +976,9 @@
                                         <td class="px-4 py-3 text-sm leading-5 whitespace-no-wrap">Valentina Kascelan
                                         </td>
                                         <td class="px-6 py-3 text-sm leading-5 text-right whitespace-no-wrap">
-                                            <p class="inline cursor-pointer text-[20px] py-[10px] px-[30px] border-gray-300 dotsIzdateKnjige hover:text-[#606FC7]">
-                                                <i
-                                                    class="fas fa-ellipsis-v"></i>
+                                            <p
+                                                class="inline cursor-pointer text-[20px] py-[10px] px-[30px] border-gray-300 dotsIzdateKnjige hover:text-[#606FC7]">
+                                                <i class="fas fa-ellipsis-v"></i>
                                             </p>
                                             <div
                                                 class="relative z-10 hidden transition-all duration-300 origin-top-right transform scale-95 -translate-y-2 izdate-knjige">
@@ -979,7 +992,7 @@
                                                             <i class="far fa-file mr-[10px] ml-[5px] py-1"></i>
                                                             <span class="px-4 py-0">Pogledaj detalje</span>
                                                         </a>
-                                                        
+
                                                         <a href="otpisiKnjigu.php" tabindex="0"
                                                             class="flex w-full px-4 py-2 text-sm leading-5 text-left text-gray-700 outline-none hover:text-blue-600"
                                                             role="menuitem">

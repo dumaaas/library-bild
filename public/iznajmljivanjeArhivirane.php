@@ -133,22 +133,23 @@
                     <div class="py-4 pt-[20px] pl-[30px] text-[#2D3B48]">
                         <a href="iznajmljivanjeIzdate.php"
                             class="py-[15px] px-[20px] w-[268px] cursor-pointer hover:bg-[#EFF3F6] rounded-[10px] inline hover:text-[#576cdf]">
-                            <i class="text-[20px] far fa-copy mr-[3px]"></i>
+                            <i class="text-[#707070] text-[20px] far fa-copy mr-[3px]"></i>
                             Izdate knjige
                         </a>
                         <a href="iznajmljivanjeVracene.php"
                             class="inline py-[15px] rounded-[10px] group px-[20px] w-[268px] hover:text-[#576cdf] hover:bg-[#EFF3F6] ml-[20px] pr-[10px]">
-                            <i class="text-[20px]  group-hover:text-[#576cdf] fas fa-file mr-[3px]"></i>
+                            <i class="text-[#707070] text-[20px]  group-hover:text-[#576cdf] fas fa-file mr-[3px]"></i>
                             Vracene knjige
                         </a>
                         <a href="iznajmljivanjePrekoracenje.php"
-                            class="inline py-[15px] rounded-[10px] group px-[20px] w-[268px] hover:text-[#576cdf] hover:bg-[#EFF3F6] ml-[20px] pr-[10px]">
-                            <i class="text-[20px] group-hover:text-[#576cdf] fas fa-exclamation-triangle mr-[3px]"></i>
+                            class="inline py-[15px] rounded-[10px] group px-[20px] w-[268px] hover:text-[#576cdf] hover:bg-[#EFF3F6] mx-[20px] pr-[10px]">
+                            <i class="text-[#707070] text-[20px] group-hover:text-[#576cdf] fas fa-exclamation-triangle mr-[3px]"></i>
                             Knjige u prekoracenju
                         </a>
+                        <a class="border-r-[1px] py-[10px] border-[#e4dfdf]"></a>
                         <a href="iznajmljivanjeAktivne.php"
                             class="inline py-[15px] rounded-[10px] group px-[20px] w-[268px] hover:text-[#576cdf] hover:bg-[#EFF3F6] ml-[20px] pr-[10px]">
-                            <i class="text-[20px] group-hover:text-[#576cdf] far fa-calendar-check mr-[3px]"></i>
+                            <i class="text-[#707070] text-[20px] group-hover:text-[#576cdf] far fa-calendar-check mr-[3px]"></i>
                             Aktivne rezervacije
                         </a>
                         <a href="iznajmljivanjeArhivirane.php"

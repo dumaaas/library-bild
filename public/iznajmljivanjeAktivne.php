@@ -87,9 +87,9 @@
                             <i class="far fa-calendar-check mr-[3px] "></i>
                             Rezervisi knjigu
                         </a>
-                        <p class="inline cursor-pointer text-[25px] py-[10px] pl-[30px] border-l-[1px] border-[#e4dfdf] dotsIznajmljivanjeAktivneRezervacije hover:text-[#606FC7]">
-                            <i
-                                class="fas fa-ellipsis-v"></i>
+                        <p
+                            class="inline cursor-pointer text-[25px] py-[10px] pl-[30px] border-l-[1px] border-[#e4dfdf] dotsIznajmljivanjeAktivneRezervacije hover:text-[#606FC7]">
+                            <i class="fas fa-ellipsis-v"></i>
                         </p>
                         <div
                             class="relative z-10 hidden transition-all duration-300 origin-top-right transform scale-95 -translate-y-2 dropdown-iznajmljivanje-aktivne-rezervacije">
@@ -133,23 +133,23 @@
                     <div class="py-4 pt-[20px] pl-[30px] text-[#2D3B48]">
                         <a href="iznajmljivanjeIzdate.php"
                             class="py-[15px] px-[20px] w-[268px] cursor-pointer hover:bg-[#EFF3F6] rounded-[10px] inline hover:text-[#576cdf]">
-                            <i class="text-[20px] far fa-copy mr-[3px]"></i>
+                            <i class="text-[#707070] text-[20px] far fa-copy mr-[3px]"></i>
                             Izdate knjige
                         </a>
                         <a href="iznajmljivanjeVracene.php"
                             class="inline py-[15px] rounded-[10px] group px-[20px] w-[268px] hover:text-[#576cdf] hover:bg-[#EFF3F6] ml-[20px] pr-[10px]">
-                            <i class="text-[20px]  group-hover:text-[#576cdf] fas fa-file mr-[3px]"></i>
+                            <i class="text-[#707070] text-[20px]  group-hover:text-[#576cdf] fas fa-file mr-[3px]"></i>
                             Vracene knjige
                         </a>
                         <a href="iznajmljivanjePrekoracenje.php"
-                            class="inline py-[15px] rounded-[10px] group px-[20px] w-[268px] hover:text-[#576cdf] hover:bg-[#EFF3F6] ml-[20px] pr-[10px]">
-                            <i class="text-[20px] group-hover:text-[#576cdf] fas fa-exclamation-triangle mr-[3px]"></i>
+                            class="inline py-[15px] rounded-[10px] group px-[20px] w-[268px] hover:text-[#576cdf] hover:bg-[#EFF3F6] mx-[20px] pr-[10px]">
+                            <i class="text-[#707070] text-[20px] group-hover:text-[#576cdf] fas fa-exclamation-triangle mr-[3px]"></i>
                             Knjige u prekoracenju
                         </a>
+                        <a class="border-r-[1px] py-[10px] border-[#e4dfdf]"></a>
                         <a href="iznajmljivanjeAktivne.php"
                             class="inline py-[15px] rounded-[10px] group px-[20px] w-[268px] bg-[#EFF3F6] text-[#576cdf] hover:text-[#576cdf] hover:bg-[#EFF3F6] ml-[20px] pr-[10px]">
-                            <i
-                                class="text-[20px] group-hover:text-[#576cdf] far fa-calendar-check mr-[3px]"></i>
+                            <i class="text-[20px] group-hover:text-[#576cdf] far fa-calendar-check mr-[3px]"></i>
                             Aktivne rezervacije
                         </a>
                         <a href="iznajmljivanjeArhivirane.php"
@@ -169,272 +169,280 @@
                                             <input type="checkbox" class="form-checkbox">
                                         </label>
                                     </th>
-                                    <th class="relative px-4 py-3 text-sm leading-4 tracking-wider text-left cursor-pointer">Datum rezervacije<i class="ml-2 fas fa-filter datumDrop-toggle"></i>
-                                            <div id="datumDropdown"
-                                                class="datumMenu hidden absolute rounded bg-white min-w-[310px] p-[10px] shadow-md top-[42px] pin-l border-2 border-gray-300">
-                                                <div
-                                                    class="flex justify-between flex-row p-2 pb-[15px] border-b-[2px] relative border-gray-300">
-                                                    <div>
-                                                        <label class="font-medium text-gray-500">Period od:</label>
-                                                        <input type="date"
-                                                            class="border-[1px] border-[#e4dfdf]  cursor-pointer focus:outline-none">
-                                                    </div>
-                                                    <div class="ml-[50px]">
-                                                        <label class="font-medium text-gray-500">Period do:</label>
-                                                        <input type="date"
-                                                            class="border-[1px] border-[#e4dfdf]  cursor-pointer focus:outline-none">
-                                                    </div>
+                                    <th
+                                        class="relative px-4 py-3 text-sm leading-4 tracking-wider text-left cursor-pointer">
+                                        Datum rezervacije<i class="ml-2 fas fa-filter datumDrop-toggle"></i>
+                                        <div id="datumDropdown"
+                                            class="datumMenu hidden absolute rounded bg-white min-w-[310px] p-[10px] shadow-md top-[42px] pin-l border-2 border-gray-300">
+                                            <div
+                                                class="flex justify-between flex-row p-2 pb-[15px] border-b-[2px] relative border-gray-300">
+                                                <div>
+                                                    <label class="font-medium text-gray-500">Period od:</label>
+                                                    <input type="date"
+                                                        class="border-[1px] border-[#e4dfdf]  cursor-pointer focus:outline-none">
                                                 </div>
-                                                <div class="flex pt-[10px] text-white ">
-                                                    <a href="#"
-                                                        class="btn-animation py-2 px-[20px] transition duration-300 ease-in hover:bg-[#46A149] bg-[#4CAF50] rounded-[5px]">
-                                                        Sacuvaj <i class="fas fa-check ml-[4px]"></i>
-                                                    </a>
-                                                    <a href="#"
-                                                        class="btn-animation ml-[20px] py-2 px-[20px] transition duration-300 ease-in bg-[#F44336] hover:bg-[#F55549] rounded-[5px]">
-                                                        Ponisti <i class="fas fa-times ml-[4px]"></i>
-                                                    </a>
+                                                <div class="ml-[50px]">
+                                                    <label class="font-medium text-gray-500">Period do:</label>
+                                                    <input type="date"
+                                                        class="border-[1px] border-[#e4dfdf]  cursor-pointer focus:outline-none">
                                                 </div>
                                             </div>
+                                            <div class="flex pt-[10px] text-white ">
+                                                <a href="#"
+                                                    class="btn-animation py-2 px-[20px] transition duration-300 ease-in hover:bg-[#46A149] bg-[#4CAF50] rounded-[5px]">
+                                                    Sacuvaj <i class="fas fa-check ml-[4px]"></i>
+                                                </a>
+                                                <a href="#"
+                                                    class="btn-animation ml-[20px] py-2 px-[20px] transition duration-300 ease-in bg-[#F44336] hover:bg-[#F55549] rounded-[5px]">
+                                                    Ponisti <i class="fas fa-times ml-[4px]"></i>
+                                                </a>
+                                            </div>
+                                        </div>
                                     </th>
-                                    <th class="relative px-4 py-3 text-sm leading-4 tracking-wider text-left cursor-pointer">Rezervacija istice<i class="ml-2 fas fa-filter zadrzavanjeDrop-toggle"></i>
-                                            <div id="zadrzavanjeDropdown"
-                                                class="zadrzavanjeMenu hidden absolute rounded bg-white min-w-[310px] p-[10px] shadow-md top-[42px] right-0 border-2 border-gray-300">
-                                                <div
-                                                    class="flex justify-between flex-row p-2 pb-[15px] border-b-[2px] relative border-gray-300">
-                                                    <div>
-                                                        <label class="font-medium text-gray-500">Period od:</label>
-                                                        <input type="date"
-                                                            class="border-[1px] border-[#e4dfdf]  cursor-pointer focus:outline-none">
-                                                    </div>
-                                                    <div class="ml-[50px]">
-                                                        <label class="font-medium text-gray-500">Period do:</label>
-                                                        <input type="date"
-                                                            class="border-[1px] border-[#e4dfdf]  cursor-pointer focus:outline-none">
-                                                    </div>
+                                    <th
+                                        class="relative px-4 py-3 text-sm leading-4 tracking-wider text-left cursor-pointer">
+                                        Rezervacija istice<i class="ml-2 fas fa-filter zadrzavanjeDrop-toggle"></i>
+                                        <div id="zadrzavanjeDropdown"
+                                            class="zadrzavanjeMenu hidden absolute rounded bg-white min-w-[310px] p-[10px] shadow-md top-[42px] right-0 border-2 border-gray-300">
+                                            <div
+                                                class="flex justify-between flex-row p-2 pb-[15px] border-b-[2px] relative border-gray-300">
+                                                <div>
+                                                    <label class="font-medium text-gray-500">Period od:</label>
+                                                    <input type="date"
+                                                        class="border-[1px] border-[#e4dfdf]  cursor-pointer focus:outline-none">
                                                 </div>
-                                                <div class="flex pt-[10px] text-white ">
-                                                    <a href="#"
-                                                        class="btn-animation py-2 px-[20px] transition duration-300 ease-in hover:bg-[#46A149] bg-[#4CAF50] rounded-[5px]">
-                                                        Sacuvaj <i class="fas fa-check ml-[4px]"></i>
-                                                    </a>
-                                                    <a href="#"
-                                                        class="btn-animation ml-[20px] py-2 px-[20px] transition duration-300 ease-in bg-[#F44336] hover:bg-[#F55549] rounded-[5px]">
-                                                        Ponisti <i class="fas fa-times ml-[4px]"></i>
-                                                    </a>
+                                                <div class="ml-[50px]">
+                                                    <label class="font-medium text-gray-500">Period do:</label>
+                                                    <input type="date"
+                                                        class="border-[1px] border-[#e4dfdf]  cursor-pointer focus:outline-none">
                                                 </div>
                                             </div>
+                                            <div class="flex pt-[10px] text-white ">
+                                                <a href="#"
+                                                    class="btn-animation py-2 px-[20px] transition duration-300 ease-in hover:bg-[#46A149] bg-[#4CAF50] rounded-[5px]">
+                                                    Sacuvaj <i class="fas fa-check ml-[4px]"></i>
+                                                </a>
+                                                <a href="#"
+                                                    class="btn-animation ml-[20px] py-2 px-[20px] transition duration-300 ease-in bg-[#F44336] hover:bg-[#F55549] rounded-[5px]">
+                                                    Ponisti <i class="fas fa-times ml-[4px]"></i>
+                                                </a>
+                                            </div>
+                                        </div>
                                     </th>
-                                    <th class="relative px-4 py-3 text-sm leading-4 tracking-wider text-left cursor-pointer">Rezervaciju podnio<i class="ml-2 fas fa-filter uceniciDrop-toggle"></i>
-                                            <div id="uceniciDropdown"
-                                                class="uceniciMenu hidden absolute rounded bg-white min-w-[310px] p-[10px] shadow-md top-[42px]  right-0 border-2 border-gray-300">
-                                                <ul class="border-b-2 border-gray-300 list-reset">
-                                                    <li class="p-2 pb-[15px] border-b-[2px] relative border-gray-300">
-                                                        <input
-                                                            class="w-full h-10 px-2 border-2 rounded focus:outline-none"
-                                                            placeholder="Search"
-                                                            onkeyup="filterFunction('searchUcenici', 'uceniciDropdown', 'dropdown-item-ucenik')"
-                                                            id="searchUcenici"><br>
-                                                        <button
-                                                            class="absolute block text-xl text-center text-gray-400 transition-colors w-7 h-7 leading-0 top-[14px] right-4 focus:outline-none hover:text-gray-900">
-                                                            <i class="fas fa-search"></i>
-                                                        </button>
+                                    <th
+                                        class="relative px-4 py-3 text-sm leading-4 tracking-wider text-left cursor-pointer">
+                                        Rezervaciju podnio<i class="ml-2 fas fa-filter uceniciDrop-toggle"></i>
+                                        <div id="uceniciDropdown"
+                                            class="uceniciMenu hidden absolute rounded bg-white min-w-[310px] p-[10px] shadow-md top-[42px]  right-0 border-2 border-gray-300">
+                                            <ul class="border-b-2 border-gray-300 list-reset">
+                                                <li class="p-2 pb-[15px] border-b-[2px] relative border-gray-300">
+                                                    <input class="w-full h-10 px-2 border-2 rounded focus:outline-none"
+                                                        placeholder="Search"
+                                                        onkeyup="filterFunction('searchUcenici', 'uceniciDropdown', 'dropdown-item-ucenik')"
+                                                        id="searchUcenici"><br>
+                                                    <button
+                                                        class="absolute block text-xl text-center text-gray-400 transition-colors w-7 h-7 leading-0 top-[14px] right-4 focus:outline-none hover:text-gray-900">
+                                                        <i class="fas fa-search"></i>
+                                                    </button>
+                                                </li>
+                                                <div class="h-[200px] scroll font-normal">
+                                                    <li
+                                                        class="flex p-2 mt-[2px] pt-[15px] group hover:bg-gray-200 dropdown-item-ucenik">
+                                                        <label class="flex items-center justify-start">
+                                                            <div
+                                                                class="flex items-center justify-center flex-shrink-0 w-[16px] h-[16px] mr-2 bg-white border-2 border-gray-400 rounded focus-within:border-blue-500">
+                                                                <input type="checkbox" class="absolute opacity-0">
+                                                                <svg class="hidden w-4 h-4 text-green-500 pointer-events-none fill-current"
+                                                                    viewBox="0 0 20 20">
+                                                                    <path d="M0 11l2-2 5 5L18 3l2 2L7 18z" />
+                                                                </svg>
+                                                            </div>
+                                                        </label>
+                                                        <img width="40px" height="30px" class="ml-[15px] rounded-full"
+                                                            src="img/profileStudent.jpg">
+                                                        <p
+                                                            class="block p-2 text-black cursor-pointer group-hover:text-blue-600">
+                                                            Ucenik Ucenikovic
+                                                        </p>
                                                     </li>
-                                                    <div class="h-[200px] scroll font-normal">
-                                                        <li class="flex p-2 mt-[2px] pt-[15px] group hover:bg-gray-200 dropdown-item-ucenik">
-                                                            <label class="flex items-center justify-start">
-                                                                <div
-                                                                    class="flex items-center justify-center flex-shrink-0 w-[16px] h-[16px] mr-2 bg-white border-2 border-gray-400 rounded focus-within:border-blue-500">
-                                                                    <input type="checkbox" class="absolute opacity-0">
-                                                                    <svg class="hidden w-4 h-4 text-green-500 pointer-events-none fill-current"
-                                                                        viewBox="0 0 20 20">
-                                                                        <path d="M0 11l2-2 5 5L18 3l2 2L7 18z" />
-                                                                    </svg>
-                                                                </div>
-                                                            </label>
-                                                            <img width="40px" height="30px"
-                                                                class="ml-[15px] rounded-full"
-                                                                src="img/profileStudent.jpg">
-                                                            <p
-                                                                class="block p-2 text-black cursor-pointer group-hover:text-blue-600">
-                                                                Ucenik Ucenikovic
-                                                            </p>
-                                                        </li>
-                                                        <li class="flex p-2 mt-[2px] pt-[15px] group hover:bg-gray-200 dropdown-item-ucenik">
-                                                            <label class="flex items-center justify-start">
-                                                                <div
-                                                                    class="flex items-center justify-center flex-shrink-0 w-[16px] h-[16px] mr-2 bg-white border-2 border-gray-400 rounded focus-within:border-blue-500">
-                                                                    <input type="checkbox" class="absolute opacity-0">
-                                                                    <svg class="hidden w-4 h-4 text-green-500 pointer-events-none fill-current"
-                                                                        viewBox="0 0 20 20">
-                                                                        <path d="M0 11l2-2 5 5L18 3l2 2L7 18z" />
-                                                                    </svg>
-                                                                </div>
-                                                            </label>
-                                                            <img width="40px" height="30px"
-                                                                class="ml-[15px] rounded-full"
-                                                                src="img/profileStudent.jpg">
-                                                            <p
-                                                                class="block p-2 text-black cursor-pointer group-hover:text-blue-600">
-                                                                Pero Perovic
-                                                            </p>
-                                                        </li>
-                                                        <li class="flex p-2 mt-[2px] pt-[15px] group hover:bg-gray-200 dropdown-item-ucenik">
-                                                            <label class="flex items-center justify-start">
-                                                                <div
-                                                                    class="flex items-center justify-center flex-shrink-0 w-[16px] h-[16px] mr-2 bg-white border-2 border-gray-400 rounded focus-within:border-blue-500">
-                                                                    <input type="checkbox" class="absolute opacity-0">
-                                                                    <svg class="hidden w-4 h-4 text-green-500 pointer-events-none fill-current"
-                                                                        viewBox="0 0 20 20">
-                                                                        <path d="M0 11l2-2 5 5L18 3l2 2L7 18z" />
-                                                                    </svg>
-                                                                </div>
-                                                            </label>
-                                                            <img width="40px" height="30px"
-                                                                class="ml-[15px] rounded-full"
-                                                                src="img/profileStudent.jpg">
-                                                            <p
-                                                                class="block p-2 text-black cursor-pointer group-hover:text-blue-600">
-                                                                Marko Markovic
-                                                            </p>
-                                                        </li>
-                                                        <li class="flex p-2 mt-[2px] pt-[15px] group hover:bg-gray-200 dropdown-item-ucenik">
-                                                            <label class="flex items-center justify-start">
-                                                                <div
-                                                                    class="flex items-center justify-center flex-shrink-0 w-[16px] h-[16px] mr-2 bg-white border-2 border-gray-400 rounded focus-within:border-blue-500">
-                                                                    <input type="checkbox" class="absolute opacity-0">
-                                                                    <svg class="hidden w-4 h-4 text-green-500 pointer-events-none fill-current"
-                                                                        viewBox="0 0 20 20">
-                                                                        <path d="M0 11l2-2 5 5L18 3l2 2L7 18z" />
-                                                                    </svg>
-                                                                </div>
-                                                            </label>
-                                                            <img width="40px" height="30px"
-                                                                class="ml-[15px] rounded-full"
-                                                                src="img/profileStudent.jpg">
-                                                            <p
-                                                                class="block p-2 text-black cursor-pointer group-hover:text-blue-600">
-                                                                Nikola Nikolic
-                                                            </p>
-                                                        </li>
-                                                        <li class="flex p-2 mt-[2px] pt-[15px] group hover:bg-gray-200 dropdown-item-ucenik">
-                                                            <label class="flex items-center justify-start">
-                                                                <div
-                                                                    class="flex items-center justify-center flex-shrink-0 w-[16px] h-[16px] mr-2 bg-white border-2 border-gray-400 rounded focus-within:border-blue-500">
-                                                                    <input type="checkbox" class="absolute opacity-0">
-                                                                    <svg class="hidden w-4 h-4 text-green-500 pointer-events-none fill-current"
-                                                                        viewBox="0 0 20 20">
-                                                                        <path d="M0 11l2-2 5 5L18 3l2 2L7 18z" />
-                                                                    </svg>
-                                                                </div>
-                                                            </label>
-                                                            <img width="40px" height="30px"
-                                                                class="ml-[15px] rounded-full"
-                                                                src="img/profileStudent.jpg">
-                                                            <p
-                                                                class="block p-2 text-black cursor-pointer group-hover:text-blue-600">
-                                                                Zivko Zivkovic
-                                                            </p>
-                                                        </li>
-                                                        <li class="flex p-2 mt-[2px] pt-[15px] group hover:bg-gray-200 dropdown-item-ucenik">
-                                                            <label class="flex items-center justify-start">
-                                                                <div
-                                                                    class="flex items-center justify-center flex-shrink-0 w-[16px] h-[16px] mr-2 bg-white border-2 border-gray-400 rounded focus-within:border-blue-500">
-                                                                    <input type="checkbox" class="absolute opacity-0">
-                                                                    <svg class="hidden w-4 h-4 text-green-500 pointer-events-none fill-current"
-                                                                        viewBox="0 0 20 20">
-                                                                        <path d="M0 11l2-2 5 5L18 3l2 2L7 18z" />
-                                                                    </svg>
-                                                                </div>
-                                                            </label>
-                                                            <img width="40px" height="30px"
-                                                                class="ml-[15px] rounded-full"
-                                                                src="img/profileStudent.jpg">
-                                                            <p
-                                                                class="block p-2 text-black cursor-pointer group-hover:text-blue-600">
-                                                                Petar Petrovic
-                                                            </p>
-                                                        </li>
-                                                    </div>
-                                                </ul>
-                                                <div class="flex pt-[10px] text-white ">
-                                                    <a href="#"
-                                                        class="btn-animation py-2 px-[20px] transition duration-300 ease-in hover:bg-[#46A149] bg-[#4CAF50] rounded-[5px]">
-                                                        Sacuvaj <i class="fas fa-check ml-[4px]"></i>
-                                                    </a>
-                                                    <a href="#"
-                                                        class="btn-animation ml-[20px] py-2 px-[20px] transition duration-300 ease-in bg-[#F44336] hover:bg-[#F55549] rounded-[5px]">
-                                                        Ponisti <i class="fas fa-times ml-[4px]"></i>
-                                                    </a>
-                                                </div>
-                                            </div>
-                                    </th>
-                                    <th class="relative px-4 py-3 text-sm leading-4 tracking-wider text-left cursor-pointer">Status<i class="ml-2 fas fa-filter statusDrop-toggle"></i>
-                                            <div id="statusDropdown"
-                                                class="statusMenu hidden absolute rounded bg-white min-w-[310px] p-[10px] shadow-md top-[42px] right-0 border-2 border-gray-300">
-                                                <ul class="border-b-2 border-gray-300 list-reset">
-                                                    <li class="p-2 pb-[15px] border-b-[2px] relative border-gray-300">
-                                                        <input
-                                                            class="w-full h-10 px-2 border-2 rounded focus:outline-none"
-                                                            placeholder="Search"
-                                                            onkeyup="filterFunction('searchStatus', 'statusDropdown')"
-                                                            id="searchStatus"><br>
-                                                        <button
-                                                            class="absolute block text-xl text-center text-gray-400 transition-colors w-7 h-7 leading-0 top-[14px] right-4 focus:outline-none hover:text-gray-900">
-                                                            <i class="fas fa-search"></i>
-                                                        </button>
+                                                    <li
+                                                        class="flex p-2 mt-[2px] pt-[15px] group hover:bg-gray-200 dropdown-item-ucenik">
+                                                        <label class="flex items-center justify-start">
+                                                            <div
+                                                                class="flex items-center justify-center flex-shrink-0 w-[16px] h-[16px] mr-2 bg-white border-2 border-gray-400 rounded focus-within:border-blue-500">
+                                                                <input type="checkbox" class="absolute opacity-0">
+                                                                <svg class="hidden w-4 h-4 text-green-500 pointer-events-none fill-current"
+                                                                    viewBox="0 0 20 20">
+                                                                    <path d="M0 11l2-2 5 5L18 3l2 2L7 18z" />
+                                                                </svg>
+                                                            </div>
+                                                        </label>
+                                                        <img width="40px" height="30px" class="ml-[15px] rounded-full"
+                                                            src="img/profileStudent.jpg">
+                                                        <p
+                                                            class="block p-2 text-black cursor-pointer group-hover:text-blue-600">
+                                                            Pero Perovic
+                                                        </p>
                                                     </li>
-                                                    <div class="h-[200px] scroll font-normal">
-                                                        <li class="flex p-2 mt-[2px] pt-[15px] group hover:bg-gray-200">
-                                                            <label class="flex items-center justify-start">
-                                                                <div
-                                                                    class="flex items-center justify-center flex-shrink-0 w-[16px] h-[16px] mr-2 bg-white border-2 border-gray-400 rounded focus-within:border-blue-500">
-                                                                    <input type="checkbox" class="absolute opacity-0">
-                                                                    <svg class="hidden w-4 h-4 text-green-500 pointer-events-none fill-current"
-                                                                        viewBox="0 0 20 20">
-                                                                        <path d="M0 11l2-2 5 5L18 3l2 2L7 18z" />
-                                                                    </svg>
-                                                                </div>
-                                                            </label>
-                                                            <p
-                                                                class="block p-2 text-black cursor-pointer group-hover:text-blue-600">
-                                                                Rezervisano
-                                                            </p>
-                                                        </li>
-                                                        <li class="flex p-2 mt-[2px] pt-[15px] group hover:bg-gray-200">
-                                                            <label class="flex items-center justify-start">
-                                                                <div
-                                                                    class="flex items-center justify-center flex-shrink-0 w-[16px] h-[16px] mr-2 bg-white border-2 border-gray-400 rounded focus-within:border-blue-500">
-                                                                    <input type="checkbox" class="absolute opacity-0">
-                                                                    <svg class="hidden w-4 h-4 text-green-500 pointer-events-none fill-current"
-                                                                        viewBox="0 0 20 20">
-                                                                        <path d="M0 11l2-2 5 5L18 3l2 2L7 18z" />
-                                                                    </svg>
-                                                                </div>
-                                                            </label>
-                                                            <p
-                                                                class="block p-2 text-black cursor-pointer group-hover:text-blue-600">
-                                                                Odbijeno
-                                                            </p>
-                                                        </li>
-                                                    </div>
-                                                </ul>
-                                                <div class="flex pt-[10px] text-white ">
-                                                    <a href="#"
-                                                        class="btn-animation py-2 px-[20px] transition duration-300 ease-in hover:bg-[#46A149] bg-[#4CAF50] rounded-[5px]">
-                                                        Sacuvaj <i class="fas fa-check ml-[4px]"></i>
-                                                    </a>
-                                                    <a href="#"
-                                                        class="btn-animation ml-[20px] py-2 px-[20px] transition duration-300 ease-in bg-[#F44336] hover:bg-[#F55549] rounded-[5px]">
-                                                        Ponisti <i class="fas fa-times ml-[4px]"></i>
-                                                    </a>
+                                                    <li
+                                                        class="flex p-2 mt-[2px] pt-[15px] group hover:bg-gray-200 dropdown-item-ucenik">
+                                                        <label class="flex items-center justify-start">
+                                                            <div
+                                                                class="flex items-center justify-center flex-shrink-0 w-[16px] h-[16px] mr-2 bg-white border-2 border-gray-400 rounded focus-within:border-blue-500">
+                                                                <input type="checkbox" class="absolute opacity-0">
+                                                                <svg class="hidden w-4 h-4 text-green-500 pointer-events-none fill-current"
+                                                                    viewBox="0 0 20 20">
+                                                                    <path d="M0 11l2-2 5 5L18 3l2 2L7 18z" />
+                                                                </svg>
+                                                            </div>
+                                                        </label>
+                                                        <img width="40px" height="30px" class="ml-[15px] rounded-full"
+                                                            src="img/profileStudent.jpg">
+                                                        <p
+                                                            class="block p-2 text-black cursor-pointer group-hover:text-blue-600">
+                                                            Marko Markovic
+                                                        </p>
+                                                    </li>
+                                                    <li
+                                                        class="flex p-2 mt-[2px] pt-[15px] group hover:bg-gray-200 dropdown-item-ucenik">
+                                                        <label class="flex items-center justify-start">
+                                                            <div
+                                                                class="flex items-center justify-center flex-shrink-0 w-[16px] h-[16px] mr-2 bg-white border-2 border-gray-400 rounded focus-within:border-blue-500">
+                                                                <input type="checkbox" class="absolute opacity-0">
+                                                                <svg class="hidden w-4 h-4 text-green-500 pointer-events-none fill-current"
+                                                                    viewBox="0 0 20 20">
+                                                                    <path d="M0 11l2-2 5 5L18 3l2 2L7 18z" />
+                                                                </svg>
+                                                            </div>
+                                                        </label>
+                                                        <img width="40px" height="30px" class="ml-[15px] rounded-full"
+                                                            src="img/profileStudent.jpg">
+                                                        <p
+                                                            class="block p-2 text-black cursor-pointer group-hover:text-blue-600">
+                                                            Nikola Nikolic
+                                                        </p>
+                                                    </li>
+                                                    <li
+                                                        class="flex p-2 mt-[2px] pt-[15px] group hover:bg-gray-200 dropdown-item-ucenik">
+                                                        <label class="flex items-center justify-start">
+                                                            <div
+                                                                class="flex items-center justify-center flex-shrink-0 w-[16px] h-[16px] mr-2 bg-white border-2 border-gray-400 rounded focus-within:border-blue-500">
+                                                                <input type="checkbox" class="absolute opacity-0">
+                                                                <svg class="hidden w-4 h-4 text-green-500 pointer-events-none fill-current"
+                                                                    viewBox="0 0 20 20">
+                                                                    <path d="M0 11l2-2 5 5L18 3l2 2L7 18z" />
+                                                                </svg>
+                                                            </div>
+                                                        </label>
+                                                        <img width="40px" height="30px" class="ml-[15px] rounded-full"
+                                                            src="img/profileStudent.jpg">
+                                                        <p
+                                                            class="block p-2 text-black cursor-pointer group-hover:text-blue-600">
+                                                            Zivko Zivkovic
+                                                        </p>
+                                                    </li>
+                                                    <li
+                                                        class="flex p-2 mt-[2px] pt-[15px] group hover:bg-gray-200 dropdown-item-ucenik">
+                                                        <label class="flex items-center justify-start">
+                                                            <div
+                                                                class="flex items-center justify-center flex-shrink-0 w-[16px] h-[16px] mr-2 bg-white border-2 border-gray-400 rounded focus-within:border-blue-500">
+                                                                <input type="checkbox" class="absolute opacity-0">
+                                                                <svg class="hidden w-4 h-4 text-green-500 pointer-events-none fill-current"
+                                                                    viewBox="0 0 20 20">
+                                                                    <path d="M0 11l2-2 5 5L18 3l2 2L7 18z" />
+                                                                </svg>
+                                                            </div>
+                                                        </label>
+                                                        <img width="40px" height="30px" class="ml-[15px] rounded-full"
+                                                            src="img/profileStudent.jpg">
+                                                        <p
+                                                            class="block p-2 text-black cursor-pointer group-hover:text-blue-600">
+                                                            Petar Petrovic
+                                                        </p>
+                                                    </li>
                                                 </div>
-                                            </div></th>
+                                            </ul>
+                                            <div class="flex pt-[10px] text-white ">
+                                                <a href="#"
+                                                    class="btn-animation py-2 px-[20px] transition duration-300 ease-in hover:bg-[#46A149] bg-[#4CAF50] rounded-[5px]">
+                                                    Sacuvaj <i class="fas fa-check ml-[4px]"></i>
+                                                </a>
+                                                <a href="#"
+                                                    class="btn-animation ml-[20px] py-2 px-[20px] transition duration-300 ease-in bg-[#F44336] hover:bg-[#F55549] rounded-[5px]">
+                                                    Ponisti <i class="fas fa-times ml-[4px]"></i>
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </th>
+                                    <th
+                                        class="relative px-4 py-3 text-sm leading-4 tracking-wider text-left cursor-pointer">
+                                        Status<i class="ml-2 fas fa-filter statusDrop-toggle"></i>
+                                        <div id="statusDropdown"
+                                            class="statusMenu hidden absolute rounded bg-white min-w-[310px] p-[10px] shadow-md top-[42px] right-0 border-2 border-gray-300">
+                                            <ul class="border-b-2 border-gray-300 list-reset">
+                                                <li class="p-2 pb-[15px] border-b-[2px] relative border-gray-300">
+                                                    <input class="w-full h-10 px-2 border-2 rounded focus:outline-none"
+                                                        placeholder="Search"
+                                                        onkeyup="filterFunction('searchStatus', 'statusDropdown')"
+                                                        id="searchStatus"><br>
+                                                    <button
+                                                        class="absolute block text-xl text-center text-gray-400 transition-colors w-7 h-7 leading-0 top-[14px] right-4 focus:outline-none hover:text-gray-900">
+                                                        <i class="fas fa-search"></i>
+                                                    </button>
+                                                </li>
+                                                <div class="h-[200px] scroll font-normal">
+                                                    <li class="flex p-2 mt-[2px] pt-[15px] group hover:bg-gray-200">
+                                                        <label class="flex items-center justify-start">
+                                                            <div
+                                                                class="flex items-center justify-center flex-shrink-0 w-[16px] h-[16px] mr-2 bg-white border-2 border-gray-400 rounded focus-within:border-blue-500">
+                                                                <input type="checkbox" class="absolute opacity-0">
+                                                                <svg class="hidden w-4 h-4 text-green-500 pointer-events-none fill-current"
+                                                                    viewBox="0 0 20 20">
+                                                                    <path d="M0 11l2-2 5 5L18 3l2 2L7 18z" />
+                                                                </svg>
+                                                            </div>
+                                                        </label>
+                                                        <p
+                                                            class="block p-2 text-black cursor-pointer group-hover:text-blue-600">
+                                                            Rezervisano
+                                                        </p>
+                                                    </li>
+                                                    <li class="flex p-2 mt-[2px] pt-[15px] group hover:bg-gray-200">
+                                                        <label class="flex items-center justify-start">
+                                                            <div
+                                                                class="flex items-center justify-center flex-shrink-0 w-[16px] h-[16px] mr-2 bg-white border-2 border-gray-400 rounded focus-within:border-blue-500">
+                                                                <input type="checkbox" class="absolute opacity-0">
+                                                                <svg class="hidden w-4 h-4 text-green-500 pointer-events-none fill-current"
+                                                                    viewBox="0 0 20 20">
+                                                                    <path d="M0 11l2-2 5 5L18 3l2 2L7 18z" />
+                                                                </svg>
+                                                            </div>
+                                                        </label>
+                                                        <p
+                                                            class="block p-2 text-black cursor-pointer group-hover:text-blue-600">
+                                                            Odbijeno
+                                                        </p>
+                                                    </li>
+                                                </div>
+                                            </ul>
+                                            <div class="flex pt-[10px] text-white ">
+                                                <a href="#"
+                                                    class="btn-animation py-2 px-[20px] transition duration-300 ease-in hover:bg-[#46A149] bg-[#4CAF50] rounded-[5px]">
+                                                    Sacuvaj <i class="fas fa-check ml-[4px]"></i>
+                                                </a>
+                                                <a href="#"
+                                                    class="btn-animation ml-[20px] py-2 px-[20px] transition duration-300 ease-in bg-[#F44336] hover:bg-[#F55549] rounded-[5px]">
+                                                    Ponisti <i class="fas fa-times ml-[4px]"></i>
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </th>
                                     <th class="px-4 py-3"> </th>
                                 </tr>
                             </thead>
                             <tbody class="bg-white">
-                                <tr class="hover:bg-gray-200 hover:shadow-md bg-gray-200 border-b-[1px] border-[#e4dfdf] changeBg">
+                                <tr
+                                    class="hover:bg-gray-200 hover:shadow-md bg-gray-200 border-b-[1px] border-[#e4dfdf] changeBg">
                                     <td class="px-4 py-3 whitespace-no-wrap">
                                         <label class="inline-flex items-center">
                                             <input type="checkbox" class="form-checkbox">
@@ -480,10 +488,10 @@
                                                 id="headlessui-menu-items-117" role="menu">
                                                 <div class="py-1">
                                                     <a href="izdavanjeDetalji.php" tabindex="0"
-                                                            class="flex w-full px-4 py-2 text-sm leading-5 text-left text-gray-700 outline-none hover:text-blue-600"
-                                                            role="menuitem">
-                                                            <i class="far fa-file mr-[10px] ml-[5px] py-1"></i>
-                                                            <span class="px-4 py-0">Pogledaj detalje</span>
+                                                        class="flex w-full px-4 py-2 text-sm leading-5 text-left text-gray-700 outline-none hover:text-blue-600"
+                                                        role="menuitem">
+                                                        <i class="far fa-file mr-[10px] ml-[5px] py-1"></i>
+                                                        <span class="px-4 py-0">Pogledaj detalje</span>
                                                     </a>
                                                     <a href="izdajKnjigu.php" tabindex="0"
                                                         class="flex w-full px-4 py-2 text-sm leading-5 text-left text-gray-700 outline-none hover:text-blue-600"
@@ -503,7 +511,8 @@
                                         </div>
                                     </td>
                                 </tr>
-                                <tr class="hover:bg-gray-200 hover:shadow-md bg-gray-200 border-b-[1px] border-[#e4dfdf] changeBg">
+                                <tr
+                                    class="hover:bg-gray-200 hover:shadow-md bg-gray-200 border-b-[1px] border-[#e4dfdf] changeBg">
                                     <td class="px-4 py-3 whitespace-no-wrap">
                                         <label class="inline-flex items-center">
                                             <input type="checkbox" class="form-checkbox">
@@ -548,11 +557,11 @@
                                                 aria-labelledby="headlessui-menu-button-1"
                                                 id="headlessui-menu-items-117" role="menu">
                                                 <div class="py-1">
-                                                <a href="izdavanjeDetalji.php" tabindex="0"
-                                                            class="flex w-full px-4 py-2 text-sm leading-5 text-left text-gray-700 outline-none hover:text-blue-600"
-                                                            role="menuitem">
-                                                            <i class="far fa-file mr-[10px] ml-[5px] py-1"></i>
-                                                            <span class="px-4 py-0">Pogledaj detalje</span>
+                                                    <a href="izdavanjeDetalji.php" tabindex="0"
+                                                        class="flex w-full px-4 py-2 text-sm leading-5 text-left text-gray-700 outline-none hover:text-blue-600"
+                                                        role="menuitem">
+                                                        <i class="far fa-file mr-[10px] ml-[5px] py-1"></i>
+                                                        <span class="px-4 py-0">Pogledaj detalje</span>
                                                     </a>
                                                     <a href="izdajKnjigu.php" tabindex="0"
                                                         class="flex w-full px-4 py-2 text-sm leading-5 text-left text-gray-700 outline-none hover:text-blue-600"
@@ -572,7 +581,8 @@
                                         </div>
                                     </td>
                                 </tr>
-                                <tr class="hover:bg-gray-200 hover:shadow-md bg-gray-200 border-b-[1px] border-[#e4dfdf] changeBg">
+                                <tr
+                                    class="hover:bg-gray-200 hover:shadow-md bg-gray-200 border-b-[1px] border-[#e4dfdf] changeBg">
                                     <td class="px-4 py-3 whitespace-no-wrap">
                                         <label class="inline-flex items-center">
                                             <input type="checkbox" class="form-checkbox">
@@ -617,11 +627,11 @@
                                                 aria-labelledby="headlessui-menu-button-1"
                                                 id="headlessui-menu-items-117" role="menu">
                                                 <div class="py-1">
-                                                <a href="izdavanjeDetalji.php" tabindex="0"
-                                                            class="flex w-full px-4 py-2 text-sm leading-5 text-left text-gray-700 outline-none hover:text-blue-600"
-                                                            role="menuitem">
-                                                            <i class="far fa-file mr-[10px] ml-[5px] py-1"></i>
-                                                            <span class="px-4 py-0">Pogledaj detalje</span>
+                                                    <a href="izdavanjeDetalji.php" tabindex="0"
+                                                        class="flex w-full px-4 py-2 text-sm leading-5 text-left text-gray-700 outline-none hover:text-blue-600"
+                                                        role="menuitem">
+                                                        <i class="far fa-file mr-[10px] ml-[5px] py-1"></i>
+                                                        <span class="px-4 py-0">Pogledaj detalje</span>
                                                     </a>
                                                     <a href="izdajKnjigu.php" tabindex="0"
                                                         class="flex w-full px-4 py-2 text-sm leading-5 text-left text-gray-700 outline-none hover:text-blue-600"
@@ -641,7 +651,8 @@
                                         </div>
                                     </td>
                                 </tr>
-                                <tr class="hover:bg-gray-200 hover:shadow-md bg-gray-200 border-b-[1px] border-[#e4dfdf] changeBg">
+                                <tr
+                                    class="hover:bg-gray-200 hover:shadow-md bg-gray-200 border-b-[1px] border-[#e4dfdf] changeBg">
                                     <td class="px-4 py-3 whitespace-no-wrap">
                                         <label class="inline-flex items-center">
                                             <input type="checkbox" class="form-checkbox">
@@ -686,11 +697,11 @@
                                                 aria-labelledby="headlessui-menu-button-1"
                                                 id="headlessui-menu-items-117" role="menu">
                                                 <div class="py-1">
-                                                <a href="izdavanjeDetalji.php" tabindex="0"
-                                                            class="flex w-full px-4 py-2 text-sm leading-5 text-left text-gray-700 outline-none hover:text-blue-600"
-                                                            role="menuitem">
-                                                            <i class="far fa-file mr-[10px] ml-[5px] py-1"></i>
-                                                            <span class="px-4 py-0">Pogledaj detalje</span>
+                                                    <a href="izdavanjeDetalji.php" tabindex="0"
+                                                        class="flex w-full px-4 py-2 text-sm leading-5 text-left text-gray-700 outline-none hover:text-blue-600"
+                                                        role="menuitem">
+                                                        <i class="far fa-file mr-[10px] ml-[5px] py-1"></i>
+                                                        <span class="px-4 py-0">Pogledaj detalje</span>
                                                     </a>
                                                     <a href="izdajKnjigu.php" tabindex="0"
                                                         class="flex w-full px-4 py-2 text-sm leading-5 text-left text-gray-700 outline-none hover:text-blue-600"
@@ -741,11 +752,11 @@
                                                 aria-labelledby="headlessui-menu-button-1"
                                                 id="headlessui-menu-items-117" role="menu">
                                                 <div class="py-1">
-                                                <a href="izdavanjeDetalji.php" tabindex="0"
-                                                            class="flex w-full px-4 py-2 text-sm leading-5 text-left text-gray-700 outline-none hover:text-blue-600"
-                                                            role="menuitem">
-                                                            <i class="far fa-file mr-[10px] ml-[5px] py-1"></i>
-                                                            <span class="px-4 py-0">Pogledaj detalje</span>
+                                                    <a href="izdavanjeDetalji.php" tabindex="0"
+                                                        class="flex w-full px-4 py-2 text-sm leading-5 text-left text-gray-700 outline-none hover:text-blue-600"
+                                                        role="menuitem">
+                                                        <i class="far fa-file mr-[10px] ml-[5px] py-1"></i>
+                                                        <span class="px-4 py-0">Pogledaj detalje</span>
                                                     </a>
                                                     <a href="izdajKnjigu.php" tabindex="0"
                                                         class="flex w-full px-4 py-2 text-sm leading-5 text-left text-gray-700 outline-none hover:text-blue-600"
@@ -796,11 +807,11 @@
                                                 aria-labelledby="headlessui-menu-button-1"
                                                 id="headlessui-menu-items-117" role="menu">
                                                 <div class="py-1">
-                                                <a href="izdavanjeDetalji.php" tabindex="0"
-                                                            class="flex w-full px-4 py-2 text-sm leading-5 text-left text-gray-700 outline-none hover:text-blue-600"
-                                                            role="menuitem">
-                                                            <i class="far fa-file mr-[10px] ml-[5px] py-1"></i>
-                                                            <span class="px-4 py-0">Pogledaj detalje</span>
+                                                    <a href="izdavanjeDetalji.php" tabindex="0"
+                                                        class="flex w-full px-4 py-2 text-sm leading-5 text-left text-gray-700 outline-none hover:text-blue-600"
+                                                        role="menuitem">
+                                                        <i class="far fa-file mr-[10px] ml-[5px] py-1"></i>
+                                                        <span class="px-4 py-0">Pogledaj detalje</span>
                                                     </a>
                                                     <a href="izdajKnjigu.php" tabindex="0"
                                                         class="flex w-full px-4 py-2 text-sm leading-5 text-left text-gray-700 outline-none hover:text-blue-600"
@@ -851,11 +862,11 @@
                                                 aria-labelledby="headlessui-menu-button-1"
                                                 id="headlessui-menu-items-117" role="menu">
                                                 <div class="py-1">
-                                                <a href="izdavanjeDetalji.php" tabindex="0"
-                                                            class="flex w-full px-4 py-2 text-sm leading-5 text-left text-gray-700 outline-none hover:text-blue-600"
-                                                            role="menuitem">
-                                                            <i class="far fa-file mr-[10px] ml-[5px] py-1"></i>
-                                                            <span class="px-4 py-0">Pogledaj detalje</span>
+                                                    <a href="izdavanjeDetalji.php" tabindex="0"
+                                                        class="flex w-full px-4 py-2 text-sm leading-5 text-left text-gray-700 outline-none hover:text-blue-600"
+                                                        role="menuitem">
+                                                        <i class="far fa-file mr-[10px] ml-[5px] py-1"></i>
+                                                        <span class="px-4 py-0">Pogledaj detalje</span>
                                                     </a>
                                                     <a href="izdajKnjigu.php" tabindex="0"
                                                         class="flex w-full px-4 py-2 text-sm leading-5 text-left text-gray-700 outline-none hover:text-blue-600"
@@ -1067,7 +1078,8 @@
                             </div>
                         </div>
                         <div class="mt-[40px]">
-                            <a href="dashboardAktivnost.php?knjiga=Tom Sojer" class="text-[#2196f3] hover:text-blue-600">
+                            <a href="dashboardAktivnost.php?knjiga=Tom Sojer"
+                                class="text-[#2196f3] hover:text-blue-600">
                                 <i class="fas fa-history"></i> Prikazi sve
                             </a>
                         </div>

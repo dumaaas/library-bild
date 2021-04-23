@@ -64,20 +64,19 @@ $(function () {
 
 $(document).ready(function () {
   //this will execute on page load(to be more specific when document ready event occurs)
-  if ($('.activity-card').length > 6) {
-    $('.activity-card:gt(6)').hide();
-    $('.activity-showMore').show();
-    $(this).text('Show more');
-  }
+  size = $('.activity-card').length;
+  x = 10;
+  $('.activity-card:lt(' + x + ')').removeClass('hidden');
+  $('.activity-card:lt(' + x + ')').addClass('flex');
+  $('.activity-showMore').show();
+
 
   $('.activity-showMore').on('click', function () {
-    //toggle elements with class .ty-compact-list that their index is bigger than 2
-    $('.activity-card:gt(6)').toggle();
-    //change text of show more element just for demonstration purposes to this demo
-    if ($(this).text() == 'Show less') {
-      $(this).text('Show more')
-    } else {
-      $(this).text('Show less');
+    x = (x + 10 < size) ? x + 10 : size;
+    $('.activity-card:lt(' + x + ')').removeClass('hidden');
+    $('.activity-card:lt(' + x + ')').addClass('flex');
+    if (x == size) {
+      $('.activity-showMore').hide();
     }
   });
 

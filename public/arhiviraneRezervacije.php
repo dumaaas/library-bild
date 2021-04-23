@@ -123,9 +123,9 @@
                                     </div>
                                 </li>
                                 <li class="mb-[4px]">
-                                    <div class="w-[300px] pl-[32px]">
+                                    <div class="w-[300px] w-[300px] border-t-[1px] border-[#e4dfdf]">
                                         <span
-                                            class=" whitespace-nowrap w-full text-[25px] flex justify-between fill-current">
+                                            class=" pl-[32px] whitespace-nowrap w-full text-[25px] flex justify-between fill-current">
                                             <div
                                                 class="group hover:bg-[#EFF3F6] py-[15px] px-[20px] w-[268px] rounded-[10px] cursor-pointer">
                                                 <a href="aktivneRezervacije.php" aria-label="Rezervacije"
@@ -263,7 +263,8 @@
                                                         </button>
                                                     </li>
                                                     <div class="h-[200px] scroll font-normal">
-                                                        <li class="flex p-2 mt-[2px] pt-[15px] group hover:bg-gray-200 dropdown-item-ucenik">
+                                                        <li
+                                                            class="flex p-2 mt-[2px] pt-[15px] group hover:bg-gray-200 dropdown-item-ucenik">
                                                             <label class="flex items-center justify-start">
                                                                 <div
                                                                     class="flex items-center justify-center flex-shrink-0 w-[16px] h-[16px] mr-2 bg-white border-2 border-gray-400 rounded focus-within:border-blue-500">
@@ -282,7 +283,8 @@
                                                                 Ucenik Ucenikovic
                                                             </p>
                                                         </li>
-                                                        <li class="flex p-2 mt-[2px] pt-[15px] group hover:bg-gray-200 dropdown-item-ucenik">
+                                                        <li
+                                                            class="flex p-2 mt-[2px] pt-[15px] group hover:bg-gray-200 dropdown-item-ucenik">
                                                             <label class="flex items-center justify-start">
                                                                 <div
                                                                     class="flex items-center justify-center flex-shrink-0 w-[16px] h-[16px] mr-2 bg-white border-2 border-gray-400 rounded focus-within:border-blue-500">
@@ -301,7 +303,8 @@
                                                                 Pero Perovic
                                                             </p>
                                                         </li>
-                                                        <li class="flex p-2 mt-[2px] pt-[15px] group hover:bg-gray-200 dropdown-item-ucenik">
+                                                        <li
+                                                            class="flex p-2 mt-[2px] pt-[15px] group hover:bg-gray-200 dropdown-item-ucenik">
                                                             <label class="flex items-center justify-start">
                                                                 <div
                                                                     class="flex items-center justify-center flex-shrink-0 w-[16px] h-[16px] mr-2 bg-white border-2 border-gray-400 rounded focus-within:border-blue-500">
@@ -320,7 +323,8 @@
                                                                 Marko Markovic
                                                             </p>
                                                         </li>
-                                                        <li class="flex p-2 mt-[2px] pt-[15px] group hover:bg-gray-200 dropdown-item-ucenik">
+                                                        <li
+                                                            class="flex p-2 mt-[2px] pt-[15px] group hover:bg-gray-200 dropdown-item-ucenik">
                                                             <label class="flex items-center justify-start">
                                                                 <div
                                                                     class="flex items-center justify-center flex-shrink-0 w-[16px] h-[16px] mr-2 bg-white border-2 border-gray-400 rounded focus-within:border-blue-500">
@@ -339,7 +343,8 @@
                                                                 Nikola Nikolic
                                                             </p>
                                                         </li>
-                                                        <li class="flex p-2 mt-[2px] pt-[15px] group hover:bg-gray-200 dropdown-item-ucenik">
+                                                        <li
+                                                            class="flex p-2 mt-[2px] pt-[15px] group hover:bg-gray-200 dropdown-item-ucenik">
                                                             <label class="flex items-center justify-start">
                                                                 <div
                                                                     class="flex items-center justify-center flex-shrink-0 w-[16px] h-[16px] mr-2 bg-white border-2 border-gray-400 rounded focus-within:border-blue-500">
@@ -358,7 +363,8 @@
                                                                 Zivko Zivkovic
                                                             </p>
                                                         </li>
-                                                        <li class="flex p-2 mt-[2px] pt-[15px] group hover:bg-gray-200 dropdown-item-ucenik">
+                                                        <li
+                                                            class="flex p-2 mt-[2px] pt-[15px] group hover:bg-gray-200 dropdown-item-ucenik">
                                                             <label class="flex items-center justify-start">
                                                                 <div
                                                                     class="flex items-center justify-center flex-shrink-0 w-[16px] h-[16px] mr-2 bg-white border-2 border-gray-400 rounded focus-within:border-blue-500">
@@ -530,12 +536,12 @@
                                                     aria-labelledby="headlessui-menu-button-1"
                                                     id="headlessui-menu-items-117" role="menu">
                                                     <div class="py-1">
-                                                    <a href="izdavanjeDetalji.php" tabindex="0"
+                                                        <a href="izdavanjeDetalji.php" tabindex="0"
                                                             class="flex w-full px-4 py-2 text-sm leading-5 text-left text-gray-700 outline-none hover:text-blue-600"
                                                             role="menuitem">
                                                             <i class="far fa-file mr-[10px] ml-[5px] py-1"></i>
                                                             <span class="px-4 py-0">Pogledaj detalje</span>
-                                                    </a>
+                                                        </a>
                                                     </div>
                                                 </div>
                                             </div>
@@ -578,12 +584,12 @@
                                                     aria-labelledby="headlessui-menu-button-1"
                                                     id="headlessui-menu-items-117" role="menu">
                                                     <div class="py-1">
-                                                    <a href="izdavanjeDetalji.php" tabindex="0"
+                                                        <a href="izdavanjeDetalji.php" tabindex="0"
                                                             class="flex w-full px-4 py-2 text-sm leading-5 text-left text-gray-700 outline-none hover:text-blue-600"
                                                             role="menuitem">
                                                             <i class="far fa-file mr-[10px] ml-[5px] py-1"></i>
                                                             <span class="px-4 py-0">Pogledaj detalje</span>
-                                                    </a>
+                                                        </a>
                                                     </div>
                                                 </div>
                                             </div>
@@ -626,12 +632,12 @@
                                                     aria-labelledby="headlessui-menu-button-1"
                                                     id="headlessui-menu-items-117" role="menu">
                                                     <div class="py-1">
-                                                    <a href="izdavanjeDetalji.php" tabindex="0"
+                                                        <a href="izdavanjeDetalji.php" tabindex="0"
                                                             class="flex w-full px-4 py-2 text-sm leading-5 text-left text-gray-700 outline-none hover:text-blue-600"
                                                             role="menuitem">
                                                             <i class="far fa-file mr-[10px] ml-[5px] py-1"></i>
                                                             <span class="px-4 py-0">Pogledaj detalje</span>
-                                                    </a>
+                                                        </a>
                                                     </div>
                                                 </div>
                                             </div>
@@ -674,12 +680,12 @@
                                                     aria-labelledby="headlessui-menu-button-1"
                                                     id="headlessui-menu-items-117" role="menu">
                                                     <div class="py-1">
-                                                    <a href="izdavanjeDetalji.php" tabindex="0"
+                                                        <a href="izdavanjeDetalji.php" tabindex="0"
                                                             class="flex w-full px-4 py-2 text-sm leading-5 text-left text-gray-700 outline-none hover:text-blue-600"
                                                             role="menuitem">
                                                             <i class="far fa-file mr-[10px] ml-[5px] py-1"></i>
                                                             <span class="px-4 py-0">Pogledaj detalje</span>
-                                                    </a>
+                                                        </a>
                                                     </div>
                                                 </div>
                                             </div>
@@ -722,12 +728,12 @@
                                                     aria-labelledby="headlessui-menu-button-1"
                                                     id="headlessui-menu-items-117" role="menu">
                                                     <div class="py-1">
-                                                    <a href="izdavanjeDetalji.php" tabindex="0"
+                                                        <a href="izdavanjeDetalji.php" tabindex="0"
                                                             class="flex w-full px-4 py-2 text-sm leading-5 text-left text-gray-700 outline-none hover:text-blue-600"
                                                             role="menuitem">
                                                             <i class="far fa-file mr-[10px] ml-[5px] py-1"></i>
                                                             <span class="px-4 py-0">Pogledaj detalje</span>
-                                                    </a>
+                                                        </a>
                                                     </div>
                                                 </div>
                                             </div>
@@ -770,12 +776,12 @@
                                                     aria-labelledby="headlessui-menu-button-1"
                                                     id="headlessui-menu-items-117" role="menu">
                                                     <div class="py-1">
-                                                    <a href="izdavanjeDetalji.php" tabindex="0"
+                                                        <a href="izdavanjeDetalji.php" tabindex="0"
                                                             class="flex w-full px-4 py-2 text-sm leading-5 text-left text-gray-700 outline-none hover:text-blue-600"
                                                             role="menuitem">
                                                             <i class="far fa-file mr-[10px] ml-[5px] py-1"></i>
                                                             <span class="px-4 py-0">Pogledaj detalje</span>
-                                                    </a>
+                                                        </a>
                                                     </div>
                                                 </div>
                                             </div>
@@ -818,12 +824,12 @@
                                                     aria-labelledby="headlessui-menu-button-1"
                                                     id="headlessui-menu-items-117" role="menu">
                                                     <div class="py-1">
-                                                    <a href="izdavanjeDetalji.php" tabindex="0"
+                                                        <a href="izdavanjeDetalji.php" tabindex="0"
                                                             class="flex w-full px-4 py-2 text-sm leading-5 text-left text-gray-700 outline-none hover:text-blue-600"
                                                             role="menuitem">
                                                             <i class="far fa-file mr-[10px] ml-[5px] py-1"></i>
                                                             <span class="px-4 py-0">Pogledaj detalje</span>
-                                                    </a>
+                                                        </a>
                                                     </div>
                                                 </div>
                                             </div>
@@ -866,12 +872,12 @@
                                                     aria-labelledby="headlessui-menu-button-1"
                                                     id="headlessui-menu-items-117" role="menu">
                                                     <div class="py-1">
-                                                    <a href="izdavanjeDetalji.php" tabindex="0"
+                                                        <a href="izdavanjeDetalji.php" tabindex="0"
                                                             class="flex w-full px-4 py-2 text-sm leading-5 text-left text-gray-700 outline-none hover:text-blue-600"
                                                             role="menuitem">
                                                             <i class="far fa-file mr-[10px] ml-[5px] py-1"></i>
                                                             <span class="px-4 py-0">Pogledaj detalje</span>
-                                                    </a>
+                                                        </a>
                                                     </div>
                                                 </div>
                                             </div>
