@@ -121,9 +121,9 @@
                                     </div>
                                 </li>
                                 <li class="mb-[4px]">
-                                    <div class="w-[300px] pl-[32px]">
+                                    <div class="w-[300px] border-t-[1px] border-[#e4dfdf]">
                                         <span
-                                            class=" whitespace-nowrap w-full text-[25px] flex justify-between fill-current">
+                                            class=" pl-[32px] whitespace-nowrap w-full text-[25px] flex justify-between fill-current">
                                             <div
                                                 class="group hover:bg-[#EFF3F6] py-[15px] px-[20px] w-[268px] rounded-[10px] cursor-pointer">
                                                 <a href="aktivneRezervacije.php" aria-label="Rezervacije"

@@ -165,12 +165,12 @@
                             </div>
                         </li>
                         <li class="mb-[4px]">
-                            <div class="w-[300px] pl-[32px]">
-                                <span class=" whitespace-nowrap w-full text-[25px] flex justify-between fill-current">
+                            <div class="w-[300px] w-[300px] border-t-[1px] border-[#e4dfdf]">
+                                <span
+                                    class=" pl-[32px] whitespace-nowrap w-full text-[25px] flex justify-between fill-current">
                                     <div
                                         class="group hover:bg-[#EFF3F6] py-[15px] px-[20px] w-[268px] rounded-[10px] cursor-pointer">
-                                        <a href="ucenikAktivne.php" aria-label="Rezervacije"
-                                            class="flex items-center">
+                                        <a href="ucenikAktivne.php" aria-label="Rezervacije" class="flex items-center">
                                             <i
                                                 class="text-[#707070] group-hover:text-[#576cdf] text-[20px] far fa-calendar-check transition duration-300 ease-in"></i>
                                             <div>
